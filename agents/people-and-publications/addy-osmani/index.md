@@ -1,7 +1,7 @@
 ---
 title: Addy Osmani
 created: 2026-09-02
-updated: 2026-11-07
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, enterprise, agentic-engineering, engineering-leadership]
 readability: 3
@@ -81,6 +81,7 @@ Not for readers wanting frontier research depth or a terminal-level tool feed.
 - 2026-10-21 - His newest essay is "Agentic Verification" (2026-10-14), which moves the review-shift argument into agent-run verification loops; "The Code Nobody Reads" (2026-09-28) is now the piece before it.
 - 2026-10-29 - Added his co-authored Anthropic engineering post "How the Claude Code team does code review" (claude.dev, 2026-10-15) to Status and References (URL fetched this run).
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched and all live; the Substack archive still leads with "Agentic Verification" (2026-10-14), so the newest-post claim stands (fetched this run).
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched and all live, and no claim moved; the Substack archive still leads with "Agentic Verification" (2026-10-14), the personal blog still leads with "Brownfield Agentic Engineering" (2026-09-14), the site still states Member of Technical Staff at Anthropic working on Claude Code, and the agent-skills repository stays active (pushed 2026-11-18).
 
 ## See also
 

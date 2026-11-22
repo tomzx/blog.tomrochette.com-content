@@ -1,7 +1,7 @@
 ---
 title: llms.txt
 created: 2026-10-07
-updated: 2026-11-17
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, conventions, context-files, web]
 readability: 3
@@ -26,11 +26,11 @@ It is a convention, not a foundation standard: no required fields, no registry, 
 ## Status
 
 **Active and adopted exactly where it aimed, and ignored exactly where it did not.**
-The spec site reports that thousands of sites publish an llms.txt file, that documentation platforms generate one automatically, and that coding agents use them reliably, and this run fetched live files from Anthropic's developer docs (994 lines, still served from platform.claude.com after a redirect) and OpenAI's developer docs to confirm the served reality (2026-11-13).
+The spec site reports that thousands of sites publish an llms.txt file, that documentation platforms generate one automatically, and that coding agents use them reliably, and this run fetched live files from Anthropic's developer docs (1,014 lines as of 2026-11-22, still served from platform.claude.com after a redirect) and OpenAI's developer docs to confirm the served reality (2026-11-13).
 The spec site's newest adoption citation is Google's own tooling: Chrome's Lighthouse audits sites for an llms.txt file under its agentic-browsing category (a soft check, a missing file reads as not-applicable rather than a failing score), a Google-owned signal on the docs side while Google Search's John Mueller keeps calling the file speculative.
 
 The community footprint is substantial for a file convention: the launch thread drew 206 points and 175 comments on Hacker News (2024-09-03), a directory-of-files thread drew 106 points (2024-12-23), and generator tools have shipped steadily since.
-The skeptical record is equally firm: Google's John Mueller called the file "purely speculative for now" in June 2026 and pointed to WebMCP as the Google-backed alternative, and a 2025 industry piece reported that major AI platforms do not even request the file in their crawls.
+The skeptical record is equally firm: Google's John Mueller called the file "purely speculative for now" in June 2026 and pointed to WebMCP as the Google-backed alternative, a 2025 industry piece reported that major AI platforms do not even request the file in their crawls, and the newest entry is first-party: Backpack for Laravel's maintainer published an opinion piece (2026-10-20) reporting that his shipped llms.txt does little (agents rarely go looking for it, and when they find it, it is a table of contents they could have read anyway), with the companion Hacker News thread (31 points, 21 comments, 2026-11-20) echoing him, including a newsletter operator who gets agent submissions and has yet to see one follow the file's rules.
 Search-engine adoption, the hope that pulled in the SEO crowd, never arrived.
 
 ## Strengths
@@ -42,7 +42,7 @@ Search-engine adoption, the hope that pulled in the SEO crowd, never arrived.
 
 ## Cautions
 
-- **The search payoff the convention was often sold on does not exist: Google ignores the file, and Mueller's server-logs point (AI crawlers do not request it) is the sharpest form of that criticism.**
+- **The search payoff the convention was often sold on does not exist: Google ignores the file, Mueller's server-logs point (AI crawlers do not request it) is the sharpest form of that criticism, and the practitioners who shipped one now say agents rarely look for it unprompted.**
 - Governance is author-driven (Answer.AI), with no foundation, working group, or implementer conformance process, so v2's blessing of divergent practice is consensus by declaration.
 - Adjacent conventions fragment the space: ai.txt permissions files, robots.txt AI directives, and commerce variants all compete for the same well-known-file slot.
 - V2 is two months old as of this run, so tooling support for the link relations is still uneven.
@@ -74,6 +74,7 @@ My disagreeable claim: llms.txt succeeded by failing at its original goal, becau
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec site still serves v2, the served reality re-confirmed (Anthropic's file now 964 lines), and the footprint scan re-confirmed (launch thread 206 points and 175 comments, directory thread 106 points).
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec site still serves v2 (modified 2026-08-10), the served reality re-confirmed (Anthropic's file now 994 lines), and the footprint scan re-confirmed (launch thread 206 points and 175 comments, directory thread 106 points).
 - 2026-11-17 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec site still serves v2 (modified 2026-08-10), the served reality re-confirmed (Anthropic's file still 994 lines), and the footprint scan re-confirmed (launch thread 206 points and 175 comments, directory thread 106 points).
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec site still serves v2 (modified 2026-08-10), the served reality re-confirmed (Anthropic's file now 1,014 lines), and the footprint scan re-confirmed (launch thread 206 points and 175 comments, directory thread 106 points); the Status section and cautions moved to record the new first-party skeptical entry (Backpack for Laravel's opinion piece, 2026-10-20, with its Hacker News thread at 31 points and 21 comments, 2026-11-20).
 
 ## See also
 
@@ -84,11 +85,13 @@ My disagreeable claim: llms.txt succeeded by failing at its original goal, becau
 
 ## References
 
-- https://llmstxt.org/ - the spec site: author (Jeremy Howard), published 2024-09-03, modified 2026-08-10, the v2 format and link relations
-- https://llmstxt.org/changes.html - the v2 changelog (August 2026): link relations, both `.md` URL forms, subpath scoping, and the adoption summary
-- https://docs.anthropic.com/llms.txt - Anthropic's served llms.txt, 994 lines, 301 redirect to platform.claude.com/llms.txt, fetched 200 after redirect (re-fetched 2026-11-13)
-- https://developers.openai.com/llms.txt - OpenAI's served llms.txt, fetched 200 this run (2026-11-13)
-- https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt - Chrome's Lighthouse agentic-browsing audit for an llms.txt file (page updated 2026-05-05), the docs-side signal added this run
-- https://www.searchenginejournal.com/google-says-llms-txt-is-purely-speculative-for-now/577576/ - Google's John Mueller calling the file purely speculative (June 2, 2026) and favoring WebMCP
-- https://ppc.land/llms-txt-adoption-stalls-as-major-ai-platforms-ignore-proposed-standard/ - the adoption-stalls record: major AI platforms not requesting the file
-- https://hn.algolia.com/api/v1/search?query=%22llms.txt%22&tags=story - the footprint scan: launch thread 206 points and 175 comments (2024-09-03), directory thread 106 points (2024-12-23), generator tools since
+- https://llmstxt.org/ - the spec site: author (Jeremy Howard), published 2024-09-03, modified 2026-08-10, the v2 format and link relations (re-fetched 2026-11-22, unchanged)
+- https://llmstxt.org/changes.html - the v2 changelog (August 2026): link relations, both `.md` URL forms, subpath scoping, and the adoption summary (re-fetched 2026-11-22)
+- https://docs.anthropic.com/llms.txt - Anthropic's served llms.txt, 1,014 lines as of 2026-11-22, 301 redirect to platform.claude.com/llms.txt, fetched 200 after redirect
+- https://developers.openai.com/llms.txt - OpenAI's served llms.txt, fetched 200 (re-fetched 2026-11-22)
+- https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt - Chrome's Lighthouse agentic-browsing audit for an llms.txt file (page updated 2026-05-05), the docs-side signal added this run (re-fetched 2026-11-22)
+- https://www.searchenginejournal.com/google-says-llms-txt-is-purely-speculative-for-now/577576/ - Google's John Mueller calling the file purely speculative (June 2, 2026) and favoring WebMCP (re-fetched 2026-11-22)
+- https://ppc.land/llms-txt-adoption-stalls-as-major-ai-platforms-ignore-proposed-standard/ - the adoption-stalls record: major AI platforms not requesting the file (re-fetched 2026-11-22)
+- https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did - Backpack for Laravel's maintainer on shipping an llms.txt that agents rarely look for (2026-10-20), the first-party skeptical entry added this run
+- https://news.ycombinator.com/item?id=50574772 - the piece's Hacker News thread: 31 points, 21 comments (2026-11-20), including a newsletter operator whose agent submissions never follow the file's rules
+- https://hn.algolia.com/api/v1/search?query=%22llms.txt%22&tags=story - the footprint scan: launch thread 206 points and 175 comments (2024-09-03), directory thread 106 points and 52 comments (2024-12-23), generator tools since (re-fetched 2026-11-22)

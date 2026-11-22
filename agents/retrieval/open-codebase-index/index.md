@@ -1,7 +1,7 @@
 ---
 title: open-codebase-index
 created: 2026-10-05
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, rag, embeddings, mcp]
 readability: 3
@@ -24,7 +24,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
 ## Status
 
 **Active and shipping constantly, with almost no community footprint.**
-221 stars and 38 forks as of 2026-10-13, pushed 2026-11-20 with the default branch's latest commit the startup and incremental-refresh performance PR #500 (dated 2026-11-20) (GitHub API, as of 2026-11-21).
+221 stars and 38 forks as of 2026-10-13, pushed 2026-11-22 with the default branch's latest commit the watcher startup catch-up and config classification PR #503 (dated 2026-11-22) (GitHub API, as of 2026-11-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&legend=top-left" />
 </picture>
 
-npm shows 41 versions since 2026-07-30, latest 0.40.1 published 2026-11-19 (the release train resuming past 0.39.0 of 2026-11-16 via 0.40.0), and 5,536 downloads in the trailing month to 2026-11-21 (two zero days inside the window, so the level reads approximate), against the 5,474 reading to 2026-11-18 (three zero days), the 5,160 reading to 2026-11-17, the 5,055 reading to 2026-11-13, the 4,736 reading to 2026-11-12 that backfilled to 4,972 two days later per npm's upward-backfill behavior, and prior readings of 5,118 to 2026-11-07, 5,480 to 2026-11-02, 5,569 to 2026-10-30, 5,365 to 2026-10-27, 5,662 to 2026-10-22, 6,785 to 2026-10-18, and 7,613 to 2026-10-12, so the trend stays roughly flat in this note's tracking, roughly 2,000 installs a month below its October peak.
+npm shows 41 versions since 2026-07-30, latest 0.40.1 published 2026-11-19 (the release train resuming past 0.39.0 of 2026-11-16 via 0.40.0), and 5,489 downloads in the trailing month to 2026-11-22 (the fetch day still in progress and counted at zero, with no zero days among the completed days, so the level reads approximate), roughly flat against the 5,536 reading to 2026-11-21 (two zero days), the 5,474 reading to 2026-11-18 (three zero days), the 5,160 reading to 2026-11-17, the 5,055 reading to 2026-11-13, the 4,736 reading to 2026-11-12 that backfilled to 4,972 two days later per npm's upward-backfill behavior, and prior readings of 5,118 to 2026-11-07, 5,480 to 2026-11-02, 5,569 to 2026-10-30, 5,365 to 2026-10-27, 5,662 to 2026-10-22, 6,785 to 2026-10-18, and 7,613 to 2026-10-12, so the trend stays roughly flat in this note's tracking, roughly 2,000 installs a month below its October peak.
 A search for its name on Hacker News returned zero hits as of 2026-10-11, so like graft and Knowhere in this section, adoption is quiet and distribution runs from README to install, not from launches.
 
 ## Strengths
@@ -88,6 +88,7 @@ My disagreeable claim: a five-thousand-installs-a-month npm package with zero di
 - 2026-11-17 - Recorded the npm train resuming at 0.39.0 (2026-11-16, 39 versions total, the first release since the 0.38.2 pause), refreshed the repository activity (pushed 2026-11-17 with the default branch's latest commit the 0.39.0 release preparation), and re-read the trailing-month installs at 5,160 to 2026-11-17 (four zero days), roughly flat against the prior 5,055 reading.
 - 2026-11-19 - Recorded the npm train moving on to 0.40.0 and 0.40.1 (0.40.1 published 2026-11-19, 41 versions total), refreshed the repository activity (pushed 2026-11-19 with the default branch's latest commit the 0.40.1 release chore), and re-read the trailing-month installs at 5,474 to 2026-11-18 (three zero days), roughly flat against the prior readings; corrected the peak-gap figure from about 1,000 to roughly 2,000 installs a month below the 7,613 October peak, where the flat-band wording had drifted stale.
 - 2026-11-21 - Refreshed the repository activity (pushed 2026-11-20 with the default branch's latest commit the startup and incremental-refresh performance PR #500) and re-read the trailing-month installs at 5,536 to 2026-11-21 (two zero days), roughly flat against the prior readings; npm 0.40.1 remains latest across 41 versions.
+- 2026-11-22 - Refreshed the repository activity (pushed 2026-11-22 with the default branch's latest commit the watcher startup catch-up and config classification PR #503) and re-read the trailing-month installs at 5,489 to 2026-11-22 (the in-progress fetch day counted at zero, no zero days among the completed days), roughly flat against the 5,536 reading to 2026-11-21; npm 0.40.1 remains latest across 41 versions.
 
 ## See also
 
@@ -98,9 +99,9 @@ My disagreeable claim: a five-thousand-installs-a-month npm package with zero di
 
 ## References
 
-- https://github.com/Helweg/open-codebase-index - repository: 221 stars (as of 2026-10-13), 38 forks, MIT, created 2026-01-13, pushed 2026-11-20 with the default branch's latest commit dated 2026-11-20 (GitHub API, as of 2026-11-21)
+- https://github.com/Helweg/open-codebase-index - repository: 221 stars (as of 2026-10-13), 38 forks, MIT, created 2026-01-13, pushed 2026-11-22 with the default branch's latest commit dated 2026-11-22 (GitHub API, as of 2026-11-22)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/README.md - hosts, highlights, pipeline, embedding providers, legacy package aliases (fetched 2026-10-05, re-verified unchanged 2026-10-11)
 - https://raw.githubusercontent.com/Helweg/open-codebase-index/main/docs/tools.md - the host surface matrix: 16 portable tools, 3 knowledge-base tools, 5 MCP prompts (fetched 2026-10-05)
-- https://registry.npmjs.org/open-codebase-index - latest 0.40.1 published 2026-11-19, 41 versions since 2026-07-30 (fetched 2026-11-19; 0.40.0 preceded it the same window and 0.39.0 was published 2026-11-16)
-- https://api.npmjs.org/downloads/range/2026-10-22:2026-11-21/open-codebase-index - 5,536 downloads across the window, two zero days inside it (fetched 2026-11-21; npm's point endpoints can serve stale windows, so the figure comes from the explicit range call; the prior 4,736-to-11-12 range reading backfilled to 4,972 on 2026-11-14)
+- https://registry.npmjs.org/open-codebase-index - latest 0.40.1 published 2026-11-19, 41 versions since 2026-07-30 (fetched 2026-11-22, still latest; 0.40.0 preceded it in the same window and 0.39.0 was published 2026-11-16)
+- https://api.npmjs.org/downloads/range/2026-10-23:2026-11-22/open-codebase-index - 5,489 downloads across the window, the fetch day (2026-11-22) still in progress and counted at zero, so the completed-day total carries the reading (fetched 2026-11-22; the prior 5,536 reading covered 2026-10-22:2026-11-21 with two zero days, and npm's point endpoints can serve stale windows, so figures come from explicit range calls; the 4,736-to-11-12 range reading backfilled to 4,972 on 2026-11-14)
 - https://hn.algolia.com/api/v1/search?query=%22open-codebase-index%22&tags=story - the zero-hit footprint scan (fetched 2026-10-05, re-verified zero hits 2026-10-11)

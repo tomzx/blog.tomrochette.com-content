@@ -1,7 +1,7 @@
 ---
 title: PIC Standard
 created: 2026-10-11
-updated: 2026-11-17
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, agent-security, verification, provenance, open-standard]
 readability: 3
@@ -27,8 +27,8 @@ The author positions it against identity and delegation work explicitly: PIC dec
 ## Status
 
 **Pre-1.0, actively hardened, with the thinnest adoption footprint of any protocol in this category.**
-69 stars (2026-10-13), 48 forks, and 20 open issues and pull requests, created 2026-01-08, pushed 2026-11-12, as of 2026-11-15 (GitHub API).
-PyPI shows v0.9.1 (uploaded 2026-10-14); pypistats reads 523 downloads in the trailing month as of 2026-11-15, down from the 697 recorded in October, a rolling-window swing (the corpus rule: read no trend into it) rather than a decline.
+69 stars (2026-10-13), 47 forks, and 19 open issues and pull requests, created 2026-01-08, pushed 2026-11-16 (a side-branch push, the default branch quiet since 2026-11-12), as of 2026-11-22 (GitHub API).
+PyPI shows v0.9.1 (uploaded 2026-10-14); pypistats reads 492 downloads in the trailing month as of 2026-11-22, down from the 697 recorded in October, a rolling-window swing (the corpus rule: read no trend into it) rather than a decline.
 The public thread count is one: a Show HN at 1 point (2026-01-13).
 Depth signals offset the reach signals: an independent public-material-only stress test of v0.8.3 by HERMETICUM B.C.E. S.r.l. is recorded with its findings adapted into attributed conformance vectors, external contributors landed conformance vectors and Windows CI, and the project publicly calls for co-maintainers.
 
@@ -81,6 +81,7 @@ My disagreeable claim: this is the protocol layer agent security actually needs,
 - 2026-11-12 - Re-verification: the spec train re-confirmed at v0.9.1, with the default branch carrying only the 2026-11-06 roadmap revision 2 (docs-only, #199) since the last pass: nine scoped work packages toward v1.0, including the confirmed LangGraph binding gap (the LangGraph PICToolNode does not bind live arguments to the verified action.args), the TypeScript lone-surrogate gap, cross-language numeric boundaries, the native TypeScript evidence slices, canonical-only signing, and the normative spec freeze, with the 91-vector corpus, the 382-test Python suite, and the 149-test TypeScript suite re-counted; the 2026-11-09 pushed_at sits outside the default branch, and open issues refreshed to 22.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec train re-confirmed at v0.9.1 (release, PyPI, the RFC anchor, the frozen canonicalization spec, and the 91-vector corpus unchanged, the HERMETICUM provenance note and the single 1-point Show HN standing), the TypeScript verifier's evidence-mode parity still open with its newest commit 2026-11-06, forks and open issues refreshed (48 forks, 20 open issues, pushed 2026-11-12), and pypistats' trailing-month figure re-read at 523 as of 2026-11-15, down from the recorded 697, a rolling-window swing read as no trend.
 - 2026-11-17 - Re-verification: the 2026-11-16 pushed_at moved by a side-branch push with the default branch quiet since 2026-11-12, whose newest default-branch commit remains the MCP-guard fix separating post-allow tool failures from PIC blocks (#201), unreleased past v0.9.1; the spec train stays at v0.9.1 and nothing else moved.
+- 2026-11-22 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the spec train re-confirmed at v0.9.1 (the release tag, PyPI, the RFC-anchored version table, the HERMETICUM provenance note, and the footprint's single 1-point Show HN all standing), the TypeScript verifier's evidence-mode parity still open (its newest commits 2026-10-10, pushed 2026-11-06), the default branch still quiet since the 2026-11-12 MCP-guard fix with the 2026-11-16 pushed_at a side branch, forks and open issues refreshed (47 forks, 19 open issues), and pypistats' trailing-month figure re-read at 492 as of 2026-11-22, another rolling-window reading taken as no trend.
 
 ## See also
 
@@ -97,6 +98,6 @@ My disagreeable claim: this is the protocol layer agent security actually needs,
 - https://github.com/pic-standard/pic-standard/releases/tag/v0.9.1 - the v0.9.1 release notes: the on_allow hook, live-argument binding, and the 84-to-91 conformance expansion (fetched 2026-10-16)
 - https://raw.githubusercontent.com/pic-standard/pic-standard/main/docs/independent-reviews/hermeticum-v0.8.3.md - the HERMETICUM stress-test provenance note: scope, non-certification statement, and attribution
 - https://github.com/pic-standard/pic-standard-ts - the TypeScript verifier: corpus coverage for canonicalization, core, and trust sanitization, evidence mode open (GitHub API, as of 2026-10-11)
-- https://pypi.org/pypi/pic-standard/json - version 0.9.1 uploaded 2026-10-14
-- https://pypistats.org/api/packages/pic-standard/recent - 523 downloads in the trailing month as of 2026-11-15 (the recorded October window read 697 in the month ending 2026-10-10)
+- https://pypi.org/pypi/pic-standard/json - version 0.9.1 uploaded 2026-10-14 (re-fetched 2026-11-22, unchanged)
+- https://pypistats.org/api/packages/pic-standard/recent - 492 downloads in the trailing month as of 2026-11-22 (the recorded October window read 697 in the month ending 2026-10-10; re-reads 2026-11-15 and 2026-11-22 moved the rolling window)
 - https://hn.algolia.com/api/v1/search?query=%22PIC%20Standard%22%20agent&tags=story - the footprint scan: one 1-point Show HN (2026-01-13)

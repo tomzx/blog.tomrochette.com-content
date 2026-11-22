@@ -1,7 +1,7 @@
 ---
 title: Gas Town
 created: 2026-08-27
-updated: 2026-11-15
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, multi-agent, git-worktrees, open-source, tmux]
 readability: 3
@@ -80,6 +80,7 @@ The disagreeable claim I will defend: strip the metaphors away and what remains 
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo, API, Appleton's analysis, the AINews issue, the announcement thread, the credits issue, releases); the default branch's latest commit is still the 2026-10-28 dependency bump, v1.2.1 still the last release, and no revival signal.
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repo, API, Appleton's analysis, the AINews issue, the announcement thread steady at 354 points, the credits controversy steady at 253, releases); the death record stands with the maintenance-push line extended to the 2026-11-10 dependency fix (klauspost/compress, undici), v1.2.1 still the last release.
 - 2026-11-15 - Extended the post-shutdown maintenance line: security-fix commits for a Go toolchain CVE (GO-2026-6859) and a git CVE landed on the default branch 2026-11-12, release line unmoved at v1.2.1.
+- 2026-11-22 - Re-verified in rotation: every cited URL re-fetched live (repo, API, releases, the announcement thread, the credits thread, Appleton's analysis, the AINews issue now behind a redirect that lands live); the death record stands, v1.2.1 still the last release.
 
 ## See also
 

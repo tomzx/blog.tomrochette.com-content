@@ -1,7 +1,7 @@
 ---
 title: agtx
 created: 2026-11-01
-updated: 2026-11-16
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal, worktree, blackboard]
 readability: 3
@@ -68,6 +68,7 @@ Not for GUI-first users, and not for remote or VPS workflows, which it does not 
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-03; the release line still ends at v1.0.6 (2026-09-16).
 - 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, all 27 releases with v1.0.6 (2026-09-16) still the newest, the Trendshift listing, and the HN search still returning no agtx story); claims hold.
 - 2026-11-16 - Re-verified in rotation: all cited sources re-fetched (repo API, README, releases with v1.0.6 still the newest, the HN search still only fuzzy noise); the Trendshift page serves a 403 bot wall to both fetch clients while its domain root serves 200, the wall recorded on the reference.
+- 2026-11-22 - Re-verified in rotation: all cited sources re-fetched (repo API, README, releases with v1.0.6 still the newest, the HN search); the Trendshift 403 wall stands as recorded, no factual drift, the push still stopped at 2026-11-03.
 
 ## See also
 

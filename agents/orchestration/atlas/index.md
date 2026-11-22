@@ -1,7 +1,7 @@
 ---
 title: Atlas
 created: 2026-09-29
-updated: 2026-11-21
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, source-control, rust]
 readability: 3
@@ -27,7 +27,7 @@ It surfaced as an entrant from the owner's GitHub stars.
 
 ## Status
 
-Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last push 2026-11-16, latest release alpha-0.5.0 on 2026-11-20 (agent marks and labels resolving only through identity and living on registry change), after alpha-0.4.1-org-agent on 2026-11-03 and the alpha-0.3.x line that closed with alpha-0.3.4 on 2026-09-27, the 0.4 release bodies empty so the org-agent label is all the tag says while 0.5.0's body carries a changelog again (GitHub API, as of 2026-11-21).
+Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last push 2026-11-16, latest release alpha-0.5.1 on 2026-11-21 (a chores-only patch whose body is the bare "release 0.5.1"), after alpha-0.5.0 on 2026-11-20 (agent marks and labels resolving only through identity and living on registry change), after alpha-0.4.1-org-agent on 2026-11-03 and the alpha-0.3.x line that closed with alpha-0.3.4 on 2026-09-27, the 0.4 release bodies empty so the org-agent label is all the tag says while 0.5.0's body carries a changelog again and 0.5.1's does not (GitHub API, as of 2026-11-22).
 
 **The identity record moved: the repository transferred from pacifio's personal account into the tryatlas organization between the 2026-11-06 verification and this run, the old path a 301 redirect to tryatlas/atlas.**
 
@@ -94,6 +94,7 @@ Not for teams needing a stable 1.0 or a tool with independent community validati
 - 2026-11-08 - Recorded the chat layer's session-to-worktree binding (a session starts in and stays bound to a project worktree, each worktree acting on its own branch) from the product chat docs, and the feature matrix's Atlas worktree-isolation cell moved with it.
 - 2026-11-17 - Re-verified in rotation (every cited URL re-fetched live: repo API, both release endpoints, README, architecture doc, install docs, site with pricing unchanged, explorer and chat docs, the CLI sibling, and the HN search still without a product story); claims hold, alpha-0.4.1-org-agent still the latest release, the push date refreshed to 2026-11-16.
 - 2026-11-21 - Volatile refresh: Recorded alpha-0.5.0 (2026-11-20, agent identity resolution) as the latest release, the first 0.5 alpha and the first release on the line whose body carries a changelog again.
+- 2026-11-22 - Volatile refresh: Recorded alpha-0.5.1 (2026-11-21, a chores-only patch with the bare release body) as the latest release.
 
 ## See also
 

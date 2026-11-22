@@ -1,7 +1,7 @@
 ---
 title: Agent Manager
 created: 2026-10-06
-updated: 2026-11-15
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, tmux, tui, multi-cli, worktrees]
 readability: 3
@@ -76,6 +76,7 @@ Not for teams that need cost tracking, per-task worktree defaults, or a GUI.
 - 2026-11-01 - Recorded v0.46.0 (2026-10-31) as the latest release and the 2026-11-01 push.
 - 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live; recorded the repository's transfer from YoanWai to the wainmann account (old path a 301) and moved the star-history chart and repository references to the canonical wainmann/agent-manager paths.
 - 2026-11-15 - Re-verified in rotation: every cited URL re-fetched live (site, repository API, releases, README, the Show HN thread); recorded v0.49.0 (2026-11-14) as the new latest release.
+- 2026-11-22 - Re-verified in rotation: every cited URL re-fetched live (site, repository API, releases, README, the Show HN thread); claims hold, v0.49.0 still the latest release, with SSH session and group management landing unreleased on the default branch since the 2026-11-15 verification.
 
 ## See also
 

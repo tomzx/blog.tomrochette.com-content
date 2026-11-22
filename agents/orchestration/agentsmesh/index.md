@@ -1,7 +1,7 @@
 ---
 title: AgentsMesh
 created: 2026-10-02
-updated: 2026-11-16
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-fleet, self-hosted, bsl]
 readability: 3
@@ -78,6 +78,7 @@ Not for open-source-license purists, solo users (a worktree manager is lighter),
 - 2026-11-06 - Re-verified in rotation: all cited sources re-fetched (repository and releases still 404, docs, Docker Hub, and the Show HN thread live); the Docker Hub images' last-update record corrected from February 2026 to around October 2026.
 - 2026-11-07 - Recorded the awesome-agent-orchestrators directory's Resting move for AgentsMesh (2026-11-05), the list's own quiet signal on top of the repository removal.
 - 2026-11-16 - Re-verified in rotation: all cited sources re-fetched (repository and releases still 404, docs, Docker Hub, and the Show HN thread live); the Docker Hub image-stamp record corrected again, five images stamped 2026-09-23 and one 2026-02-28, not October 2026.
+- 2026-11-22 - Re-verified in rotation: all cited sources re-fetched (repository and releases still 404, docs, Docker Hub, and the Show HN thread live); the removal record stands unchanged.
 
 ## See also
 

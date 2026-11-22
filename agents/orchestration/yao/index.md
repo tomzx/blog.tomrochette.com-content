@@ -1,7 +1,7 @@
 ---
 title: Yao
 created: 2026-10-06
-updated: 2026-11-15
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-workspaces, self-hosted]
 readability: 3
@@ -71,6 +71,7 @@ Not for anyone reading the 8k stars as agent-era adoption, and not for pure open
 - 2026-10-29 - Re-verified in rotation: every cited URL re-fetched and live; release line still v1.0.0 (2026-10-13) with the 2026-10-19 push unchanged, no factual drift.
 - 2026-11-06 - Re-verified in rotation: every cited URL re-fetched and live; stable line still v1.0.0 with a nightly tag beyond it and the 2026-10-19 push unchanged, no factual drift.
 - 2026-11-15 - Re-verified in rotation: every cited URL re-fetched and live (repo, license, README, releases, site, both integration posts, HN thread); pushed 2026-11-14, stable line still v1.0.0, no factual drift.
+- 2026-11-22 - Re-verified in rotation: every cited URL re-fetched and live (repo, license, README, releases, site, both integration posts, HN thread); claims hold, v1.0.0 still the newest stable tag, with Tao account-billing and invitation commits unreleased on the default branch since the 2026-11-15 verification.
 
 ## See also
 

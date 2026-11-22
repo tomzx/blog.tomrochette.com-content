@@ -1,7 +1,7 @@
 ---
 title: Crewplane
 created: 2026-09-27
-updated: 2026-11-16
+updated: 2026-11-22
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, workflows, cli, markdown]
 readability: 3
@@ -78,6 +78,7 @@ Not for anyone who wants a visual board, and not for shops that need a mature, m
 - 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (repository, docs index, the lab repository, openorchestrators.org, PyPI); no drift beyond the push date, still shipping through v0.4.1.
 - 2026-11-15 - Re-verified in rotation: every cited URL re-fetched live (repository, the lab repository, docs index, openorchestrators.org, PyPI, chart); refreshed the default-branch commit line to 2026-11-15, v0.4.2 still the latest release.
 - 2026-11-16 - Recorded v0.4.3 (2026-11-16, saved-run inspection commands for the CLI).
+- 2026-11-22 - Re-verified in rotation: every cited URL re-fetched live (repository, lab repository, PyPI, the docs, openorchestrators.org; one star-history chart fetch 403'd once and served on retry, a transient rate limit); claims hold, v0.4.3 (2026-11-16) still the latest release.
 
 ## See also
 
