@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you know what a PreToolUse hook is and the difference between a gate and a sandbox.
 ---
 
-HOL Guard (hashgraph-online/hol-guard) is an Apache-2.0 local-first runtime security gate from the HOL (Hashgraph Online) consortium that evaluates a coding agent's shell commands, file reads, MCP tool calls, prompts, and package or skill installs before they run, returning allow, observe, ask, or block, and records a local trail of security receipts.
+HOL Guard (hashgraph-online/hol-guard) is an Apache-2.0 local-first runtime security gate maintained by HOL that evaluates a coding agent's shell commands, file reads, MCP tool calls, prompts, and package or skill installs before they run, returning allow, observe, ask, or block, and records a local trail of security receipts.
 
 **Its design point is a published coverage contract: instead of advertising blanket protection, it asserts per-harness which event surfaces it can see, whether approvals are native or fall back to a browser, and whether failure blocks or fails open, with each assertion dated, commit-linked, and given an expiry.**
 
