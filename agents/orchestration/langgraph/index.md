@@ -1,9 +1,9 @@
 ---
 title: LangGraph
 created: 2026-10-06
-updated: 2026-11-21
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-framework, graph-runtime, durable-execution, python, typescript]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, agent-framework, graph-runtime, durable-execution, python, typescript]
 readability: 3
 audience_notes: >
   Engineers choosing a runtime for agents they will build themselves, who need to know how a framework compares to the session orchestrators around it.
@@ -31,8 +31,8 @@ Active and enormous: 43,293 stars, 7,364 forks, and 100+ contributors as of 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=langchain-ai/langgraph&type=date&legend=top-left" />
 </picture>
 
-Release 1.2.24 shipped 2026-11-20 (a `REMOVE_ALL_MESSAGES` fix in `_messages_delta_reducer` and `None`-checkpoint handling in `DeltaChannel`, PyPI matching at 1.2.24) after 1.2.23 (2026-11-19, Send-dispatched tool calls carrying the same state as an edge, dynamic-schema warning races closed, and `langgraph-prebuilt` 1.1.3 in step), 1.2.22 (2026-11-14), 1.2.21 (2026-11-12), 1.2.20 (2026-11-05), 1.2.19 (2026-10-30), and 1.2.18 (2026-10-26, an error_handler that recovers on every path with failed task results streamed, and delta snapshots defaulting to a full snapshot every 100 updates instead of 1,000, faster reads on long threads at the cost of storage, tunable through snapshot_frequency), 1.2.17 (2026-10-24), and 1.2.16 (2026-10-16, GitHub and PyPI alike), continuing a 1.2.x line that has run all year, with the default branch pushed through 2026-11-19 (GitHub API, as of 2026-11-21); the separate `langgraph-sdk` package sits at 0.4.14 (2026-11-06) and the `langgraph-cli` line at 0.4.43 (2026-11-12).
-npm `@langchain/langgraph` served 3,725,541 downloads in the week ending 2026-10-07, down from 4,552,953 the week before, 3,765,811 in the week ending 2026-10-08, 3,789,072 in the week ending 2026-10-09, 3,802,787 in the week ending 2026-10-10, 3,795,517 in the week ending 2026-10-11, and 3,741,572 in the week ending 2026-10-12, so the dip held roughly flat in the 3.7 to 3.8 million band rather than deepening (npm API, as of 2026-10-17).
+Release 1.2.24 shipped 2026-11-20 (a `REMOVE_ALL_MESSAGES` fix in `_messages_delta_reducer` and `None`-checkpoint handling in `DeltaChannel`, PyPI matching at 1.2.24) after 1.2.23 (2026-11-19, Send-dispatched tool calls carrying the same state as an edge, dynamic-schema warning races closed, and `langgraph-prebuilt` 1.1.3 in step), 1.2.22 (2026-11-14), 1.2.21 (2026-11-12), 1.2.20 (2026-11-05), 1.2.19 (2026-10-30), and 1.2.18 (2026-10-26, an error_handler that recovers on every path with failed task results streamed, and delta snapshots defaulting to a full snapshot every 100 updates instead of 1,000, faster reads on long threads at the cost of storage, tunable through snapshot_frequency), 1.2.17 (2026-10-24), and 1.2.16 (2026-10-16, GitHub and PyPI alike), continuing a 1.2.x line that has run all year, with the default branch's newest commit on 2026-11-20 (a CLI fix omitting an empty secrets list when updating a deployment) and repository-level pushes through 2026-11-24 on other branches (GitHub API, as of 2026-11-24); the separate `langgraph-sdk` package sits at 0.4.14 (2026-11-06) and the `langgraph-cli` line at 0.4.43 (2026-11-12).
+npm `@langchain/langgraph` served 3,725,541 downloads in the week ending 2026-10-07, down from 4,552,953 the week before, 3,765,811 in the week ending 2026-10-08, 3,789,072 in the week ending 2026-10-09, 3,802,787 in the week ending 2026-10-10, 3,795,517 in the week ending 2026-10-11, and 3,741,572 in the week ending 2026-10-12, so the dip held roughly flat in the 3.7 to 3.8 million band rather than deepening (npm API, as of 2026-10-17), and then 5,114,655 in the week ending 2026-11-22, a step above that band (npm API, fetched 2026-11-24).
 **For scale: that is more weekly installs than any other column in this matrix by a wide margin, and probably more than the rest of the table combined.**
 
 ## Strengths
@@ -83,6 +83,7 @@ Not for engineers who want a dashboard, worktrees, and a review flow around exis
 - 2026-11-16 - Recorded 1.2.22 (2026-11-14) on the core line, the release the Status prose had gained without its bullet, the commit line refreshed to 2026-11-15.
 - 2026-11-19 - Volatile refresh: Recorded 1.2.23 (2026-11-19, Send-dispatched tool calls carrying the same state as an edge) on the core line with `langgraph-prebuilt` 1.1.3 in step and PyPI at 1.2.23, the push date refreshed to 2026-11-19.
 - 2026-11-21 - Volatile refresh: Recorded 1.2.24 (2026-11-20, the `REMOVE_ALL_MESSAGES` and `None`-checkpoint fixes) on the core line, PyPI matching at 1.2.24.
+- 2026-11-24 - Re-verified in rotation: every cited URL re-fetched live (repo API, docs, releases, the npm last-week endpoint, PyPI, the HN thread); 1.2.24 still the newest release with PyPI matching, the CLI and SDK package lines unmoved, and the docs and the qodo thread as recorded; the npm week ending 2026-11-22 read 5,114,655 downloads, a step above the October band, and main's newest commit is 2026-11-20 with later pushes on other branches.
 
 ## See also
 
@@ -97,6 +98,6 @@ Not for engineers who want a dashboard, worktrees, and a review flow around exis
 - https://api.github.com/repos/langchain-ai/langgraph - stars, forks, open issues, MIT license, and push date as of 2026-10-05
 - https://docs.langchain.com/oss/python/langgraph/ - durable execution, streaming, human-in-the-loop, persistence, and the LangSmith references throughout
 - https://api.github.com/repos/langchain-ai/langgraph/releases - release 1.2.14 (2026-10-06) and the cadence behind it
-- https://api.npmjs.org/downloads/point/last-week/@langchain/langgraph - 3,795,517 downloads in the week ending 2026-10-11, after 4,552,953 the week ending 2026-10-04
-- https://pypi.org/pypi/langgraph/json - PyPI version 1.2.15
+- https://api.npmjs.org/downloads/point/last-week/@langchain/langgraph - 3,795,517 downloads in the week ending 2026-10-11, after 4,552,953 the week ending 2026-10-04; re-fetched 2026-11-24 at 5,114,655 for the week ending 2026-11-22
+- https://pypi.org/pypi/langgraph/json - PyPI version 1.2.15, re-fetched 2026-11-24 at 1.2.24
 - https://news.ycombinator.com/item?id=43468435 - qodo's "We chose LangGraph to build our coding agent" at 83 points, the practitioner discussion

@@ -1,9 +1,9 @@
 ---
 title: Agent Swarm
 created: 2026-10-02
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, lead-worker, docker, slack, multi-agent]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, lead-worker, docker, slack, multi-agent]
 readability: 3
 audience_notes: >
   Engineers who want task intake from chat and issue trackers to land as pull requests through a self-hosted lead/worker agent system.
@@ -23,7 +23,7 @@ Around that core it layers a dashboard UI, DAG workflows with human-in-the-loop 
 
 ## Status
 
-Active and shipping fast: 885 stars as of 2026-10-15, created 2025-12-19, daily releases through v1.173.0 (2026-10-15, a day after v1.172.0 and two after v1.171.1), then a version-line reset: v2.0.0 landed 2026-10-16, v2.1.0 2026-10-17, v2.2.0 and v2.3.0 2026-10-18, and v2.4.0 through v2.4.2 on 2026-10-19, then v2.4.3 through v2.4.5 on 2026-10-20 and 2026-10-21, v2.5.0 on 2026-10-22, v2.5.1 and v2.5.2 on 2026-10-23, v2.5.3 on 2026-10-24, v2.5.4 on 2026-10-25, v2.6.0 on 2026-10-26, and v2.7.0 on 2026-10-27 with v2.7.1 and v2.7.2 on 2026-10-28 and v2.7.3 on 2026-10-29, then v2.7.4 and v2.7.5 on 2026-10-30, v2.7.6 on 2026-10-31, v2.7.7 on 2026-11-01, and v2.7.8 through v2.7.10 on 2026-11-02 through 2026-11-04, then v2.8.0 through v2.8.2 on 2026-11-05 and 2026-11-06, then v2.8.3 on 2026-11-07 and v2.9.0 on 2026-11-08, then v2.9.1 on 2026-11-09, v2.10.0 on 2026-11-10, v2.11.0 on 2026-11-11, v2.12.0 on 2026-11-12, and v2.13.0 on 2026-11-13 followed by v2.13.1 on 2026-11-14, v2.13.2 on 2026-11-15, v2.13.3 on 2026-11-16, and v2.13.4 on 2026-11-17, then v2.13.5 on 2026-11-18 and v2.14.0 on 2026-11-19, followed by v2.14.1 on 2026-11-20, v2.14.2 on 2026-11-21, and v2.14.3 on 2026-11-22, a jump to a v2 major one day after the v1.173.0 tag, with the release bodies carrying install tags and no breaking-change notes (GitHub API, releases, npm 2.14.3, as of 2026-11-22).
+Active and shipping fast: 885 stars as of 2026-10-15, created 2025-12-19, daily releases through v1.173.0 (2026-10-15, a day after v1.172.0 and two after v1.171.1), then a version-line reset: v2.0.0 landed 2026-10-16, v2.1.0 2026-10-17, v2.2.0 and v2.3.0 2026-10-18, and v2.4.0 through v2.4.2 on 2026-10-19, then v2.4.3 through v2.4.5 on 2026-10-20 and 2026-10-21, v2.5.0 on 2026-10-22, v2.5.1 and v2.5.2 on 2026-10-23, v2.5.3 on 2026-10-24, v2.5.4 on 2026-10-25, v2.6.0 on 2026-10-26, and v2.7.0 on 2026-10-27 with v2.7.1 and v2.7.2 on 2026-10-28 and v2.7.3 on 2026-10-29, then v2.7.4 and v2.7.5 on 2026-10-30, v2.7.6 on 2026-10-31, v2.7.7 on 2026-11-01, and v2.7.8 through v2.7.10 on 2026-11-02 through 2026-11-04, then v2.8.0 through v2.8.2 on 2026-11-05 and 2026-11-06, then v2.8.3 on 2026-11-07 and v2.9.0 on 2026-11-08, then v2.9.1 on 2026-11-09, v2.10.0 on 2026-11-10, v2.11.0 on 2026-11-11, v2.12.0 on 2026-11-12, and v2.13.0 on 2026-11-13 followed by v2.13.1 on 2026-11-14, v2.13.2 on 2026-11-15, v2.13.3 on 2026-11-16, and v2.13.4 on 2026-11-17, then v2.13.5 on 2026-11-18 and v2.14.0 on 2026-11-19, followed by v2.14.1 on 2026-11-20, v2.14.2 on 2026-11-21, v2.14.3 on 2026-11-22, v2.14.4 on 2026-11-23, and v2.14.5 on 2026-11-24, a jump to a v2 major one day after the v1.173.0 tag, with the release bodies carrying install tags and no breaking-change notes (GitHub API, releases, npm 2.14.5, as of 2026-11-24).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=desplega-ai/agent-swarm&type=date&theme=dark&legend=top-left" />
@@ -31,7 +31,7 @@ Active and shipping fast: 885 stars as of 2026-10-15, created 2025-12-19, daily 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=desplega-ai/agent-swarm&type=date&legend=top-left" />
 </picture>
 
-**The adoption evidence is real but early: a 63-point Show HN thread in February 2026 and a live public demo, with the production claims (a customer with 80% of its team onboarded and over 800 human-initiated tasks weekly) self-reported by the vendor.**
+**The adoption evidence is real but early: a 63-point Show HN thread in February 2026 and a live public demo, with the production claims self-reported by the vendor, whose Capchase case study (updated 2026-11-02) now reads 70-plus users and 28 agents, up from 44 users, 10k-plus tasks weekly, and 26 agents within a single quarter, and no longer carries the 80 percent onboarded and 800 weekly human requests this note recorded on 2026-10-02.**
 The README's own tip that the repo "evolves every single day" is the plain read of the risk: this is a high-velocity single-vendor product, not a community project.
 
 ## Strengths
@@ -90,6 +90,7 @@ Not for solo local parallelism (a worktree manager is lighter) or for anyone who
 - 2026-11-19 - Recorded v2.13.5 (2026-11-18) and v2.14.0 (2026-11-19) on the release train, npm matching at 2.14.0.
 - 2026-11-21 - Volatile refresh: Recorded v2.14.1 (2026-11-20) and v2.14.2 (2026-11-21) on the release train, bodies still install tags with no breaking-change notes, npm matching at 2.14.2.
 - 2026-11-22 - Volatile refresh: Recorded v2.14.3 (2026-11-22) on the release train, npm matching at 2.14.3.
+- 2026-11-24 - Re-verified in rotation: every cited URL re-fetched live (repository, docs, harness configuration guide, MCP reference, site, the Capchase case study, the Show HN thread); recorded v2.14.4 (2026-11-23) and v2.14.5 (2026-11-24, install tags only) on the release train with npm matching at 2.14.5, and moved the adoption claim to the case study's 2026-11-02 refresh (70-plus users and 28 agents), the earlier 80 percent and 800 weekly figures no longer on the page.
 
 ## See also
 
@@ -106,5 +107,6 @@ Not for solo local parallelism (a worktree manager is lighter) or for anyone who
 - https://docs.agent-swarm.dev/docs/guides/harness-configuration - the Claude Code, Codex, pi, Devin, Claude Managed Agents, opencode, and ACP harness setup
 - https://raw.githubusercontent.com/desplega-ai/agent-swarm/main/MCP.md - schema-validated send-task results and deferred-task semantics
 - https://www.agent-swarm.dev - self-hosting positioning, public demo, and the vendor-reported Capchase adoption claims
-- https://www.agent-swarm.dev/case-studies/capchase - the customer case study behind the self-reported numbers
+- https://www.agent-swarm.dev/case-studies/capchase - the customer case study behind the self-reported numbers (2026-10-02); the page, updated 2026-11-02 and re-fetched 2026-11-24, reads 70-plus users and 28 agents after a quarter from 44 users, 10k-plus tasks weekly, and 26 agents, its counters script-rendered
 - https://news.ycombinator.com/item?id=47165046 - the February 2026 Show HN thread (63 points, 46 comments), the main independent community footprint
+- https://api.github.com/repos/desplega-ai/agent-swarm/releases/tags/v2.14.5 - the v2.14.5 release notes (2026-11-24): install tags and no breaking-change notes (fetched 2026-11-24)

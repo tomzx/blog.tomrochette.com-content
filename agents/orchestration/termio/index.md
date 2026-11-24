@@ -1,9 +1,9 @@
 ---
 title: termio
 created: 2026-11-01
-updated: 2026-11-19
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal, tmux-alternative, ssh]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, terminal, tmux-alternative, ssh]
 readability: 3
 audience_notes: >
   macOS engineers who live in the terminal, run several coding CLIs, and want session state and attention routing without learning tmux.
@@ -25,7 +25,7 @@ By the termio-sh org, repository created 2026-05-23, MIT licensed, site at termi
 
 ## Status
 
-Active and fast: 751 stars, 63 forks, and 37 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-19, with 100-plus releases and v0.77.0 out on 2026-11-19 (every diff drawn with the @pierre/diffs renderer) after v0.76.0 on 2026-11-18 (Excalidraw drawing previews and a Settings rebuild around theme tiles) after v0.75.0 on 2026-11-16 (panes opening as cards) after v0.74.0 on 2026-11-15, which followed v0.72.0 on 2026-11-11 and v0.71.1 the same day, after v0.71.0 on 2026-11-02 and v0.70.0 and v0.70.1 the same day, after v0.69.0 (2026-10-31), which had matched the Homebrew cask the same day.
+Active and fast: 751 stars, 63 forks, and 37 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-19 (main's newest commits, landing-page lint chores; repository-level pushes through 2026-11-23 on other branches), with 100-plus releases and v0.77.0 out on 2026-11-19 (every diff drawn with the @pierre/diffs renderer) after v0.76.0 on 2026-11-18 (Excalidraw drawing previews and a Settings rebuild around theme tiles) after v0.75.0 on 2026-11-16 (panes opening as cards) after v0.74.0 on 2026-11-15, which followed v0.72.0 on 2026-11-11 and v0.71.1 the same day, after v0.71.0 on 2026-11-02 and v0.70.0 and v0.70.1 the same day, after v0.69.0 (2026-10-31), which had matched the Homebrew cask the same day.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=termio-sh/termio&type=date&theme=dark&legend=top-left" />
@@ -70,6 +70,7 @@ Not for Windows or Linux desktop users, and not for anyone needing diff review s
 - 2026-11-15 - Volatile refresh: Recorded v0.74.0 (2026-11-15) as the latest release, the push date refreshed to 2026-11-15.
 - 2026-11-17 - Recorded v0.75.0 (2026-11-16, panes opening as cards) as the latest release, the push date refreshed to 2026-11-17.
 - 2026-11-19 - Volatile refresh: recorded v0.76.0 (2026-11-18, Excalidraw previews, Settings rebuilt around theme tiles) and v0.77.0 (2026-11-19, diffs drawn with the @pierre/diffs renderer), the push date refreshed to 2026-11-19.
+- 2026-11-24 - Re-verified in rotation: every cited URL re-fetched live (repo API, README, releases, the Homebrew cask, the download endpoint, the HN search); v0.77.0 still the newest release and the cask now at 0.77.0, the daemon and remote-ADE claims as recorded, the HN footprint still zero hits, main's newest commits landing chores on 2026-11-19.
 
 ## See also
 
@@ -83,6 +84,6 @@ Not for Windows or Linux desktop users, and not for anyone needing diff review s
 - https://api.github.com/repos/termio-sh/termio - stars, license, and activity as of 2026-11-01
 - https://raw.githubusercontent.com/termio-sh/termio/HEAD/README.md - the termiod daemon model, hooks integration, remote ADE, and mobile companion
 - https://api.github.com/repos/termio-sh/termio/releases?per_page=100 - the 100-release train through v0.69.0 (2026-10-31)
-- https://raw.githubusercontent.com/termio-sh/homebrew-tap/HEAD/Casks/termio.rb - the Homebrew cask at 0.69.0 with Sparkle livecheck
-- https://downloads.termio.sh/termio.dmg - the macOS download endpoint (HTTP 200, 2026-11-01)
+- https://raw.githubusercontent.com/termio-sh/homebrew-tap/HEAD/Casks/termio.rb - the Homebrew cask at 0.69.0 with Sparkle livecheck (0.77.0 on the 2026-11-24 re-fetch)
+- https://downloads.termio.sh/termio.dmg - the macOS download endpoint (HTTP 200, 2026-11-01 and 2026-11-24)
 - https://hn.algolia.com/api/v1/search?query=termio.sh&hitsPerPage=5 - the zero-hit Hacker News footprint as of 2026-11-01

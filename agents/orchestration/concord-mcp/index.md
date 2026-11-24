@@ -1,9 +1,9 @@
 ---
 title: Concord MCP
 created: 2026-11-06
-updated: 2026-11-19
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, coordination, mcp, messaging, multi-agent]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, coordination, mcp, messaging, multi-agent]
 readability: 3
 audience_notes: >
   Engineers running two or more coding agents against the same repository who
@@ -29,8 +29,8 @@ The project states explicitly that it is not an orchestrator, code reviewer, hos
 **Active and fast-moving, pre-1.0.**
 The repository was created 2026-07-14 and surfaced on Show HN on 2026-08-27, where it stood at 9 points and 4 comments as of 2026-11-06.
 It reached 978 stars as of 2026-11-06.
-The latest release, v0.23.0, shipped 2026-11-17, after v0.22.0 (2026-11-11), v0.21.1 (2026-11-11), and v0.21.0 (2026-11-09), and FollowAgents counted thirteen releases between its review snapshot of 2026-10-04 and its writing.
-The npm package (@concord-ai/concord-mcp, 36 published versions, latest 0.23.0) drew 4,366 downloads in the trailing month (2026-10-20 to 2026-11-19), against the 5,184 the 2026-11-06 verification recorded, the 4,131 of the prior window, and the 3,618 before that.
+The latest release, v0.24.0, shipped 2026-11-23 (an MCP SDK bump to 1.32.2 with only the set resumption options passed, a retry on the relay monitor's workspace check, and overlap detection matching non-Latin module, domain, and risk-tag labels), after v0.23.0 (2026-11-17), v0.22.0 (2026-11-11), v0.21.1 (2026-11-11), and v0.21.0 (2026-11-09), and FollowAgents counted thirteen releases between its review snapshot of 2026-10-04 and its writing.
+The npm package (@concord-ai/concord-mcp, 37 published versions, latest 0.24.0) drew 3,985 downloads in the trailing month (2026-10-25 to 2026-11-24), against the 4,366 of the prior window, the 5,184 the 2026-11-06 verification recorded, the 4,131 before that, and the 3,618 before that.
 Independent coverage exists: Hlido's public-surface review scored it 70/100 on 2026-09-11 and FollowAgents' source review scored it 67/100 on 2026-10-04.
 The hosted cloud tier Hlido recorded as unshipped in September reached early access by 2026-11-06.
 
@@ -62,7 +62,7 @@ The hosted cloud tier Hlido recorded as unshipped in September reached early acc
 The local open-source server is free under MIT on one machine.
 The cloud free tier is $0 in early access and adds multi-machine state, a dashboard, and Claude and ChatGPT apps.
 The Team tier is $15 per seat per month, where a seat is a human member and agents are not seats; the site's own example prices four members at $60 per month for 12 agents.
-As of 2026-11-06.
+As of 2026-11-24, re-fetched and unchanged since 2026-11-06.
 
 ## Price history
 
@@ -86,6 +86,7 @@ Not for single-agent workflows, for teams needing enforced isolation rather than
 - 2026-11-06 - Created.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched and live; v0.22.0 stands as the latest release, the npm trailing-month downloads refreshed to 4,131 (2026-10-14 to 2026-11-13).
 - 2026-11-19 - Volatile refresh: recorded v0.23.0 (2026-11-17) as the latest release, npm at 0.23.0 with 36 versions and trailing-month downloads of 4,366 (2026-10-20 to 2026-11-19).
+- 2026-11-24 - Volatile refresh: recorded v0.24.0 (2026-11-23, MCP SDK 1.32.2, the relay monitor retry, non-Latin overlap labels) as the latest release, npm at 0.24.0 with 37 versions and trailing-month downloads of 3,985 (2026-10-25 to 2026-11-24); the cloud and Team prices re-fetched unchanged.
 
 ## See also
 
@@ -98,9 +99,10 @@ Not for single-agent workflows, for teams needing enforced isolation rather than
 
 - https://github.com/Get-Concord-AI/concord-mcp - repository, README with the five tools, MIT license, 978 stars as of 2026-11-06, release v0.20.0 (2026-11-05).
 - https://getconcord.ai/ - product surface, deployment model, and the not-an-orchestrator self-description.
-- https://getconcord.ai/pricing - the free local and cloud tiers, Team at $15 per seat per month as of 2026-11-06.
-- https://api.npmjs.org/downloads/point/2026-10-14:2026-11-13/@concord-ai/concord-mcp - 4,131 downloads in the trailing month (2026-11-14 fetch).
-- https://registry.npmjs.org/@concord-ai/concord-mcp - the npm package's 35 published versions and latest 0.22.0.
+- https://getconcord.ai/pricing - the free local and cloud tiers, Team at $15 per seat per month as of 2026-11-06, re-fetched unchanged 2026-11-24.
+- https://api.npmjs.org/downloads/point/2026-10-25:2026-11-24/@concord-ai/concord-mcp - 3,985 downloads in the trailing month (2026-11-24 fetch); the 2026-10-20 to 2026-11-19 window read 4,366 and the 2026-10-14 to 2026-11-13 window 4,131.
+- https://registry.npmjs.org/@concord-ai/concord-mcp - the npm package's 37 published versions and latest 0.24.0 (as of 2026-11-24).
+- https://api.github.com/repos/Get-Concord-AI/concord-mcp/releases?per_page=6 - the release feed, v0.24.0 (2026-11-23) back to v0.20.0 (2026-11-05).
 - https://news.ycombinator.com/item?id=49464704 - the Show HN thread of 2026-08-27, 9 points and 4 comments.
 - https://followagents.com/en/agents/concord-mcp - critical source review (67/100, telemetry-on-by-default, tool-name drift, pre-1.0 cautions).
 - https://hlido.eu/reviews/get-concord-ai-concord-mcp/ - critical public-surface review (70/100 on 2026-09-11, cloud tier then unshipped, no at-scale evidence).

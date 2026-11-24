@@ -1,9 +1,9 @@
 ---
 title: Agent Orchestrator
 created: 2026-10-06
-updated: 2026-11-17
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kanban, worktrees, multi-harness, desktop]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, kanban, worktrees, multi-harness, desktop]
 readability: 3
 audience_notes: >
   Engineers shortlisting a free, open, cross-platform kanban workspace that supervises many coding CLIs from one desktop.
@@ -23,7 +23,7 @@ The product is branded Orchestrator.inc, the name its docs site docs.orchestrato
 ## Status
 
 Active and shipping daily: 13,193 stars as of 2026-10-15 (1,788 forks, 821 open issues and pull requests, and 30 contributors as of 2026-10-11), created 2026-02-13 (GitHub API, as of 2026-10-15).
-Stable releases ride the nightly train, v0.15.3 (2026-11-16, PR details, actions, comments, and activity in the session inspector, plus a title bar on every pane to drag and unsplit) the latest stable after v0.15.2 (2026-11-15, a stable hotfix rotating the desktop and daemon DSNs) after v0.15.1 (2026-11-14) after v0.15.0 (2026-11-13) and v0.14.10 (2026-11-06), v0.14.9 (2026-11-04), v0.14.8 (2026-10-30), and v0.14.7 (2026-10-28), v0.14.6 (2026-10-24), v0.14.5 (2026-10-22), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-11-17 (GitHub API, as of 2026-11-17).
+Stable releases ride the nightly train, v0.15.5 (2026-11-23, a stable backport grouping desktop and mobile Sentry errors by code or normalized message) the latest stable after v0.15.4 (2026-11-22, a stable hotfix preserving Sentry error messages and splitting issue groups) after v0.15.3 (2026-11-16, PR details, actions, comments, and activity in the session inspector, plus a title bar on every pane to drag and unsplit) after v0.15.2 (2026-11-15, a stable hotfix rotating the desktop and daemon DSNs) after v0.15.1 (2026-11-14) after v0.15.0 (2026-11-13) and v0.14.10 (2026-11-06), v0.14.9 (2026-11-04), v0.14.8 (2026-10-30), and v0.14.7 (2026-10-28), v0.14.6 (2026-10-24), v0.14.5 (2026-10-22), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-11-24 (GitHub API, as of 2026-11-24).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ Not for anyone who needs a stable identity to standardize on (four renames and c
 - 2026-11-15 - Volatile refresh: Recorded v0.15.1 (2026-11-14) as the latest stable release.
 - 2026-11-16 - Recorded v0.15.2 (2026-11-15, a stable hotfix rotating the desktop and daemon DSNs) and corrected the stable-line sentence, which had lagged at v0.14.x.
 - 2026-11-17 - Recorded v0.15.3 (2026-11-16, session-inspector PR details and actions, pane title bars) as the latest stable, the push date refreshed to 2026-11-17.
+- 2026-11-24 - Re-verified in rotation: every cited URL re-fetched live (repository, docs index, the cloud guide, both third-party articles, the Show HN thread, the old ComposioHQ path still redirecting); recorded v0.15.4 (2026-11-22, the Sentry error-message hotfix) and v0.15.5 (2026-11-23, the Sentry error-grouping backport) as the latest stables, the cloud guide still showing no public price page, the push date refreshed to 2026-11-24.
 
 ## See also
 
@@ -97,3 +98,4 @@ Not for anyone who needs a stable identity to standardize on (four renames and c
 - https://www.tembo.io/blog/ai-agent-orchestration-tools - the June 2026 roundup tracking it as Composio's coding-native open-source orchestrator
 - https://news.ycombinator.com/item?id=47562440 - the 15-point Show HN launch (2026-03-29) grounding the community-footprint claim
 - https://github.com/ComposioHQ/agent-orchestrator - the 301 redirect that grounds the rename chain
+- https://api.github.com/repos/OrchestratorInc/agent-orchestrator/releases?per_page=6 - the release feed, v0.15.5 (2026-11-23) back to the v0.15.4-nightly prerelease of 2026-11-22, as of 2026-11-24

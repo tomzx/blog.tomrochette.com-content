@@ -1,9 +1,9 @@
 ---
 title: Sim
 created: 2026-09-29
-updated: 2026-11-19
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, workflow, low-code]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, multi-agent, workflow, low-code]
 readability: 3
 audience_notes: >
   Teams choosing an open-source visual agent workflow builder after Flowise's death, who care about license and cloud costs.
@@ -22,13 +22,14 @@ The repo sits at 29,812 stars with 3,853 forks, Apache-2.0, created 2025-01-05, 
 
 ## Status
 
-Active: last push 2026-11-19, releases v0.9.15 through v0.9.63 (2026-11-19), a train that opened with v0.9.15 through v0.9.25 from 2026-10-08 to 2026-10-16 plus v0.9.26 on 2026-10-17 (library templates and expanded Databricks API coverage), v0.9.27 on 2026-10-19 (a Harvest connection over a customer-owned API credential), v0.9.28 on 2026-10-20 (comparison-guide library entries naming Retool, Dust, and Flowise alternatives), and v0.9.29 through v0.9.31 on 2026-10-20 through 2026-10-22, with v0.9.32 following on 2026-10-23, v0.9.33 on 2026-10-25, and v0.9.34 on 2026-10-27 (expanded Tailscale API operations and a Trigger.dev token-sealing backfill task), with v0.9.35 and v0.9.36 on 2026-10-28 (library guides for drafting social-media posts and customer-onboarding agents) and v0.9.37 through v0.9.39 closing the month, v0.9.40 on 2026-11-01, v0.9.41 and v0.9.42 on 2026-11-03, v0.9.43 on 2026-11-04, v0.9.44 on 2026-11-05, v0.9.45 and v0.9.46 on 2026-11-06, v0.9.47 on 2026-11-07, v0.9.48 on 2026-11-08, then v0.9.49 through v0.9.54 daily through 2026-11-12 and v0.9.56 through v0.9.63 on 2026-11-13 through 2026-11-19 alongside near-daily helm-chart tags (v0.9.59 library guides on enterprise agent identity and audit trails, v0.9.60 GitLab group sources with per-project permissions, v0.9.62 Zapier-cost and governed-Workday library guides, v0.9.63 bounded chunked imports of large permission snapshots) (GitHub API, as of 2026-11-19), the newest five of the earlier run adding project-files public sharing and cross-owner transfers, scoped note-access authorization, and library guides.
+Active: last push 2026-11-23, releases v0.9.15 through v0.9.66 (2026-11-23), a train that opened with v0.9.15 through v0.9.25 from 2026-10-08 to 2026-10-16 plus v0.9.26 on 2026-10-17 (library templates and expanded Databricks API coverage), v0.9.27 on 2026-10-19 (a Harvest connection over a customer-owned API credential), v0.9.28 on 2026-10-20 (comparison-guide library entries naming Retool, Dust, and Flowise alternatives), and v0.9.29 through v0.9.31 on 2026-10-20 through 2026-10-22, with v0.9.32 following on 2026-10-23, v0.9.33 on 2026-10-25, and v0.9.34 on 2026-10-27 (expanded Tailscale API operations and a Trigger.dev token-sealing backfill task), with v0.9.35 and v0.9.36 on 2026-10-28 (library guides for drafting social-media posts and customer-onboarding agents) and v0.9.37 through v0.9.39 closing the month, v0.9.40 on 2026-11-01, v0.9.41 and v0.9.42 on 2026-11-03, v0.9.43 on 2026-11-04, v0.9.44 on 2026-11-05, v0.9.45 and v0.9.46 on 2026-11-06, v0.9.47 on 2026-11-07, v0.9.48 on 2026-11-08, then v0.9.49 through v0.9.54 daily through 2026-11-12 and v0.9.56 through v0.9.63 on 2026-11-13 through 2026-11-19 alongside near-daily helm-chart tags (v0.9.59 library guides on enterprise agent identity and audit trails, v0.9.60 GitLab group sources with per-project permissions, v0.9.62 Zapier-cost and governed-Workday library guides, v0.9.63 bounded chunked imports of large permission snapshots), then v0.9.65 and v0.9.66 on 2026-11-23 (GitHub API, as of 2026-11-24), the newest five of the earlier run adding project-files public sharing and cross-owner transfers, scoped note-access authorization, and library guides.
 v0.9.15 (October 8) added SSO administration and credential-sharing APIs, current frontier models, a Nebius Token Factory provider, and desktop background-executor chats bound to a device registry, and v0.9.16 (October 8) patched a sharp librsvg CVE and an MCP SDK OAuth issuer binding while adding GitHub MCP server library entries.
 v0.9.17 (October 10) added a workspace changelog of releases, workflow tests as a workspace resource, expanded Shopify operations, and a Checkr integration (GitHub releases).
 v0.9.18 (October 11) added library templates for HubSpot lead-enrichment and Pipedrive deal-follow-up agents, moved project membership to the workspace column, and shipped a performance pass (keyset table paging, non-blocking auth timestamp writes, concurrent Lucid page fetches) (GitHub releases).
 v0.9.19 (October 12) published the Nebius model update in the workspace changelog and added library templates for Stripe billing and failed-payment agents, HubSpot lead-enrichment and Confluence guides, and an agent version-control and rollback checklist (GitHub releases).
 v0.9.11 (October 2) tightened audit rules across console, helper, render-path, persist, and deployment-flag checks, v0.9.12 (October 3) added last-synced deployment comparison for forks and a You.com integration, v0.9.13 (October 4) added library templates while fixing webhook path-owner claims and hosted-key usage-limit enforcement, and v0.9.14 (October 5) preserved workflow identity in background confirmations and kept file lineage through binary exports and extraction.
 Three HN launches mark the trajectory: 196 points for the first Show HN (2025-04-28), 55 points for the YC Launch HN (2025-05-21), and 240 points for "Sim, Apache-2.0 n8n alternative" (2025-12-11).
+v0.9.65 (2026-11-23) added workflows and the workspace as code, replaced the Monaco editor and the diff view with Pierre's editor and diffs, turned MCP code mode on for every caller, widened computer use to calendar events, contacts, and reminders, and made Redis a hard requirement by removing the no-Redis fallbacks; v0.9.66 the same day fixed the PII concurrency settings (GitHub releases).
 Pre-1.0 (v0.9.x) despite the scale, so the API surface is still moving.
 
 <picture>
@@ -98,6 +99,7 @@ Not for coding-agent orchestration, and not for anyone needing long-term API sta
 - 2026-11-15 - Volatile refresh: Recorded the release train reaching v0.9.58 (2026-11-15), the push date refreshed to 2026-11-15.
 - 2026-11-17 - Recorded the release train reaching v0.9.61 (2026-11-17, GitLab group sources with per-project permissions), the push date refreshed to 2026-11-17.
 - 2026-11-19 - Volatile refresh: recorded v0.9.62 (2026-11-18, Zapier-cost and governed-Workday library guides) and v0.9.63 (2026-11-19, bounded chunked imports of large permission snapshots), the push date refreshed to 2026-11-19.
+- 2026-11-24 - Re-verified in rotation: every cited URL re-fetched live (repo API, releases, site, pricing page, docs, the three HN threads); recorded v0.9.65 and v0.9.66 (2026-11-23; workflows and workspace as code, Pierre's editor and diffs, MCP code mode for every caller, Redis now required with the no-Redis fallbacks removed, the PII concurrency fix), the Free, Pro, Max, and Enterprise prices unchanged, the push date refreshed to 2026-11-23.
 
 ## See also
 
@@ -110,9 +112,9 @@ Not for coding-agent orchestration, and not for anyone needing long-term API sta
 
 - https://api.github.com/repos/simstudioai/sim - GitHub API (200): 29,749 stars, 3,847 forks, Apache-2.0, pushed 2026-09-29, created 2025-01-05 (as of 2026-09-29)
 - https://sim.ai - official site (200): workspace products (workflows, knowledge base, tables, logs, enterprise)
-- https://sim.ai/pricing - pricing page (200): Free $0, Pro $25/user/month, Max $100/user/month
+- https://sim.ai/pricing - pricing page (200): Free $0, Pro $25/user/month, Max $100/user/month, re-fetched unchanged 2026-11-24
 - https://docs.sim.ai - official documentation, live (200)
-- https://api.github.com/repos/simstudioai/sim/releases/latest - releases API (200): v0.9.5, published 2026-09-29
+- https://api.github.com/repos/simstudioai/sim/releases/latest - releases API (200): v0.9.5, published 2026-09-29 (re-fetched 2026-11-24 reading v0.9.66, published 2026-11-23)
 - https://hn.algolia.com/api/v1/items/46234186 - "Sim, Apache-2.0 n8n alternative" thread (200): 240 points, 61 comments, 2025-12-11
 - https://hn.algolia.com/api/v1/items/43823096 - first Show HN (200): 196 points, 58 comments, 2025-04-28
 - https://hn.algolia.com/api/v1/items/44052766 - Launch HN: Sim Studio, YC X25 (200): 55 points, 32 comments, 2025-05-21

@@ -1,9 +1,9 @@
 ---
 title: nodeterm
 created: 2026-11-01
-updated: 2026-11-19
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal, canvas, kanban]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, terminal, canvas, kanban]
 readability: 3
 audience_notes: >
   Engineers juggling many terminals and agent sessions across projects who lose track of stacked tabs.
@@ -24,8 +24,8 @@ By Enes Kirca as an indie project, repository created 2026-06-15, BUSL-1.1 licen
 
 ## Status
 
-Active: 2,287 stars, 264 forks, and 55 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-18, with releases through v0.5.1 (2026-11-06) plus a v0.5.2 prerelease (2026-11-17, quote-to-chat into a subagent conversation) and a Trendshift listing on the README.
-The installer download badge reads 18.8k across all releases as of 2026-11-15.
+Active: 2,287 stars, 264 forks, and 55 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-24, with releases through v0.5.3 (2026-11-23, a stable release that quotes selected text from an agent's conversation or terminal into its message box as a Markdown quote, opens a Claude subagent's transcript as a conversation that stays open while it works, and lists subagents under their session in the sidebar) after the v0.5.2 prerelease (2026-11-17, quote-to-chat into a subagent conversation) and v0.5.1 (2026-11-06), and a Trendshift listing on the README.
+The installer download badge reads 20.1k across all releases as of 2026-11-24, up from 18.8k on 2026-11-15.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=eneskirca/nodeterm&type=date&theme=dark&legend=top-left" />
@@ -50,7 +50,7 @@ Zero Hacker News stories found as of 2026-11-01; the footprint is the repository
 ## Pricing
 
 The desktop app is free.
-A Founding Sponsor tier costs $200 per month with ten spots (one taken as of 2026-11-01), buying a logo placement and priority feature requests.
+A Founding Sponsor tier costs $200 per month with ten spots (one taken as of 2026-11-24, re-fetched and unchanged since 2026-11-01), buying a logo placement and priority feature requests.
 
 ## Price history
 
@@ -76,6 +76,7 @@ Not for teams needing PR-centric review surfaces, and not for anyone requiring a
 - 2026-11-06 - Volatile refresh: Recorded v0.5.0 (2026-11-04) as the new latest release.
 - 2026-11-15 - Re-verified in rotation: all cited sources re-fetched and live (site, docs, README, license, downloads badge, repo, releases, HN search); the push date refreshed to 2026-11-14 and the installer-download badge to 18.8k (2026-11-15), v0.5.1 still the latest release.
 - 2026-11-19 - Volatile refresh: recorded the v0.5.2 prerelease (2026-11-17, quote-to-chat into a subagent conversation), v0.5.1 still the latest stable, the push date refreshed to 2026-11-18.
+- 2026-11-24 - Volatile refresh: recorded v0.5.3 (2026-11-23, quote-to-chat from a conversation or terminal, a Claude subagent readable as a conversation, subagents listed under their session) as the latest stable, the installer-download badge at 20.1k (2026-11-24), the push date refreshed to 2026-11-24; the sponsor tier re-fetched unchanged.
 
 ## See also
 
@@ -90,7 +91,8 @@ Not for teams needing PR-centric review surfaces, and not for anyone requiring a
 - https://raw.githubusercontent.com/eneskirca/nodeterm/HEAD/README.md - the canvas model, node kinds, Server Edition, sponsor tier, and license terms
 - https://raw.githubusercontent.com/eneskirca/nodeterm/HEAD/LICENSE - the BUSL-1.1 terms and the four-year MIT conversion
 - https://api.github.com/repos/eneskirca/nodeterm/releases?per_page=100 - the 70-release train through v0.4.5 (2026-10-24)
-- https://raw.githubusercontent.com/eneskirca/nodeterm/badges/downloads.json - the 18.8k installer-download badge as of 2026-11-15
+- https://api.github.com/repos/eneskirca/nodeterm/releases?per_page=6 - the train through v0.5.3 (2026-11-23), the v0.5.2 prerelease empty-bodied on this fetch (as of 2026-11-24)
+- https://raw.githubusercontent.com/eneskirca/nodeterm/badges/downloads.json - the installer-download badge, 18.8k as of 2026-11-15 and 20.1k as of 2026-11-24
 - https://nodeterm.dev/ - the product site
 - https://nodeterm.dev/docs - the documentation home
 - https://hn.algolia.com/api/v1/search?query=%22nodeterm%22&tags=(story,show_hn)&hitsPerPage=5 - the zero-story Hacker News footprint as of 2026-11-01

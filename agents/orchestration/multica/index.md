@@ -1,9 +1,9 @@
 ---
 title: Multica
 created: 2026-09-27
-updated: 2026-11-21
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, self-hosted, issue-tracking, agents-as-teammates]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, llm=glm-5.4, orchestration, self-hosted, issue-tracking, agents-as-teammates]
 readability: 3
 audience_notes: >
   Teams assigning work to coding agents on a shared board, weighing a source-available self-hosted platform.
@@ -23,7 +23,7 @@ It self-describes as supporting 26 agent CLIs (Claude Code, Codex, Cursor, Copil
 
 ## Status
 
-Actively shipped and unusually high-profile: about 52,857 stars and 6,913 forks as of 2026-10-15, created 2026-01-13, with 1,873 open issues and pull requests, pushed 2026-11-19, and a latest release of v0.11.1 on 2026-11-19 (doc and folder deletion restricted to creators and admins, and a dev-fixtures task kind holding a running agent) after v0.11.0 on 2026-11-18 (an @mention of an assigned squad leader running as a leader task, payload conditions on webhook event filters, and a native QR-linked WeChat integration) after v0.10.0 on 2026-11-16 (GitHub installation control verified before workspace binding, with daemon fixes; after v0.9.0 on 2026-11-13 and v0.8.2 on 2026-11-10; v0.8.1 on 2026-11-06; v0.8.0 on 2026-11-03 added native ZCode protocol support, MiniMax-M3 standard-tier pricing, and filesystem-allocated skill-name advertising; v0.7.2 was 2026-10-30, after v0.7.1 on 2026-10-27, a host-local Devin CLI over ACP, issue outlines carrying sub-issues, and mention parsing that skips code blocks; v0.7.0 was 2026-10-23, v0.6.5 2026-10-21, after the 2026-10-16 v0.6.3 that added project-workflow columns and handoffs and fixed Git-content preservation during artifact cleanup) (GitHub API, as of 2026-11-21).
+Actively shipped and unusually high-profile: about 52,857 stars and 6,913 forks as of 2026-10-15, created 2026-01-13, with 1,873 open issues and pull requests, pushed 2026-11-24, and a latest release of v0.12.1 on 2026-11-23 (quick-action management and run commands in the CLI, and duplicate references redacted per realtime reader in the activity feed) after v0.12.0 on 2026-11-23 (a guest role scoped to shared projects, Cloud guests released alongside what the changelog calls the commercial launch, and a cap on Free workspace members that excludes guests, with upgrade and invite paths) after v0.11.1 on 2026-11-19 (doc and folder deletion restricted to creators and admins, and a dev-fixtures task kind holding a running agent) after v0.11.0 on 2026-11-18 (an @mention of an assigned squad leader running as a leader task, payload conditions on webhook event filters, and a native QR-linked WeChat integration) after v0.10.0 on 2026-11-16 (GitHub installation control verified before workspace binding, with daemon fixes; after v0.9.0 on 2026-11-13 and v0.8.2 on 2026-11-10; v0.8.1 on 2026-11-06; v0.8.0 on 2026-11-03 added native ZCode protocol support, MiniMax-M3 standard-tier pricing, and filesystem-allocated skill-name advertising; v0.7.2 was 2026-10-30, after v0.7.1 on 2026-10-27, a host-local Devin CLI over ACP, issue outlines carrying sub-issues, and mention parsing that skips code blocks; v0.7.0 was 2026-10-23, v0.6.5 2026-10-21, after the 2026-10-16 v0.6.3 that added project-workflow columns and handoffs and fixed Git-content preservation during artifact cleanup) (GitHub API, as of 2026-11-24); the site changelog already lists a v0.12.2 dated 2026-11-24 that has no GitHub release yet (multica.ai changelog, as of 2026-11-24; the v0.12.2 tag is on GitHub with no release published, GitHub API, as of 2026-11-24).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=multica-ai/multica&type=date&theme=dark&legend=top-left" />
@@ -54,6 +54,7 @@ Releases land every one to three days, which corroborates real maintenance.
 
 No public price table was found on multica.ai as of 2026-09-27; the site offers a free trial and a "talk to sales" path, and self-hosting requires no hosted account.
 The source is available under the custom Multica License; agents run on your own provider accounts, and Multica does not charge for tokens.
+As of 2026-11-24 the pricing route on multica.ai serves no readable table, while v0.12.0's changelog (2026-11-23) names a cap on Free workspace members with an upgrade and invite path and Cloud guests released with the commercial launch; no hosted price table is recorded yet.
 
 ## Compared to
 
@@ -81,6 +82,7 @@ Not for solo developers running one agent, teams needing per-agent budget caps t
 - 2026-11-17 - Recorded v0.10.0 (2026-11-16, GitHub installation control verified before workspace binding) as the latest release, the push date refreshed to 2026-11-17.
 - 2026-11-19 - Volatile refresh: Recorded v0.11.0 (2026-11-18, squad-leader mention tasks, webhook payload conditions, and the QR-linked WeChat integration) as the latest release, the push date refreshed to 2026-11-19.
 - 2026-11-21 - Volatile refresh: Recorded v0.11.1 (2026-11-19, doc and folder deletion restricted to creators and admins) as the latest release.
+- 2026-11-24 - Volatile refresh: Recorded v0.12.0 and v0.12.1 (both 2026-11-23; a guest role scoped to shared projects, Cloud guests with the commercial launch, a Free workspace member cap, CLI quick-action commands) as the latest releases, the push date refreshed to 2026-11-24, and noted in Pricing that the changelog names a Free workspace member cap while no hosted price table is readable.
 
 ## See also
 
@@ -98,3 +100,7 @@ Not for solo developers running one agent, teams needing per-agent budget caps t
 - https://raw.githubusercontent.com/multica-ai/multica/HEAD/LICENSE - the custom Multica License and its hosted-service and commercial-embedding conditions
 - https://www.promptquorum.com/power-local-llm/multica-review - the star-count caveat, the license analysis, and the absence of a public price table
 - https://andrew.ooo/posts/multica-open-source-managed-agents-platform/ - independent review of the runtime abstraction and its limitations
+- https://api.github.com/repos/multica-ai/multica/releases?per_page=6 - the release feed, v0.12.1 and v0.12.0 (2026-11-23) back to v0.9.0 (2026-11-13), with the guest role, Cloud guests, and Free workspace member cap in the v0.12.0 notes (as of 2026-11-24).
+- https://multica.ai/changelog - the site's release list, which already carries a v0.12.2 dated 2026-11-24 with no GitHub release yet (as of 2026-11-24).
+- https://multica.ai/pricing - a script-rendered route serving no readable price table (as of 2026-11-24).
+- https://api.github.com/repos/multica-ai/multica/tags?per_page=3 - the tag list headed by v0.12.2, whose release is not published (the release-by-tag endpoint returns 404 and the feed tops at v0.12.1; fetched 2026-11-24)

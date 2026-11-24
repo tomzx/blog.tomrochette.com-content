@@ -1,9 +1,9 @@
 ---
 title: Atlas
 created: 2026-09-29
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, coding-agents, source-control, rust]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, multi-agent, coding-agents, source-control, rust]
 readability: 3
 audience_notes: >
   Developers running several coding agents against one codebase who want audit-grade history of which agent did what.
@@ -27,7 +27,9 @@ It surfaced as an entrant from the owner's GitHub stars.
 
 ## Status
 
-Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last push 2026-11-16, latest release alpha-0.5.1 on 2026-11-21 (a chores-only patch whose body is the bare "release 0.5.1"), after alpha-0.5.0 on 2026-11-20 (agent marks and labels resolving only through identity and living on registry change), after alpha-0.4.1-org-agent on 2026-11-03 and the alpha-0.3.x line that closed with alpha-0.3.4 on 2026-09-27, the 0.4 release bodies empty so the org-agent label is all the tag says while 0.5.0's body carries a changelog again and 0.5.1's does not (GitHub API, as of 2026-11-22).
+Active and growing fast: 9,601 stars in five months (as of 2026-10-15), last push 2026-11-23, latest release alpha-0.5.3 on 2026-11-23 (a changelog body again: `ci:local` jobs placed from a setting rather than from whether Docker is up, the chat permission card kept small when its title is a whole command, and the Windows MSI signed through SignPath), after alpha-0.5.1 on 2026-11-21 (a chores-only patch whose body is the bare "release 0.5.1") after alpha-0.5.0 on 2026-11-20 (agent marks and labels resolving only through identity and living on registry change), after alpha-0.4.1-org-agent on 2026-11-03 and the alpha-0.3.x line that closed with alpha-0.3.4 on 2026-09-27, the 0.4 release bodies empty so the org-agent label is all the tag says while 0.5.0's body carries a changelog again and 0.5.1's does not, and no alpha-0.5.2 on the release list, whose compare link runs from 0.5.1 to 0.5.3 (GitHub API, as of 2026-11-24).
+
+**The pitch widened on 2026-11-20 with the post "Introducing Atlas, the control layer for AI engineering teams": the site now titles Atlas "the AI engineering workspace and control layer for teams", and the post's unit is the team's record (one timeline for Claude Code, Codex, Cursor, and Atlas Agent sessions, shared memory every agent reads before it starts, a knowledge base in progress, merge scans in early access, and AI spend per session, commit, and pull request), a step past the per-agent checkpoint history this note opened on.**
 
 **The identity record moved: the repository transferred from pacifio's personal account into the tryatlas organization between the 2026-11-06 verification and this run, the old path a 301 redirect to tryatlas/atlas.**
 
@@ -51,16 +53,19 @@ I re-searched HN this run and still found no launch thread and no third-party co
 
 ## Cautions
 
-- Alpha software (versioned alpha-0.4.x): expect breaking changes, and the squash-merged conventional-commit flow confirms churn.
+- Alpha software (versioned alpha-0.5.x as of 2026-11-24): expect breaking changes, and the squash-merged conventional-commit flow confirms churn.
 - **The community footprint outside GitHub is missing**: no HN thread, no independent reviews I could find, so the 8.3k stars have no public scrutiny behind them yet.
 - Small-team scale with 362 forks (as of 2026-11-08) and an alpha cadence; bus-factor risk is unquantified.
 - The Linux packages need WebKitGTK 4.1 and notify rather than auto-install their updates, and building from source still means a first Rust compile in minutes, not seconds.
 
 ## Pricing
 
-The app is still free in the alpha with bring-your-own keys, but the site now lists paid plans: Free $0 (3 members), Pro $20 per month (5 members, 10 GB session storage, $8 of included AI, 20M vectorization tokens), Team $100 per month (25 members, 50 synced projects, 100 GB, $40 AI, 100M tokens), and Business $200 per month (100 members, unlimited synced projects, 500 GB, $80 AI, 300M tokens), all four prices unchanged today (tryatlas.cc, as of 2026-11-08).
-The tier features moved under the same prices: Remote Runs now sits on Team and Business only, Pro reads Not included, and the table adds per-thread caps of 8 participants and 4 concurrent runs on the low tiers against 25 and 10 on Business.
+The site replaced its four workspace tiers with per-seat pricing (tryatlas.cc, as of 2026-11-24).
+Community is free for up to three members with unlimited synced projects and your own AI subscription.
+Team costs $29 per seat per month and includes the shared timeline and memory, remote control, and $10 of AI, 5 GB, and 200 scans a seat.
+Enterprise is quoted on a call and metered on usage: codebase indexing per repository synced, agent AI per token, simulations per run, and automatic fixes per fix.
 The Apache-2.0 repository itself is unchanged.
+The earlier table (Free, Pro $20, Team $100, Business $200 per month) is kept in the price history.
 
 ## Price history
 
@@ -68,6 +73,7 @@ The Apache-2.0 repository itself is unchanged.
 | ---- | ---- | ------ | ------ |
 | 2026-10-18 | Free, Pro, Team, Business | Paid tiers first observed: no pricing page existed at creation (2026-09-29) or at the 2026-10-15 verification; site now lists Pro $20, Team $100, Business $200 per month beside the free tier | https://www.tryatlas.cc |
 | 2026-11-08 | Pro, Team, Business | Prices unchanged; Remote Runs moved from Pro to Team and Business (Pro now Not included) | https://www.tryatlas.cc |
+| 2026-11-24 | Community, Team, Enterprise | Pro $20, Team $100, and Business $200 per month retired: Team now $29 per seat per month, Community free for up to three members (announced 2026-11-20), Enterprise usage-metered and quoted on a call | https://www.tryatlas.cc |
 
 ## Compared to
 
@@ -95,6 +101,9 @@ Not for teams needing a stable 1.0 or a tool with independent community validati
 - 2026-11-17 - Re-verified in rotation (every cited URL re-fetched live: repo API, both release endpoints, README, architecture doc, install docs, site with pricing unchanged, explorer and chat docs, the CLI sibling, and the HN search still without a product story); claims hold, alpha-0.4.1-org-agent still the latest release, the push date refreshed to 2026-11-16.
 - 2026-11-21 - Volatile refresh: Recorded alpha-0.5.0 (2026-11-20, agent identity resolution) as the latest release, the first 0.5 alpha and the first release on the line whose body carries a changelog again.
 - 2026-11-22 - Volatile refresh: Recorded alpha-0.5.1 (2026-11-21, a chores-only patch with the bare release body) as the latest release.
+- 2026-11-24 - Volatile refresh: Recorded alpha-0.5.3 (2026-11-23, ci:local job placement from a setting, the chat permission card kept small, the Windows MSI signed through SignPath) as the latest release, the push date refreshed to 2026-11-23.
+- 2026-11-24 - Recorded the pricing change: the Pro, Team, and Business workspace tiers (Pro $20, Team $100, Business $200 per month) replaced by Team at $29 per seat per month, a free Community plan for up to three members, and a usage-metered Enterprise, with a Price history row.
+- 2026-11-24 - Recorded the 2026-11-20 repositioning to the control layer for AI engineering teams (one team timeline, shared memory, a knowledge base in progress, merge scans in early access, AI spend per commit) in Status; the definition is kept.
 
 ## See also
 
@@ -105,13 +114,14 @@ Not for teams needing a stable 1.0 or a tool with independent community validati
 
 ## References
 
-- https://api.github.com/repos/tryatlas/atlas - GitHub API (200): 362 forks, Apache-2.0, TypeScript top language, pushed 2026-11-08, created 2026-05-14 (as of 2026-11-08)
-- https://api.github.com/repos/tryatlas/atlas/releases/latest - releases API (200): alpha-0.4.1-org-agent, published 2026-11-03, macOS and Windows assets, body empty
+- https://api.github.com/repos/tryatlas/atlas - GitHub API (200): 369 forks, Apache-2.0, TypeScript top language, pushed 2026-11-23, created 2026-05-14 (as of 2026-11-24)
+- https://api.github.com/repos/tryatlas/atlas/releases/latest - releases API (200): alpha-0.5.3, published 2026-11-23, with a changelog body (as of 2026-11-24)
 - https://api.github.com/repos/tryatlas/atlas/releases/tags/alpha-0.4.1 - releases API (200): the Linux assets (.deb, .rpm, AppImage, Arch package, tar.gz), published 2026-10-19
 - https://raw.githubusercontent.com/tryatlas/atlas/main/README.md - README (200): checkpoints, side-by-side agents, shared memory, team timeline and remote control, per-platform downloads, Atlas CLI, build requirements
 - https://raw.githubusercontent.com/tryatlas/atlas/main/docs/architecture.md - architecture doc (200): Tauri v2, React 19 TypeScript frontend over a Rust backend, storage layout
 - https://docs.tryatlas.cc/docs/getting-started/install - install docs (200): per-platform downloads, Linux packages install `atl` and `tryatlas`, WebKitGTK 4.1 requirement, Linux updates notify only
-- https://www.tryatlas.cc - official website, live (200): the four-tier pricing table with Remote Runs on Team and Business
+- https://www.tryatlas.cc - official website, live (200): on 2026-11-08 the four-tier pricing table with Remote Runs on Team and Business; on 2026-11-24 the per-seat pricing block (Community free for up to three members, Team $29 per seat per month, Enterprise metered on usage and quoted on a call) and the page title "the AI engineering workspace and control layer for teams"
+- https://www.tryatlas.cc/blog/introducing-atlas - the 2026-11-20 launch post, "Introducing Atlas, the control layer for AI engineering teams": one team timeline, shared memory, the knowledge base in progress, merge scans in early access, AI spend per commit, and the free Community plan for up to three members
 - https://docs.tryatlas.cc/docs/product/explorer - official documentation, live (200)
 - https://docs.tryatlas.cc/docs/product/chat - official documentation, sessions, comments, and the session-to-worktree binding, live (200)
 - https://github.com/tryatlas/cli - the vendor sibling CLI's repository: Apache-2.0, 3 stars (as of 2026-11-08), macOS and Linux

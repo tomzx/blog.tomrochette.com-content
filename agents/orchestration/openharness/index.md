@@ -1,9 +1,9 @@
 ---
 title: OpenHarness
 created: 2026-10-24
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agentic-development-environment, multi-agent, encryption, hardware]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, agentic-development-environment, multi-agent, encryption, hardware]
 readability: 3
 audience_notes: >
   Engineers running several coding-agent CLIs across more than one machine who want one
@@ -26,8 +26,8 @@ An experimental Agent Messages surface lets harnesses in one tab message each ot
 
 ## Status
 
-Active and young: the repository was created 2026-08-04, held 1,358 stars and 125 forks as of 2026-10-24, and was pushed 2026-11-19 (GitHub API, as of 2026-11-19).
-The release train runs two lines: a CLI stable line that stepped from the `v0.4.x` tags (v0.4.97_cli, 2026-10-28) onto `v0.5.x` with v0.5.66_cli on 2026-11-07 (v0.5.60_cli on 2026-11-06, itself after v0.5.38_cli on 2026-11-04 and v0.5.31_cli on 2026-11-03 carrying merge batches plus a Harness OS 0.1.14 build), then onto `v0.6.x` on 2026-11-12 with a same-day burst through v0.6.47_cli (v0.6.38 through v0.6.47 all landing 2026-11-12), v0.6.56_cli on 2026-11-13, v0.6.57_cli on 2026-11-16 (the dial wave: herdr's agents listed, followed, and spoken to over herdr's socket, tmux and VS Code agents reachable with the app closed, and the dial's state exposed to Orca through a plugin), and v0.6.60_cli on 2026-11-17 (Claude Code and Codex reaching the dial with no setting, and a program keeping one harness when ensured), the CLI line then bursting from v0.6.62_cli through v0.6.71_cli across 2026-11-18 and 2026-11-19 (a held agent saying why: a missing helper or replaced program is a named state that wait, show, watch, and ps read, and Linux following the XDG Base Directory paths) and on to v0.6.79_cli (2026-11-21, Harness Pro reporting how many agents of each app are working, and the Claude and ChatGPT apps' dial sessions and follow running on Windows and Linux) and v0.6.80_cli on 2026-11-22 (the dial's eval for the Claude and ChatGPT apps: tiers A and B, a 0-100 score per app, the wrong-session gate, and the baseline, plus an agent browser spec), and a desktop-and-web line that stepped from `v1.3.x` onto `v1.4.x` the same day, v1.4.8_desktop (2026-11-07) following v1.3.89_desktop (2026-11-07), which follows v1.3.59_desktop (2026-11-04), v1.3.44_desktop, and a web line through v1.3.99_web (2026-11-06), after v1.3.83_web (2026-10-30) and the earlier browser builds served from harness.autonomous.ai, with the desktop line then bursting to v1.4.49_desktop on 2026-11-13, v1.4.50_desktop on 2026-11-16 (removing Swarm and its retired settings, and opening an agent's Browser in a pane beside its terminal), v1.4.51_desktop on 2026-11-17, the web line following onto `v1.4.x` at v1.4.2_web (2026-11-17) through v1.4.4_web (2026-11-19) and v1.4.8_web (2026-11-21, a website-only update with the existing app bundle preserved), and the desktop line continuing with v1.4.52_desktop on 2026-11-18 (installing the Harness menu-bar app when a dial is plugged in, and the dial scroll reaching the agent terminal in Herdr tab on one route with VS Code) and v1.4.53_desktop on 2026-11-19 (GitHub releases, as of 2026-11-22).
+Active and young: the repository was created 2026-08-04, held 1,358 stars and 125 forks as of 2026-10-24, and was pushed 2026-11-24 (GitHub API, as of 2026-11-24).
+The release train runs two lines: a CLI stable line that stepped from the `v0.4.x` tags (v0.4.97_cli, 2026-10-28) onto `v0.5.x` with v0.5.66_cli on 2026-11-07 (v0.5.60_cli on 2026-11-06, itself after v0.5.38_cli on 2026-11-04 and v0.5.31_cli on 2026-11-03 carrying merge batches plus a Harness OS 0.1.14 build), then onto `v0.6.x` on 2026-11-12 with a same-day burst through v0.6.47_cli (v0.6.38 through v0.6.47 all landing 2026-11-12), v0.6.56_cli on 2026-11-13, v0.6.57_cli on 2026-11-16 (the dial wave: herdr's agents listed, followed, and spoken to over herdr's socket, tmux and VS Code agents reachable with the app closed, and the dial's state exposed to Orca through a plugin), and v0.6.60_cli on 2026-11-17 (Claude Code and Codex reaching the dial with no setting, and a program keeping one harness when ensured), the CLI line then bursting from v0.6.62_cli through v0.6.71_cli across 2026-11-18 and 2026-11-19 (a held agent saying why: a missing helper or replaced program is a named state that wait, show, watch, and ps read, and Linux following the XDG Base Directory paths) and on to v0.6.79_cli (2026-11-21, Harness Pro reporting how many agents of each app are working, and the Claude and ChatGPT apps' dial sessions and follow running on Windows and Linux) and v0.6.80_cli on 2026-11-22 (the dial's eval for the Claude and ChatGPT apps: tiers A and B, a 0-100 score per app, the wrong-session gate, and the baseline, plus an agent browser spec), then v0.6.81_cli through v0.6.85_cli across 2026-11-22 and 2026-11-23 (a dial eval for VS Code and Cursor with voice typed into the focused terminal, a Needs-you ask that agents raise without blocking and the dial shows with its recommendation, and dial usage kept as counts only), and a desktop-and-web line that stepped from `v1.3.x` onto `v1.4.x` the same day, v1.4.8_desktop (2026-11-07) following v1.3.89_desktop (2026-11-07), which follows v1.3.59_desktop (2026-11-04), v1.3.44_desktop, and a web line through v1.3.99_web (2026-11-06), after v1.3.83_web (2026-10-30) and the earlier browser builds served from harness.autonomous.ai, with the desktop line then bursting to v1.4.49_desktop on 2026-11-13, v1.4.50_desktop on 2026-11-16 (removing Swarm and its retired settings, and opening an agent's Browser in a pane beside its terminal), v1.4.51_desktop on 2026-11-17, the web line following onto `v1.4.x` at v1.4.2_web (2026-11-17) through v1.4.4_web (2026-11-19) and v1.4.8_web (2026-11-21, a website-only update with the existing app bundle preserved), and the desktop line continuing with v1.4.52_desktop on 2026-11-18 (installing the Harness menu-bar app when a dial is plugged in, and the dial scroll reaching the agent terminal in Herdr tab on one route with VS Code) and v1.4.53_desktop on 2026-11-19, then v1.4.54_desktop on 2026-11-20 (the desktop setting up and managing Intern 3 as the phone does, OpenClaw message handling fixes, and dial voice recordings reaching the agent in one-minute pieces on a slow uplink), a release the 2026-11-21 and 2026-11-22 refreshes missed when they recorded the desktop line unmoved (GitHub releases, as of 2026-11-24).
 Autonomous launched it publicly in mid-October 2026, and the launch coverage recorded 213 Product Hunt upvotes about seven hours into launch day and about 3,553 commits at 1,266 stars (Reveneau, 2026-10-16).
 
 <picture>
@@ -59,6 +59,7 @@ Independent coverage is launch echo only: the news roundups restate the vendor's
 
 The app, CLI, daemon, and relay are free and MIT-licensed.
 Autonomous sells the desk hardware beside it: the Harness Device at $149 and the Harness Pro display at $299 (as of 2026-10-24).
+On 2026-11-24 the vendor page listed both on sale, the Device at $129 and the Pro at $249, the list prices struck through beside them.
 
 ## Price history
 
@@ -67,6 +68,7 @@ Autonomous sells the desk hardware beside it: the Harness Device at $149 and the
 | 2026-10-24 | Harness app | free, open source at note creation | https://www.autonomous.ai/harness |
 | 2026-10-24 | Harness Device | introduced at $149 | https://www.autonomous.ai/harness |
 | 2026-10-24 | Harness Pro | introduced at $299 | https://www.autonomous.ai/harness |
+| 2026-11-24 | Harness Device, Harness Pro | sale prices: Device $129 (list $149) and Pro $249 (list $299) | https://www.autonomous.ai/harness |
 
 ## Compared to
 
@@ -92,6 +94,8 @@ Not for Windows users, and not for anyone who needs independent performance evid
 - 2026-11-19 - Volatile refresh: recorded the CLI line bursting to v0.6.71_cli, desktop v1.4.52_desktop (menu-bar app on dial plug-in, dial scroll into Herdr tabs) and v1.4.53_desktop (held agents saying why), and the web line stepping onto v1.4.2 through v1.4.4_web, the push date refreshed to 2026-11-19.
 - 2026-11-21 - Volatile refresh: recorded v0.6.79_cli (2026-11-21, Harness Pro app ring counts, dial sessions and follow on Windows and Linux) on the CLI line and v1.4.8_web (2026-11-21, website-only update) on the web line.
 - 2026-11-22 - Volatile refresh: recorded v0.6.80_cli (2026-11-22, dial eval for the Claude and ChatGPT apps: tiers A and B, a 0-100 score per app, the wrong-session gate, and the baseline) on the CLI line, the desktop line unmoved at v1.4.53_desktop.
+- 2026-11-24 - Re-verified in rotation: every cited URL re-fetched live (repo API, README, the architecture and engines docs, the vendor page, llms.txt, the HN search, and the launch coverage; the fourteen-engine table and transport model as recorded); recorded v0.6.81_cli through v0.6.85_cli (2026-11-22 and 2026-11-23, the VS Code and Cursor dial eval, Needs-you asks raised without blocking) and v1.4.54_desktop (2026-11-20, Intern 3 setup from the desktop, OpenClaw message fixes, dial voice uploads in one-minute pieces), which the two prior refreshes missed, the push date refreshed to 2026-11-24.
+- 2026-11-24 - Recorded the hardware sale prices on the vendor page, Harness Device $129 and Harness Pro $249 against the $149 and $299 list prices, with a Price history row.
 
 ## See also
 
@@ -107,7 +111,7 @@ Not for Windows users, and not for anyone who needs independent performance evid
 - https://raw.githubusercontent.com/autonomous-ai/openharness/main/README.md - the product surface, transport model, store catalog, and device
 - https://raw.githubusercontent.com/autonomous-ai/openharness/main/docs/architecture.md - the daemon, session registry, E2EE stack, and ownership boundaries
 - https://raw.githubusercontent.com/autonomous-ai/openharness/main/docs/engines.md - the fourteen-engine table and the auto-approve default
-- https://www.autonomous.ai/harness - the vendor page and the $149 and $299 hardware prices
+- https://www.autonomous.ai/harness - the vendor page and the $149 and $299 hardware prices; on 2026-11-24 the same list prices struck through beside sale prices of $129 and $249
 - https://harness.autonomous.ai/llms.txt - the agent-facing CLI contract, consent gating, and agent limits
 - https://hn.algolia.com/api/v1/search?query=openharness&tags=story - the nine name-collision hits and the absent HN footprint
 - https://reveneau.com/ainews/openharness-autonomous-command-center-coding-agents-mit-1266-stars - the launch facts and the vendor-measurement caveat

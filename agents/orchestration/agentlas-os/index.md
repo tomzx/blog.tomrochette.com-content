@@ -1,9 +1,9 @@
 ---
 title: Agentlas OS
 created: 2026-10-07
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, hub, orchestrator, local-first, host-embedded]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, hub, orchestrator, local-first, host-embedded]
 readability: 3
 audience_notes: >
   Engineers wiring specialist agent teams into existing coding-agent hosts, who
@@ -21,8 +21,9 @@ Beside the hub it ships Agent Mail (an inbox and draft-review flow for the orche
 
 ## Status
 
-Active and young: 1,583 stars, a push on 2026-11-18, and release os-v1.2.99 on 2026-11-17 (memory rules 1.17.0: what a person says about their own life kept as a `fact` every agent of theirs uses, `preference` scoped to how one agent answers them, and a `boundary` object accepted by `memory.record` and the ticket schema) after os-v1.2.98 on 2026-11-15 (the memory-layout release: memory kept in four places, personal, agent, project, and session, read across with one recall rule, `memory.record` writes by the working model, agent folders under `~/.agentlas/agents`, and a Windows long-path fix) after v1.2.97 on 2026-11-13 after v1.2.95 on 2026-11-09 (an `os-v1.2.96` tag the same day), v1.2.88 on 2026-11-07, and v1.2.86 on 2026-11-06 (v1.2.71 was October 29, v1.2.70 October 27, and v1.2.67 October 20, when Hub search candidates began carrying their own listing taglines) as of 2026-11-19 (GitHub API, releases), on a repository created 2026-06-04.
+Active and young: 1,583 stars, a push on 2026-11-21, and release os-v1.2.99 on 2026-11-17 (memory rules 1.17.0: what a person says about their own life kept as a `fact` every agent of theirs uses, `preference` scoped to how one agent answers them, and a `boundary` object accepted by `memory.record` and the ticket schema) after os-v1.2.98 on 2026-11-15 (the memory-layout release: memory kept in four places, personal, agent, project, and session, read across with one recall rule, `memory.record` writes by the working model, agent folders under `~/.agentlas/agents`, and a Windows long-path fix) after v1.2.97 on 2026-11-13 after v1.2.95 on 2026-11-09 (an `os-v1.2.96` tag the same day), v1.2.88 on 2026-11-07, and v1.2.86 on 2026-11-06 (v1.2.71 was October 29, v1.2.70 October 27, and v1.2.67 October 20, when Hub search candidates began carrying their own listing taglines) as of 2026-11-19 (GitHub API, releases), on a repository created 2026-06-04.
 Beside the engine line the README now fronts a desktop product: Agentlas Desktop, a macOS, Windows, and Linux app distributed through the separate agentlas-desktop-releases repository, whose release list sits at 2.0.11 (2026-11-22), with an Android phone app on Google Play, an iOS app promised, and a self-reported 12,000-plus desktop downloads claim, the README commits of 2026-11-21 having retitled the pitch around this "2.0 desktop app" and "2.0 phone app" (README re-fetched 2026-11-22).
+The project site now frames Agentlas 2.0 as a research preview you reserve a spot for, while listing Agentlas Desktop v2.0.11 as the current release (agentlas.cloud, as of 2026-11-24).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentlas-ai/Agentlas-OS&type=date&theme=dark&legend=top-left" />
@@ -79,6 +80,7 @@ Not for locked-down machines where an installer that rewrites host configuration
 - 2026-11-16 - Recorded os-v1.2.98 (2026-11-15, the four-place memory layout with `memory.record` writes and a Windows long-path fix) as the latest release, the push date refreshed to 2026-11-15.
 - 2026-11-19 - Volatile refresh: recorded os-v1.2.99 (2026-11-17, memory rules 1.17.0 splitting `fact` from `preference` with a `boundary` object on `memory.record`), the push date refreshed to 2026-11-18.
 - 2026-11-22 - Volatile refresh: recorded the desktop push, the 2026-11-21 README commits retitling the pitch around the Agentlas Desktop 2.0 app (agentlas-desktop-releases at 2.0.11, 2026-11-22) and the 2.0 phone app on Google Play, plus the affiliate partner banner and the self-reported 12,000-plus download claim, the engine release line unmoved at os-v1.2.99.
+- 2026-11-24 - Re-verified in rotation: every cited URL re-fetched live (repository, the desktop distribution repository, site, the desktop page, the installer script, the release list); the engine line unmoved at os-v1.2.99 (2026-11-17) and the desktop list at 2.0.11 (2026-11-22), the installer and README claims as recorded, and the push date refreshed to 2026-11-21; the desktop page's URL now redirects to agentlas.cloud/studio, which pitches Agentlas 2.0 as a research preview.
 
 ## See also
 
@@ -92,6 +94,6 @@ Not for locked-down machines where an installer that rewrites host configuration
 - https://github.com/agentlas-ai/Agentlas-OS - the repository, README host list, hub economics, stars, and releases.
 - https://github.com/agentlas-ai/agentlas-desktop-releases - the separate desktop distribution repository, Agentlas Desktop 2.0.11 (2026-11-22) its latest release (fetched 2026-11-22).
 - https://agentlas.cloud - the project site and its "Put an AI team on your next idea" positioning.
-- https://agentlas.cloud/desktop - the desktop download page for macOS, Windows, and Linux.
+- https://agentlas.cloud/studio#desktop-install - the desktop download page for macOS, Windows, and Linux, and the Agentlas 2.0 research-preview pitch (the agentlas.cloud/desktop path cited earlier redirects here, as of 2026-11-24).
 - https://raw.githubusercontent.com/agentlas-ai/Agentlas-OS/main/scripts/install-all-runtimes.sh - the installer script, including the AI-facing install block and the host config files it writes.
 - https://github.com/agentlas-ai/Agentlas-OS/releases - the release list, v1.2.57 (2026-10-06) latest at verification.

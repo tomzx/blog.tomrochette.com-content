@@ -1,9 +1,9 @@
 ---
 title: Open Swarm
 created: 2026-09-27
-updated: 2026-11-21
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, mission-control, human-in-the-loop, worktrees]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, llm=glm-5.4, orchestration, mission-control, human-in-the-loop, worktrees]
 readability: 3
 audience_notes: >
   Engineers who want to launch and approve several agents from one local dashboard.
@@ -27,7 +27,7 @@ It targeted macOS; Windows and Linux builds were documented as planned.
 **Pivoted to proprietary: the open-source mission-control canvas documented here is no longer being developed.**
 The repository now states that OpenSwarm "has moved in a new direction, and its development no longer happens here", holds only the signed builds that installed copies check for updates, and declares the software proprietary (README fetched 2026-10-12).
 The git history was replaced: the repo carries a single commit dated 2026-10-03 ("releases shell"), where the note's earlier verifications recorded an active source tree, and GitHub's license detection moved from AGPL-3.0 to NOASSERTION.
-A v1.8.0 stable build was published on 2026-10-11 as a signed artifact, after the experimental line (exp.2 through exp.6, September 23 to October 6) this note tracked; the shell's build train has since moved onto a v1.8.1 prerelease line, with exp.4 and exp.5 landing 2026-11-17 and 2026-11-18 (GitHub releases, as of 2026-11-21), builds for installed copies' update checks rather than a return of open development.
+A v1.8.0 stable build was published on 2026-10-11 as a signed artifact, after the experimental line (exp.2 through exp.6, September 23 to October 6) this note tracked; the shell's build train has since moved onto a v1.8.1 prerelease line, with exp.4 and exp.5 landing 2026-11-17 and 2026-11-18 and exp.6 on 2026-11-21, and then a v1.8.1 stable build on 2026-11-24 (more than 600 fixes since 1.8.0 by its own count: stalled or failed replies carrying on by themselves, undo on the board, new models including Claude Haiku 5.5 and GPT-6.2 Sol and Astra with a ChatGPT sign-in, and chats using the Claude plan before the API key) (GitHub releases, as of 2026-11-24), builds for installed copies' update checks rather than a return of open development.
 The company behind the new direction, Open Swarm Inc., runs a waitlist-gated consumer assistant whose agents act on Gmail, Calendar, and Drive, with a privacy policy effective October 3, 2026 that covers advertising pixels, session recordings, and hashed-email ad measurement, the opposite of the no-telemetry positioning this note originally recorded.
 The last open-source state documented below is the AGPL-3.0 experimental line, about 826 stars and 171 forks as of 2026-10-12 (repository created 2026-03-13).
 
@@ -83,6 +83,7 @@ The note stays as the category's second pivot record, after Flowise's archive, a
 - 2026-11-06 - Re-verified in rotation: every cited URL re-fetched and live (the privacy policy URL now redirects to www.openswarm.com/privacy/); the pivot state is unchanged, no factual drift.
 - 2026-11-15 - Re-verified in rotation: every cited URL re-fetched and live (repo, README, privacy policy, releases, HN thread, the directory entry); the pivot state is unchanged, the repo's 2026-11-12 push touched no default-branch commit, no factual drift.
 - 2026-11-21 - Volatile refresh: recorded the shell's build train moving onto a v1.8.1 prerelease line (exp.4 and exp.5, 2026-11-17 and 2026-11-18), update-channel builds rather than open development.
+- 2026-11-24 - Volatile refresh: recorded exp.6 (2026-11-21) and the v1.8.1 stable build (2026-11-24, more than 600 fixes since 1.8.0 by its own count, undo on the board, new models) on the shell's build train, still update-channel builds rather than open development.
 
 ## See also
 
@@ -99,7 +100,7 @@ The note stays as the category's second pivot record, after Flowise's archive, a
 - https://api.github.com/repos/openswarm-ai/openswarm - the pivot-state repository: 826 stars, NOASSERTION license detection, 2026-10-03 update date (fetched 2026-10-12)
 - https://api.github.com/repos/openswarm-ai/openswarm/readme - the pivot README: "moved in a new direction", signed builds only, proprietary declaration (fetched 2026-10-12)
 - https://api.github.com/repos/openswarm-ai/openswarm/commits - the single-commit history dated 2026-10-03, the replaced git history (fetched 2026-10-12)
-- https://api.github.com/repos/openswarm-ai/openswarm/releases - the release list ending at v1.8.0 (2026-10-11) after the exp.2-exp.6 line (fetched 2026-10-12)
+- https://api.github.com/repos/openswarm-ai/openswarm/releases - the release list ending at v1.8.0 (2026-10-11) after the exp.2-exp.6 line (fetched 2026-10-12); re-fetched 2026-11-24 with the v1.8.1 exp.4 through exp.6 prereleases and the v1.8.1 stable build of 2026-11-24
 - https://news.ycombinator.com/item?id=47593100 - the author's Show HN post and the cost and approval rationale
 - https://openorchestrators.org/ - the curated directory's Open Swarm entry
 - https://openswarm.com/privacy - now the Open Swarm Inc. consumer-assistant privacy policy effective 2026-10-03 (waitlist, ad pixels, session recordings), re-fetched 2026-10-12; the same URL grounded the old no-telemetry positioning when this note was created

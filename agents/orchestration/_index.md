@@ -16,6 +16,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Agent Orchestrator](agent-orchestrator/index.md) - the Apache-2.0 Electron kanban workspace over a Go daemon supervising 26-plus coding CLIs, at 13.2k stars under its fourth organization name.
 - [Agent Swarm](agent-swarm/index.md) - the MIT self-hosted lead/worker platform turning Slack, GitHub, GitLab, Linear, and email intake into pull requests from Docker-isolated workers.
 - [Agent Teams](agent-teams/index.md) - the free AGPL desktop app running boss-and-team coding-agent hierarchies across nine CLIs with file- and hunk-level review controls.
+- [Agent Zero](agent-zero/index.md) - the MIT self-hosted general-purpose agent that works inside its own Linux sandbox over a terminal, browser, and desktop apps and spawns sub-agents at run time, 19,966 stars as of 2026-11-24 with almost no discussion and a third-party-reported security record.
 - [AgentBox](agentbox/index.md) - the MIT CLI that teleports whole projects into sandboxed VM boxes on Docker or five clouds, with sub-second warm checkpoints and host-held credentials.
 - [AgentGrid](agentgrid/index.md) - the closed-source desktop canvas arranging agents, terminals, browsers, and diffs as panes, with a master agent delegating to workers over MCP.
 - [Agentlas OS](agentlas-os/index.md) - the Apache-2.0 local-first hub keeping specialist agents on hand and spinning up a temporary orchestrator per task inside Claude Code, Codex, Cursor, Gemini, and Antigravity.
@@ -37,6 +38,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Claude Squad](claude-squad/index.md) - free AGPL terminal app running multiple coding agents in tmux, each in its own worktree.
 - [ClawTeam](clawteam/index.md) - HKUDS's MIT Python swarm CLI where a leader agent spawns worktree-and-tmux workers that coordinate through CLI mailboxes, 5.5k stars and silent since May 2026.
 - [CLI Agent Orchestrator](cli-agent-orchestrator/index.md) - AWS Labs' Apache-2.0 Python supervisor running twelve provider coding CLIs in isolated tmux sessions behind a local server, Web UI, and MCP surface.
+- [Cloudroom](cloudroom/index.md) - the Apache-2.0 desktop app and Rust core running coding-agent harnesses in one cloud sandbox per thread on the subscriptions you already pay for, moving a live session between laptop and cloud, 1,841 stars as of 2026-11-24.
 - [cmux](cmux/index.md) - Manaflow's libghostty macOS terminal for parallel agents, notification rings free, cloud execution paid (Pro $50, Max $200 monthly).
 - [Commonly](commonly/index.md) - Team-Commonly's Apache-2.0 team-pod workspace where each member's coding agents join one chat and one board as named members, v3.0.0, zero coverage so far.
 - [Concord MCP](concord-mcp/index.md) - the MIT MCP server and CLI giving coding agents sharing one checkout a claim ledger, live messaging, handoffs, and review packets, with an early-access cloud tier at $15 per seat.
@@ -64,6 +66,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Ivy Tendril](ivy-tendril/index.md) - Ivy Interactive's source-available desktop software factory planning, drafting in parallel worktrees, and reviewing any CLI agent's work into pull requests, mid-rewrite in a TypeScript-and-Rust successor, 203 stars as of 2026-10-24.
 - [Jean](jean/index.md) - the Coolify team's Apache-2.0 Tauri dev environment giving every task its own worktree across nine coding CLIs, with local and jean-server projects in one sidebar and a token-authenticated web UI.
 - [JetBrains Air](jetbrains-air/index.md) - the standalone agentic environment running Codex, Claude Agent, Gemini CLI, and Junie in parallel, isolated per task and bundled with the AI subscription.
+- [Kortix](kortix/index.md) - the Elastic License 2.0 agent platform formerly Suna that runs always-on company agents on per-session cloud computers from agents declared as files in a git repository, 20,789 stars as of 2026-11-24.
 - [Lanes](lanes/index.md) - the macOS board workspace running parallel PTY agent sessions on worktrees, with a self-hostable MCP access layer.
 - [LangGraph](langgraph/index.md) - LangChain's MIT graph runtime for stateful agents, 3.8M npm downloads a week, durable execution and interrupts with LangSmith as the separate commercial layer.
 - [LobeHub](lobehub/index.md) - LobeChat's pivot into a Chief Agent Operator that hires, schedules, and reports on agents around the clock.
@@ -195,3 +198,6 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-11-01 - Added termio.
 - 2026-11-06 - Added Concord MCP.
 - 2026-11-07 - Added PandaCode.
+- 2026-11-24 - Added Agent Zero.
+- 2026-11-24 - Added Cloudroom.
+- 2026-11-24 - Added Kortix.
