@@ -1,9 +1,9 @@
 ---
 title: Copilot CLI
 created: 2026-10-05
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, github, microsoft, terminal]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, github, microsoft, terminal]
 readability: 3
 audience_notes: >
   Engineers choosing a terminal coding agent, especially ones already holding a Copilot seat or living inside GitHub's ecosystem.
@@ -29,7 +29,7 @@ Distribution is npm (`@github/copilot`), a Homebrew cask, WinGet, an install scr
 
 **Active and enormous in distribution.**
 Public preview launched September 25, 2025, and general availability followed on February 25, 2026.
-The npm package's latest stable build is 1.0.114 (published November 18, 2026, with the prerelease tag at 1.0.115-6, the 1.0.115-0 through 1.0.115-6 prereleases running November 19 to 21 behind the unchanged stable, and a notes body listing only fixes and changes without detail), after 1.0.113 (November 17, letting administrators disable built-in Browser Use with the features.browserUse managed setting, including in running sessions), after 1.0.112 (November 13, 2026, promoting the 1.0.112-0 prerelease the same day), which passes the model provider's error message through on a failed /compact without the internal host-rethrow prefix, keeps pasted text in prompts the CLI does not send yet so a second Enter sends the paste instead of the placeholder, fixes the plugin manager showing unloaded repository plugins as enabled, documents that macOS sandbox host rules block direct TCP connections to local ports while localhost stays reachable through the proxy, lists a Microsoft 365 account among the sign-ins that can run workflows, and fixes the /subagents model picker reopening for the same agent, after 1.0.111 (also November 13, adding regular expression support to enterprise-managed Shell, Bash, and PowerShell permission rules, a `--host-allow-session-creation` flag letting remote clients create sessions on CLI hosts for one launch, a /usage premium-request refresh, and duplicate MCP OAuth reconnect prevention), after 1.0.110 (November 12, 2026, promoting the masked git, ssh, and sudo password dialog out of the prerelease train), and it did 7,242,162 downloads in npm's trailing-month window (October 20 to November 19) as of 2026-11-19, among the largest npm install bases of any harness in this section.
+The npm package's latest stable build is 1.0.114 (published November 18, 2026, with the prerelease tag at 1.0.115-8, the 1.0.115-0 through 1.0.115-8 prereleases running November 19 to 23 behind the unchanged stable), after 1.0.113 (November 17, letting administrators disable built-in Browser Use with the features.browserUse managed setting, including in running sessions), after 1.0.112 (November 13, 2026, promoting the 1.0.112-0 prerelease the same day), which passes the model provider's error message through on a failed /compact without the internal host-rethrow prefix, keeps pasted text in prompts the CLI does not send yet so a second Enter sends the paste instead of the placeholder, fixes the plugin manager showing unloaded repository plugins as enabled, documents that macOS sandbox host rules block direct TCP connections to local ports while localhost stays reachable through the proxy, lists a Microsoft 365 account among the sign-ins that can run workflows, and fixes the /subagents model picker reopening for the same agent, after 1.0.111 (also November 13, adding regular expression support to enterprise-managed Shell, Bash, and PowerShell permission rules, a `--host-allow-session-creation` flag letting remote clients create sessions on CLI hosts for one launch, a /usage premium-request refresh, and duplicate MCP OAuth reconnect prevention), after 1.0.110 (November 12, 2026, promoting the masked git, ssh, and sudo password dialog out of the prerelease train), and it did 7,207,443 downloads in npm's trailing-month window (October 25 to November 24) as of 2026-11-24, among the largest npm install bases of any harness in this section.
 The `github/copilot-cli` repository shows 11,252 stars as of 2026-10-15 (GitHub API), and it is a distribution and issues repository, with no open-source license.
 
 <picture>
@@ -101,6 +101,7 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 - 2026-11-19 - Recorded the stable dist-tag moving through 1.0.113 (November 17, administrators can disable built-in Browser Use with the features.browserUse managed setting, including in running sessions) to 1.0.114 (November 18), and refreshed the trailing-month download figure to 7,242,162 (window October 20 to November 19, range query, as of 2026-11-19).
 - 2026-11-21 - Recorded the prerelease train reaching 1.0.115-5 (1.0.115-0 published November 19) behind the unchanged 1.0.114 stable, against npm's dist-tags and the repository's releases feed.
 - 2026-11-22 - Recorded the prerelease train reaching 1.0.115-6 (published November 21) behind the unchanged 1.0.114 stable, against the repository's releases feed.
+- 2026-11-24 - Rotation re-verification, re-fetching every cited reference (all live): recorded the prerelease train reaching 1.0.115-8 (1.0.115-7 and 1.0.115-8 published November 22 and 23: `--usage-output-file` grouping subagent usage by configured name, Assisted Permissions trying another review model when the first stalls and reusing a one-time approval for an identical request in the same session, and `--ui-server` clients attaching to a resumed session as soon as the server listens) behind the unchanged 1.0.114 stable, and re-verified the Copilot plan prices unchanged (Free, Pro $10, Pro+ $39, Max $100); refreshed the trailing-month download figure to 7,207,443 (October 25 to November 24), against npm's dist-tags and the repository's releases feed.
 
 ## See also
 
@@ -114,10 +115,10 @@ Not for teams with open-client mandates, and not for untrusted repositories unti
 
 - https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-cli - modes, sandboxing, MCP, hooks, skills, memory, BYOK providers, and security guidance (fetched 2026-10-21, repointed after the docs reorganization)
 - https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli - install paths, subscription prerequisite, and token authentication (fetched 2026-10-21, repointed after the docs reorganization)
-- https://github.com/features/copilot/plans - plan prices, AI Credits structure, model roster, and third-party delegation gating, as of 2026-10-12 (re-verified unchanged)
+- https://github.com/features/copilot/plans - plan prices, AI Credits structure, model roster, and third-party delegation gating, as of 2026-10-12 (prices re-verified unchanged 2026-11-24)
 - https://github.com/github/copilot-cli - distribution repository, 11,250 stars, no open-source license, as of 2026-10-12 (verified via the GitHub API)
-- https://registry.npmjs.org/@github%2Fcopilot - latest stable 1.0.114 published 2026-11-18 with the prerelease tag at 1.0.114-0, package created 2025-09-25 (verified via the registry API, 2026-11-19)
-- https://api.npmjs.org/downloads/point/2026-10-20:2026-11-19/@github/copilot - 7,242,162 downloads, window October 20 to November 19, as of 2026-11-19
+- https://registry.npmjs.org/@github%2Fcopilot - latest stable 1.0.114 published 2026-11-18 with the prerelease tag at 1.0.115-8, package created 2025-09-25 (verified via the registry API, 2026-11-24)
+- https://api.npmjs.org/downloads/point/2026-10-25:2026-11-24/@github/copilot - 7,207,443 downloads, window October 25 to November 24, as of 2026-11-24
 - https://hn.algolia.com/api/v1/items/47183940 - the February 27, 2026 malware-execution thread, 62 points (verified via the Algolia API)
 - https://hn.algolia.com/api/v1/items/45810658 - the November 2025 Docker-sandboxing guide thread, 59 points
 - https://hn.algolia.com/api/v1/items/45377734 - the September 25, 2025 public-preview launch thread, 24 points

@@ -1,9 +1,9 @@
 ---
 title: ZCode
 created: 2026-09-21
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, zai, desktop, open-source, security]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, zai, desktop, open-source, security]
 readability: 3
 audience_notes: >
   Engineers considering Z.ai's official harness for GLM models, and anyone studying how a
@@ -18,7 +18,7 @@ ZCode is Z.ai's (Zhipu AI's) official AI coding workbench for GLM models: an Ele
 ## What it is
 
 A workbench rather than a pure terminal tool: desktop, web, and the `zcode` CLI share one TypeScript monorepo (6,973 files, about 1.03M lines in the open-source drop).
-The pitch is multi-agent development on GLM-5.3 with Goals for long-running tasks, skills, bot control from WeChat, Feishu, and Telegram, and GLM-5.3-Flash built in for multimodal input.
+The pitch is multi-agent development on GLM-5.4 (GLM-5.3 until the v4.0.0 release of November 23, 2026) with Goals for long-running tasks, skills, bot control from WeChat, Feishu, and Telegram, and GLM-5.3-Flash built in for multimodal input.
 It is tuned for and sold through the GLM Coding Plan, which also covers 20+ third-party agent tools.
 The repository publishes Apache-2.0 source, but as a two-commit dump with flattened history, locked PRs, and disabled issues, so it is open code with a closed process.
 
@@ -28,7 +28,7 @@ The repository publishes Apache-2.0 source, but as a two-commit dump with flatte
 The harness launched July 1, 2026 as the official harness for GLM-5.2 and drew a 511-point Hacker News thread the same day ([HN](https://hn.algolia.com/api/v1/items/48753715)).
 On September 18, 2026 a [wire-level analysis](https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/) showed the logged-in client packaging entire workspaces (about 87% .git content) and uploading them encrypted to Aliyun OSS with a server-held key, a behavior no UI toggle stopped and no privacy-policy line disclosed (342- and 262-point threads that day, as of 2026-10-19).
 Z.ai admitted the uploads, attributed them to a Repo Wiki indexing feature, shipped client 3.14.0 with the pipeline removed, and open-sourced the workbench on September 20-21 with CAICT and NSFOCUS audits reporting the OSS bucket deleted ([HN](https://hn.algolia.com/api/v1/items/49782440)).
-The repository shows 7,699 stars and 2,354 forks as of 2026-10-12, pushed 2026-11-16 (GitHub API, as of 2026-11-16, after the 2026-11-03 push that synced the v3.17.2 source the day before its release); desktop releases reached v3.18.2 (GitHub releases, published November 16, a build-stamp release with SHA256SUMS attached and no changelog body, with no v3.18.0 or v3.18.1 release on the feed since v3.17.2, per the GitHub-releases version source).
+The repository shows 7,699 stars and 2,354 forks as of 2026-10-12, pushed 2026-11-23 (GitHub API, as of 2026-11-24, the push that synced the v4.0.0 source the day of its release, after the 2026-11-13 push that synced v3.18.2); desktop releases reached v4.0.0 (GitHub releases, published November 23, a build-stamp release with SHA256SUMS attached and no changelog body, jumping from v3.18.2 with no v3.19.x release on the feed, while the vendor changelog lists a v3.19.1 entry dated November 22, per the GitHub-releases version source), with the site's v4.0.0 installers covering macOS, Windows, and Linux x64 and arm64 builds marked beta.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=zai-org/ZCode&type=date&theme=dark&legend=top-left" />
@@ -54,7 +54,7 @@ Independent code review of the dump confirms the snapshot pipeline is gone and c
 
 ## Pricing
 
-The harness is free; usage goes through a GLM Coding Plan subscription: Lite $12.6/month with 10,000 weekly credits (listed against $18), Pro $56/month at 6x Lite usage (against $80), and Max $117.6/month at 14x (against $168), per the ZCode site as of 2026-09-22 (re-verified unchanged 2026-10-12).
+The harness is free; usage goes through a GLM Coding Plan subscription: Lite $12.6/month with 10,000 weekly credits (listed against $18), Pro $56/month at 6x Lite usage (against $80), and Max $117.6/month at 14x (against $168), per the ZCode site as of 2026-09-22 (re-verified unchanged 2026-11-24 on the site's English page; the root URL now serves the Chinese-locale page with the same plans priced in yuan, Lite at ¥94.4 against ¥118).
 The plans also cover 20+ third-party agent tools, so the subscription is not ZCode-locked.
 
 ## Price history
@@ -89,6 +89,8 @@ I would watch whether the open repository becomes a real project or stays a pres
 - 2026-11-14 - Rotation re-verification, re-fetching every cited reference (all live), with v3.17.2 confirmed the newest desktop release and the push date refreshed to 2026-11-13.
 - 2026-11-16 - Recorded the desktop release train reaching v3.18.2 (published November 16, a build-stamp release with SHA256SUMS and no changelog body, with no v3.18.0 or v3.18.1 on the releases feed since v3.17.2); refreshed the push date to 2026-11-16.
 - 2026-11-22 - Rotation re-verification, re-fetching every cited reference (all live): v3.18.2 still the newest desktop release with the push date holding at 2026-11-16, the site's installers and GLM Coding Plan prices re-read unchanged (Lite $12.6, Pro $56, Max $117.6), and the disclosure-thread point counts re-verified unchanged.
+- 2026-11-24 - Recorded the desktop release train jumping to v4.0.0 (published November 23, a build-stamp release with SHA256SUMS and no changelog body, no v3.19.x release on the feed, while the vendor changelog lists a v3.19.1 entry dated November 22): the vendor changelog credits it with GLM-5.4 pre-configured on the Coding Plan with vision, plugin-store listings by login region, and fixes for session startup hangs and context lost after switching models or providers; refreshed the push date to 2026-11-23, against the GitHub releases API and the vendor changelog.
+- 2026-11-24 - Moved the pitch line from GLM-5.3 to GLM-5.4 per the site and the v4.0.0 changelog, and recorded Linux x64 and arm64 installers in beta plus the site's English page as the USD price source (the root URL now serving the Chinese-locale page in yuan).
 
 ## See also
 
@@ -99,9 +101,10 @@ I would watch whether the open repository becomes a real project or stays a pres
 
 ## References
 
-- https://github.com/zai-org/ZCode - repository, license, 7,699 stars as of 2026-10-12 (GitHub API)
+- https://github.com/zai-org/ZCode - repository, license, 7,699 stars as of 2026-10-12 (GitHub API), push date as of 2026-11-24
+- https://zcode.z.ai/en/changelog - the vendor changelog: the v4.0.0 entry (released November 23, 2026) naming GLM-5.4 pre-configured on the Coding Plan with vision, and the v3.19.1 entry (November 22) absent from the GitHub releases feed
 - https://raw.githubusercontent.com/zai-org/ZCode/main/README.en.md - surfaces and monorepo layout
-- https://zcode.z.ai/ - product claims, GLM Coding Plan prices, v3.16.3 installers, re-verified 2026-10-27
+- https://zcode.z.ai/en - product claims (GLM-5.4 pitch), GLM Coding Plan prices in dollars, and the v4.0.0 installers with Linux x64 and arm64 builds in beta, re-verified 2026-11-24 (the root URL redirects to the Chinese-locale /cn page)
 - https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/ - the wire-level analysis, Z.ai's response, and the open-source code verification
 - https://hn.algolia.com/api/v1/items/48753715 - the July 1, 2026 launch thread, 511 points
 - https://hn.algolia.com/api/v1/items/49750694 - the 342-point disclosure thread, September 18 (points as of 2026-10-19)

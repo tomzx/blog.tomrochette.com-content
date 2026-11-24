@@ -1,9 +1,9 @@
 ---
 title: Omnigent
 created: 2026-10-06
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, meta-harness, orchestration, policies, sandboxing]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, harnesses, meta-harness, orchestration, policies, sandboxing]
 readability: 3
 audience_notes: >
   Engineers running more than one coding harness who want to swap, compose, and govern them from one
@@ -24,7 +24,7 @@ Apache-2.0, Python 3.12+, installed via installer, uv, pip, or Homebrew; built b
 ## Status
 
 **Active, well-resourced, and young, with traction that far outruns its independent discussion.**
-10,817 stars and 1,753 forks as of 2026-10-15 (repository created 2026-06-11), the v0.23.0 release published 2026-11-19 (automations with per-run MCP service selection, read-only sharing, a cheaper trigger model, and 16,000-character instructions, session grids on by default, /rewind in Claude SDK and Claude Code native chats, stacked-PR review from a chosen commit, and the breaking move of native-harness agents onto their harness's own shell and file tools in place of Omnigent's sys_os_* tools), then the v0.22.0 release published 2026-11-13 (automations triggerable by Schedule, Jira, Slack, GitHub, Linear, or PagerDuty chosen in the New automation form, with one startable from any session), then the v0.21.0 release published 2026-11-05 (the Pull Requests UI rebuilt as a compact list with checks and merge actions, a session's linked PRs staying visible while its host is offline, and GitHub review conversations read, replied to, and started inline in Changes with a composer that highlights PRs needing attention), with the default branch pushed 2026-11-22 (GitHub API, as of 2026-11-22), after the v0.20.0 release published 2026-10-28 (a pull-request surface in the Pull Requests tab that merges or turns off auto-merge, edits title and description, manages labels and reviewers, and posts comments without leaving the tab), after 40+ releases that include v0.19.1 (October 21, a dependency bump mitigating the eMudhra Intermediate CA compromise) and v0.19.0 (October 20, an MCP registry and gateway with managed MCP accounts connected in Settings and tools picked for local hosts or sandboxes through a server gateway carrying shared policy checks).
+10,817 stars and 1,753 forks as of 2026-10-15 (repository created 2026-06-11), the v0.23.0 release published 2026-11-19 (automations with per-run MCP service selection, read-only sharing, a cheaper trigger model, and 16,000-character instructions, session grids on by default, /rewind in Claude SDK and Claude Code native chats, stacked-PR review from a chosen commit, and the breaking move of native-harness agents onto their harness's own shell and file tools in place of Omnigent's sys_os_* tools), then the v0.22.0 release published 2026-11-13 (automations triggerable by Schedule, Jira, Slack, GitHub, Linear, or PagerDuty chosen in the New automation form, with one startable from any session), then the v0.21.0 release published 2026-11-05 (the Pull Requests UI rebuilt as a compact list with checks and merge actions, a session's linked PRs staying visible while its host is offline, and GitHub review conversations read, replied to, and started inline in Changes with a composer that highlights PRs needing attention), with the default branch pushed 2026-11-24 (GitHub API, as of 2026-11-24), after the v0.20.0 release published 2026-10-28 (a pull-request surface in the Pull Requests tab that merges or turns off auto-merge, edits title and description, manages labels and reviewers, and posts comments without leaving the tab), after 40+ releases that include v0.19.1 (October 21, a dependency bump mitigating the eMudhra Intermediate CA compromise) and v0.19.0 (October 20, an MCP registry and gateway with managed MCP accounts connected in Settings and tools picked for local hosts or sandboxes through a server gateway carrying shared policy checks).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnigent-ai/omnigent&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for developers happy inside one harness, and not for Windows-first setups th
 - 2026-11-06 - Recorded the v0.21.0 release (November 5): the Pull Requests UI as a compact list with checks and merge actions, linked PRs visible while a host is offline, and inline GitHub review conversations in Changes with attention highlighting; refreshed the push date to 2026-11-06.
 - 2026-11-13 - Recorded the v0.22.0 release (published November 13): automations triggering from Schedule, Jira, Slack, GitHub, Linear, or PagerDuty, chosen in the New automation form and startable from any session; refreshed the push date to 2026-11-13.
 - 2026-11-19 - Recorded the v0.23.0 release (published November 19): automations with per-run MCP service picking, read-only sharing, a cheaper trigger model, and 16,000-character instructions, session grids and workspace search on by default, /rewind in Claude SDK and Code native chats, stacked-PR review, with native-harness agents moved onto their harness's own shell and file tools as the breaking change; refreshed the push date and the PyPI reference.
+- 2026-11-24 - Rotation re-verification, re-fetching every cited reference (all live): v0.23.0 (published November 19) remains the latest release on GitHub and PyPI; refreshed the push date to 2026-11-24.
 
 ## See also
 

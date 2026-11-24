@@ -1,9 +1,9 @@
 ---
 title: Junie
 created: 2026-08-22
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, coding-agents, harnesses, jetbrains, byok]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, jetbrains, byok]
 readability: 3
 audience_notes: >
   Engineers living in JetBrains IDEs who want an agent grounded in IDE-grade analysis.
@@ -94,6 +94,7 @@ Not for anyone who needs an open client or a large community ecosystem today.
 - 2026-11-19 - Recorded the installer train continuing through 4169.1 (published November 18), again without release notes attached, with 4162.1 through 4168.1 published the same day.
 - 2026-11-21 - Recorded the installer train continuing through 4191.1 (published November 20), again without release notes attached, with 4182.1 through 4190.1 published the same day and 4171.1 through 4181.1 published November 19.
 - 2026-11-22 - Recorded the installer train continuing through 4193.1 (published November 21), again without release notes attached, with 4192.1 published earlier the same day.
+- 2026-11-24 - Recorded the installer train continuing through 4210.1 (published November 23), again without release notes attached, with 4199.1 through 4209.1 published the same day (no 4207.1 on the feed) and 4194.1 through 4198.1 published November 22.
 
 ## See also
 

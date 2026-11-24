@@ -1,9 +1,9 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-11-21
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, anthropic, developer-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
 audience_notes: >
   Engineers who already drive a terminal coding agent and are deciding whether to standardize on Anthropic's harness.
@@ -28,6 +28,7 @@ The npm install is deprecated in favor of a native installer; third-party provid
 **Active and dominant.**
 The `anthropics/claude-code` repository shows about 150.9k stars and about 15.0k open issues and pull requests as of 2026-10-15; it hosts plugins, docs, and the issue tracker rather than the CLI source, which is proprietary.
 The vendor's official Code Review plugin had about 438,525 installs as of 2026-10-16 and runs five parallel reviewers, an in-product sibling recorded here as ecosystem evidence rather than profiled on its own.
+The vendor's older security path, the anthropics/claude-code-security-review GitHub Action (7,071 stars as of 2026-11-24, MIT), has had no commit since 2026-02-11 and carries 100 open issues, so I treat it as dormant, with the CLI's own `/security-review` command and the Code Review plugin carrying the function.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&theme=dark&legend=top-left" />
@@ -106,6 +107,8 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - 2026-11-19 - Recorded the train reaching v2.1.328 (November 19): auto mode for Claude Opus 4.6 and Sonnet 4.6 on Bedrock, Agent Platform, Foundry, and the Claude apps gateway with interactive sessions starting in it when no permission mode is set, `"onFailure": "block"` for mcp_tool hooks, and fixes from zsh `=cmd` expansion stopping Bash commands and auto compaction reusing the session's earlier system prompt, to MCP tools whose input schema starts with anyOf, oneOf, or allOf going missing on third-party providers, after v2.1.327 (November 17) added `claude mcp add-json <name>` reading server JSON from stdin so tokens stay off the command line, a /status list of broken agent, skill, command, and output-style files with never-matching hook matchers, attributionProject billing-group naming for gateways, and an /export overwrite confirmation, against the changelog.
 - 2026-11-20 - Recorded the train reaching v2.1.329 (published November 19): a trust dialog naming where a folder's hooks are declared, managed-settings hook-failure warnings in non-interactive hosts, /tasks listing this session's scheduled tasks, /loop wakeups, the goal, and conversation forks with x stopping one after asking, a Server message row in /mcp showing a remote HTTP server's JSON-RPC refusal, a Marketplace auto-update row in /status, Code Mode usable while OpenTelemetry events and metrics stay on with each tool call's code sending its events, and fixes from `~/.claude.json` resetting to defaults during unreadable saves and repeated macOS sign-outs to `/terminal-setup` corrupting VS Code settings files, IDE-diff saves losing trailing newlines and BOMs, and /teleport session picks replacing the open conversation, against the GitHub releases API.
 - 2026-11-21 - Recorded the train reaching v2.1.330 (published November 20): sign-in for organizations managed in Anthropic's Enterprise Admin Console, with `claude auth login` applying the organization's settings and cloud provider or gateway, easel, a built-in mod that draws charts when asked and under MCP metrics results on Pro, Max, and where available Team and Enterprise on macOS and Linux (off in `/config`), `CLAUDE_CODE_FULL_SIGN_IN_LINK=1` for printing the full sign-in link, and a self-hosted-runner `--start-dir`/`SELF_HOSTED_RUNNER_START_DIR` starting work inside a chosen repository folder, against the GitHub releases API.
+- 2026-11-24 - Recorded the train reaching v2.1.331 (published November 23): Code Mode in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry, and Claude Platform on AWS, an API connectivity section in `claude doctor`, `oidc.groups_jsonpath` on Claude apps gateways, `gen_ai.usage.*` fields on `claude_code.llm_request` trace spans, `optionalDependencies` in plugin manifests, `CLAUDE_CODE_DISABLE_RESPONSE_COMPRESSION` for proxies that cut compressed responses, and a notice that managed `extraKnownMarketplaces` entries auto-update by default on or after November 30, 2026 unless opted out, with fixes from MCP tool calls hanging up to 30 minutes on malformed local or WebSocket replies to compaction losing quoted XML content and a rewind deleting files after a failed restore.
+- 2026-11-24 - Recorded the vendor's claude-code-security-review GitHub Action (7,071 stars as of 2026-11-24, MIT, no commit since 2026-02-11) in Status as a dormant sibling of the Code Review plugin, resolving its 2026-10-28 report-only routing to code-review.
 
 ## See also
 
@@ -122,6 +125,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - https://github.com/anthropics/claude-code - repository scale (about 150.9k stars) and npm deprecation, as of 2026-10-15
 - https://github.com/anthropics/claude-code/issues/95690 - the report that AGENTS.md support was gated behind a remote flag only fetched when telemetry was on
 - https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md - the 2.1.277 AGENTS.md addition and the 2.1.281 fix for telemetry-disabled sessions, re-fetched 2026-11-19 with the train through 2.1.328
+- https://github.com/anthropics/claude-code-security-review - the dormant security-review GitHub Action behind the Status sentence: 7,071 stars as of 2026-11-24, MIT, last commit 2026-02-11, no releases
 - https://news.ycombinator.com/item?id=49814947 - the 481-point September 23, 2026 thread that surfaced the telemetry gating
 - http://web.archive.org/web/20260814104128/https://thereallo.dev/blog/claude-code-prompt-steganography - independent analysis of hidden prompt markers (archived; the live site blocks automated fetches)
 - https://systima.ai/blog/claude-code-vs-opencode-token-overhead - measured baseline, cache, and subagent token costs (July 2026)

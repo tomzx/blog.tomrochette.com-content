@@ -43,7 +43,7 @@ The terminal and CLI agents that carry the model into your repository: the platf
 - [Nanocoder](nanocoder/index.md) - the Nano Collective's community-built local-first agent, MIT via npm with the widest documented local-engine list, funded by sponsors instead of a company.
 - [Oh My Pi](oh-my-pi/index.md) - Stencil Labs' batteries-included Pi fork with LSP and a real debugger wired into the loop, 35.5k stars past its frozen-core parent.
 - [Omnigent](omnigent/index.md) - Databricks' Apache-2.0 meta-harness wrapping Claude Code, Codex, Cursor, OpenCode, Pi, and custom YAML agents behind one API, with policies, sandboxes, and live session sharing.
-- [OmO](om-o/index.md) - the source-available 70k-star terminal agent on its senpi Pi fork (memory, CodeMode, ultracode, Herdr DAG side pane), the scale-versus-trust test case with a custom per-portion license and an AI-persona maintainer.
+- [OmO](om-o/index.md) - the source-available 70k-star terminal agent on its senpi Pi fork (memory, CodeMode, ultracode, Herdr DAG side pane), the scale-versus-trust test case with a custom per-portion license and a README whose AI-persona maintainer line left in November 2026.
 - [OneCLI](onecli/index.md) - the YC S26 Apache-2.0 team harness where a credential gateway injects secrets per request, so agents never hold them.
 - [Open Interpreter](openinterpreter/index.md) - a 2026 Rust fork of Codex CLI emulating provider harnesses for cheap open-weight models like Kimi K3 and GLM.
 - [OpenCode](opencode/index.md) - the MIT, provider-neutral harness with the leanest measured token baseline.
