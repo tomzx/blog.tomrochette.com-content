@@ -1,9 +1,9 @@
 ---
 title: Hunk
 created: 2026-10-06
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, code-review, terminal, diff, human-in-the-loop]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, evaluation, code-review, terminal, diff, human-in-the-loop]
 readability: 3
 audience_notes: >
   Engineers reviewing agent-authored diffs in a terminal who want the whole changeset as one readable stream with the agent's reasoning inline.
@@ -17,14 +17,14 @@ Hunk is a free, MIT-licensed, review-first terminal diff viewer from Modem, buil
 ## What it is
 
 A TUI built on OpenTUI and Pierre diffs that reviews working trees, commits, GitHub PRs, patches piped from stdin, and raw file comparisons in one scrollable stream with a sidebar.
-Agents annotate inline: a session comment API (hunk session comment add and apply) drops summary, rationale, and author above the hunk it explains, and a bundled skill file (hunk skill path) teaches any agent to drive a live review session from another terminal.
+Agents annotate inline: a session comment API (hunk session comment add and apply) drops summary, rationale, and author above the hunk it explains, and a pointer skill (installed with `npx skills add modem-dev/hunk -g --skill hunk-review`) that runs `hunk skill show`, falling back to `hunk skill path`, teaches any agent to drive a live review session from another terminal, so the instructions always match the Hunk version on your PATH.
 Git, Jujutsu, and Sapling are first-class (native revsets per VCS), watch mode reloads as the tree changes, and Hunk doubles as a pager and git difftool.
 Install paths are a standalone binary (a checksum-verified install script), npm hunkdiff, Homebrew, mise, and Nix, on macOS, Linux, and Windows; extensions are plain TypeScript; it also ships as a default tool in Omarchy.
 The maker is Modem (modem.dev), the company credited in hunk.dev's footer.
 
 ## Status
 
-Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026-03-17, pushed 2026-11-21 (the default branch moving 11-16 and 11-17 through an unreleased web review-UI feature stream: a review bar with progress and key hints, a changeset summary above the stream, review state in the files sidebar, file headers with state chips, note threads drawn as one card each, a quieter minimap, and a one-row toolbar, then 11-21 adding a copy-selected-hunk command, unchanged-lines row rendering, a pager fix for short plain text, and four extension-directory listings), with v0.25.0 released 2026-11-11 ending the 0.24 line (741 merged pull requests by the v0.23.0 it succeeds, 2026-09-30), its headliners the removal of the deprecated `--fast` flag and the publication of the generated 0.25 release pages alongside the 0.24.1 changelog and a hunk-workspace extension-directory listing.
+Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026-03-17, pushed 2026-11-22 (the default branch moving 11-16 and 11-17 through an unreleased web review-UI feature stream: a review bar with progress and key hints, a changeset summary above the stream, review state in the files sidebar, file headers with state chips, note threads drawn as one card each, a quieter minimap, and a one-row toolbar, then 11-21 adding a copy-selected-hunk command, unchanged-lines row rendering, a pager fix for short plain text, and four extension-directory listings, before 11-22 landed the web review UI's navigation-key, first-note, sidebar-and-theme mirroring, load-order, and oversized-review fixes, plus headless reviews matching the terminal's shutdown signals and working-tree symlinks read as link text), with v0.25.0 released 2026-11-11 ending the 0.24 line (741 merged pull requests by the v0.23.0 it succeeds, 2026-09-30), its headliners the removal of the deprecated `--fast` flag and the publication of the generated 0.25 release pages alongside the 0.24.1 changelog and a hunk-workspace extension-directory listing.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=modem-dev/hunk&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=modem-dev/hunk&type=date&legend=top-left" />
 </picture>
 
-hunkdiff npm installs ran about 5.4k in the week of 2026-10-06 to 2026-10-12 and 8,157 in the week of 2026-10-23 to 2026-10-29.
+hunkdiff npm installs ran about 5.4k in the week of 2026-10-06 to 2026-10-12 and 8,157 in the week of 2026-10-23 to 2026-10-29, against 4,367 in the week of 2026-11-16 to 2026-11-22.
 Endorsements from Mitchell Hashimoto and DHH are quoted on the site (the X posts themselves did not fetch this run), while the HN footprint is three stories totaling 7 points with almost no comments, the same social-channel growth pattern Plannotator recorded.
 
 ## Strengths
@@ -56,7 +56,7 @@ No paid tier is recorded for Hunk or its maker (as of 2026-10-06).
 
 ## Compared to
 
-- [Plannotator](../plannotator/index.md): the browser sibling, with plan review and hooks in nine harnesses; Hunk is terminal-native and PR-aware through hunk gh, but its annotations do not feed back into a live harness session the way Plannotator's do.
+- [Plannotator](../plannotator/index.md): the browser sibling, with plan review and hooks in ten harnesses; Hunk is terminal-native and PR-aware through hunk gh, but its annotations do not feed back into a live harness session the way Plannotator's do.
 - delta and difftastic: the terminal diff incumbents render prettier diffs but offer no review UI, no multi-file stream, and no annotation surface, per Hunk's own comparison table.
 - lumen: the closest clone by that same table, matching the review-first stream without the inline agent annotations.
 
@@ -78,6 +78,7 @@ Not for CI gating and not for anyone expecting a machine verdict; Hunk deliberat
 - 2026-11-11 - Refreshed the activity line: the default branch moved 2026-11-10 with a v0.25.0 release preparation (plus agent-skill version guidance and a GitHub Actions group bump), v0.24.1 still the newest published release.
 - 2026-11-14 - Recorded the v0.25.0 stable release (2026-11-11), which ends the 0.24 line and removes the deprecated `--fast` flag while publishing the generated 0.25 release pages and listing hunk-workspace in the extension directory, and refreshed the activity line (the default branch moved 2026-11-13 with the hunk-goodies extension-directory listing, PR 1273).
 - 2026-11-22 - Refreshed the activity line: pushed date moved to 2026-11-21 with the hunk.review.copySelectedHunk copy command, unchanged-lines row rendering in the web diff, a pager fix letting short plain text exit the fallback less pager, and four extension-directory listings (hunk-review-comments-extension, hunk-review-sidebar, hunk-stage, hunk-markdown-preview); v0.25.0 still the newest release.
+- 2026-11-24 - Rotation re-verification: every cited URL re-fetched and live, the activity line refreshed to the 2026-11-22 push (the web review UI's navigation-key, first-note, mirroring, load-order, and oversized-review fixes, headless-review shutdown signals, and symlink reading), v0.25.0 still the newest release, the npm week added (4,367 installs, 2026-11-16 to 2026-11-22), and the skill sentence sharpened to the pointer-skill mechanism (`hunk skill show`, with `hunk skill path` as the fallback); the Plannotator comparison's harness count corrected to ten.
 
 ## See also
 

@@ -1,9 +1,9 @@
 ---
 title: "FrontierHarness Eval"
 created: 2026-09-05
-updated: 2026-11-21
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, benchmark, coding-agents]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, evaluation, benchmark, coding-agents]
 readability: 3
 audience_notes: >
   Engineers choosing between coding-agent harnesses who want independent cost and quality numbers instead of vendor benchmarks.
@@ -18,6 +18,7 @@ A multi-harness benchmark from Runta, now in its second version.
 The v1.0 launch study ran the same Kimi K3 model through nine coding-agent harnesses in twelve configurations over the same 30 software-engineering tasks, 360 runs total, with identical cold starts, and its public results table put Codex first on quality (66.7 percent pass, $3.47 median per pass), Claude Code second on quality (63.3 percent) at $18.34, still the most expensive cell, Exo Harness first on cost ($1.05), and DSH Minimal first on speed (5m 41s); those v1.0 artifacts have since been removed from the public repository.
 The repository now carries the v1.1 evaluation as Harbor artifacts: a Harbor dataset manifest, the Baseten suite as a plain Harbor job config, a small per-model launcher, and a pinned uv environment, advertising 22 harness configurations at their published versions, 5 models on Baseten, 62 tasks, and 27,280 trials, with the interactive report on the site.
 The npx runner and the agent-neutral re-run skill that shipped with v1.0 are gone, so third-party re-runs now go through Harbor instead.
+The README's v1.1 full-results table reads far flatter than the v1.0 headline: across the 22 configurations over all five models (1,240 scored attempts each), cost per pass runs from $0.937 for Codex CLI (61.1 percent pass rate) to $1.63 for Antigravity CLI (55.0 percent), about 1.7x, and pass rates from 50.6 percent (Exo) to 61.9 percent (ZCode), about 11 points, as of 2026-11-24.
 
 ## Status
 
@@ -36,7 +37,7 @@ The live board has moved past the launch snapshot: as of 2026-11-21 the site's m
 ## Strengths
 
 - The design isolates the variable this whole section cares about: with model, tasks, and runtime fixed, the harness is the natural suspect for a 17.5x cost spread, though the publisher's own write-up attributes most of the spread to the harness-model pairing rather than the harness alone.
-- Full public artifacts, including failed runs and task-level results, not just a leaderboard.
+- Full public artifacts, not just a leaderboard: the v1.1 repository carries the Harbor dataset manifest, the suite configuration, the launcher, and the pinned environment, with a per-configuration results table in its README, while the v1.0 task-level results left the repository with the rewrite.
 - Covers harnesses this section profiles (Codex, Claude Code, Pi, OpenCode, Hermes, DeepSeek Harness configurations, Kimi Code, Exo), so the numbers cross-check our notes directly.
 
 ## Cautions
@@ -47,8 +48,8 @@ The live board has moved past the launch snapshot: as of 2026-11-21 the site's m
 
 ## Pricing
 
-Not applicable; the benchmark is free to read and the runner installs via `npx @frontierharness/eval`.
-Reproducing a run costs whatever your chosen harness's tokens cost.
+Not applicable; the benchmark is free to read, and the v1.0 runner that installed via `npx @frontierharness/eval` was removed with the v1.1 rewrite.
+Reproducing a v1.1 run goes through Harbor and costs whatever your chosen harness's tokens cost.
 
 ## Compared to
 
@@ -62,6 +63,7 @@ Reproducing a run costs whatever your chosen harness's tokens cost.
 
 Recommended as the current best evidence for the harness-choice cost question, read with the vendor-run caveat attached.
 Not as a final ranking, and not for teams whose tasks look nothing like its 30.
+My disagreeable claim: quote the 17.5x figure as a v1.0 anecdote, because the publisher's own five-model v1.1 table spreads cost per pass only about 1.7x and pass rate about 11 points.
 
 ## Changes
 
@@ -74,6 +76,7 @@ Not as a final ranking, and not for teams whose tasks look nothing like its 30.
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched and live, the 82-point launch thread re-confirmed, and the repository re-confirmed unchanged (last push 2026-09-08, no license).
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched and live (the site, both arXiv studies, the launch article, the 82-point thread, and the publisher page), with the v1.1 shift recorded: the live board now advertises FrontierHarness v1.1 over 21 harnesses, 5 models, and 62 tasks as a live run, the promised harness-by-model matrix expansion, while the repository stays untouched since 2026-09-08, so the v1.0 held-constant-model results remain the only public artifacts.
 - 2026-11-21 - Full re-verification out of rotation (the repository's 2026-11-20 merge falsified the untouched-since-2026-09-08 line): every cited URL re-fetched and live (the site and its v1.1 leaderboard, both arXiv studies, the launch article, the 82-point thread, the publisher page, and the repository), and the repository rewrite recorded: PR 40 (merged 2026-11-20) removed the v1.0 tasks, results, metadata, npx CLI, and re-run skill and replaced them with the v1.1 evaluation as Harbor artifacts (dataset manifest, Baseten suite job config, per-model launcher, pinned uv environment; 22 configurations, 5 models, 62 tasks, 27,280 trials), What it is and Status rewritten for the two-version structure, and the unlicensed caveat re-confirmed against the rewritten tree.
+- 2026-11-24 - Rotation re-verification: every cited URL re-fetched and live (the site and its v1.1 leaderboard metadata, the repository and its README, both arXiv studies, the launch article, the 82-point thread, and the publisher page), the repository unchanged since the 2026-11-20 merge and still unlicensed; recorded the v1.1 full-results table's spread (cost per pass $0.937 to $1.63, about 1.7x, and pass rates 50.6 to 61.9 percent over 22 configurations and five models), which reads far flatter than the v1.0 headline, sharpened the public-artifacts strength to the v1.1 tree, and corrected the Pricing line that still pointed at the removed npx runner.
 
 ## See also
 
@@ -85,7 +88,7 @@ Not as a final ranking, and not for teams whose tasks look nothing like its 30.
 ## References
 
 - https://frontierharness.org - the live results and interactive report
-- https://github.com/frontier-harness-eval/eval - the v1.1 Harbor artifacts: dataset manifest, Baseten suite, launcher, pinned environment; the v1.0 tasks, results, npx CLI, and skill were removed 2026-11-20 (PR 40)
+- https://github.com/frontier-harness-eval/eval - the v1.1 Harbor artifacts: dataset manifest, Baseten suite, launcher, pinned environment, and the README's full-results table (22 configurations, 1,240 scored attempts each; fetched 2026-11-24); the v1.0 tasks, results, npx CLI, and skill were removed 2026-11-20 (PR 40)
 - https://arxiv.org/abs/2607.22585 - the independent academic harness-variance study (Vats and Golev, submitted 2026-06-08, under review at the DL4C Workshop at ICML 2026), fetched 2026-10-04
 - https://arxiv.org/abs/2609.40303 - the MLE minimal-harness study (Brilliantov, Hernandez-Cano, and Abbe, submitted 2026-09-30), fetched 2026-10-06
 - https://runta.com/blog/introducing-frontierharness-eval/ - the launch article and evaluation design

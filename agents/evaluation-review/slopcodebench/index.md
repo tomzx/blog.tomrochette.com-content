@@ -1,9 +1,9 @@
 ---
 title: SlopCodeBench
 created: 2026-11-22
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, coding-agents, iterative-development, code-quality]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, benchmark, evaluation, coding-agents, iterative-development, code-quality]
 readability: 3
 audience_notes: >
   Engineers choosing a benchmark for coding agents who care about what the code looks like after the first working version, not just whether one exists.
@@ -17,7 +17,8 @@ SlopCodeBench (SCBench) is an MIT benchmark from a UW-Madison-led academic team 
 ## What it is
 
 An MIT Python 3.12+ CLI (`slop-code run`, `slop-code eval`, `slop-code metrics judge`) that runs an agent inside per-problem Docker workspaces, from the SprocketLab organization.
-Problems live in the sibling [scb-problems](https://github.com/gabeorlanski/scb-problems) repository (Apache-2.0, with a contributed-problem guide and acceptance criteria) and also publish as a Harbor dataset in the registry of the [Harbor](../harbor/index.md) runner, so the benchmark distributes without shipping the judging infrastructure.
+Problems live in the sibling [scb-problems](https://github.com/gabeorlanski/scb-problems) repository (Apache-2.0, with a contributed-problem guide and acceptance criteria) and also publish as a Harbor dataset in the registry of the [Harbor](../harbor/index.md) runner, so the tasks run inside a second runner.
+That registration (gabeorlanski/slopcodebench, version 4.0.0 as of 2026-11-24) converts the 36 problems into 36 multi-step Harbor tasks, one step per checkpoint, each step carrying the verifier tests for that checkpoint, with task rewards reduced across steps by Harbor's multi-step mean strategy and a metric file aggregating pass-rate, verbosity, and erosion means.
 Evaluation is black-box: the agent sees only a CLI or API contract, with no function signatures, module boundaries, or test suite, and verifiers normalize output formatting so arbitrary choices do not fail a checkpoint.
 Two quality axes sit beside correctness: verbosity (a 45-criteria LLM-judge rubric plus handcrafted AST-Grep rules, looking for narration comments, unrequested features, and handrolled standard operations) and structural erosion (the share of functions over a cyclomatic complexity of 10, curated Ruff lint errors per line, and LOC and churn deltas between checkpoints).
 The provenance is academic: ten authors led by Gabriel Orlanski with Aws Albarghouthi and Frederic Sala, supported by DARPA, the NSF, and Snorkel AI's Open Benchmarks Grant; the paper is arXiv 2603.24755 (v1 March 2026, v2 May 2026, CC BY 4.0), and results publish to the scbench.ai leaderboard (site label v1.0: 36 problems, 196 checkpoints, 22 models, as of 2026-11-22).
@@ -69,6 +70,7 @@ My disagreeable claim: single-shot pass-rate leaderboards systematically oversta
 ## Changes
 
 - 2026-11-22 - Created from the coordinator's pre-screen, admitted as the category's iterative-extension coding-agent benchmark beside the single-shot ground benchmark.
+- 2026-11-24 - Re-checked the one-day-old note against every cited source (the repository, README, release line, paper record, launch post, leaderboard site, problems sibling, HN threads, and podcast repository), all live and unchanged; recorded the Harbor registration's details, now readable on the hub page (gabeorlanski/slopcodebench, version 4.0.0, 36 multi-step tasks with one step per checkpoint and that checkpoint's verifier tests, multi-step mean reduction), and reworded the Harbor clause, since the conversion does ship each checkpoint's verifier tests.
 
 ## See also
 
@@ -87,5 +89,5 @@ My disagreeable claim: single-shot pass-rate leaderboards systematically oversta
 - https://api.github.com/repos/gabeorlanski/scb-problems - the problems sibling: Apache-2.0, pushed 2026-10-07 (fetched 2026-11-22)
 - https://api.github.com/repos/SprocketLab/slop-code-bench/releases - the release train: v0.2 (2026-01-24) and v0.3 (2026-04-21, new cursor_cli, pi, openhands agents)
 - https://hn.algolia.com/api/v1/search?query=slop-code-bench&hitsPerPage=8 - the adoption footprint: the 405-point Opus 5 thread (2026-07-27) and the 309-point 10/2026 board thread (2026-10-15)
-- https://registry.harborframework.com/datasets/gabeorlanski/slopcodebench/latest - the Harbor dataset registration (page shell fetched 2026-11-22; details load client-side)
+- https://hub.harborframework.com/datasets/gabeorlanski/slopcodebench/latest - the Harbor dataset registration: version 4.0.0, 36 multi-step tasks converted from scb-problems (the registry.harborframework.com path fetched as a page shell on 2026-11-22 now redirects here; details fetched 2026-11-24)
 - https://github.com/ai-that-works/ai-that-works - the AI That Works show repo: episodes #68 (2026-08-04), #79 (2026-10-27), and #81 (2026-11-17) with the creator (README fetched 2026-11-22)

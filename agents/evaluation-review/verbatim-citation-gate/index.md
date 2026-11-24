@@ -1,9 +1,9 @@
 ---
 title: Verbatim Citation Gate
 created: 2026-10-10
-updated: 2026-11-21
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, citations, hallucination, guardrails, rag]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, evaluation-review, citations, hallucination, guardrails, rag]
 readability: 3
 audience_notes: >
   Engineers building RAG or research agents whose failure mode is fabricated quotes, and who want a gate that costs no tokens.
@@ -16,7 +16,7 @@ Verbatim Citation Gate is an MIT two-stage citation auditor that catches fabrica
 
 ## What it is
 
-A pip-installable Python package (from the repository, not yet on PyPI) with stage one in `gate.py`: pure `re` plus substring matching over a normalized form (case, smart quotes, dashes, and whitespace folded, numbers and percent preserved), returning `not_found` or `misattributed` with no network and no model.
+A pip-installable Python package (on PyPI as verbatim-citation-gate since 2026-11-16, after a git-URL-only start) with stage one in `gate.py`: pure `re` plus substring matching over a normalized form (case, smart quotes, dashes, and whitespace folded, numbers and percent preserved), returning `not_found` or `misattributed` with no network and no model.
 Stage two in `judge.py` takes any `(system, user) -> str` callable, so it wires to Claude, GPT, Gemini, Mistral, Cohere, or a local Qwen without adapters, and returns `supports`, `partial`, `unrelated`, or `contradicts`.
 The judge's prompt encodes three rules: default-refute (the verdict starts at unsupported and ties break against the claim), outside knowledge is inadmissible (a claim can be true and still unsupported by this source), and full-strength support or the verdict caps at `partial`.
 Each named failure mode has its own test, including `test_audit_fabrication_never_calls_judge`, which proves a fabricated quote costs zero model calls.
@@ -71,7 +71,6 @@ Not for paraphrase-tolerant citation systems, and not as a battle-tested depende
 - 2026-10-17 - Recorded the v0.3.0 release (2026-10-16): offset-span citations under the same fail-closed gate, and the project's first outside contribution (PR 12), with the release-pause caution updated.
 - 2026-10-21 - Recorded the unreleased post-v0.3.0 fixes on main (2026-10-19) and re-verified the PyPI absence; the newest release is still v0.3.0.
 - 2026-10-25 - Recorded the v0.3.1 release (2026-10-24), which shipped the three gate fixes previously tracked as unreleased on main; the PyPI absence re-verified.
-
 - 2026-10-25 - Corrected the star-history chart fallback markup (the img fallback carried the dark-theme parameter; it now points at the default chart).
 - 2026-10-26 - Corrected the star-history chart light-source markup (the light source carried the dark-theme parameter; it now points at the default chart).
 - 2026-11-07 - Recorded the unreleased post-v0.3.1 gate fixes on main (both committed 2026-11-06): numeric normalization for signs, comparisons, thousands commas, and leading-dot decimals, and partial numbers, punctuation-only quotes, and glued ranges no longer counting as found; the PyPI absence re-verified and the newest release is still v0.3.1.
@@ -79,6 +78,7 @@ Not for paraphrase-tolerant citation systems, and not as a battle-tested depende
 - 2026-11-14 - Recorded the v0.3.2 release (2026-11-14), which ships the unreleased gate fixes tracked since 2026-11-06 and 2026-11-13 (numbers inside longer numbers stop matching, signs, comparisons, thousands commas, and leading-dot decimals read correctly, unhashable ids and Unicode line breaks stop crashing the gate, and punctuation-only quotes are not found), with the ubuntu-24.04 CI pin in the same release and one README agent-setup docs commit after it.
 - 2026-11-18 - Recorded the unreleased post-v0.3.2 gate fix committed 2026-11-16 (operator signs now count in the normalization, so "x = 5" is not a quote of "x != 5"); the newest release is still v0.3.2.
 - 2026-11-21 - Recorded the v0.3.3 release (2026-11-21), which ships the operator-signs gate fix tracked since 2026-11-16 (`!=` normalizes to `≠`, one new test, 46 passing), and the PyPI arrival: the package now publishes 0.3.2 and 0.3.3 there (0.3.3 uploaded 2026-11-21), ending the git-URL-only distribution, with the distribution caution rewritten.
+- 2026-11-24 - Rotation re-verification: every cited URL re-fetched and live (the repository and its API, the release line, the v0.3.0 notes, the docs page, the PyPI record still at 0.3.3 with 0.3.2 beside it, and the zero-thread HN search), nothing moved since the 2026-11-21 verification (v0.3.3 still the newest release, the default branch's last commit the release commit), and the opening install line corrected to the PyPI distribution the Status has carried since 2026-11-21.
 
 ## See also
 
@@ -94,5 +94,5 @@ Not for paraphrase-tolerant citation systems, and not as a battle-tested depende
 - https://api.github.com/repos/tonydzi/verbatim-citation-gate/releases - v0.2.0 (2026-08-25) and v0.1.0 (2026-08-04)
 - https://api.github.com/repos/tonydzi/verbatim-citation-gate/releases/tags/v0.3.0 - v0.3.0 (2026-10-16): the span_gate release notes and the first outside contribution (PR 12)
 - https://tonydzi.github.io/verbatim-citation-gate/ - the docs page: two-stage diagram, known limits, and the self-styled lab attribution
-- https://pypi.org/pypi/verbatim-citation-gate/json - the PyPI registry record: 0.3.2 and 0.3.3 published with the project's own repository and docs URLs (fetched 2026-11-21)
+- https://pypi.org/pypi/verbatim-citation-gate/json - the PyPI registry record: 0.3.2 and 0.3.3 published with the project's own repository and docs URLs (fetched 2026-11-21, re-fetched 2026-11-24)
 - https://hn.algolia.com/api/v1/search?query=verbatim-citation-gate&hitsPerPage=3 - the zero-thread community-footprint check as of 2026-10-11

@@ -1,9 +1,9 @@
 ---
 title: Crit
 created: 2026-10-12
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, human-in-the-loop, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, evaluation-review, code-review, human-in-the-loop, open-source]
 readability: 3
 audience_notes: >
   Engineers who review coding-agent output in a browser and want their comments to reach the agent without copy-paste, including review of the running app the agent is building.
@@ -56,7 +56,7 @@ The costs are your own model tokens in story mode and, if you use them, the host
 
 ## Compared to
 
-- [Plannotator](../plannotator/index.md): the closest sibling, also a browser review surface feeding the agent; Plannotator intercepts plans through harness hooks across nine agents and diffs plan revisions, while crit is invoked explicitly and adds running apps, story chapters, and forge two-way sync.
+- [Plannotator](../plannotator/index.md): the closest sibling, also a browser review surface feeding the agent; Plannotator intercepts plans through harness hooks, plugins, and slash commands across ten agents and diffs plan revisions, while crit is invoked explicitly and adds running apps, story chapters, and forge two-way sync.
 - [Hunk](../hunk/index.md): the terminal answer to the same problem; choose Hunk when the loop never leaves the terminal, crit when line-precise comments on long plans and live pages pay for the browser context switch.
 - [PR Lens](../pr-lens/index.md): both add an LLM-authored comprehension layer (story chapters versus animated diagrams), but PR Lens renders a verdict-free walkthrough on the pull request while crit keeps review anchored to your local lines and comments.
 
@@ -80,10 +80,11 @@ Not for terminal-only workflows (Hunk), not for CI gating (nothing here exits no
 - 2026-11-14 - Recorded the v0.23.3 release (2026-11-13): two-way GitHub viewed-file sync (`crit push --viewed` and `crit pull --viewed`, viewed marks saved in the review file, PR 1150); pushed date moved to 2026-11-13 and no commits have landed after the release.
 - 2026-11-21 - Rotation re-verification: every cited URL re-fetched and live (repository, README, API state, release line, product site, and the zero-thread HN search), recorded the v0.24.0 release (2026-11-20): the Excalidraw renderer with comment-pinned canvas preview and shareable canvas (an outside contribution), added the Arch AUR package to the distribution list and the sixth rendering surface to What it is.
 - 2026-11-22 - Refreshed the activity line: pushed date moved to 2026-11-21 with a dev-dependency bump (eslint, PR 1216), v0.24.0 still the newest release.
+- 2026-11-24 - Corrected the Plannotator harness count in the Compared to and See also lines from nine to ten, matching Plannotator's README table after DeepSeek Harness joined through a plugin (merged 2026-10-28).
 
 ## See also
 
-- [Plannotator](../plannotator/index.md) - the hook-intercepting sibling with nine-harness coverage
+- [Plannotator](../plannotator/index.md) - the hook-intercepting sibling with ten-harness coverage
 - [Hunk](../hunk/index.md) - the terminal diff stream for the same loop
 - [PR Lens](../pr-lens/index.md) - the verdict-free PR walkthrough with diagrams
 - [Evaluation and Review Feature Matrix](../evaluation-review-feature-matrix/index.md) - the category comparison this note joins

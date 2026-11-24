@@ -1,9 +1,9 @@
 ---
 title: Langfuse
 created: 2026-09-16
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation, observability, llm-as-judge]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, evaluation, observability, llm-as-judge]
 readability: 3
 audience_notes: >
   Engineers who need production-grade tracing and evaluation for LLM applications and agents under a license their employer will accept.
@@ -23,7 +23,7 @@ Made by Langfuse (YC W23), acquired by ClickHouse in January 2026, with the root
 
 ## Status
 
-Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-11-22 (the default branch's latest commit), with v4.83.0 (2026-11-19, a Topics scatter view replacing the list, per-key spend limits and per-user budgets in the AI gateway, IAM role auth for Bedrock connections, and the MCP server moving to the 2026-07-28 protocol revision with a batchCreateScores tool) and v4.82.0 (2026-11-17, audit logs read from ClickHouse, API-key presets renamed, an SSRF fix in GitHub Enterprise SSO, and evals pausing an LLM connection on provider 429s instead of retrying in-call) and v4.81.0 (2026-11-16, Google Vertex AI added as an AI-gateway provider, Gemini decision models in evaluators, dataset items filterable by status, and Topics snapshots with on-demand map refresh) after v4.80.0 (2026-11-13) and v4.79.0 (2026-11-12) and v4.78.0 (2026-11-10) and v4.77.0 (2026-11-09) after v4.76.0 (2026-11-05), v4.75.0 (2026-11-04), v4.74.0 and v4.73.0 (both 2026-11-03), and v4.72.0 (2026-10-29), as of 2026-11-21.
+Mature and busy: 35,785 stars, 3,984 forks as of 2026-10-13 (captured once at note level; the chart is the live signal), created 2023-05-18, pushed 2026-11-23 (the default branch's latest commit), with v4.84.0 (2026-11-23, organization-wide spend budgets in the AI gateway, the billable-events ledger shipped as a ClickHouse migration, the member role hierarchy replaced by an ownership rule, opt-in native OpenTelemetry direct processing, organization-scoped model definitions, and a batchCreateAnnotationQueueItems MCP tool) and v4.83.0 (2026-11-19, a Topics scatter view replacing the list, per-key spend limits and per-user budgets in the AI gateway, IAM role auth for Bedrock connections, and the MCP server moving to the 2026-07-28 protocol revision with a batchCreateScores tool) and v4.82.0 (2026-11-17, audit logs read from ClickHouse, API-key presets renamed, an SSRF fix in GitHub Enterprise SSO, and evals pausing an LLM connection on provider 429s instead of retrying in-call) and v4.81.0 (2026-11-16, Google Vertex AI added as an AI-gateway provider, Gemini decision models in evaluators, dataset items filterable by status, and Topics snapshots with on-demand map refresh) after v4.80.0 (2026-11-13) and v4.79.0 (2026-11-12) and v4.78.0 (2026-11-10) and v4.77.0 (2026-11-09) after v4.76.0 (2026-11-05), v4.75.0 (2026-11-04), v4.74.0 and v4.73.0 (both 2026-11-03), and v4.72.0 (2026-10-29), as of 2026-11-24.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langfuse/langfuse&type=date&theme=dark&legend=top-left" />
@@ -104,6 +104,7 @@ Not for pytest-style CI gating (use deepeval) or for observing coding-agent sess
 - 2026-11-20 - Recorded the v4.83.0 release (2026-11-19, a Topics scatter view replacing the list, per-key spend limits and per-user budgets in the AI gateway, IAM role auth for Bedrock connections, and the MCP server moving to the 2026-07-28 protocol revision with a batchCreateScores tool) and refreshed the activity line (the default branch's latest commit 2026-11-20).
 - 2026-11-21 - Rotation re-verification: every cited URL re-fetched and live (repository, LICENSE, README, docs, pricing page with every tier and the graduated overage unchanged, release line, the cache-accounting issue and fix, the v4.34.0 tag, and the three HN threads), pushed date moved to 2026-11-21, v4.83.0 still the newest release.
 - 2026-11-22 - Refreshed the activity line: pushed date moved to 2026-11-22 with the billable-units work landing on the default branch (an org endpoint exposing billable units per project, the org usage breakdown reading from the ledger, and tRPC sign-in 401s logged at debug level on 2026-11-21, then continued-topic naming on 2026-11-22); v4.83.0 still the newest release.
+- 2026-11-24 - Recorded the v4.84.0 release (2026-11-23, organization-wide spend budgets in the AI gateway, the billable-events ledger shipped as a ClickHouse migration, the member role hierarchy replaced by an ownership rule, opt-in native OpenTelemetry direct processing, organization-scoped model definitions, and a batchCreateAnnotationQueueItems MCP tool) and refreshed the activity line (the default branch's latest commit 2026-11-23); cloud pricing re-verified unchanged.
 
 ## See also
 

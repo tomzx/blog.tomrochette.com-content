@@ -1,9 +1,9 @@
 ---
 title: Kiln
 created: 2026-10-10
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, evals, fine-tuning, desktop-app]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, evaluation-review, evals, fine-tuning, desktop-app]
 readability: 3
 audience_notes: >
   Engineers and mixed teams (PMs, subject experts, QA) who need to build and rate eval sets without writing code first.
@@ -23,7 +23,7 @@ The maker is Chesterfield Laboratories Inc, and the desktop app is source-availa
 
 ## Status
 
-Active and mature for this category: 5,191 stars, 394 forks, and 56 open issues as of 2026-10-13, created 2024-07-23, pushed 2026-11-18 (the default branch's latest moves: the 11-18 OpenAI reasoning summaries review-fix merge, and the 11-17 model-catalog additions, Gemini API and Vertex providers for Gemini 4 Hydrogen, Together AI for Glimpse, and Hunyuan Hy4 Flash and Inkling 2 Small to the model list), with the v1.2.1 release published 2026-11-11 (on both GitHub and PyPI the same day) ending the v1.2.0 line's two-month hold as newest.
+Active and mature for this category: 5,191 stars, 394 forks, and 56 open issues as of 2026-10-13, created 2024-07-23, pushed 2026-11-23 (the default branch's latest moves: the 11-23 model-catalog sweep marking eleven entries their providers no longer serve deprecated and requiring a note on every new model, after the 11-18 OpenAI reasoning summaries review-fix merge and the 11-17 model-catalog additions, Gemini API and Vertex providers for Gemini 4 Hydrogen, Together AI for Glimpse, and Hunyuan Hy4 Flash and Inkling 2 Small to the model list), with the v1.2.1 release published 2026-11-11 (on both GitHub and PyPI the same day) ending the v1.2.0 line's two-month hold as newest.
 The release train is steady (v1.2.0 on 2026-09-29, v1.1.3 on 2026-09-16, v1.1.1 on 2026-08-20), and PyPI tracks the same 1.2.1 version.
 The community footprint is thin for the star count: a Hacker News search returns four hits about Kiln, all small (10, 6, 3, and 2 points, the newest from 2025-08-06), so adoption evidence rests on the stars and the installer base rather than independent technical discussion.
 
