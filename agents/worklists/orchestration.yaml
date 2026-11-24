@@ -10,6 +10,18 @@ governing_questions:
   - id: q12
     summary: should openai/symphony be profiled despite the mission-control tail rejection
 digest_lines:
+  - "- 2026-11-24 | cross-category | the unauthenticated GitHub API limit is shared by every parallel worker on one IP and can be exhausted at run start, so GitHub facts ground through authenticated `gh api` in the same run | the retrieval run's first batch returned rate-limit errors on every api.github.com call while `gh api` answered each one"
+  - "- - 2026-11-24 | orchestration | agent0ai/agent-zero admitted as the framework tier's run-time delegation entry on the AutoGPT autonomous-agent precedent, above the 2026-10-28 below-tier line | 19,966 stars as of 2026-11-24, v2.16 (2026-11-17), MIT text under NOASSERTION, five HN stories at 1 to 3 points, the independent record critical (ten NVD CVE records since April 2025, a D-graded third-party review)"
+  - "- - 2026-11-24 | orchestration | patched-codes/patchwork rejects for orchestration as single-agent chore automation (steps plus prompt templates for PR review, AutoFix, and docs) with no multi-agent or supervision surface, and dormant | 1,582 stars as of 2026-11-24, AGPL-3.0, main quiet since 2025-04-18 and releases ending at v0.0.124 (2025-04-16); ResolveIssue is software-factory-kind, flagged there; reopen on a resumed release train or a routing call"
+  - "- - 2026-11-24 | orchestration | LobeHub's cloud plans were restructured from monthly credit allowances to run and limit quotas, Free, Basic $10, Plus $20, and Pro $100 a month at 10 percent off yearly, Enterprise Edition on contact | found in the lobehub rotation re-fetch; lobehub.com pricing and docs answer scripted curl with HTTP 402 while a second client reads both in full, the 2026-11-15 tool-specific-blocking class"
+  - "- - 2026-11-24 | orchestration | a Changes-ordering repair finds every bullet each move would displace before moving, because an out-of-order pair can point at either member | the matrix audit named a 2026-09-20 bullet after 2026-09-13 ones, but lifting the 2026-09-13 bullet would have left the 2026-09-20 bullet above 2026-09-16 and 2026-09-18 bullets; the 2026-09-20 bullet was the misplaced one"
+  - "- - 2026-11-24 | orchestration | a leftover handoff's edits are re-fetched before they are reported, since a dead attempt's fetches age within the day | three same-day releases landed after the dead attempt's feeds (oh-my-codex v0.22.20, Ruflo v3.80.5, Agent Swarm v2.14.5) and cli-agent-orchestrator's PyPI moved to 2.5.5 between its fetch and this run's"
+  - "- 2026-11-24 | cross-category | crates.io's API returns a non-JSON body to a request with no User-Agent header while the same URL answers a UA-bearing request with valid JSON, so registry re-reads carry a UA before a failed read is treated as a wall | the acp rotation re-read of the agent-client-protocol crate (5.5.1, published 2026-11-21), extending the 2026-11-07 npm registry line"
+  - "- 2026-11-24 | cross-category | Harbor's dataset registry moved to hub.harborframework.com with server-rendered dataset pages | registry.harborframework.com answers 307 to the hub, so dataset pages that read as shells on 2026-11-22 now ground their details (SlopCodeBench at version 4.0.0, 36 multi-step tasks, one step per checkpoint)"
+  - "- 2026-11-24 | cross-category | the six broad sources: andyrewlee adds five entries and the other five carry over | andyrewlee's 2026-11-23 batch (#407 to #411) adds Temporality, OmegaStar, Hub by Icons8, Codealong, and MyAgents; AMO is star-count ticker only (three commits to src/data/github-stars.json) with its README, its openorchestrators.org data (src/data/orchestrators.ts, last content commit 2026-11-13), and its news content (last 2026-11-17) unchanged; hesreallyhim is ticker-only (sixteen commits, the repo-ticker SVG and CSV files only); ai-for-developers, e2b-dev, and slavakurilyak show zero commits since the 11-22 scans"
+  - "- 2026-11-24 | cross-category | the andyrewlee 2026-11-23 batch resolves with no admissions: five rejections | MyAgents (hAcKlyc/MyAgents, 597 stars, 93 forks, AGPL-3.0 plus a paid commercial license, v0.5.15 on 2026-11-22) holds below the 751 zero-coverage band and far below the assistant-runtimes member floor (the OpenAgent and comma precedents) with zero independent coverage, assistant-runtimes kind on the Cowork-desktop line and on the q#44 generalist-harness shelf; Codealong (74 stars, Apache-2.0) takes the mission-control dashboards-and-tails family as a passive supervision surface; Hub by Icons8 (24 stars, five days old, a four-commit vendor snapshot), OmegaStar (16 stars, alpha), and Temporality (14 stars) take the thin-record tail with orchestration and control-planes kind flags; all reopen on traction or independent coverage, MyAgents also on the member floor or the q#44 ruling"
+  - "- 2026-11-24 | cross-category | a routed admission is resolved only when the kind-fit category lands the note or logs a refusal with reasons; the openorchestrators.org data cross-check found two that did neither | Kortix (kortix-ai/CompanyOS, routed to orchestration 2026-11-12, 20,789 stars as of 2026-11-24) and Cloudroom (davidondrej/cloudroom, routed 2026-11-03, 1,840 stars as of 2026-11-24) have no note directory, no membership entry, and no log line after their routing lines; the rest of the site data (105 player entries) is resolved on record, its back catalog walked 2026-10-13 and the 23 slugs added since resolved by later scans"
+  - "- 2026-11-24 | cross-category | the 2026-11-24 stars scan resolves one out-of-scope rejection | mozillazg/python-pinyin (5,399 stars, starred 2026-11-22T22:17:41Z) is a Chinese character-to-pinyin library with no agent surface, the no-agent-story line; checkpoint advance to 2026-11-22T22:17:41Z"
   - "- 2026-11-22 | orchestration | the kyrolabs h5i entry rejects on the subject mismatch | h5i-dev/h5i (933 stars, Apache-2.0, pushed 2026-11-20) is today a Lean 4-verifiable Rust web framework plus a websec/red-team CLI with agent sandboxes, the listing's multi-agent worktree-race tool resolves to no repository, and the repo's own May-June 2026 history records the agent-communication identity it left behind"
   - "- 2026-11-22 | cross-category | the 2026-11-22 stars scan finds nothing past the checkpoint | the newest star is the checkpoint star itself (abhinavxd/libredesk at 2026-11-21T04:48:22Z), page one reached the checkpoint on its first entry so paging stopped, checkpoint held at 2026-11-21T04:48:22Z"
   - "- 2026-11-22 | cross-category | the six broad sources carry over with one member sighting | andyrewlee, ai-for-developers, e2b-dev, and slavakurilyak show zero commits since the 11-21 scans, hesreallyhim is ticker-only (twelve ticker commits), and AMO's single content addition (2026-11-22, #134) is the executions member switch's second listing"
@@ -170,38 +182,45 @@ notes:
   - slug: ag2
     title: AG2
     subject_repo: ag2ai/ag2
-    last_verified: 2026-11-21
+    last_verified: 2026-11-24
     last_pushed: 2026-11-23
     last_release: v1.3.4
-    signals: [pushed]
+    signals: []
   - slug: agent-manager
     title: Agent Manager
     subject_repo: wainmann/agent-manager
     last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v0.49.0
     signals: [pushed]
   - slug: agent-orchestrator
     title: Agent Orchestrator
     subject_repo: OrchestratorInc/agent-orchestrator
-    last_verified: 2026-11-17
-    last_pushed: 2026-11-23
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
     last_release: v0.15.5
-    signals: [pushed, released]
+    signals: []
   - slug: agent-swarm
     title: Agent Swarm
     subject_repo: desplega-ai/agent-swarm
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-24
-    last_release: v2.14.4
-    signals: [pushed]
+    last_release: v2.14.5
+    signals: [released]
   - slug: agent-teams
     title: Agent Teams
     subject_repo: 777genius/agent-teams-ai
     last_verified: 2026-11-21
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v2.18.7
     signals: [pushed]
+  - slug: agent-zero
+    title: Agent Zero
+    subject_repo: agent0ai/agent-zero
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-23
+    last_release: v2.16
+    signals: []
   - slug: agentbox
     title: AgentBox
     subject_repo: madarco/agentbox
@@ -216,7 +235,7 @@ notes:
   - slug: agentlas-os
     title: Agentlas OS
     subject_repo: agentlas-ai/Agentlas-OS
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-21
     last_release: v1.2.97
     signals: []
@@ -230,10 +249,10 @@ notes:
   - slug: agno
     title: Agno
     subject_repo: agno-agi/agno
-    last_verified: 2026-11-19
-    last_pushed: 2026-11-23
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
     last_release: v3.2.1
-    signals: [pushed]
+    signals: []
   - slug: agtx
     title: agtx
     subject_repo: fynnfluegge/agtx
@@ -252,16 +271,16 @@ notes:
     title: Archon
     subject_repo: coleam00/Archon
     last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v0.14.0
     signals: [pushed]
   - slug: atlas
     title: Atlas
     subject_repo: tryatlas/atlas
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-23
     last_release: alpha-0.5.3
-    signals: [pushed, released]
+    signals: []
   - slug: autogen
     title: AutoGen
     subject_repo: microsoft/autogen
@@ -308,7 +327,7 @@ notes:
     title: Cezar
     subject_repo: open-mercato/cezar
     last_verified: 2026-11-21
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v0.20.0
     signals: [pushed]
   - slug: chatdev
@@ -342,10 +361,17 @@ notes:
   - slug: cli-agent-orchestrator
     title: CLI Agent Orchestrator
     subject_repo: awslabs/cli-agent-orchestrator
-    last_verified: 2026-11-17
-    last_pushed: 2026-11-23
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
     last_release: v2.5.5
-    signals: [pushed]
+    signals: []
+  - slug: cloudroom
+    title: Cloudroom
+    subject_repo: davidondrej/cloudroom
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
+    last_release: gui-v165
+    signals: []
   - slug: cmux
     title: cmux
     subject_repo: manaflow-ai/cmux
@@ -356,17 +382,17 @@ notes:
   - slug: commonly
     title: Commonly
     subject_repo: Team-Commonly/commonly
-    last_verified: 2026-11-19
-    last_pushed: 2026-11-23
-    last_release: v3.0.0
-    signals: [pushed]
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
+    last_release: v3.1.0
+    signals: [released]
   - slug: concord-mcp
     title: Concord MCP
     subject_repo: Get-Concord-AI/concord-mcp
-    last_verified: 2026-11-19
+    last_verified: 2026-11-24
     last_pushed: 2026-11-23
     last_release: v0.24.0
-    signals: [pushed, released]
+    signals: []
   - slug: conductor
     title: Conductor
     subject_repo: null
@@ -374,15 +400,15 @@ notes:
   - slug: crewai
     title: CrewAI
     subject_repo: crewAIInc/crewAI
-    last_verified: 2026-11-21
-    last_pushed: 2026-11-23
-    last_release: 1.15.44
-    signals: [pushed]
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
+    last_release: 1.15.45
+    signals: [released]
   - slug: crewplane
     title: Crewplane
     subject_repo: crewplaneai/crewplane
     last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v0.4.3
     signals: [pushed]
   - slug: crystal
@@ -396,7 +422,7 @@ notes:
     title: Dify
     subject_repo: langgenius/dify
     last_verified: 2026-11-19
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: 1.20.0
     signals: [pushed]
   - slug: dmux
@@ -445,7 +471,7 @@ notes:
     title: Gas City
     subject_repo: gastownhall/gascity
     last_verified: 2026-11-17
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v1.5.1
     signals: [pushed]
   - slug: gastown
@@ -480,7 +506,7 @@ notes:
     title: Happy Coder
     subject_repo: slopus/happy
     last_verified: 2026-11-17
-    last_pushed: 2026-11-22
+    last_pushed: 2026-11-24
     last_release: cli-1.2.5
     signals: [pushed]
   - slug: hcom
@@ -522,13 +548,20 @@ notes:
     title: Jean
     subject_repo: coollabsio/jean
     last_verified: 2026-11-16
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v1.0.16
     signals: [pushed]
   - slug: jetbrains-air
     title: JetBrains Air
     subject_repo: null
     last_verified: 2026-11-19
+  - slug: kortix
+    title: Kortix
+    subject_repo: kortix-ai/CompanyOS
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
+    last_release: v0.16.4
+    signals: []
   - slug: lanes
     title: Lanes
     subject_repo: lanes-sh/app
@@ -539,22 +572,22 @@ notes:
   - slug: langgraph
     title: LangGraph
     subject_repo: langchain-ai/langgraph
-    last_verified: 2026-11-21
+    last_verified: 2026-11-24
     last_pushed: 2026-11-24
     last_release: 1.2.24
-    signals: [pushed]
+    signals: []
   - slug: lobehub
     title: LobeHub
     subject_repo: lobehub/lobehub
-    last_verified: 2026-11-19
-    last_pushed: 2026-11-23
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
     last_release: v2.3.5
-    signals: [pushed]
+    signals: []
   - slug: looptroop
     title: LoopTroop
     subject_repo: looptroop-ai/LoopTroop
     last_verified: 2026-11-16
-    last_pushed: 2026-11-22
+    last_pushed: 2026-11-24
     last_release: v0.6.4
     signals: [pushed]
   - slug: mastra
@@ -574,73 +607,73 @@ notes:
   - slug: multica
     title: Multica
     subject_repo: multica-ai/multica
-    last_verified: 2026-11-21
-    last_pushed: 2026-11-23
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
     last_release: v0.12.1
-    signals: [pushed, released]
+    signals: []
   - slug: nodeterm
     title: nodeterm
     subject_repo: eneskirca/nodeterm
-    last_verified: 2026-11-19
+    last_verified: 2026-11-24
     last_pushed: 2026-11-24
     last_release: v0.5.3
-    signals: [pushed, released]
+    signals: []
   - slug: oh-my-codex
     title: oh-my-codex
     subject_repo: Yeachan-Heo/oh-my-codex
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-24
-    last_release: v0.22.18
-    signals: [pushed, released]
+    last_release: v0.22.20
+    signals: [released]
   - slug: omnara
     title: Omnara
     subject_repo: omnara-ai/omnara
     last_verified: 2026-11-21
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: omnarad-v0.2.27
     signals: [pushed]
   - slug: open-swarm
     title: Open Swarm
     subject_repo: openswarm-ai/openswarm
-    last_verified: 2026-11-21
-    last_pushed: 2026-11-21
-    last_release: v1.8.0
-    signals: []
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
+    last_release: v1.8.1
+    signals: [released]
   - slug: openharness
     title: OpenHarness
     subject_repo: autonomous-ai/openharness
-    last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
     last_release: v0.6.85_cli
-    signals: [pushed, released]
+    signals: []
   - slug: openrig
     title: OpenRig
     subject_repo: mvschwarz/openrig
-    last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
     last_release: v0.7.22
-    signals: [pushed, released]
+    signals: []
   - slug: orca
     title: Orca
     subject_repo: stablyai/orca
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-24
     last_release: v1.4.272
-    signals: [pushed, released]
+    signals: []
   - slug: orkas
     title: Orkas
     subject_repo: Orkas-AI/Orkas
     last_verified: 2026-11-17
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v2026.11.16
     signals: [pushed]
   - slug: pandacode
     title: PandaCode
     subject_repo: aicodeking/pandacode
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-24
     last_release: v0.3.142
-    signals: [pushed, released]
+    signals: []
   - slug: parallel-code
     title: Parallel Code
     subject_repo: johannesjo/parallel-code
@@ -651,10 +684,10 @@ notes:
   - slug: paseo
     title: Paseo
     subject_repo: getpaseo/paseo
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-24
     last_release: v0.17.4
-    signals: [pushed, released]
+    signals: []
   - slug: praisonai
     title: PraisonAI
     subject_repo: MervinPraison/PraisonAI
@@ -666,16 +699,16 @@ notes:
     title: Raven
     subject_repo: EverMind-AI/Raven
     last_verified: 2026-11-19
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v0.2.8
     signals: [pushed]
   - slug: ruflo
     title: Ruflo
     subject_repo: ruvnet/ruflo
-    last_verified: 2026-11-21
-    last_pushed: 2026-11-23
-    last_release: v3.80.4
-    signals: [pushed, released]
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
+    last_release: v3.80.5
+    signals: [released]
   - slug: sandcastle
     title: Sandcastle
     subject_repo: mattpocock/sandcastle
@@ -693,10 +726,10 @@ notes:
   - slug: sim
     title: Sim
     subject_repo: simstudioai/sim
-    last_verified: 2026-11-19
+    last_verified: 2026-11-24
     last_pushed: 2026-11-23
     last_release: v0.9.66
-    signals: [pushed]
+    signals: []
   - slug: squad
     title: Squad
     subject_repo: github/squad
@@ -708,7 +741,7 @@ notes:
     title: Superset
     subject_repo: ParadevAI/Paradev
     last_verified: 2026-11-21
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: desktop-v2.0.11
     signals: [pushed]
   - slug: swarm-orchestrator
@@ -735,10 +768,10 @@ notes:
   - slug: termio
     title: termio
     subject_repo: termio-sh/termio
-    last_verified: 2026-11-19
+    last_verified: 2026-11-24
     last_pushed: 2026-11-23
     last_release: v0.77.0
-    signals: [pushed]
+    signals: []
   - slug: the-perfect-orchestrator
     title: The Perfect Orchestrator
     subject_repo: daman8271/the-perfect-orchestrator
@@ -750,7 +783,7 @@ notes:
     title: tuios
     subject_repo: Gaurav-Gosain/tuios
     last_verified: 2026-11-17
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v0.13.3
     signals: [pushed]
   - slug: vibe-kanban
@@ -764,7 +797,7 @@ notes:
     title: Worktrunk
     subject_repo: max-sixty/worktrunk
     last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v0.83.0
     signals: [pushed]
   - slug: yao
@@ -778,6 +811,6 @@ notes:
     title: YYLO
     subject_repo: yylo-dev/yylo
     last_verified: 2026-11-19
-    last_pushed: 2026-11-13
-    last_release: cli-v0.2.1-rc.1
-    signals: []
+    last_pushed: 2026-11-24
+    last_release: v0.2.15
+    signals: [pushed, released]

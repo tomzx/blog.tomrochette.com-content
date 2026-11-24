@@ -10,6 +10,18 @@ governing_questions:
   - id: q19
     summary: add a security-evaluation family or hold the output-judging scope
 digest_lines:
+  - "- 2026-11-24 | cross-category | the unauthenticated GitHub API limit is shared by every parallel worker on one IP and can be exhausted at run start, so GitHub facts ground through authenticated `gh api` in the same run | the retrieval run's first batch returned rate-limit errors on every api.github.com call while `gh api` answered each one"
+  - "- 2026-11-24 | cross-category | crates.io's API returns a non-JSON body to a request with no User-Agent header while the same URL answers a UA-bearing request with valid JSON, so registry re-reads carry a UA before a failed read is treated as a wall | the acp rotation re-read of the agent-client-protocol crate (5.5.1, published 2026-11-21), extending the 2026-11-07 npm registry line"
+  - "- 2026-11-24 | harnesses | NousResearch/hermes-agent-self-evolution rejects as not harnesses-kind, evaluation-review kind flag | a DSPy plus GEPA optimizer evolving Hermes Agent's skill files with one of five phases implemented, default branch dormant since 2026-06-17, no license file with the API license null, one 2-point HN analysis; reopen on a coding-harness surface, a license file, or coverage"
+  - "- 2026-11-24 | evaluation-review | SkillEvaluator admitted as the skill-and-plugin evaluation gate, evaluation-review kind on the primary-artifact rule | NVIDIA/SkillEvaluator, 4,453 stars as of 2026-11-24, Apache-2.0, v1.0.1 (2026-11-18), three tiers from keyless static gates and Harness Check to a paired live trial on Harbor reporting Skill Lift, GitHub and GitLab CI templates; the vendor-scores-its-own-catalog caveat attached (single-attempt runs, no confidence intervals, Spearman 0.14 between structural and judged scores, a 5-point paper submission as the footprint); the skills member SkillSpector is its Tier 1 security scanner, not a reason to route it to skills; the category holds twenty-seven members"
+  - "- 2026-11-24 | evaluation-review | a published-but-unlinked pricing page is a repricing signal, so the Pricing section states the prices and the Price history table opens the same run | Plannotator's Spaces page (plannotator.ai/workspaces/pricing/, added 2026-11-23, every plan still waitlist-only) lists Free, Team 5 $29 a month or $319 a year, Team 10 $59 or $649, Team Unlimited $119 or $1,309, per team with agents and guests free"
+  - "- 2026-11-24 | evaluation-review | a maintenance-release reading is re-checked before the next release-chain append, because release notes filled in after a fetch can carry highlights the earlier reading missed | Plannotator v0.29.1, recorded 2026-11-20 as publishing no highlights and dated 2026-11-20, publishes a full highlight list (56 pull requests) and was published 2026-11-19, both corrected in rotation"
+  - "- 2026-11-24 | evaluation-review | a benchmark's later version can flatten its own headline, so the headline figure is dated to the version it describes | FrontierHarness Eval's v1.1 README table (22 configurations, 5 models, 1,240 scored attempts each) spreads cost per pass about 1.7x ($0.937 to $1.63) and pass rate about 11 points, against the v1.0 headline's 17.5x and 17 points"
+  - "- 2026-11-24 | cross-category | Harbor's dataset registry moved to hub.harborframework.com with server-rendered dataset pages | registry.harborframework.com answers 307 to the hub, so dataset pages that read as shells on 2026-11-22 now ground their details (SlopCodeBench at version 4.0.0, 36 multi-step tasks, one step per checkpoint)"
+  - "- 2026-11-24 | cross-category | the six broad sources: andyrewlee adds five entries and the other five carry over | andyrewlee's 2026-11-23 batch (#407 to #411) adds Temporality, OmegaStar, Hub by Icons8, Codealong, and MyAgents; AMO is star-count ticker only (three commits to src/data/github-stars.json) with its README, its openorchestrators.org data (src/data/orchestrators.ts, last content commit 2026-11-13), and its news content (last 2026-11-17) unchanged; hesreallyhim is ticker-only (sixteen commits, the repo-ticker SVG and CSV files only); ai-for-developers, e2b-dev, and slavakurilyak show zero commits since the 11-22 scans"
+  - "- 2026-11-24 | cross-category | the andyrewlee 2026-11-23 batch resolves with no admissions: five rejections | MyAgents (hAcKlyc/MyAgents, 597 stars, 93 forks, AGPL-3.0 plus a paid commercial license, v0.5.15 on 2026-11-22) holds below the 751 zero-coverage band and far below the assistant-runtimes member floor (the OpenAgent and comma precedents) with zero independent coverage, assistant-runtimes kind on the Cowork-desktop line and on the q#44 generalist-harness shelf; Codealong (74 stars, Apache-2.0) takes the mission-control dashboards-and-tails family as a passive supervision surface; Hub by Icons8 (24 stars, five days old, a four-commit vendor snapshot), OmegaStar (16 stars, alpha), and Temporality (14 stars) take the thin-record tail with orchestration and control-planes kind flags; all reopen on traction or independent coverage, MyAgents also on the member floor or the q#44 ruling"
+  - "- 2026-11-24 | cross-category | a routed admission is resolved only when the kind-fit category lands the note or logs a refusal with reasons; the openorchestrators.org data cross-check found two that did neither | Kortix (kortix-ai/CompanyOS, routed to orchestration 2026-11-12, 20,789 stars as of 2026-11-24) and Cloudroom (davidondrej/cloudroom, routed 2026-11-03, 1,840 stars as of 2026-11-24) have no note directory, no membership entry, and no log line after their routing lines; the rest of the site data (105 player entries) is resolved on record, its back catalog walked 2026-10-13 and the 23 slugs added since resolved by later scans"
+  - "- 2026-11-24 | cross-category | the 2026-11-24 stars scan resolves one out-of-scope rejection | mozillazg/python-pinyin (5,399 stars, starred 2026-11-22T22:17:41Z) is a Chinese character-to-pinyin library with no agent surface, the no-agent-story line; checkpoint advance to 2026-11-22T22:17:41Z"
   - "- 2026-11-22 | evaluation-review | SlopCodeBench admitted as the iterative-extension benchmark beside the ground benchmark | 324 stars as of 2026-11-22, MIT, arXiv 2603.24755, 36 problems and 196 checkpoints where agents extend their own code, checkpoint verifiers plus LLM-judge and lint rubrics for quality, HumanLayer's 405- and 309-point HN shootouts and three AI That Works episodes as the adoption footprint; the category holds twenty-six members"
   - "- 2026-11-22 | cross-category | the 2026-11-22 stars scan finds nothing past the checkpoint | the newest star is the checkpoint star itself (abhinavxd/libredesk at 2026-11-21T04:48:22Z), page one reached the checkpoint on its first entry so paging stopped, checkpoint held at 2026-11-21T04:48:22Z"
   - "- 2026-11-22 | cross-category | the six broad sources carry over with one member sighting | andyrewlee, ai-for-developers, e2b-dev, and slavakurilyak show zero commits since the 11-21 scans, hesreallyhim is ticker-only (twelve ticker commits), and AMO's single content addition (2026-11-22, #134) is the executions member switch's second listing"
@@ -143,10 +155,10 @@ notes:
   - slug: agent-qa
     title: agent-qa
     subject_repo: vostride/agent-qa
-    last_verified: 2026-11-20
+    last_verified: 2026-11-24
     last_pushed: 2026-11-23
     last_release: v0.3.11
-    signals: [pushed]
+    signals: []
   - slug: better-harness
     title: Better Harness
     subject_repo: QoderAI/better-harness
@@ -164,31 +176,31 @@ notes:
   - slug: crit
     title: Crit
     subject_repo: tomasz-tomczyk/crit
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-21
     last_release: v0.24.0
     signals: []
   - slug: deepeval
     title: deepeval
     subject_repo: confident-ai/deepeval
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-24
     last_release: python-v4.2.4
-    signals: [pushed]
+    signals: []
   - slug: frontierharness-eval
     title: FrontierHarness Eval
     subject_repo: frontier-harness-eval/eval
-    last_verified: 2026-11-21
+    last_verified: 2026-11-24
     last_pushed: 2026-11-20
     last_release: null
     signals: []
   - slug: harbor
     title: Harbor
     subject_repo: harbor-framework/harbor
-    last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
     last_release: v0.27.0
-    signals: [pushed]
+    signals: []
   - slug: harnesstax
     title: HarnessTax
     subject_repo: HarnessTax/HarnessTax.github.io
@@ -206,7 +218,7 @@ notes:
   - slug: hunk
     title: Hunk
     subject_repo: modem-dev/hunk
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-22
     last_release: v0.25.0
     signals: []
@@ -221,23 +233,23 @@ notes:
     title: Kiln
     subject_repo: Kiln-AI/Kiln
     last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v1.2.1
     signals: [pushed]
   - slug: kitaru
     title: Kitaru
     subject_repo: zenml-io/kitaru
     last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: python/kitaru/v0.27.7
     signals: [pushed]
   - slug: langfuse
     title: Langfuse
     subject_repo: langfuse/langfuse
-    last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
     last_release: v4.84.0
-    signals: [pushed, released]
+    signals: []
   - slug: mlr-bench
     title: MLR-Bench
     subject_repo: chchenhui/mlrbench
@@ -249,23 +261,23 @@ notes:
     title: Phoenix
     subject_repo: Arize-ai/phoenix
     last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: arize-phoenix-client-v3.8.0
-    signals: [pushed, released]
+    signals: [pushed]
   - slug: plannotator
     title: Plannotator
     subject_repo: backnotprop/plannotator
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-24
     last_release: v0.29.3
-    signals: [pushed, released]
+    signals: []
   - slug: pr-lens
     title: PR Lens
     subject_repo: coldteadotai/pr-lens
     last_verified: 2026-11-18
-    last_pushed: 2026-11-18
+    last_pushed: 2026-11-24
     last_release: v0.15.0
-    signals: []
+    signals: [pushed]
   - slug: researchclawbench
     title: ResearchClawBench
     subject_repo: InternScience/ResearchClawBench
@@ -276,10 +288,17 @@ notes:
   - slug: reviewbench
     title: ReviewBench
     subject_repo: review-bench/ReviewBench
-    last_verified: 2026-11-21
+    last_verified: 2026-11-24
     last_pushed: 2026-11-23
     last_release: null
-    signals: [pushed]
+    signals: []
+  - slug: skillevaluator
+    title: SkillEvaluator
+    subject_repo: NVIDIA/SkillEvaluator
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
+    last_release: v1.2.0
+    signals: []
   - slug: slop-grader
     title: slop-grader
     subject_repo: lukstei/slop-grader
@@ -290,7 +309,7 @@ notes:
   - slug: slopcodebench
     title: SlopCodeBench
     subject_repo: SprocketLab/slop-code-bench
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-19
     last_release: v0.3
     signals: []
@@ -311,7 +330,7 @@ notes:
   - slug: verbatim-citation-gate
     title: Verbatim Citation Gate
     subject_repo: tonydzi/verbatim-citation-gate
-    last_verified: 2026-11-21
+    last_verified: 2026-11-24
     last_pushed: 2026-11-21
     last_release: v0.3.3
     signals: []

@@ -5,6 +5,19 @@ governing_questions:
   - id: q21
     summary: wire the vendor-run stale kodustech list or stay on broad sources
 digest_lines:
+  - "- 2026-11-24 | cross-category | the unauthenticated GitHub API limit is shared by every parallel worker on one IP and can be exhausted at run start, so GitHub facts ground through authenticated `gh api` in the same run | the retrieval run's first batch returned rate-limit errors on every api.github.com call while `gh api` answered each one"
+  - "- 2026-11-24 | cross-category | crates.io's API returns a non-JSON body to a request with no User-Agent header while the same URL answers a UA-bearing request with valid JSON, so registry re-reads carry a UA before a failed read is treated as a wall | the acp rotation re-read of the agent-client-protocol crate (5.5.1, published 2026-11-21), extending the 2026-11-07 npm registry line"
+  - "- 2026-11-24 | harnesses | anthropics/claude-code-security-review resolves inside the claude-code note as a dormant vendor sibling, not a code-review member | 7,071 stars as of 2026-11-24, MIT, no commit since 2026-02-11, no releases; the CLI's `/security-review` command and the Code Review plugin carry the function"
+  - "- 2026-11-24 | cross-category | Harbor's dataset registry moved to hub.harborframework.com with server-rendered dataset pages | registry.harborframework.com answers 307 to the hub, so dataset pages that read as shells on 2026-11-22 now ground their details (SlopCodeBench at version 4.0.0, 36 multi-step tasks, one step per checkpoint)"
+  - "- 2026-11-24 | code-review | the vendor-run kodustech/awesome-ai-code-review list stays unwired as a mapped source; the category stays on broad sources | staleness re-confirmed 2026-11-24 (pushed_at still 2026-06-28, 54 stars) and the dedicated-list search again surfaced nothing credible (nearest dedicated by name two 2-star lists pushed 2026-11-23, ianwieds/awesome-ai-code-review and zhuyansen/awesome-claude-code-review; largest by name a 124-star Gemini-CLI subagents collection, content under the 2026-10-22 ruling); evidence update for open q21"
+  - "- 2026-11-24 | code-review | a rotation that only re-fetches cited URLs misses launches a vendor publishes in its changelog alone, so platform members add the vendor changelog to the cited set | CodeRabbit Verify (2026-11-17) and the CodeRabbit API plus hosted MCP server (2026-11-13) appeared on no cited page and were caught by fetching docs.coderabbit.ai/changelog in the coderabbit rotation"
+  - "- 2026-11-24 | code-review | a changelog entry cut on main ahead of its GitHub release is a substantive pushed-only batch, recorded as unreleased with the fetch date and grounded in the changelog source when the live docs page lags | roborev 0.76.0 (dated 2026-11-22, no release at the fetch, a seven-day package release wait credited in the entry), whose live docs changelog still stops at 0.74.0 because the 0.75.0 entry postdates its tag"
+  - "- 2026-11-24 | code-review | a third-party registry pausing its services turns its posts into 503s and freezes its audit pages, which is a dated fact to record, not a dead source to replace | OpenAgentSkill (catalog recorded 2026-11-21, automatic updates, AI, accounts, and payments paused) in the multi rotation, its blog URL answering 503 with some archive pages are not available yet"
+  - "- 2026-11-24 | code-review | a release landing on the note's last-verified date after that run's fetch leaves the work list without a released flag, so an empty-signal member whose work-list last_release differs from the note's latest release is re-checked | git-lrc (v0.6.22 and v0.6.23 published 2026-11-22 after the 2026-11-22 fetch, signals empty), extending the 2026-11-15 pushed-equals-verified line to the release field"
+  - "- 2026-11-24 | cross-category | the six broad sources: andyrewlee adds five entries and the other five carry over | andyrewlee's 2026-11-23 batch (#407 to #411) adds Temporality, OmegaStar, Hub by Icons8, Codealong, and MyAgents; AMO is star-count ticker only (three commits to src/data/github-stars.json) with its README, its openorchestrators.org data (src/data/orchestrators.ts, last content commit 2026-11-13), and its news content (last 2026-11-17) unchanged; hesreallyhim is ticker-only (sixteen commits, the repo-ticker SVG and CSV files only); ai-for-developers, e2b-dev, and slavakurilyak show zero commits since the 11-22 scans"
+  - "- 2026-11-24 | cross-category | the andyrewlee 2026-11-23 batch resolves with no admissions: five rejections | MyAgents (hAcKlyc/MyAgents, 597 stars, 93 forks, AGPL-3.0 plus a paid commercial license, v0.5.15 on 2026-11-22) holds below the 751 zero-coverage band and far below the assistant-runtimes member floor (the OpenAgent and comma precedents) with zero independent coverage, assistant-runtimes kind on the Cowork-desktop line and on the q#44 generalist-harness shelf; Codealong (74 stars, Apache-2.0) takes the mission-control dashboards-and-tails family as a passive supervision surface; Hub by Icons8 (24 stars, five days old, a four-commit vendor snapshot), OmegaStar (16 stars, alpha), and Temporality (14 stars) take the thin-record tail with orchestration and control-planes kind flags; all reopen on traction or independent coverage, MyAgents also on the member floor or the q#44 ruling"
+  - "- 2026-11-24 | cross-category | a routed admission is resolved only when the kind-fit category lands the note or logs a refusal with reasons; the openorchestrators.org data cross-check found two that did neither | Kortix (kortix-ai/CompanyOS, routed to orchestration 2026-11-12, 20,789 stars as of 2026-11-24) and Cloudroom (davidondrej/cloudroom, routed 2026-11-03, 1,840 stars as of 2026-11-24) have no note directory, no membership entry, and no log line after their routing lines; the rest of the site data (105 player entries) is resolved on record, its back catalog walked 2026-10-13 and the 23 slugs added since resolved by later scans"
+  - "- 2026-11-24 | cross-category | the 2026-11-24 stars scan resolves one out-of-scope rejection | mozillazg/python-pinyin (5,399 stars, starred 2026-11-22T22:17:41Z) is a Chinese character-to-pinyin library with no agent surface, the no-agent-story line; checkpoint advance to 2026-11-22T22:17:41Z"
   - "- 2026-11-22 | cross-category | the 2026-11-22 stars scan finds nothing past the checkpoint | the newest star is the checkpoint star itself (abhinavxd/libredesk at 2026-11-21T04:48:22Z), page one reached the checkpoint on its first entry so paging stopped, checkpoint held at 2026-11-21T04:48:22Z"
   - "- 2026-11-22 | cross-category | the six broad sources carry over with one member sighting | andyrewlee, ai-for-developers, e2b-dev, and slavakurilyak show zero commits since the 11-21 scans, hesreallyhim is ticker-only (twelve ticker commits), and AMO's single content addition (2026-11-22, #134) is the executions member switch's second listing"
   - "- 2026-11-22 | cross-category | the coordinator's Thoth handoff resolves as a thin-record rejection | SeeleAI/Thoth (51 stars, 4 forks, one dominant author at 99 of 108 commits) has a default branch dormant since 2026-06-15, incoherent releases (thoth-plugin-final-archive 06-27, v0.0.0-mvp-beta 08-09, README badge claims v0.4.3), and zero independent coverage (plugin directories and list mirrors only), orchestration kind flag beside the mission-control adjacency with the automated-research placement named as the WecoAI section, not the kind, reopen on traction or independent coverage"
@@ -130,7 +143,7 @@ notes:
   - slug: coderabbit
     title: CodeRabbit
     subject_repo: null
-    last_verified: 2026-11-18
+    last_verified: 2026-11-24
   - slug: cubic
     title: cubic
     subject_repo: null
@@ -138,21 +151,21 @@ notes:
   - slug: ellipsis
     title: Ellipsis
     subject_repo: null
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
   - slug: git-lrc
     title: git-lrc
     subject_repo: HexmosTech/git-lrc
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-22
     last_release: v0.6.23
     signals: []
   - slug: gito
     title: Gito
     subject_repo: Nayjest/Gito
-    last_verified: 2026-11-21
+    last_verified: 2026-11-24
     last_pushed: 2026-11-23
     last_release: v4.5.0
-    signals: [pushed]
+    signals: []
   - slug: graphite-diamond
     title: Graphite Diamond
     subject_repo: null
@@ -164,31 +177,31 @@ notes:
   - slug: kodus
     title: Kodus
     subject_repo: kodustech/kodus-ai
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-24
     last_release: selfhosted-2.2.12
-    signals: [pushed]
+    signals: []
   - slug: multi
     title: multi
     subject_repo: szarkans/multi
-    last_verified: 2026-11-18
+    last_verified: 2026-11-24
     last_pushed: 2026-11-18
     last_release: v1.24.0
     signals: []
   - slug: open-code-review
     title: OpenCodeReview
     subject_repo: alibaba/open-code-review
-    last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
     last_release: v1.14.2
-    signals: [pushed]
+    signals: []
   - slug: openqodex
     title: OpenQodex
     subject_repo: openqodex/openqodex
-    last_verified: 2026-11-22
-    last_pushed: 2026-11-23
-    last_release: "openqodex@0.22.1"
-    signals: [pushed]
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
+    last_release: "openqodex@0.23.0"
+    signals: [released]
   - slug: openreview
     title: OpenReview
     subject_repo: vercel-labs/openreview
@@ -199,17 +212,17 @@ notes:
   - slug: qodo
     title: Qodo
     subject_repo: qodo-ai/pr-agent
-    last_verified: 2026-11-20
+    last_verified: 2026-11-24
     last_pushed: 2026-11-23
     last_release: v0.50.0
-    signals: [pushed]
+    signals: []
   - slug: roborev
     title: roborev
     subject_repo: kenn-io/roborev
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-23
     last_release: v0.75.0
-    signals: [pushed]
+    signals: []
   - slug: sourcery
     title: Sourcery
     subject_repo: sourcery-ai/sourcery

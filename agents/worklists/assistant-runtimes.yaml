@@ -5,6 +5,18 @@ governing_questions:
   - id: q13
     summary: does openhuman break the absorbed-family rejection at OpenClaw-class scale
 digest_lines:
+  - "- 2026-11-24 | cross-category | the unauthenticated GitHub API limit is shared by every parallel worker on one IP and can be exhausted at run start, so GitHub facts ground through authenticated `gh api` in the same run | the retrieval run's first batch returned rate-limit errors on every api.github.com call while `gh api` answered each one"
+  - "- 2026-11-24 | cross-category | crates.io's API returns a non-JSON body to a request with no User-Agent header while the same URL answers a UA-bearing request with valid JSON, so registry re-reads carry a UA before a failed read is treated as a wall | the acp rotation re-read of the agent-client-protocol crate (5.5.1, published 2026-11-21), extending the 2026-11-07 npm registry line"
+  - "- 2026-11-24 | cross-category | Harbor's dataset registry moved to hub.harborframework.com with server-rendered dataset pages | registry.harborframework.com answers 307 to the hub, so dataset pages that read as shells on 2026-11-22 now ground their details (SlopCodeBench at version 4.0.0, 36 multi-step tasks, one step per checkpoint)"
+  - "- 2026-11-24 | assistant-runtimes | openhuman reads 42,833 stars on 2026-11-24, about +32 in two days (about +16 a day, the slowing trend continuing) against OpenClaw's 395,115 | the q13 OpenClaw-class scale trigger stays unfired, openhuman held"
+  - "- 2026-11-24 | assistant-runtimes | khoj-ai/khoj rejects on the dormant-record line (38,220 stars as of 2026-11-24, AGPL-3.0, default branch quiet since 2026-08-02, last release 2.0.0-beta.28 on 2026-03-26, the README's own New section pointing to the team's Pipali coworker, predecessor-era second-brain kind) | surfaced by the unmapped ahmadyan/awesome-personal-agents list; reopen on a resumed release train or the owner's call"
+  - "- 2026-11-24 | assistant-runtimes | khoj-ai/pipali (339 stars as of 2026-11-24, Apache-2.0, v0.12.0 on 2026-11-21, a Cowork-style desktop coworker) rejects below the member floor on the thin-record line | reopen on traction or independent coverage"
+  - "- 2026-11-24 | assistant-runtimes | rakazo's absorbed-family rejection (the 2026-10-22 log line, Grok-bot-alternative runtimes, claw-successor kind) carries at 9,607 stars as of 2026-11-24, up from 5,152 at rejection | the digest lacked the line; reopen on q13's trigger or coverage"
+  - "- 2026-11-24 | assistant-runtimes | no credible assistant-runtimes-dedicated source has appeared; the GitHub search re-run returned elyase/awesome-personal-ai-assistants (21 stars, pushed 2026-02-25), ahmadyan/awesome-personal-agents (4 stars, pushed 2026-10-06), and EdisonTKPcom/Awesome-Craft-Jarvis (0 stars, a voice-assistant list), none wired | the ahmadyan cross-check resolved khoj, pipali, and rakazo and flagged agent-zero"
+  - "- 2026-11-24 | cross-category | the six broad sources: andyrewlee adds five entries and the other five carry over | andyrewlee's 2026-11-23 batch (#407 to #411) adds Temporality, OmegaStar, Hub by Icons8, Codealong, and MyAgents; AMO is star-count ticker only (three commits to src/data/github-stars.json) with its README, its openorchestrators.org data (src/data/orchestrators.ts, last content commit 2026-11-13), and its news content (last 2026-11-17) unchanged; hesreallyhim is ticker-only (sixteen commits, the repo-ticker SVG and CSV files only); ai-for-developers, e2b-dev, and slavakurilyak show zero commits since the 11-22 scans"
+  - "- 2026-11-24 | cross-category | the andyrewlee 2026-11-23 batch resolves with no admissions: five rejections | MyAgents (hAcKlyc/MyAgents, 597 stars, 93 forks, AGPL-3.0 plus a paid commercial license, v0.5.15 on 2026-11-22) holds below the 751 zero-coverage band and far below the assistant-runtimes member floor (the OpenAgent and comma precedents) with zero independent coverage, assistant-runtimes kind on the Cowork-desktop line and on the q#44 generalist-harness shelf; Codealong (74 stars, Apache-2.0) takes the mission-control dashboards-and-tails family as a passive supervision surface; Hub by Icons8 (24 stars, five days old, a four-commit vendor snapshot), OmegaStar (16 stars, alpha), and Temporality (14 stars) take the thin-record tail with orchestration and control-planes kind flags; all reopen on traction or independent coverage, MyAgents also on the member floor or the q#44 ruling"
+  - "- 2026-11-24 | cross-category | a routed admission is resolved only when the kind-fit category lands the note or logs a refusal with reasons; the openorchestrators.org data cross-check found two that did neither | Kortix (kortix-ai/CompanyOS, routed to orchestration 2026-11-12, 20,789 stars as of 2026-11-24) and Cloudroom (davidondrej/cloudroom, routed 2026-11-03, 1,840 stars as of 2026-11-24) have no note directory, no membership entry, and no log line after their routing lines; the rest of the site data (105 player entries) is resolved on record, its back catalog walked 2026-10-13 and the 23 slugs added since resolved by later scans"
+  - "- 2026-11-24 | cross-category | the 2026-11-24 stars scan resolves one out-of-scope rejection | mozillazg/python-pinyin (5,399 stars, starred 2026-11-22T22:17:41Z) is a Chinese character-to-pinyin library with no agent surface, the no-agent-story line; checkpoint advance to 2026-11-22T22:17:41Z"
   - "- 2026-11-22 | cross-category | the 2026-11-22 stars scan finds nothing past the checkpoint | the newest star is the checkpoint star itself (abhinavxd/libredesk at 2026-11-21T04:48:22Z), page one reached the checkpoint on its first entry so paging stopped, checkpoint held at 2026-11-21T04:48:22Z"
   - "- 2026-11-22 | cross-category | the six broad sources carry over with one member sighting | andyrewlee, ai-for-developers, e2b-dev, and slavakurilyak show zero commits since the 11-21 scans, hesreallyhim is ticker-only (twelve ticker commits), and AMO's single content addition (2026-11-22, #134) is the executions member switch's second listing"
   - "- 2026-11-22 | cross-category | the coordinator's Thoth handoff resolves as a thin-record rejection | SeeleAI/Thoth (51 stars, 4 forks, one dominant author at 99 of 108 commits) has a default branch dormant since 2026-06-15, incoherent releases (thoth-plugin-final-archive 06-27, v0.0.0-mvp-beta 08-09, README badge claims v0.4.3), and zero independent coverage (plugin directories and list mirrors only), orchestration kind flag beside the mission-control adjacency with the automated-research placement named as the WecoAI section, not the kind, reopen on traction or independent coverage"
@@ -148,16 +160,16 @@ notes:
     title: AstrBot
     subject_repo: AstrBotDevs/AstrBot
     last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v4.30.0-beta.1
     signals: [pushed]
   - slug: eigent
     title: Eigent
     subject_repo: eigent-ai/eigent
-    last_verified: 2026-11-18
+    last_verified: 2026-11-24
     last_pushed: 2026-11-23
     last_release: v1.0.8
-    signals: [pushed]
+    signals: []
   - slug: hermes
     title: Hermes Agent
     subject_repo: NousResearch/hermes-agent
@@ -169,28 +181,28 @@ notes:
     title: LangBot
     subject_repo: langbot-app/LangBot
     last_verified: 2026-11-20
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v4.11.9
     signals: [pushed]
   - slug: nanobot
     title: Nanobot
     subject_repo: HKUDS/nanobot
     last_verified: 2026-11-22
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v0.4.2
     signals: [pushed]
   - slug: nanoclaw
     title: NanoClaw
     subject_repo: nanocoai/nanoclaw
     last_verified: 2026-11-21
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v2026.11.0
     signals: [pushed]
   - slug: octop
     title: Octop
     subject_repo: TencentCloud/Octop
     last_verified: 2026-11-18
-    last_pushed: 2026-11-23
+    last_pushed: 2026-11-24
     last_release: v1.0.3b7
     signals: [pushed]
   - slug: open-webui
@@ -203,24 +215,24 @@ notes:
   - slug: openclaw
     title: OpenClaw
     subject_repo: openclaw/openclaw
-    last_verified: 2026-11-20
+    last_verified: 2026-11-24
     last_pushed: 2026-11-24
     last_release: v2026.11.7
-    signals: [pushed]
+    signals: []
   - slug: openwork
     title: OpenWork
     subject_repo: different-ai/openwork
-    last_verified: 2026-11-22
+    last_verified: 2026-11-24
     last_pushed: 2026-11-24
     last_release: v0.18.72
-    signals: [pushed]
+    signals: []
   - slug: openworker
     title: OpenWorker
     subject_repo: andrewyng/openworker
     last_verified: 2026-11-21
-    last_pushed: 2026-11-20
+    last_pushed: 2026-11-24
     last_release: v0.3.1
-    signals: []
+    signals: [pushed]
   - slug: picoclaw
     title: PicoClaw
     subject_repo: sipeed/picoclaw
@@ -238,10 +250,10 @@ notes:
   - slug: qwenpaw
     title: QwenPaw
     subject_repo: agentscope-ai/QwenPaw
-    last_verified: 2026-11-20
-    last_pushed: 2026-11-23
+    last_verified: 2026-11-24
+    last_pushed: 2026-11-24
     last_release: v2.3.0.post1
-    signals: [pushed]
+    signals: []
   - slug: zeroclaw
     title: ZeroClaw
     subject_repo: zeroclaw-labs/zeroclaw
