@@ -1,9 +1,9 @@
 ---
 title: Magnitude
 created: 2026-10-06
-updated: 2026-11-21
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, local-inference, inference-engine]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, llm=glm-5.3-flash, model-access, local-inference, inference-engine]
 readability: 3
 audience_notes: >
   For engineers choosing a local runtime for coding agents.
@@ -23,7 +23,7 @@ One-click connectors target Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, 
 
 ## Status
 
-Active and young: 6,886 stars, 464 forks (as of 2026-10-24), repo pushed 2026-11-21 (as of 2026-11-21), the default-branch work kernel- and program-store focused (shared program formation across processes, per-backend decode-gap tooling, and a NaN-propagation fix in the engine registry), then a 2026-11-17 batch compiling Metal attention and ordered GEMM kernels on macOS 27, giving CPU kernel code memory and symbol lookup a Windows implementation, fixing streamed MoE models crashing the Metal worker on their first request, reserving a request's memory as it writes instead of its whole context up front, and stopping a panicking CPU launch from failing every later device use; since then the releases feed carries only QA-build prereleases (the npm CLI tags 0.2.97, 0.2.98, and 0.2.99 on 2026-11-20 and 11-21 plus a cliqa-r3-r0-0.2.17 tag of 2026-11-20, each marked a temporary QA build), with CLI 0.2.17 still the latest stable release.
+Active and young: 6,886 stars, 464 forks (as of 2026-10-24), repo pushed 2026-11-24 (as of 2026-11-24), the default-branch work kernel- and program-store focused (shared program formation across processes, per-backend decode-gap tooling, and a NaN-propagation fix in the engine registry), then a 2026-11-17 batch compiling Metal attention and ordered GEMM kernels on macOS 27, giving CPU kernel code memory and symbol lookup a Windows implementation, fixing streamed MoE models crashing the Metal worker on their first request, reserving a request's memory as it writes instead of its whole context up front, and stopping a panicking CPU launch from failing every later device use; since then the releases feed carries only QA-build prereleases (the npm CLI tags 0.2.97, 0.2.98, and 0.2.99 on 2026-11-20 and 11-21 plus a cliqa-r3-r0-0.2.17 tag of 2026-11-20, each marked a temporary QA build), and since 2026-11-23 a 0.3.0 alpha prerelease train (0.3.0-alpha.0 and 0.3.0-alpha.1 on 2026-11-23, 0.3.0-alpha.2 on 2026-11-24, each flagged prerelease), with CLI 0.2.17 still the latest stable release; the 2026-11-23 and 11-24 default-branch batch enabled embedded MTP beside a projector for GLM-5.3 Flash, lowered the recommendations target speed to 10 tok/s, and carried CUDA graph, prefill pipeline, and Vulkan kernel work.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=magnitudedev/magnitude&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ My disagreeable claim: on current evidence the 2x marketing is narrower than the
 - 2026-11-12 - CLI train refresh: `@magnitudedev/cli` 0.2.17 (2026-11-08) added dot-product CPU kernels for ARM (AWS Graviton and Ampere class), with runtime detection of those instructions on Linux ARM64 builds and the release's own numbers at 4-13x faster prompt processing and 1.4-5x faster generation on Q8_0 versus 0.2.16, plus fixes for a catalog-version deletion removing an image file shared with another installed version, MTP-drafting batch failures, and dropped connections during downloads; the repo pushed 2026-11-12; stars stand at their 2026-10-24 verification.
 - 2026-11-17 - Push refresh: the default branch carried a 2026-11-17 batch compiling Metal attention and ordered GEMM kernels on macOS 27, adding a Windows implementation for CPU kernel code memory and symbol lookup, and fixing streamed MoE models crashing the Metal worker on their first request, per-request memory reservation, grouped CPU projections, and a panicking CPU launch poisoning later device uses, with CLI 0.2.17 still the latest release; the repo pushed 2026-11-17; stars stand at their 2026-10-24 verification.
 - 2026-11-21 - Push refresh: the releases feed carries only QA-build prereleases since the 11-17 state (npm CLI tags 0.2.97 through 0.2.99 on 2026-11-20 and 11-21 and a cliqa-r3-r0-0.2.17 tag of 2026-11-20, each marked a temporary QA build), with CLI 0.2.17 still the latest stable; the repo pushed 2026-11-21; stars stand at their 2026-10-24 verification.
+- 2026-11-24 - Push refresh: a 0.3.0 alpha prerelease train opened on the releases feed (0.3.0-alpha.0 and 0.3.0-alpha.1 on 2026-11-23, 0.3.0-alpha.2 on 2026-11-24, each flagged prerelease, so CLI 0.2.17 stays the latest stable under the standing QA-build reading), and the 2026-11-23 and 11-24 default-branch batch enabled embedded MTP (as the commit titles it) for GLM-5.3 Flash, lowered the recommendations target speed to 10 tok/s, and carried CUDA graph, prefill pipeline, and Vulkan kernel work; the repo pushed 2026-11-24; stars stand at their 2026-10-24 verification.
 
 ## See also
 
