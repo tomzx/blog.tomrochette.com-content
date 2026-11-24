@@ -1,9 +1,9 @@
 ---
 title: Decision Index
 created: 2026-10-07
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, benchmarking, model-evaluation, leaderboard]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, hybrid-execution, structured-outputs, system-one-models, decision-models, benchmarking, model-evaluation, leaderboard]
 readability: 3
 audience_notes: >
   Engineers choosing between Jev and the open decision-model wave who want a second independent scoreboard beyond JevBench, and want to know which part of it they can re-run themselves.
@@ -25,7 +25,7 @@ Editions 0.1 through 0.3 shipped between 2026-09-22 and 2026-10-06, 0.3 rebuildi
 
 ## Status
 
-Active and current, with a near-zero independent discussion footprint, as of 2026-11-22.
+Active and current as of 2026-11-24 with no regeneration since the 2026-11-21 board, and a near-zero independent discussion footprint.
 The board was relabeled 0.3.2 and regenerated three more times, on 2026-10-12, 2026-10-14, and 2026-10-16 (from the morning's 0.3.1 build): 174 configurations as of the latest, jev-1.13.0 as the reference row now joined by a Jev 1.14 row, a 34-entrant vision board beside the text suite, and a reasoning board announced for 0.3.x.
 The 2026-10-14 regeneration widened the band above Jev's reference from seven to eleven: vLLM-SR d3 (a 27B) still leads at 66.26, new entrant linne-oak 1.0 (a 31B) took second at 65.61, Mapika's Decider 31B (NVFP4) holds third at its unchanged 64.62, Sieve's new 31B row fourth at 63.81 (Sieve 27B eleventh at its unchanged 60.17), Bobcat 1.3 (31B) fifth at 62.83, Perplexity's Decider v1.1 sixth at its unchanged 62.75, Darwin-27B-ZTC seventh at 62.46, MORJ 1.0.1 (Gemma 4 31B) eighth at 60.96, and hosted Jev twelfth at its unchanged 60.11, where the 0.3.1 build had it ninth of 144.
 Edition 0.4 shipped as label 0.4.1 on 2026-10-22 with 226 configurations and a 55-entrant vision board, and it changed the methodology rather than only the field: the Full score is now 60 percent private same-skills tests and 40 percent private new-domain tasks, the public index still required, scored, and shown on every row but no longer counted; a same-day regeneration the same date brought the board to 229 configurations (fetched 2026-10-24), a further regeneration on 2026-10-26 brought it to 230 (fetched 2026-10-27), and the 2026-10-29 regeneration brought it to 248 (fetched 2026-10-31), where new entrants rebuilt the top.
@@ -42,7 +42,7 @@ The 2026-11-21 regeneration (346 configurations, fetched 2026-11-22) kept the to
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=apolinario/decision-index&type=date&legend=top-left" />
 </picture>
 
-The kit repository shows 52 stars as of 2026-10-15 and 156 forks as of 2026-11-07 (pushed 2026-10-20), and the board's HN submissions sit between 1 and 6 points, so unlike JevBench's contested 154-point thread this one has barely been stress-tested in public.
+The kit repository shows 52 stars as of 2026-10-15 and 192 forks as of 2026-11-24 (pushed 2026-10-20), and the board's HN submissions sit between 1 and 6 points, so unlike JevBench's contested 154-point thread this one has barely been stress-tested in public.
 On the superseded 0.3.2 board Perplexity's Decider (then a v1.2 row) ranked fourth at 65.55 (the v1.1 27B full fine-tune whose weights Perplexity published Apache-2.0 on the Hub on 2026-10-05, 25 likes as of 2026-10-07), Fastino's GLiDE no-thinking (28B) sixteenth at its unchanged 60.21 with its weights promised but not shipped, Jev 1.13 eighteenth at its unchanged 60.11, Torchcast Decision 27B nineteenth at its unchanged 59.91, and Kev 27B twenty-fourth at its unchanged 58.78; the Space shows 877 likes as of 2026-11-07, and the kit repository was pushed 2026-10-20.
 Bespoke Labs exercised the submission flow the day its v3 shipped: Bespoke-Nimble-9B-v3 carries a full published 0.2.1 run (56.88) with the raw results in its own dataset, the first author-submitted run of this suite I can find.
 
@@ -57,7 +57,7 @@ Bespoke Labs exercised the submission flow the day its v3 shipped: Bespoke-Nimbl
 
 - **The headline is one maintainer's private measurement, and edition 0.4 made that total: the entire Full score is unpublished and unrunnable by anyone else, so the number at the top of the board is the part you cannot check, and even Perplexity's Apache-2.0 Decider weights do not let you re-run their 67.98.**
 - The systems above Jev are barely documented: GLiDE arrived as a board row with no weights or recipe I could find, new top-five entrants REAX 1.3 and the flexdm LoRA likewise, and no team has published how its board run was served, so the private-only score removed the last check a reproduced public suite gave a skeptical reader.
-- The two boards disagree violently about the same checkpoints, and the disagreement is now measured in both directions: Kev 27B is eighty-seventh here (59.56, on the 2026-11-21 board) and sits mid-table on JevBench's re-based method-v1.8 composite (71.26, as of 2026-11-07) after that benchmark's frozen v1.6.1 snapshot had it at 5.77, and the October 7 addenda measured the systems around this board's top 20 on its own sealed pool, where the previous leader Perplexity Decider v1.1 scores 20.62 against its 62.75 here while decider-chat on Gemma-4-31B keeps a Jev-class 66.08 (as of 2026-10-10), which says more about protocol sensitivity than about either scoreboard.
+- The two boards disagree violently about the same checkpoints, and the disagreement is now measured in both directions: Kev 27B is eighty-seventh here (59.56, on the 2026-11-21 board) and sits mid-table on JevBench's re-based method-v1.8 composite (71.26, official #74 of 269, as of 2026-11-24) after that benchmark's frozen v1.6.1 snapshot had it at 5.77, and the October 7 addenda measured the systems around this board's top 20 on its own sealed pool, where the previous leader Perplexity Decider v1.1 scores 20.62 against its 62.75 here while decider-chat on Gemma-4-31B keeps a Jev-class 66.08 (as of 2026-10-10), which says more about protocol sensitivity than about either scoreboard.
 - The Space's own Jev reproductions tracker states the boundary plainly: no open artifact has Jev's weights, the RLCD algorithm, or its calibration, and the best open scorers reach about 90 percent agreement while confidence does not reliably flag their errors.
 
 ## Pricing
@@ -108,13 +108,13 @@ The disagreeable claim I will defend: the most important number on this board is
 ## References
 
 - https://huggingface.co/spaces/multimodalart/jev-decision-index - the board (client-rendered Space; the data files below carry its content)
-- https://huggingface.co/api/spaces/multimodalart/jev-decision-index - Hub API: created 2026-09-17, 877 likes, static SDK (likes as of 2026-11-07)
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/index.json - the 0.4.1 board header (generated 2026-11-21, fetched 2026-11-22): the suite counts, the 37-benchmark panel note, and the Full-score formula
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Full-score components (generated 2026-11-21T14:35:36Z, label 0.4.1, fetched 2026-11-22): the 0/60/40 weights, per-model ranks across 346 rows including both Jev rows, the public-index suite note ("GSM8K rebuilt, ForecastBench retired"), and the five new Strands Decider v2 rows
-- https://raw.githubusercontent.com/apolinario/decision-index/main/README.md - the kit: the 0.4 methodology change (the public suite unchanged, the Full score 60/40 private), editions, scoring, submission flow, parity tests, the latency gate, licensing (re-fetched 2026-11-07, unchanged)
-- https://api.github.com/repos/apolinario/decision-index - kit repository: MIT, created 2026-09-22, 52 stars, 156 forks, pushed 2026-10-20 (stars as of 2026-10-15, forks as of 2026-11-07, push date re-fetched 2026-11-07)
+- https://huggingface.co/api/spaces/multimodalart/jev-decision-index - Hub API: created 2026-09-17, 877 likes, static SDK (likes as of 2026-11-07; re-fetched 2026-11-24)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/index.json - the 0.4.1 board header (generated 2026-11-21, fetched 2026-11-24): the suite counts, the 37-benchmark panel note, and the Full-score formula
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Full-score components (generated 2026-11-21T14:35:36Z, label 0.4.1, fetched 2026-11-24): the 0/60/40 weights, per-model ranks across 346 rows including both Jev rows, the public-index suite note ("GSM8K rebuilt, ForecastBench retired"), and the five new Strands Decider v2 rows
+- https://raw.githubusercontent.com/apolinario/decision-index/main/README.md - the kit: the 0.4 methodology change (the public suite unchanged, the Full score 60/40 private), editions, scoring, submission flow, parity tests, the latency gate, licensing (re-fetched 2026-11-24, unchanged)
+- https://api.github.com/repos/apolinario/decision-index - kit repository: MIT, created 2026-09-22, 52 stars, 192 forks, pushed 2026-10-20 (stars as of 2026-10-15, forks as of 2026-11-24, push date re-fetched 2026-11-24)
 - https://raw.githubusercontent.com/apolinario/decision-index/main/docs/suite.md - the frozen suite: pinned sources, the GSM8K rebuild, subset and exclusion rules
 - https://huggingface.co/bespokelabs/Bespoke-Nimble-9B-v3 - the first author-submitted 0.2.1 run (56.88) and the CC BY-NC 4.0 license on it
 - https://huggingface.co/perplexity-ai/pplx-decider-v1.1-27b - the board leader's weights: Apache-2.0, published 2026-10-05, 25 likes (as of 2026-10-07)
 - https://huggingface.co/spaces/multimodalart/jev-decision-index/raw/main/news.html - the board's own Jev reproductions tracker: no open artifact has Jev's weights, RLCD, or calibration
-- https://news.ycombinator.com/item?id=49934879 - the 4-point 0.2.1 submission grounding the near-zero HN footprint (fetched via the Algolia search API)
+- https://news.ycombinator.com/item?id=49934879 - the 4-point 0.2.1 submission grounding the near-zero HN footprint (re-fetched 2026-11-24 via the Algolia items API, still 4 points)

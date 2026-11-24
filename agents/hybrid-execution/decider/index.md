@@ -1,9 +1,9 @@
 ---
 title: Decider
 created: 2026-10-11
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
 readability: 3
 audience_notes: >
   Engineers choosing among the open decision-model families who want the one with the widest checkpoint range and the deepest scoreboard record, told with its collapse under the sealed protocol attached.
@@ -30,7 +30,7 @@ Active and scoreboard-native: the repository was created 2026-09-16 and pushed 2
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Mapika/decider&type=date&legend=top-left" />
 </picture>
 
-The family's scoreboard record is the deepest of any entrant's: decider-4b v2 took JevBench's top spot at 64.13 on the sealed v1.4.2 board (2026-09-26), the first system to end Jev's first-place run, and on the current v1.6 protocol decider-12b v2 ranks fourth among open weights at 70.88 with decider chat on Gemma-4-31B at 66.08, while decider-4b v2 collapsed to 41.24 and decider-2b to 7.67 (JevBench aggregate, re-fetched 2026-11-07 with every row unchanged; the live method-v1.8 board, page updated 2026-11-03, re-bases decider-12b v2 to 73.73, official #27 unchanged, re-read 2026-11-07).
+The family's scoreboard record is the deepest of any entrant's: decider-4b v2 took JevBench's top spot at 64.13 on the sealed v1.4.2 board (2026-09-26), the first system to end Jev's first-place run, and on the current v1.6 protocol decider-12b v2 ranks fourth among open weights at 70.88 with decider chat on Gemma-4-31B at 66.08, while decider-4b v2 collapsed to 41.24 and decider-2b to 7.67 (JevBench aggregate, re-fetched 2026-11-07 with every row unchanged; the live method-v1.8 board, page updated 2026-11-22 and re-read 2026-11-24 at 269 ranked systems, re-bases decider-12b v2 to 73.73, now official #39).
 On the Decision Index 0.4.1 board (edition 0.4, regenerated 2026-11-21, 346 configurations, the Full score now entirely private) the family still spans the whole range: the Decider 31B (NVFP4) holds fifty-first at its unchanged 66.03 (fifth of 174 on the last 0.3.2 build before the board went fully private and new entrants crowded in), Perplexity's pplx-decider v1.2 thirtieth at its unchanged 67.98 with a v1.3 line beside it (the 27B thirty-fourth at 67.67, a Flash v1.3 120th at 55.14) and the pplx-decider Flash v1.2 (4B) 125th at 54.29, while decider chat on Gemma-4-31B scores 61.63 (seventy-second), a second decider chat row on a Qwen3.6-27B joined at 54.67 (124th), decider-35b-nvfp4 46.64 (168th), decider-4b 36.30 (220th), and decider-2b 23.65 (280th), against the vendor's Jev 1.14 at 60.24.
 The third-party local-jev-bench suite (measured 2026-10-10) calls Decider-4B a strong generalist, level with Kev-4B and Kev-9B on transfer and ahead of Winnow on transfer and BANKING77, and Ollaya packages decider:2b and decider:4b with author calibration.
 
@@ -95,7 +95,7 @@ The disagreeable claim I will defend: decider-4b v2's fall from first to 41.24 i
 - https://github.com/Mapika/decider - repository: Apache-2.0, created 2026-09-16, 1,143 stars as of 2026-10-15, pushed 2026-10-20 (GitHub API, as of 2026-10-22; re-fetched 2026-11-07 with the pushed date unchanged), the family design, pip and server surfaces, and the game demos (GitHub API and README)
 - https://huggingface.co/Mapika/decider-2b - the 2B checkpoint: Apache-2.0, created 2026-09-16, 9,481 downloads and 114 likes (Hugging Face API, as of 2026-11-07, the rolling-window count swung down from 164,599)
 - https://huggingface.co/Mapika/decider-12b - the 12B checkpoint: Apache-2.0, created 2026-09-29 (Hugging Face API, as of 2026-10-11)
-- https://benchmarkheaven.com/api/jevbench/v1.6.1 - the JevBench aggregate: decider-12b v2 at 70.88 (fourth open), decider-4b v2 at 41.24, decider-2b at 7.67, decider-35b-a3b at 24.77 (re-fetched 2026-11-07, all rows unchanged)
+- https://benchmarkheaven.com/api/jevbench/v1.6.1 - the JevBench aggregate: decider-12b v2 at 70.88 (fourth open), decider-4b v2 at 41.24, decider-2b at 7.67, decider-35b-a3b at 24.77 (re-fetched 2026-11-24, all rows unchanged; the live board's same-day read has decider-12b v2 at official #39)
 - https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 rows for the family, including the 31B (NVFP4) at fifty-first of 346, 66.03, and the Perplexity v1.3 rows at thirty-fourth and 120th (regenerated 2026-11-21, fetched 2026-11-22)
 - https://raw.githubusercontent.com/tak-bro/local-jev-bench/HEAD/README.md - the third-party Apple Silicon reading of Decider-4B and Decider-2B (measured 2026-10-10, re-fetched 2026-11-07, the strong-generalist reading unchanged)
 - https://ollaya.dev/ - Ollaya's packaged decider:2b and decider:4b rows in the accuracy and comparison tables (re-fetched 2026-11-07, the rows unchanged)

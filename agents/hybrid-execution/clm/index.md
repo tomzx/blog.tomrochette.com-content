@@ -1,9 +1,9 @@
 ---
 title: CLM
 created: 2026-10-11
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, contrastive-learning, open-weights]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, hybrid-execution, structured-outputs, system-one-models, decision-models, contrastive-learning, open-weights]
 readability: 3
 audience_notes: >
   Engineers who followed the Jev wave and want to know whether a non-LoRA architecture, a contrastive state-action encoder instead of a fine-tuned decoder, changes the accuracy-versus-speed trade.
@@ -31,7 +31,7 @@ The repository was created 2026-09-23 and pushed 2026-10-05 (unchanged on the 20
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Contrastive-LM/CLM&type=date&legend=top-left" />
 </picture>
 
-The two independent scoreboards rank it last or nearly last: JevBench's composite scores CLM-8B at 0.0 (intelligence axis 0.1, measured 2026-10-02 on the runner's protocol; the live method-v1.8 board, page updated 2026-11-03 and re-fetched 2026-11-20, still reads the same 0.00 at the floor of the composite table, last among the ranked open-weights rows), and the Decision Index 0.4.1 board (edition 0.4, regenerated 2026-11-21, 346 configurations, the Full score now entirely private) scores CLM-v0.1-8B at its unchanged 6.49, rank 338 of 346, against Jev 1.14's 60.24.
+The two independent scoreboards rank it last or nearly last: JevBench's composite scores CLM-8B at 0.0 (intelligence axis 0.1, measured 2026-10-02 on the runner's protocol; the live method-v1.8 board, page updated 2026-11-22 and re-fetched 2026-11-24, still reads the same 0.00 at the floor of the composite table, official #265 and last among the 269 ranked open-weights rows), and the Decision Index 0.4.1 board (edition 0.4, regenerated 2026-11-21, 346 configurations, the Full score now entirely private) scores CLM-v0.1-8B at its unchanged 6.49, rank 338 of 346, against Jev 1.14's 60.24.
 The third-party local-jev-bench suite calls it one of the two least accurate engines it runs, and Ollaya's own table scores clm:8b at 0.357 on typed decisions.
 I read the gap between the GitHub traction and the scoreboard readings as the note's central fact: the architecture argument is winning attention while the measured decisions are not winning comparisons.
 
@@ -93,6 +93,6 @@ The disagreeable claim I will defend: CLM's traction is a lesson about this cate
 - https://github.com/Contrastive-LM/CLM - repository: Apache-2.0, the contrastive recipe, the vLLM-plus-head architecture, the Terminal-Bench 2.1 and DeepSWE claims (GitHub API and README, as of 2026-10-11; re-fetched 2026-11-20 with the pushed date 2026-10-05 unchanged)
 - https://huggingface.co/Contrastive-LM/CLM-v0.1-8B - the checkpoint: Apache-2.0, created 2026-09-21, 986 downloads and 795 likes (Hugging Face API, as of 2026-11-20, the rolling-window download count swung down from 1,092)
 - https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 board scoring CLM-v0.1-8B at 6.49, rank 338 of 346, against Jev 1.14's 60.24 (regenerated 2026-11-21, fetched 2026-11-22)
-- https://benchmarkheaven.com/api/jevbench/v1.6.1 - the JevBench aggregate scoring CLM-8B at 0.0 composite, intelligence axis 0.1, measured 2026-10-02 (re-fetched 2026-11-20, the served snapshot and the CLM row unchanged; the live method-v1.8 board, page updated 2026-11-03, reads the same 0.00 at the composite floor)
+- https://benchmarkheaven.com/api/jevbench/v1.6.1 - the JevBench aggregate scoring CLM-8B at 0.0 composite, intelligence axis 0.1, measured 2026-10-02 (re-fetched 2026-11-24, the served snapshot and the CLM row unchanged; the live method-v1.8 board, page updated 2026-11-22, reads the same 0.00 at the composite floor, official #265 of 269)
 - https://raw.githubusercontent.com/tak-bro/local-jev-bench/HEAD/README.md - the third-party Apple Silicon suite calling CLM one of its two least accurate engines (re-fetched 2026-11-20, the accuracy rows unchanged)
 - https://ollaya.dev/ - Ollaya's packaged clm:8b at 0.357 on typed decisions, the runtime's least flattering row for the model (site and /search enumeration re-fetched 2026-11-20, the row unchanged)

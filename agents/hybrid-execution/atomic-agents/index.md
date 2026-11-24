@@ -1,9 +1,9 @@
 ---
 title: Atomic Agents
 created: 2026-10-07
-updated: 2026-11-18
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, python-framework]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, hybrid-execution, structured-outputs, python-framework]
 readability: 3
 audience_notes: >
   Python engineers building agent pipelines on typed components, and anyone comparing the validate-and-retry family.
@@ -23,12 +23,13 @@ Example projects ship for RAG chatbots, web search, deep research, orchestration
 
 ## Status
 
-Active: created 2024-06-03, 6,283 stars as of 2026-10-15, three releases on 2026-10-19 (v2.12.1, v2.13.0, and v2.13.1) followed by v2.14.0 on 2026-10-20, v2.15.0 on 2026-10-21, v2.16.0 on 2026-11-14, and v2.16.1 and v2.16.2 on 2026-11-17, PyPI at 2.16.2, pushed 2026-11-17, as of 2026-11-18.
+Active: created 2024-06-03, 6,283 stars as of 2026-10-15, three releases on 2026-10-19 (v2.12.1, v2.13.0, and v2.13.1) followed by v2.14.0 on 2026-10-20, v2.15.0 on 2026-10-21, v2.16.0 on 2026-11-14, and v2.16.1 and v2.16.2 on 2026-11-17, PyPI at 2.16.2, pushed 2026-11-22, as of 2026-11-24.
 The 2.11.0 release added an optional OpenInference instrumentor (`atomic-agents[observability]`) that emits AGENT and TOOL spans for Arize Phoenix, and 2.12.0 hardened the MCP surface (tool pagination, schema-reference resolution, error-result propagation) alongside new Firecrawl Search and FXMacroData tools.
 The 2026-10-19 train then un-pinned the foundation: 2.12.1 capped `mcp` below 2.0 so fresh installs can import the connector, 2.13.0 replaced the exact Instructor pin with `instructor>=1.17.0,<2` while documenting Instructor 1.17's changed `max_retries` counting (a value of 3 now permits three retries after the first attempt, so older budgets shrink by one), and 2.13.1 made two agent-config fields type-checker-friendly under Pyright and Pylance.
 The 2026-10-20/21 train rebuilt the observability layer: v2.14.0 activates the framework through the standard `opentelemetry-instrument` launcher with both OpenTelemetry and Phoenix discovery entry points, and v2.15.0 moved tracing onto `opentelemetry-api` alone, emitting OpenTelemetry GenAI semantic-convention spans that any OTLP backend reads (a plain collector, Grafana Tempo, Sentry, Datadog, Honeycomb, PostHog, Jaeger, Arize Phoenix, Langfuse), so Phoenix and the OpenInference packages are no longer required, with one `chat {model}` CLIENT span per Instructor attempt carrying per-attempt and total token usage, the responding model, attempt count, and validation errors as events.
 The 2026-11-14 v2.16.0 release moved the framework's defaults and hardened its edges: `AgentConfig.model` now defaults to `gpt-5.6-terra` (the old default `gpt-5-mini` sits on OpenAI's deprecation list with a 2026-12-11 shutdown, so an upgrade that never set a model switches the model underneath you), an agent's `mode` now comes from its Instructor client with a warning on explicit disagreement, `ChatHistory(max_messages=...)` rejects non-int and negative capacities and trims an oversize snapshot right after loading, media on `exclude=True` fields is no longer sent to the model, MCP endpoint URLs keep their query strings and pass through paths already ending in `/mcp` or `/sse` unchanged, and a failed Atomic Assembler clone or tool copy cleans up after itself so it can be retried.
 The two 2026-11-17 point releases then patched the 2.15/2.16 window: v2.16.1 fixes a tracing privacy leak (with `hide_inputs` on and outputs visible, a failed tool call, agent run, or model attempt wrote the raw exception message and stack trace to the span's exception event, and a Pydantic validation error quotes the rejected input, so hidden tool arguments could land in traces recorded by 2.15.0 and 2.16.0), and v2.16.2 validates `max_context_tokens` as positive-or-None instead of silently trimming, makes `TokenCounter.count_text()` count the text alone (it used to wrap the text in a chat message, so budgets calibrated against the old numbers drop by that overhead), and stops MCP server arguments named `tool_name`, `resource_name`, or `prompt_name` from being overwritten by the routing fields.
+Past v2.16.2 the default branch carries an unreleased batch that landed later on 2026-11-17 (an MCP fix preserving recursive schemas and explicit object data (#389), schema resolution through generic component subclasses (#348), dropping the user turn when an agent run fails (#481), and sub-day datetime shifts applied as elapsed time (#353), with PDF-reader, weather, and chat-history fixes merged the same afternoon) and a 2026-11-22 publication-process change keeping version bumps local behind a reviewed publication plan (#500), 24 commits ahead of the release tag with no release past v2.16.2.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Eigenwise/atomic-agents&type=date&theme=dark&legend=top-left" />
@@ -82,6 +83,7 @@ Not for anyone who can stay on one provider's native strict mode, and not for gu
 - 2026-11-13 - Volatile re-verification after the 2026-11-13 pushes (no release since v2.15.0): scraped Markdown content is preserved during whitespace cleanup (#343), legacy arXiv archive names survive version-suffix removal (#365), and the Wikipedia tool fetches the first result's full text (#366); pushed date moved to 2026-11-13.
 - 2026-11-15 - Volatile re-verification at the v2.16.0 release (2026-11-14): the default `AgentConfig.model` moved to `gpt-5.6-terra` (the old default gpt-5-mini sits on OpenAI's deprecation list with a 2026-12-11 shutdown), an agent's mode comes from its Instructor client with a mismatch warning (#293), ChatHistory capacity validation tightened with oversize snapshots trimmed at load (#356), media on exclude=True fields no longer sent (#359), MCP endpoint URLs keep their query strings and pass through /mcp- or /sse-suffixed paths as given (#364), and failed Assembler clones and tool copies clean up for retry (#350); PyPI now at 2.16.0, pushed date moved to 2026-11-14.
 - 2026-11-18 - Volatile re-verification at the 2026-11-17 point releases: v2.16.1 fixes a tracing privacy leak (failed calls wrote raw exception messages and stack traces into span events, and Pydantic validation errors quote the rejected input, so hidden tool arguments could reach traces recorded by 2.15.0 and 2.16.0), and v2.16.2 validates `max_context_tokens` as positive-or-None, makes `TokenCounter.count_text()` count text alone (token budgets calibrated earlier drop by the wrapping overhead), and stops MCP server arguments named `tool_name`, `resource_name`, or `prompt_name` from being overwritten; PyPI now at 2.16.2, pushed date moved to 2026-11-17.
+- 2026-11-24 - Volatile re-verification after the 2026-11-22 push (no release past v2.16.2): recorded the unreleased default-branch batch that landed after the v2.16.2 publish on 2026-11-17 (an MCP fix preserving recursive schemas and explicit object data (#389), schema resolution through generic component subclasses (#348), dropping the user turn when an agent run fails (#481), and sub-day datetime shifts (#353)) and the 2026-11-22 publication-process change keeping version bumps local behind a reviewed publication plan (#500); pushed date moved to 2026-11-22.
 
 ## See also
 
@@ -92,8 +94,8 @@ Not for anyone who can stay on one provider's native strict mode, and not for gu
 
 ## References
 
-- https://github.com/Eigenwise/atomic-agents - repository, MIT license, component model, and the Instructor-plus-Pydantic foundation (fetched 2026-10-22, re-fetched 2026-11-18 with the pushed date moved to 2026-11-17)
-- https://api.github.com/repos/Eigenwise/atomic-agents - stars, created date, and push date for the as-of status (fetched 2026-10-22, re-fetched 2026-11-18)
-- https://eigenwise.github.io/atomic-agents/ - the framework documentation: schema-bounded components, provider integrations, the Atomic Assembler CLI, and example projects (fetched 200, 2026-10-17; re-fetched 2026-11-11)
-- https://pypi.org/pypi/atomic-agents/json - the published package version 2.16.2 (fetched 2026-10-22, re-fetched 2026-11-18)
-- https://api.github.com/repos/Eigenwise/atomic-agents/releases - the v2.12.1 through v2.15.0 releases of 2026-10-19 to 10-21 and the release cadence (fetched 2026-10-22, re-fetched 2026-11-18 with v2.16.2 (2026-11-17) the latest release, v2.16.1 and v2.16.2 published the same day)
+- https://github.com/Eigenwise/atomic-agents - repository, MIT license, component model, and the Instructor-plus-Pydantic foundation (fetched 2026-10-22, re-fetched 2026-11-24 with the pushed date moved to 2026-11-22)
+- https://api.github.com/repos/Eigenwise/atomic-agents - stars, created date, and push date for the as-of status (fetched 2026-10-22, re-fetched 2026-11-24)
+- https://eigenwise.github.io/atomic-agents/ - the framework documentation: schema-bounded components, provider integrations, the Atomic Assembler CLI, and example projects (fetched 200, 2026-10-17; re-fetched 2026-11-24, the site at 2.16.2)
+- https://pypi.org/pypi/atomic-agents/json - the published package version 2.16.2 (fetched 2026-10-22, re-fetched 2026-11-24)
+- https://api.github.com/repos/Eigenwise/atomic-agents/releases - the v2.12.1 through v2.15.0 releases of 2026-10-19 to 10-21 and the release cadence (fetched 2026-10-22, re-fetched 2026-11-24 with v2.16.2 (2026-11-17) still the latest release, v2.16.1 and v2.16.2 published the same day)

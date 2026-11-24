@@ -1,9 +1,9 @@
 ---
 title: Laya
 created: 2026-09-21
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, multilingual]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, multilingual]
 readability: 3
 audience_notes: >
   Engineers who followed the Jev launch and want to know whether an open, self-hostable decision model already exists, and what the trade-offs are.
@@ -24,9 +24,10 @@ The 0.5.0 default engine is vega, from the author's separate Apache-2.0 vegaml p
 
 ## Status
 
-Sixty-four days old and compounding fast, as of 2026-11-21.
-The main repository was created 2026-09-18 and pushed 2026-11-21, shows 32,957 stars, laya-mlx about 6,900 since 2026-09-19, with a CoreML port, third-party demo endpoints, and roughly ten community quantizations appearing within days.
+Sixty-seven days old and compounding fast, as of 2026-11-24.
+The main repository was created 2026-09-18 and pushed 2026-11-23, shows 32,957 stars, laya-mlx about 6,900 since 2026-09-19, with a CoreML port, third-party demo endpoints, and roughly ten community quantizations appearing within days.
 The 0.5.0 repositioning (2026-11-19) is the story to watch: vega became the package's default engine and the README's framing moved from the three-checkpoint router to the particle-valley engine, its learning-curve tables claiming 84.7 percent on day one rising to 96.0 percent after 120 confirmed answers against Jev 1.14's 89.5 to 92.6 on the same templates, a banking77 stream-learning row, and an across-readers sweep, all self-run and none of it independently measured yet.
+The vega-default line then moved in daily steps: 0.5.1 (2026-11-21) required questions.json in a policy's manifest and let the laya-onnx runtime skip its ONNX Runtime download, 0.5.2 (2026-11-21) added `laya.Escalator` and `laya.vllm_teacher`, a teacher served through vLLM for what the Learner is unsure of, and 0.5.3 (released 2026-11-23) is the line's first release carrying outside fixes: choice labels on the new engine come back exactly as written (an int, bool, or float label used to return as a string, #1519), short unaccented Spanish and Portuguese text routes to the multilingual checkpoint (#1526), the TypeScript port's null per-model revision inherits the Router's as Python does (#1528), and the Rust ONNX runtime pins `ort` and verifies a fused export against the checkpoint it just exported (#1524, #1527).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NandhaKishorM/laya&type=date&theme=dark&legend=top-left" />
@@ -37,7 +38,7 @@ The 0.5.0 repositioning (2026-11-19) is the story to watch: vega became the pack
 The author's launch story, "I built non-autoregressive decision models with RL a year ago" (2026-09-19), drew a 1,363-point Hacker News thread as of 2026-10-06, the largest community footprint of any Jev follow-up, and a follow-up gist thread on running Laya offline on an M4 Mac reached 178 points as of 2026-10-06.
 The first independent deployment account landed 2026-09-22: an engineer chose Laya over hosted Jev for local agent routing on a Mac Studio and measured 37 of 40 acceptable decisions on a frozen replay against 33 of 40 for his previous deterministic router, while stating plainly that it was not a Laya-versus-Jev head-to-head.
 On the third-party JevBench board Laya's checkpoints rank low and fell further with every protocol revision: 54.4 on v1.2, 30.3 on the v1.4.2.2 revision, and near zero on the October v1.6.1 re-run (0.2 for laya-typed-decisions, 0.01 for laya, 0.0 for laya-multilingual, all on complete runs, as of 2026-10-07), a collapse so far past its self-run tables that I read it as protocol mismatch at least as much as ranking.
-The repositioned engine joined the same board under its own rows on the 2026-11-21 read: Vega 0.8B rank 225 by capability at 32.995 and Vega 4B rank 221 at 36.579, both tagged new, with Vega-U frozen-reader variants beside them, the first third-party reading vega has.
+The repositioned engine joined the same board under its own rows on the 2026-11-21 read: Vega 0.8B rank 225 by capability at 32.995 and Vega 4B rank 221 at 36.579, both tagged new, with Vega-U frozen-reader variants beside them, the first third-party reading vega has; the 2026-11-24 read (page updated 2026-11-22, 269 ranked systems) holds both scores unchanged with the ranks crowd-shifted to 233 and 229.
 The headline comparisons remain self-run, but unusually self-critical: the model card carries an "Honest Limits" section conceding that the base checkpoints score near chance on typed-decisions zero-shot (0.362 against a 0.461 majority-class baseline), that the 0.766 headline belongs to a checkpoint fine-tuned on that benchmark's own training split, and that the models ship over-confident until you fit a temperature on your own data.
 
 ## Strengths
@@ -113,6 +114,7 @@ The disagreeable claim I will defend: the priority fight is the least interestin
 - 2026-11-20 - Recorded the 0.5.0 repositioning (2026-11-19): vega, the author's vegaml particle-valley engine over a frozen reader (73,728-token context, image, audio, and video inputs, abstain and unbound flags, a laya.Learner that learns from confirmed answers on your own machine), became the package's default engine with the classic three-checkpoint family kept as opt-in, the README gained self-run learning-curve tables against Jev 1.14 and the project's first preprint (doi 10.20944/preprints202611.0781.v1), and the author's company began selling Studio seats at $20 a month ($200 a year) per engine with the Price history table seeded; the 0.4.33-to-0.4.38 November train (README and Studio pointers, TypeScript HTTP routing snapshots, the Learner) recorded; pushed date moved to 2026-11-20.
 - 2026-11-21 - Volatile re-verification after the 2026-11-21 push: 0.5.1 released (questions.json required in a policy's manifest, the laya-onnx runtime can skip its ONNX Runtime download), pushed date moved to 2026-11-21; JevBench's open-weights board now carries the first vega rows (Vega 0.8B rank 225 by capability at 32.995, Vega 4B rank 221 at 36.579, both tagged new, with Vega-U frozen-reader variants beside them, read 2026-11-21).
 - 2026-11-22 - Volatile re-verification: 0.5.2 released 2026-11-21T19:24 UTC (a learning-side step: `laya.Escalator` and `laya.vllm_teacher`, a teacher served through vLLM for what the Learner is unsure of, #1518), PyPI now at 0.5.2, the repository's pushed date holding at 2026-11-21.
+- 2026-11-24 - Rotation re-verification, every cited URL re-fetched and live: the Status release chain repaired to carry 0.5.1 and 0.5.2 (both 2026-11-21), which earlier bullets logged but the prose lacked; 0.5.3 released 2026-11-23T10:46 UTC, the vega line's first release carrying outside fixes (choice labels on the new engine come back exactly as written, short unaccented Spanish and Portuguese routes to the multilingual checkpoint, the TypeScript port's null per-model revision inherits the Router's, and the Rust ONNX runtime pins `ort` and verifies fused exports against the exported checkpoint), PyPI now at 0.5.3 and the pushed date moved to 2026-11-23; JevBench's 2026-11-24 read holds the two vega scores unchanged with their capability ranks crowd-shifted to 233 and 229, and the Studio prices re-read unchanged.
 
 ## See also
 
@@ -123,15 +125,15 @@ The disagreeable claim I will defend: the priority fight is the least interestin
 
 ## References
 
-- https://github.com/NandhaKishorM/laya - repository: Apache-2.0, created 2026-09-18, 32,957 stars, checkpoint table and Router docs (GitHub API, as of 2026-10-15; re-fetched 2026-11-21 with the pushed date moved to 2026-11-21)
+- https://github.com/NandhaKishorM/laya - repository: Apache-2.0, created 2026-09-18, 32,957 stars, checkpoint table and Router docs (GitHub API, as of 2026-10-15; re-fetched 2026-11-24 with the pushed date moved to 2026-11-23)
 - https://raw.githubusercontent.com/NandhaKishorM/laya/main/README.md - the 0.5.0 framing: vega as the default engine, the Learner, the 73,728-token context and multimodal claims, the learning-curve tables against Jev 1.14, the Studio line, and the preprint citation (fetched 2026-11-20)
 - https://github.com/NandhaKishorM/vegaml - the vega engine's own repository: Apache-2.0, "typed decisions from a frozen language model and a small physics engine" (GitHub API, as of 2026-11-20)
-- https://doi.org/10.20944/preprints202611.0781.v1 - the "From Laya to Vega" preprint the README cites (fetched 2026-11-20)
-- https://studio.embedding.in - the author company's Studio product: $20 a month or $200 a year per decision engine, weights on your own machines (fetched 2026-11-20)
+- https://doi.org/10.20944/preprints202611.0781.v1 - the "From Laya to Vega" preprint the README cites (fetched 2026-11-20; re-fetched 2026-11-24, when doi.org answered a scripted fetch with 403 and the citation resolved through an alternate client)
+- https://studio.embedding.in - the author company's Studio product: $20 a month or $200 a year per decision engine, weights on your own machines (fetched 2026-11-20; re-fetched 2026-11-24, the prices unchanged)
 - https://laya.convaiinnovations.com/ - the launch site: 33 ms single-pass and 7.2 ms batched claims, benchmark framing
 - https://news.ycombinator.com/item?id=49765348 - the launch thread (1,363 points as of 2026-10-11, 2026-09-19): context-limit, novelty, and GLiNER criticisms
-- https://pypi.org/project/laya/ - the package: 0.5.2 as of 2026-11-22 (0.5.2 published 2026-11-21, 0.5.1 published 2026-11-21, 0.5.0 and 0.4.38 published 2026-11-19, 0.4.36 and 0.4.37 on 11-18, 0.4.35 on 11-16, 0.4.33 and 0.4.34 on 11-15; re-fetched 2026-11-22; the 0.4.32-and-earlier release history stands as recorded in the note's earlier entries)
-- https://benchmarkheaven.com/jev-models - the JevBench open-weights board, read 2026-11-21 for the first vega rows (Vega 0.8B rank 225 by capability at 32.995, Vega 4B rank 221 at 36.579, both tagged new)
+- https://pypi.org/project/laya/ - the package: 0.5.3 as of 2026-11-24 (0.5.3 published 2026-11-23, 0.5.2 published 2026-11-21, 0.5.1 published 2026-11-21, 0.5.0 and 0.4.38 published 2026-11-19, 0.4.36 and 0.4.37 on 11-18, 0.4.35 on 11-16, 0.4.33 and 0.4.34 on 11-15; re-fetched 2026-11-24; the 0.4.32-and-earlier release history stands as recorded in the note's earlier entries)
+- https://benchmarkheaven.com/jev-models - the JevBench open-weights board, read 2026-11-21 for the first vega rows (Vega 0.8B rank 225 by capability at 32.995, Vega 4B rank 221 at 36.579, both tagged new) and re-read 2026-11-24 (both scores unchanged, ranks 233 and 229 on 269 ranked systems)
 - https://huggingface.co/convaiinnovations/laya - the primary checkpoint (ModernBERT-large, 421M parameters, 5,504 likes as of 2026-10-12)
 - https://github.com/mizorewww/laya-mlx - the MLX runtime: 7-14 ms on M3 Max, about 6,900 stars as of 2026-10-10
 - https://news.ycombinator.com/item?id=49777106 - the 178-point offline-Mac thread (2026-09-20, 178 points as of 2026-10-06) grounding the local-runtimes claim

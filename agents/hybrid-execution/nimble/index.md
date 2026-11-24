@@ -1,9 +1,9 @@
 ---
 title: Nimble
 created: 2026-09-21
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, data-curation, model-evaluation]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, data-curation, model-evaluation]
 readability: 3
 audience_notes: >
   Engineers deciding between Jev and an open checkpoint, who care about human-labeled evidence more than launch posts.
@@ -23,12 +23,12 @@ The authors are Bespoke Labs with Maheswaran Sathiamoorthy, whose earlier Bespok
 
 ## Status
 
-**Active and fifty-four days old as of 2026-11-11, with a near-zero HN footprint and the strongest verification artifacts of any project in the wave.**
-The repository was created 2026-09-18 and shows about 2,200 stars and 165 forks as of 2026-10-15 (pushed 2026-11-14, branch activity, with the default branch's newest commits still the 2026-11-09 additions putting Nimble-v4.1 on the README timeline and the agent skill); the original weights were created 2026-09-18 and show 6,753 downloads and 242 likes, with the v3 checkpoint at 555 downloads and 14 likes, as of 2026-10-20.
+**Active and sixty-seven days old as of 2026-11-24, with a near-zero HN footprint and the strongest verification artifacts of any project in the wave.**
+The repository was created 2026-09-18 and shows about 2,200 stars as of 2026-10-15 and 175 forks as of 2026-11-24 (pushed 2026-11-14, branch activity, with the default branch's newest commits still the 2026-11-09 additions putting Nimble-v4.1 on the README timeline and the agent skill); the original weights were created 2026-09-18 and show 761 downloads as of 2026-11-24 and 242 likes as of 2026-10-20, with the v3 checkpoint at 292 downloads as of 2026-11-24 and 14 likes as of 2026-10-20.
 
 The project has shipped a second generation: Bespoke-Nimble-9B-v2 (created 2026-09-23) carries the fitted-temperature checkpoint this note records below, and Bespoke-Nimble-9B-v3 (created 2026-09-30) is a retrained LoRA on the same Qwen3.5-9B base released under CC BY-NC 4.0, non-commercial, unlike the Apache-2.0 v1 weights; the README's timeline also credits v2's move into Ollama (2026-09-29, `ollama pull nimble`) and v3's 2026-10-06 turn as the top open model under 25B on the Decision Index.
 A third generation runs on Bespoke's hosted API since 2026-10-13: Nimble-v4 (9B) and Nimble-v4-max (27B) at console.bespokelabs.ai, self-measured in the company's own 2026-10-12 run at 68.46 and 63.70 on the DI public suite, v4-max first overall and v4 first of the under-25B models, against Jev 1.13's 57.96 on the same suite; on 2026-11-05 the line shipped Nimble-v4.1 (27B), which the README's timeline reports tied for second on the Decision Index at release (70.0 overall and 72.74 on the public suite in the company's own run, up from v4-max's 68.46), served as `nimble-v4.1-max` with zero data retention and `nimble-latest` re-pointed to it, its weights published as the `v4.1` git tag of the Nimble-v4-max Hugging Face repository under the same CC BY-NC 4.0 license as v3; the board's edition-0.4 rebuild (2026-10-22, the Full score now entirely private) then carried a Bespoke Nimble v4 Max row (66.56, twenty-fifth of 248 after the 2026-10-29 regeneration), with Nimble 9B v3 at ninety-first (51.06, down from 56.88 on the 0.2.1 board) and v2 at 127th (42.06); the 2026-11-21 regeneration (346 configurations) carries the v4.1 Max row at its unchanged 70.03, eighteenth of 346, beside v3 (145th) and v2 (195th) at their unchanged scores.
-Bespoke submitted v3 to the Decision Index the day it shipped, publishing a full 0.2.1 run (56.88) with raw results in its own dataset, and on JevBench the frozen v1.6.1 open-weights snapshot read Nimble v3 at 53.5 (thirty-first) with the original 9B at 21.1 (as of 2026-10-15), while the re-based method-v1.8 board (re-read 2026-11-07) reads the open-weights v4-max twenty-sixth at 73.76, 9B v3 sixtieth at 70.04, and the original 9B 104th, with the API board holding v4-max eighth at 74.82 and v4 twenty-eighth at 43.23 of 48 ranked rows.
+Bespoke submitted v3 to the Decision Index the day it shipped, publishing a full 0.2.1 run (56.88) with raw results in its own dataset, and on JevBench the frozen v1.6.1 open-weights snapshot read Nimble v3 at 53.5 (thirty-first) with the original 9B at 21.1 (as of 2026-10-15), while the re-based method-v1.8 board (re-read 2026-11-24, the open-weights page updated 2026-11-22 at 269 ranked systems and the API page 2026-11-21 at 55 ranked offerings) reads the open-weights v4-max twenty-sixth by capability at 73.76 on the composite (official #38), 9B v3 101st at 70.04 (official #83), and the original 9B 165th at 44.51 (official #127), with the API board holding v4-max eleventh by capability at 74.82 (official #12) and v4 thirty-first at 43.23 (official #35).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bespokelabsai/nimble&type=date&theme=dark&legend=top-left" />
@@ -102,13 +102,13 @@ The disagreeable claim I will defend: this note's most valuable artifact is not 
 
 ## References
 
-- https://github.com/bespokelabsai/nimble - repository: created 2026-09-18, about 2,200 stars, 165 forks, no license file, pushed 2026-11-14 on branch activity, the default branch still at the 2026-11-09 v4.1 additions (GitHub API, as of 2026-11-15)
-- https://raw.githubusercontent.com/bespokelabsai/nimble/main/README.md - capabilities, contrastive curation, the 90.1% versus 93.2% holdout, the timeline (v2 into Ollama, v3's DI under-25B open lead, v4 and v4-max on the hosted API, the v4.1 release of 2026-11-05 with its API model name and Decision Index standing), the per-revision temperature story, and the latency table (re-fetched 2026-11-11)
+- https://github.com/bespokelabsai/nimble - repository: created 2026-09-18, about 2,200 stars, 175 forks, no license file, pushed 2026-11-14 on branch activity, the default branch still at the 2026-11-09 v4.1 additions (GitHub API, as of 2026-11-24)
+- https://raw.githubusercontent.com/bespokelabsai/nimble/main/README.md - capabilities, contrastive curation, the 90.1% versus 93.2% holdout, the timeline (v2 into Ollama, v3's DI under-25B open lead, v4 and v4-max on the hosted API, the v4.1 release of 2026-11-05 with its API model name and Decision Index standing), the per-revision temperature story, and the latency table (re-fetched 2026-11-24, the default branch unchanged since 2026-11-09)
 - https://raw.githubusercontent.com/bespokelabsai/nimble/main/docs/PUBLIC_BENCHMARKS.md - the 13-subset human-labeled suite and its full results, caveats, and rejected-datasets list
-- https://huggingface.co/bespokelabs/Bespoke-Nimble-9B - weights: Apache-2.0, created 2026-09-18, 6,753 downloads, 242 likes (as of 2026-10-20)
-- https://huggingface.co/bespokelabs/Bespoke-Nimble-9B-v3 - the v3 checkpoint: CC BY-NC 4.0, created 2026-09-30, 555 downloads, carrying Decision Index 0.2.1: 56.88 (as of 2026-10-20)
+- https://huggingface.co/bespokelabs/Bespoke-Nimble-9B - weights: Apache-2.0, created 2026-09-18, 761 downloads (as of 2026-11-24), 242 likes (as of 2026-10-20)
+- https://huggingface.co/bespokelabs/Bespoke-Nimble-9B-v3 - the v3 checkpoint: CC BY-NC 4.0, created 2026-09-30, 292 downloads (as of 2026-11-24), 14 likes (as of 2026-10-20), carrying Decision Index 0.2.1: 56.88
 - https://raw.githubusercontent.com/fstandhartinger/jevbench/main/RESULTS-v1.2.md - the third-party board that ranks Bespoke-Nimble-9B 60.5 against Jev's 74.4
 - https://sanand0.github.io/llmevals/jev/ - the prior independent Jev measurement (77 BANKING77 requests) the suite names as its only predecessor
 - https://news.ycombinator.com/item?id=49757009 - the 7-point, zero-comment submission grounding the missing-footprint claim
-- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 rows for the Bespoke family: Nimble v4.1 Max eighteenth at 70.03, 9B v3 145th at 51.06, 9B v2 195th at 42.06 (regenerated 2026-11-21, fetched 2026-11-22)
+- https://huggingface.co/spaces/multimodalart/jev-decision-index/resolve/main/data/v03.json - the Decision Index 0.4.1 rows for the Bespoke family: Nimble v4.1 Max eighteenth at 70.03, 9B v3 145th at 51.06, 9B v2 195th at 42.06 (regenerated 2026-11-21, fetched 2026-11-24)
 - https://bespokelabs.ai - the lab behind the project
