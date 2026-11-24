@@ -1,9 +1,9 @@
 ---
 title: Centaur
 created: 2026-11-06
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, slack, self-hosted, durable-execution]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, executions, slack, self-hosted, durable-execution]
 readability: 3
 audience_notes: >
   Teams that want one shared agent their whole company can tag in Slack, run by a platform owner who can operate Kubernetes, Postgres, and a secrets vault.
@@ -19,6 +19,7 @@ Centaur is a self-hosted agent platform from Paradigm and Tempo where a Slack me
 You tag @centaur in a Slack thread (or POST to its session API), and the platform assigns the thread its own Kubernetes pod with a shell, git, Python, Node.js, and Bun, running a CLI harness of your choice.
 The README names Amp, Claude Code, and Codex, and the docs add documented paths for Hermes, Pi, and OMP harnesses.
 A Rust control plane (api-rs) owns session lifecycle, durable transcripts in Postgres, tools, workflows, and auth, and every outbound request from a sandbox routes through its own iron-proxy pod, which swaps placeholder strings for the actual credentials only on requests to the hosts and header or query positions each secret is bound to.
+On 2026-11-23 the chart stopped running Rails, with api-rs taking over the Console's schema, the initial-admin bootstrap, and the Slack channel catalog, and the Rails app was deleted from the tree the same night (pull requests 2337 and 2342).
 Teams have also contributed ingress integrations for Linear, GitHub, Discord, and Microsoft Teams beside Slack, and the README quickstart now carries the Teams app credentials as an optional local boot.
 Teams extend it by dropping Python tool plugins, SKILL.md skills, and Python workflow files into the repo, or by layering an organization overlay on top of the kernel.
 Workflows are durable, Absurd-inspired Python functions that checkpoint every step to Postgres, can sleep for hours, wait on external events, run child agents, and fire on cron.
@@ -27,9 +28,9 @@ It is built by Paradigm with Tempo, open-sourced on 2026-05-21 after running in 
 ## Status
 
 **Active and institutionally backed, on a fast release line.**
-1,422 stars as of 2026-11-06, 297 forks and 121 open issues and pull requests as of 2026-11-22 (GitHub API), created 2026-05-18 and pushed 2026-11-22.
+1,422 stars as of 2026-11-06, 297 forks and 126 open issues and pull requests as of 2026-11-24 (GitHub API), created 2026-05-18 and pushed 2026-11-24.
 The 2.0 rewrite landed on 2026-08-10: a smaller Rust control plane exposing four operations, permissions derived from the conversation's context (a direct message uses your connected accounts, a shared channel gets the team's grants), MCP support so local agents can call Centaur's tools, and Slack, Granola, Google Drive, Google Calendar, Linear, and Attio as indexed context sources.
-The release train is dense (several Helm-chart cuts per day into the third week of November) and the calendar-versioning experiments did not stick: neither the v2026.11.6 cut recorded on 2026-11-06 nor the second calendar cut v2026.11.13 (2026-11-13) holds the top anymore, and a third calendar cut v2026.11.20 (2026-11-20) also sits below the centaur-0.1.x line, now at 0.1.224 (2026-11-21) above 0.1.223 (the same day), 0.1.222 (2026-11-20), and 0.1.221 (2026-11-19), Paradigm is hiring engineers to work on it full time, and both backers run it in production.
+The release train is dense (several Helm-chart cuts per day into the fourth week of November) and the calendar-versioning experiments did not stick: neither the v2026.11.6 cut recorded on 2026-11-06 nor the second calendar cut v2026.11.13 (2026-11-13) holds the top anymore, and a third calendar cut v2026.11.20 (2026-11-20) also sits below the centaur-0.1.x line, now at 0.1.227 (2026-11-24) above 0.1.226 and 0.1.225 (both 2026-11-23), 0.1.224 and 0.1.223 (both 2026-11-21), and 0.1.222 (2026-11-20), Paradigm is hiring engineers to work on it full time, and both backers run it in production.
 The independent footprint is two self-posted, zero-comment Show HN threads (1 and 2 points) as of 2026-11-07, no launch discussion, no third-party deployment write-ups, and the vendor figures (more than 80% of sessions in shared channels, over 99% of daily sessions completing) are Paradigm's own.
 
 <picture>
@@ -80,6 +81,7 @@ My disagreeable claim: Centaur and Airut are this category's two architecture-fi
 - 2026-11-15 - Refreshed the repository counters after the 2026-11-15 push (292 to 293 forks, 121 to 123 open issues and pull requests); the release train re-confirmed unchanged (v2026.11.13 above centaur-0.1.214, both still 2026-11-13).
 - 2026-11-20 - Refreshed the release-train record: both calendar-versioning cuts have fallen off the top, and centaur-0.1.x is back at centaur-0.1.221 (2026-11-19, four cuts that day) above 0.1.220, 0.1.219, and 0.1.218; the counters refreshed after the 2026-11-20 push (293 to 296 forks, 123 to 120 open issues and pull requests).
 - 2026-11-22 - Refreshed the release train after a third calendar cut: v2026.11.20 (2026-11-20) also failed to hold the top, and centaur-0.1.x is at 0.1.224 (2026-11-21) above 0.1.223 (the same day), 0.1.222, and 0.1.221; the counters refreshed after the 2026-11-22 push (296 to 297 forks, 120 to 121 open issues and pull requests, the default branch's head dated the same day).
+- 2026-11-24 - Fully re-verified in rotation with every cited URL re-fetched: the README architecture and harness claims, the dual license, the security page (default-deny NetworkPolicy, the open default allowlist the docs call their own deliberate choice), both Paradigm posts (the 2026-05-21 open-sourcing, the 2026-08-10 2.0 rewrite with the 80% and 99% session figures and the hiring note), and the two zero-comment HN threads (1 and 2 points) all re-confirmed; recorded that the chart stopped running Rails on 2026-11-23 with api-rs taking over the Console (pull requests 2337 and 2342, the Rails app deleted the same night), refreshed the release train to centaur-0.1.227 (2026-11-24) above 0.1.226 and 0.1.225 (both 2026-11-23), and refreshed the counters after the 2026-11-24 push (297 forks unchanged, 121 to 126 open issues and pull requests).
 
 ## See also
 
@@ -91,13 +93,15 @@ My disagreeable claim: Centaur and Airut are this category's two architecture-fi
 
 ## References
 
-- https://api.github.com/repos/paradigmxyz/centaur - counters (1,422 stars as of 2026-11-06, 297 forks, 121 open issues and pull requests, created 2026-05-18, pushed 2026-11-22), Rust, as of 2026-11-22
-- https://raw.githubusercontent.com/paradigmxyz/centaur/main/README.md - the Slack-to-sandbox model, sandbox stack, harness list, tools and workflows, the optional Teams ingress, and the security summary (fetched 2026-11-06, re-fetched 2026-11-07)
-- https://raw.githubusercontent.com/paradigmxyz/centaur/main/LICENSE - the dual Apache-2.0/MIT license text (fetched 2026-11-06, re-fetched 2026-11-07)
-- https://centaur.run - the positioning, the Paradigm and Tempo backing, and the architecture pitch (fetched 2026-11-06, re-fetched 2026-11-07)
+- https://api.github.com/repos/paradigmxyz/centaur - counters (1,422 stars as of 2026-11-06, 297 forks, 126 open issues and pull requests, created 2026-05-18, pushed 2026-11-24), Rust, as of 2026-11-24
+- https://raw.githubusercontent.com/paradigmxyz/centaur/main/README.md - the Slack-to-sandbox model, sandbox stack, harness list, tools and workflows, the optional Teams ingress, and the security summary (fetched 2026-11-06, re-fetched 2026-11-07 and 2026-11-24)
+- https://raw.githubusercontent.com/paradigmxyz/centaur/main/LICENSE - the dual Apache-2.0/MIT license text (fetched 2026-11-06, re-fetched 2026-11-07 and 2026-11-24)
+- https://centaur.run - the positioning, the Paradigm and Tempo backing, and the architecture pitch (fetched 2026-11-06, re-fetched 2026-11-07 and 2026-11-24)
 - https://centaur.run/security - the threat model, default-deny NetworkPolicy, iron-proxy placeholder credentials, and the docs' own caveats on the open egress default and shared secret store (critical source, fetched 2026-11-06, re-fetched 2026-11-07)
-- https://www.paradigm.xyz/writing/open-sourcing-centaur-multiplayer-self-hosted-secure-agents - the 2026-05-21 open-sourcing announcement: architecture, Absurd-inspired durable workflows, production use at Paradigm and Tempo since January 2026 (fetched 2026-11-06, re-fetched 2026-11-07)
-- https://www.paradigm.xyz/writing/centaur-2-0-permissions-context-and-mcp - the 2026-08-10 2.0 announcement: the Rust api-rs rewrite, context-derived permissions, MCP, the contributed Linear, GitHub, Discord, and Teams integrations, and the vendor session figures (fetched 2026-11-06, re-fetched 2026-11-07)
-- https://api.github.com/repos/paradigmxyz/centaur/releases?per_page=5 - the release train: centaur-0.1.x cuts through 0.1.205 (2026-11-05), the one-off calendar cut v2026.11.6 (2026-11-06), back to centaur-0.1.x through 0.1.213 (2026-11-11), the calendar cut v2026.11.13 (2026-11-13) briefly topping the train, centaur-0.1.x back on top at 0.1.221 (2026-11-19), and a third calendar cut v2026.11.20 (2026-11-20) also passed by centaur-0.1.224 (2026-11-21) above 0.1.223, 0.1.222, and 0.1.221 newest (fetched 2026-11-06, re-fetched 2026-11-11, 2026-11-14, 2026-11-15, 2026-11-20, and 2026-11-22)
-- https://hn.algolia.com/api/v1/search?query=paradigm%20centaur&tags=story - the coverage search finding one self-posted 1-point link to Paradigm's own 2.0 post and no dedicated thread (fetched 2026-11-06, re-fetched 2026-11-07)
-- https://hn.algolia.com/api/v1/search?query=centaur.run&tags=story - the second coverage query finding the self-posted 2-point site thread, completing the footprint record (fetched 2026-11-06, re-fetched 2026-11-07)
+- https://www.paradigm.xyz/writing/open-sourcing-centaur-multiplayer-self-hosted-secure-agents - the 2026-05-21 open-sourcing announcement: architecture, Absurd-inspired durable workflows, production use at Paradigm and Tempo since January 2026 (fetched 2026-11-06, re-fetched 2026-11-07 and 2026-11-24)
+- https://www.paradigm.xyz/writing/centaur-2-0-permissions-context-and-mcp - the 2026-08-10 2.0 announcement: the Rust api-rs rewrite, context-derived permissions, MCP, the contributed Linear, GitHub, Discord, and Teams integrations, and the vendor session figures (fetched 2026-11-06, re-fetched 2026-11-07 and 2026-11-24)
+- https://api.github.com/repos/paradigmxyz/centaur/releases?per_page=5 - the release train: centaur-0.1.x cuts through 0.1.205 (2026-11-05), the one-off calendar cut v2026.11.6 (2026-11-06), back to centaur-0.1.x through 0.1.213 (2026-11-11), the calendar cut v2026.11.13 (2026-11-13) briefly topping the train, centaur-0.1.x back on top at 0.1.221 (2026-11-19), and a third calendar cut v2026.11.20 (2026-11-20) also passed by centaur-0.1.227 (2026-11-24) above 0.1.226 and 0.1.225 (both 2026-11-23), 0.1.224 and 0.1.223 (both 2026-11-21), and 0.1.222 newest (fetched 2026-11-06, re-fetched 2026-11-11, 2026-11-14, 2026-11-15, 2026-11-20, 2026-11-22, and 2026-11-24 against a twelve-item page, the five-item page no longer reaching the 0.1.221 cut)
+- https://api.github.com/repos/paradigmxyz/centaur/pulls/2337 - the pull request moving the Console schema, the initial-admin bootstrap, and the Slack channel catalog into api-rs so the chart runs no Rails process (merged 2026-11-23; fetched via the API 2026-11-24)
+- https://api.github.com/repos/paradigmxyz/centaur/pulls/2342 - the follow-up deleting the Rails Console app and its leftovers (merged 2026-11-24 UTC; fetched via the API 2026-11-24)
+- https://hn.algolia.com/api/v1/search?query=paradigm%20centaur&tags=story - the coverage search finding one self-posted 1-point link to Paradigm's own 2.0 post and no dedicated thread (fetched 2026-11-06, re-fetched 2026-11-07 and 2026-11-24)
+- https://hn.algolia.com/api/v1/search?query=centaur.run&tags=story - the second coverage query finding the self-posted 2-point site thread, completing the footprint record (fetched 2026-11-06, re-fetched 2026-11-07 and 2026-11-24)

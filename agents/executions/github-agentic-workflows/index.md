@@ -1,9 +1,9 @@
 ---
 title: GitHub Agentic Workflows
 created: 2026-08-24
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, executions, github-actions, workflows]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, executions, github-actions, workflows]
 readability: 3
 audience_notes: >
   Maintainers who want repository chores to run without them and already live in GitHub Actions.
@@ -17,21 +17,23 @@ GitHub Agentic Workflows (gh-aw) define repository automation in Markdown with Y
 ## What it is
 
 You write a Markdown file whose frontmatter declares triggers, permissions, tools, safe outputs, and an engine, and the `gh-aw` CLI extension compiles it into a `.lock.yml` Actions workflow.
-Six engines are built in (Copilot as default, Claude Code, Codex, Gemini, experimental Agy, and Pi), with importable sample definitions for OpenCode, Cursor, Kiro, Aider, Crush, DeepSeek Harness, Goose, and Pydantic AI.
+Six engines are built in (Copilot as default, Claude Code, Codex, Gemini, experimental Agy, and Pi), and third-party agents arrive as imported Markdown engine definitions maintained by their publishers.
+The docs ship those as unsupported samples with no compatibility or maintenance commitment (OpenCode, Cursor, Kiro, Aider, Crush, DeepSeek Harness, Goose, Factory Droid, LangGraph, and mini-SWE-agent, with Pydantic AI linked to its publisher's definition), and an imported definition is executable configuration you review before use.
 Gemini is deprecated in favor of Agy but stays selectable.
 It is built by GitHub Next with Microsoft Research, MIT-licensed, in public preview.
 
 ## Status
 
 **Active preview with real traction.**
-About 5.4k stars as of 2026-10-13, roughly 20,500 commits and 639 forks as of 2026-11-22 in `github/gh-aw`.
+About 5.4k stars as of 2026-10-13, roughly 20,600 commits and 640 forks as of 2026-11-24 in `github/gh-aw`.
 The February 2026 Hacker News launch thread drew 302 points and 141 comments.
 The trust story has kept moving: an August 2026 billing bug forced the retirement of releases 0.68.4 through 0.71.3, a critical security advisory published August 27 forced the pre-emptive retirement of releases 0.83.3 through 0.85.3 (patched in 0.85.4), a notice that still sits in the README while the billing one was cleared, and a high-severity advisory published September 23 added an HTTPS egress allowlist bypass via TLS SNI domain fronting, affecting releases through 0.89.17 and patched in 0.89.17.
 Four more critical advisories landed on 2026-10-14: the worst (CVSS 9.2) lets sandboxed agent code steal the workflow job token through the credential sidecar and exfiltrate it past the egress filter, and three more cover MCP flag injection, an ungated `mcp-inspect` command path, and argv injection into spawned `gh aw` subcommands, all patched in the v0.91.12 to v0.91.13 window with no README notice for this batch as of 2026-10-16.
 A medium advisory published 2026-10-31 (GHSA-fqvc-336c-4fp9, OTLP authentication credentials exposed in eval logs and artifacts, listed as affecting releases below v0.91.3) is the first advisory since that batch, and its own body notes the affected and patched ranges are still being verified.
 Two more advisories landed on 2026-11-05, both patched in the v1.2.0 prerelease published the same day: a high-severity one on a predictable non-exclusive .tmp file write with permissive mode retention in the compile pipeline's `writeMCPCompileProgress`, and a medium one where the Copilot backend of `universal-llm-consumer` engines sets `OPENAI_API_KEY` to the Copilot credential and sends it to api.openai.com (affected and patched ranges as listed in each advisory).
 A high-severity advisory published 2026-11-11 (GHSA-4fwp-8v7m-jhhr) covers safe-output patch generation: when `create_pull_request` generates its patch, a `git fetch` it triggers can execute an agent-controlled Git remote helper inside the safe-outputs container with `GITHUB_TOKEN` in its environment (listed as affecting releases through 0.92.0 and patched in 1.2.0).
-The release line keeps churning and crossed its first 1.0 mark: v1.0.0 published as a prerelease on 2026-10-26 and v1.0.1 stable-marked on 2026-10-27, with the v1.3.1 prerelease (2026-11-18) now topping the train above the v1.3.0 (2026-11-16) and v1.2.3 (2026-11-13) prereleases, v1.2.2 (2026-11-10, stable-marked, the newest stable) and the v1.2.1 (2026-11-06) and v1.2.0 (2026-11-04) prereleases, which shows how quickly this preview will break its users.
+The release line keeps churning and crossed its first 1.0 mark: v1.0.0 published as a prerelease on 2026-10-26 and v1.0.1 stable-marked on 2026-10-27, with the v1.4.0 prerelease (2026-11-23) now topping the train above the v1.3.1 (2026-11-18), v1.3.0 (2026-11-16), and v1.2.3 (2026-11-13) prereleases, v1.2.2 (2026-11-10, stable-marked, still the newest stable) and the v1.2.1 (2026-11-06) and v1.2.0 (2026-11-04) prereleases, which shows how quickly this preview will break its users.
+v1.4.0 carries breaking changes of its own: workflows that select no model now route through cost-first automatic model routing on Copilot inference, `pull_request_target` admits same-repository pull requests only unless forks are listed, safe-output authorization fails closed, and `latest` downloads of the runtime and the Copilot CLI fail closed without a pinned checksum digest.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=github/gh-aw&type=date&theme=dark&legend=top-left" />
@@ -111,27 +113,30 @@ My disagreeable claim: even in preview, I would start here rather than hand-roll
 - 2026-11-15 - Refreshed the commit count (roughly 19,900 to roughly 20,200) after the 2026-11-15 push; forks and the release train re-confirmed unchanged (v1.2.3 prerelease still the newest, v1.2.2 still the newest stable), no advisory published since the 2026-11-11 one, and the README advisory notice still live.
 - 2026-11-20 - Refreshed the release train to the v1.3.1 (2026-11-18) and v1.3.0 (2026-11-16) prereleases above v1.2.3, with v1.2.2 still the newest stable-marked release; no advisory published since the 2026-11-11 one, and the counters refreshed after the 2026-11-20 push (626 to 638 forks, roughly 20,200 to roughly 20,400 commits).
 - 2026-11-22 - Refreshed the counters after the 2026-11-22 push (638 to 639 forks, roughly 20,400 to roughly 20,500 commits); the release train re-confirmed unchanged (the v1.3.1 prerelease still the newest, v1.2.2 still the newest stable) and no advisory published since the 2026-11-11 one.
+- 2026-11-24 - Fully re-verified in rotation with every cited URL re-fetched: the product page (AIC billing at 1 AIC = $0.01), the reference site (the 1,000 and 5,000 AIC caps, self-hosted and ARC runners, the GitHub Next and Microsoft Research credit), all seven advisory records, the README notice for the August 27 advisory, the 302-point launch thread, and the rationale page all re-confirmed; corrected the engine record after the docs moved the imported samples to a Custom AI engines page that lists them as unsupported (ten samples now, with Factory Droid, LangGraph, and mini-SWE-agent added and Pydantic AI a publisher definition), recorded the v1.4.0 prerelease (2026-11-23) topping the train with its breaking changes (cost-first automatic model routing by default, same-repository-only `pull_request_target` forks, fail-closed safe-output authorization, fail-closed `latest` downloads), fixed the See also engine count from five to six, and refreshed the counters after the 2026-11-24 push (639 to 640 forks, roughly 20,500 to roughly 20,600 commits); no advisory published since the 2026-11-11 one and v1.2.2 still the newest stable.
 
 ## See also
 
 - [Copilot automations](../copilot-automations/index.md) - the hosted, Copilot-only sibling on the same platform
-- [Claude Code](../../harnesses/claude-code/index.md) - one of the five built-in engines
+- [Claude Code](../../harnesses/claude-code/index.md) - one of the six built-in engines
 - [Claude Code hooks](../claude-code-hooks/index.md) - in-harness event triggers versus repo-level automation
 
 ## References
 
 - https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-github-agentic-workflows - product definition, security model, AIC billing
 - https://github.github.com/gh-aw/ - full reference: engines, guardrails, cost management
-- https://github.github.com/gh-aw/reference/engines/ - the built-in engine list (six, with Agy experimental and Gemini deprecated) and the eight imported samples, as of 2026-10-11 (re-checked 2026-10-24)
+- https://github.github.com/gh-aw/reference/engines/ - the built-in engine list (six, with Agy experimental and Gemini deprecated; the imported samples moved to the Custom AI engines page), as of 2026-10-11 (re-checked 2026-10-24 and 2026-11-24)
+- https://github.github.com/gh-aw/reference/third-party-agent/ - the Custom AI engines page: an imported engine definition is executable configuration, and the unsupported sample list (OpenCode, Aider, Crush, Cursor, DeepSeek Harness, Factory Droid, Goose, Kiro, LangGraph, mini-SWE-agent, with Pydantic AI as a publisher definition) carries no compatibility or maintenance commitment (fetched 2026-11-24)
 - https://github.com/github/gh-aw - repository scale, MIT license, as of 2026-10-13
-- https://api.github.com/repos/github/gh-aw/releases?per_page=6 - the release train (the v1.3.1 prerelease on 2026-11-18 and v1.3.0 prerelease on 2026-11-16 above the v1.2.3 prerelease on 2026-11-13, v1.2.2 stable-marked on 2026-11-10, the v1.2.1 prerelease on 2026-11-06, the v1.2.0 prerelease on 2026-11-04, and v1.0.1 stable on 2026-10-27, re-fetched 2026-11-22)
+- https://api.github.com/repos/github/gh-aw/releases?per_page=6 - the release train (the v1.4.0 prerelease on 2026-11-23 above the v1.3.1 prerelease on 2026-11-18, the v1.3.0 prerelease on 2026-11-16, the v1.2.3 prerelease on 2026-11-13, v1.2.2 stable-marked on 2026-11-10, and the v1.2.1 prerelease on 2026-11-06; the v1.2.0 prerelease on 2026-11-04 and v1.0.1 stable on 2026-10-27 now sit past the six-item page; re-fetched 2026-11-24)
+- https://api.github.com/repos/github/gh-aw/releases/tags/v1.4.0 - the v1.4.0 prerelease notes: the breaking changes (cost-first automatic model routing by default, same-repository-only `pull_request_target` forks, fail-closed safe-output authorization, fail-closed `latest` downloads without a pinned checksum digest; fetched via the API 2026-11-24)
 - https://github.com/github/gh-aw/security/advisories/GHSA-8h78-hpm7-29gg - the critical advisory (safe-output artifacts may expose CI trigger tokens) behind the 0.83.3-0.85.3 retirement, patched in 0.85.4
 - https://github.com/github/gh-aw/security/advisories/GHSA-x78f-wrrj-4h24 - the high-severity September 23 advisory (HTTPS egress allowlist bypass via TLS SNI domain fronting), patched in 0.89.17
-- https://github.com/github/gh-aw/security/advisories/GHSA-9jxf-w4wc-5g93 - the 2026-10-14 critical job-token exfiltration advisory (CVSS 9.2, affected below v0.91.13, patched in v0.91.12)
-- https://github.com/github/gh-aw/security/advisories/GHSA-fqvc-336c-4fp9 - the 2026-10-31 medium advisory (OTLP authentication credentials exposed in eval logs and artifacts, listed as affecting below v0.91.3, ranges still unverified per its own body)
-- https://api.github.com/repos/github/gh-aw/security-advisories/GHSA-796w-fvw2-ccmp - the 2026-11-05 high advisory (predictable non-exclusive .tmp write and permissive-mode retention in writeMCPCompileProgress, patched in 1.2.0; the github.com advisory page returned 504s this run, the API record is the fetched source)
-- https://api.github.com/repos/github/gh-aw/security-advisories/GHSA-vc9g-q5h8-x44c - the 2026-11-05 medium advisory (the Copilot backend of universal-llm-consumer engines sends the Copilot credential to api.openai.com, patched in 1.2.0; fetched via the API record this run)
-- https://api.github.com/repos/github/gh-aw/security-advisories/GHSA-4fwp-8v7m-jhhr - the 2026-11-11 high advisory (safe-output patch generation executing an agent-controlled Git remote helper, affected through 0.92.0, patched in 1.2.0; fetched via the API record 2026-11-13)
+- https://github.com/github/gh-aw/security/advisories/GHSA-9jxf-w4wc-5g93 - the 2026-10-14 critical job-token exfiltration advisory (CVSS 9.2, affected below v0.91.13, the body telling users to upgrade to v0.91.12 or later and the patched-version field reading v0.91.13; re-fetched 2026-11-24)
+- https://github.com/github/gh-aw/security/advisories/GHSA-fqvc-336c-4fp9 - the 2026-10-31 medium advisory (OTLP authentication credentials exposed in eval logs and artifacts, listed as affecting below v0.91.3, ranges still unverified per its own body, whose header now reads v0.91.14 as the patched version; re-fetched 2026-11-24)
+- https://api.github.com/repos/github/gh-aw/security-advisories/GHSA-796w-fvw2-ccmp - the 2026-11-05 high advisory (predictable non-exclusive .tmp write and permissive-mode retention in writeMCPCompileProgress, patched in 1.2.0; the github.com advisory page re-fetched 2026-11-24 and listing 1.2.0 as the patched version)
+- https://api.github.com/repos/github/gh-aw/security-advisories/GHSA-vc9g-q5h8-x44c - the 2026-11-05 medium advisory (the Copilot backend of universal-llm-consumer engines sends the Copilot credential to api.openai.com, patched in 1.2.0; the github.com advisory page re-fetched 2026-11-24 and listing 1.2.0 as the patched version)
+- https://api.github.com/repos/github/gh-aw/security-advisories/GHSA-4fwp-8v7m-jhhr - the 2026-11-11 high advisory (safe-output patch generation executing an agent-controlled Git remote helper, affected through 0.92.0, patched in 1.2.0; fetched via the API record 2026-11-13, the github.com advisory page re-fetched 2026-11-24 and listing 1.2.0 as the patched version)
 - https://news.ycombinator.com/item?id=46934107 - February 2026 launch discussion (302 points) including dogfooding criticism
 - https://github.com/anthropics/claude-code-action - the single-agent alternative on the same platform
 - https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automation-rationale-and-approvals - shared rationale and approvals layer, including its limits

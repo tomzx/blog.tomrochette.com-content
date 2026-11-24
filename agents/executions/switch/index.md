@@ -1,9 +1,9 @@
 ---
 title: Switch
 created: 2026-11-19
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, chat-bridge, self-hosted]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, executions, chat-bridge, self-hosted]
 readability: 3
 audience_notes: >
   Engineers deciding whether AI teammates should live in the chat app their team already uses, and who can install a desktop Console or run a small server for them.
@@ -19,12 +19,13 @@ Switch is a SandboxAQ-backed open-source platform that turns channels in Slack, 
 A room is a channel your team already uses, and the agents you connect join it as named teammates with an owner, instructions, and connectors (Google Workspace, Atlassian, GitHub, Datadog, Airtable), seeing only the rooms they belong to.
 You install Switch Console, the desktop app, pick a provider per agent under your own account, and let switch-buddy, the built-in assistant, create your first agents and rooms; for a team you run the server on your own hardware, and connecting Microsoft Teams needs a Microsoft 365 admin plus a server reachable over the internet.
 The repo ships no agents and no models, and its docs are themselves served over MCP so an agent can walk you through the setup.
+An agent client takes its room events over one WebSocket, kept alive with pings and resumed after a drop, and makes HTTP calls for everything it does, with no client library, so a harness you build yourself implements the wire contract directly.
 It is built by SandboxAQ (the license copyright reads SB Technology, Inc. dba SandboxAQ), licensed Apache-2.0 as limited by the Commons Clause, and it sits beside two commercial siblings, Switch Trust (agent scanning and guardrails) and Switch ROI (cost and value reporting), with a hosted Switch Cloud marked coming soon.
 
 ## Status
 
 **Active, institutionally backed, and the largest chat-bridge in this category by stars, with an independent footprint of one thread.**
-4,587 stars as of 2026-11-19 (the creation baseline), 368 forks and 569 open issues and pull requests as of 2026-11-22 (GitHub API), repository created 2026-07-16 and pushed 2026-11-22.
+4,587 stars as of 2026-11-19 (the creation baseline), 369 forks and 577 open issues and pull requests as of 2026-11-24 (GitHub API), repository created 2026-07-16 and pushed 2026-11-24.
 The release train is dense for a project this age: switch-core 0.32.1 and Switch Console 0.41.1 (both published 2026-11-18) top the stable line, with a canary cut (Console 0.42.0-canary.1, 2026-11-18) and dev builds of main publishing daily.
 The README carries a #1 Product of the Day Product Hunt badge, and the vendor's case study names Mount Sinai West's physician-led MSW Lab as a design partner, in alpha and built around the Trust product line rather than Rooms.
 The community footprint on Hacker News is one self-submitted thread (2026-08-27, 1 point, zero comments) linking the repository, so the stars carry no visible independent discussion anywhere.
@@ -73,6 +74,7 @@ My disagreeable claim: Switch is Centaur's mass-market mirror image, the same ch
 - 2026-11-19 - Created from the 2026-11-19 cross-category scan admission, routed to executions on the centaur/airut chat-bridge line.
 - 2026-11-20 - Refreshed the repository counters after the 2026-11-20 push (358 to 364 forks, 719 to 718 open issues and pull requests); the release record re-confirmed (the stable line still switch-core 0.32.1 and Switch Console 0.41.1 of 2026-11-18, dev builds of main publishing daily).
 - 2026-11-22 - Refreshed the repository counters after the 2026-11-22 push (364 to 368 forks, 718 to 569 open issues and pull requests, a large triage drop); the stable release line re-confirmed unchanged (switch-core 0.32.1, Switch Console 0.41.1, and switch-agent-controller 0.32.1, all 2026-11-18), with dev builds of main still publishing daily.
+- 2026-11-24 - Fully re-verified with every cited URL re-fetched after the AMO listing's 2026-11-22 description named a WebSocket bridge: the five chat platforms were already on record, and the agent connection (room events over one WebSocket kept alive with pings and resumed after a drop, HTTP calls for everything else, no client library) was added from the docs' agent-connection and agent-protocol pages as two new references; the license, the product family, the docs pages, the Mount Sinai West case study, the single 1-point thread, and the signup paths all re-confirmed, the counters refreshed after the 2026-11-24 push (368 to 369 forks, 569 to 577 open issues and pull requests), and the stable release line re-confirmed unchanged.
 
 ## See also
 
@@ -83,14 +85,16 @@ My disagreeable claim: Switch is Centaur's mass-market mirror image, the same ch
 
 ## References
 
-- https://api.github.com/repos/sandbox-quantum/switch - counters (4,587 stars as of 2026-11-19, the creation baseline; 368 forks, 569 open issues and pull requests, created 2026-07-16, pushed 2026-11-22; re-verified 2026-11-22)
-- https://raw.githubusercontent.com/sandbox-quantum/switch/main/README.md - the rooms model, the five chat platforms, the any-agent claim, Console and switch-buddy onboarding, connectors, the telemetry disclosure, and the Product Hunt badge (fetched 2026-11-19)
-- https://raw.githubusercontent.com/sandbox-quantum/switch/main/LICENSE - Apache-2.0 as limited by the Commons Clause, extended to derivatives, copyright SB Technology, Inc. dba SandboxAQ (fetched 2026-11-19)
-- https://api.github.com/repos/sandbox-quantum/switch/releases?per_page=5 - the release train: switch-core 0.32.1 and Switch Console 0.41.1 (both 2026-11-18), canary 0.42.0-canary.1 (2026-11-18), dev builds of main daily (fetched 2026-11-19, stable line re-confirmed 2026-11-22)
-- https://www.switchagents.ai/ - the Switch AI product family (Rooms, Trust, ROI), the SandboxAQ branding, and the Dr. Jeffrey Bander quote (fetched 2026-11-19)
-- https://docs.switchagents.ai/switch-rooms/getting-started - the rooms-and-agents model, the per-agent owner rule, and the recorded move from docs.flintai.dev (fetched 2026-11-19)
-- https://docs.switchagents.ai/switch-rooms/getting-started/quickstart.md - the Console quickstart, the per-agent provider choice under your own account, and the Teams admin requirement (fetched 2026-11-19)
-- https://www.switchagents.ai/case-studies/case-study-mount-sinai - the Mount Sinai West case study: MSW Lab as design partner, in alpha, on the Trust product line (fetched 2026-11-19)
-- https://hn.algolia.com/api/v1/search?query=switchagents&tags=story - the coverage search finding one 1-point thread and no other discussion (fetched 2026-11-19)
-- https://hn.algolia.com/api/v1/items/49468269 - the single thread, "Project Switch: Agents and humans work side-by-side" (2026-08-27, 1 point, zero comments) (fetched 2026-11-19)
-- https://www.switchagents.ai/get-started - the free-to-start Rooms and Trust/ROI signup paths and the demo path behind the unpublished paid tiers (fetched 2026-11-19)
+- https://api.github.com/repos/sandbox-quantum/switch - counters (4,587 stars as of 2026-11-19, the creation baseline; 369 forks, 577 open issues and pull requests, created 2026-07-16, pushed 2026-11-24; re-verified 2026-11-24)
+- https://raw.githubusercontent.com/sandbox-quantum/switch/main/README.md - the rooms model, the five chat platforms, the any-agent claim, Console and switch-buddy onboarding, connectors, the telemetry disclosure, and the Product Hunt badge (fetched 2026-11-19, re-fetched 2026-11-24)
+- https://raw.githubusercontent.com/sandbox-quantum/switch/main/LICENSE - Apache-2.0 as limited by the Commons Clause, extended to derivatives, copyright SB Technology, Inc. dba SandboxAQ (fetched 2026-11-19, re-fetched 2026-11-24)
+- https://api.github.com/repos/sandbox-quantum/switch/releases?per_page=5 - the release train: switch-core 0.32.1 and Switch Console 0.41.1 (both 2026-11-18), canary 0.42.0-canary.1 (2026-11-18), dev builds of main daily (fetched 2026-11-19, re-fetched 2026-11-24 as a hundred-item page plus releases/latest, the five newest entries now all dev builds; the stable line re-confirmed: switch-core 0.32.1, Switch Console 0.41.1, and switch-agent-controller 0.32.1, all 2026-11-18)
+- https://docs.switchagents.ai/switch-rooms/internals/agent-connection - the agent connection: one WebSocket per agent client, kept alive with pings and resumed after a drop, opened with the agent API key, a reused connection_id, and the rooms to claim (fetched 2026-11-24)
+- https://docs.switchagents.ai/switch-rooms/internals/agent-protocol - the wire contract: room events over the WebSocket and HTTP calls for everything else, SSE deprecated for older clients, and no client library (fetched 2026-11-24)
+- https://www.switchagents.ai/ - the Switch AI product family (Rooms, Trust, ROI), the SandboxAQ branding, and the Dr. Jeffrey Bander quote (fetched 2026-11-19, re-fetched 2026-11-24)
+- https://docs.switchagents.ai/switch-rooms/getting-started - the rooms-and-agents model, the per-agent owner rule, and the recorded move from docs.flintai.dev (fetched 2026-11-19, re-fetched 2026-11-24)
+- https://docs.switchagents.ai/switch-rooms/getting-started/quickstart.md - the Console quickstart, the per-agent provider choice under your own account, and the Teams admin requirement (fetched 2026-11-19, re-fetched 2026-11-24)
+- https://www.switchagents.ai/case-studies/case-study-mount-sinai - the Mount Sinai West case study: MSW Lab as design partner, in alpha, on the Trust product line (fetched 2026-11-19, re-fetched 2026-11-24)
+- https://hn.algolia.com/api/v1/search?query=switchagents&tags=story - the coverage search finding one 1-point thread and no other discussion (fetched 2026-11-19, re-fetched 2026-11-24)
+- https://hn.algolia.com/api/v1/items/49468269 - the single thread, "Project Switch: Agents and humans work side-by-side" (2026-08-27, 1 point, zero comments) (fetched 2026-11-19, re-fetched 2026-11-24)
+- https://www.switchagents.ai/get-started - the free-to-start Rooms and Trust/ROI signup paths and the demo path behind the unpublished paid tiers (fetched 2026-11-19, re-fetched 2026-11-24)
