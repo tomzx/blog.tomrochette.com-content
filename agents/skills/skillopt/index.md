@@ -1,9 +1,9 @@
 ---
 title: SkillOpt
 created: 2026-08-30
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, self-improving-agents, research, microsoft]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, skills, self-improving-agents, research, microsoft]
 readability: 3
 audience_notes: >
   Engineers who maintain skill files for LLM agents and wonder whether those files can be trained instead of hand-written.
@@ -78,13 +78,14 @@ Not for subjective domains without reliable scoring, or anyone expecting trained
 - 2026-11-12 - Volatile refresh: the 2026-11-10 batch hardened Sleep harvesting and scoring (cutoffs compared as instants, unreadable transcript lines skipped, api-request-blob records no longer harvested as prompts, the judge's 0-to-1 score contract enforced before gating, learned items kept across apply_edits, self-reported tool calls not credited on a measured route, held-out-twin recall blocked as a leak) alongside OfficeQA and livemath scoring fixes, DocVQA evaluator tests, and an ALFWorld output confinement, moving main to 409 commits past v0.2.0 with open issues and PRs up to 86; v0.2.0 still the newest release.
 - 2026-11-17 - Rotation re-verification: every cited URL re-fetched live and all claims held (the arXiv paper still the preprint at v2, the project page serving 200 and now carrying the NeurIPS Spotlight badge plus a companion-project link to SkillLens, the MSR blog unchanged, v0.2.0 still the newest release, The Decoder piece unchanged, VentureBeat answering 429 again through both fetch clients with its last live fetch 2026-10-18), the default branch unchanged since 2026-11-10 with main still 409 commits past v0.2.0, and open issues and PRs moved up to 93; no claims moved.
 - 2026-11-22 - Volatile refresh: the 2026-11-17 batch (opt-in leave-one-out edit ablation for accepted gate trials, force-written slow-update skill re-measure, dsh host peer-dependency declaration, Sleep scope-forwarding and Windows scheduled-task and Claude/Codex home-expansion fixes, OfficeQA numeric-zero, DocVQA stray-tag, and SearchQA single-string gold loader fixes) and the 2026-11-21 batch (decided nights kept through edit-ablation replay failures, Standard Compute documented as an openai_compatible provider example, hard-selection-accuracy run reporting, pre-answer `<answer>` tags ignored, curly-apostrophe refusal detection) moved main to 429 commits past v0.2.0 with open issues and PRs down to 80; v0.2.0 still the newest release.
-
+- 2026-11-24 - Added the SkillEvaluator See also link (NVIDIA's output-quality evaluator for skills, admitted to evaluation-review), the measurement side this trainer optimizes against.
 ## See also
 
 - [Skills Feature Matrix](../skills-feature-matrix/index.md) - the category comparison this note joins
 - [Anthropic Agent Skills](../anthropic-agent-skills/index.md) - the format it trains artifacts for
 - [Agent Skills open standard](../agent-skills-open-standard/index.md) - the portability layer
 - [Ouroboros](../../software-factory/ouroboros/index.md) - the loop-level counterpart in self-improvement
+- [SkillEvaluator](../../evaluation-review/skillevaluator/index.md) - NVIDIA's output-quality evaluator for skills, the measurement side this trainer optimizes against
 
 ## References
 
