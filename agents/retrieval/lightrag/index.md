@@ -1,9 +1,9 @@
 ---
 title: LightRAG
 created: 2026-10-07
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, knowledge-graph]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, retrieval, rag, knowledge-graph]
 readability: 3
 audience_notes: >
   Engineers choosing a graph-based RAG implementation for a document corpus and weighing
@@ -25,7 +25,7 @@ Made by HKUDS, the lab that also ships RAG-Anything, VideoRAG, and MiniRAG.
 ## Status
 
 **Actively maintained with a large, fast-moving community.**
-40,119 stars and 5,705 forks as of 2026-10-13, pushed 2026-11-22, with 245 open issues (GitHub API, as of 2026-11-22).
+40,119 stars and 5,705 forks as of 2026-10-13, pushed 2026-11-24, with 239 open issues (GitHub API, as of 2026-11-24).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=HKUDS/LightRAG&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,9 @@ Made by HKUDS, the lab that also ships RAG-Anything, VideoRAG, and MiniRAG.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=HKUDS/LightRAG&type=date&legend=top-left" />
 </picture>
 
-PyPI shows version 1.5.7 released 2026-09-02 across 96 releases, with the 1.5.8rc1 (2026-11-15) and 1.5.8rc2 (2026-11-21) prereleases the only newer cuts (1.5.7 still the latest stable), and the README's news line runs to July 2026 (Smart Heading recognition for Word documents).
+PyPI shows version 1.5.8 released 2026-11-23 across 97 releases, the first stable cut since 1.5.7 (2026-09-02), following the 1.5.8rc1 (2026-11-15) and 1.5.8rc2 (2026-11-21) prereleases.
+The 1.5.8 release notes list a new configuration storage type that records each workspace's embedding baselines and refuses startup when the embedding model changes on an existing workspace, PostgreSQL as the setup wizard's default with the plain-table `PGTableGraphStorage` graph option, the `PGGraphStorage` (Apache AGE) and Redis storages deprecated, graph edits serialized against ingestion with interrupted document deletions visible and retryable, and Python 3.11 or later required.
+Its breaking changes also put the Ollama-compatible routes behind the API key and move the WebUI to account sign-in only, so a server protected by the key alone shows the WebUI a configuration page until accounts are set.
 The paper (arXiv 2410.05779) was published at EMNLP 2025.
 The launch thread drew 82 points in July 2024 and little HN activity since, so the star count grew through tutorials and the lab's ecosystem rather than launch-driven debate.
 
@@ -45,7 +47,7 @@ The launch thread drew 82 points in July 2024 and little HN activity since, so t
 
 ## Cautions
 
-- **The lab's breadth is the roadmap risk: RAG-Anything, VideoRAG, and MiniRAG share one maintainership, and 245 open issues say the core absorbs more than it resolves.**
+- **The lab's breadth is the roadmap risk: RAG-Anything, VideoRAG, and MiniRAG share one maintainership, and 239 open issues say the core absorbs more than it resolves.**
 - The accuracy story is self-run; I found no independent benchmark replicating the paper's numbers on a different corpus.
 - The feature surface churns (chunking strategies, merged multimodal parsing, role-specific models), so pin versions and re-test on upgrades.
 - Setup is a stack: an embedding model, an LLM, a graph or unified store, and optionally parsing services.
@@ -65,7 +67,7 @@ The costs are your own model bills for extraction and querying plus the storage 
 
 **Recommended as the default graph-RAG framework when the graph layer genuinely earns its indexing cost, which for most corpora means theme and multi-hop questions, not lookup.**
 Not for teams that need a frozen dependency or independent accuracy evidence, because it offers neither.
-My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appeal, not adoption depth, and the 245 open issues are the truer count of how much work the pattern still demands.
+My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appeal, not adoption depth, and the 239 open issues are the truer count of how much work the pattern still demands.
 
 ## Changes
 
@@ -85,6 +87,7 @@ My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appea
 - 2026-11-19 - Refreshed the repository activity (pushed 2026-11-18, 295 open issues, aligned across sections); PyPI 1.5.7 remains the latest stable with 1.5.8rc1 the only newer cut.
 - 2026-11-21 - Refreshed the repository activity (pushed 2026-11-21, 235 open issues, aligned across sections); PyPI 1.5.7 remains the latest stable with 1.5.8rc1 the only newer cut.
 - 2026-11-22 - Refreshed the repository activity (pushed 2026-11-22, 245 open issues, aligned across sections) and recorded PyPI's 1.5.8rc2 prerelease (2026-11-21), 96 releases with 1.5.7 still the latest stable.
+- 2026-11-24 - Recorded PyPI 1.5.8 (2026-11-23, 97 releases total), the first stable release since 1.5.7, carrying a configuration storage type with per-workspace embedding baselines, PostgreSQL as the wizard's default with the Apache AGE and Redis storages deprecated, graph edits serialized against ingestion with retryable document deletion, a Python 3.11 floor, and API-key enforcement on the Ollama-compatible routes with account-only WebUI sign-in; refreshed the repository activity (pushed 2026-11-24, 239 open issues, aligned across sections).
 
 ## See also
 
@@ -95,9 +98,10 @@ My disagreeable claim: LightRAG's star count measures the graph-RAG idea's appea
 
 ## References
 
-- https://api.github.com/repos/HKUDS/LightRAG - 40,119 stars, 5,705 forks, MIT, created 2024-10-02, pushed 2026-11-22, 245 open issues (GitHub API, as of 2026-11-22)
+- https://api.github.com/repos/HKUDS/LightRAG - 40,119 stars, 5,705 forks, MIT, created 2024-10-02, pushed 2026-11-24, 239 open issues (GitHub API, as of 2026-11-24)
 - https://raw.githubusercontent.com/HKUDS/LightRAG/main/README.md - dual-level retrieval, storage backends, chunking strategies, the RAG-Anything merge, the news timeline (re-verified unchanged 2026-11-03)
 - https://arxiv.org/abs/2410.05779 - the EMNLP 2025 paper: LightRAG, simple and fast retrieval-augmented generation (re-verified live 2026-11-03)
-- https://pypi.org/pypi/lightrag-hku/json - version 1.5.7 (2026-09-02), 96 releases with the 1.5.8rc1 (2026-11-15) and 1.5.8rc2 (2026-11-21) prereleases, MIT (1.5.7 still the latest stable, re-fetched 2026-11-22)
+- https://pypi.org/pypi/lightrag-hku/json - version 1.5.8 (2026-11-23), 97 releases, the first stable since 1.5.7 (2026-09-02), after the 1.5.8rc1 (2026-11-15) and 1.5.8rc2 (2026-11-21) prereleases, MIT (re-fetched 2026-11-24)
+- https://api.github.com/repos/HKUDS/LightRAG/releases/tags/v1.5.8 - the v1.5.8 release notes: configuration storage with embedding baselines, PostgreSQL defaults with the AGE and Redis storages deprecated, safer graph writes and document deletion, and the Python 3.11 requirement (fetched 2026-11-24)
 - https://learnopencv.com/lightrag/ - the widely-cited third-party guide grounding the tutorial-driven adoption pattern (re-verified live 2026-11-03)
 - https://hn.algolia.com/api/v1/search?query=LightRAG&tags=story - the footprint scan: the 82-point 2024 launch thread and thin activity since (re-verified 2026-11-03)

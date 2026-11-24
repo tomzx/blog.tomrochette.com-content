@@ -1,9 +1,9 @@
 ---
 title: Docling
 created: 2026-09-27
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, document-parsing, rag]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, retrieval, document-parsing, rag]
 readability: 3
 audience_notes: >
   Engineers choosing a document parser to feed a RAG or agent pipeline.
@@ -24,7 +24,7 @@ The repository was created 2024-07-09 as IBM's ds4sd/docling and now lives under
 
 ## Status
 
-Very active and very large: 68,825 stars and 5,070 forks as of 2026-10-13, 1,071 open issues, and a push on 2026-11-22 (GitHub API, as of 2026-11-22).
+Very active and very large: 68,825 stars and 5,070 forks as of 2026-10-13, 1,088 open issues, and a push on 2026-11-24 (GitHub API, as of 2026-11-24).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=docling-project/docling&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Very active and very large: 68,825 stars and 5,070 forks as of 2026-10-13, 1,071
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=docling-project/docling&type=date&legend=top-left" />
 </picture>
 
-PyPI shows version 2.151.1 released 2026-11-19 across 243 releases (following 2.151.0 in the same window and 2.150.1 of 2026-11-14) with Python 3.9 support dropped at 2.70.0, and pypistats reports 4,323,066 downloads in the last month as of 2026-11-22 (against the 4,367,922 reading of 2026-11-21 and the 4,304,928 reading of 2026-11-19; the 2026-11-14 reading of 4,037,393 had ended the frozen 2,909,751 figure the endpoint had served unchanged from 2026-10-07 through 2026-11-12; the pepy badge reads 4M, matching at that scale).
+PyPI shows version 2.152.0 released 2026-11-23 across 244 releases (following 2.151.1 and 2.151.0 of 2026-11-19 and 2.150.1 of 2026-11-14) with Python 3.9 support dropped at 2.70.0, and pypistats reports 4,320,276 downloads in the last month as of 2026-11-24 (against the 4,323,066 reading of 2026-11-22 and the 4,367,922 reading of 2026-11-21; the 2026-11-14 reading of 4,037,393 had ended the frozen 2,909,751 figure the endpoint had served unchanged from 2026-10-07 through 2026-11-12; the pepy badge reads 4M, matching at that scale).
 The HN footprint is thin for that scale: the largest story thread I found is 13 points from 2024-11-03, which says adoption flows through framework integrations and tutorials rather than launch-driven attention.
 The project's docs now advertise a managed path, Docling for IBM watsonx, exposing the same REST API as the self-hosted server.
 
@@ -93,6 +93,7 @@ My disagreeable claim: Docling's dominance owes as much to IBM's distribution an
 - 2026-11-19 - Refreshed the repository activity (pushed 2026-11-19, 1,077 open issues) and re-read the trailing-month downloads at 4,304,928; PyPI 2.150.1 remains latest across 241 releases.
 - 2026-11-21 - Recorded PyPI 2.151.1 (2026-11-19, via 2.151.0, 243 releases total) and refreshed the repository activity (pushed 2026-11-21, 1,059 open issues) and the trailing-month downloads at 4,367,922 against the 4,304,928 reading of 2026-11-19.
 - 2026-11-22 - Refreshed the repository activity (pushed 2026-11-22, 1,071 open issues) and re-read the trailing-month downloads at 4,323,066, roughly flat against the 4,367,922 reading of 2026-11-21; PyPI 2.151.1 remains latest across 243 releases.
+- 2026-11-24 - Recorded PyPI 2.152.0 (2026-11-23, 244 releases total), refreshed the repository activity (pushed 2026-11-24, 1,088 open issues), and re-read the trailing-month downloads at 4,320,276, flat against the 4,323,066 reading of 2026-11-22; the rotation re-verification re-fetched every cited URL live and found none dead; the installation page no longer states the Python 3.9 cutoff, so that claim is re-grounded on PyPI release metadata (2.69.0 requires >=3.9, 2.70.0 requires >=3.10).
 
 ## See also
 
@@ -103,12 +104,13 @@ My disagreeable claim: Docling's dominance owes as much to IBM's distribution an
 
 ## References
 
-- https://api.github.com/repos/docling-project/docling - 68,825 stars and 5,070 forks (as of 2026-10-13), MIT, created 2024-07-09, pushed 2026-11-22, 1,071 open issues, as of 2026-11-22
+- https://api.github.com/repos/docling-project/docling - 68,825 stars and 5,070 forks (as of 2026-10-13), MIT, created 2024-07-09, pushed 2026-11-24, 1,088 open issues, as of 2026-11-24
 - https://raw.githubusercontent.com/docling-project/docling/main/README.md - format list, DoclingDocument, exports, integrations, MCP server, docling-serve, LF AI & Data badge
 - https://arxiv.org/abs/2408.09869 - the technical report grounding the DocLayNet layout and TableFormer table models and the MIT, commodity-hardware claims
-- https://docling-project.github.io/docling/getting_started/installation/ - the PyTorch dependency, install extras, and the Python 3.9 cutoff at 2.70.0
-- https://pypi.org/pypi/docling/json - version 2.151.1 (2026-11-19), 243 releases, Python >=3.10 (fetched 2026-11-22, still latest; 2.151.0 published the same window, 2.150.1 released 2026-11-14)
-- https://pypistats.org/api/packages/docling/recent - 4,323,066 downloads in the last month as of 2026-11-22, against the 4,367,922 reading of 2026-11-21 and the 4,304,928 reading of 2026-11-19; the 2026-11-17 reading of 4,095,804 and the 2026-11-14 reading of 4,037,393 bracket the end of the frozen 2,909,751 window served unchanged 2026-10-07 through 2026-11-12 (429 on 2026-10-06, answered 2026-10-07)
+- https://docling-project.github.io/docling/getting_started/installation/ - the PyTorch dependency and install extras; on 2026-11-24 the page no longer states the Python 3.9 cutoff, which PyPI release metadata grounds instead (2.69.0 requires >=3.9, 2.70.0 requires >=3.10)
+- https://pypi.org/pypi/docling/2.70.0/json - the 2.70.0 release metadata raising the floor to Python >=3.10 (2026-01-23), with the 2.69.0 metadata at >=3.9 (fetched 2026-11-24)
+- https://pypi.org/pypi/docling/json - version 2.152.0 (2026-11-23), 244 releases, Python >=3.10 (fetched 2026-11-24, latest; 2.151.1 and 2.151.0 published 2026-11-19, 2.150.1 released 2026-11-14)
+- https://pypistats.org/api/packages/docling/recent - 4,320,276 downloads in the last month as of 2026-11-24, against the 4,323,066 reading of 2026-11-22 and the 4,367,922 reading of 2026-11-21; the 2026-11-17 reading of 4,095,804 and the 2026-11-14 reading of 4,037,393 bracket the end of the frozen 2,909,751 window served unchanged 2026-10-07 through 2026-11-12 (429 on 2026-10-06, answered 2026-10-07)
 - https://static.pepy.tech/badge/docling/month - the pepy badge reading 4M downloads a month, corroborating the refreshed pypistats figure (as of 2026-11-14)
 - https://api.github.com/search/issues?q=repo:docling-project/docling+install+size+OR+heavy+OR+torch+in:title - issues #3997, #4100, and #3793, the slim-install and lazy-import work
 - https://hn.algolia.com/api/v1/search?query=docling&tags=comment - practitioner comments: the GPU-heavy comparison, the marker-plus-forced-OCR preference, and the wrapper question
