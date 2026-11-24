@@ -1,9 +1,9 @@
 ---
 title: Octop
 created: 2026-10-07
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, python, self-hosted, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, assistant-runtimes, personal-assistants, python, self-hosted, open-source]
 readability: 3
 audience_notes: >
   Engineers choosing a self-hosted assistant for a household or small team that lives in Chinese
@@ -26,7 +26,7 @@ It is published under the TencentCloud GitHub org and built from four focused su
 
 ## Status
 
-Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three months as of 2026-10-14 (created 2026-07-08), 641 open issues with the last push on 2026-11-22 as of 2026-11-22, MIT.
+Fast out of the gate and young: 9,156 stars and 1,125 forks in its first three months as of 2026-10-14 (created 2026-07-08), 643 open issues with the last push on 2026-11-23 as of 2026-11-24, MIT.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/Octop&type=date&theme=dark&legend=top-left" />

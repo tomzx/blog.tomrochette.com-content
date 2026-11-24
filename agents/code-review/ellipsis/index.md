@@ -1,9 +1,9 @@
 ---
 title: Ellipsis
 created: 2026-08-30
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, developer-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, code-review, ai-review, developer-tools]
 readability: 3
 audience_notes: >
   Written for software engineers and engineering leaders evaluating AI code
@@ -36,7 +36,7 @@ The community footprint is one strong Show HN from May 9, 2024 (Algolia item 403
 - Agents as code: each agent is a versioned YAML file changed by pull request, so configuration gets reviewed like any other code.
 - Governance is built in: per-session scoped tokens, budget caps enforced before a sandbox starts, and full searchable transcripts of every session.
 - Harness-agnostic: the same interface fronts Claude Code, Codex, OpenCode, and others, so the platform layer does not lock you to one agent vendor.
-- Security posture: zero source retention (code is deleted with the sandbox), SOC 2 Type I certified with Type II in progress as of 2026-09-18, and a BYOC path into your own AWS VPC.
+- Security design: zero source retention (code is deleted with the sandbox), SOC 2 Type I certified with Type II in progress as of 2026-09-18, and a BYOC path into your own AWS VPC.
 - The founders were candid in 2024 that frontier LLMs were not good enough to write code autonomously, only to review it, which matched the product to what models could actually do.
 
 ## Cautions
@@ -101,6 +101,7 @@ I will take the unpopular position that leaving review was the right call: a fix
 - 2026-11-08 - Rotation re-verification: every cited URL re-fetched live; all metered prices unchanged (the 10% platform fee, the compute rates, and the three support packages re-read from the pricing page), the org still holds five public repos with the CLI repo pushed November 7 and the SDK mirror November 8, the org profile's description field is restored (Cloud Agent Platform for Developers) and the YC directory is rewritten to the agent-cloud pitch (a Managed Agent platform one-liner, spawn, manage, and govern cloud agents for Software Factories, custom Code Review, and Background Tasks), the $100 credit still appears on no fetched surface, the blog's newest post is still July 28, 2026, and the Show HN thread is unchanged (121 points, 64 comments); recorded in Status and Pricing.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched live; all metered prices unchanged (tokens at cost plus a 10% platform fee, CPU $0.142/vCPU-hour, memory $0.024/GB-hour, support packages $5,000, $10,000, and $15,000), the org still holds five public repos with the CLI repo and the SDK mirror both pushed November 9, the homepage hero still leads Software Factories with no free badge and no $100 credit anywhere on the fetched surfaces, the YC directory still carries the agent-cloud pitch, the blog's newest post is still July 28, 2026, and the Show HN thread is unchanged (121 points, 64 comments); no factual drift.
 - 2026-11-22 - Rotation re-verification: every cited URL re-fetched live; all metered prices unchanged (tokens at cost plus a 10% platform fee, CPU $0.142/vCPU-hour, memory $0.024/GB-hour, support packages $5,000, $10,000, and $15,000), the org still holds five public repos with the CLI repo and the SDK mirror both pushed November 21, the homepage hero now leads the platform framing (Model Agnostic Managed Agent Platform) with Software Factories as a use case and new counters (11.6k agents built, 67k repos connected), and the $100 starting credit returned to the homepage (New customers get free $100 credit, no credit card required) after being absent from every fetched surface since 2026-11-08, recorded in Pricing; the blog's newest post is still July 28, 2026, and the Show HN thread is unchanged (121 points, 64 comments).
+- 2026-11-24 - Reworded a banned-term word out of the Strengths list; meaning unchanged.
 
 ## See also
 

@@ -1,9 +1,9 @@
 ---
 title: Sakana AI Scientist
 created: 2026-10-11
-updated: 2026-11-14
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, sakana-ai, paper-generation, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, automated-research, sakana-ai, paper-generation, open-source]
 readability: 3
 audience_notes: >
   Engineers tracing where the idea-to-paper pipeline family came from and what its peer-review milestone actually was.
@@ -25,7 +25,8 @@ Versions 1 and 2 are open code on your own GPUs and API keys (OpenAI by default,
 
 Dormant as repositories, foundational as influence: v2 at 7,294 stars and v1 at 14,692 (both as of 2026-10-11), both last pushed 2025-12-19, re-verified 2026-10-28.
 The lineage's write-up crossed the journal tier on March 26, 2026: Nature published the methodology paper covering the v1 vision and the v2 peer-review experiment, by the Sakana AI, UBC, and Oxford team.
-The family continued on October 11, 2026 with AI-Scientist-v3, The Agentic Scientist: Apache-2.0, the family's first standard license, it orchestrates coding agents through Docker-isolated phases from a task.md to a written paper, with 545 stars as of 2026-10-28, created 2026-10-11, last pushed 2026-10-18.
+The family continued on October 11, 2026 with AI-Scientist-v3, The Agentic Scientist: Apache-2.0, the family's first standard license, it orchestrates coding agents through Docker-isolated phases from a task.md to a written paper, with 545 stars as of 2026-10-28, created 2026-10-11, last pushed 2026-11-20.
+v3's November 16-20 wave, 61 commits with no release yet, added two agent skills (`setup-task` scaffolds a task from a problem, benchmark, or repository, and `run-campaign` launches and monitors one, for Claude Code, Codex, and other skill-aware agents), native runs of harness-evaluated GPU tasks for hosts where Docker cannot reach the GPUs or the task needs Triton or torch.compile, a replay check that rejects non-deterministic evaluators before investigation and resumes failed drafts, writing-style rules shared across the paper prompts, and a review-model swap of the retired o4-mini for gpt-5.6-terra, as of 2026-11-24.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=SakanaAI/AI-Scientist-v3,SakanaAI/AI-Scientist-v2,SakanaAI/AI-Scientist&type=date&theme=dark&legend=top-left" />
@@ -67,7 +68,7 @@ Costs are your own GPU time and LLM API keys.
 ## Bottom line
 
 **Recommended reading as the idea-to-paper family's founding artifact and as a case study in running an AI-science milestone with the fine print attached.**
-Not for anyone choosing a maintained tool today: v1 and v2 are dormant under a custom license, and v3 is weeks old.
+Not for anyone choosing a maintained tool today: v1 and v2 are dormant under a custom license, and v3 is six weeks old as of 2026-11-24.
 
 ## Changes
 
@@ -75,6 +76,7 @@ Not for anyone choosing a maintained tool today: v1 and v2 are dormant under a c
 - 2026-10-11 - Added the star history chart.
 - 2026-10-28 - Rotation re-verification found the lineage's continuation: recorded the Nature publication of the v1/v2 methodology paper (March 26, 2026) and the October 11, 2026 opening of AI-Scientist-v3 (The Agentic Scientist), the family's first standard-license, coding-agent-orchestrated loop (arXiv 2610.18933), with v3 added to the star history chart.
 - 2026-11-14 - Rotation re-verification: all ten references re-fetched and live (one api.github.com 403 retried through the authenticated API), with v1 and v2 still dormant since 2025-12-19 and v3 quiet since its October 18 push.
+- 2026-11-24 - Rotation re-verification: all ten references re-fetched and live, with v1 and v2 still dormant since 2025-12-19; recorded v3's November 16-20 wave (61 commits, unreleased): the setup-task and run-campaign agent skills, native runs of harness-evaluated GPU tasks, the evaluator replay check and draft resume, shared writing-style rules for the paper prompts, and the review model moving from the retired o4-mini to gpt-5.6-terra.
 
 ## See also
 
@@ -92,6 +94,11 @@ Not for anyone choosing a maintained tool today: v1 and v2 are dormant under a c
 - https://api.github.com/repos/SakanaAI/AI-Scientist - the v1 repository's star count and push date for the status line (as of 2026-10-28)
 - https://hn.algolia.com/api/v1/search?query=AI%20Scientist%20Sakana&tags=story - the v1 203-point launch thread, v2's thin discussion footprint, and the two zero-comment v3 threads of October 16 and 18, 2026 (fetched 200, 2026-10-28)
 - https://sakana.ai/ai-scientist-nature/ - the March 26, 2026 Nature publication of the v1/v2 methodology paper (fetched 200, 2026-10-28)
-- https://api.github.com/repos/SakanaAI/AI-Scientist-v3 - the v3 repository: created 2026-10-11, last pushed 2026-10-18, Apache-2.0, 545 stars (fetched 200, 2026-10-28)
-- https://raw.githubusercontent.com/SakanaAI/AI-Scientist-v3/main/README.md - the v3 loop: task.md in, agent phases, rubric evaluation, sealed final evaluation, Docker default, and the full-permission security note (fetched 200, 2026-10-28)
+- https://api.github.com/repos/SakanaAI/AI-Scientist-v3 - the v3 repository: created 2026-10-11, last pushed 2026-11-20 at the 2026-11-24 re-fetch, Apache-2.0, 545 stars (fetched 200, 2026-10-28 and 2026-11-24)
+- https://github.com/SakanaAI/AI-Scientist-v3/pull/7 - the November 16, 2026 merge adding the setup-task and run-campaign agent skills (fetched 200, 2026-11-24)
+- https://github.com/SakanaAI/AI-Scientist-v3/pull/8 - the November 16, 2026 merge adding native runs of harness-evaluated GPU tasks (fetched 200, 2026-11-24)
+- https://github.com/SakanaAI/AI-Scientist-v3/pull/9 - the November 17, 2026 merge adding the evaluator replay check and the failed-draft resume (fetched 200, 2026-11-24)
+- https://github.com/SakanaAI/AI-Scientist-v3/pull/10 - the November 20, 2026 merge adding the shared writing-style rules to the paper prompts (fetched 200, 2026-11-24)
+- https://github.com/SakanaAI/AI-Scientist-v3/pull/11 - the November 20, 2026 review-model swap from the retired o4-mini to gpt-5.6-terra (fetched 200, 2026-11-24)
+- https://raw.githubusercontent.com/SakanaAI/AI-Scientist-v3/main/README.md - the v3 loop: task.md in, agent phases, rubric evaluation, sealed final evaluation, Docker default, and the full-permission security note, plus the agent-skills install section added since (fetched 200, 2026-10-28 and 2026-11-24)
 - https://arxiv.org/abs/2610.18933 - the v3 paper, The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery (fetched 200, 2026-10-28)

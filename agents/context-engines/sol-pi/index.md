@@ -1,9 +1,9 @@
 ---
 title: SoL-Pi
 created: 2026-10-13
-updated: 2026-11-20
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, context-compression, harness-efficiency]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, context-engines, context-compression, harness-efficiency]
 readability: 3
 audience_notes: >
   Engineers running long autonomous research loops on the Pi harness who need the session's token spend to stay flat as the loop scales.
@@ -22,10 +22,10 @@ The project page reports the efficiency results from the paper's auto-research b
 
 ## Status
 
-Young and active: 3,479 stars as of 2026-10-18, 303 forks and 91 open issues as of 2026-11-20, created 2026-09-02 and pushed 2026-11-20, MIT licensed, with work continuing toward a Pi v1 baseline.
-On 2026-11-20 the README news announced **SoL-Pi v2 in development on the `sol-pi-v2-exp` branch**: more robust than v1, fully supporting Codex and Claude Code, and adding Ultra, an agent-swarm mode; nothing of v2 is released yet and the branch is experimental.
+Young and active: 3,479 stars as of 2026-10-18, 304 forks and 96 open issues as of 2026-11-24, created 2026-09-02, main newest-committed 2026-11-20 with the repository's 2026-11-23 pushed date reading as off-main activity, MIT licensed, with work continuing toward a Pi v1 baseline.
+On 2026-11-20 the README news announced **SoL-Pi v2 in development on the `sol-pi-v2-exp` branch**: more robust than v1, fully supporting Codex and Claude Code, and adding Ultra, an agent-swarm mode; nothing of v2 is released yet and the branch is experimental; re-checked 2026-11-24, the branch's newest commit is still that announcement, since merged to main, and no v2 release exists.
 On 2026-10-14 the repository gained an official SoL-Pi skill packaging a Claude Code and Codex hand-off, with a News section of visual examples; it hands the ideas to other agents' sessions rather than porting the mechanisms off Pi.
-**The attention record is thin for the star count: four small Hacker News posts between September and October 2026 (3, 2, 2, and 1 points), so the stars ride the NV Labs name and the awesome-list circuit rather than debate.**
+**The attention record is thin for the star count: three small Hacker News posts in September 2026 (3, 2, and 2 points) plus a 1-point October Show HN for a third-party harness that applies the method, so the stars ride the NV Labs name and the awesome-list circuit rather than debate.**
 It extends unmodified Pi rather than forking it, which distinguishes it from the rejected third-Pi-derivative family in the harnesses category.
 
 <picture>
@@ -45,8 +45,8 @@ It extends unmodified Pi rather than forking it, which distinguishes it from the
 ## Cautions
 
 - Pi-only for now: every shipped mechanism is implemented against one harness, so teams elsewhere get ideas, not code; the v2 announcement names full Codex and Claude Code support, but that is unreleased branch work.
-- Young (created 2026-09-02) with 91 open issues already as of 2026-11-13, so the extension surface is still settling.
-- The efficiency claims come from the authors' own auto-research benchmarks, reproduced by nobody independent yet, and the HN footprint is four small posts.
+- Young (created 2026-09-02) with 96 open issues already as of 2026-11-24, so the extension surface is still settling.
+- The efficiency claims come from the authors' own auto-research benchmarks, reproduced by nobody independent yet, and the HN footprint is three small posts plus one third-party adopter's Show HN.
 - Compaction and paging change what the model sees, so behavior differences are possible even when token counts improve.
 - The paper's loops are research workflows; ordinary feature work may never hit the loop lengths where the wins appear.
 
@@ -58,13 +58,13 @@ No hosted tier and no paid plan; the cost is the Pi harness you already run.
 ## Compared to
 
 - [LLMLingua](../llmlingua/index.md): Microsoft's prompt-compression line compresses text for any LLM call; SoL-Pi's mechanisms are structural (fusion, paging, verified reduction) and live inside one harness's loop.
-- [Headroom](../headroom/index.md): the receipt-backed compression layer for tool output in general; SoL-Pi is narrower (Pi only) but adds the verified-reducer idea Headroom lacks.
+- [Headroom](../headroom/index.md): the reversible compress-then-retrieve layer for tool output in general (receipts are Entroly's design, not Headroom's); SoL-Pi is narrower (Pi only) but adds the verified-reducer idea Headroom lacks.
 - [qmd](../qmd/index.md): the session-search tool that answers from archives after the fact; SoL-Pi keeps the live window small during the loop instead.
 
 ## Bottom line
 
 **Recommended for Pi users running long autonomous loops who want token cost flat in loop length without losing verifiable evidence.**
-Not for other harnesses (port the ideas instead), or for teams needing independently reproduced efficiency numbers before adopting a month-old extension.
+Not for other harnesses (port the ideas instead), or for teams needing independently reproduced efficiency numbers before adopting an extension this young.
 
 ## Changes
 
@@ -76,20 +76,21 @@ Not for other harnesses (port the ideas instead), or for teams needing independe
 - 2026-11-13 - Full rotation re-verification: every cited URL re-fetched and intact (repository, paper abstract, NVIDIA project page, the Pi harness repo, and the HN footprint search, the three small SoL-Pi posts unchanged and the four-mechanism structure and benchmark claims unchanged); the 2026-11-13 push again resolved as non-default-branch activity with main quiet since 2026-10-18, so the note stands; activity counts refreshed to 2026-11-13.
 - 2026-11-19 - Full rotation re-verification: every cited URL re-fetched and intact (repository, paper abstract, NVIDIA project page, the Pi harness repo, and the HN footprint search, the four-mechanism structure and benchmark claims unchanged); the 2026-11-19 push again resolved as non-default-branch activity with main quiet since 2026-10-18; the HN footprint grew to four small posts (3, 2, 2, and 1 points); forks and open issues refreshed (303 and 91).
 - 2026-11-20 - Recorded the README news announcing SoL-Pi v2 in development on the sol-pi-v2-exp branch (more robust than v1, full Codex and Claude Code support, the Ultra agent-swarm mode; branch verified to exist), the first main-branch commit since 2026-10-18; the Pi-only caution softened to name the announced v2 support as unreleased branch work; the activity date refreshed to the 2026-11-20 push.
+- 2026-11-24 - Full rotation re-verification: every cited URL re-fetched and intact (the repository, the README's v2 news and four-mechanism table, the paper abstract, the NVIDIA project page, the Pi harness repository, and the HN search); the 2026-11-23 pushed signal resolved as off-main activity with main newest-committed 2026-11-20, and the sol-pi-v2-exp branch still ends at the 2026-11-20 announcement with no v2 release; corrected the Headroom descriptions in Compared to and See also (Headroom is the reversible compress-then-retrieve layer; receipts are Entroly's design), the HN count (three SoL-Pi posts plus a 1-point third-party harness Show HN that applies the method, not four SoL-Pi posts), the HN reference URL to the Algolia API query that grounds it, and the rotted month-old age phrase in Bottom line; forks and open issues refreshed (304 and 96).
 
 ## See also
 
 - [Context Engines Feature Matrix](../context-engines-feature-matrix/index.md) - the category comparison this note joins
 - [LLMLingua](../llmlingua/index.md) - the harness-agnostic compression line
-- [Headroom](../headroom/index.md) - the receipt-backed tool-output compressor
+- [Headroom](../headroom/index.md) - the reversible compress-then-retrieve tool-output compressor
 - [qmd](../qmd/index.md) - the session-archive search counterpart
 - [Pi](../../harnesses/pi/index.md) - the harness this extension builds on
 
 ## References
 
-- https://github.com/NVlabs/SoL-Pi - repository, MIT license, stars, forks, push activity, and the four-mechanism structure as of 2026-11-17
-- https://raw.githubusercontent.com/NVlabs/SoL-Pi/main/README.md - the README news carrying the 2026-11-20 SoL-Pi v2 announcement (v2 on the sol-pi-v2-exp branch, Codex and Claude Code support, Ultra) and the four-mechanism table
+- https://github.com/NVlabs/SoL-Pi - repository, MIT license, stars, forks, push activity, and the four-mechanism structure as of 2026-11-24
+- https://raw.githubusercontent.com/NVlabs/SoL-Pi/main/README.md - the README news carrying the 2026-11-20 SoL-Pi v2 announcement (v2 on the sol-pi-v2-exp branch, Codex and Claude Code support, Ultra) and the four-mechanism table (re-fetched 2026-11-24)
 - https://arxiv.org/abs/2609.20519 - the paper grounding the four mechanisms and the auto-research benchmark claims
 - https://nvlabs.github.io/SoL-Pi/ - the NVIDIA project page with the reported efficiency results
 - https://github.com/earendil-works/pi - the Pi harness SoL-Pi extends without forking
-- https://news.ycombinator.com/ - Algolia search (query=SoL-Pi&tags=story) returned three small SoL-Pi posts (3, 2, and 2 points, September 2026), the recorded thin community footprint (query re-checked 2026-11-05)
+- https://hn.algolia.com/api/v1/search?query=SoL-Pi&tags=story - the thin community footprint: three small SoL-Pi posts (3, 2, and 2 points, September 2026) plus a 1-point October 2026 Show HN for the Grist harness, a third-party adopter of the method (query re-checked 2026-11-24)

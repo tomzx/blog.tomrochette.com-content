@@ -1,9 +1,9 @@
 ---
 title: Jevgrep
 created: 2026-10-07
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, cli, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, context-engines, code-search, cli, open-source]
 readability: 3
 audience_notes: >
   Engineers choosing how a coding agent should find its starting files in an
@@ -26,7 +26,7 @@ The MIT-licensed CLI ships from David Zhang (dzhng), the engineer behind deep-re
 
 ## Status
 
-**Not yet three weeks old and the fastest start in this category, with a thin discussion footprint so far.**
+**Two months old at the 2026-11-24 check and the fastest start in this category, with a thin discussion footprint so far.**
 2,726 stars as of 2026-10-18, 250 forks and 9 open issues and pull requests since the repository appeared on 2026-09-26, pushed 2026-11-12, counts as of 2026-11-22 (GitHub API).
 
 <picture>
@@ -53,7 +53,7 @@ The earlier run that rejected this repository as a harness candidate recorded it
 - Every query costs provider tokens, so a team that searches constantly may pay more than an index would charge after its one-time build, and the vendor-run benchmark covers ten tuned Python tasks from one repository.
 - Pre-1.0 with a v0.x CLI, one maintainer, and breaking changes already recorded (0.3.0 replaced environment-based credentials with `jg auth`).
 - Declaration-aware output is limited to four language families, and queries fall back to content previews elsewhere.
-- The star count is under three weeks old; the same velocity that looks like momentum is also the easiest number to fake with a launch push, so the footprint deserves a re-read before this note's framing ages.
+- The star count was three weeks old at its 2026-10-18 baseline; the same velocity that looks like momentum is also the easiest number to fake with a launch push, so the footprint deserves a re-read before this note's framing ages.
 
 ## Pricing
 
@@ -85,6 +85,7 @@ My disagreeable claim: every index in this category is a cache standing in front
 - 2026-11-14 - Recorded main's unreleased 2026-11-12 CLI-side batch, the first since v0.8.5 (merged pull requests adding file-category filters trimmed to flags and shebang-based TypeScript runtime detection) and refreshed the volatile numbers (pushed 2026-11-12, 27,373 trailing-month npm downloads summed 2026-10-14 to 2026-11-13, five zero days); npm unchanged at v0.8.5.
 - 2026-11-19 - Full rotation re-verification: every cited URL re-fetched and intact (repo, README, skill, CLI README, npm registry, downloads, releases, the Show HN item, deep-research, and the author profile); no release since v0.8.5 and no push since 2026-11-12; trailing-month npm downloads refreshed to 13,434 (2026-10-19 to 2026-11-18, three zero days); forks and open issues refreshed to 248 and 8, counts as of 2026-11-19.
 - 2026-11-22 - Full rotation re-verification: every cited URL re-fetched and intact (repo, README, skill, CLI README, npm registry, downloads, releases, the Show HN item, deep-research, and the author profile); no release since v0.8.5 and no push since 2026-11-12; trailing-month npm downloads refreshed to 14,409 (2026-10-20 to 2026-11-21, one zero day); forks and open issues refreshed to 250 and 9, counts as of 2026-11-22.
+- 2026-11-24 - Reworded two rotted age phrases, the Status lead's not-yet-three-weeks-old claim (the repository appeared 2026-09-26) and the star-count caution, anchoring them to the 2026-11-24 check and the 2026-10-18 baseline; no other fact changed.
 
 ## See also
 

@@ -1,9 +1,9 @@
 ---
 title: AiScientist
 created: 2026-10-11
-updated: 2026-11-14
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, machine-learning-engineering, paper-reproduction, multi-agent, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, automated-research, machine-learning-engineering, paper-reproduction, multi-agent, open-source]
 readability: 3
 audience_notes: >
   Engineers comparing long-horizon ML research agents and coordination protocols, and anyone confused by the name's collision with Sakana's AI Scientist.
@@ -67,6 +67,7 @@ Not for production use: the repository has been dormant since July 2026 and the 
 - 2026-10-11 - Created.
 - 2026-10-29 - Rotation re-verification: all five references re-fetched, no drift; the repository stands dormant since July 2026 with the name collision unchanged.
 - 2026-11-14 - Rotation re-verification: all five references re-fetched, no drift; the repository stands dormant since July 2026 with the name collision unchanged.
+- 2026-11-24 - Rotation re-verification: all five references re-fetched and live, no drift; the repository stands dormant since July 2026 with the name collision unchanged.
 
 ## See also
 

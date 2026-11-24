@@ -1,9 +1,9 @@
 ---
 title: Serena
 created: 2026-10-04
-updated: 2026-11-21
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, code-search, lsp, mcp, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, context-engines, code-search, lsp, mcp, open-source]
 readability: 3
 audience_notes: >
   Engineers wiring coding agents to large codebases who are deciding between an
@@ -25,7 +25,7 @@ Distributed as `serena-agent` on PyPI; the application is GPL-3.0-or-later and t
 ## Status
 
 **Active and very large.**
-About 30.3k stars as of 2026-10-16 and 2,146 forks as of 2026-11-21, created 2025-03-23, pushed 2026-11-19 (the 2026-11-15 fix batch recorded below, then project file reads using the documented encoding fallback and HTML-based banner support with a local-server test switch, both unreleased, then the 2026-11-19 health-check and documentation batch recorded in Changes), latest release v2.1.0 on 2026-10-19 (Claude Desktop chat-mode compatibility restored, the TypeScript language server pinned to Serena's own install in untrusted projects, VB.NET and native TypeScript 7 language-server support, a dashboard welcome pane for the auto-open preference), following v2.0.0 on 2026-10-13, the release that added the Serena REPL, a new agent interface reducing the tool set to a minimum and running all Serena operations from a general code-execution environment (GitHub API and release notes), with the PyPI package at 2.1.0 across 17 releases and 157,485 downloads in the trailing month (re-fetched 2026-11-17; earlier fetches read 156,451 on 11-16, 166,661 on 11-13, and a flat 147,731 on 11-07, rolling-window swings).
+About 30.3k stars as of 2026-10-16 and 2,157 forks as of 2026-11-24, created 2025-03-23, pushed 2026-11-23 (the 2026-11-15 fix batch recorded below, then project file reads using the documented encoding fallback and HTML-based banner support with a local-server test switch, then the 2026-11-19 health-check and documentation batch recorded in Changes, then a 2026-11-23 fix for the native TypeScript server's reference searches missing import lines, `import type` lines, barrel re-exports, and implementing members, #2292, all unreleased), latest release v2.1.0 on 2026-10-19 (Claude Desktop chat-mode compatibility restored, the TypeScript language server pinned to Serena's own install in untrusted projects, VB.NET and native TypeScript 7 language-server support, a dashboard welcome pane for the auto-open preference), following v2.0.0 on 2026-10-13, the release that added the Serena REPL, a new agent interface reducing the tool set to a minimum and running all Serena operations from a general code-execution environment (GitHub API and release notes), with the PyPI package at 2.1.0 across 17 releases and 139,093 downloads in the trailing month (re-fetched 2026-11-24; earlier fetches read 157,485 on 11-17, 156,451 on 11-16, 166,661 on 11-13, and a flat 147,731 on 11-07, rolling-window swings).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=oraios/serena&type=date&theme=dark&legend=top-left" />
@@ -80,6 +80,7 @@ My disagreeable claim: Serena's growth proves the embedding-index era of code co
 - 2026-11-17 - Full rotation re-verification: every cited URL re-fetched and intact (the README's claims hold, over 40 languages, the marketplace-installs warning, the self-run agent evaluation, the per-component license, the docs hub, the comment-level HN footprint, PyPI still at 2.1.0 across 17 releases with no release since v2.1.0, the marketplace API at 20,435 installs); the 2026-11-15 pushed batch stands as recorded 2026-11-16 with nothing newer on main; forks re-checked unchanged at 2,145 and the trailing-month download figure refreshed (157,485 as of 2026-11-17, earlier fetches read 156,451 on 11-16, 166,661 on 11-13, and a flat 147,731 on 11-07); no claim changed.
 - 2026-11-19 - Recorded main's unreleased 2026-11-18 batch (project file reads using the documented encoding fallback, HTML-based banner support with a local-server test switch); PyPI re-checked unchanged at 2.1.0 across 17 releases; forks refreshed (2,147).
 - 2026-11-21 - Recorded main's unreleased 2026-11-19 batch (the health check dropping find-references as not universally supported, the Codex hooks documentation cleanup, and the dead Qt qmlls doc-link fix); PyPI re-checked unchanged at 2.1.0 across 17 releases; forks refreshed (2,146).
+- 2026-11-24 - Recorded main's unreleased 2026-11-23 fix (the native TypeScript server's reference searches missing import lines, `import type` lines, barrel re-exports, and implementing members, so `safe_delete_symbol` saw no references for a re-exported symbol, #2292); PyPI re-checked unchanged at 2.1.0 across 17 releases; forks and the trailing-month download figure refreshed (2,157 and 139,093).
 
 ## See also
 
@@ -92,11 +93,12 @@ My disagreeable claim: Serena's growth proves the embedding-index era of code co
 ## References
 
 - https://github.com/oraios/serena - repository surface: architecture, backend choice, installer warning
-- https://api.github.com/repos/oraios/serena - exact forks, open issues, and push date as of 2026-11-17 (stars kept at the 2026-10-16 baseline)
+- https://api.github.com/repos/oraios/serena - exact forks, open issues, and push date as of 2026-11-24 (stars kept at the 2026-10-16 baseline)
 - https://raw.githubusercontent.com/oraios/serena/main/README.md - tool tables, language support count, memory system, the self-run agent evaluation, licensing overview (re-fetched 2026-11-17)
 - https://raw.githubusercontent.com/oraios/serena/main/LICENSE - the per-component licensing: SolidLSP MIT, application GPL-3.0-or-later, distributions GPL as a whole (re-fetched 2026-11-17)
 - https://oraios.github.io/serena/ - official documentation hub (tools, clients, configuration, evaluation pages), re-fetched 2026-11-17
 - https://plugins.jetbrains.com/api/plugins/28946 - the JetBrains plugin: Oraios Software (Munich), 20,435 installs as of 2026-11-17, 7-day trial, no published price
-- https://pypi.org/pypi/serena-agent/json - the distribution, version 2.1.0, 17 releases (re-fetched 2026-11-17)
-- https://pypistats.org/api/packages/serena-agent/recent - 157,485 downloads in the trailing month as of 2026-11-17 (earlier fetches read 156,451 on 2026-11-16, 166,661 on 2026-11-13, and a flat 147,731 on 2026-11-07)
+- https://pypi.org/pypi/serena-agent/json - the distribution, version 2.1.0, 17 releases (re-fetched 2026-11-24)
+- https://api.github.com/repos/oraios/serena/pulls/2292 - the 2026-11-23 fix for the native TypeScript server's reference searches, merged to main and unreleased (fetched 2026-11-24)
+- https://pypistats.org/api/packages/serena-agent/recent - 139,093 downloads in the trailing month as of 2026-11-24 (earlier fetches read 157,485 on 2026-11-17, 156,451 on 2026-11-16, 166,661 on 2026-11-13, and a flat 147,731 on 2026-11-07)
 - https://hn.algolia.com/api/v1/search?query=serena+mcp&tags=comment - the comment-level HN footprint: OpenCode indexing setups and the symbolic-search recommendation

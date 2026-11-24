@@ -1,9 +1,9 @@
 ---
 title: QwenPaw
 created: 2026-08-30
-updated: 2026-11-20
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, self-hosted, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
 audience_notes: >
   Engineers choosing a self-hosted personal assistant that must live in chat apps, especially Chinese messaging platforms.
@@ -24,7 +24,7 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 ## Status
 
-Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02-24, 1,154 open issues and PRs with the last push on 2026-11-20 as of 2026-11-20.
+Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02-24, 1,173 open issues and PRs with the last push on 2026-11-23 as of 2026-11-24.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&legend=top-left" />
 </picture>
 
-v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 followed on 2026-09-10 (PyPI upload 2026-09-11), with six v2.2.2 betas landing between 2026-09-17 and 2026-10-14 before v2.2.2 went stable on 2026-10-15, on GitHub and PyPI the same day, and v2.2.2.post1 followed on 2026-10-22 (PyPI upload minutes earlier), a security-remediation release that fixes emSign CA trust across dependencies, installers, and builds and updates its Node to 22.23.4, and the v2.3.0 line opened as a beta on 2026-10-27 (v2.3.0-beta.1 on GitHub and PyPI the same day: a mixed train of inline UI plugins, a Tavily credential-store option, and console fixes, no single headline), with v2.3.0-beta.2 reaching PyPI on 2026-10-30 and its GitHub release tag following on 2026-11-02, and v2.3.0-beta.3 and v2.3.0-beta.4 following on 2026-11-09 and 2026-11-10 (channel and plugin reliability fixes, interrupted dependency installations recovered, and remote password login with saved credentials, no single headline), and v2.3.0 going stable on 2026-11-11 on GitHub and PyPI the same day (the beta train's features made formal: Piccolo 4B, 9B, and 27B local decision models for opt-in tool review and context compaction, Advisor Mode pairing an advisor model with a worker model, an experimental Python Code Mode combining tools in one script, ReMe memory gaining image memory and decision-model context compaction, an OpenViking memory plugin, and ChatGPT-subscription sign-in on local installs) and v2.3.0.post1 following on 2026-11-18, GitHub and PyPI the same day (a third-party agent extracted into a plugin, cron tracking of scheduled agent runs, and console fixes, no single headline).
+v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 followed on 2026-09-10 (PyPI upload 2026-09-11), with six v2.2.2 betas landing between 2026-09-17 and 2026-10-14 before v2.2.2 went stable on 2026-10-15, on GitHub and PyPI the same day, and v2.2.2.post1 followed on 2026-10-22 (PyPI upload minutes earlier), a security-remediation release that fixes emSign CA trust across dependencies, installers, and builds and updates its Node to 22.23.4, and the v2.3.0 line opened as a beta on 2026-10-27 (v2.3.0-beta.1 on GitHub and PyPI the same day: a mixed train of inline UI plugins, a Tavily credential-store option, and console fixes, no single headline), with v2.3.0-beta.2 reaching PyPI on 2026-10-30 and its GitHub release tag following on 2026-11-02, and v2.3.0-beta.3 and v2.3.0-beta.4 following on 2026-11-09 and 2026-11-10 (channel and plugin reliability fixes, interrupted dependency installations recovered, and remote password login with saved credentials, no single headline), and v2.3.0 going stable on 2026-11-11 on GitHub and PyPI the same day (the beta train's features made formal: Piccolo 4B, 9B, and 27B local decision models for opt-in tool review and context compaction, Advisor Mode pairing an advisor model with a worker model, an experimental Python Code Mode combining tools in one script, ReMe memory gaining image memory and decision-model context compaction, an OpenViking memory plugin, and ChatGPT-subscription sign-in on local installs) and v2.3.0.post1 following on 2026-11-18, GitHub and PyPI the same day (a third-party agent extracted into a plugin, cron tracking of scheduled agent runs, and console fixes, no single headline), and the v2.3.1 line opening as a beta on 2026-11-23 (v2.3.1-beta.1 on GitHub and PyPI the same day: approval now required for shell-based email sends, HTTP writes, and uploads, MCP and local model management each extracted into a plugin, full QQ group messages with mention-only filtering, reconnecting to externally started chat runs from the console, and a long tail of console and channel fixes, no single headline).
 **A ground-up rewrite two minor versions before the current line is the churn signature: adoption is real, stability is not yet the product.**
 
 ## Strengths
@@ -47,7 +47,7 @@ v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 
 - `qwenpaw init --defaults` auto-accepts the telemetry prompt, which privacy-conscious users must opt out of explicitly.
 - Young and heavily rewritten, with much of the roadmap (voice, computer use, multi-workspace) still in progress.
 - The macOS desktop app is beta and unnotarized, requiring a Gatekeeper bypass.
-- 1,154 open issues and PRs, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
+- 1,173 open issues and PRs as of 2026-11-24, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
 
 ## Pricing
 
@@ -79,6 +79,7 @@ Not for stability-first adopters mid-rewrite, or users who will not read the tel
 - 2026-11-11 - Recorded the v2.3.0 beta line advancing to beta.3 (2026-11-09) and beta.4 (2026-11-10, both GitHub and PyPI: channel and plugin reliability fixes, recovered dependency installations, and remote password login with saved credentials), with the PyPI registry re-checked (2.2.2.post1 still the newest stable) and refreshed adoption numbers.
 - 2026-11-13 - Recorded v2.3.0 going stable (2026-11-11, GitHub and PyPI the same day: Piccolo local decision models, Advisor Mode, experimental Python Code Mode, image memory with decision-model compaction in ReMe, an OpenViking memory plugin, and ChatGPT-subscription sign-in), with the PyPI registry re-checked (2.3.0 the newest stable and upload) and refreshed adoption numbers.
 - 2026-11-20 - Recorded v2.3.0.post1 (2026-11-18, GitHub and PyPI the same day: a third-party agent extracted into a plugin, cron run tracking, and console fixes on a no-single-headline patch train), with the PyPI registry re-checked (2.3.0.post1 the newest stable and upload) and refreshed adoption numbers.
+- 2026-11-24 - Recorded the v2.3.1 line opening as a beta (v2.3.1-beta.1, 2026-11-23, on GitHub and PyPI the same day: approval required for shell-based email sends, HTTP writes, and uploads, MCP and local model management extracted into plugins, QQ group messages with mention-only filtering, console reconnects to externally started chat runs, and console and channel fixes, no single headline), with the PyPI registry re-checked (2.3.0.post1 still the newest stable) and refreshed adoption numbers.
 
 ## See also
 
@@ -91,7 +92,7 @@ Not for stability-first adopters mid-rewrite, or users who will not read the tel
 
 - https://raw.githubusercontent.com/agentscope-ai/QwenPaw/HEAD/README.md - channels, security layers, install, roadmap
 - https://github.com/agentscope-ai/QwenPaw - stars, forks, dates, language
-- https://pypi.org/project/qwenpaw/ - package versions and cadence (re-checked 2026-11-20 via the registry API, 2.3.0.post1 the newest stable and upload)
+- https://pypi.org/project/qwenpaw/ - package versions and cadence (re-checked 2026-11-24 via the registry API, 2.3.0.post1 the newest stable and 2.3.1b1 the newest upload)
 - https://qwenpaw.agentscope.io/ - the docs site
 - https://github.com/agentscope-ai/agentscope - the parent framework behind the v2.0 rewrite
 - https://platform.agentscope.io/ - the free cloud deployment option

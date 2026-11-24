@@ -1,9 +1,9 @@
 ---
 title: AutoSci
 created: 2026-10-11
-updated: 2026-11-20
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, research-wiki, memory, multi-harness, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, automated-research, research-wiki, memory, multi-harness, open-source]
 readability: 3
 audience_notes: >
   Engineers comparing full-lifecycle research agents and looking for ones that run on their own harness, including OpenCode.
@@ -24,7 +24,7 @@ The README traces the project to an earlier OmegaWiki prototype and invokes Karp
 
 ## Status
 
-Active and beta: 1,698 stars as of 2026-10-11, 214 forks, created 2026-04-09, last pushed 2026-11-13 (a further WeChat-group QR refresh), with the README carrying a 30-plus-skill roster and a September 28 `/hiera-experiment` guided method-iteration skill (proposal, review, and run of method variants against an existing experiment, candidate history under `runs/hiera/`), as of 2026-11-20.
+Active and beta: 1,698 stars as of 2026-10-11, 214 forks, created 2026-04-09, last pushed 2026-11-22 (a further WeChat-group QR refresh), with the README carrying a 30-plus-skill roster and a September 28 `/hiera-experiment` guided method-iteration skill (proposal, review, and run of method variants against an existing experiment, candidate history under `runs/hiera/`), as of 2026-11-24.
 The repository now lives under the PKU-DAIR organization, the Peking University Data and Intelligence Research lab whose senior author Bin Cui leads it; the old skyllwt URLs redirect and the README still points at them.
 Since the note's creation the README also grew a works-produced section listing three papers generated end to end with the platform (Triton GPU-kernel optimization, PROTAC drug-discovery target nomination, and an LLM positivity-bias cognitive-model study).
 No GitHub releases and no relevant Hacker News threads surfaced this run; the README calls the project an internal beta guided by community feedback.

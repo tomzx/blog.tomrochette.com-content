@@ -1,9 +1,9 @@
 ---
 title: NanoClaw
 created: 2026-08-27
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, assistant-runtimes, personal-assistants, containers, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, assistant-runtimes, personal-assistants, containers, open-source]
 readability: 3
 audience_notes: >
   Engineers who want a chat-channel personal agent they can fully read and containerize, at the cost of the big sibling's ecosystem.
@@ -24,7 +24,7 @@ Each agent group gets its own container, workspace, memory, and mounts; Slack pr
 ## Status
 
 Active and independently credible.
-30,940 stars and 12,759 forks as of 2026-10-14 since creation on 2026-01-31, pushed 2026-11-22 with 1,059 open issues as of 2026-11-22.
+30,940 stars and 12,759 forks as of 2026-10-14 since creation on 2026-01-31, pushed 2026-11-23 with 1,066 open issues as of 2026-11-24.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nanocoai/nanoclaw&type=date&theme=dark&legend=top-left" />

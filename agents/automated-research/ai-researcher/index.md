@@ -1,9 +1,9 @@
 ---
 title: AI-Researcher
 created: 2026-10-11
-updated: 2026-11-21
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, paper-generation, hkuds, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, automated-research, paper-generation, hkuds, open-source]
 readability: 3
 audience_notes: >
   Engineers comparing the idea-to-paper systems and checking what a large community without a license means in practice.
@@ -12,7 +12,7 @@ audience_notes: >
 
 AI-Researcher is HKU Data Intelligence Lab's fully autonomous research system that takes a research idea through literature review, algorithm implementation, and publication-ready manuscript writing, and its NeurIPS 2025 paper shipped with Scientist-Bench, the team's own benchmark for scoring such systems.
 
-**It is the idea-to-paper sub-family's largest community and its least reusable artifact: 5,802 GitHub stars against a repository with no license file, dormant since October 2025, with the project's momentum moved into a commercial product the repository only links.**
+**It is the idea-to-paper sub-family's largest community and its least reusable artifact: 5,802 GitHub stars against a repository with no license file, research-dormant since October 2025 with one maintenance merge in November 2026, with the project's momentum moved into a commercial product the repository only links.**
 
 ## What it is
 
@@ -23,7 +23,9 @@ The GitHub description points to novix.science/chat as the production-ready vers
 
 ## Status
 
-Dormant as an open repository, carrying the sub-family's biggest audience: 5,802 stars and 725 forks, created 2025-03-11, last pushed 2025-10-16, as of 2026-10-11.
+Research-dormant as an open repository, carrying the sub-family's biggest audience: 5,802 stars and 725 forks, created 2025-03-11, as of 2026-10-11, with the last push on 2026-11-23.
+That push is the first commit on main since October 16, 2025, and it is maintenance rather than research: a collaborator who maintains the project's Docker image merged a pull request that restores the agent and benchmark imports, makes the writing templates work on Windows, fixes terminal output and the Docker defaults, and removes hardcoded credentials from the source, the examples, and the README, where an OpenAI key sat in plain text.
+A responsible-disclosure report of that key had been open since March 14, 2026, and the November 23 cleanup says revocation remains tracked in that still-open report, as of 2026-11-24.
 No relevant Hacker News threads surfaced in this run's search; the footprint is GitHub-native, with a Trendshift badge and Slack and Discord communities.
 
 <picture>
@@ -42,7 +44,7 @@ No relevant Hacker News threads surfaced in this run's search; the footprint is 
 ## Cautions
 
 - There is no license file in the repository: the code can be read but not legally reused, which matters for the sub-family's most-starred repository.
-- Dormant since 2025-10-16, so its integrations are nearly a year stale.
+- Research-dormant since 2025-10-16, with one maintenance merge on November 23, 2026, so its integrations are more than a year stale, and an exposed API key stayed in the repository for eight months after a responsible-disclosure report, with revocation unconfirmed.
 - Scientist-Bench is the team's own benchmark, self-run and self-scored; no independent evaluation surfaced in this run's searches.
 - The commercial Novix product is where development went, so the open repository functions as the paper's artifact rather than a maintained tool.
 
@@ -60,7 +62,7 @@ The Novix product's prices are not published in the sources fetched this run.
 ## Bottom line
 
 **Recommended reading for Scientist-Bench and as a case study in what a big star count without a license is worth: admiration without reuse.**
-Not for anyone needing a runnable, maintained system: the repository is a year dormant and legally closed.
+Not for anyone needing a runnable, maintained system: the repository is research-dormant for over a year and legally closed.
 
 ## Changes
 
@@ -68,6 +70,7 @@ Not for anyone needing a runnable, maintained system: the repository is a year d
 - 2026-10-25 - Rotation re-verification: confirmed dormancy (last push still 2025-10-16), the missing license file, and the no-threads Hacker News footprint, and sharpened the NeurIPS 2025 result to Spotlight per the README's September 2025 news entry.
 - 2026-11-08 - Rotation re-verification: all six references re-fetched and live, dormancy (last push still 2025-10-16) and the missing license file both confirmed.
 - 2026-11-21 - Rotation re-verification: all six references re-fetched and live, dormancy (last push still 2025-10-16) and the missing license file both confirmed again.
+- 2026-11-24 - Volatile re-verification: recorded the November 23, 2026 merge of pull request #103, the first commit on main since October 16, 2025, a collaborator's maintenance pass (restored imports, Windows-compatible template filenames, terminal and Docker fixes, and removal of hardcoded credentials including an OpenAI key reported open since March 14, 2026, with revocation still unconfirmed), and moved the push date.
 
 ## See also
 
@@ -84,3 +87,5 @@ Not for anyone needing a runnable, maintained system: the repository is a year d
 - https://autoresearcher.github.io - the HKU team, the May 11 2025 open-source release, and the Scientist-Bench leaderboard (fetched 200, 2026-10-11)
 - https://api.github.com/repos/HKUDS/AI-Researcher/contents/ - the root file listing confirming no LICENSE file (fetched 200, 2026-10-11)
 - https://hn.algolia.com/api/v1/search?query=%22AI-Researcher%22 - the search returning no relevant threads (fetched 200, 2026-10-11)
+- https://github.com/HKUDS/AI-Researcher/pull/103 - the November 23, 2026 maintenance merge: the startup, Windows, terminal, and Docker fixes and the credential removal (fetched 200, 2026-11-24)
+- https://github.com/HKUDS/AI-Researcher/issues/85 - the March 14, 2026 responsible-disclosure report of the exposed key, still open (fetched 200, 2026-11-24)

@@ -1,9 +1,9 @@
 ---
 title: WrenAI
 created: 2026-10-10
-updated: 2026-11-21
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, semantic-layer, text-to-sql, genbi]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, context-engines, semantic-layer, text-to-sql, genbi]
 readability: 3
 audience_notes: >
   Engineers wiring analytics agents to governed data warehouses who need business definitions to survive the trip into the prompt.
@@ -23,7 +23,7 @@ Everything Wren writes is plain YAML and Markdown in a repo you own, and Git Syn
 
 ## Status
 
-Established and active: 17,877 stars as of 2026-10-18, 2,119 forks and 247 open issues as of 2026-11-21, created 2024-03-13, pushed 2026-11-19 (docs-only link fixes after the 2026-11-17 wren-core fix requiring every primary-key column in TO_MANY partial models, both unreleased above wren-v0.18.0), with wren-v0.18.0 published 2026-11-10 and PyPI (wrenai) tracking 0.18.0 (re-checked 2026-11-21), following wren-v0.17.1 on 2026-10-30.
+Established and active: 17,877 stars as of 2026-10-18, 2,124 forks and 248 open issues as of 2026-11-24, created 2024-03-13, pushed 2026-11-23 (the 2026-11-17 wren-core fix requiring every primary-key column in TO_MANY partial models, the 2026-11-19 docs-only link fixes, and the 2026-11-23 fixes rejecting unresolved columns in MDL-only scopes during offline SQL planning and preserving model-qualified column identity across relationship projections, all unreleased above wren-v0.18.0), with wren-v0.18.0 published 2026-11-10 and PyPI (wrenai) tracking 0.18.0 (re-checked 2026-11-24), following wren-v0.17.1 on 2026-10-30.
 Release 0.18.0 serves a project-bound agent and governed MCP through a shared context layer (the follow-up commit addressing the deferred review findings landed the same week), alongside fixes that keep result columns sharing a name in JSON output, preserve physical-column renames across Ossie export/import, respect CTE visibility when expanding semantic models, and scope flag grouping to its select.
 Release 0.17.0 shipped the Apache Ossie work recorded here on 10-24 (the `wren context import` and `export` ossie commands joining dbt and OpenMetadata, plus importing a Wren project from an OpenMetadata catalog) alongside ClickHouse dialect-translation fixes, JSON output that keeps dates and integers intact, an MCP SDK major-version pin, and wren-core-py 0.8.2 (2026-10-23) with the DISTINCT ON column fix in the bindings, with the wren-v0.17.1 patch (2026-10-30) carrying the DuckDB 2.0 `to_arrow_table` compatibility fix between it and 0.18.0.
 The docs page claims SOC 2 Type II certification and now quotes 17.8k GitHub stars against the live count; its old 17-plus data-source figure is gone (the README stays at 22-plus), closing the discrepancy flagged on 2026-10-11.
@@ -40,7 +40,7 @@ The community footprint is lopsided: a Hacker News search returns over a thousan
 - Business context that survives review: metric definitions and examples live as diffable YAML in pull requests, which is the governance story most text-to-SQL tools skip.
 - It meets agents where they are: MCP, CLI, and a skill for Claude Code, Cursor, Cline, and Codex, with no new chat product to adopt.
 - The guardrails are named and mechanical (dry-plan validation, row limits, structured errors), which is what governed SQL actually requires.
-- Open core with a workable self-host path, and the cloud entry tier is genuinely free rather than a timed trial.
+- Open core with a workable self-host path; since the 2026-11-15 removal of the free cloud tier, the cloud entry is a card-required trial and the free option is the self-hosted core.
 
 ## Cautions
 
@@ -53,8 +53,8 @@ The community footprint is lopsided: a Hacker News search returns over a thousan
 
 Free open-source core (Apache-2.0, self-hostable, no UI).
 Essential Cloud is $179 per month billed annually (13,200 annual credits, extra credits at $0.10, rollover up to 2x) and now includes the MCP server and embedded API; Enterprise Cloud is $559 per month billed annually (24,000 annual credits) adding row- and column-level data control, LDAP/AD and OIDC, the evaluation framework, and thread tracing; Enterprise Plus is quoted by sales: self-hosted in your own cloud, on-prem, or air-gapped, licensed by concurrent sessions rather than credits, annual contract only, adding SSO and SCIM 2.0.
-Both cloud plans carry a card-required 7-day free trial and 20 free monthly credits on top of the included pool; the standalone free cloud tier the site listed through October (20 credits a month, 2 projects, 2 members, 10 tables per project) is gone from the pricing page and the billing docs as of 2026-11-15, the docs' users-and-projects line now reading unlimited, and the open-core page's FAQ still sends evaluators to that free Cloud tier as stale copy.
-All figures as of 2026-11-15.
+Both cloud plans carry a card-required free trial, now 14 days (lengthened from the 7 days recorded through 2026-11-21, per the pricing page and billing docs fetched 2026-11-24) and 20 free monthly credits on top of the included pool, expiring at each month's end; the standalone free cloud tier the site listed through October (20 credits a month, 2 projects, 2 members, 10 tables per project) is gone from the pricing page and the billing docs as of 2026-11-15, the docs' users-and-projects line now reading unlimited, and the open-core page's FAQ still sends evaluators to that free Cloud tier as stale copy.
+All figures as of 2026-11-15, the trial length and plan prices as of 2026-11-24.
 
 ## Price history
 
@@ -64,6 +64,7 @@ All figures as of 2026-11-15.
 | 2026-10-10 | Essential Cloud | Recorded at $179/month billed annually, 13,200 annual credits | https://www.getwren.ai/pricing |
 | 2026-10-10 | Enterprise Cloud | Recorded at $559/month billed annually, 24,000 annual credits | https://www.getwren.ai/pricing |
 | 2026-11-15 | Free cloud tier | Removed from the public pricing page and the billing docs: the 20 monthly credits became an add-on to both paid Cloud plans, the 7-day trial now requires a credit card, the 2-project/2-member/10-table caps are gone (users and projects unlimited), and the MCP server moved from Enterprise into Essential. | [getwren.ai/pricing](https://www.getwren.ai/pricing) |
+| 2026-11-24 | Essential Cloud, Enterprise Cloud | Free trial lengthened from 7 to 14 days, still card-required; plan prices, credits, and the Enterprise Plus terms unchanged. | [getwren.ai/pricing](https://www.getwren.ai/pricing) |
 
 ## Compared to
 
@@ -91,6 +92,8 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 - 2026-11-15 - Full rotation re-verification: every cited URL re-fetched and intact (repository and README still at 22-plus data sources, the releases feed, pull request #2821, PyPI at 0.18.0, the pricing page, the docs portal quoting 17.8k stars and SOC 2 Type II, and the HN search with the largest thread at 6 points); volatile numbers refreshed (2,106 forks, 249 open issues, pushed 2026-11-13); recorded main's unreleased SDK fix (2026-11-13: each project's .env secrets resolved per toolkit); no release since wren-v0.18.0.
 - 2026-11-15 - Recorded the tier restructure observed on the pricing page and billing docs: the standalone free cloud tier (20 credits a month, 2 projects, 2 members, 10 tables per project) no longer exists, 20 free monthly credits became an add-on to both paid Cloud plans, the 7-day trial requires a credit card, the MCP server moved from Enterprise into Essential, and users and projects now read unlimited; the Pricing section rewritten, the stale Enterprise-gates-MCP caution corrected, and a Price history row appended.
 - 2026-11-21 - Full rotation re-verification: every cited URL re-fetched and intact (the repository and README still at 22-plus data sources, the releases feed still topped by wren-v0.18.0, pull request #2821, PyPI at 0.18.0, the pricing page with Essential $179, Enterprise $559, and Enterprise Plus quoted by sales, the docs portal quoting 17.8k stars and SOC 2 Type II, the billing docs with the card-required trial and the 20-credit add-on, and the HN search with the largest thread at 6 points); recorded main's 2026-11-19 commits (the core docs index rebuild and the stale wren-README link fixes) as docs-only and non-material per the standing ruling, with the repository's 2026-11-20 pushed date read as off-main activity; volatile numbers refreshed (2,119 forks, 247 open issues); no release since wren-v0.18.0.
+- 2026-11-24 - Recorded main's unreleased 2026-11-23 batch (the engine rejecting unresolved unqualified columns in MDL-only scopes during offline SQL planning, #2851, and model-qualified column identity preserved across relationship projections, #2863, with the SDK docs for per-project .env resolution, #2865); PyPI re-checked unchanged at 0.18.0; forks and open issues refreshed (2,124 and 248); no release since wren-v0.18.0.
+- 2026-11-24 - Recorded the cloud plans' free trial lengthening from 7 to 14 days (still card-required, on both the pricing page and the billing docs) with plan prices and credits unchanged, appended the Price history row, and corrected the Strengths claim that the cloud entry tier is genuinely free, stale since the 2026-11-15 removal of the free tier.
 
 ## See also
 
@@ -103,12 +106,14 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 ## References
 
 - https://github.com/Canner/WrenAI - repository: README, architecture, open-core split, license badge
-- https://api.github.com/repos/Canner/WrenAI - forks, open issues, creation and push dates as of 2026-11-21 (stars kept at the 2026-10-18 baseline)
-- https://api.github.com/repos/Canner/WrenAI/releases - wren-v0.18.0 published 2026-11-10 (the served project-bound agent and governed MCP context layer) after wren-v0.17.1 on 2026-10-30, plus the component release train (re-fetched 2026-11-21)
+- https://api.github.com/repos/Canner/WrenAI - forks, open issues, creation and push dates as of 2026-11-24 (stars kept at the 2026-10-18 baseline)
+- https://api.github.com/repos/Canner/WrenAI/releases - wren-v0.18.0 published 2026-11-10 (the served project-bound agent and governed MCP context layer) after wren-v0.17.1 on 2026-10-30, plus the component release train (re-fetched 2026-11-24, no release since)
 - https://api.github.com/repos/Canner/WrenAI/pulls/2821 - the Ossie import/export merge: Apache Ossie joining dbt and OpenMetadata under one `wren context import` command (fetched 2026-10-24; re-fetched intact 2026-11-15)
-- https://www.getwren.ai/pricing - the credit tiers, quotas, and Enterprise feature gates (re-fetched 2026-11-21: Essential $179, Enterprise $559, Enterprise Plus quoted by sales, the free tier still gone, MCP server in Essential, card-required trial)
-- https://docs.getwren.ai/cp/guide/account/billing - the billing docs confirming the card-required 7-day trial, the 20 free monthly credits as a paid-plan perk, and the unlimited users-and-projects line (fetched 2026-11-15)
+- https://www.getwren.ai/pricing - the credit tiers, quotas, and Enterprise feature gates (re-fetched 2026-11-24: Essential $179, Enterprise $559, Enterprise Plus quoted by sales, the free tier still gone, MCP server in Essential, card-required 14-day trial)
+- https://docs.getwren.ai/cp/guide/account/billing - the billing docs confirming the card-required 14-day trial (7-day through the 2026-11-21 check), the 20 free monthly credits as a paid-plan perk expiring each month, and the unlimited users-and-projects line (fetched 2026-11-24)
 - https://docs.getwren.ai/ - the docs portal: editions, SOC 2 claim, and the 15k-plus star line (re-fetched 2026-11-15)
-- https://pypi.org/pypi/wrenai/json - CLI and SDK version 0.18.0 (re-fetched 2026-11-17)
+- https://pypi.org/pypi/wrenai/json - CLI and SDK version 0.18.0 (re-fetched 2026-11-24)
+- https://api.github.com/repos/Canner/WrenAI/pulls/2851 - the 2026-11-23 fix rejecting unresolved columns in MDL-only scopes during offline SQL planning, unreleased (fetched 2026-11-24)
+- https://api.github.com/repos/Canner/WrenAI/pulls/2863 - the 2026-11-23 fix preserving model-qualified column identity across relationship projections, unreleased (fetched 2026-11-24)
 - https://raw.githubusercontent.com/Canner/WrenAI/main/README.md - the full README: mechanism, comparison table, Git Sync, open-core terms
 - https://hn.algolia.com/api/v1/search?query=WrenAI&tags=story&hitsPerPage=8 - the lopsided community-footprint check as of 2026-10-10

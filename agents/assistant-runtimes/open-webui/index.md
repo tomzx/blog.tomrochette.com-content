@@ -1,9 +1,9 @@
 ---
 title: Open WebUI
 created: 2026-09-27
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, self-hosting, rag, licensing]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, assistant-runtimes, self-hosting, rag, licensing]
 readability: 3
 audience_notes: >
   Engineers choosing the front end for a self-hosted Ollama or OpenAI-compatible stack, who need to know
@@ -25,7 +25,7 @@ The ecosystem now includes a native desktop app, an Open Terminal sandboxed exec
 
 ## Status
 
-Very active and huge for the category: 155,578 stars and 22,676 forks as of 2026-10-14, created 2023-10-06, 283 open issues with the last push on 2026-11-21 as of 2026-11-22.
+Very active and huge for the category: 155,578 stars and 22,676 forks as of 2026-10-14, created 2023-10-06, 276 open issues with the last push on 2026-11-23 as of 2026-11-24.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=open-webui/open-webui&type=date&theme=dark&legend=top-left" />

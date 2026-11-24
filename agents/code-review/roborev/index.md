@@ -1,9 +1,9 @@
 ---
 title: roborev
 created: 2026-10-06
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, code-review, ai-review, open-source, developer-tools]
 readability: 3
 audience_notes: >
   Engineers running coding agents who want review inside the loop, at commit time,
@@ -40,6 +40,8 @@ v0.72.0 (October 16, 2026) adds a rebuttal flow (`comment --rebuttal --finding` 
 v0.73.0 (October 23, 2026) adds an opt-in `test-value` review type that recommends removing tests protecting no behavior the repository owns (medium severity by default, never asks for more tests, and the custom `test-value` type name is now reserved), Muse Code agent support (1.4.10 or later, `muse` on PATH or `muse_cmd`, pay-as-you-go via model muse-spark-1.3), and separate index-text and search-query prefix overrides.
 v0.74.0 (October 27, 2026) hardens the judge and widens what can be judged: a `/roborev-setup-review` skill configures a custom review by conversation (the agent proposes review types, rubrics, and a panel, writing nothing until approved), strict review tool policies lock a review to read-only tools plus the exact MCP tools it names, strict Claude Code reviews run in a fresh locked-down session that loads only Read, Glob, Grep, and the granted tools and ignores user and project settings, `binary_evidence` shows reviewers committed PDFs and images, and document review panels review documents as well as code, labeling findings by rubric.
 v0.75.0 (November 9, 2026) adds intent checking (reviews now test whether a change does what its commit messages and pull-request description say it should), findings that carry a kind, topic, confidence, and file-and-line location, ranked by severity, panel agreement, and confidence (exported reviews move to schema version 3, so export clients built for version 2 or lower need regenerating), an opt-in `--type exhaustive` review that reports every supported problem including small concrete ones (about 50 percent more issues at the same accuracy in the vendor's tests, slower and costlier), `synthesis_instructions` for panels (the synthesis agent can read the repository with read-only tools to check findings against the code), and a CI-poller pre-check that tests each synthesized finding in a sandboxed copy of the pull request and posts only the ones that hold up (`[ci] check = true`).
+The changelog on main carries 0.76.0, dated November 22, 2026, with no published GitHub release at the 2026-11-24 fetch: the CI poller can review each new first-parent commit on the default branch, scheduled analysis keeps findings for tracked files current, review panels run through the daemon API, the CI checker's kept and dropped findings are readable in the review document, and `roborev agent setup` connects agent hooks and skills in one command.
+Its upgrade notes are the caution: five SQLite migrations (schema versions 15 through 19) that releases 0.72.0 through 0.75.x refuse to open, a PostgreSQL mirror schema move from 24 to 25, a nothing-to-review review ending as `skipped` with no verdict instead of passing, and CI reviews skipping the hooks, MCP servers, and plugins a pull request adds to the reviewed checkout.
 
 ## Strengths
 
@@ -92,6 +94,7 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 - 2026-11-18 - Volatile re-verification: the push moved to November 18 with main's latest commit November 17 (review-corpus screenshot capture in the docs); v0.75.0 still the latest release.
 - 2026-11-20 - Volatile re-verification: the push and main's latest commit both moved to November 20 (a daemon-test stabilization); v0.75.0 still the latest release.
 - 2026-11-22 - Volatile re-verification: the push and main's latest commit both moved to November 22 (a dependency bump); v0.75.0 still the latest release.
+- 2026-11-24 - Volatile re-verification: recorded 0.76.0 as cut in the changelog on main (dated November 22, no published GitHub release yet: default-branch commit reviews from the CI poller, scheduled analysis, panels through the daemon API, the CI checker's results in the review document, one-command agent setup, with upgrade notes on five SQLite migrations older releases refuse, the skipped verdict for empty reviews, and CI reviews skipping pull-request-added agent configuration); the push and main's latest commit both moved to November 23; v0.75.0 still the latest published release.
 
 ## See also
 
@@ -103,13 +106,15 @@ My disagreeable take: the PR is a legacy interface for agent-written code, and c
 
 ## References
 
-- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-27, 2026-10-30, 2026-11-01, 2026-11-05, 2026-11-07, 2026-11-11, 2026-11-13, 2026-11-14, 2026-11-15, 2026-11-18, 2026-11-20, and 2026-11-22, pushed 2026-11-22 with main's latest commit November 22 (a dependency bump) and v0.75.0 the latest release)
+- https://github.com/kenn-io/roborev - repo facts: 1,749 stars, 166 forks, 54 contributors, MIT, created 2026-01-05 (GitHub API, as of 2026-10-11; re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-27, 2026-10-30, 2026-11-01, 2026-11-05, 2026-11-07, 2026-11-11, 2026-11-13, 2026-11-14, 2026-11-15, 2026-11-18, 2026-11-20, 2026-11-22, and 2026-11-24, pushed 2026-11-23 with main's latest commit November 23 (a test-environment fix stopping agentsview servers started by isolated tests) and v0.75.0 the latest published release)
 - https://raw.githubusercontent.com/kenn-io/roborev/HEAD/README.md - the two automation layers, the refine skill, and install paths
 - https://roborev.io/docs/ - the ledger model, the agent hook, panels, PostgreSQL sync, and the ACP surface
 - https://roborev.io/docs/agents.md - the eleven supported agents and the auto-detection fallback order
 - https://roborev.io/docs/integrations/github.md - the CI poller, subagent panels with synthesis (0.57+), and trusted-collaborator context
-- https://roborev.io/docs/changelog/ - the release train, the 0.33 false-positive work, and the gh-action generator
-- https://github.com/kenn-io/roborev/releases - v0.75.0 (2026-11-09) latest: intent checking against commit messages and PR descriptions, finding kinds, topics, and confidence with ranked output (export schema v3), the opt-in exhaustive review type, synthesis_instructions with read-only repo access, and the CI poller's sandboxed finding pre-check; the release list spans 13 pages, so 124-plus releases (GitHub API and releases page, v0.72.0 and list as of 2026-10-17, v0.73.0 fetched 2026-10-24, v0.74.0 fetched 2026-10-27, v0.75.0 fetched 2026-11-11)
+- https://roborev.io/docs/changelog/ - the release train, the 0.33 false-positive work, and the gh-action generator; on 2026-11-24 the live page still listed 0.74.0 as its newest entry (the 0.75.0 entry was written after that tag), so the 0.76.0 record is grounded in the changelog source on main, the next reference
+- https://github.com/kenn-io/roborev/releases - v0.75.0 (2026-11-09) latest: intent checking against commit messages and PR descriptions, finding kinds, topics, and confidence with ranked output (export schema v3), the opt-in exhaustive review type, synthesis_instructions with read-only repo access, and the CI poller's sandboxed finding pre-check; the release list spans 13 pages, so 124-plus releases (GitHub API and releases page, v0.72.0 and list as of 2026-10-17, v0.73.0 fetched 2026-10-24, v0.74.0 fetched 2026-10-27, v0.75.0 fetched 2026-11-11, v0.75.0 re-confirmed latest 2026-11-24)
+- https://raw.githubusercontent.com/kenn-io/roborev/main/docs/changelog.md - the changelog source on main: the 0.76.0 entry dated 2026-11-22 with its upgrade notes, new features, improvements, and fixes, ahead of its GitHub release, fetched 2026-11-24
+- https://raw.githubusercontent.com/kenn-io/roborev/v0.75.0/docs/changelog.md - the changelog as tagged for v0.75.0: its newest entry is 0.74.0, the 0.75.0 entry having been written after the tag, fetched 2026-11-24
 - https://hn.algolia.com/api/v1/items/46515428 - the 4-point, zero-comment launch thread, the thin-footprint signal
 - https://wesmckinney.com/blog/agentic-engineering-aug-2026/ - the author's workflow grounding the design, roborev as the verification layer beside Superpowers
 - https://posit.co/blog/the-prolific-output-of-wes-mckinney-in-the-age-of-agentic-engineering/ - the independent profile of author and tool, and the source linking the pre-transfer roborev-dev org

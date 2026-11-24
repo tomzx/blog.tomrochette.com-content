@@ -1,9 +1,9 @@
 ---
 title: Qodo
 created: 2026-08-30
-updated: 2026-11-20
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, code-review, ai-review, open-source, developer-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, code-review, ai-review, open-source, developer-tools]
 readability: 3
 audience_notes: >
   Software engineers evaluating AI pull request reviewers, who know what a
@@ -22,6 +22,8 @@ The commercial half is Qodo (the former Qodo Merge), a hosted review platform wi
 On September 9, 2026 it launched the Agentic Toolbox, a CLI-installed pack of skills (codebase wisdom, pre-PR local review, rules retrieval, review-issue resolution) that puts that commercial engine inside Claude Code, Codex, and Kiro sessions.
 On September 15, 2026 it launched the Software Map in beta, an automatically derived map of repos, service contracts, and blast radius that layers review findings over the architecture and feeds its review agents.
 On October 1, 2026 it shipped Qodo 3.0, repositioning the platform as quality control for the agentic software factory: PR Triage (research preview) groups cross-repo work packages with blast radius and review order, review runs as a swarm of specialized agents, PR Insights exposes what the system learned from the team's review decisions, and enterprise surfaces add Gerrit, on-prem, air-gapped, and NVIDIA Nemotron models.
+On November 18, 2026 it launched Auto Approval Workflows (beta): a reviewed pull request that meets the team's criteria on finding severity, blast radius, and rule compliance is approved as qodo-bot, which counts as one approval while required reviewers and code owners still apply, or is labeled Qodo approved, guards keep listed repositories, paths, and authors with a person, and the approval is withdrawn when a new commit no longer qualifies.
+The same launch added Agent Session Review (research preview), a `/qodo-agent-session-review` skill that packages every pull request a coding agent created in one session, across repositories, into a work package of plan deviations, a reading order, and evidence-tied risks.
 The repo description draws the line in one sentence: "This project is not the Qodo free tier."
 
 ## Status
@@ -65,9 +67,11 @@ On Hacker News the reviewer itself never caught fire (best thread 24 points, ite
 ## Pricing
 
 PR-Agent is free under MIT, self-hosted with your own LLM keys.
-The commercial product meters pooled credits: the pricing page reads $0.015 per credit as of 2026-11-07, raised from the $0.012 rate last confirmed on 2026-10-26, with credit packs of 2,000, 4,000, and 16,000 credits (about 14, 29, and 114 reviews per month) replacing the earlier 2,500/5,000/20,000-credit packs, and no per-seat sticker displayed anywhere on the page (the $30 Pro Team price last appeared in page HTML on 2026-10-06).
-The two vendor surfaces disagreed on the re-fetch date: the homepage FAQ still carried the older $0.012 rate with the 2,500/5,000/20,000 packs, so treat the pricing page as the operative rate until they agree.
-The page keeps no annual commitment on the Pro Team plan, no permanent free tier, and monthly credit expiration, and Enterprise begins at 30-plus users.
+The commercial product meters pooled credits: the pricing page reads $0.015 per credit as of 2026-11-24, raised from the $0.012 rate last confirmed on 2026-10-26, with credit packs of 2,000, 4,000, and 16,000 credits (about 14, 29, and 114 reviews per month) replacing the earlier 2,500/5,000/20,000-credit packs.
+The packs are priced on the page again as of 2026-11-24, $30, $60, and $240 per month at the unchanged per-credit rate, after the page had shown no plan price since 2026-10-06.
+Once the base credits run out, reviews continue as overage at the same per-credit rate under a monthly spending cap you set, per the page's FAQ as of 2026-11-24.
+The two vendor surfaces still disagree: the homepage FAQ carried the older $0.012 rate with the 2,500/5,000/20,000 packs on 2026-11-24, seventeen days after the pricing page moved, so treat the pricing page as the operative rate until they agree.
+The page keeps a 14-day free trial with unlimited reviews and credits, no annual commitment on the Pro Team plan, no permanent free tier, and monthly credit expiration, and the Enterprise 30-plus-user boundary recorded on 2026-11-07 no longer appears in its text.
 Enterprise adds SSO/SAML, audit logs, BYOK, single-tenant SaaS or on-prem, cross-repo review, and negotiated pricing.
 Qualified open-source projects get the commercial reviewer free through a Marketplace app powered by Google.
 For history: in September 2024 the paid Chrome-extension tier was $19 per month for private repos (item 41443605), so the model has moved repeatedly in two years.
@@ -79,6 +83,7 @@ For history: in September 2024 the paid Chrome-extension tier was $19 per month 
 | 2024-09 | Chrome extension | Paid tier $19/month for private repos. | HN quote, see References |
 | 2026-09-18 | Pro Team | Current: $30/month billed monthly, pooled credits at $0.012 each, packs sized around 18/36/144 reviews; PR-Agent free under MIT. Re-verified unchanged 2026-09-21 and 2026-10-26 (the page text still shows the credit rate, the pack sizes, and the 30-user enterprise boundary, with the $30 sticker absent from it). | [qodo.ai/pricing](https://www.qodo.ai/pricing/) |
 | 2026-11-07 | Credit packs | Per-credit rate raised $0.012 to $0.015, and pack sizes moved from 2,500/5,000/20,000 credits (about 18/36/144 reviews) to 2,000/4,000/16,000 credits (about 14/29/114); no plan sticker displayed. The homepage FAQ still showed the older $0.012 rate on the same date. | [qodo.ai/pricing](https://www.qodo.ai/pricing/) |
+| 2026-11-24 | Pro Team | Pack prices displayed again at the unchanged $0.015 per credit: $30/month for 2,000 credits, $60 for 4,000, $240 for 16,000 (about 14/29/114 reviews); the $30 plan price had been absent from the page since 2026-10-06. The homepage FAQ still showed $0.012 on the same date. | [qodo.ai/pricing](https://www.qodo.ai/pricing/) |
 
 ## Compared to
 
@@ -116,6 +121,7 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 - 2026-11-15 - Volatile re-verification: the push moved to November 15 with main's latest commit November 14 and v0.50.0 still the latest release; nothing else changed.
 - 2026-11-18 - Volatile re-verification: the push and main's latest commit both moved to November 18 (a composite-action risk-check flag and a loguru 0.8.0 bump) with v0.50.0 still the latest release; nothing else changed.
 - 2026-11-20 - Volatile re-verification: the push and main's latest commit both moved to November 20 (a docs link fix) with v0.50.0 still the latest release; nothing else changed.
+- 2026-11-24 - Volatile re-verification: recorded the November 18 launch of Auto Approval Workflows (beta, approvals as qodo-bot behind criteria and guards) and Agent Session Review (research preview) in What it is; the pricing page prices the credit packs again ($30, $60, and $240 per month for 2,000, 4,000, and 16,000 credits at the unchanged $0.015 per credit, with a Price history row) and describes overage at the same rate under a monthly spending cap, while the homepage FAQ still carries $0.012; the Enterprise 30-plus-user boundary no longer appears on the page; the push and main's latest commit both moved to November 23 (an unreleased two-day fix batch) with v0.50.0 still the latest release.
 
 ## See also
 
@@ -127,15 +133,16 @@ I also think the PR-Agent donation is less a gift than a repositioning: the repo
 
 ## References
 
-- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-10-11, re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-30, 2026-11-01, 2026-11-05, 2026-11-07, 2026-11-08, 2026-11-11, 2026-11-13, 2026-11-15, and 2026-11-18 (v0.50.0 published November 7, 2026; the November 18 re-query found the push and main's latest commit moved to November 18 with v0.50.0 still latest, the November 20 re-query found the push and main's latest commit moved to November 20 (a docs link fix) with v0.50.0 still latest).
+- https://api.github.com/repos/qodo-ai/pr-agent - redirects to The-PR-Agent/pr-agent, the repo's new home; stars, forks, push date, MIT license, and the "This project is not the Qodo free tier" description, queried as of 2026-10-11, re-queried 2026-10-17, 2026-10-20, 2026-10-22, 2026-10-24, 2026-10-25, 2026-10-26, 2026-10-30, 2026-11-01, 2026-11-05, 2026-11-07, 2026-11-08, 2026-11-11, 2026-11-13, 2026-11-15, and 2026-11-18 (v0.50.0 published November 7, 2026; the November 18 re-query found the push and main's latest commit moved to November 18 with v0.50.0 still latest, the November 20 re-query found the push and main's latest commit moved to November 20 (a docs link fix) with v0.50.0 still latest; the November 24 re-query found both moved to November 23 with v0.50.0 still latest).
 - https://api.github.com/repos/The-PR-Agent/pr-agent/releases/tags/v0.50.0 - the November 7, 2026 release notes: the host-only expansion, the num_retries cap, auto-approval host-only and still disabled, PyPI Trusted Publishing with attestations and a main-reachability gate, and the Microsoft Teams output sink, Sonnet 5.5 and Haiku 5.5 plus Kimi K3/K3.1 Pro model support, and GitHub Enterprise Cloud data-residency items, fetched 2026-11-08.
 - https://github.com/qodo-ai/pr-agent - README: donation to the community, tools table, platforms, release notes, sponsor status, "legacy project" wording.
 - https://docs.pr-agent.ai/tools/ - the full OSS command surface, including the /help_docs disabling.
-- https://www.qodo.ai/ - positioning, context engine, rules system, self-reported benchmark claim, credit FAQ, install badges, re-fetched 2026-11-07: the homepage FAQ still carried the older $0.012-per-credit rate with 2,500/5,000/20,000-credit packs on the day the pricing page showed $0.015 with 2,000/4,000/16,000 packs.
-- https://www.qodo.ai/pricing/ - Pro Team credit pricing, pack sizes, plan comparison, no permanent free tier, credits expiring monthly; re-read 2026-11-07: the page banner now shows $0.015 per credit with 2,000/4,000/16,000-credit packs (about 14/29/114 reviews), replacing the $0.012 rate and 2,500/5,000/20,000 packs confirmed through 2026-10-26; the $30 sticker has been absent from the page text since 2026-10-06 (last seen in page HTML that day), and the Enterprise boundary now reads "custom plan for 30+ users".
+- https://www.qodo.ai/ - positioning, context engine, rules system, self-reported benchmark claim, credit FAQ, install badges, re-fetched 2026-11-07: the homepage FAQ still carried the older $0.012-per-credit rate with 2,500/5,000/20,000-credit packs on the day the pricing page showed $0.015 with 2,000/4,000/16,000 packs; re-fetched 2026-11-24: the FAQ still carries $0.012 with the 2,500/5,000/20,000-credit packs, and the homepage banner announces the November 18 Auto Approval Workflows and Agent Session Review launch.
+- https://www.qodo.ai/pricing/ - Pro Team credit pricing, pack sizes, plan comparison, no permanent free tier, credits expiring monthly; re-read 2026-11-07: the page banner now shows $0.015 per credit with 2,000/4,000/16,000-credit packs (about 14/29/114 reviews), replacing the $0.012 rate and 2,500/5,000/20,000 packs confirmed through 2026-10-26; the $30 sticker has been absent from the page text since 2026-10-06 (last seen in page HTML that day), and the Enterprise boundary now reads "custom plan for 30+ users". Re-read 2026-11-24: $0.015 per credit unchanged, the three packs now priced at $30, $60, and $240 per month, overage at the same per-credit rate under a monthly spending cap you set, and no 30-plus-user Enterprise boundary in the page text.
 - https://www.qodo.ai/blog/introducing-qodos-agentic-toolbox/ - the Agentic Toolbox launch post, September 9, 2026, skills and plugin surface.
 - https://www.qodo.ai/blog/introducing-qodos-software-map/ - the Software Map beta launch post, September 15, 2026, blast radius and contracts as review-agent context.
 - https://www.qodo.ai/blog/what-every-software-factory-needs-that-no-model-will-provide/ - the Qodo 3.0 announcement essay, October 1, 2026: PR Triage research preview, swarm review, PR Insights, Gerrit and on-prem surfaces, the wisdom-base positioning.
+- https://www.qodo.ai/blog/introducing-auto-approval-workflows-and-agent-session-review/ - the November 18, 2026 launch post: Auto Approval Workflows (beta) with its criteria, qodo-bot approvals, guards, and approval withdrawal, and Agent Session Review (research preview) through the Agentic Toolbox, fetched 2026-11-24.
 - https://www.qodo.ai/solutions/open-source/ - free commercial review for qualified OSS projects.
 - https://www.qodo.ai/blog/qodo-powered-by-testgpt-accounces-beta-and-raised-11m/ - the $11M seed and the original test-generation mission (the codium.ai URL now redirects here).
 - https://techcrunch.com/2024/09/30/qodo-raises-40m-series-a-to-bring-quality-first-code-generation-to-the-enterprise/ - the $40M Series A, $50M total, and the CodiumAI-to-Qodo rename.

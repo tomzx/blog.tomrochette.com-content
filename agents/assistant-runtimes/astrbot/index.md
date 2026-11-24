@@ -1,9 +1,9 @@
 ---
 title: AstrBot
 created: 2026-10-06
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, python, chat-channels, plugins, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, assistant-runtimes, python, chat-channels, plugins, open-source]
 readability: 3
 audience_notes: >
   Engineers choosing a self-hosted assistant that must live in IM platforms, especially the Chinese
@@ -24,7 +24,7 @@ The agent layer has sub-agents, tool calls, workflow orchestration, context comp
 
 ## Status
 
-Active and long-lived: 41,837 stars and 3,058 forks as of 2026-10-14, created 2022-12-08, 1,298 open issues and pull requests with the last push on 2026-11-22 as of 2026-11-22, AGPL-3.0.
+Active and long-lived: 41,837 stars and 3,058 forks as of 2026-10-14, created 2022-12-08, 1,301 open issues and pull requests with the last push on 2026-11-23 as of 2026-11-24, AGPL-3.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=AstrBotDevs/AstrBot&type=date&theme=dark&legend=top-left" />

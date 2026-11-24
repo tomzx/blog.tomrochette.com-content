@@ -1,9 +1,9 @@
 ---
 title: Graphify
 created: 2026-08-30
-updated: 2026-11-22
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, knowledge-graphs, code-intelligence, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, context-engines, knowledge-graphs, code-intelligence, open-source]
 readability: 3
 audience_notes: >
   Engineers deciding how their coding agent should learn a large codebase, who are weighing graph indexing against packing or embeddings.
@@ -25,11 +25,12 @@ Made by Graphify Labs, a YC Summer 2026 company of two people in London, Apache-
 
 ## Status
 
-Growing absurdly fast for its age: 126,981 stars as of 2026-10-16, latest release v0.9.115 on 2026-11-21, 3,128 commits in about six months since 2026-04-03 (as of 2026-11-20), and 14,578 forks and 1,692 open issues and pull requests as of 2026-11-22 (426 contributors as of 2026-11-20).
+Growing absurdly fast for its age: 126,981 stars as of 2026-10-16, latest release v0.9.118 on 2026-11-23, 3,202 commits in under eight months since 2026-04-03 (as of 2026-11-24), and 14,662 forks and 1,701 open issues and pull requests as of 2026-11-24 (432 contributors as of 2026-11-24).
 Releases v0.9.110 and v0.9.111 (both 2026-11-15) fixed Python aliased-import call linking (`from mod import foo as bar; bar()` now links from method bodies and decorated definitions) and shipped a maintenance-and-security release raising the minimum Python to 3.11, pulling in patched optional and transitive dependencies after 3.10's October 2026 end of life.
 Release v0.9.112 (2026-11-17) shipped the Delphi/Pascal cluster (a form linked to the unit that implements it, calls resolved through global object variables, base classes resolved to their declarations, and units the grammar cannot parse recovered end to end) alongside Java overloaded methods keyed by arity and erased signature, Go bare-receiver resolution to its own package's type, Rust `crate::` imports resolving inside their own crate, C directory-qualified angle includes, a dedup fix keeping prefix-derived words apart from their base words, and an install fix where `graphify claude install` writes its section to the file Claude Code actually reads (an existing CLAUDE.md wins over AGENTS.md), with uninstall symmetric.
 Release v0.9.113 (2026-11-19) raised the packaging floor again: the minimum Python is now 3.11.5 with soupsieve pinned to 4.1.1, clearing the ReDoS advisories reachable through beautifulsoup4 in the optional `svg`/`all`/`pdf` extras (installs on Python 3.11.0 to 3.11.4 keep resolving to 0.9.112), and it kept underscore/case member twins apart in node ids across Ruby, Lua, Scala, and Elixir while a Rust fix reads a prelude trait's generic argument as a reference instead of a wrong `implements`/`inherits` edge.
 Releases v0.9.114 and v0.9.115 (2026-11-20 and 11-21) followed: v0.9.114 is a performance release across the extract, build, update, watch, cluster, and analyze paths (byte-identical output on the perf entries) with a batch of extractor and build fixes (Java Lombok getters synthesized, Kotlin typed-receiver member calls bound across files and through interfaces, PL/pgSQL ERROR-recovery routine bodies gaining their reads_from edges, EXTRACTED edges kept over tied semantic copies, T-SQL misread procedure headers yielding single nodes, VB.NET methods after multi-line string literals reparsed with a placeholder, C++ `std::`-qualified types kept off project symbols, Python `sys.path` script-dir imports bound, cross-repo `calls` edges kept through the serve relation filter), and v0.9.115 fixes the GHSA-g6c9-j4vm-mwq4 forced-SMB-authentication issue on Windows (a `.sh` source line or a `.git` UNC gitdir pointer could coerce outbound SMB auth leaking a NetNTLMv2 response; probes now bounded to the scan root with UNC paths refused before resolution) alongside resolution and watch fixes, the two releases sharing the AST cache schema bumps to 50 and 51 so warm caches re-extract the affected languages.
+Releases v0.9.116 through v0.9.118 were consolidated into one GitHub release: v0.9.118 (2026-11-23) carries the changelogs written for 0.9.116 and 0.9.117 alongside its own, fourteen community pull requests of extractor, resolution, serve, export, clustering, and reporting fixes (Objective-C methods whose names collide inside one interface getting their own salted node ids, C struct function-pointer calls no longer fabricating a `calls` edge to a same-named free function, C# contextual keywords rewritten to their verbatim `@name` form before parsing, Go struct fields bound to their own package, Svelte `export *` barrel imports resolving to the defining module, the `get_section` retry getting its own graph caches instead of raising `KeyError` on stale ids, the MCP server loading `graph.json` off the event loop so a reload stops blocking concurrent requests, a deleted clustered `GRAPH_REPORT.md` regenerated, image nodes demoted in query seed scoring, export filenames honoring the filesystem's `NAME_MAX`, directed wiki exports including incoming edges, `.graphifyrc` parsing `demote_docs` and `query_demote_docs`, and community-overlap counting made linear), with the AST cache schema raised from 51 to 53 so the first build after upgrading re-extracts Objective-C, C, and C#; main's 2026-11-23 commit after the release is a test-suite speedup (tmpfs plus xdist), not a code change.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Graphify-Labs/graphify&type=date&theme=dark&legend=top-left" />
@@ -59,13 +60,14 @@ The ecosystem is growing too: a third-party C# port, graphify-csharp, launched S
 ## Pricing
 
 The core CLI is free, Apache-2.0, no account.
-The hosted side now publishes four plans (re-verified 2026-10-24): Free ($0, one developer, no card, with node, build, and review allowances), Pro ($10/month billed yearly or $15 billed monthly, one developer, uncapped graphs), Teams ($20 per seat/month billed yearly or $29 billed monthly, minimum 2 seats, rising to $28 yearly and $40 monthly after the first 100 teams), and Enterprise (early access, self-hosted, licensed per seat, with the price scoped on a call instead of published), plus free access for qualified MIT and Apache licensed OSS projects.
+The hosted side publishes four plans (page updated 2026-11-23, fetched 2026-11-24): Free ($0, one developer, no card, with node, build, and review allowances), Pro ($10/month billed yearly, $12/month billed quarterly at $36 a quarter, or $15 billed monthly, one developer, uncapped graphs), Teams ($20 per seat/month billed yearly, $24 billed quarterly, or $29 billed monthly, minimum 2 seats, rising to $28, $32, and $40 after the first 100 teams), and Enterprise (custom, self-hosted on your infrastructure, with the price scoped on a call instead of published), each paid plan carrying a two-week card-required trial, plus free access for qualified MIT and Apache licensed OSS projects; the early-access label now sits on the Jira, Confluence, Sentry AI SRE, Google Drive, and Vercel connectors rolling out to paid workspaces.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09-18 | Hosted plans | First published ladder: Free $0 (one developer), Pro $10/mo billed yearly or $15 monthly, Teams $20/seat/mo yearly or $29 monthly (min 2 seats), Enterprise scoped on a call; core CLI free (Apache-2.0). | [graphify.com/pricing](https://graphify.com/pricing) |
+| 2026-11-23 | Pro, Teams | Quarterly billing added between monthly and annual: Pro $36/quarter ($12/month), Teams $72/developer/quarter ($24/developer/month) for the first 100 teams, then $96/quarter ($32/month); monthly and annual prices unchanged. Observed 2026-11-24 on the page marked updated 2026-11-23. | [graphify.com/pricing](https://graphify.com/pricing) |
 
 ## Compared to
 
@@ -120,6 +122,8 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - 2026-11-19 - Recorded release v0.9.112 (2026-11-17: the Delphi/Pascal cluster, Java overload nodes keyed by arity and erased signature, Go bare-receiver and Rust crate-scoped resolution, the prefix-word dedup fix, and the claude-install CLAUDE.md-precedence fix) and refreshed the volatile numbers (3,098 commits, 425 contributors, 14,454 forks, 1,686 open issues and PRs); PyPI tracks 0.9.112.
 - 2026-11-20 - Recorded release v0.9.113 (2026-11-19: the Python floor raised to 3.11.5 with soupsieve pinned at 4.1.1 to clear the transitive ReDoS advisories, node-id twin fixes across Ruby, Lua, Scala, and Elixir, and a Rust prelude-generics fix) and refreshed the volatile numbers (3,128 commits, 426 contributors, 14,508 forks, 1,679 open issues and PRs); PyPI tracks 0.9.113.
 - 2026-11-22 - Recorded releases v0.9.114 and v0.9.115 (2026-11-20 and 11-21: the extract/build/update performance release with the Java Lombok, Kotlin typed-receiver, PL/pgSQL, T-SQL, VB.NET, C++, and Python sys.path extractor fixes, then the GHSA-g6c9-j4vm-mwq4 forced-SMB-authentication security fix on Windows with probes bounded to the scan root); PyPI tracks 0.9.115; volatile numbers refreshed (14,578 forks, 1,692 open issues and PRs, pushed 2026-11-21).
+- 2026-11-24 - Recorded release v0.9.118 (2026-11-23: the 0.9.116 and 0.9.117 changelogs folded into one release of fourteen community pull requests covering extractor, resolution, serve, export, clustering, and reporting fixes, with the AST cache schema raised 51 to 53); PyPI tracks 0.9.118; volatile numbers refreshed (14,662 forks, 1,701 open issues and pull requests, 3,202 commits, 432 contributors, pushed 2026-11-23).
+- 2026-11-24 - Recorded the hosted plans gaining quarterly billing between monthly and annual (Pro $36 a quarter or $12 a month, Teams $72 a developer a quarter or $24 a month for the first 100 teams, then $96 or $32), with monthly and annual prices unchanged, the Enterprise plan now reading custom and self-hosted rather than early access and licensed per seat, a two-week card-required trial on Pro and Teams, and the early-access label moved to the rolling-out connectors (pricing page updated 2026-11-23); appended the Price history row.
 
 ## See also
 
@@ -133,9 +137,10 @@ Not for small repos where grep and packing are enough, or for buyers who need in
 - https://github.com/Graphify-Labs/graphify - repository, README, architecture, license, adoption numbers
 - https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/BENCHMARKS.md - the self-published benchmarks, including the supermemory trade-off
 - https://graphify.com/ - positioning and the no-embeddings claim
-- https://graphify.com/pricing - the four hosted plans above the free core, re-verified unchanged 2026-10-07, 2026-11-13, and 2026-11-15
+- https://graphify.com/pricing - the four hosted plans above the free core: monthly, quarterly, and annual prices, the OSS and startup discounts, and the trial terms (re-verified unchanged 2026-10-07, 2026-11-13, and 2026-11-15; quarterly billing recorded 2026-11-24 on the page marked updated 2026-11-23)
 - https://graphify.com/llms-full.txt - the full plan table grounding the pricing section (monthly and annual billing), fetched 2026-10-07
-- https://pypi.org/project/graphifyy/ - the distribution and current version (0.9.115, re-fetched 2026-11-22)
+- https://pypi.org/project/graphifyy/ - the distribution and current version (0.9.118, re-fetched 2026-11-24)
+- https://api.github.com/repos/Graphify-Labs/graphify/releases/tags/v0.9.118 - the v0.9.118 release notes: the fourteen-pull-request batch, the consolidated 0.9.116 and 0.9.117 changelogs, and the AST cache schema bump from 51 to 53 (fetched 2026-11-24)
 - https://www.ycombinator.com/companies/graphify-labs - the maker, batch, and self-reported adoption claims
 - https://github.com/zachsaw/graphify-csharp - the third-party C# port, 73 stars as of 2026-10-10
 - https://news.ycombinator.com/item?id=49667188 - the port's Show HN thread, 46 points and 21 comments, verified via the Algolia API

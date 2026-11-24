@@ -1,9 +1,9 @@
 ---
 title: rtk
 created: 2026-08-30
-updated: 2026-11-21
+updated: 2026-11-24
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, token-efficiency, cli, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, context-engines, token-efficiency, cli, open-source]
 readability: 3
 audience_notes: >
   Engineers paying per-token for coding agents whose sessions are dominated by noisy command output.
@@ -25,7 +25,7 @@ Apache-2.0, built by a small French team with a commercial Pro product alongside
 
 ## Status
 
-Young and hot: 83,540 stars as of 2026-10-18, 5,610 forks and 1,689 open issues and pull requests combined as of 2026-11-21, created 2026-01-22, pushed 2026-11-21.
+Young and hot: 83,540 stars as of 2026-10-18, 5,629 forks and 1,675 open issues and pull requests combined as of 2026-11-24, created 2026-01-22, pushed 2026-11-23.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Young and hot: 83,540 stars as of 2026-10-18, 5,610 forks and 1,689 open issues 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=rtk-ai/rtk&type=date&legend=top-left" />
 </picture>
 
-v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02; v0.52.0 went stable on 2026-10-13 and **v1.0.0 shipped the same day**, with v1.0.1 on 2026-10-14, **v1.1.0 going stable on 2026-10-25** (opt-in fish-script hook wrapping, Angular build-table compaction, and a large correctness fix batch), and **v1.2.0 going stable on 2026-11-08** (directory-folded `git ls-tree` listings plus a large correctness batch across hooks, gain accounting, and the language runners), so the project is no longer pre-1.0; **v1.2.1 went stable on 2026-11-19**, hours after the previous day's verification fetch, with a large filter-correctness and proxy-stability batch (cargo toolchain and global-prefix filtering with narrowed prefix routing and exclusions, the repository's Copilot hook running without rtk installed, OpenCode binary resolution for GUI launches and PATH before RTK_BIN, bounded upstream requests with a Windows dead-proxy relaunch, the hook integrity check and compound user hook entries preserved, hex sha2 digests, versioned db schema migrations, and dotnet distinct test-project counting), and the candidate trains now read dev-1.3.0 (rc.646 through rc.648 on 2026-11-19) and dev-1.2.2 (rc.657 through rc.662, 2026-11-20 to 11-21), carrying the find exit-status baseline and combined-filters TOML fixes plus the newer telemetry-marker ordering fix and the Windows git-help browser fix on top of the earlier golangci tokenizer-reuse, schema-enum, proxy-rule savings, and hook-ownership fixes.
+v0.50.0 went stable on 2026-09-24 and v0.51.0 followed on 2026-10-02; v0.52.0 went stable on 2026-10-13 and **v1.0.0 shipped the same day**, with v1.0.1 on 2026-10-14, **v1.1.0 going stable on 2026-10-25** (opt-in fish-script hook wrapping, Angular build-table compaction, and a large correctness fix batch), and **v1.2.0 going stable on 2026-11-08** (directory-folded `git ls-tree` listings plus a large correctness batch across hooks, gain accounting, and the language runners), so the project is no longer pre-1.0; **v1.2.1 went stable on 2026-11-19**, hours after the previous day's verification fetch, with a large filter-correctness and proxy-stability batch (cargo toolchain and global-prefix filtering with narrowed prefix routing and exclusions, the repository's Copilot hook running without rtk installed, OpenCode binary resolution for GUI launches and PATH before RTK_BIN, bounded upstream requests with a Windows dead-proxy relaunch, the hook integrity check and compound user hook entries preserved, hex sha2 digests, versioned db schema migrations, and dotnet distinct test-project counting), and the candidate trains now read dev-1.3.0 (rc.672 and rc.673 on 2026-11-23) and dev-1.2.2 (rc.664 and rc.666 through rc.671, 2026-11-21 to 11-23), carrying the find exit-status baseline and combined-filters TOML fixes, the telemetry-marker ordering fix and the Windows git-help browser fix, the earlier golangci tokenizer-reuse, schema-enum, proxy-rule savings, and hook-ownership fixes, and the 2026-11-21 to 11-23 round on top: new first-class infra filters (`rtk terraform`, `rtk nix`, `rtk ansible-playbook`, and `rtk tofu` as a Terraform-equivalent, #769), the install script kept from crashing under Git Bash on Windows and run end to end in CI (#3700), an MSYS signal exit read as 128 plus the signal (#5183), Windows drive paths kept and tee recovery hints added in the grep filter (#5066), ANSI suppressed on Windows consoles without VT support (#5186), CRLF byte offsets preserved during JSON extraction (#3991), nix search output parsed with every result counted, images and PDFs kept off the delegate bulk-read shunt (#5122), and the gain console-mode block marked for semgrep (#5230).
 The site claims 18,000+ developers, a marketing figure, and the Show HN thread shows users posting their own measured savings.
 
 ## Strengths
@@ -53,7 +53,14 @@ The site claims 18,000+ developers, a marketing figure, and the Show HN thread s
 ## Pricing
 
 The CLI is free, Apache-2.0, no accounts.
-RTK Pro adds secret detection, org policies, observability, and sandboxed environments as a dedicated-tenant SaaS, self-hosted Helm chart, or on-prem deployment, with a 7-day trial; public per-seat prices are not published.
+RTK Pro adds secret masking (Shield), usage and cost observability, command policies, a shared skills catalogue, and sandboxed agent runs (beta) as a dedicated-tenant SaaS, self-hosted Helm chart, or on-prem deployment, with a 7-day trial.
+**RTK Pro's prices are published now: the pricing page, observed live 2026-11-24, sells Dev at $6 per month (one seat, 5 endpoints per seat, 30 days of command retention), Teams at $20 per seat per month for 5 to 20 seats (25 endpoints per seat, 60 days of retention, RBAC, the audit log, MCP, Grafana, and a sandbox allowance), and Business at $30 per seat per month for 25 to 200 seats (50 endpoints per seat, 90 days of retention, unlimited export, and custom database connectors), with Enterprise (on-premise, custom limits, and an SLA) quoted by contact and a limited-time 2026 Black Friday banner offering 90 percent off.**
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-11-24 | Dev, Teams, Business | First published prices observed: Dev $6/month (1 seat), Teams $20/seat/month (5 to 20 seats), Business $30/seat/month (25 to 200 seats); Enterprise (on-premise, custom limits, SLA) quoted by contact. | [pro.rtk-ai.app/pricing](https://pro.rtk-ai.app/pricing) |
 
 ## Compared to
 
@@ -91,6 +98,8 @@ Not for sessions driven by built-in Read/Grep tools, or anyone whose agents cann
 - 2026-11-19 - Recorded the candidate train graduating to dev-1.3.0 (rc.641 through rc.645, 2026-11-17 to 11-18) carrying the new fix batch (golangci discover tokenizer reuse, schema-version enum, proxy-rule savings, hook-command ownership); stable remains v1.2.0; forks and open issues and pull requests refreshed (5,597 and 1,687).
 - 2026-11-20 - Recorded v1.2.1 going stable (2026-11-19 17:49 UTC, after the 2026-11-19 run's fetch had recorded stable as v1.2.0: the cargo toolchain/global-prefix batch, the Copilot hook running without rtk installed, OpenCode binary resolution, bounded upstream requests with the Windows dead-proxy relaunch, hook integrity and compound-entry fixes, hex sha2 digests, versioned db migrations, dotnet test-project counting), the candidate trains splitting to dev-1.3.0 (rc.646 through rc.648) and dev-1.2.2 (rc.654 through rc.656), and refreshed the volatile numbers (5,611 forks, 1,692 open issues and pull requests, pushed 2026-11-20); stable moves from v1.2.0 to v1.2.1.
 - 2026-11-21 - Recorded the dev-1.2.2 candidate train advancing to rc.657 through rc.662 (2026-11-20 to 11-21) carrying the post-v1.2.1 fixes (the telemetry marker written before the claimed ping, #4706, and the Windows git-help browser fuzz fix, #4784); stable remains v1.2.1; forks and open issues and pull requests refreshed (5,610 and 1,689).
+- 2026-11-24 - Recorded the candidate trains advancing to dev-1.2.2 rc.664 and rc.666 through rc.671 and dev-1.3.0 rc.672 and rc.673 (2026-11-21 to 11-23) carrying the post-v1.2.1 round (first-class infra filters for terraform, nix, ansible-playbook, and tofu, the install script fixed and tested end to end under Git Bash on Windows, the MSYS signal exit code, Windows drive paths and tee hints in the grep filter, ANSI suppression on Windows consoles without VT support, CRLF byte offsets in JSON extraction, nix search output parsing, images and PDFs kept off the delegate bulk-read shunt, and the gain console-mode block marked for semgrep); stable remains v1.2.1; forks and open issues and pull requests refreshed (5,629 and 1,675).
+- 2026-11-24 - Recorded RTK Pro's first published prices (the pricing page observed live: Dev $6/month for one seat, Teams $20 per seat per month for 5 to 20 seats, Business $30 per seat per month for 25 to 200 seats, Enterprise quoted by contact, with a limited-time 2026 Black Friday offer of 90 percent off), replacing the prices-not-published claim, restating the Pro feature list from the product page, and adding the Price history section seeded with the three plans.
 
 ## See also
 
@@ -104,7 +113,9 @@ Not for sessions driven by built-in Read/Grep tools, or anyone whose agents cann
 - https://github.com/rtk-ai/rtk - repository, supported commands, agent integrations, license
 - https://raw.githubusercontent.com/rtk-ai/rtk/HEAD/README.md - the four filter strategies, 16 integrations, and the name-collision warning
 - https://raw.githubusercontent.com/rtk-ai/rtk/develop/docs/guide/resources/savings-explained.md - the project's own methodology and the bytes-versus-bill caveat
-- https://github.com/rtk-ai/rtk/releases - release cadence and the filter-correctness bug history (re-fetched 2026-10-26)
+- https://github.com/rtk-ai/rtk/releases - release cadence and the filter-correctness bug history (re-fetched through the API 2026-11-24: stable v1.2.1, candidate trains to dev-1.2.2 rc.671 and dev-1.3.0 rc.673)
 - https://www.rtk-ai.app - the marketing claims this note discounts
 - https://pro.rtk-ai.app - the Pro product surface and deployment models
+- https://pro.rtk-ai.app/pricing - the RTK Pro pricing page (client-rendered; its plan cards load from the plans endpoint), titles and the limited-time Black Friday banner (fetched 2026-11-24)
+- https://my.cloud.rtk-ai.app/api/plans - the plan data the pricing page renders: Dev $6/month, Teams $20 per seat for 5 to 20 seats, Business $30 per seat for 25 to 200 seats, Enterprise not self-serve (fetched 2026-11-24)
 - https://news.ycombinator.com/item?id=47189599 - the thread with naming criticism and early user-posted gain stats
