@@ -24,7 +24,7 @@ FRESH_DAYS = 7  # a note created this recently is not due for a rotation yet
 # A log line records a full rotation pass when it says so positively; "out of
 # rotation" lines record an out-of-schedule fix and are not passes.
 POSITIVE = re.compile(
-    r"rotation re-verif|re-verif\w* (?:in|under) (?:the )?rotation|in (?:the )?rotation\b"
+    r"rotation re-verif|rotation re-fetch|re-verif\w* (?:in|under) (?:the )?rotation|in (?:the )?rotation\b"
     r"|rotation (?:quarter|pass|slice|wave)? ?covered", re.I)
 NEGATIVE = re.compile(r"(?:out of|outside) (?:the )?rotation", re.I)
 MULTI = re.compile(r"rotation (?:quarter|pass|slice|wave)? ?covered", re.I)
