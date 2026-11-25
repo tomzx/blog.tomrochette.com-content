@@ -1,7 +1,7 @@
 ---
 title: Strands Decider 2B
 created: 2026-10-12
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights]
 readability: 3
@@ -103,7 +103,7 @@ The disagreeable claim I will defend: the fair comparison is not with the commun
 
 ## References
 
-- https://github.com/strands-labs/strands-decider - repository: Apache-2.0, created 2026-09-29, 636 stars as of 2026-10-15, 138 forks, pushed 2026-11-24 (the default branch 12 commits past v0.4.0, released 2026-11-20, its newest commits the README's v2 models section of 2026-11-23 and a modeling fix of 2026-11-24), the CLI surfaces and device extras (GitHub API and README, as of 2026-11-24)
+- https://github.com/strands-labs/strands-decider - repository: Apache-2.0, created 2026-09-29, 636 stars as of 2026-10-15, 138 forks, pushed 2026-11-25 on a side-branch push, the default branch head still its 2026-11-24 modeling fix (12 commits past v0.4.0, released 2026-11-20, its newest commits the README's v2 models section of 2026-11-23 and a modeling fix of 2026-11-24), the CLI surfaces and device extras (GitHub API and README, as of 2026-11-24)
 - https://github.com/strands-labs/strands-decider/releases - v0.1.0 and v0.2.0 of 2026-10-19 (the CLI split, the serving fixes, the customize-decider skill), v0.3.0 of 2026-11-05 (the consolidated serving-and-deployment release), and v0.4.0 of 2026-11-20 (the max-concurrency cap, the docs manifest, the SageMaker DLC deploy, the docs overview, benchmark Lambda support, the Lambda images with the vision tower, and the breaking Python 3.11 requirement) (re-fetched 2026-11-24, v0.4.0 still the latest release)
 - https://huggingface.co/api/models?author=StrandsAgents - the org's checkpoints: the five v1 lines of 2026-10-09/10 and all five v2 checkpoints (strands-decider-E2B, E4B, 12B, 26B-A4B, and 31B on Gemma 4, created 2026-11-17, Apache-2.0 and ungated; only the E2B was visible to the 2026-11-22 fetch) (fetched 2026-11-24)
 - https://github.com/strands-labs/strands-decider/tree/main/configs/v1 - the training configs of the five v1 releases, published 2026-10-16 (fetched 2026-10-18)

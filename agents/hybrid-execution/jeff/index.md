@@ -1,9 +1,9 @@
 ---
 title: Jeff
 created: 2026-09-29
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, hybrid-execution, structured-outputs, system-one-models, decision-models, open-weights, fine-tuning, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers who followed the Jev wave and want a small, fine-tunable model that speaks the Jev request format on their own hardware.
@@ -36,7 +36,7 @@ The repository was created 2026-09-28 and pushed 2026-11-06, its first default-b
 Latency is the headline: about 22 ms per decision on an RTX PRO 6000, 28 ms on an M4 Max through MLX, 463 ms on a 32-thread CPU, against Jev's published 114-212 ms per API call in its Doom runs (not measured on the same hardware); the v1.3 base and adapters measure 26.6 to 31.8 ms per decision on the same idle GPU as v1.2 (October 5 table).
 The self-run benchmarks covered 4,599 questions from five public suites (BBH, Financial PhraseBank, JudgeBench, RAGTruth, WinoGrande) plus JevBench's public hard tier scored separately: Jeff-2B posted 83.1 overall against Jev's published 83.0 and AutoJev-27B's 84.9, winning Financial PhraseBank (96.3 versus 77.0) and RAGTruth (88.9 versus 77.3) while staying well below Jev on BBH (68.0 versus 94.3), JudgeBench, WinoGrande, and the JevBench hard tier (53.3 versus 73.3); the repositioned README dropped that table, and the hub's comparison page now carries the current evidence, a dated 2026-10-17 head-to-head on 4,500 rows where the 0.8B adapters score 91.1 percent against Jev 1.14's 81.8 and OpenAI's Decisions API's 72.6, with calibration error 0.016 against Jev's 0.085 and OpenAI's 0.115, and the page states plainly that it measures the adapters published at the time, not the current v1.4 generation.
 Zero-shot games back the generality claim: Jeff-0.8B took 57.0 of 98 Pac-Man pellets against 11.2 for random moves, and Doom kills matching a hand-coded rule bot.
-None of it has been checked by a third party: JevBench's board carries the name collision forward as of the 2026-11-07 read under method v1.8, still listing the jgeuter rows sharing the Jeff name (Jeff-1.1-Medium and its siblings linking jgeuter's Hugging Face repositories), and the Decision Index's 2026-11-21 regeneration still carries the jeff-uncapped row, "jeff GLiFormer-large" at 6.21, rank 339 of 346, whose owner the board does not state, so every Jeff-named row on either board is either another author's or unattributed, and this family still carries no board row of its own.
+None of it has been checked by a third party: JevBench's board carries the name collision forward as of the 2026-11-25 read under method v1.8 (v1.8.20, 269 ranked open-weights systems), still listing the jgeuter rows sharing the Jeff name (Jeff-1.1-Medium and Jeff-1.1-Qwen-4B, the latter now ranked, Jeff-1.1-Large still unranked, all linking jgeuter's Hugging Face repositories) beside a Jeff-1.0-Large row the artifact lists without an author and two Jeffan rows by a third author, and the Decision Index's 2026-11-21 regeneration still carries the jeff-uncapped row, "jeff GLiFormer-large" at 6.21, rank 339 of 346, whose owner the board does not state, so every Jeff-named row on either board is either another author's or unattributed, and this family still carries no board row of its own.
 
 ## Strengths
 
@@ -87,6 +87,7 @@ The disagreeable claim I will defend: the v1.3 table matching Jev's published ov
 - 2026-11-13 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-12 regeneration (301 configurations) crowd-shifted the unattributed jeff-uncapped row's unchanged 6.21 from rank 268 to 294 of 301; the JevBench jgeuter rows, the repository, and the SDK registries re-read unchanged; fetched and re-cited.
 - 2026-11-20 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-19 regeneration (327 configurations) crowd-shifted the unattributed jeff-uncapped row's unchanged 6.21 from rank 294 to 320 of 327; fetched and re-cited.
 - 2026-11-22 - Out-of-rotation board re-fetch at the drift signal: the Decision Index's 2026-11-21 regeneration (346 configurations) crowd-shifted the unattributed jeff-uncapped row's unchanged 6.21 from rank 320 to 339; fetched and re-cited.
+- 2026-11-25 - Rotation re-verification, every cited URL re-fetched and live: the board re-read (v1.8.20, 269 ranked open-weights systems) finds jgeuter's Jeff-1.1-Qwen-4B now ranked (composite 77.40) beside the ranked Jeff-1.1-Medium, Jeff-1.1-Large still unranked, and the Jeff-1.0-Large row listed again without an author, beside the two Jeffan rows by a third author already recorded, so the family still carries no board row of its own.
 
 ## See also
 
@@ -109,6 +110,6 @@ The disagreeable claim I will defend: the v1.3 table matching Jev's published ov
 - https://registry.npmjs.org/jeff-sdk - the Node SDK: jeff-sdk 1.4.1 latest, published 2026-11-06T09:53Z (fetched 2026-11-08)
 - https://news.ycombinator.com/item?id=49883844 - the launch thread (576 points as of 2026-10-20, 2026-09-28), including the negative reports from classification use outside the benchmark suites
 - https://github.com/denis-pplx/autojev - the parent recipe: MIT, 120 stars, fine-tunes Qwen3.8-27B for Jev-style decisions (re-verified 2026-10-20)
-- https://benchmarkheaven.com/jev-models - the live board (method v1.8, 235 ranked systems, re-read 2026-11-07), whose Jeff-named rows (Jeff-1.1-Medium and siblings) link jgeuter's Hugging Face repositories, other authors' Gemma-4 fine-tunes, not this family
+- https://benchmarkheaven.com/jev-models - the live board (method v1.8, v1.8.20 with 269 ranked open-weights systems, re-read 2026-11-25), whose Jeff-named rows (Jeff-1.1-Medium and siblings) link jgeuter's Hugging Face repositories, other authors' Gemma-4 fine-tunes, not this family
 - https://huggingface.co/jgeuter/Jeff-1.0-Large - the first board row's actual model: a Gemma-4-31B-it fine-tune, CC BY-NC-4.0, created 2026-10-08, unrelated to firelex/jeff (fetched 2026-10-25)
 - https://huggingface.co/jgeuter/Jeff-1.1-Medium - the second board row's model, owner-checked 2026-10-27: the same jgeuter author's Gemma-4 fine-tune, unrelated to firelex/jeff
