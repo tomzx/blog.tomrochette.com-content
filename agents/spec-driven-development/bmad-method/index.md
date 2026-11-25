@@ -1,9 +1,9 @@
 ---
 title: BMad Method
 created: 2026-08-27
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, agile, multi-agent, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, agile, multi-agent, open-source, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers who want a full agile method with agent roles around their coding assistant, not just spec artifacts.
@@ -24,7 +24,7 @@ The ecosystem is modular: BMad Builder, a Creative Intelligence Suite, an enterp
 ## Status
 
 Large, active, and quietly adopted.
-As of 2026-10-14: about 54k stars (54,105) and about 6.1k forks since creation on 2025-04-13; as of 2026-11-22, 111 open issues and pull requests, pushed 2026-11-22 (side branches) with the default branch last committing 2026-11-12, release v6.12.4 (published 2026-10-14) still the newest release, and the default branch now carries a V7 preview alpha whose skills, install path, and docs change often, with the README's mid-November 2026 v7 ETA now lapsed without a v7 release (the line still stands in the README) while the frozen v6.12 line stays on its own branch; the two 10-14 patches fixed how registry-pinned modules (TEA at v1.27.2) interact with the installer's channel picker and dropped the `next` channel from the picker while `--next=CODE` stays headless-only.
+As of 2026-10-14: about 54k stars (54,105) and about 6.1k forks since creation on 2025-04-13; as of 2026-11-25, 115 open issues and pull requests, pushed 2026-11-25 (side branches) with the default branch last committing 2026-11-12, release v6.12.4 (published 2026-10-14) still the newest release, and the default branch now carries a V7 preview alpha whose skills, install path, and docs change often, with the README's mid-November 2026 v7 ETA now lapsed without a v7 release (the line still stands in the README) while the frozen v6.12 line stays on its own branch; the two 10-14 patches fixed how registry-pinned modules (TEA at v1.27.2) interact with the installer's channel picker and dropped the `next` channel from the picker while `--next=CODE` stays headless-only.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=bmad-code-org/BMAD-METHOD&type=date&theme=dark&legend=top-left" />

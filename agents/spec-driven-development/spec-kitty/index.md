@@ -1,9 +1,9 @@
 ---
 title: Spec Kitty
 created: 2026-10-06
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, worktrees, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, governance, worktrees, open-source, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers running more than one coding agent who want review gates, audit evidence, and parallel execution around a spec workflow.
@@ -24,7 +24,7 @@ Slash commands or skills integrate Claude Code, Codex, Cursor, Gemini, Copilot, 
 ## Status
 
 Active, company-backed, and mid-adoption.
-As of 2026-10-14: 1,681 stars and 180 forks since creation on 2025-10-09, MIT, stable PyPI release 3.2.7 (2026-09-09) and 2,540 PyPI downloads last month (re-read 2026-11-22, the rolling window moving again); as of 2026-11-22, pushed 2026-11-22 (the default branch carrying unreleased stale-lane sibling-recovery work) with the 4.x release-candidate line at v4.0.0rc8 (2026-11-09) still the newest, whose `upgrade` moves charter activation keys from `charter.yaml` and `config.yaml` into `.kittify/charter/activation.yaml` and renames the command skills from `spec-kitty.<command>` to `spec-kitty-<command>` so every Agent Skills harness loads them, following rc7 (2026-10-15), the breaking cut that renamed `doctrine` to `charter` across config, directories, and commands with no alias, whose README says stable launch acceptance remains pending and whose prerelease block now explains that a plain install gets the latest stable 3.x while the `--pre` flags install the latest 4.x candidate (the block that pinned rc2 as the test install until this run's re-read is gone).
+As of 2026-10-14: 1,681 stars and 180 forks since creation on 2025-10-09, MIT, stable PyPI release 3.2.7 (2026-09-09) and 2,540 PyPI downloads last month (re-read 2026-11-22, the rolling window moving again); as of 2026-11-25, pushed 2026-11-24 (the default branch carrying unreleased lane-cleanup work that writes the lane-tip ref before the branch is removed) with the 4.x release-candidate line at v4.0.0rc8 (2026-11-09) still the newest, whose `upgrade` moves charter activation keys from `charter.yaml` and `config.yaml` into `.kittify/charter/activation.yaml` and renames the command skills from `spec-kitty.<command>` to `spec-kitty-<command>` so every Agent Skills harness loads them, following rc7 (2026-10-15), the breaking cut that renamed `doctrine` to `charter` across config, directories, and commands with no alias, whose README says stable launch acceptance remains pending and whose prerelease block now explains that a plain install gets the latest stable 3.x while the `--pre` flags install the latest 4.x candidate (the block that pinned rc2 as the test install until this run's re-read is gone).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=spec-kitty/spec-kitty&type=date&theme=dark&legend=top-left" />

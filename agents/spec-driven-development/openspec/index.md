@@ -1,9 +1,9 @@
 ---
 title: OpenSpec
 created: 2026-08-27
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, spec-driven-development, specs, open-source, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers who want spec-driven development on an existing codebase rather than a greenfield scaffold.
@@ -30,7 +30,7 @@ Half of spec-kit's stars in a third of the time.
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Fission-AI/OpenSpec&type=date&legend=top-left" />
 </picture>
 
-As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, MIT; as of 2026-11-22, pushed 2026-11-22 with the default branch still sitting at the v2.1.1 release commit (2026-11-19), release v2.1.1 (2026-11-19) is the newest: v2.1.0 (2026-11-17) added global skill installs through Vercel's `skills` installer so a skill set installed once serves every project on the machine (with `openspec update` asking where a project's skills should live and new-repo `init --tools` defaulting to global), and v2.1.1 ships the skills inside the CLI package itself so installs need no Git or network, makes archive stop before touching main specs when the archive folder already exists, and extends `validate --strict`; the v2.0.0 break before them was distributional, not conceptual (the workflows themselves unchanged): skills install once into a shared `.agents/skills/` folder with links for tools that need them, the `/opsx:*` command files are removed (`/opsx:propose` became `/openspec-propose`), `openspec update` migrates a project and removes the old generated files while keeping the ones you edited, and Amazon Q Developer support is dropped because it cannot load skills, on top of v1.17.0's one-run `openspec update` that upgrades a project from any release since 0.12 without `--force` and announces that the command files go away in 2.0, v1.16.1's stricter and more forgiving validation (headings with a closing `#` run read the same as their unclosed forms, and validate fails and archive refuses when a delta spec puts a requirement under an unrecognized section instead of silently dropping it) and v1.15.0's standalone release binaries for macOS, Linux, and Windows, with 5,606,970 npm downloads last month (the 2026-10-23 to 2026-11-21 window, re-read 2026-11-22).
+As of 2026-10-14: about 71k stars (71,842) and about 4.9k forks since creation on 2025-08-05, MIT; as of 2026-11-25, pushed 2026-11-25 (side branches) with the default branch still sitting at the v2.2.0 release commit (2026-11-24), release v2.2.0 (2026-11-24) is the newest: a `/openspec` skill router (`$openspec` in Codex) that takes any OpenSpec request in plain words, picks the right one of the 12 workflow skills, answers status questions, and runs several steps in order while pausing wherever a step needs your approval, added by `openspec update` with no other skill changed, beside skills that can now ship a `references/` folder that `openspec update` repairs; before it v2.1.1 (2026-11-19): v2.1.0 (2026-11-17) added global skill installs through Vercel's `skills` installer so a skill set installed once serves every project on the machine (with `openspec update` asking where a project's skills should live and new-repo `init --tools` defaulting to global), and v2.1.1 ships the skills inside the CLI package itself so installs need no Git or network, makes archive stop before touching main specs when the archive folder already exists, and extends `validate --strict`; the v2.0.0 break before them was distributional, not conceptual (the workflows themselves unchanged): skills install once into a shared `.agents/skills/` folder with links for tools that need them, the `/opsx:*` command files are removed (`/opsx:propose` became `/openspec-propose`), `openspec update` migrates a project and removes the old generated files while keeping the ones you edited, and Amazon Q Developer support is dropped because it cannot load skills, on top of v1.17.0's one-run `openspec update` that upgrades a project from any release since 0.12 without `--force` and announces that the command files go away in 2.0, v1.16.1's stricter and more forgiving validation (headings with a closing `#` run read the same as their unclosed forms, and validate fails and archive refuses when a delta spec puts a requirement under an unrecognized section instead of silently dropping it) and v1.15.0's standalone release binaries for macOS, Linux, and Windows, with 5,663,236 npm downloads last month (the 2026-10-25 to 2026-11-23 window, re-read 2026-11-25).
 **Its Hacker News footprint is effectively empty (no significant thread found this run), so adoption spread through X and Discord, and third-party verification is thinner than the install count implies.**
 The README's own superlative ("the most loved spec framework") is vendor framing, not a measured claim.
 
@@ -82,6 +82,7 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 - 2026-11-12 - Recorded the v2.0.0 release (2026-11-11: skills install once into a shared `.agents/skills/` folder with links for tools that need them, the `/opsx:*` command files removed in favor of the `openspec-*` skills, the `delivery` setting retired, and Amazon Q Developer support dropped because it cannot load skills) and refreshed the volatile record (npm downloads 4,373,666 last month).
 - 2026-11-15 - Recorded the skipped v1.17.0 release (2026-11-09: `openspec update` upgrading a project from any release since 0.12 in one run, the 2.0 command-file notice, cleanup that never touches files outside the project or edited files, and a Windows installer fix), backfilling the train between v1.16.1 and v2.0.0.
 - 2026-11-21 - Recorded the v2.1.0 and v2.1.1 releases (2026-11-17 and 19: global skill installs through Vercel's `skills` installer, then skills shipping inside the CLI package with no Git or network needed, archive refusing to half-finish, and wider `validate --strict` checks) and refreshed the download count (5,669,156 last month).
+- 2026-11-25 - Recorded the v2.2.0 release (2026-11-24: the `/openspec` skill router that picks among the 12 workflow skills, answers status questions, and chains steps while pausing for approval, added by `openspec update` with no other skill changed, plus `references/` folders that `openspec update` repairs) and refreshed the download count (5,663,236 last month).
 
 ## See also
 
@@ -95,8 +96,8 @@ My disagreeable claim: the delta-archive idea is the one durable invention this 
 - https://github.com/Fission-AI/OpenSpec - README: philosophy, opsx workflow, artifact layout
 - https://api.github.com/repos/Fission-AI/OpenSpec - stars, forks, issues, releases through v1.14.1, as of 2026-10-14
 - https://openspec.dev/ - official documentation site
-- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 5,606,970 downloads last month (2026-10-23 to 2026-11-21 window), fetched 2026-11-22
-- https://api.github.com/repos/Fission-AI/OpenSpec/releases/latest - v2.1.1 (2026-11-19), fetched 2026-11-21
-- https://api.github.com/repos/Fission-AI/OpenSpec/releases - the release train grounding the v1.17.0 backfill (2026-11-09) and the v2.1.0-v2.1.1 pair, fetched 2026-11-21
+- https://api.npmjs.org/downloads/point/last-month/@fission-ai/openspec - 5,663,236 downloads last month (2026-10-25 to 2026-11-23 window), fetched 2026-11-25
+- https://api.github.com/repos/Fission-AI/OpenSpec/releases/latest - v2.2.0 (2026-11-24), fetched 2026-11-25
+- https://api.github.com/repos/Fission-AI/OpenSpec/releases - the release train grounding the v1.17.0 backfill (2026-11-09) and the v2.1.0-v2.1.1 pair and the v2.2.0 router, fetched 2026-11-25
 - https://openspec.dev/docs/upgrade-to-2 - the 2.0 upgrade guide: the command-to-skill mapping, what `openspec update` removes and keeps, and the 1.x pin
 - https://github.com/Fission-AI/OpenSpec/blob/main/docs/opsx.md - the rebuilt artifact workflow

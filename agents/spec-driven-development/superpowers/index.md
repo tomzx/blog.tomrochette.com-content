@@ -1,9 +1,9 @@
 ---
 title: Superpowers
 created: 2026-10-09
-updated: 2026-11-15
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, methodology, agent-skills, worktrees, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, methodology, agent-skills, worktrees, open-source, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers choosing a spec-first process layer and wondering what the movement's largest adoption figure actually is.
@@ -25,7 +25,7 @@ Prime Radiant, the applied research lab behind it, sells commercial support, add
 ## Status
 
 Large, active, and distribution-backed in a way no other column is.
-As of 2026-10-14: 298,672 stars, 26,695 forks, 328 open issues and pull requests, created 2025-10-09, MIT, newest release v7.0.2 (2026-11-03); pushed 2026-11-03 as of 2026-11-07 (GitHub API).
+As of 2026-10-14: 298,672 stars, 26,695 forks, 328 open issues and pull requests, created 2025-10-09, MIT, newest release v7.0.2 (2026-11-03); pushed 2026-11-24 as of 2026-11-25 (GitHub API, side branches: the default branch still sits at the v7.0.2 release commit).
 v7.0.0 shipped on the project's first anniversary with a rebuilt brainstorming skill that sizes the process to the work, running a quick task immediately, agreeing a small change in chat, or writing a full design document, and it replaces the spec-document reviewer with a builder check that reads the design as the person who will build it.
 v7.0.1 retuned that rebuild after users called the new questions formulaic: brainstorming now digs for context before it asks anything, lays out the approaches and writes the design doc before building (in the steward's own test, it skipped the doc unprompted in 24 of 24 runs before the fix and 3 of 24 after), three long skills were trimmed to survive Claude Code's 20,000-character compaction cutoff, and the contribution rules now require a human-written summary and refuse agent-written PRs that fix someone else's issue.
 v7.0.2 keeps tuning the same seam: brainstorming asks a question only when the answer would change what gets built, opens with why, and returns choices as options with a recommendation (filler questions down from 41 with 7.0.1 to 23 in blind-graded runs, with the why surfacing before any approach in 33 of 33 conversations), bootstrap delivery was fixed on six harnesses (Copilot on Windows among them), and the SDD and executing-plans helper scripts now refuse to act outside the repository you are in.

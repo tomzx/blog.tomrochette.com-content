@@ -1,9 +1,9 @@
 ---
 title: Intent-Router
 created: 2026-10-10
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, intent-specs, clarification, skills]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, intent-specs, clarification, skills, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers who get better spec adherence from agents by fixing the request itself, without adopting a full spec workflow.
@@ -23,7 +23,7 @@ The README positions it against plan modes (which prefer looking up over verifyi
 
 ## Status
 
-Oscillating under apparent engagement purges: 108 stars and 21 forks as of 2026-11-22 (GitHub API), created 2026-09-22, pushed 2026-11-08 with release v1.4.1 (2026-11-08) the newest of eleven published release entries (the rotation re-fetch found the v0.x entries published retroactively); v1.4.1 fixed the eval transcript splitter that cut a turn in half whenever a test runner echoed the command it had just run (the persisted transcript carrying the spec was silently dropped; splits now happen only at a command line immediately followed by its exit line, and unparseable transcripts fail with their file name instead of crashing), and made `--check-docs` verify the install command across the four independently edited surfaces it is written to, following v1.4.0 (2026-10-16), which trimmed the skill description to fit a 500-character harness cap whose truncation was dropping the negative predicates that keep auto-invocation off unnecessary work, and added a DeepSeek Harness eval channel plus a cross-session contract test case.
+Oscillating under apparent engagement purges: 108 stars and 21 forks as of 2026-11-22 (GitHub API), created 2026-09-22, pushed 2026-11-24 (a CI maintenance commit updating the gate actions) with release v1.4.1 (2026-11-08) the newest of eleven published release entries (the rotation re-fetch found the v0.x entries published retroactively); v1.4.1 fixed the eval transcript splitter that cut a turn in half whenever a test runner echoed the command it had just run (the persisted transcript carrying the spec was silently dropped; splits now happen only at a command line immediately followed by its exit line, and unparseable transcripts fail with their file name instead of crashing), and made `--check-docs` verify the install command across the four independently edited surfaces it is written to, following v1.4.0 (2026-10-16), which trimmed the skill description to fit a 500-character harness cap whose truncation was dropping the negative predicates that keep auto-invocation off unnecessary work, and added a DeepSeek Harness eval channel plus a cross-session contract test case.
 **The GitHub API read 1,017 stars and 124 forks on 2026-10-11, 158 and 46 on 2026-10-13, 239 and 51 on 2026-10-14, 89 and 17 on 2026-11-01, and 108 and 21 on 2026-11-22: a collapse fork counts cannot take organically, a one-day climb the same kind of engagement produces, a second fall, and now a climb spread over three weeks rather than the earlier one-day refills, which reads as repeated purges of inauthentic stars with refills in between, and the nineteen-day adoption-curve claim this note published stays retracted.**
 The refills do not hold, so the social signal still reads as an engagement war the steward keeps losing, and the independent footprint is still empty: a Hacker News search returns no thread about it as of 2026-11-22 (the eight hits are unrelated projects sharing the words).
 

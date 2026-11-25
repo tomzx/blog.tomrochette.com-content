@@ -1,9 +1,9 @@
 ---
 title: AI-DLC
 created: 2026-10-06
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, sdlc, multi-agent, workflow, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, spec-driven-development, sdlc, multi-agent, workflow, open-source, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers choosing a whole-lifecycle process layer for AI coding agents and wondering what AWS's own methodology looks like as running code.
@@ -17,14 +17,14 @@ AI-DLC is AWS Labs' harness-neutral implementation of the AI-Driven Development 
 ## What it is
 
 A MIT-0 repository and `aidlc` installer (no Bun or Node required) that packages one hand-authored methodology core into per-harness runtimes for Claude Code, Kiro CLI, Kiro IDE, Codex CLI, Cursor, opencode, and GitHub Copilot; you invoke `/aidlc <request>` and the engine routes it into one of 11 workflow profiles.
-The workflow spans 5 phases and 33 stages from initialization through operation, worked by 14 agents (11 domain experts, 2 reviewers, and an adaptive composer), stopping at human approval gates and recording a 131-event audit trail with persistent state and learned team rules.
+The workflow spans 5 phases and 33 stages from initialization through operation, worked by 14 agents (11 domain experts, 2 reviewers, and an adaptive composer), stopping at human approval gates and recording a 134-event audit trail with persistent state and learned team rules.
 The methodology behind the repo comes from AWS principal solutions architect Raja SP (blog post July 31, 2025): AI plans and asks, humans decide, teams elaborate together ("Mob Elaboration"), and sprints become "bolts" measured in hours or days.
 Amazon's own docs position it as the successor to retrofitting AI onto human processes, and the repo's provider story quietly favors the house: `aidlc config providers` can apply Amazon Bedrock settings, and Kiro needs no provider answer because model access comes with Kiro.
 
 ## Status
 
 Large and fast-moving for an eleven-month-old methodology repo.
-As of 2026-10-14: 5,173 stars and 939 forks, created 2025-11-13; as of 2026-11-22, pushed 2026-11-22 with 356 open issues and the default branch carrying unreleased work (traceability settling a criterion handed to another Unit only when that Unit builds it, live journey-test runs against AI-DLC's own tool, and the fixes the nightly previews carry since: a stage review no longer re-asks to allow a mkdir, a clone's first chat receives the team's and the project's rules before its first step, and a gate that opens on a failing check names the file holding the findings), stable release v2.11.4 (2026-11-13: one `--harness kiro` now serves Kiro IDE and Kiro CLI on its v3 engine, with Kiro CLI's V2 engine moved to `--harness kiro-v2` and the old `kiro-ide` name still working, breaking for scripts, and on Kiro you approve fewer of AI-DLC's commands, a long request pasted after `/aidlc` reaches the work whole, each team hand-over between people is one question, the three gaps 2.11.3 listed for team Units are closed, Inception reads your team's documents and asks only what they leave open, the knowledge base reads Word, Excel, and PDF files with nothing to install, Copilot CLI on Linux and macOS runs the routine commands without a dialog, plugins can add their own commands and house rules, and `/aidlc-issue-report` gathers what a run left behind with sensitive details removed) still the newest, on top of v2.11.3 (2026-11-04, the native `aidlc` binary built with Bun 1.4.4 fixing CVE-2026-111497 in the bundled Brotli decoder), MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
+As of 2026-10-14: 5,173 stars and 939 forks, created 2025-11-13; as of 2026-11-25, pushed 2026-11-25 with 361 open issues and the default branch carrying unreleased work (a traceability check that follows a target in a checkout recorded for the work, a review allowed to read the files of such a checkout, each Unit's test command recorded to run as written from the workspace root, traceability settling a criterion handed to another Unit only when that Unit builds it, live journey-test runs against AI-DLC's own tool, and the fixes the nightly previews carry since: a stage review no longer re-asks to allow a mkdir, a clone's first chat receives the team's and the project's rules before its first step, and a gate that opens on a failing check names the file holding the findings), stable release v2.11.4 (2026-11-13: one `--harness kiro` now serves Kiro IDE and Kiro CLI on its v3 engine, with Kiro CLI's V2 engine moved to `--harness kiro-v2` and the old `kiro-ide` name still working, breaking for scripts, and on Kiro you approve fewer of AI-DLC's commands, a long request pasted after `/aidlc` reaches the work whole, each team hand-over between people is one question, the three gaps 2.11.3 listed for team Units are closed, Inception reads your team's documents and asks only what they leave open, the knowledge base reads Word, Excel, and PDF files with nothing to install, Copilot CLI on Linux and macOS runs the routine commands without a dialog, plugins can add their own commands and house rules, and `/aidlc-issue-report` gathers what a run left behind with sensitive details removed) still the newest, on top of v2.11.3 (2026-11-04, the native `aidlc` binary built with Bun 1.4.4 fixing CVE-2026-111497 in the bundled Brotli decoder) and v2.11.2 (2026-10-28, breaking for scripts), MIT-0 licensed, documented at [awslabs.github.io/aidlc-workflows](https://awslabs.github.io/aidlc-workflows/).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=awslabs/aidlc-workflows&type=date&theme=dark&legend=top-left" />
@@ -37,7 +37,7 @@ As of 2026-10-14: 5,173 stars and 939 forks, created 2025-11-13; as of 2026-11-2
 ## Strengths
 
 - The only column here that spans the whole lifecycle, requirements through operations, instead of stopping at tasks or specs.
-- Approval gates and a 131-event audit trail are engine features, not conventions, so the gates hold across every supported harness the same way.
+- Approval gates and a 134-event audit trail are engine features, not conventions, so the gates hold across every supported harness the same way.
 - One methodology core with generated per-harness runtimes means a team on mixed agents runs one process, the same bet Spec Kit makes with more machinery.
 - Workflow profiles (Classic, Express, and focused variants for bugs, infrastructure, security, proofs of concept) size the ceremony without dropping the gates.
 
@@ -74,6 +74,8 @@ Not for solo work, and not for anyone who wants a process layer with no vendor's
 - 2026-10-31 - Rotation re-verification of every cited source (all alive): recorded the stable v2.11.2 release (2026-10-28, breaking for scripts), the audit trail's growth to 131 events per the README, and the Hacker News footprint's largest thread (29 points, 22 comments, 2026-10-15).
 - 2026-11-07 - Recorded the stable v2.11.3 release (2026-11-04: the native aidlc binary rebuilt on Bun 1.4.4 fixing CVE-2026-111497, team Units end to end, and quote-preserving records) and refreshed the status date.
 - 2026-11-13 - Recorded the stable v2.11.4 release (2026-11-13: the Kiro harness unified across IDE and CLI on the v3 engine with Kiro CLI's V2 engine moved to --harness kiro-v2, breaking for scripts, fewer Kiro command approvals, one-question team hand-overs, the team-Units gaps closed, Inception reading team documents, a knowledge base that reads Word, Excel, and PDF files, plugin-added commands and house rules, and /aidlc-issue-report) and refreshed the status date.
+- 2026-11-25 - Rotation re-verification of every cited source (all alive, v2.11.4 still the newest stable release): restored the v2.11.2 release (2026-10-28, breaking for scripts) to the Status release chain, which the 2026-11-07 edit had dropped, and refreshed the status date.
+- 2026-11-25 - Moved the audit trail's count from 131 to 134 events per the repository README.
 
 ## See also
 
@@ -89,5 +91,5 @@ Not for solo work, and not for anyone who wants a process layer with no vendor's
 - https://awslabs.github.io/aidlc-workflows/ - the documentation site: guides, stage reference, agent deep dives
 - https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/ - the methodology announcement by Raja SP, July 31, 2025
 - https://wakamoleguy.com/p/ai-dlc-solves-wrong-bottleneck - the critical essay on where the bottleneck actually sits, fetched 2026-10-06
-- https://api.github.com/repos/awslabs/aidlc-workflows/releases - the release train: stable v2.11.4 (2026-11-13) with its Kiro unification and script-breaking compatibility notes, re-fetched 2026-11-22 (nightly v2.11.5 previews after it carry the default branch's unreleased work)
+- https://api.github.com/repos/awslabs/aidlc-workflows/releases - the release train: stable v2.11.4 (2026-11-13) with its Kiro unification and script-breaking compatibility notes, re-fetched 2026-11-25 (nightly v2.11.5 previews after it, the newest preview.20261124.1 published 2026-11-25, carry the default branch's unreleased work)
 - https://hn.algolia.com/api/v1/search?query=AI-DLC&tags=story - the thin HN footprint, largest thread 29 points and 22 comments (2026-10-15)
