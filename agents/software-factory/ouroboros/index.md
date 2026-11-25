@@ -1,9 +1,9 @@
 ---
 title: Ouroboros
 created: 2026-08-30
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, verification, self-improving-agents, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, software-factory, verification, self-improving-agents, open-source]
 readability: 3
 audience_notes: >
   Engineers who want coding agents to produce verified software from vague briefs, and who worry about agents grading their own homework.
@@ -24,7 +24,7 @@ MIT, by Ouro Labs (Q00), solo-maintained with around 80 contributors.
 
 ## Status
 
-Very young, very active: 6,214 stars as of 2026-10-13, 636 forks and 109 open issues as of 2026-11-22, created 2026-01-14, pushed 2026-11-22 (main active through 2026-11-22).
+Very young, very active: 6,214 stars as of 2026-10-13, 636 forks and 109 open issues as of 2026-11-22, created 2026-01-14, pushed 2026-11-23 (main active through 2026-11-23).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Very young, very active: 6,214 stars as of 2026-10-13, 636 forks and 109 open is
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Q00/ouroboros&type=date&legend=top-left" />
 </picture>
 
-Latest release v0.65.2 on 2026-11-22 (GitHub and PyPI), after the v0.65.0 through v0.65.2 run of 2026-11-21 to 2026-11-22 (a run feature that plays the built app in a browser and fixes what the screen shows, a fix for playing a typed entry submitted with Enter, and a completion pass whose play sees what a first-time user sees), before them the v0.64.0 of 2026-11-21, after the v0.61.0 minor of 2026-11-17 (model passthrough: every run uses the agent runtime's own model, no model-id swaps and no requests the model would reject), the v0.62.0 minor of 2026-11-19 (Auto drops its Seed review stage and pre-run checks), and the v0.63.0 minor of 2026-11-20 (orchestrator and evaluation fixes, the mechanical stage killing a timed-out command's process group); before them, the v0.60.0 console release of 2026-11-13: a browser console (`ouroboros gui`) that the installer opens by itself, with interview, Auto, and Ask chat modes, a shared-MCP option, five languages, 26 measured hot-path fixes (the 3,000-session activity snapshot fell from 47 seconds to 107 milliseconds), and docs-drift checks that fail the PR that causes them; before it, the v0.59.9 patch of 2026-10-25 (routine verification, provider, and updater fixes), the v0.59.8 patch of 2026-10-23 (artifact-store path safety, interview, and MCP fixes), the v0.59.4 through v0.59.7 patches of 2026-10-21 to 2026-10-23 (each keeping only sourced Seed content in the worker prompt and tightening context-pack manifest reporting), the v0.59.0 minor of 2026-10-19 (the self-answer investigates the repository and binds only checked evidence), the v0.58.0 minor of 2026-10-17 (only confirmed content binds the Seed, and the verify gate needs a signal), and the v0.57.x and v0.56.x lines before them; PyPI self-labels it Beta and carries 0.65.2 as well.
+Latest release v0.65.7 on 2026-11-23 (GitHub and PyPI), after the v0.65.3 through v0.65.7 patches of 2026-11-22 to 2026-11-23 (the completion pass kept from leaving an app that looks unfinished or worse than before and keeping the best played version, Auto's research naming the product the request describes, and the completion pass shown on an Auto run's card), before them the v0.65.0 through v0.65.2 run of 2026-11-21 to 2026-11-22 (a run feature that plays the built app in a browser and fixes what the screen shows, a fix for playing a typed entry submitted with Enter, and a completion pass whose play sees what a first-time user sees), before them the v0.64.0 of 2026-11-21, after the v0.61.0 minor of 2026-11-17 (model passthrough: every run uses the agent runtime's own model, no model-id swaps and no requests the model would reject), the v0.62.0 minor of 2026-11-19 (Auto drops its Seed review stage and pre-run checks), and the v0.63.0 minor of 2026-11-20 (orchestrator and evaluation fixes, the mechanical stage killing a timed-out command's process group); before them, the v0.60.0 console release of 2026-11-13: a browser console (`ouroboros gui`) that the installer opens by itself, with interview, Auto, and Ask chat modes, a shared-MCP option, five languages, 26 measured hot-path fixes (the 3,000-session activity snapshot fell from 47 seconds to 107 milliseconds), and docs-drift checks that fail the PR that causes them; before it, the v0.59.9 patch of 2026-10-25 (routine verification, provider, and updater fixes), the v0.59.8 patch of 2026-10-23 (artifact-store path safety, interview, and MCP fixes), the v0.59.4 through v0.59.7 patches of 2026-10-21 to 2026-10-23 (each keeping only sourced Seed content in the worker prompt and tightening context-pack manifest reporting), the v0.59.0 minor of 2026-10-19 (the self-answer investigates the repository and binds only checked evidence), the v0.58.0 minor of 2026-10-17 (only confirmed content binds the Seed, and the verify gate needs a signal), and the v0.57.x and v0.56.x lines before them; PyPI self-labels it Beta and carries 0.65.2 as well.
 **Headline results are self-reported, its Hacker News threads are self-submitted with single-digit points, and no independent evaluation exists as of 2026-10-31.**
 An unrelated arXiv paper shares the name (a self-developing coding agent, arXiv 2608.08311), which muddies coverage searches for this project; the PyPI page now carries a naming note disclaiming that project (razzant/ouroboros) and any token.
 

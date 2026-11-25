@@ -1,9 +1,9 @@
 ---
 title: "HAR"
 created: 2026-08-29
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, software-factory, harness, multi-agent, worktrees]
+tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, llm=glm-5.4, software-factory, harness, multi-agent, worktrees]
 readability: 3
 audience_notes: >
   Engineers who run fleets of coding agents on one repo and want deterministic verification and proof of what ran.
@@ -21,7 +21,7 @@ It is harness-agnostic and works with Claude Code, Cursor, Codex, or any MCP-cap
 
 ## Status
 
-Active and shipping: 122 stars and 14 forks since creation on 2026-06-28, the train at v1.30.0 (2026-11-20) after v1.25.1 (2026-11-13) and v1.0.0 (2026-08-28, ten releases in the first week of September alone), and the last main push on 2026-11-20 per the GitHub API as of 2026-11-21.
+Active and shipping: 122 stars and 14 forks since creation on 2026-06-28, the train at v1.32.1 (2026-11-25) after v1.31.0 (2026-11-23), v1.30.0 (2026-11-20), v1.25.1 (2026-11-13), and v1.0.0 (2026-08-28, ten releases in the first week of September alone), and the last main push on 2026-11-25 per the GitHub API as of 2026-11-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=os-factory/har&type=date&theme=dark&legend=top-left" />
@@ -34,6 +34,7 @@ v1.16.1 (2026-11-03) pins Playwright at 1.64.1 for browser tests, a one-fix patc
 **The v1.16.2-through-v1.25.1 burst of 2026-11-09 to 2026-11-13 shipped twelve releases in five days, and its theme is slot-level telemetry and HQ integration: Claude usage is harvested per slot through Mission Control attribution (v1.20.0), cost comes from Claude Code's native metrics via hook spans (v1.21.0), LLM usage is attributed to slots per request through an evidence timeline (v1.22.0, ADR 0003), and that attribution then flows to the portal, with one org connection held at a time (v1.23.0), the evidence-timeline attribution shared with the portal (v1.24.0), Mission Control's attributed usage shipped to the portal (v1.25.0), and v1.25.1 claiming slot evidence that arrives before its slot while pricing Claude Opus 5.5 through genai-prices 0.2.3; beside it, agents get guidance for triaging occupied slots (v1.17.0), the harness reads AGENTS.md directly instead of scaffolding CLAUDE.md (v1.19.0), and the HQ portal moves onto Kerno's portal endpoints (v1.16.2, v1.18.0).**
 It carries a code of conduct, security policy, and a sponsor (Kerno, a runtime code tester for coding agents), which is a steadier footprint than the category's usual single-commit repo.
 The v1.25.2-through-v1.30.0 run (nine releases, 2026-11-15 to 2026-11-20) continues the same telemetry line and hands control to the slot: usage invariants with a check-usage sync gate and a usage-integrity line (v1.26.0 to v1.27.3, with otel-hook bumped 0.5.0 then 0.6.0 and Cursor usage carrying tokens), binding or changing a running slot's work unit (v1.28.0), a telemetry level chosen at onboarding that shows what HQ receives (v1.29.0), and a personal worktree on/off setting honoring HARNESS_USE_WORKTREE (v1.30.0).
+The v1.31.0-through-v1.32.1 run (2026-11-23 to 2026-11-25) is small and operational: pm2 is bundled and run directly instead of through npx (v1.31.0), the launcher pins a Node that satisfies the harness engines and `doctor` reports mismatches (v1.32.0), and v1.32.1 keeps every HQ sync request under the portal's size limit.
 
 ## Strengths
 
@@ -53,13 +54,16 @@ The v1.25.2-through-v1.30.0 run (nine releases, 2026-11-15 to 2026-11-20) contin
 
 Apache-2.0, free, installable from npm with no license cost.
 You bring the coding agents and their subscriptions, and Mission Control runs locally on your machine.
-HAR HQ, the hosted team layer, published its first pricing (as of 2026-09-18, re-verified 2026-11-14): Team at $400 per month for up to 50 users with $100 in monthly cloud credits included, and Enterprise custom with self-hosted or VPC deployment, SSO, SAML, SCIM, and SLAs.
+The core is free and Apache-2.0.
+**The hosted team layer is now branded Kerno Run and it no longer sells the per-seat Team plan (as of 2026-11-25): harhq.com describes Kerno Run as the team edition built on the same Apache-2.0 core, with the harness, gates, and contract identical and org workspaces, cost attribution, analytics, roles, alerts, and SSO added, priced pay as you go on credits at $1.00 a credit, where each verification run uses 0.2 credits and data ingestion uses 0.6 credits per million events kept for 12 months; Kerno Pro starts with a 14-day free trial with 100 credits, and Enterprise is billed by contract, with deployments in your own cloud account or VPC.**
+The page no longer names HAR HQ or the Team and Enterprise figures this note recorded from 2026-09-18 through 2026-11-21, and it does not date the change or name the SAML, SCIM, and SLA terms the earlier tiers listed.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-09-18 | HAR HQ Team | First published pricing: Team $400/mo for up to 50 users with $100 monthly cloud credits, Enterprise custom; the core stays Apache-2.0 free. | [harhq.com](https://harhq.com) |
+| 2026-11-25 | Kerno Run (the team layer formerly HAR HQ) | Team $400/mo with $100 monthly cloud credits no longer offered; pay as you go at $1.00 a credit (0.2 credits per verification run, 0.6 credits per million ingested events), Kerno Pro opening with a 14-day free trial of 100 credits, Enterprise billed by contract; first read 2026-11-25, the change itself undated on the page. | [harhq.com](https://harhq.com) |
 
 ## Compared to
 
@@ -91,6 +95,8 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - 2026-11-13 - Recorded the v1.16.2-through-v1.22.0 burst (eight releases, 2026-11-09 to 2026-11-13): per-slot Claude usage and cost telemetry through Mission Control attribution, native-metric hook spans, and a per-request evidence timeline (v1.20.0 to v1.22.0, ADR 0003), occupied-slot triage guidance (v1.17.0), AGENTS.md read directly instead of scaffolding CLAUDE.md (v1.19.0), and the HQ portal's move onto Kerno's endpoints (v1.16.2, v1.18.0); HAR HQ pricing re-verified unchanged.
 - 2026-11-14 - Recorded the burst reaching v1.25.1 (twelve releases, 2026-11-09 to 2026-11-13): the attribution line extended to the portal, with one org connection at a time (v1.23.0), evidence-timeline attribution shared with the portal (v1.24.0), Mission Control's attributed usage shipped to the portal (v1.25.0), and the out-of-order slot-evidence claim fix plus Claude Opus 5.5 pricing through genai-prices 0.2.3 (v1.25.1); HAR HQ pricing re-verified unchanged.
 - 2026-11-21 - Recorded the v1.25.2-through-v1.30.0 run (nine releases, 2026-11-15 to 2026-11-20): usage invariants with a check-usage sync gate and usage-integrity line (v1.27.0, otel-hook 0.5.0 and 0.6.0), work-unit binding or change on a running slot (v1.28.0), an onboarding telemetry-level choice showing what HQ receives (v1.29.0), and a personal worktree on/off setting honoring HARNESS_USE_WORKTREE (v1.30.0); pushed date refreshed and HAR HQ pricing re-verified unchanged (Team $400 with $100 monthly cloud credits, Enterprise custom).
+- 2026-11-25 - Recorded the v1.31.0-through-v1.32.1 run (2026-11-23 to 2026-11-25): pm2 bundled and run directly instead of through npx (v1.31.0), a pinned Node that satisfies the harness engines with `doctor` reporting mismatches (v1.32.0), and HQ sync requests kept under the portal's size limit (v1.32.1); pushed date refreshed to 2026-11-25.
+- 2026-11-25 - Recorded the hosted team layer's rename to Kerno Run and its repricing on harhq.com: the Team plan at $400 per month with $100 monthly cloud credits is no longer offered, replaced by pay as you go at $1.00 a credit (0.2 credits per verification run, 0.6 credits per million ingested events), a Kerno Pro 14-day free trial of 100 credits, and Enterprise billed by contract; the Price history table gained its row.
 
 ## See also
 
@@ -107,4 +113,4 @@ Not for a solo developer doing one agent at a time, where the harness alone is s
 - https://youtu.be/XKl4ZzWy7mQ - the introductory demo of the harness
 - https://github.com/os-factory/har/releases - the release cadence, v1.0.0 through v1.30.0
 - https://kerno.io - the sponsor that tests runtime code for coding agents, grounding the verification emphasis
-- https://harhq.com - the HAR HQ site, grounding the Team $400 per month and Enterprise custom tiers as of 2026-09-18 (re-verified unchanged 2026-11-21)
+- https://harhq.com - the hosted team layer's site, now titled Kerno Run, grounding the Team $400 per month and Enterprise custom tiers as of 2026-09-18 (re-verified unchanged through 2026-11-21) and the credit pricing read 2026-11-25

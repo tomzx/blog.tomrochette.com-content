@@ -1,9 +1,9 @@
 ---
 title: Open-Inspect
 created: 2026-11-07
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, background-agents, self-hosted, multi-agent]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, software-factory, background-agents, self-hosted, multi-agent]
 readability: 3
 audience_notes: >
   Engineers who want Ramp's Inspect pattern self-hosted: background sessions from Slack, GitHub, and
@@ -22,7 +22,7 @@ The project has 55 contributors and bilingual English and Chinese documentation.
 
 ## Status
 
-Young but growing: 3,467 stars since creation on 2026-01-25, pushed 2026-11-22, MIT, per the GitHub API as of 2026-11-22.
+Young but growing: 3,467 stars since creation on 2026-01-25, pushed 2026-11-24, MIT, per the GitHub API as of 2026-11-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=open-inspect/background-agents&type=date&theme=dark&legend=top-left" />
@@ -30,8 +30,9 @@ Young but growing: 3,467 stars since creation on 2026-01-25, pushed 2026-11-22, 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=open-inspect/background-agents&type=date&legend=top-left" />
 </picture>
 
-**There is no release train and no independent coverage: the repository publishes no GitHub release tags, so deployments track main, and a Hacker News search returns no story about it (2026-11-22).**
+**There is no release train and no independent coverage: the repository publishes no GitHub release tags, so deployments track main, and a Hacker News search returns no story about it (2026-11-25, seven hits, all unrelated stories).**
 The missing community footprint is itself the signal this note states, and the documentation is the counterweight: the security model, getting-started, and setup guides read as production runbooks, down to credential scoping, enforcement modes, and break-glass read paths.
+Main moved after the 2026-11-22 reading, with no release tag: since 2026-11-23 a personal access token can start and steer a session through the MCP server's `get_session`, `create_session`, and `send_prompt` (stopping, archiving, and pull request creation still refuse tokens), a Slack routing rule can start a session with no repository (2026-11-24), and Cloudflare Workers deploy separately from Terraform, per the changelog.
 
 ## Strengths
 
@@ -72,6 +73,7 @@ My disagreeable claim: per-session credential scoping makes Open-Inspect the saf
 - 2026-11-14 - Volatile re-verification: pushed date refreshed to 2026-11-14, the release list still empty, and the zero-coverage search re-run and holding; no material change.
 - 2026-11-21 - Volatile re-verification: pushed date refreshed to 2026-11-21, the release list still empty, and the zero-coverage search re-run and holding; no material change.
 - 2026-11-22 - Volatile re-verification: pushed date refreshed to 2026-11-22, the release list still empty, and the zero-coverage search re-run and holding; no material change.
+- 2026-11-25 - Rotation re-verification: every cited URL re-fetched (repository, getting-started guide, releases API, the Ramp builders post, and the Hacker News search) with no dead source; pushed date refreshed to 2026-11-24, the release list still empty, and the zero-coverage reading holding (seven unrelated hits); recorded the unreleased 2026-11-23 and 2026-11-24 additions from the changelog: token-driven session start and steering through the MCP server, Slack routing rules that start sessions with no repository, and a separate Cloudflare Worker deploy step.
 
 ## See also
 
@@ -84,6 +86,7 @@ My disagreeable claim: per-session credential scoping makes Open-Inspect the saf
 
 - https://github.com/open-inspect/background-agents - the README: the loop, intake surfaces, model routing, and the single-tenant security model
 - https://github.com/open-inspect/background-agents/blob/main/docs/GETTING_STARTED.md - the deployment runbook: Terraform, scoped sandbox credentials, fail-closed resolution, and the GitLab PAT caveat
+- https://github.com/open-inspect/background-agents/blob/main/CHANGELOG.md - the changelog entries for 2026-11-23 and 2026-11-24 (token-driven sessions, repository-less Slack routing, the Cloudflare deploy step)
 - https://api.github.com/repos/open-inspect/background-agents/releases - the empty release list grounding the no-release-train caution
 - https://hn.algolia.com/api/v1/search?query=open-inspect&tags=story - the footprint scan finding no story (2026-11-22)
 - https://builders.ramp.com/post/why-we-built-our-background-agent - Ramp's Inspect post, the pattern this project replicates, with its sandbox, attribution, and multiplayer design

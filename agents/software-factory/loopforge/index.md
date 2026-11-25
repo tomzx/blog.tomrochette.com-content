@@ -1,9 +1,9 @@
 ---
 title: LoopForge
 created: 2026-11-21
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, sop, workflow-engine, self-hosted, docker]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, software-factory, sop, workflow-engine, self-hosted, docker]
 readability: 3
 audience_notes: >
   Teams that want one saved, gated delivery workflow to carry every coding-agent requirement
@@ -23,7 +23,7 @@ Around the engine it adds a LoopForge Local edition (`npx loopforge-cli`) that r
 
 ## Status
 
-Active and trending: 5,352 stars as of 2026-11-21, 776 forks and 300 open issues as of 2026-11-22, since creation on 2026-07-28, pushed 2026-11-22, MIT (a Tencent LICENSE file that grants MIT beside a third-party-components list, which GitHub's classifier reads as no standard license), per the GitHub API.
+Active and trending: 5,352 stars as of 2026-11-21, 850 forks and 373 open issues as of 2026-11-25, since creation on 2026-07-28, pushed 2026-11-25, MIT (a Tencent LICENSE file that grants MIT beside a third-party-components list, which GitHub's classifier reads as no standard license), per the GitHub API.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Tencent/LoopForge&type=date&theme=dark&legend=top-left" />
@@ -31,9 +31,10 @@ Active and trending: 5,352 stars as of 2026-11-21, 776 forks and 300 open issues
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Tencent/LoopForge&type=date&legend=top-left" />
 </picture>
 
-**The train moves weekly (v0.3.6 on 2026-11-11, v0.3.8, v0.4.0 on 2026-11-17, v0.4.1-rc.1 on 2026-11-20), 16 contributors commit to it, and the launch drew third-party writeups, though no Hacker News story exists about it (the search's hits name the unrelated LoongForge, 2026-11-22).**
+**The train moves weekly (v0.3.6 on 2026-11-11, v0.3.8, v0.4.0 on 2026-11-17, v0.4.1-rc.1 on 2026-11-20, v0.4.1, v0.4.2 on 2026-11-23), 16 contributors commit to it, and the launch drew third-party writeups, though no Hacker News story exists about it (the search's hits name the unrelated LoongForge, 2026-11-22).**
 The breakout was mid-November 2026: roughly 700 stars with 174 gained in one day around 2026-11-14 per the GitHub counters third-party coverage cites, and the repository's trendshift badge now sits in the README.
 Independent coverage is young and thin: a podcast walkthrough of the Compose install, a directory listing, and one substantive third-party review, whose critical read is the closest thing to evaluation the platform has.
+v0.4.2 (2026-11-23) brings pure-AI decisions with custom CLI or API reviewers to assisted approval review, and main past it (unreleased, 2026-11-24 to 2026-11-25) added project-scoped sandbox credentials, shared execution machines with separate CLI model catalogs, Feishu and DingTalk chat bots with web-confirmed writes, and tokens for generic HTTP repositories, per the release notes and commit history.
 
 ## Strengths
 
@@ -70,6 +71,7 @@ Not for a solo developer inside one harness, not for multi-tenant exposure, and 
 
 - 2026-11-21 - Created from the varun1505 2026-11-14-through-11-19 sweep resolution (the list's Tencent/LoopForge entry, 5,352 stars as of 2026-11-21), admitted on the SuperPlane platform line with the stored-SOP loop as the differentiator and the zero-HN footprint recorded.
 - 2026-11-22 - Volatile re-verification: pushed date and counts refreshed (776 forks, 300 open issues), the release train unchanged (v0.4.1-rc.1, 2026-11-20, still the newest tag), the zero-HN search re-run and holding; recorded the 2026-11-21 CodeBuddy optionalization the README and deployment doc now carry (every model picker accepts the supported CLIs' models through CLI-prefixed IDs with CodeBuddy still the fallback default, scheduled prompts use the schedule's CLI, the platform runs without a CodeBuddy install or key once its workflows use others, and the production image bundles Codex, DeepSeek Harness, and by default CodeBuddy, optional on source builds), with the What-it-is roster line and the CodeBuddy caution rewritten.
+- 2026-11-25 - Recorded v0.4.2 (2026-11-23: assisted approval review with pure-AI decisions and custom CLI or API reviewers) as the newest tag and the unreleased main batch after it (project-scoped sandbox credentials, shared execution machines with separate CLI model catalogs, Feishu and DingTalk chat bots with web-confirmed writes, generic HTTP repository tokens); pushed date refreshed to 2026-11-25.
 
 ## See also
 

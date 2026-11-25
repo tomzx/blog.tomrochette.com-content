@@ -1,9 +1,9 @@
 ---
 title: SuperPlane
 created: 2026-10-07
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, orchestration, self-hosted]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, software-factory, orchestration, self-hosted]
 readability: 3
 audience_notes: >
   Engineers comparing end-to-end factories that turn backlog issues into verified pull requests.
@@ -21,7 +21,7 @@ The core is Apache-2.0 with integrations across source control, CI, cloud, obser
 
 ## Status
 
-Active: 7,709 stars as of 2026-10-14, 712 forks and 296 open issues as of 2026-11-21, pushed 2026-11-21 while main's newest commit is the 2026-11-20 subscription-models fix for custom automations, per the GitHub API.
+Active: 7,709 stars as of 2026-10-14, 712 forks and 296 open issues as of 2026-11-21, pushed 2026-11-24 while main's newest commit is the 2026-11-24 automation-moves-across-stages fix, with stage auto-advance for factory lines (#9509) merged the same day and unreleased, per the GitHub API as of 2026-11-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superplanehq/superplane&type=date&theme=dark&legend=top-left" />

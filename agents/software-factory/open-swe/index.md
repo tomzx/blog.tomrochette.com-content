@@ -1,9 +1,9 @@
 ---
 title: Open SWE
 created: 2026-11-07
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, software-factory, async-coding-agent, langchain, multi-agent]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, software-factory, async-coding-agent, langchain, multi-agent]
 readability: 3
 audience_notes: >
   Engineers comparing platform factories that turn issues, Slack threads, and PR conversations into
@@ -22,7 +22,7 @@ It is built by LangChain, and the README states plainly that it is under active 
 
 ## Status
 
-Active and heavily pushed: 11,177 stars since creation on 2025-05-21, pushed 2026-11-22, MIT, per the GitHub API as of 2026-11-22.
+Active and heavily pushed: 11,177 stars since creation on 2025-05-21, pushed 2026-11-25, MIT, per the GitHub API as of 2026-11-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=langchain-ai/open-swe&type=date&theme=dark&legend=top-left" />
