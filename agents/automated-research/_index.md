@@ -43,6 +43,7 @@ Where the research loop itself runs autonomously: the labs' science programs, th
 - [OpenAI for Science](openai-for-science/index.md) - the lab program from FrontierMath's first open-problem solve to the disputed Navier-Stokes claim, as of 2026-09-13.
 - [OpenResearch](openresearch/index.md) - alphaXiv's MIT local-first workspace that turns Claude Code, Codex, OpenCode, Cursor, or Antigravity into research agents with an experiment tree and an autonomous loop, 7,234 stars as of 2026-10-21.
 - [Pion](pion/index.md) - Andon Labs' closed research preview where persistent agents run a real business with payment tools, the Vending-Bench lineage made product.
+- [Reef](reef/index.md) - the Human-Agent Society Apache-2.0 inference server for continual self-improvement, where every response carries a receipt that later feedback cites and accepted weight and harness updates publish into a versioned release chain, 7,627 stars as of 2026-11-25.
 - [Sakana AI Scientist](sakana-ai-scientist/index.md) - the idea-to-paper ancestor whose v2 produced the first fully AI-generated paper to pass a workshop peer review, withdrawn from publication by design, its write-up published in Nature in March 2026 and its loop continued on 2026-10-11 by the Apache-2.0 coding-agent orchestrator v3, v1/v2 dormant since 2025-12-19, 7,294 stars as of 2026-10-11.
 
 Its members are compared on shared rows in the [Automated Research Feature Matrix](automated-research-feature-matrix/index.md).
@@ -83,3 +84,4 @@ Its members are compared on shared rows in the [Automated Research Feature Matri
 - 2026-10-23 - Added AutoKernel.
 - 2026-10-28 - Added Evo.
 - 2026-10-29 - Added InternAgent.
+- 2026-11-25 - Added Reef.

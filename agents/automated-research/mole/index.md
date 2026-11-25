@@ -1,9 +1,9 @@
 ---
 title: Mole
 created: 2026-10-12
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, deep-research, budget-enforcement, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, automated-research, deep-research, budget-enforcement, open-source]
 readability: 3
 audience_notes: >
   Engineers who want deep-research runs with hard cost ceilings and checkable claims, and anyone comparing enforcement-based trust mechanisms.
@@ -23,7 +23,7 @@ The privacy boundary covers local data too: point it at a CSV or a folder and th
 
 ## Status
 
-Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-11-08 (an unreleased report batch: the report now leads with the correction of the headline figure and a new rule forbids ratios, multiples, and orders of magnitude no finding states, a figure inside the other claim's range is downgraded from contradiction to neither, follow-ups order by their share of the question's subject terms, `mole report <session> --save` stores a rewritten report on the session, an optional report role runs with its own provider, mole talks to OpenAI's API directly with gpt-6.1-sol priced, `--print-prompt` and `--body-file` serve writers outside mole, and a receipt fix checks quotes against the stored source text), on top of the November 1 doctor test-hygiene PR and the six-PR unreleased batch merged October 31 (the planner now traces its headline figure to its origin and stops on evidence rather than claim count, the miner extracts corrections and caveats outside the per-source claim cap, every call is bounded by the session deadline and a deadline-cut lead no longer reads as a failure, the run fails fast when the model or search provider refuses the account, leads search with short keyword queries, and verifier concurrency became tunable, on top of the earlier verifier work judging contradictions from the quote with same-quantity-first ordering and treating competing estimates of one quantity as contradictions), releases v0.1.0 (2026-08-13), v0.2.0 (2026-10-10), and v0.2.1 (2026-10-13) still the latest, as of 2026-11-11.
+Active and young: 314 stars, 20 forks, created 2026-08-01, last pushed 2026-11-08 (the report batch v0.3.0 has since shipped: the report now leads with the correction of the headline figure and a new rule forbids ratios, multiples, and orders of magnitude no finding states, a figure inside the other claim's range is downgraded from contradiction to neither, follow-ups order by their share of the question's subject terms, `mole report <session> --save` stores a rewritten report on the session, an optional report role runs with its own provider, mole talks to OpenAI's API directly with gpt-6.1-sol priced, `--print-prompt` and `--body-file` serve writers outside mole, and a receipt fix checks quotes against the stored source text), on top of the November 1 doctor test-hygiene PR and the six-PR batch merged October 31 that the same release shipped (the planner now traces its headline figure to its origin and stops on evidence rather than claim count, the miner extracts corrections and caveats outside the per-source claim cap, every call is bounded by the session deadline and a deadline-cut lead no longer reads as a failure, the run fails fast when the model or search provider refuses the account, leads search with short keyword queries, and verifier concurrency became tunable, on top of the earlier verifier work judging contradictions from the quote with same-quantity-first ordering and treating competing estimates of one quantity as contradictions), releases v0.1.0 (2026-08-13), v0.2.0 (2026-10-10), and v0.3.0 (2026-11-24) the latest, with no commit on main since November 8, as of 2026-11-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=lajosdeme/mole&type=date&theme=dark&legend=top-left" />
@@ -48,6 +48,7 @@ The v0.2.1 release note of 2026-10-13 discloses a pricing bug that table could n
 - The strict pricing policy refuses `--usd` sessions when a model has no registered price, so unpriced models force token-budget mode where search costs cannot be bounded.
 - The name is contested ground: an unrelated tw93/Mole and a macOS cleanup app called Mole shadow every search, and the launch thread's top replies called for a rename.
 - The toolkit budget originally bounded nothing; the phase-review commit of 2026-08-12 records four independent reviews finding the reserve-settle path missing, fixed the same day.
+- v0.3.0 migrates the session database forward automatically, and before 1.0 there are no down-migrations, so keep a copy of the database if you might go back to v0.2.x; its macOS binaries are unsigned.
 
 ## Pricing
 
@@ -73,6 +74,7 @@ Not for anyone needing a mature, independently evaluated tool: the project is on
 - 2026-11-05 - Recorded the November 1 doctor test-hygiene PR and reworded the README weak-spots table reference (banned-term cleanup).
 - 2026-11-11 - Volatile re-verification: recorded the November 6-8 unreleased batch (an optional report role with its own provider, OpenAI API support with gpt-6.1-sol priced, --print-prompt and --body-file for writers outside mole, and the receipt fix checking quotes against the stored source text), with the push date moved; v0.2.1 remains the latest release.
 - 2026-11-22 - Rotation re-verification: status unchanged (last push still 2026-11-08, v0.2.1 still the latest release); every cited URL re-fetched, all live.
+- 2026-11-25 - Volatile re-verification: recorded v0.3.0 (published 2026-11-24 09:11 UTC), the latest release, shipping the October 31 and November 6-8 batches the note had read as unreleased (figure tracing, kept qualifiers, session-bounded calls, quote-judged contradictions with a stricter re-check model, correction-first reports, a provider per role, OpenAI API support, the quote receipt), with no commit on main since November 8; added its upgrade caution (the session database migrates forward only, macOS binaries unsigned).
 
 ## See also
 
@@ -86,7 +88,8 @@ Not for anyone needing a mature, independently evaluated tool: the project is on
 - https://github.com/lajosdeme/mole - repository, Apache-2.0, 314 stars as of 2026-10-15, last push 2026-11-06 (push and release train re-checked via the API 2026-11-07)
 - https://raw.githubusercontent.com/lajosdeme/mole/main/README.md - the loop, the reserve-settle ledger, the verbatim-quote gate, the privacy boundary, and the numbers table with its own failure rates (fetched 200, 2026-10-15)
 - https://news.ycombinator.com/item?id=49303046 - the 100-point, 14-comment launch thread with the rename calls and the budget-enforcement question (fetched via the Algolia API, 2026-10-12)
-- https://api.github.com/repos/lajosdeme/mole/releases - the release train through v0.2.1 (2026-10-13), still the latest, whose note discloses the ledger pricing fix (fetched 200, 2026-11-07)
+- https://api.github.com/repos/lajosdeme/mole/releases - the release train through v0.2.1 (2026-10-13) at the 2026-11-07 fetch, superseded by v0.3.0 on 2026-11-24, whose note discloses the ledger pricing fix (fetched 200, 2026-11-07)
 - https://api.github.com/repos/lajosdeme/mole/commits?since=2026-11-01T00:00:00Z&per_page=20 - the November 6 report-corrections batch behind that refresh: correction-first report openings with no derived arithmetic, range-aware contradiction downgrades, question-relevant follow-up ordering, and the report --save rewrite command (fetched 200, 2026-11-07)
 - https://api.github.com/repos/lajosdeme/mole/commits?since=2026-11-07T00:00:00Z&per_page=20 - the November 8 report-role, OpenAI-support, and receipt fixes behind this refresh (fetched 200, 2026-11-11)
 - https://github.com/lajosdeme/mole/commit/00b9f4e - the phase-review commit recording that the toolkit budget originally bounded nothing (fetched 200 via the API, 2026-10-12)
+- https://api.github.com/repos/lajosdeme/mole/releases/tags/v0.3.0 - the v0.3.0 release notes (published 2026-11-24 09:11 UTC): the research, contradiction, report, integrity, and upgrade sections (fetched 200 through the GitHub API, 2026-11-25)

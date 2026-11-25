@@ -1,9 +1,9 @@
 ---
 title: OpenAI for Science
 created: 2026-09-13
-updated: 2026-11-15
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, openai, mathematics, science]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, automated-research, openai, mathematics, science]
 readability: 3
 audience_notes: >
   Engineers tracking how frontier labs actually behave when they claim scientific results, and what to demand before believing one.
@@ -32,6 +32,7 @@ September 2026: OpenAI published a claimed proof of forced blow-up in R3 and T3 
 At DevDay on September 29, research lead Tejal Patwardhan said OpenAI's models have already helped solve more than 100 mathematics problems that had been open for decades, and Altman confirmed the September "automated research intern" goal set a year earlier was met.
 October 2026: OpenAI published the openai/math repository (created October 6), 722 manuscripts in 372 result families claimed from roughly 4,000 posed problems at an average three hours of ChatGPT Pro thinking compute each, with a matrix-multiplication upper bound near n^2.25 among the headlines; a sign error invalidated one construction and two papers that depended on it, withdrawn on October 7 to leave 719, fourteen others were revised, and about 42 percent of top-line results now carry Lean formalizations; on October 26 the catalogue grew to 721 manuscripts in 373 families with two added formalized results, a local-smoothing proof for the Euclidean wave equation and a claimed refutation of the Exponential Time Hypothesis, the latter released at the request of an independent working group led by Impagliazzo, Paturi, and Williams before its examination.
 October also produced the category's sharpest verification finding: a Cambridge and King's College London team posted (arXiv 2610.08144, October 6) that the Navier-Stokes Lean code does not match its written proof, proving a weaker Lemma 8.6 (a value below m + 5 where the paper states m + 4); the authors do not claim either proof wrong, New Scientist covered it as a mistranslation, OpenAI acknowledged the mismatch, and Kevin Buzzard separated the two, confident in the result and far less confident in the PDF.
+November 2026: Nature's November 20 report on the Riemann hypothesis proof recalls the Navier-Stokes episode as the year's earlier case of mathematicians using AI tools announcing that they had solved a Millennium problem, and notes that Buckmaster and Alpöge collaborated on a separate Navier-Stokes project; the Riemann proof itself is tracked in the [Anthropic Claude mathematical research](../anthropic-claude-math/index.md) note.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openai/ten-proofs&type=date&theme=dark&legend=top-left" />
@@ -83,6 +84,7 @@ Not a source of settled results as of 2026-10-12; the Navier-Stokes certificate 
 - 2026-10-12 - Recorded the October 6 openai/math release (722 manuscripts, three withdrawn over a sign error, about 42 percent formalized) and the lost-in-translation finding that the Navier-Stokes Lean code proves a weaker Lemma 8.6 than the written proof.
 - 2026-10-29 - Rotation re-verification: recorded the October 26 openai/math additions (the catalogue at 721 manuscripts in 373 families, a formalized local-smoothing proof for the wave equation, and the claimed ETH refutation released for the Impagliazzo-Paturi-Williams working group's examination).
 - 2026-11-15 - Rotation re-verification: all sixteen references re-fetched, no drift in any recorded fact; openai/math's only post-record commit (October 29) aligned one family's comparator declarations with its Lean solution while the catalogue stayed at 721 manuscripts in 373 families, and openai/ten-proofs is unchanged since its August 5 creation. The New Scientist article remains bot-walled (406 on this run's re-attempt); the fact it grounds is re-read through the Wikipedia controversy article, which cites it.
+- 2026-11-25 - Added Nature's November 20 report (updated November 23) as a reference: it recalls the Navier-Stokes episode as the year's earlier case of mathematicians using AI tools announcing a Millennium-problem solve, notes that Buckmaster and Alpöge collaborated on a separate Navier-Stokes project, and carries the Riemann hypothesis cross-reference.
 
 ## See also
 
@@ -109,3 +111,4 @@ Not a source of settled results as of 2026-10-12; the Navier-Stokes certificate 
 - https://github.com/openai/math - the manuscript catalogue: 721 in 373 families after the October 26 additions, the history with the sign-error retraction and the new-results entries, and the 42 percent formalization count; re-fetched 2026-11-15 with the October 29 comparator-declaration alignment the only post-record commit and the counts unchanged (fetched 200, 2026-10-29 and 2026-11-15)
 - https://arxiv.org/abs/2610.08144 - "Navier-Stokes lost in translation": the mistranslation argument and its solvability-hierarchy framing (fetched 200, 2026-10-12; re-fetched 200, 2026-10-29 and 2026-11-15)
 - https://www.newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof/ - the Lemma 8.6 m+4 versus m+5 finding and OpenAI's response (fetched 200, 2026-10-12; bot-walled to automated refetch on 2026-10-29 and again on 2026-11-15, still indexed; the fact re-grounded through the fetched Wikipedia controversy article, which cites this piece)
+- https://www.nature.com/articles/d41586-026-03812-7 - Nature's November 20, 2026 report on the Riemann hypothesis proof (updated November 23): its one-line framing of the year's Navier-Stokes announcement and the Buckmaster-Alpöge Navier-Stokes collaboration (fetched 200, 2026-11-25)

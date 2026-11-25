@@ -1,9 +1,9 @@
 ---
 title: EvoMap AutoResearch
 created: 2026-10-12
-updated: 2026-11-15
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, multi-agent, blind-review, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, automated-research, multi-agent, blind-review, open-source, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers comparing idea-to-paper pipelines and researchers studying where a repository's traction signals came from.
@@ -69,6 +69,7 @@ Not for production use: seven commits, no releases, and an unresolved attributio
 - 2026-10-12 - Created.
 - 2026-10-29 - Rotation re-verification: all six references re-fetched, no drift; the repository stands quiet since September 16 and the Karpathy-attribution challenge issue remains closed.
 - 2026-11-15 - Rotation re-verification: all six references re-fetched and live, and the paper byline corrected to the arXiv v4 header (Xiang Liu, Qumeng Sun, Bruno, Xiao Zhang, and Jiahao Li, with Haoyang Zhang the project leader); the previously recorded Yiming Ren and Junjie Wang names are not on the paper. The repository stands quiet since September 16 and the challenge issue remains closed.
+- 2026-11-25 - Rotation re-verification: five of six references re-fetched and live with no drift in any recorded fact (the arXiv v4 byline, the closed attribution-challenge issue, the repository quiet since September 16); the PR Newswire announcement now answers 403 to two fetch clients, so its citation stands with the wall recorded.
 
 ## See also
 
@@ -84,4 +85,4 @@ Not for production use: seven commits, no releases, and an unresolved attributio
 - https://arxiv.org/abs/2608.17906 - the paper "Insight In, Hallucination Out": the two-stage design and the v4 revision of 2026-09-17 (fetched 200, 2026-10-28 and 2026-11-15)
 - https://news.ycombinator.com/item?id=49697367 - the critical thread: 3,278 stars in a week, the unsigned Karpathy-attributed commit, and the skeptical replies (fetched via the Algolia API, 2026-10-28 and 2026-11-15)
 - https://github.com/EvoMap/AutoResearch/issues/8 - the September 12 challenge issue and the maintainer exchange (fetched 200 via the API, 2026-10-28 and 2026-11-15)
-- https://www.prnewswire.com/news-releases/evomap-open-sources-autoresearch-giving-ai-agents-a-way-to-test-their-own-research-ideas-302863058.html - the September 1 open-source announcement (fetched 200, 2026-10-28 and 2026-11-15)
+- https://www.prnewswire.com/news-releases/evomap-open-sources-autoresearch-giving-ai-agents-a-way-to-test-their-own-research-ideas-302863058.html - the September 1 open-source announcement (fetched 200, 2026-10-28 and 2026-11-15; 403 to curl and webfetch on 2026-11-25, citation kept)
