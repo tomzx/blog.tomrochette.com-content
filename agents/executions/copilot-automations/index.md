@@ -1,13 +1,13 @@
 ---
 title: GitHub Copilot automations
 created: 2026-08-24
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, executions, github-copilot, scheduling, llm=glm-5.3-flash]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, executions, github-copilot, scheduling, llm=glm-5.3-flash, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Teams on paid Copilot plans considering letting GitHub's cloud agent run itself on a schedule or on repository events.
-  Assumes you know what Copilot cloud agent is and how your repo's permissions work.
+  Assumes you know what Copilot cloud agent is (the agent that the earlier `coding-agent` documentation paths now redirect to) and how your repo's permissions work.
 ---
 
 Copilot automations run GitHub's Copilot cloud agent automatically, on a schedule (hourly, daily, weekly), in response to repository events (issue created, pull request opened or synchronized), or on an authenticated API call, without a person starting each task.
@@ -21,7 +21,11 @@ The type is permanent: it cannot be changed after creation.
 Automations can join groups that share context and propose improvements to their own or each other's tools, triggers, and prompts, with every proposal held for a person to accept or dismiss.
 Event triggers can also scope the run's writes to the triggering issue or pull request rather than the whole repository, and can exclude events triggered by Copilot in the cloud (including other automations) from firing the run.
 Every automation can also fire programmatically through an authenticated API call that can pass extra context into the prompt.
-Runs start Copilot cloud agent sessions in GitHub's ephemeral, Actions-powered environments, and can label issues, open draft pull requests, or push fixes to one repository.
+Runs start Copilot cloud agent sessions on GitHub Actions runners, with each run consuming Actions minutes, and can label issues, open draft pull requests, or push fixes to one repository.
+The agent those runs start is the one whose earlier documentation paths were filed under `coding-agent`; those paths now redirect to the cloud agent pages, so the Copilot coding agent name leads to the same agent this note schedules.
+Outside automations, a person starts the same agent by hand from a repository's Agents tab, the Copilot panel inside a file, issue, or pull request, the GitHub dashboard, or the Copilot home page, and it researches the repository, plans, edits, and tests in a cloud development environment before opening a pull request.
+Every session, whether it runs on GitHub Actions or in a cloud sandbox, works on one branch at a time and opens at most one pull request per task.
+This note covers the trigger layer; the [Copilot CLI](../../harnesses/copilot-cli/index.md) note covers the terminal half of the same Copilot platform.
 It ships with GitHub, on Copilot Pro, Pro+, Max, Business, and Enterprise plans, and requires only write access to create.
 
 ## Status
@@ -45,7 +49,7 @@ I found no independent benchmarking of automation quality; the community footpri
 - Automations are not committed to git, so they are not code-reviewed or versioned alongside the repository they act on.
 - Private or internal repositories only; public repositories are excluded entirely.
 - Billing for a personal automation lands on its creator (AI credits), a shared automation bills the repository owner, and Actions minutes bill to the repository owner either way; GitHub's own docs warn that approvals are "a workflow convenience, not a security control".
-- Each session is capped at 59 minutes and scoped to a single repository.
+- Each GitHub Actions-based session is capped at 59 minutes and scoped to one repository, and an automation run is such a session because each run consumes Actions minutes; a session in a cloud sandbox, the default environment where the newer Copilot in the cloud experience offers a choice, can work across multiple repositories, so the one-repository ceiling belongs to the Actions runner, not to the agent.
 
 ## Pricing
 
@@ -77,18 +81,21 @@ My disagreeable claim: shared automations fix the visibility hole on paper, but 
 - 2026-11-08 - Fully re-verified in rotation with every cited URL re-fetched: the personal-versus-shared type model, the API trigger and credit limits (per-run minimum 30), the not-committed-to-git storage, the public-preview rationale layer with the Cautious default and the verbatim approvals caveat, the automations risk section, and the 59-minute cap all re-confirmed unchanged; recorded the automation groups with self-proposed improvements (each proposal person-approved), the per-run write-scope option (Only this issue versus Anything in this repository), the Copilot-event trigger filter, and per-automation revision history.
 - 2026-11-14 - Fully re-verified in rotation with every cited URL re-fetched: the personal-versus-shared type model (permanent at creation, shared definitions team-visible and editable, runs visible to anyone with read access either way), the API trigger and credit limits (per-run minimum 30), the not-committed-to-git storage, the public-preview rationale layer with the Cautious default and the verbatim approvals caveat, the automations risk section, and the 59-minute Actions session cap all re-confirmed unchanged; the docs' new Copilot in the cloud experience (2026-10-28) leaves every automations claim untouched.
 - 2026-11-21 - Fully re-verified in rotation with every cited URL re-fetched: the personal-versus-shared type model (permanent at creation, shared definitions team-visible and editable, runs visible to anyone with read access either way), the API trigger and credit limits (per-run minimum 30), the not-committed-to-git storage, the public-preview rationale layer with the Cautious default and the verbatim approvals caveat, the automations risk section, and the 59-minute Actions session cap all re-confirmed unchanged; recorded that automation tools now include tools from repository-configured MCP servers beside GitHub tools, with the docs' own caveat that MCP-server tools are not limited to the automation's one repository.
+- 2026-11-25 - Fully re-verified out of rotation with every cited URL re-fetched: the personal-versus-shared type model, the triggers and filters, the API trigger and credit limits (per-run minimum 30), the MCP-server tools caveat, the not-committed-to-git storage, the rationale layer with the Cautious default and the verbatim approvals caveat, the security defaults, the draft-pull-request rule, and the Actions-based 59-minute cap all re-confirmed; recorded that the agent automations run is the one whose earlier `coding-agent` documentation paths now redirect to the cloud agent pages (the Copilot coding agent), its by-hand start surfaces (a repository's Agents tab, the Copilot panel, the GitHub dashboard, the Copilot home page), and the environment split (cloud sandbox sessions can work across multiple repositories while every session works on one branch and opens one pull request per task); reworded the session-cap caution and the environment wording to match the current docs, which ground Actions runners and drop the word ephemeral.
 
 ## See also
 
 - [GitHub Agentic Workflows](../github-agentic-workflows/index.md) - the in-repo, versioned, multi-engine alternative
 - [VS Code + Copilot](../../surfaces/vscode-copilot/index.md) - the interactive surface of the same Copilot platform
+- [Copilot CLI](../../harnesses/copilot-cli/index.md) - the terminal half of the same platform, where this note covers the hosted, event-triggered runs
 - [Claude Code hooks](../claude-code-hooks/index.md) - event triggers inside a harness versus hosted scheduled runs
 - [OpenChamber](../../surfaces/openchamber/index.md) - self-hosted scheduling with no per-run billing
 
 ## References
 
-- https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations - triggers, availability, visibility, personal and shared types, API trigger, automation groups and proposed improvements, GitHub and MCP-server tools, security model (re-fetched 2026-11-21)
-- https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/create-automations - creation flow, personal/shared choice, write-scope and Copilot-event trigger options, Run now testing, AI-credit limits, prompt warning (re-fetched 2026-11-21)
-- https://docs.github.com/en/copilot/concepts/security-governance-and-network-settings/risks-and-mitigations - the automations section of GitHub's risk model (re-fetched 2026-11-21)
-- https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automation-rationale-and-approvals - confidence levels and the approvals caveat (re-fetched 2026-11-21)
-- https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github - Actions-powered sessions, 59-minute cap, minutes and credits billing (re-fetched 2026-11-21)
+- https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automations - triggers, availability, visibility, personal and shared types, API trigger, automation groups and proposed improvements, GitHub and MCP-server tools, security model (re-fetched 2026-11-25)
+- https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/create-automations - creation flow, personal/shared choice, write-scope and Copilot-event trigger options, Run now testing, AI-credit limits, prompt warning (re-fetched 2026-11-25)
+- https://docs.github.com/en/copilot/concepts/security-governance-and-network-settings/risks-and-mitigations - the automations section of GitHub's risk model (re-fetched 2026-11-25)
+- https://docs.github.com/en/copilot/concepts/agent-capabilities/agent-powered-workflows-and-operations/about-automation-rationale-and-approvals - confidence levels and the approvals caveat (re-fetched 2026-11-25)
+- https://docs.github.com/en/copilot/concepts/copilot-surfaces/copilot-on-github - Actions-powered sessions, 59-minute cap, minutes and credits billing, plus the environment split (GitHub Actions-based sessions against cloud sandboxes), the by-hand session entry points, and one pull request per task (re-fetched 2026-11-25)
+- https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent - the agent's earlier `coding-agent` concept path, which now answers with a 301 redirect to the Copilot on GitHub page above (fetched 2026-11-25)
