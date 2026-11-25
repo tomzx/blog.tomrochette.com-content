@@ -1,9 +1,9 @@
 ---
 title: Parallel Code
 created: 2026-10-23
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, worktrees, desktop, multi-harness, electron]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, worktrees, desktop, multi-harness, electron]
 readability: 3
 audience_notes: >
   macOS or Linux engineers who run several CLI coding agents and want a desktop that
@@ -24,7 +24,7 @@ Around that loop it piles on review aids: a built-in diff viewer with inline com
 
 ## Status
 
-Active and solo-led: 1,060 stars, 144 forks, 23 contributors, and 48 open issues and pull requests on a repository created 2026-02-18, pushed 2026-11-21, with v5.1.0 (2026-10-29) the latest release after v5.0.0 (2026-10-25), the first after the v4 line's v4.0.0 (2026-10-10), v5.0.0 carrying task briefs with confidence ratings replacing Steps, a per-project Markdown Kanban board over live tasks and GitHub issues, background verify with a single readiness line, and Android quick replies back behind a button (GitHub API, releases, as of 2026-11-12).
+Active and solo-led: 1,060 stars, 144 forks, 23 contributors, and 48 open issues and pull requests on a repository created 2026-02-18, pushed 2026-11-24, with v5.1.0 (2026-10-29) the latest release after v5.0.0 (2026-10-25), the first after the v4 line's v4.0.0 (2026-10-10), v5.0.0 carrying task briefs with confidence ratings replacing Steps, a per-project Markdown Kanban board over live tasks and GitHub issues, background verify with a single readiness line, and Android quick replies back behind a button (GitHub API, releases, as of 2026-11-12). Main, pushed 2026-11-24, carries an unreleased batch: MCP previews of agent-suggested tasks before they start, with a guard on tasks the user is already acting on, document projects shown in a Terminals and docs lane, and a finish path that never merges locally past an open or undetected pull request (GitHub API, as of 2026-11-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=johannesjo/parallel-code&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,7 @@ Not for Windows users, not for teams that need multi-maintainer durability, and 
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-01; v5.1.0 still the latest release.
 - 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift, the push date already refreshed to 2026-11-12 in the volatile pass.
 - 2026-11-21 - Rotation re-verification (every cited URL re-fetched live: repo API, releases, the author's Super Productivity repo, README, the 2-point Show HN thread, and the demo video); claims hold, v5.1.0 still the latest release, the push date refreshed to 2026-11-21.
+- 2026-11-25 - Volatile refresh: the push date refreshed to 2026-11-24, v5.1.0 still the latest release; main's unreleased batch recorded (MCP previews of agent-suggested tasks before they start, document projects in a Terminals and docs lane, no local merge past an open or undetected pull request).
 
 ## See also
 

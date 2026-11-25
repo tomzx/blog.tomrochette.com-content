@@ -1,9 +1,9 @@
 ---
 title: Avante.nvim
 created: 2026-10-13
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, neovim, editor-agent]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, harness, neovim, editor-agent]
 readability: 3
 audience_notes: >
   Neovim users who want a Cursor-style agentic coder inside their editor instead of a separate CLI or fork.
@@ -22,7 +22,7 @@ Development is active with CI on both Lua and Rust, a Discord community, and rap
 
 ## Status
 
-Established and maintained: 18,183 stars, 858 forks, and 53 open issues as of 2026-10-13, with the default branch pushed 2026-11-21 (GitHub API, re-checked 2026-11-22) and the tagged train at v0.5.0 (October 31), the first feature release since v0.4.2, which began a backend refactor by moving ACP support from homemade Lua to a Rust library built on the official ACP SDK, with 0.6 slated to move the classical LLM API backend to Rust as well and a recommendation to pin tagged releases over nightly; the branch has kept that refactor moving since v0.5.0 (an ACP SDK 5.4 migration removing the custom transport, a `/usage` slash command, and pi and hermes joining the ACP provider roster with dynamic providers for ACP chats); before it, six release-engineering tags (v0.4.3 on October 20, v0.4.4 through v0.4.6 on October 23, and v0.4.7 and v0.4.8 on October 28) carried bodies touching only CI, luarocks packaging, and a lockfile version fix, so the newest prior feature release remains v0.4.2 (2026-10-19, hours after v0.4.1 the same morning), which added GPT-6 model family support, an ACP session list for listing and resuming agent sessions from `:Avante`, and provider-switcher filters, and dropped out-of-repository templates in a breaking change, plugin installs generally tracking the branch.
+Established and maintained: 18,183 stars, 858 forks, and 53 open issues as of 2026-10-13, with the default branch pushed 2026-11-24 (GitHub API, as of 2026-11-25) and the tagged train at v0.5.0 (October 31), the first feature release since v0.4.2, which began a backend refactor by moving ACP support from homemade Lua to a Rust library built on the official ACP SDK, with 0.6 slated to move the classical LLM API backend to Rust as well and a recommendation to pin tagged releases over nightly; the branch has kept that refactor moving since v0.5.0 (an ACP SDK 5.4 migration removing the custom transport, a `/usage` slash command, and pi and hermes joining the ACP provider roster with dynamic providers for ACP chats, then, from November 21 to 24, attached images sent as image content, common generation parameters mapped to Rig options with a notice for unsupported provider generation settings, cascading provider configuration inheritance, drag-and-drop filenames added to context, and three breaking refactors in `:AvanteModels` and the providers: `[timeout]` becoming `--timeout`, input and selector provider switching dropped, and hardcoded generation defaults removed with API routing updated); before it, six release-engineering tags (v0.4.3 on October 20, v0.4.4 through v0.4.6 on October 23, and v0.4.7 and v0.4.8 on October 28) carried bodies touching only CI, luarocks packaging, and a lockfile version fix, so the newest prior feature release remains v0.4.2 (2026-10-19, hours after v0.4.1 the same morning), which added GPT-6 model family support, an ACP session list for listing and resuming agent sessions from `:Avante`, and provider-switcher filters, and dropped out-of-repository templates in a breaking change, plugin installs generally tracking the branch.
 **Its adoption is the oldest story in this wave: a 300-point Hacker News launch thread in August 2024, sustained directory and community coverage since, which makes it one of the few editor-extension harnesses with a proven multi-year footprint.**
 The repository moved from the author's personal account to the avante-corp organization, the ordinary sign of a project outgrowing one maintainer.
 
@@ -75,6 +75,7 @@ Not for team governance needs, scheduled or cloud execution, or anyone unwilling
 - 2026-11-08 - Rotation re-verification, every cited reference live: v0.5.0 (October 31) still the newest tag, the yetone location confirming the avante-corp redirect, and the push date refreshed to 2026-11-08.
 - 2026-11-15 - Rotation re-verification, re-fetching every cited reference (all live): v0.5.0 remains the newest tag with default-branch development continuing (ACP provider exposure and a history-storage refactor), and the push date refreshed to 2026-11-12.
 - 2026-11-20 - Recorded the default-branch refactor continuing past v0.5.0: the ACP migration reaching SDK 5.4 with the custom transport removed, a new `/usage` slash command, and pi and hermes ACP providers with dynamic provider support for ACP chats; push date refreshed to 2026-11-20, against the default branch's commit history.
+- 2026-11-25 - Recorded the default-branch refactor continuing from November 21 to 24: attached images sent as image content, common generation parameters mapped to Rig options with a notice for unsupported provider generation settings, cascading provider configuration inheritance, drag-and-drop filenames added to context, the `:AvanteModels` parser rewritten with `[timeout]` becoming `--timeout` (breaking), input and selector provider switching dropped (breaking), and hardcoded generation defaults removed with API routing updated (breaking), with v0.5.0 still the newest tag; push date refreshed to 2026-11-24, against the default branch's commit history.
 
 ## See also
 

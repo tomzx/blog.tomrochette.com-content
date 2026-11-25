@@ -1,9 +1,9 @@
 ---
 title: Vibe Kanban
 created: 2026-08-24
-updated: 2026-11-16
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, kanban, git-worktrees, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, orchestration, kanban, git-worktrees, open-source]
 readability: 3
 audience_notes: >
   Engineers evaluating a kanban-style front end for parallel coding agents, or anyone studying which parts of this category survive their vendor.
@@ -86,6 +86,7 @@ My disagreeable claim: bloop's failure is evidence that this orchestration layer
 - 2026-11-07 - Recorded the 2026-11-03 community commit (relay-tunnel and remote Cargo.lock update through PR #3490), the first since 2026-10-28, and dropped the only-activity-in-the-month claim it supersedes.
 - 2026-11-12 - Recorded the community train accelerating: six commits between 2026-11-09 and 2026-11-12 carrying the orphaned project's first post-shutdown feature work (ACP-registry agent installs, model and permissions over ACP, Copilot sign-in), the count refreshed to twenty-one, npm still 0.1.44.
 - 2026-11-16 - Recorded v0.1.46 (2026-11-15) as the project's first post-shutdown stable release, published from the timestamped tag with the ACP feature work bundled and three first-time contributors, npm's latest moved to 0.1.46; the definition line, the nobody-is-paid caution, and the npm reference updated with it.
+- 2026-11-25 - Rotation re-verified, every cited URL re-fetched and live; no factual drift, v0.1.46 still the first and only post-shutdown stable release and the default branch quiet since 2026-11-15.
 
 ## See also
 

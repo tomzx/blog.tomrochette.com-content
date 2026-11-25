@@ -1,9 +1,9 @@
 ---
 title: YYLO
 created: 2026-10-21
-updated: 2026-11-19
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflows, git-worktrees, evidence]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, workflows, git-worktrees, evidence]
 readability: 3
 audience_notes: >
   Engineers who want coding-agent work delegated as bounded tasks with proof: evidence receipts,
@@ -26,7 +26,7 @@ Eight independently versioned Skills teach agents the procedures for ledger reco
 
 ## Status
 
-Alive, tiny, and version-young: 65 stars and 11 forks as of 2026-10-21, repository created 2026-01-06 with default-branch pushes through 2026-11-13; npm serves `@yylo/cli` 0.2.14 while the GitHub releases page stops at 0.2.1-rc.14, so the train moved to npm, and the CLI pins the Ledger exactly (0.2.9 requires Ledger 0.4.0) (GitHub API, npm, and the Ledger README, as of 2026-11-19).
+Alive, tiny, and version-young: 65 stars and 11 forks as of 2026-10-21, repository created 2026-01-06 with default-branch pushes through 2026-11-24; npm serves `@yylo/cli` 0.2.16, and the GitHub releases page, which stopped at 0.2.1-rc.14 from 2026-09-02 through the 2026-11-19 check, now carries v0.2.15 and v0.2.16 (both published 2026-11-24, 0.2.16 routing and auditing its cleanup through the public controller launcher and requiring skills 2.1.2), so GitHub tags publish again beside npm, and the CLI pins the Ledger exactly (0.2.9 requires Ledger 0.4.0) (GitHub API, npm, and the Ledger README, as of 2026-11-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yylo-dev/yylo&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ Not for teams wanting a GUI, and not without tolerance for 0.2.x churn and exact
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo API, site, docs, changelog, npm, releases, the Ledger README); npm refreshed to 0.2.13, pushes through 2026-11-03, the exact Ledger 0.4.0 pin and the GitHub train stopping at 0.2.1-rc.14 both unchanged.
 - 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift (yylo.dev now canonicalizes to www.yylo.dev), the release train still stopped at 0.2.1-rc.14 (2026-09-02).
 - 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (repo API, site, docs, changelog, npm latest, releases, the Ledger README); npm moved to 0.2.14 and the default branch to pushes through 2026-11-13, the GitHub releases page still stopping at 0.2.1-rc.14.
+- 2026-11-25 - Volatile refresh: npm moved to 0.2.16 and the GitHub releases page resumed with v0.2.15 and v0.2.16 (both 2026-11-24) after stopping at 0.2.1-rc.14, which corrects the moved-to-npm reading, default-branch pushes through 2026-11-24.
 
 ## See also
 
@@ -95,5 +96,5 @@ Not for teams wanting a GUI, and not without tolerance for 0.2.x churn and exact
 - https://yylo.dev/docs/ - the documentation index and the ecosystem procedures
 - https://raw.githubusercontent.com/yylo-dev/yylo/main/CHANGELOG.md - the breaking 0.2.x boundary and the read-only watch rule
 - https://registry.npmjs.org/@yylo/cli/latest - npm 0.2.12, the launchers, and the MIT license
-- https://api.github.com/repos/yylo-dev/yylo/releases - the GitHub release train stopping at 0.2.1-rc.14
+- https://api.github.com/repos/yylo-dev/yylo/releases - the GitHub release train: 0.2.1-rc.14 (2026-09-02) as the last tag through 2026-11-19, v0.2.16 (2026-11-24) on the 2026-11-25 re-fetch
 - https://raw.githubusercontent.com/yylo-dev/yylo-ledger/main/README.md - the Git-native Ledger contract and the exact-version pin

@@ -1,7 +1,7 @@
 ---
 title: Claude Code
 created: 2026-08-22
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, anthropic, developer-tools]
 readability: 3
@@ -109,6 +109,7 @@ Not for the token-frugal or for anyone who needs an open, auditable client.
 - 2026-11-21 - Recorded the train reaching v2.1.330 (published November 20): sign-in for organizations managed in Anthropic's Enterprise Admin Console, with `claude auth login` applying the organization's settings and cloud provider or gateway, easel, a built-in mod that draws charts when asked and under MCP metrics results on Pro, Max, and where available Team and Enterprise on macOS and Linux (off in `/config`), `CLAUDE_CODE_FULL_SIGN_IN_LINK=1` for printing the full sign-in link, and a self-hosted-runner `--start-dir`/`SELF_HOSTED_RUNNER_START_DIR` starting work inside a chosen repository folder, against the GitHub releases API.
 - 2026-11-24 - Recorded the train reaching v2.1.331 (published November 23): Code Mode in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry, and Claude Platform on AWS, an API connectivity section in `claude doctor`, `oidc.groups_jsonpath` on Claude apps gateways, `gen_ai.usage.*` fields on `claude_code.llm_request` trace spans, `optionalDependencies` in plugin manifests, `CLAUDE_CODE_DISABLE_RESPONSE_COMPRESSION` for proxies that cut compressed responses, and a notice that managed `extraKnownMarketplaces` entries auto-update by default on or after November 30, 2026 unless opted out, with fixes from MCP tool calls hanging up to 30 minutes on malformed local or WebSocket replies to compaction losing quoted XML content and a rewind deleting files after a failed restore.
 - 2026-11-24 - Recorded the vendor's claude-code-security-review GitHub Action (7,071 stars as of 2026-11-24, MIT, no commit since 2026-02-11) in Status as a dormant sibling of the Code Review plugin, resolving its 2026-10-28 report-only routing to code-review.
+- 2026-11-25 - Rotation re-verification, re-fetching every cited reference (all live): recorded the train reaching v2.1.332 (published November 25): skills from MCP servers in beta, shown as `server:skill` in the `/` menu, a `PreSkillShellCommand` hook event that can refuse a skill or command's inline shell commands as it loads, "Always deliver" for held messages from other sessions, a footer line while a flagged message has the session on a different model until `/model` picks one, an OpenTelemetry `assistant_response` event for text sent through SendUserMessage or Cowork's message tool when response logging is on, and a batch of freeze fixes (permission rules with several wildcards checked against a long command, hooks that print without end, a local MCP server flooding its standard output, and opening a rewind point after a large tracked file was rewritten), against the GitHub releases feed.
 
 ## See also
 

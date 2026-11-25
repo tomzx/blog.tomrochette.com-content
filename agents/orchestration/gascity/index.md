@@ -1,9 +1,9 @@
 ---
 title: Gas City
 created: 2026-10-12
-updated: 2026-11-17
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, sdk, multi-agent, formulas, worktrees]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, sdk, multi-agent, formulas, worktrees]
 readability: 3
 audience_notes: >
   Engineers who followed Gas Town and want to know what survived it, or who want to build a fleet orchestrator
@@ -20,11 +20,12 @@ A Go binary (`gc`) plus the beads CLI that runs a declarative `city.toml`: rigs 
 Runtime providers cover tmux, subprocess, exec, ACP, Kubernetes, and herdr, so a city can drive local terminals or a cluster.
 The v1 model runs single-agent, in-session formulas; the v2 model decomposes a job into beads, fans ready work out in parallel across agents, gates each step on dependencies, and retries failures to completion.
 It is maintained by the gastownhall org, the same lineage as Steve Yegge's Gas Town, with docs on Mintlify and Blacksmith as the visible sponsor.
+Yegge's own Gas Town page names Gas City the retired build's successor, which splits Gas Town into parts reusable in an SDK for building orchestrators, and says Gas City is run by a company he advises; his homepage pairs Beads with Gas City and lists Gas City under the companies he advises (fetched 2026-11-25).
 
 ## Status
 
 **Active, and the only living branch of the Gas Town lineage.**
-1,390 stars, 446 forks, 1,538 open issues, created 2026-02-22, pushed 2026-11-17, as of 2026-11-17 (GitHub API).
+1,390 stars, 446 forks, 1,538 open issues, created 2026-02-22, pushed 2026-11-25, as of 2026-11-25 (GitHub API).
 Yegge announced the direction in the May 2026 "Welcome to Gas City" essay, and the 33-point Hacker News thread on it (2026-05-04) is the project's main independent record.
 Development continued after Gas Town itself was shut down in September 2026, and the migration doc maps every Town role, mechanism, and command onto City primitives.
 The release list corrected this run: stable semver releases do exist, v1.4.2 (2026-09-18), v1.5.0 (2026-10-05), and v1.5.1 (2026-10-24), which its own notes call "the new stable release and supersedes v1.4.2", tagged from `release/v1.5.0`, installable with `brew install gascity`, and requiring Beads (`bd`) v1.3.1, which now owns the Dolt process of every new city; the rolling `edge` and Bazel toolchain tags sit beside that line, so the earlier "no stable-release marker" read was wrong (GitHub releases API, as of 2026-10-25).
@@ -75,6 +76,7 @@ Not for teams that need a release line with months of seasoning, or anyone unwil
 - 2026-11-03 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases, migration doc, HN search); the push date refreshed to 2026-11-03, v1.5.1 (2026-10-24) still the latest release.
 - 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (repo, README, releases with v1.5.1 still the newest stable, the migration doc, the 33-point HN thread, and the Algolia query still matching it); the push date refreshed to 2026-11-08, and docs.gascityhall.com now 301s to docs.gascity.com (reference updated).
 - 2026-11-17 - Re-verified in rotation: all cited sources re-fetched and live (repo, releases with v1.5.1 still the newest stable, README, the docs.gascityhall.com redirect to docs.gascity.com, the migration doc, the 33-point HN thread, and its Algolia query); the push date refreshed to 2026-11-17, claims hold.
+- 2026-11-25 - Recorded Steve Yegge's own account of the lineage: his Gas Town page names Gas City the retired build's successor, run by a company he advises, and his homepage pairs Beads with Gas City; the push date refreshed to 2026-11-25.
 
 ## See also
 
@@ -92,3 +94,5 @@ Not for teams that need a release line with months of seasoning, or anyone unwil
 - https://docs.gascity.com/getting-started/coming-from-gastown - the role, mechanism, and command mapping tables grounding the extraction claims
 - https://news.ycombinator.com/item?id=48015146 - the 33-point May 2026 thread on Yegge's "Welcome to Gas City" essay, the main independent record
 - https://hn.algolia.com/api/v1/search?query=%22Welcome%20to%20Gas%20City%22&tags=story - the thread search confirming points and dates (2026-10-12); the Yegge Medium essay itself returned 403 to automated fetch this run
+- https://yegge.ai/gastown.html - Steve Yegge's Gas Town page: the retired build, Gas City as its successor, run by a company he advises (fetched 2026-11-25)
+- https://yegge.ai/ - his homepage, pairing Beads with Gas City and listing Gas City under the companies he advises (fetched 2026-11-25)

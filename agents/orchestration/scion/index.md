@@ -1,9 +1,9 @@
 ---
 title: Scion
 created: 2026-10-06
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, containers, isolation, control-plane, google]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, containers, isolation, control-plane, google]
 readability: 3
 audience_notes: >
   Engineers deciding where agent isolation should live, who can weigh a corporate testbed against a supported product.
@@ -23,7 +23,7 @@ It ships Gemini CLI and Claude Code harnesses by default, with Codex, OpenCode, 
 
 ## Status
 
-Active and early: 1,859 stars and 280 forks as of 2026-10-15, created 2026-03-10, with 32 contributors, nightly releases, v0.3.0 (2026-11-11) the newest stable with the v0.4.0 preview line advanced through v0.4.0-preview.3 (2026-11-20, after preview.2 on 2026-11-13), and a push on 2026-11-21 (GitHub API, as of 2026-11-21).
+Active and early: 1,859 stars and 280 forks as of 2026-10-15, created 2026-03-10, with 32 contributors, nightly releases, v0.3.0 (2026-11-11) the newest stable with the v0.4.0 preview line advanced through v0.4.0-preview.3 (2026-11-20, after preview.2 on 2026-11-13), and a push on 2026-11-25 (GitHub API, as of 2026-11-25). Main, pushed 2026-11-25, carries an unreleased batch: Agents waiting and Reviews cards in the profile inbox, an advisory template drift warning at agent creation, and home persistence and a first-login message for execution containers (GitHub API, as of 2026-11-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=GoogleCloudPlatform/scion&type=date&theme=dark&legend=top-left" />
@@ -76,6 +76,7 @@ Not for anyone who needs a supported product with a roadmap commitment, or whose
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04.
 - 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift.
 - 2026-11-21 - Rotation re-verification (every cited URL re-fetched live: repo API, overview docs, README, the launch HN search and thread steady at 230 points, the InfoQ piece); v0.4.0-preview.3 (2026-11-20) recorded on the preview line, the push date refreshed to 2026-11-21.
+- 2026-11-25 - Volatile refresh: the push date refreshed to 2026-11-25, v0.3.0 still the latest stable release; main's unreleased batch recorded (Agents waiting and Reviews inbox cards, an advisory template drift warning at agent creation, home persistence for execution containers).
 
 ## See also
 

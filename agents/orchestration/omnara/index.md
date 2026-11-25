@@ -1,9 +1,9 @@
 ---
 title: Omnara
 created: 2026-08-30
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-control-plane, mobile, self-hosted, yc]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, agent-control-plane, mobile, self-hosted, yc]
 readability: 3
 audience_notes: >
   Engineers who run multiple coding agents and want one control plane to supervise them
@@ -27,7 +27,8 @@ It sits in the orchestration layer of this section's taxonomy (control plane and
 
 **Active, well-capitalized by YC standards, and shipping daily.**
 2,917 stars and 237 forks as of 2026-10-15 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
-The release train runs two product lines recorded 2026-11-21: `omnarad`, the daemon line, at v0.2.27 (2026-11-20, canonical binaries built from one commit; the v0.2.26 pair landed 2026-11-19, after v0.2.25 on 2026-11-18, v0.2.24 on 2026-11-17, after v0.2.23 on 2026-11-13, after v0.2.22 earlier the same day, v0.2.21 on 2026-11-12, v0.2.20 on 2026-11-10, v0.2.19 on 2026-11-09, v0.2.17 on 2026-11-04, v0.2.16 on 2026-11-03, v0.2.15 on 2026-10-30, v0.2.14 on October 29 with its canonical daemon binaries, v0.2.13 on October 28, and v0.2.12 on October 27), and `cluster`, a separate line at v0.2.27 on 2026-11-20 (canonical images from the same commit, after the v0.2.26 pair on 2026-11-19, v0.2.25 on 2026-11-18, v0.2.24 on 2026-11-17 and v0.2.23 on 2026-11-13, v0.2.22 earlier that day and v0.2.21 on 2026-11-12, v0.2.19 on 2026-11-09 and v0.2.18 on 2026-11-09), both lines having moved on from the v0.2.2 tags they shared on 2026-10-10 (GitHub releases, as of 2026-11-21), and all postdating the `cli` line's last tag (cli-v1.0.11, 2026-09-12).
+The release train runs two product lines recorded 2026-11-25: `omnarad`, the daemon line, at v0.2.27 (2026-11-20, canonical binaries built from one commit; the v0.2.26 pair landed 2026-11-19, after v0.2.25 on 2026-11-18, v0.2.24 on 2026-11-17, after v0.2.23 on 2026-11-13, after v0.2.22 earlier the same day, v0.2.21 on 2026-11-12, v0.2.20 on 2026-11-10, v0.2.19 on 2026-11-09, v0.2.17 on 2026-11-04, v0.2.16 on 2026-11-03, v0.2.15 on 2026-10-30, v0.2.14 on October 29 with its canonical daemon binaries, v0.2.13 on October 28, and v0.2.12 on October 27), and `cluster`, a separate line at v0.2.27 on 2026-11-20 (canonical images from the same commit, after the v0.2.26 pair on 2026-11-19, v0.2.25 on 2026-11-18, v0.2.24 on 2026-11-17 and v0.2.23 on 2026-11-13, v0.2.22 earlier that day and v0.2.21 on 2026-11-12, v0.2.19 on 2026-11-09 and v0.2.18 on 2026-11-09), both lines having moved on from the v0.2.2 tags they shared on 2026-10-10 (GitHub releases, as of 2026-11-25), and all postdating the `cli` line's last tag (cli-v1.0.11, 2026-09-12).
+Neither line has tagged since, while main, pushed 2026-11-25, carries an unreleased batch: organization and project budgets with estimated model costs (#809, 2026-11-24), a GitHub assign-pull-request tool (#864), and a 401 in place of a 503 when an injected machine token is missing (#866) (GitHub API, as of 2026-11-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=omnara-ai/omnara&type=date&theme=dark&legend=top-left" />
@@ -92,6 +93,7 @@ I believe every serious agent deployment eventually needs exactly what Omnara is
 - 2026-11-17 - Recorded `omnarad` v0.2.24 and `cluster` v0.2.24 (both 2026-11-17) at the head of the two release lines, and appended the bullet for the v0.2.23 pair (both 2026-11-13) the 2026-11-14 prose had recorded without one.
 - 2026-11-19 - Volatile refresh: recorded the v0.2.25 pair (omnarad binaries and cluster images, both 2026-11-18, built from one commit) at the head of the two release lines.
 - 2026-11-21 - Volatile refresh: recorded the v0.2.26 pair (2026-11-19) and the v0.2.27 pair (2026-11-20, binaries and images from one commit each) at the head of the two release lines.
+- 2026-11-25 - Rotation re-verified, every cited URL re-fetched and live; no new tag on either line, v0.2.27 the head of both since 2026-11-20, main's unreleased batch recorded (organization and project budgets with estimated model costs, a GitHub assign-pull-request tool), pushed 2026-11-25.
 
 ## See also
 

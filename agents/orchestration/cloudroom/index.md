@@ -1,7 +1,7 @@
 ---
 title: Cloudroom
 created: 2026-11-24
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, orchestration, cloud-agents, desktop-app, rust, apache-2.0]
 readability: 3
@@ -28,7 +28,7 @@ Model calls go from the harness straight to your own provider, so Cloudroom does
 
 ## Status
 
-Active on a near-daily release train: gui-v165 and core-v0.1.122 both published 2026-11-24 (cloud agents reach Windows PCs), after v164 on 2026-11-23, v163 on 2026-11-22, v161 and v162 on 2026-11-21, v159 and v160 on 2026-11-19, and v158 on 2026-11-18, with the default branch pushed 2026-11-24 (GitHub API, as of 2026-11-24).
+Active on a near-daily release train: gui-v167 and core-v0.1.124 both published 2026-11-25 (subagents nesting six levels deep), after gui-v166 and core-v0.1.123 on 2026-11-24 (side chats picking their own agent and model, and the Cloudroom Agent plugin keeping a plan-limited Claude Code or Codex thread going on open source models), gui-v165 and core-v0.1.122 also on 2026-11-24 (cloud agents reach Windows PCs), after v164 on 2026-11-23, v163 on 2026-11-22, v161 and v162 on 2026-11-21, v159 and v160 on 2026-11-19, and v158 on 2026-11-18, with the default branch pushed 2026-11-25 (GitHub API, as of 2026-11-25).
 The repository was created 2026-09-17 and stands at 1,841 stars with 318 forks and 82 open issues as of 2026-11-24.
 It is a solo project with help: the owner accounts for 210 of the top contributors' commits against 3 for the next (GitHub API, as of 2026-11-24).
 The site says Cloudroom is built by David Ondrej and a small team who previously built DeepAPI and the open-source Immortal Agents project, and that he runs a YouTube channel about AI with over 400,000 subscribers, so the launch audience is the founder's own.
@@ -91,6 +91,7 @@ Not for teams that need approval prompts on cloud agents, several users on one s
 ## Changes
 
 - 2026-11-24 - Created, landing the admission the cross-category scan routed to orchestration on 2026-11-03 on the standalone-ADE line.
+- 2026-11-25 - Volatile refresh: recorded gui-v166 and core-v0.1.123 (2026-11-24, side chats picking their own agent and model) and gui-v167 and core-v0.1.124 (2026-11-25, subagents nesting six levels deep) on the two-line train, the push date refreshed to 2026-11-25.
 
 ## See also
 
@@ -108,7 +109,7 @@ Not for teams that need approval prompts on cloud agents, several users on one s
 - https://raw.githubusercontent.com/davidondrej/cloudroom/main/core/docs/setup.md - the self-host guide: one trusted user per fresh Ubuntu 24.04 VM, agents without approval prompts, a loopback HTTP API behind Tailscale or an HTTPS proxy.
 - https://raw.githubusercontent.com/davidondrej/cloudroom/main/core/docs/harnesses.md - the harness adapters: Codex and Pi on native protocols, Claude Code over stream JSON, the shared ACP adapter, and the Agent Zero bridge.
 - https://raw.githubusercontent.com/davidondrej/cloudroom/main/LICENSE - the Apache-2.0 license; the NOTICE file carries bb's MIT notice.
-- https://api.github.com/repos/davidondrej/cloudroom/releases?per_page=10 - the two-line release train, gui-v165 and core-v0.1.122 (2026-11-24) back to gui-v161 and core-v0.1.118 (2026-11-21).
+- https://api.github.com/repos/davidondrej/cloudroom/releases?per_page=10 - the two-line release train, gui-v167 and core-v0.1.124 (2026-11-25) back to gui-v164 and core-v0.1.121 (2026-11-23); re-fetched 2026-11-25.
 - https://api.github.com/repos/davidondrej/cloudroom/contributors?per_page=10 - the solo-author split (davidondrej 210 commits against 3 for the next contributor).
 - https://api.github.com/repos/davidondrej/cloudroom-core - the earlier repository path, which resolves to davidondrej/cloudroom.
 - https://www.cloudroom.dev/ - the home page: the vendor-measured 84 percent contribution claim, the live agent counters, and the comparison table against Conductor, OpenHands, Warp, Codex, and Claude Code dated 2026-10-26.

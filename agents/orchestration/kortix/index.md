@@ -1,7 +1,7 @@
 ---
 title: Kortix
 created: 2026-11-24
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, orchestration, multi-agent, agent-platform, event-driven, elastic-license]
 readability: 3
@@ -28,7 +28,7 @@ The stack is TypeScript with a `dev` default branch, the license is Elastic Lice
 
 ## Status
 
-Active and shipping several releases a week on a 0.16.x train: v0.16.4 on 2026-11-22 (Kortix in Chrome public on the Chrome Web Store, configuration commits naming their author) after v0.16.2 (2026-11-20), v0.16.1 (2026-11-19), and v0.16.0 (2026-11-18), with the default branch pushed 2026-11-24 (GitHub API, as of 2026-11-24).
+Active and shipping several releases a week on a 0.16.x train: v0.16.5 on 2026-11-25 (agents signing in to websites with a login the person fills in and the sandbox browser types, dictation on web, desktop, and mobile billed per second of audio in credits, artifact folders, stateless sandboxes the default on every deployment, and Kortix in Chrome and Network-Enforced Secrets on in every workspace) after v0.16.4 on 2026-11-22 (Kortix in Chrome public on the Chrome Web Store, configuration commits naming their author) after v0.16.2 (2026-11-20), v0.16.1 (2026-11-19), and v0.16.0 (2026-11-18), with the default branch pushed 2026-11-25 (GitHub API, as of 2026-11-25).
 The repository was created 2024-10-05 and stands at 20,789 stars with 3,477 forks and 80 open issues as of 2026-11-24.
 Its top contributor is the founder's account at 8,526 commits, beside an `agent-kortix` account at 2,217 and one other person above 3,000 (GitHub API, as of 2026-11-24).
 **The identity is two pivots old in eighteen months: it launched in April 2025 as Suna, a generalist open-source agent, and became Kortix CompanyOS through pull request #11093, merged 2026-10-29.**
@@ -89,6 +89,7 @@ Not for anyone who needs to offer it as a hosted service, to run it disconnected
 ## Changes
 
 - 2026-11-24 - Created, landing the admission the cross-category scan routed to orchestration on 2026-11-12 on the platform-tier Dify precedent.
+- 2026-11-25 - Volatile refresh: recorded v0.16.5 (2026-11-25, website logins for agents, dictation billed per second of audio in credits, artifact folders, stateless sandboxes the default on every deployment) on the 0.16.x train, the push date refreshed to 2026-11-25.
 
 ## See also
 
@@ -104,7 +105,7 @@ Not for anyone who needs to offer it as a hosted service, to run it disconnected
 - https://raw.githubusercontent.com/kortix-ai/CompanyOS/dev/README.md - the cloud-native agent harness pitch, the session, trigger, swarm, and outcome model, the connector and reach tables, self-hosting with Platinum sandboxes, the security and SOC 2 line, and the white-label condition.
 - https://raw.githubusercontent.com/kortix-ai/CompanyOS/dev/LICENSE - the Elastic License 2.0 terms, hosted-service and license-key limits included.
 - https://kortix.com/docs/guide - the Outcomes guide: a separate verifier session that did none of the work decides each criterion, and only Kortix can change a goal's record.
-- https://api.github.com/repos/kortix-ai/CompanyOS/releases?per_page=8 - the release feed, v0.16.4 (2026-11-22) back to v0.15.10 (2026-11-13).
+- https://api.github.com/repos/kortix-ai/CompanyOS/releases?per_page=8 - the release feed, v0.16.5 (2026-11-25) back to v0.15.11 (2026-11-14); re-fetched 2026-11-25.
 - https://api.github.com/repos/kortix-ai/CompanyOS/contributors?per_page=10 - the contributor split (markokraemer 8,526, Ino-Bagaric 3,714, agent-kortix 2,217).
 - https://api.github.com/repos/kortix-ai/CompanyOS/pulls/11093 - the Kortix CompanyOS rebrand pull request, merged 2026-10-29.
 - https://api.github.com/repos/kortix-ai/suna - the old repository path, which resolves to kortix-ai/CompanyOS.

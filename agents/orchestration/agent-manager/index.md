@@ -10,7 +10,7 @@ audience_notes: >
   Assumes you live in tmux and run at least two coding CLIs.
 ---
 
-Agent Manager is a free, Apache-2.0 Go TUI over tmux that runs nine coding CLIs side by side with per-CLI status detection, worktree spawning, and a review mode that delivers line comments back to the agent.
+Agent Manager is a free, Apache-2.0 Go TUI over tmux that runs fourteen coding CLIs side by side with per-CLI status detection, worktree spawning, and a review mode that delivers line comments back to the agent.
 
 **Agent Manager is the best-executed member of the most crowded, least differentiated genre in this category, and the debate in its own launch thread named the genre's problem: dozens of tools, barely distinguishable.**
 
@@ -24,6 +24,7 @@ It is distributed as brew, an install script, an AUR package, mise, go install, 
 ## Status
 
 Active and young: 595 stars and 60 forks as of 2026-10-15, created 2026-07-15, pushed 2026-11-24 (GitHub API, as of 2026-11-25), with 29 contributors and v0.50.0 (2026-11-24) the latest release, after v0.49.0 (2026-11-14), v0.48.1 (2026-11-07), v0.47.1 (2026-11-02), v0.47.0 (2026-11-01), v0.46.0 (2026-10-31), v0.45.0 (2026-10-30), and v0.44.0 (2026-10-25) (GitHub API, as of 2026-11-15).
+The README and the v0.50.0 release body list fourteen CLIs with status detection (Claude Code, OpenCode, Codex, Grok Build, Gemini CLI, Antigravity CLI, Pi, Command Code, Hermes Agent, Muse Code, Oh My Pi, Cursor CLI, Kiro CLI, and GitHub Copilot CLI), and the manager runs on macOS, Linux, Windows through psmux, and WSL2, with a Windows install script, a Scoop bucket, and prebuilt Windows binaries attached to the release (README and release body, as of 2026-11-25).
 
 **The repository moved from YoanWai's account to the wainmann account by 2026-11-07, the old path a 301 redirect, the same identity churn this section records wherever it appears.**
 
@@ -38,7 +39,7 @@ The Show HN thread from 2026-07-30 reached 98 points and about 80 comments, domi
 
 ## Strengths
 
-- Nine CLIs with per-CLI state detection is the deepest pane-reading integration among the tmux columns here.
+- Fourteen CLIs with per-CLI state detection is the deepest pane-reading integration among the tmux columns here.
 - The review loop closes: comments travel back into the agent's conversation instead of stopping at a diff view.
 - Kill and revive on the same conversation answers the lost-context fear that stops people from restarting agents.
 - Sessions live on a private tmux server, so the tool's panes never mix with your own, and distribution breadth (brew, AUR, mise, go install, binaries) makes trying it a two-minute decision.
@@ -58,7 +59,7 @@ No paid tier exists; sessions run on the CLIs and subscriptions you already have
 ## Compared to
 
 - [Claude Squad](../claude-squad/index.md): the minimal tmux-and-worktrees manager; choose Claude Squad for the smallest footprint, Agent Manager for status detection and the comment-back review loop.
-- [dmux](../dmux/index.md): the TUI that gives every task pane its own worktree and branch; choose dmux for per-task isolation by default, Agent Manager for nine-CLI breadth.
+- [dmux](../dmux/index.md): the TUI that gives every task pane its own worktree and branch; choose dmux for per-task isolation by default, Agent Manager for fourteen-CLI breadth.
 - [cmux](../cmux/index.md): the macOS terminal built around attention routing; choose cmux on a Mac for notification rings and cloud tasks, Agent Manager anywhere tmux runs.
 
 ## Bottom line
@@ -78,6 +79,7 @@ Not for teams that need cost tracking, per-task worktree defaults, or a GUI.
 - 2026-11-15 - Re-verified in rotation: every cited URL re-fetched live (site, repository API, releases, README, the Show HN thread); recorded v0.49.0 (2026-11-14) as the new latest release.
 - 2026-11-22 - Re-verified in rotation: every cited URL re-fetched live (site, repository API, releases, README, the Show HN thread); claims hold, v0.49.0 still the latest release, with SSH session and group management landing unreleased on the default branch since the 2026-11-15 verification.
 - 2026-11-25 - Recorded v0.50.0 (published 2026-11-24) as the latest release; refreshed the push date to 2026-11-24.
+- 2026-11-25 - Corrected the harness count from nine to fourteen CLIs (Oh My Pi, Cursor CLI, Kiro CLI, and GitHub Copilot CLI added, each with status detection) and recorded Windows support through psmux with an install script, a Scoop bucket, and prebuilt binaries, verified against the README and the v0.50.0 release body.
 
 ## See also
 
@@ -90,7 +92,7 @@ Not for teams that need cost tracking, per-task worktree defaults, or a GUI.
 ## References
 
 - https://api.github.com/repos/wainmann/agent-manager - stars, forks, Apache-2.0 license, creation date, and push date as of 2026-10-05
-- https://agent-manager.dev - the FAQ: license history, the "Nothing" pricing answer, distribution, the nine-CLI list, and the cost-tracking gap
+- https://agent-manager.dev - the FAQ: license history, the "Nothing" pricing answer, distribution, the CLI list, and the cost-tracking gap
 - https://raw.githubusercontent.com/wainmann/agent-manager/main/README.md - status detection, review mode, kill and revive, worktree spawning, and the private tmux server
 - https://api.github.com/repos/wainmann/agent-manager/releases - v0.39.0 (2026-09-26) and the weekly cadence, continuing through v0.45.0 (2026-10-30)
 - https://news.ycombinator.com/item?id=49107749 - the Show HN thread (98 points, about 80 comments) and the distinguishability debate

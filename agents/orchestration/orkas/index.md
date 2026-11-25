@@ -1,9 +1,9 @@
 ---
 title: Orkas
 created: 2026-10-12
-updated: 2026-11-17
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, desktop, commander, byok]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, multi-agent, desktop, commander, byok]
 readability: 3
 audience_notes: >
   Engineers and solo builders deciding whether a commander-and-specialist desktop belongs next to their coding CLIs.
@@ -24,7 +24,7 @@ The vendor operates under a Chinese ICP filing (Guangdong, number in the site fo
 ## Status
 
 **Active with a steady release train, and no independent coverage yet.**
-2,166 stars, 90 forks, 11 open issues, created 2026-04-29, pushed 2026-11-17, latest release v2026.11.16 (2026-11-16, create-and-recover work in the Content workbench, video-timeline revision, and layered-image, RAW, PDF, and Office inspection) after v2026.11.4 (2026-11-04), v2026.10.27 (2026-10-27), and v2026.10.1 (2026-10-01), a calendar-versioned train now two releases into November, as of 2026-11-17 (GitHub API).
+2,166 stars, 90 forks, 11 open issues, created 2026-04-29, pushed 2026-11-25, latest release v2026.11.16 (2026-11-16, create-and-recover work in the Content workbench, video-timeline revision, and layered-image, RAW, PDF, and Office inspection) after v2026.11.4 (2026-11-04), v2026.10.27 (2026-10-27), and v2026.10.1 (2026-10-01), a calendar-versioned train now two releases into November, as of 2026-11-25 (GitHub API). Main, pushed 2026-11-25, carries an unreleased batch: a Windows Startup folder write guard limited to the built-in rule, one quit listener shared across desktop startup services, and Turkish localization for the open-source settings (GitHub API, as of 2026-11-25).
 I found no Hacker News thread through 2026-10-12 searches, only orca-whale stories under the name, so the 2k-plus stars arrived without a public debate record.
 The site claims thousands of users and 100-plus agents and skills; both figures are self-published.
 
@@ -81,6 +81,7 @@ Not for engineering teams whose loop is worktree, review, and PR discipline, or 
 - 2026-11-06 - Volatile refresh: Recorded v2026.11.4 (2026-11-04), the train crossing into November.
 - 2026-11-15 - Re-verified in rotation: all cited sources re-fetched and live (repo, site, pricing, releases API, HN search); pushed 2026-11-14, v2026.11.4 still the latest release, no coverage change.
 - 2026-11-17 - Recorded v2026.11.16 (2026-11-16, the Content workbench and media inspections) as the latest release, the push date refreshed to 2026-11-17.
+- 2026-11-25 - Volatile refresh: the push date refreshed to 2026-11-25, v2026.11.16 still the latest release; main's unreleased batch recorded (a Windows Startup folder write guard, one shared quit listener across desktop startup services, Turkish localization).
 
 ## See also
 

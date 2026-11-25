@@ -1,9 +1,9 @@
 ---
 title: Agent Teams
 created: 2026-10-07
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, desktop, kanban, multi-cli, agpl]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, desktop, kanban, multi-cli, agpl]
 readability: 3
 audience_notes: >
   Engineers choosing a desktop app to run teams of coding agents across CLIs,
@@ -21,7 +21,7 @@ It connects Claude Code, Codex, OpenCode, Cursor, SuperGrok, GitHub Copilot, Z.A
 
 ## Status
 
-Active and young: 2,254 stars, a push on 2026-11-20, and release v2.18.7 on 2026-11-11 after v2.18.6 (2026-11-05) as of 2026-11-21 (GitHub API), a v2.18 line that followed v2.17.10 (2026-10-09, nine releases after v2.17.1 (2026-09-28)), on a repository created 2026-02-21.
+Active and young: 2,254 stars, a push on 2026-11-25, and release v2.18.7 on 2026-11-11 after v2.18.6 (2026-11-05) as of 2026-11-25 (GitHub API), with a v2.19.0 tag cut on main on 2026-11-24 (a notification-channels batch: safe custom webhooks, Telegram onboarding, delivery diagnostics, and an atomic handoff after a clarification answer) that has no published GitHub release yet, a v2.18 line that followed v2.17.10 (2026-10-09, nine releases after v2.17.1 (2026-09-28)), on a repository created 2026-02-21.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=777genius/agent-teams-ai&type=date&theme=dark&legend=top-left" />
@@ -71,6 +71,7 @@ Not for teams that need vendor accountability or a permissive license.
 - 2026-11-06 - Volatile refresh: Recorded v2.18.6 (2026-11-05) as the new latest release.
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched live; v2.18.7 stands as the latest release and the push date refreshed to 2026-11-14.
 - 2026-11-21 - Rotation re-verification: every cited URL re-fetched live (site, docs, repository, releases, README); claims hold, v2.18.7 still the latest release, the push date refreshed to 2026-11-20.
+- 2026-11-25 - Volatile refresh: recorded the v2.19.0 tag cut on main on 2026-11-24 (notification channels with safe custom webhooks and Telegram onboarding, an atomic handoff after a clarification answer) with no published release for it, v2.18.7 still the latest release, the push date refreshed to 2026-11-25.
 
 ## See also
 
@@ -84,5 +85,5 @@ Not for teams that need vendor accountability or a permissive license.
 - https://github.com/777genius/agent-teams-ai - the repository, README provider list, stars, license, and releases.
 - https://agentteams.live/ - the product site and download page.
 - https://agentteams.live/docs - the documentation site.
-- https://github.com/777genius/agent-teams-ai/releases - the release list, v2.18.7 (2026-11-11) latest (re-fetched 2026-11-14).
+- https://github.com/777genius/agent-teams-ai/releases - the release list, v2.18.7 (2026-11-11) latest (re-fetched 2026-11-25, no release published for the v2.19.0 tag).
 - https://raw.githubusercontent.com/777genius/agent-teams-ai/main/README.md - the README's provider list and feature screenshots as fetched this run.

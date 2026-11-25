@@ -1,9 +1,9 @@
 ---
 title: Hive
 created: 2026-10-08
-updated: 2026-11-17
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, python]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, multi-agent, python]
 readability: 3
 audience_notes: >
   Engineers evaluating multi-agent runtimes for long-running business-process automation who want the colony model and its caveats without the marketing.
@@ -78,6 +78,7 @@ My disagreeable claim: **the 11.1k stars measure the colony pitch, not the artif
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo, API, releases, docs, the YC page, both HN fetches); v1.0.14 (2026-11-02) confirmed on the default branch itself, and the stalled-train caution retired now that the restarted train has run a month.
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repository, API, releases, docs, the YC page, both HN fetches); no factual drift, the default branch's latest commit still the 2026-11-07 provider-library change, v1.0.14 still the latest release.
 - 2026-11-17 - Recorded v1.0.15 (2026-11-17, notes in time) as the latest release.
+- 2026-11-25 - Rotation re-verified, every cited URL re-fetched and live; no factual drift, v1.0.15 still the latest release and the default branch's latest commit still 2026-11-17.
 
 ## See also
 

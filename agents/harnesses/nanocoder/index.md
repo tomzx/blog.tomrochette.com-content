@@ -1,9 +1,9 @@
 ---
 title: Nanocoder
 created: 2026-10-08
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, local-first, community-governance]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, local-first, community-governance]
 readability: 3
 audience_notes: >
   Engineers choosing a terminal coding agent who want community ownership and local models,
@@ -25,7 +25,7 @@ It is made by the Nano Collective, a self-described home for privacy-first, loca
 ## Status
 
 **Active and healthy for its size, with a footprint that is easy to miss.**
-The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and was pushed on 2026-11-22 (GitHub API, as of 2026-11-22).
+The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and was pushed on 2026-11-24 (GitHub API, as of 2026-11-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Nano-Collective/nanocoder&type=date&theme=dark&legend=top-left" />
@@ -77,6 +77,8 @@ My disagreeable claim: governance is currently Nanocoder's only hard moat, and a
 - 2026-11-06 - Recorded the v1.32.0 release (November 4): session-scoped `mcpServers` handling in the ACP agent, `_`-prefixed custom ACP methods, and `mcpCapabilities` reporting; refreshed the push date to 2026-11-06 and the trailing-month npm figure to 7,503 (window October 6 to November 4), and aligned the Cautions line to it.
 - 2026-11-14 - Rotation re-verification, re-fetching every cited reference: repointed the dead scheduler.md reference to docs/features/skills.md, where the cron and `file.changed` daemon subscriptions now live, refreshed the push date to 2026-11-14 and the trailing-month npm figure to 10,391 (window October 15 to November 14), with v1.32.0 still the newest release.
 - 2026-11-20 - Rotation re-verification, re-fetching every cited reference (all live; the loose HN query's other hits are the distinct Nanocode and Nanocodex projects, so the near-zero-footprint claim stands): refreshed the push date to 2026-11-20 and the trailing-month npm figure to 11,661 (window October 21 to November 20), with v1.32.0 still the newest release.
+- 2026-11-22 - Refreshed the push date to 2026-11-22, with v1.32.0 still the newest release.
+- 2026-11-25 - Recorded the default branch's unreleased work since v1.32.0 through November 24: named configuration profiles, per-turn context carried in the user message instead of the system prompt, first-class GMI Cloud, PopNow, Runcrate, and CloudGPU provider templates, million-token context limit suffixes, inline `@path` imports from AGENTS.md, an Ink 8 and React 19.3 TUI with kitty keyboard negotiation for Shift+Enter, a session-start git snapshot in the system prompt, and schema-validated output for `nanocoder run`, with v1.32.0 still the newest release; refreshed the push date to 2026-11-24 and repaired the missing 2026-11-22 push-date bullet the day log records, against the default branch's commit history.
 
 ## See also
 
@@ -87,7 +89,7 @@ My disagreeable claim: governance is currently Nanocoder's only hard moat, and a
 
 ## References
 
-- https://github.com/Nano-Collective/nanocoder - repository scale (2,508 stars, 355 forks), created 2025-07-30, pushed 2026-11-22, no LICENSE file detected (verified via the GitHub API; push date as of 2026-11-22)
+- https://github.com/Nano-Collective/nanocoder - repository scale (2,508 stars, 355 forks), created 2025-07-30, pushed 2026-11-24, no LICENSE file detected (verified via the GitHub API; push date as of 2026-11-25)
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/README.md - positioning, install paths, CLI flags, screen modes, and the review command
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/index.md - AGENTS.md via /init, the skills model, lifecycle hooks, and MCP servers
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/skills.md - the skills bundle format carrying cron (`schedule.cron`) and `file.changed` event subscriptions through the per-project daemon (repointed 2026-11-14 from the removed docs/features/scheduler.md)

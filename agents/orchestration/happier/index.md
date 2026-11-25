@@ -1,9 +1,9 @@
 ---
 title: Happier
 created: 2026-11-01
-updated: 2026-11-19
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, mobile, end-to-end-encryption]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, multi-agent, mobile, end-to-end-encryption]
 readability: 3
 audience_notes: >
   Engineers running coding agents on several machines who want to steer sessions from a phone or a second device without a vendor relay.
@@ -24,7 +24,7 @@ By the happier-dev org, repository created 2025-12-16, MIT licensed, docs at doc
 
 ## Status
 
-Active: 2,102 stars, 209 forks, and 212 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-19, with the v0.2.22 line shipping across the ui-web, ui-mobile, and ui-desktop tracks on 2026-11-17 (stack at v0.2.21 the same day), 100-plus releases on parallel dev tracks and the train pushing daily.
+Active: 2,102 stars, 209 forks, and 212 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-25, with the v0.2.22 line shipping across the ui-web, ui-mobile, and ui-desktop tracks on 2026-11-17 (stack at v0.2.21 the same day), 100-plus releases on parallel dev tracks and the train pushing daily. Main, pushed 2026-11-25, carries a release materialized as 2026-11-25.1 with no new GitHub tag, beside an unreleased Claude fix that correlates prompt echoes before terminal injection (GitHub API, as of 2026-11-25).
 The `@happier-dev/cli` npm package (first version 2026-02-21) is at latest 0.2.21 (npm, as of 2026-11-19, up from 0.2.20 on 2026-11-12), with 3,624 downloads in October 2026.
 
 <picture>
@@ -69,6 +69,7 @@ Not for board-and-worktree workflows, which it does not model, and not for anyon
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04 and the npm CLI latest to 0.2.20.
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repo API, README, releases, npm package and downloads, site, releases docs, HN search); the push date refreshed to 2026-11-12, the npm CLI still 0.2.20, and the zero-coverage HN record standing.
 - 2026-11-19 - Rotation re-verification (every cited URL re-fetched live: repo API, README, releases, npm package and downloads, site, releases docs, HN search); recorded the v0.2.22 UI line (2026-11-17) across the ui-web, ui-mobile, and ui-desktop tracks with stack at v0.2.21, the npm CLI at 0.2.21, the push date refreshed to 2026-11-19, the zero-coverage HN record standing.
+- 2026-11-25 - Volatile refresh: the push date refreshed to 2026-11-25, the v0.2.22 line still the latest GitHub releases while a 2026-11-25.1 release was materialized on main; main's unreleased batch recorded (a Claude prompt-echo correlation fix before terminal injection, and desktop relay and file-save test fixes).
 
 ## See also
 
