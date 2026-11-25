@@ -1,9 +1,9 @@
 ---
 title: Screenpipe
 created: 2026-10-08
-updated: 2026-11-19
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, screen-capture, timeline, mcp, source-available]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, screen-capture, timeline, mcp, source-available]
 readability: 3
 audience_notes: >
   Engineers who want coding or personal agents grounded in what they actually did on their
@@ -26,7 +26,7 @@ Pipes are scheduled AI agents defined as markdown files, with YAML frontmatter p
 ## Status
 
 **Active and large, on a YC-backed company.**
-21,954 stars with the repository pushed 2026-11-19, created 2024-06-19, as of 2026-11-19 (GitHub API).
+21,954 stars with the repository pushed 2026-11-25, created 2024-06-19, as of 2026-11-25 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=screenpipe/screenpipe&type=date&theme=dark&legend=top-left" />
@@ -42,6 +42,8 @@ App-v2.7.143 and v2.7.145 (2026-11-06) keep the same maintenance character: ente
 The default-branch train continued (November 12-13, pending release): the app bumped to v2.7.147 with display text restricted to the focused window's native ownership, an enterprise simplified UI mode, simplified overlay localization extraction, and enterprise honoring local upload pins while keeping recovery available.
 The pending train continued again (November 13-14, through app v2.7.150, unreleased): configurable screenshot sampling with a 2 fps default, enterprise device policies applied without a webview and required upload pins scoped to explicit MDM overrides, a macOS fix capturing the display before applying screenshot redaction, a Windows SQLite WAL-stall fix, and Claude login isolated from external ACP sessions; app v2.7.151 (November 15) keeps macOS whole-display recording independent of scene changes so a scene transition no longer interrupts it.
 The pending train extended again (November 16 to 17): Windows audio stops re-probing endpoint formats every 30 seconds, pipes stop disabled jobs and hide Windows children, onboarding no longer shows a false stuck state during database initialization, storage preserves startup disk-reserve failures with recovery evidence, and a Workflows sidebar card points self-serve users to the enterprise product.
+The pending train, including the Windows ONNX Runtime and redacted display stream work tracked as v2.7.152, shipped as app-v2.7.153 (published November 23): an OpenAI Decisions route for enterprise filters, semantic workflow filter icons, enterprise inference attributed by verified organization hashes, less routine telemetry, Linux Wayland approval persisted, gateway authentication recovered after canceled entitlement lookups, SQLite opened with plain Windows paths to stop WAL stalls, Claude login isolated from external sessions in ACP, and meeting summaries recovered when the heading is glued to narration.
+The pending train continued after it (November 24 to 25, app v2.7.154 to v2.7.156 unreleased, with MCP server prereleases mcp-v0.20.5, v0.21.0, and v0.22.0): Enterprise screenshot sampling and streaming masks, managed desktop recordings streamed from the redacted frame cache, screen frame references in MCP meeting reads, recorded screenshots easier to use in MCP and skills, a GPU redaction prototype for streaming screenshots, and Windows consoles hidden during MCP startup.
 
 ## Strengths
 
@@ -103,6 +105,7 @@ Not for privacy-strict environments, commercial use without a license budget, or
 - 2026-11-16 - Recorded app v2.7.151 (November 15, unreleased): macOS whole-display recording kept independent of scene changes; the push date refreshed to 2026-11-15.
 - 2026-11-17 - Volatile re-verification: the pending train extended again (November 16 to 17): Windows audio endpoint re-probing stopped, pipes stop disabled jobs and hide Windows children, the onboarding false stuck state during database initialization removed, storage preserving startup disk-reserve failures with recovery evidence, and the Workflows sidebar card pointing self-serve users to the enterprise product; no release after app-v2.7.145, and the push date refreshed to 2026-11-17.
 - 2026-11-19 - Volatile re-verification: the pending train extended again (November 18 to 19, app v2.7.152 unreleased: Windows ONNX Runtime downloaded from NuGet with the staged copy used in releases, and Windows screenshots kept on a persistent redacted display stream); no release after app-v2.7.145, and the push date refreshed to 2026-11-19.
+- 2026-11-25 - Recorded app-v2.7.153 (published November 23, shipping the pending train through the Windows ONNX Runtime and redacted display stream work): the OpenAI Decisions enterprise route, verified-organization inference attribution, the Windows SQLite path fix, isolated Claude login in ACP, and the glued-heading meeting summary recovery; the pending train continued through app v2.7.156 and MCP server prereleases v0.20.5 to v0.22.0 with Enterprise screenshot sampling and streaming masks; the push date refreshed to 2026-11-25.
 
 ## See also
 
@@ -119,4 +122,5 @@ Not for privacy-strict environments, commercial use without a license budget, or
 - https://screenpipe.com/pricing - Free, Basic, Business, and Enterprise plans as of 2026-10-11, re-verified unchanged
 - https://news.ycombinator.com/item?id=49024620 - the YC S26 Launch HN thread (88 points, 67 comments, 2026-07-23)
 - https://news.ycombinator.com/item?id=41695840 - the 2024 Show HN (218 points, 125 comments), the category's largest community record
+- https://github.com/screenpipe/screenpipe/releases/tag/app-v2.7.153 - the app-v2.7.153 change list (published 2026-11-23)
 - https://hn.algolia.com/api/v1/search?query=screenpipe&tags=story - the footprint scan, including the 2024 business-model skeptic thread

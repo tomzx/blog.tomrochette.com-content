@@ -1,9 +1,9 @@
 ---
 title: Cognee
 created: 2026-08-26
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
 audience_notes: >
   Engineers choosing a memory layer for agents who want the self-hostable graph option profiled.
@@ -23,7 +23,7 @@ Cognee Cloud runs the same engine managed, on gpt-oss-120b, OpenAI's open-weight
 ## Status
 
 **Active and fast-moving.**
-About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-11-20, and v1.6.10 (November 18) the latest stable release with PyPI in sync at 1.6.10.
+About 32.4k GitHub stars as of 2026-10-16, repository pushed 2026-11-25 (the default branch quiet since 2026-11-20, the movement on side branches), and v1.6.10 (November 18) the latest stable release with PyPI in sync at 1.6.10.
 The README now carries a BEAM benchmark table with self-run scores: 0.79 at 100K tokens under fixed hybrid retrieval and 0.67 as an exploratory result at 10M tokens with question-type routing, each with stated methodology, limits, and an acknowledged reproduction gap for the distributed 10M ingestion, which moves the project from comparisons-only to published self-run numbers.
 The same README fronts a Postgres path that runs the whole memory layer on one Postgres instance as a demo feature (the production version is a licensed product).
 
@@ -108,6 +108,7 @@ Not for solo coding-agent work, where plain files win, or for anyone without the
 - 2026-11-17 - Volatile re-verification: the post-release default-branch movement recorded (the Hermes plugin moved into the separate cognee-integrations/ package on November 16, pending release, with nightly CI reporting to Slack); PyPI re-verified in sync at 1.6.8, and the push date refreshed to 2026-11-17.
 - 2026-11-19 - Recorded v1.6.9 (November 18, the connector line: the Slack rework that retires the old history-import pathway, Dropbox, Vercel, Telegram, and Evernote connectors, and the packaged hermes-agent integration) and v1.6.10 (November 18, the tightened Postgres per-dataset pools with their breaking default change, nested LLM-call capture with caller metadata, and the chunking hardening); PyPI re-verified in sync at 1.6.10, and the push date refreshed to 2026-11-18.
 - 2026-11-22 - Rotation re-verification: every cited URL re-fetched live (repository API and v1.6.3 tag page, cognee.ai, the pricing page, docs, PyPI, both Show HN threads steady at 9 and 6 points), no release or activity change since v1.6.10 (the only default-branch movement a LoCoMo technical-report revision, push date refreshed to 2026-11-20), and the repricing recorded: Standard is now $0 per month with 100M included tokens and one workspace at $0.10 per 1M processed (from $1.00 per 1M), Premium introduced at $99 per month plus Standard-rate usage, Enterprise unchanged as a BYOC engagement; the Pricing section moved and the Price history gained the row.
+- 2026-11-25 - Volatile re-verification: the pushed_at movement resolved to side branches with the default branch showing no commit since 2026-11-20; no release after v1.6.10, and the push date refreshed to 2026-11-25.
 
 ## See also
 

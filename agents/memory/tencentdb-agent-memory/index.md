@@ -1,9 +1,9 @@
 ---
 title: TencentDB Agent Memory
 created: 2026-10-11
-updated: 2026-11-20
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, openclaw, hermes, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, agent-memory, session-memory, openclaw, hermes, open-source]
 readability: 3
 audience_notes: >
   Engineers running OpenClaw or Hermes agents who want token-aware memory capture with an
@@ -26,7 +26,7 @@ Published by Tencent (the repository moved from the Tencent org to TencentCloud)
 ## Status
 
 **Large and fast-rising, with a license detector footnote.**
-29,264 stars and 2,852 forks, created 2026-04-07, pushed 2026-11-10, with the `feat/server_team` default branch's movement since the 2026-10-31 verification a README pair and a panel fix stopping polling of failed CodeGraphs on 2026-11-09 and 10, as of 2026-11-11 (GitHub API); the branch still mirrors main's release history with nothing shipped from it, a signal pointing at an in-development team-server line (or a branch-management slip).
+29,264 stars and 2,852 forks, created 2026-04-07, pushed 2026-11-24, with the `feat/server_team` default branch's movement since the 2026-10-31 verification a README pair and a panel fix stopping polling of failed CodeGraphs on 2026-11-09 and 10, as of 2026-11-11 (GitHub API); the branch still mirrors main's release history with nothing shipped from it, a signal pointing at an in-development team-server line (or a branch-management slip).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TencentCloud/TencentDB-Agent-Memory&type=date&theme=dark&legend=top-left" />
@@ -82,6 +82,7 @@ My disagreeable claim: reversible compression, not recall quality, is the featur
 - 2026-11-11 - Volatile re-verification: the `feat/server_team` default branch moved again with a README pair and a panel fix stopping polling of failed CodeGraphs (November 9-10); nothing shipped, the push date refreshed to 2026-11-10.
 - 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (the repository API, README, LICENSE, the npm registry, the HN search, the entrant source), no facts changed (v2.0.3 still the latest release, the npm plugin still 1.0.3 from 2026-09-22, the `feat/server_team` default branch quiet since the November 10 panel fix, the HN search's one 2-point thread unchanged, the LICENSE still MIT terms under the Tencent notice).
 - 2026-11-20 - Recorded v2.0.4 (dated 2026-11-18, published 2026-11-19): skill-archive batch import with per-package SKILL.md and separated outcomes, a replacement mode for custom L1/L2/L3 memory prompts with system-enforced constraints and a fixed-once-chosen mode, steadier memory consolidation, long-running upstream request handling, online session records, and troubleshooting logs.
+- 2026-11-25 - Volatile re-verification: the `feat/server_team` default branch's movement since the last check is a README_CN update and the homepage stats refresher CI (twice daily); v2.0.4 stays the latest release, and the push date refreshed to 2026-11-24.
 
 ## See also
 

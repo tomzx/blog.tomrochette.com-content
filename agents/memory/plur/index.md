@@ -1,9 +1,9 @@
 ---
 title: PLUR
 created: 2026-10-14
-updated: 2026-11-20
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, mcp, local-first, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, agent-memory, mcp, local-first, open-source]
 readability: 3
 audience_notes: >
   Engineers running more than one coding agent who want one shared memory behind all of them,
@@ -25,7 +25,7 @@ Sync is git over your own remotes, with scope-filtered pushes (shared remotes ne
 ## Status
 
 **Active and shipping, young, with self-published benchmarks and no independent coverage yet.**
-304 stars as of 2026-10-19, 37 forks, created 2026-03-19, pushed 2026-11-18, Apache-2.0, as of 2026-11-19 (GitHub API).
+304 stars as of 2026-10-19, 37 forks, created 2026-03-19, pushed 2026-11-24, Apache-2.0, as of 2026-11-25 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=plur-ai/plur&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for multi-user products needing server-side per-user isolation, and not for 
 - 2026-11-15 - Volatile re-verification: the 2026-11-14 pushed_at movement resolved to further side branches with the default branch still quiet since the v0.23.0 train; no facts changed.
 - 2026-11-19 - Recorded v0.23.1 (November 18): the source-review security fixes, shipped as a tag without a GitHub release and without an npm publish yet (all three public packages still at 0.23.0), with a security section in the changelog and the fixes' rules and repair entries registered in the spec's guarantees; the push date refreshed to 2026-11-18.
 - 2026-11-20 - The v0.23.1 publication gap closed after the prior record: the tag now has its GitHub release object (published November 19) and npm carried the publish with @plur-ai/core in sync at 0.23.1.
+- 2026-11-25 - Volatile re-verification: the pushed_at movement resolved to side branches with the default branch showing no commit since the November 18 publish; v0.23.1 stays the latest release, and the push date refreshed to 2026-11-24.
 
 ## See also
 

@@ -1,9 +1,9 @@
 ---
 title: EverOS
 created: 2026-10-09
-updated: 2026-11-20
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, markdown, local-first]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, agent-memory, markdown, local-first]
 readability: 3
 audience_notes: >
   Engineers choosing where agent memory should live who want the markdown-canonical
@@ -28,7 +28,7 @@ EverMind also sells EverOS Cloud, a managed deployment of the same engine, and p
 ## Status
 
 **Young, fast-moving, and vendor-led, with the section's familiar thin public footprint.**
-13,444 stars and 941 forks as of 2026-10-28, created 2025-10-28, default branch pushed 2026-11-20 (GitHub API, re-checked 2026-11-20).
+13,444 stars and 941 forks as of 2026-10-28, created 2025-10-28, default branch pushed 2026-11-24 (GitHub API, re-checked 2026-11-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=EverMind-AI/EverOS&type=date&theme=dark&legend=top-left" />
@@ -41,6 +41,7 @@ The tracked 1.7.0 line shipped on November 13: the pending line's breaking evera
 The pending line grew again (November 16, breaking): one EpisodeExtracted record per memcell with episode summaries built offline, still unreleased on GitHub and PyPI (both at v1.7.0/1.7.0).
 The pending line grew again (November 18 to 19, breaking): search rebuilt as three-lane hybrid ranking with agentic facts capped, then body-vector agentic search with bounded recall pools; the whole pending line shipped as v1.7.1 (November 20, PyPI in sync at 1.7.1) with additions on top: a language-naming call before each conversation's episode is written (the episode, its summary, its atomic facts, and its first profile follow the named language), a memcell's atomic facts and clustering embedding computed once for all of its owners, a new `POST /memory/device/add` route giving one hardware device separate memory per person it hears, and Foresight removed (off by default since 1.2.3, with its data dropped on first start), the breaking points being `hybrid` search's `top_k` now counting episodes at one atomic fact each and the Python pipeline and EpisodeStore APIs.
 The vendor's site claims SOTA numbers (LoCoMo 93.05, LongMemEval 83.00, HaluMem 93.04) from its own reproducible benchmark harness, and the system does not appear among the published commercial leaders of the independent Agent Memory Leaderboard's first cycle (August 2026).
+The pending line extended (November 20 to 24, no release after v1.7.1): an opt-in raw input log for `/add` whose entries can be deleted with their memories, smartcomment execution tracing in memtrace, NVIDIA NIM documented as an `[llm]` endpoint, a LoCoMo results page, LLM replies repaired for code fences and trailing commas with a 503 on an unusable reply, clusters re-discovered under the deletion lock, and files removed mid-read treated as absent.
 I found no Hacker News thread through 2026-10-09 searches, so the 13k stars rest on the vendor's channels and plugin ecosystems, the same stars-ahead-of-discussion pattern this section has flagged on Supermemory, Cabinet, and memU.
 
 ## Strengths
@@ -90,6 +91,7 @@ Not for teams needing published hosted pricing, independent benchmark evidence, 
 - 2026-11-17 - Volatile re-verification: the pending line grew again (November 16, breaking): one EpisodeExtracted record per memcell with episode summaries built offline; GitHub and PyPI re-verified at v1.7.0/1.7.0, and the push date refreshed to 2026-11-16.
 - 2026-11-19 - Volatile re-verification: the pending line grew again (November 18 to 19, breaking): search rebuilt as three-lane hybrid ranking with agentic facts capped, then body-vector agentic search with bounded recall pools; GitHub and PyPI re-verified at v1.7.0/1.7.0, and the push date refreshed to 2026-11-19.
 - 2026-11-20 - Recorded v1.7.1 (November 20, PyPI in sync at 1.7.1) shipping the tracked pending line and adding per-conversation language naming before each episode, memcell atomic facts and clustering embeddings computed once across owners, the `POST /memory/device/add` per-person device route, and the removal of Foresight, with the `hybrid` top_k and Python pipeline API breaks; the push date refreshed to 2026-11-20.
+- 2026-11-25 - Volatile re-verification: the pending November 20-to-24 line recorded (opt-in raw input log, smartcomment execution tracing, NVIDIA NIM as an `[llm]` endpoint, LLM reply repair with a 503 on unusable replies); no release after v1.7.1 and the push date refreshed to 2026-11-24.
 
 ## See also
 

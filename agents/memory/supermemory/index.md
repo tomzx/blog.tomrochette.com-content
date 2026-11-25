@@ -1,9 +1,9 @@
 ---
 title: Supermemory
 created: 2026-10-04
-updated: 2026-11-19
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, context-engine, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, agent-memory, context-engine, open-source]
 readability: 3
 audience_notes: >
   Engineers choosing a memory layer for an AI product or coding agent who want the
@@ -25,7 +25,7 @@ The company describes itself as a research lab; the repository began under found
 ## Status
 
 **Active and large, with adoption that outruns its discussion footprint.**
-About 31.2k stars as of 2026-10-09 (GitHub API), with the repository pushed 2026-11-18, the default branch's movement since the November 2 fixes dependency maintenance (vite, vitest, Python SDK security advisories patched with a 1.0.11 release, mintlify), a ChatGPT MCP fix saving to the default space when an account has no spaces, the Pipecat voice-agent integration migrated to the v5 namespace API (November 13), and docs commits linking the repository's Convex component (November 16) and syncing the docs with those changes (November 18), created 2024-02-27, MIT, as of 2026-11-19 (GitHub API).
+About 31.2k stars as of 2026-10-09 (GitHub API), with the repository pushed 2026-11-24, the default branch's movement since the November 2 fixes dependency maintenance (vite, vitest, Python SDK security advisories patched with a 1.0.11 release, mintlify), a ChatGPT MCP fix saving to the default space when an account has no spaces, the Pipecat voice-agent integration migrated to the v5 namespace API (November 13), and docs commits linking the repository's Convex component (November 16) and syncing the docs with those changes (November 18), created 2024-02-27, MIT, as of 2026-11-19 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=supermemoryai/supermemory&type=date&theme=dark&legend=top-left" />
@@ -39,6 +39,7 @@ The hosted platform claims 1T+ tokens processed per month and tens of millions o
 The community record is thin for the star count: its largest Hacker News story threads sit at 5 points or fewer, and the README's three first-place benchmark claims have not been independently replicated in any source I could verify, though a competing project's preliminary run (below) tested it and published a worse-than-claimed number.
 The homepage now cites one independent academic benchmark: SWE-ContextBench (arXiv 2602.08316, February 2026), whose paper reports Supermemory best overall of four memory-retrieval frameworks on 99 related coding tasks (55.95 percent fail-to-pass, 30.30 percent resolution), a coding-agent context-reuse result rather than a replication of the three memory claims.
 The README also fronts a Supermemory Filesystem (SMFS) product line beside the API (the vendor claims 3.0x fewer tokens on Claude across its own xAFS benchmark), and the plugin list has grown to Claude Code, Cursor, Codex, OpenCode, OpenClaw, Hermes, and Muse Code.
+The default branch moved again (November 20 to 24, no release after server-v0.0.9): prompt caches kept across turns in every tools wrapper (3.2.0), in voice pipelines with recall capped at 1.5 seconds, and in the OpenAI Python SDK integration, a memory-graph fetch helper and endpoint prop (0.3.0), and docs pointing at Settings for the DPA and SOC 2 report.
 
 ## Strengths
 
@@ -94,6 +95,7 @@ My disagreeable claim: Supermemory's local binary is strategically more interest
 - 2026-11-14 - Recorded the Pipecat voice-agent integration's migration to the v5 namespace API (November 13); the push date refreshed to 2026-11-13.
 - 2026-11-17 - Volatile re-verification: the default branch's remaining movement is the November 16 docs commit linking the repository's Convex component (recorded in Status when it landed); no release after server-v0.0.9, and the push date stands at 2026-11-16.
 - 2026-11-19 - Volatile re-verification: the November 18 movement resolved to a docs sync commit; no release after server-v0.0.9, and the push date refreshed to 2026-11-18.
+- 2026-11-25 - Volatile re-verification: the November 20-to-24 batch recorded (prompt caches kept across turns in the tools wrappers, voice pipelines, and OpenAI SDK integration; a memory-graph fetch helper); no release after server-v0.0.9 and the push date refreshed to 2026-11-24.
 
 ## See also
 

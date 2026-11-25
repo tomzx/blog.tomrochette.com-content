@@ -1,9 +1,9 @@
 ---
 title: Funes
 created: 2026-10-16
-updated: 2026-11-19
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, session-memory, local-first, mcp, hugging-face]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, agent-memory, session-memory, local-first, mcp, hugging-face]
 readability: 3
 audience_notes: >
   Engineers running several coding agents who want recall of what past sessions actually
@@ -25,7 +25,7 @@ Beyond the four maintained integrations the surfaces are a read-only MCP server 
 ## Status
 
 **Active, young, and moving fast, with adoption that is still mostly repository stars.**
-569 stars, 55 forks, and 5 open issues and pull requests on a repository created 2026-06-18 and pushed 2026-11-13, Apache-2.0, as of 2026-11-19 (GitHub API; the star figure keeps its dated baseline, and the repo-level 2026-11-18 pushed_at movement was a side branch).
+569 stars, 55 forks, and 5 open issues and pull requests on a repository created 2026-06-18 and pushed 2026-11-24, Apache-2.0, as of 2026-11-25 (GitHub API; the star figure keeps its dated baseline).
 The release train runs weekly: v1.7.0 memories compaction (2026-10-07), v1.8.0 multilingual embedder (2026-10-08), v1.9.0 GPU indexing and host binding (2026-10-14), v1.9.1 (2026-10-20) a small maintenance release, v1.10.0 (2026-11-01), v1.11.0 (2026-11-05), and v1.12.0 (2026-11-10), with dacorvo holding 948 of the 1,007 recorded contributions across thirteen contributors.
 v1.10.0 ships the previously pending work and replaces the legacy BGE reranker with GTE modernbert: the reranker now runs whenever the pool is larger than the requested hits, which under the defaults (k 8, candidates 30) means always, and a memory's prompt language is detected at indexing time, stored, and used as a hint for query language on recall, with no reindex needed but a roughly 600 MB reranker download on first recall.
 Post-release fixes (2026-11-01 and 02) align Hub token discovery with hf-hub's rules (including a blank disable value), keep a first push owed when a memory was emptied since, and read remote row counts off the manifest for status.
@@ -87,6 +87,7 @@ Not for workflows that need memory surfaced without being asked, for users who n
 - 2026-11-11 - Recorded v1.12.0 (November 10): recall replies now carry the bounding exchange prose instead of chunk snippets (185 of 242 benchmark questions answered in the reply versus 145, at about 1.5k tokens and 0.25 seconds added median latency), `--neighbors` dropped and `--oneline` added, and the pending recall-pool equal-share work recorded; the push date refreshed to 2026-11-10.
 - 2026-11-13 - Volatile re-verification: the pending work extended (November 12, equal-score rank stabilization and the review score column left to the dataset); no release after v1.12.0, and the push date refreshed to 2026-11-12.
 - 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (all twelve reachable, the HF pages through the fetch tool), no facts reversed; the pending work extended on 2026-11-13 (stored blocks keep the pieces they were first stored with, and block tool names redacted along with their text), the repository snapshot refreshed (default branch pushed 2026-11-13 with the 2026-11-18 pushed_at movement a side branch, 55 forks, 5 open issues and PRs), the contribution snapshot refreshed to dacorvo's 948 of 1,007 recorded contributions across thirteen contributors, and the demo dataset refreshed (102,407 chunks, 1,370 downloads last month, updated 2026-11-16).
+- 2026-11-25 - Volatile re-verification: the two default-branch commits since November 13 are chores (a rust-cache dependency bump, and a Show HN draft committed by mistake and removed); v1.12.0 stays the latest release, and the push date refreshed to 2026-11-24.
 
 ## See also
 

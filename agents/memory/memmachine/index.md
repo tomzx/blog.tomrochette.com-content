@@ -1,9 +1,9 @@
 ---
 title: MemMachine
 created: 2026-10-11
-updated: 2026-11-19
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, knowledge-graphs, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
 audience_notes: >
   Engineers adding persistent memory to an agent product who want the OSS graph-plus-SQL
@@ -24,7 +24,7 @@ The project was incubated inside MemVerge and is now described as community-driv
 ## Status
 
 **Active and mid-scale, with a corporate backer and no benchmark record.**
-3,072 stars and 220 forks, created 2025-08-15, Apache-2.0, as of 2026-10-28 (GitHub API), with the repository pushed 2026-11-18, the horizontal-scaling branch merged to the default branch on 2026-11-18, as of 2026-11-19 (GitHub API).
+3,072 stars and 220 forks, created 2025-08-15, Apache-2.0, as of 2026-10-28 (GitHub API), with the repository pushed 2026-11-23, the horizontal-scaling branch merged to the default branch on 2026-11-18, as of 2026-11-25 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=MemMachine/MemMachine&type=date&theme=dark&legend=top-left" />
@@ -35,6 +35,7 @@ The project was incubated inside MemVerge and is now described as community-driv
 Both PyPI distributions moved to 0.4.0 on 2026-10-08.
 The Hacker News record is thin: a 4-point Show HN in November 2025 and a 2-point story the month before, so adoption rests on registry and framework channels rather than public debate.
 The site names Arista Networks, Hugging Face, and Duke University among trusted teams and publishes customer quotes, but no independent evaluation of the engine exists in either direction.
+The default branch moved again (November 19 to 23, no release after v0.4.0): store incarnations replaced by partition UUIDs from one registry per partition namespace, segment-store key-list lookups kept from scanning a whole tenant on PostgreSQL, PostgreSQL 18 in the server's test run, and the milvus extra installed in the Docker images.
 
 ## Strengths
 
@@ -79,6 +80,7 @@ My disagreeable claim: publishing zero numbers in a benchmark-obsessed category 
 - 2026-11-11 - Volatile re-verification: the 2026-11-09 pushed_at movement again resolved to side branches with the default branch quiet since 2026-11-02; no facts changed.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched live (repository API and README, docs, site, PyPI, the Hacker News search, and the entrant source), no facts changed; both PyPI distributions still 0.4.0, the thin-discussion record unchanged, and the 2026-11-12 pushed_at movement resolved to side branches with the default branch quiet since 2026-11-02.
 - 2026-11-19 - Volatile re-verification: the default branch resumed with the horizontal-scaling branch merge (#1778) landing on 2026-11-18; no release after v0.4.0, both PyPI distributions still 0.4.0, and the push date refreshed to 2026-11-18.
+- 2026-11-25 - Volatile re-verification: the November 19-to-23 default-branch batch recorded (partition UUIDs from a partition registry, tenant-wide scans avoided in key-list lookups on PostgreSQL, PostgreSQL 18 tests, milvus in the Docker images); no release after v0.4.0 and the push date refreshed to 2026-11-23.
 
 ## See also
 

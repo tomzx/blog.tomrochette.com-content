@@ -1,9 +1,9 @@
 ---
 title: Sno Station
 created: 2026-10-28
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, agent-memory, cross-harness, encryption, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, agent-memory, cross-harness, encryption, open-source]
 readability: 3
 audience_notes: >
   Engineers running two or more coding or personal agents who want one shared memory
@@ -28,7 +28,7 @@ Three data modes surround that core: Local First uploads no memory text, Agent N
 ## Status
 
 **Young, fast-rising, and entirely self-evidenced.**
-929 stars and 364 forks on a repository created 2026-09-19 (public since 2026-09-18) and pushed 2026-11-21, Apache-2.0, as of 2026-11-20 (GitHub API).
+929 stars and 364 forks on a repository created 2026-09-19 (public since 2026-09-18) and pushed 2026-11-24, Apache-2.0, as of 2026-11-25 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=sno-ai/sno-station&type=date&theme=dark&legend=top-left" />
@@ -41,6 +41,7 @@ The 2.1 line (November 17 to 18) carried the shared-memory work: v2.1.0 made a s
 v2.2.0 (November 19) turned the status line into the who-is-waiting view: each waiting agent gets its own line naming the agent, the project, and the question it ended on, an approval counts once and clears with its session, and `sno squad` opens in about a second with the waiting list at the top.
 v2.2.5 (November 20) makes task limits stay with their task: hand an agent "touch only these two files" or "spend ten minutes on this" and the limit no longer returns as a standing rule in the next session or in another agent, while a rule meant for good still sticks when said so, with the task's worked-out facts and pitfalls kept; the tags skip v2.2.1 through v2.2.4 entirely, the version line jumping again after its two recorded deletions, though this time nothing was deleted.
 v2.3.0 (November 21) scopes memory to the repository that set it: a working habit told to one agent in one repository (which branch, what commit message, which test command) reaches only that repository's agents unless you say it applies everywhere, a statement Sno cannot scope stays in the project where you said it, and a correction about you stops reaching agents in other projects the same day in more cases instead of after the nightly run.
+v2.3.1 (November 24) delivers a message typed while an agent works when its turn ends instead of making the squad wait five minutes for mail already there, wakes a Codex agent with a waiting message again after five minutes with each Codex window its own seat, hands an agent the stored fact a task needs instead of memories sharing only a word, keeps two facts stated in one sentence as separate facts, continues a timed task's Claude Code conversation in the permission mode it used, and reads the own store from `sno memory dump` without options; the relevance model no longer loads at start when reranking is off.
 The version line itself is unreliable, and the pattern repeated: the v1.7.1 release this note recorded as newest on 2026-10-29 is now itself gone from tags and releases two days later, and GitHub tags jump from v1.3.5 to v1.7.2, so release history has been deleted or rewritten again; v1.7.2 and v1.7.3 still stand in tags and releases as of 2026-11-07, so the deletion has not recurred a third time.
 The what-runs-today table marks the five-harness shared memory, the mailbox, and Self Learning as released and proven end to end on clean machines.
 The reach line widened into peer messaging on the default branch (November 13 to 15, pending release): agents message each other through user workflows (an Instant Messenger and Agent Email, with translated guidance), peer messaging and threaded calls connect over a pinned iroh transport with a Codex wake client, native and portable terminal wake, and Orca composer drafts read when waking an agent, and network peers authenticate with bound message senders; dependency fixes (a standalone sanitizer update and vulnerable runtime versions removed) landed beside it, and the cross-computer messaging half shipped in v2.0.2.
@@ -98,6 +99,7 @@ Not for privacy-strict environments that cannot accept the default nightly sessi
 - 2026-11-19 - Recorded the 2.1 line and v2.2.0 (November 17 to 19): rule dedup and nightly tidying with a short important-rules brief on new sessions (v2.1.0), rewriting handoff notes and spoken timed-task cancels (v2.1.1), same-day cross-agent remember (v2.1.2), agents reading their own task mail with claimants, nudges, and dead-holder recovery (v2.1.3), and the who-is-waiting status line naming the agent, the project, and the question ended on (v2.2.0); the push date refreshed to 2026-11-19.
 - 2026-11-20 - Recorded v2.2.5 (November 20): task-scoped limits stay with their task instead of becoming standing rules in later sessions or other agents, with deliberate rules and task facts kept, and the tag sequence skipping v2.2.1 through v2.2.4 entirely (a jump, not the earlier deletions); the push date refreshed to 2026-11-20.
 - 2026-11-22 - Rotation re-verification with every cited URL re-fetched live (repository API and README, the security doc, sno.ai and its pricing page, the evals directory, the v1.7.1 tag still 404ing as recorded, and the footprint scan still finding no thread), then recorded v2.3.0 (November 21): memory scoping by repository, so a working habit told in one repository reaches only that repository's agents unless said to apply everywhere, unscopeable statements stay in their project, and corrections propagate across projects faster than the nightly run; the push date refreshed to 2026-11-21.
+- 2026-11-25 - Recorded v2.3.1 (November 24): turn-end delivery of messages typed during an agent's turn, Codex re-wake and per-window seats, stored-fact matching instead of shared-word memories, two facts in one sentence kept separate, timed tasks continuing in their conversation's permission mode, and `sno memory dump` without options; the push date refreshed to 2026-11-24.
 
 ## See also
 
@@ -115,4 +117,5 @@ Not for privacy-strict environments that cannot accept the default nightly sessi
 - https://www.sno.ai/en/pricing - the Free, Plus, and Max plans and the weekly allowance mechanics, as of 2026-10-28
 - https://github.com/sno-ai/sno-station/releases/tag/v1.7.1 - the v1.7.1 notes as fetched 2026-10-29 (failed saves kept and retried under a cap, held turns of moved projects saved, startup cleanup); this URL now 404s like the earlier v1.6.0 one, the version-history deletion recorded in Status
 - https://github.com/sno-ai/sno-station/tree/main/evals - the evals directory (LoCoMo, Memora, r-at-5, sno-memory-bench, rerank runs), all self-run
+- https://github.com/sno-ai/sno-station/releases/tag/v2.3.1 - turn-end message delivery and the v2.3.1 fixes (2026-11-24)
 - https://hn.algolia.com/api/v1/search?query=%22sno%20station%22&tags=story - the footprint scan finding no thread (2026-10-28), the missing-coverage record

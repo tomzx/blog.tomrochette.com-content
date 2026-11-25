@@ -25,6 +25,7 @@ Persistent memory for agents: the file conventions, the portable format, the cap
 - [Funes](funes/index.md) - Hugging Face's Apache-2.0 verbatim session-memory index: one local Lance dataset under Claude Code, Codex, pi, and Hermes, pull-only recall with exact provenance, and publication of the memory as your own Hub dataset.
 - [GBrain](gbrain/index.md) - Garry Tan's MIT personal brain daemon: provenance-tagged markdown pages with corrections and withdrawal, MCP-served to any agent, with published eval receipts and a hosted team-workspace tier.
 - [Hindsight](hindsight/index.md) - Vectorize's MIT memory engine (facts, observations, knowledge pages) behind retain, recall, and reflect, 50.1k stars, with per-run benchmark artifacts and a pay-as-you-go cloud.
+- [Hippo Memory](hippo-memory/index.md) - the MIT zero-dependency rule-and-lesson store for coding agents: pinned rules, outcome weakening, superseding, and sleep consolidation in SQLite with markdown mirrors, no model call on the default path.
 - [Letta](letta/index.md) - the MemGPT creators' memory-first platform, agent plus cloud tier.
 - [LongMemory](longmemory/index.md) - CaviraOSS's Apache-2.0 temporal memory engine: immutable, provenance-carrying memories in SQLite with point-in-time recall and governed scopes, self-hosted with MCP and a dashboard.
 - [mem0](mem0/index.md) - the hosted and self-hostable memory layer across vector, graph, and key-value backends.
@@ -83,3 +84,4 @@ Its members are compared on shared rows in the [Memory Feature Matrix](memory-fe
 - 2026-10-17 - Added Operator Memory.
 - 2026-10-28 - Added claude-obsidian.
 - 2026-10-28 - Added Sno Station.
+- 2026-11-25 - Added Hippo Memory.

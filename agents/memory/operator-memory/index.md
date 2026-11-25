@@ -1,9 +1,9 @@
 ---
 title: Operator Memory
 created: 2026-10-17
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, agent-memory, documentation, markdown, context-engineering]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, agent-memory, documentation, markdown, context-engineering]
 readability: 3
 audience_notes: >
   Engineers running Claude Code, Codex, OpenCode, or Pi who want session knowledge to persist
@@ -26,13 +26,14 @@ It came out of the author's August 2025 internal/ folder convention and ships wi
 ## Status
 
 **Young, single-author, and carried by one viral essay.**
-461 stars as of 2026-11-04 (GitHub API), with the repository pushed 2026-11-05, created 2026-08-16, BSD-3-Clause, re-checked 2026-11-13.
+461 stars as of 2026-11-04 (GitHub API), with the repository pushed 2026-11-24, created 2026-08-16, BSD-3-Clause, re-checked 2026-11-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aerovato/operator-memory&type=date&theme=dark&legend=top-left" />
   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=aerovato/operator-memory&type=date&legend=top-left" />
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=aerovato/operator-memory&type=date&legend=top-left" />
 </picture>
+claude-code@v0.3.1 (November 22) reuses the preamble in full-history forks; since then the default branch retired preamble v1.1 so v2.0 is the only preamble and consolidated the source checkouts and Copilot guides in the references docs (November 22 to 24, unreleased).
 
 The liao.gg essay (2026-10-03, updated 2026-10-05) reached 392 points and 312 comments on Hacker News, and the repository is the essay's grounded implementation, so the adoption and the argument share one author.
 Development is active: the helper passed 24 npm releases in three months (now at 1.13.0, with the core's machine-stable versioned preamble rollout landed), and the roadmap names an observation engine, reliable brain updates, and cache-aware preamble rendering as unfinished work.
@@ -77,6 +78,7 @@ Not for teams needing measured retrieval quality (none exists here), enterprise 
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live (the repository API and docs, the npm registry, the essay, the thread, the benchmark-exchange comment); the npm release count and the What-it-is parenthetical corrected to 23 releases through 1.12.0 with the Codex adapter at 0.4.1 (Status had moved on, the opening had not), and the liao.gg essay now serves a site-wide 403 bot wall to non-browser fetches (domain root included, browser UA included), citation kept per the bot-wall ruling.
 - 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (the repository API, README, architecture and comparison docs, LICENSE, the npm registry, the essay thread, the benchmark-exchange comment), no facts changed (the repository still pushed 2026-11-05, BSD-3-Clause, the helper still at 1.12.0 with twenty-three npm releases, the thread steady at 392 points, the benchmark-exchange comment intact); the liao.gg essay still serves its site-wide 403 bot wall to non-browser fetches, citation kept per the bot-wall ruling.
 - 2026-11-22 - Recorded the coordinated package batch (November 21): pi@v1.3.0 (Project Init streamlined and the standalone index command retired), opencode-v2@v2.4.0, and helper@v1.13.0, with the npm parenthetical moved to 24 releases through 1.13.0 and the Codex adapter at 0.5.0; the push date refreshed to 2026-11-21.
+- 2026-11-25 - Recorded claude-code@v0.3.1 (November 22, the preamble reused in full-history forks) and the unreleased November 22-to-24 batch (preamble v1.1 retired with v2.0 the only preamble, Copilot guides in the references docs); the status push date refreshed to 2026-11-24.
 ## See also
 
 - [File-based agent memory](../file-based-agent-memory/index.md) - the convention this productizes, and the thesis's cheapest form

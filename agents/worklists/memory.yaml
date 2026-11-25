@@ -3,7 +3,7 @@ category: memory
 generated: 2026-11-25
 mapped_sources:
   - repo: TeleAI-UAGI/Awesome-Agent-Memory
-    last_checked: 2026-11-22
+    last_checked: 2026-11-25
 digest_lines:
   - "- 2026-11-24 | cross-category | the second 2026-11-24 stars scan resolves one out-of-scope rejection | adnanh/webhook (12,235 stars, starred 2026-11-24T03:09:05Z) is an incoming-webhook server that runs shell commands, with no agent surface, the no-agent-story line; checkpoint advanced to 2026-11-24T03:09:05Z"
   - "- 2026-11-24 | cross-category | the unauthenticated GitHub API limit is shared by every parallel worker on one IP and can be exhausted at run start, so GitHub facts ground through authenticated `gh api` in the same run | the retrieval run's first batch returned rate-limit errors on every api.github.com call while `gh api` answered each one"
