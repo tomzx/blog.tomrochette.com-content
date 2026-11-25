@@ -1,7 +1,7 @@
 ---
 title: SkillSpector
 created: 2026-10-12
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, skills, security, supply-chain]
 readability: 3
@@ -17,15 +17,16 @@ SkillSpector is NVIDIA's Apache-2.0 security scanner for AI agent skills: point 
 
 ## What it is
 
-A Python 3.12+ CLI (installed with uv or pip from git, or run as a Docker image) from NVIDIA, built as two analysis stages.
+A Python 3.12+ CLI (installed with uv or pip from git, pip from PyPI since v2.13.7, or run as a Docker image) from NVIDIA, built as two analysis stages.
 Stage one is static: eleven analyzers covering 71 vulnerability patterns across 17 categories, prompt injection, data exfiltration, privilege escalation, supply chain, excessive agency, MCP tool poisoning and least privilege, plus AST behavioral checks, taint tracking, YARA signatures, and live CVE lookups against OSV.dev with an offline fallback.
 Stage two is an optional LLM semantic pass (OpenAI, Anthropic, Bedrock, Gemini, Ollama, local runtimes, or NVIDIA's own build.nvidia.com endpoint) that can confirm findings and add explanations but never removes one, and disputed findings stay tagged `llm-unconfirmed` in the JSON and SARIF output.
 Reports land as terminal text, JSON, Markdown, or SARIF for CI, the exit codes are a documented install-gate contract, and an MCP server mode exposes a single `scan_skill` tool so an MCP host can gate installs at runtime.
+CodeRabbit's changelog entry of 2026-06-11 puts the scanner inside its pull request reviews by default, run on changed `SKILL.md`, `mcp.json`, `mcp-config.json`, `claude_desktop_config.json`, `.cursorrules`, and `codex.yaml` files and switched off through `reviews.tools.skillspector.enabled: false`.
 It is the security tier inside NVIDIA's SkillEvaluator and part of the Verified Skills pipeline that scans, evaluates, and signs skills before publishing them to NVIDIA's catalog, with in-session extensions for Pi and OpenCode.
 
 ## Status
 
-Active and large: 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24, 2,359 as of 2026-11-17), 156 open issues as of 2026-11-22, created 2026-03-21, main's last commit 2026-11-19 (the parser-boundary batch of PRs #1151 through #1154, followed by a second same-day batch: supply-chain scanning of tool-specific pyproject.toml dependency tables for Poetry, PDM, Hatch, and uv, tool-poisoning findings tagged ATLAS AML.T0110, sanitized input acquisition-origin retention, AST source-line indexing at Python line breaks only, and locked pyasn1, cryptography, and pyjwt bumps past published advisories), with main pushed through 2026-11-24, v2.13.7 the newest release.
+Active and large: 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24, 2,359 as of 2026-11-17, 2,466 as of 2026-11-25), 156 open issues as of 2026-11-22 and 168 as of 2026-11-25, created 2026-03-21, main's last commit 2026-11-24 (the v2.13.7 release commits, the PyPI trusted-publishing workflow, and the merge of #1176, whose branch names a zip64 checkpoint inspection fix), after main's 2026-11-19 day (the parser-boundary batch of PRs #1151 through #1154, followed by a second same-day batch: supply-chain scanning of tool-specific pyproject.toml dependency tables for Poetry, PDM, Hatch, and uv, tool-poisoning findings tagged ATLAS AML.T0110, sanitized input acquisition-origin retention, AST source-line indexing at Python line breaks only, and locked pyasn1, cryptography, and pyjwt bumps past published advisories), with v2.13.7 the newest release.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/SkillSpector&type=date&theme=dark&legend=top-left" />
@@ -40,6 +41,7 @@ The project's documentation already disagrees with itself: the README counts 71 
 ## Strengths
 
 - **Fail-closed engineering is rare in this ecosystem**: ingest caps (100 MiB per source, 10,000 zip members), coverage accounting where any excluded file blocks a SAFE verdict, and an exit-code contract built for CI gates.
+- **A third party ships it by default**: CodeRabbit's 2026-06-11 changelog entry turned the scanner on inside its pull request reviews, which reaches teams that never install the CLI.
 - Deterministic findings are immovable: the LLM stage can confirm or dispute, but every static finding stays in the report.
 - Baseline suppression lets a team accept known findings once and resurface only new ones, with evidence-bound fingerprints that reactivate when the source changes.
 - The README states its own limits, including moderate static precision, no guaranteed LLM precision, and a disabled codex_cli provider whose sandbox permits host-file reads.
@@ -47,7 +49,8 @@ The project's documentation already disagrees with itself: the README counts 71 
 ## Cautions
 
 - **The pattern set is one vendor's opinion, and the 68-versus-71 count drift between the README and the docs guide shows the taxonomy is still moving.**
-- The OpenCode in-session provider pins one exact OpenCode version (1.18.33 in the README, 1.18.31 in the v2.12.0 notes), so in-session semantic scans break on any other OpenCode release.
+- The OpenCode in-session provider fails closed on any OpenCode release outside its verified list (ten individually verified versions in the README as of 2026-11-25, 1.18.31 through 1.18.35 and 1.19.0 through 1.19.4, where the README read one pinned version, 1.18.33, on 2026-10-22), so in-session semantic scans break on the next OpenCode release until the list catches up.
+- The CodeRabbit integration is documented on one side only: the 2026-06-11 changelog entry describes it, the scanner's README and hosted docs do not mention CodeRabbit, and the entry's tool-guide link returned 404 on 2026-11-25, so nothing I could fetch says which scan stage a review runs.
 - LLM-stage scans bill your own provider, and the batch scanner's default model targeted DeepSeek, which the README expects to sunset.
 - The MCP HTTP transport ships without authentication by design (loopback-only binding, credential-free https targets only), a documented but easy-to-misuse trust model.
 - A clean scan inspects the artifact pre-install; it says nothing about whether the skill improves your output, which is SkillEvaluator's separate question.
@@ -83,6 +86,9 @@ Not for runtime policy enforcement (that is the harness or a control plane), for
 - 2026-11-19 - Volatile refresh: main pushed to 2026-11-19 with the parser-boundary batch (command boundaries and printf braces, reconstructed Python operands requiring viable options, runtime command bindings, PRs #1151 through #1154) and open issues moved up to 163; v2.13.6 still the newest release.
 - 2026-11-22 - Volatile refresh: main's 11-19 batch grew past the recorded parser-boundary PRs with a second same-day batch (supply-chain scanning of tool-specific pyproject.toml dependency tables for Poetry, PDM, Hatch, and uv, tool-poisoning findings tagged ATLAS AML.T0110, sanitized input acquisition-origin retention, AST source-line indexing at Python line breaks only, and locked pyasn1, cryptography, and pyjwt dependency-security bumps), the pushed date's 11-20 move landing on side-branch activity, and open issues moved down to 156; v2.13.6 still the newest release.
 - 2026-11-24 - Added the SkillEvaluator See also link (NVIDIA's output-quality evaluator for skills, admitted to evaluation-review), the quality-side question beside this scanner's security verdict; and the release train moved to v2.13.7 (published 2026-11-24: recursive root scope exclusions reported, RP3 findings at the manifest version field, a completeness-aware scanner install gate, PyPI trusted publishing), past the recorded v2.13.6.
+- 2026-11-25 - Recorded the CodeRabbit integration the note lacked: the changelog entry of 2026-06-11 says CodeRabbit's pull request reviews run SkillSpector by default on changed SKILL.md, mcp.json, mcp-config.json, claude_desktop_config.json, .cursorrules, and codex.yaml files, switched off through reviews.tools.skillspector.enabled: false; added the CodeRabbit See also link.
+- 2026-11-25 - Corrected the OpenCode in-session caution on the README's current text: the provider no longer pins one exact OpenCode version (1.18.33 at the 2026-10-22 reading) and fails closed outside ten individually verified releases (1.18.31 through 1.18.35 and 1.19.0 through 1.19.4); the install paragraph and the matrix carry the first PyPI release (2.13.7, uploaded 2026-11-24), which retires the matrix's no-registry reading, and the matrix's runtimes and explicit-invocation cells carry the CodeRabbit pass.
+- 2026-11-25 - Rotation re-verification: every cited URL re-fetched live, the duplicate releases/latest reference collapsed into one entry reading v2.13.7, and the 71-versus-68 pattern-count drift and the single 49-point Hacker News thread both held.
 
 ## See also
 
@@ -92,12 +98,14 @@ Not for runtime policy enforcement (that is the harness or a control plane), for
 - [Anthropic Agent Skills](../anthropic-agent-skills/index.md) - the vendor framing of skills as untrusted inputs that motivates pre-install scanning
 - [Agent Skills open standard](../agent-skills-open-standard/index.md) - the format whose six fields carry none of the security posture this scanner checks
 - [SkillEvaluator](../../evaluation-review/skillevaluator/index.md) - NVIDIA's output-quality evaluator for skills, the quality-side question beside this scanner's security verdict
+- [CodeRabbit](../../code-review/coderabbit/index.md) - the review bot whose pull request reviews run this scanner by default on changed skill and MCP config files
 
 ## References
 
-- https://api.github.com/repos/NVIDIA/SkillSpector - 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24), 171 open issues as of 2026-11-07, 158 as of 2026-11-12, 150 as of 2026-11-13, 145 as of 2026-11-14, 157 as of 2026-11-17, 163 as of 2026-11-19, and 156 as of 2026-11-22, Apache-2.0, created 2026-03-21, main's last commit 2026-11-19 with pushed_at reading 2026-11-20 on side-branch activity, docs homepage (fetched 2026-11-07, re-fetched 2026-11-12, 2026-11-13, 2026-11-14, 2026-11-17, 2026-11-19, and 2026-11-22)
-- https://raw.githubusercontent.com/NVIDIA/SkillSpector/main/README.md - the 71-pattern taxonomy, two-stage pipeline, MCP mode, install paths, risk scoring, and the 31,132-skill research numbers (fetched 2026-10-22, the 71 count and the OpenCode 1.18.33 pin unchanged)
-- https://docs.nvidia.com/skills/scanning-agent-skills - the hosted guide with its 68-pattern count, the triage policy, and the SkillEvaluator security-tier framing (fetched 2026-10-12)
-- https://api.github.com/repos/NVIDIA/SkillSpector/releases/latest - v2.13.6 published 2026-11-16 (JSON-metadata bare-wrapper-name false-diagnostic fix plus documentation updates, wheel and source distribution, no PyPI publish), following v2.13.5 published 2026-11-16 (bounded-parsing and inspection improvements preserving the 2.13.4 provider defaults), v2.13.4 published 2026-11-04 (GPT-6.1 Sol and Claude Opus 5.5 provider compatibility, bounded parsing, no-execution inspection, bounded TAR/GZIP), and v2.13.3 published 2026-11-02 (P0 security and scan-integrity fixes, four dependency updates, the 18-minute workflow deadline), and v2.13.0 published 2026-10-16, a security-hardening backport of 55 selected PRs onto v2.12.0 (sha256-digested assets, Codex-prepared notes, published 2026-09-23) (fetched 2026-11-07, re-fetched 2026-11-17)
-- https://hn.algolia.com/api/v1/search?query=SkillSpector&tags=story - the single 49-point, 4-comment thread (2026-06-12) behind the thin-footprint statement (fetched 2026-10-12)
-- https://api.github.com/repos/NVIDIA/SkillSpector/releases/latest - v2.13.7, published 2026-11-24T05:58Z (fetched 2026-11-24)
+- https://api.github.com/repos/NVIDIA/SkillSpector - 20,139 stars and 1,770 forks as of 2026-10-13 (1,857 forks as of 2026-10-24), 171 open issues as of 2026-11-07, 158 as of 2026-11-12, 150 as of 2026-11-13, 145 as of 2026-11-14, 157 as of 2026-11-17, 163 as of 2026-11-19, 156 as of 2026-11-22, and 168 as of 2026-11-25 (2,466 forks as of 2026-11-25), Apache-2.0, created 2026-03-21, main's last commit 2026-11-24 with pushed_at reading 2026-11-24, docs homepage (fetched 2026-11-07, re-fetched 2026-11-12, 2026-11-13, 2026-11-14, 2026-11-17, 2026-11-19, 2026-11-22, and 2026-11-25)
+- https://raw.githubusercontent.com/NVIDIA/SkillSpector/main/README.md - the 71-pattern taxonomy, two-stage pipeline, MCP mode, install paths, risk scoring, and the 31,132-skill research numbers (fetched 2026-10-22 and re-fetched 2026-11-25: the 71 count holds, while the OpenCode provider now lists ten verified releases, 1.18.31 through 1.18.35 and 1.19.0 through 1.19.4, where the 2026-10-22 reading found the one 1.18.33 pin; no mention of CodeRabbit)
+- https://docs.nvidia.com/skills/scanning-agent-skills - the hosted guide with its 68-pattern count, the triage policy, and the SkillEvaluator security-tier framing (fetched 2026-10-12, re-fetched 2026-11-25 with the 68 count holding)
+- https://api.github.com/repos/NVIDIA/SkillSpector/releases/latest - v2.13.7, published 2026-11-24T05:58Z, cut from main at 2d0c6ddcb after the 2.13 maintenance branch carried the earlier releases (fetched 2026-11-24 and 2026-11-25), following v2.13.6 published 2026-11-16 (JSON-metadata bare-wrapper-name false-diagnostic fix plus documentation updates, wheel and source distribution), v2.13.5 published 2026-11-16 (bounded-parsing and inspection improvements preserving the 2.13.4 provider defaults), v2.13.4 published 2026-11-04 (GPT-6.1 Sol and Claude Opus 5.5 provider compatibility, bounded parsing, no-execution inspection, bounded TAR/GZIP), v2.13.3 published 2026-11-02 (P0 security and scan-integrity fixes, four dependency updates, the 18-minute workflow deadline), and v2.13.0 published 2026-10-16, a security-hardening backport of 55 selected PRs onto v2.12.0 (published 2026-09-23) (earlier releases fetched 2026-11-07, re-fetched 2026-11-17)
+- https://pypi.org/pypi/skillspector/json - the PyPI package: 2.13.7 its only release, uploaded 2026-11-24T20:58Z, with project URLs pointing at NVIDIA/SkillSpector and requires_python 3.12 through 3.15 (fetched 2026-11-25)
+- https://hn.algolia.com/api/v1/search?query=SkillSpector&tags=story - the single 49-point, 4-comment thread (2026-06-12) behind the thin-footprint statement (fetched 2026-10-12, re-run 2026-11-25 with the same single thread)
+- https://www.coderabbit.ai/changelog - the SkillSpector entry under Tools dated 2026-06-11: CodeRabbit runs NVIDIA's SkillSpector during pull request reviews on changed SKILL.md, mcp.json, mcp-config.json, claude_desktop_config.json, .cursorrules, and codex.yaml files, enabled by default with reviews.tools.skillspector.enabled: false as the opt-out (fetched 2026-11-25; the entry's tool-guide link at /tools/skillspector returned 404 the same day)

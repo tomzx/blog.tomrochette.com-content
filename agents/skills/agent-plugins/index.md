@@ -1,9 +1,9 @@
 ---
 title: Agent Plugins
 created: 2026-10-06
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, plugins, open-standards, packaging]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, skills, plugins, open-standards, packaging]
 readability: 3
 audience_notes: >
   Engineers packaging skills and MCP servers for more than one agent client, who need to know what the new plugin envelope standardizes and what it leaves to each vendor.
@@ -36,6 +36,7 @@ The draft kept moving: on 2026-11-13 the TSC merged the portable-hooks proposal 
 
 At launch, ChatGPT and Codex, Cursor, GitHub Copilot, Kiro, and VS Code supported the format, while Anthropic and Google appeared on neither the partner list nor the steering committee.
 In practice the `plugins` CLI translates the format into Claude Code, Codex, Cursor, GitHub Copilot, VS Code, Grok Build, and Kimi Code, so plugins install into Claude Code today even though Claude Code does not natively parse `plugin.json`.
+Vendor surfaces are building the discovery and vouching layer the spec leaves open: codeg v0.48.0 (2026-11-24) installs SRN Harness plugins such as superpowers into Claude Code, Codex, and OpenCode from its Discover page, per agent as a plugin, as skills only, or not at all, and disables a plugin its catalog no longer vouches for while keeping its files.
 
 ## Strengths
 
@@ -78,6 +79,7 @@ My disagreeable claim: the interesting question is no longer whether skills and 
 - 2026-11-07 - Volatile re-verification on the repo's first push since 2026-09-28: main landed a v1.1.0 Working Draft on 2026-11-06 (a `displayName` manifest field, a portable `assets/` directory with icon discovery, optional per-server extension data in `mcp.json` entries, simplified manifest-validation language) while the published site still serves v1.0.0 and v1.0.0 stays the only tag, so the Status gained the draft fact and the pushed date moved.
 - 2026-11-14 - Rotation re-verification plus volatile update: every cited URL re-fetched live and all v1.0.0 claims held (published spec, launch post, and critical guide unchanged), and the draft activity resolved: main moved past the 11-06 push with the portable-hooks proposal merged 2026-11-13 (PR #89, hook handlers as a third portable component type discovered from `hooks.json`, with `command` containment and a hook-approval confirmation policy) and regex-portable plugin-name validation plus MCP `cwd` containment fixes on 2026-11-14 (PRs #79 and #80), while the published site still serves v1.0.0 and v1.0.0 stays the only tag.
 - 2026-11-21 - Rotation re-verification: every cited URL re-fetched live, all claims held a fifth time (the spec site still serves v1.0.0 Published with the closed ten-field manifest, the report-and-ignore rule for unknown fields, and the PLUGIN_ROOT/PLUGIN_DATA contract, the TSC and launch-client lists unchanged, the critical guide still carrying its report-and-override disagreement with the spec text, and the v1.1.0 Working Draft still carrying `displayName`, the portable `assets/` icon directory, hooks as a third component type from `hooks.json`, and per-server MCP extension data), and the repo's 2026-11-20 pushed_at is a side-branch push with main's newest commit still the 2026-11-14 merge (verified through the commits API); no cells or figures moved.
+- 2026-11-25 - Recorded the SRN Harness catalog as ecosystem evidence in Status (codeg v0.48.0, released 2026-11-24, installs its plugins such as superpowers into Claude Code, Codex, and OpenCode per agent as a plugin, as skills only, or not at all, and disables a plugin the catalog stops vouching for), a vendor discovery-and-vouching layer the spec leaves out of scope, with the Codeg See also link; every cited URL re-fetched live before the edit, the spec site still on v1.0.0 Published, the draft still a Working Draft, and main still at 2026-11-14 with pushed_at reading 2026-11-20.
 
 ## See also
 
@@ -86,12 +88,14 @@ My disagreeable claim: the interesting question is no longer whether skills and 
 - [Anthropic Agent Skills](../anthropic-agent-skills/index.md) - the vendor format that became the skills half of every plugin
 - [MCP](../../protocols/mcp/index.md) - the protocol standardizing what Agent Plugins packages
 - [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - the map this packaging layer sits over
+- [Codeg](../../surfaces/codeg/index.md) - the coding workspace whose Discover page installs SRN Harness plugins into Claude Code, Codex, and OpenCode, a vendor catalog and per-agent translation outside the spec
 
 ## References
 
-- https://agent-plugins.org/ - the spec site: package model, component types, open governance, and the five-vendor TSC (re-fetched 2026-11-21, unchanged)
-- https://agent-plugins.org/specification - the normative v1.0.0 spec: the closed ten-field manifest, required `$schema` and `name`, report-and-ignore for unknown fields, MCP transports, and the `PLUGIN_ROOT`/`PLUGIN_DATA` environment contract (re-fetched 2026-11-21, unchanged; the site does not yet carry the v1.1.0 draft)
-- https://vercel.com/blog/introducing-agent-plugins - the launch announcement (2026-08-06): Vercel initiated, refined with AWS, Anysphere, GitHub, Microsoft, and OpenAI, and the launch client list (re-fetched 2026-11-21, unchanged)
+- https://agent-plugins.org/ - the spec site: package model, component types, open governance, and the five-vendor TSC (re-fetched 2026-11-21 and 2026-11-25, unchanged)
+- https://agent-plugins.org/specification - the normative v1.0.0 spec: the closed ten-field manifest, required `$schema` and `name`, report-and-ignore for unknown fields, MCP transports, and the `PLUGIN_ROOT`/`PLUGIN_DATA` environment contract (re-fetched 2026-11-21 and 2026-11-25, unchanged; the site does not yet carry the v1.1.0 draft)
+- https://vercel.com/blog/introducing-agent-plugins - the launch announcement (2026-08-06): Vercel initiated, refined with AWS, Anysphere, GitHub, Microsoft, and OpenAI, and the launch client list (re-fetched 2026-11-21 and 2026-11-25, unchanged)
 - https://api.github.com/repos/agentplugins/agent-plugins-spec - the specification repo: 1,382 stars, 76 forks, created 2026-04-03, pushed 2026-09-28 through the 2026-11-01 re-fetch, pushed 2026-11-06 as of 2026-11-07, pushed_at reading 2026-11-13 on side branches with main still at 2026-11-06, then main itself pushed 2026-11-14 with the portable-hooks merge and validation fixes, and pushed_at reading 2026-11-20 on side branches with main still at 2026-11-14 (GitHub API, as of 2026-10-13; re-fetched 2026-11-07, 2026-11-13, 2026-11-14, and 2026-11-21)
-- https://raw.githubusercontent.com/agentplugins/agent-plugins-spec/main/spec/1.1.0.md - the v1.1.0 Working Draft landed on main 2026-11-06: `displayName`, the portable `assets/` icon directory, per-server MCP extension data, and the simplified validation language, marked Status: Working Draft (fetched 2026-11-07, re-fetched 2026-11-14 and 2026-11-21; the draft carries hook handlers as a third portable component type with `hooks.json` discovery, hook `command` containment, and per-event input and output schemas)
-- https://agenticskills.io/learn/what-are-agent-plugins - the critical reading: the `plugin.json` naming collision, the absent Anthropic and Google, the CLI-versus-native-support distinction, and what remains unsolved (re-fetched 2026-11-21, unchanged)
+- https://raw.githubusercontent.com/agentplugins/agent-plugins-spec/main/spec/1.1.0.md - the v1.1.0 Working Draft landed on main 2026-11-06: `displayName`, the portable `assets/` icon directory, per-server MCP extension data, and the simplified validation language, marked Status: Working Draft (fetched 2026-11-07, re-fetched 2026-11-14, 2026-11-21, and 2026-11-25; the draft carries hook handlers as a third portable component type with `hooks.json` discovery, hook `command` containment, and per-event input and output schemas)
+- https://agenticskills.io/learn/what-are-agent-plugins - the critical reading: the `plugin.json` naming collision, the absent Anthropic and Google, the CLI-versus-native-support distinction, and what remains unsolved (re-fetched 2026-11-21 and 2026-11-25, unchanged)
+- https://api.github.com/repos/spacering-net/codeg/releases/tags/v0.48.0 - codeg v0.48.0 release notes, published 2026-11-24: one-step install of SRN Harness plugins such as superpowers from Discover into Claude Code, Codex, and OpenCode, per agent as a plugin, as skills only, or not at all, with an installed-plugins section that disables a plugin SRN Harness no longer vouches for while keeping its files (fetched 2026-11-25)
