@@ -1,7 +1,7 @@
 ---
 title: WrenAI
 created: 2026-10-10
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, context-engines, semantic-layer, text-to-sql, genbi]
 readability: 3
@@ -23,7 +23,7 @@ Everything Wren writes is plain YAML and Markdown in a repo you own, and Git Syn
 
 ## Status
 
-Established and active: 17,877 stars as of 2026-10-18, 2,124 forks and 248 open issues as of 2026-11-24, created 2024-03-13, pushed 2026-11-23 (the 2026-11-17 wren-core fix requiring every primary-key column in TO_MANY partial models, the 2026-11-19 docs-only link fixes, and the 2026-11-23 fixes rejecting unresolved columns in MDL-only scopes during offline SQL planning and preserving model-qualified column identity across relationship projections, all unreleased above wren-v0.18.0), with wren-v0.18.0 published 2026-11-10 and PyPI (wrenai) tracking 0.18.0 (re-checked 2026-11-24), following wren-v0.17.1 on 2026-10-30.
+Established and active: 17,877 stars as of 2026-10-18, 2,128 forks and 241 open issues as of 2026-11-25, created 2024-03-13, pushed 2026-11-25 (the 2026-11-17 wren-core fix requiring every primary-key column in TO_MANY partial models, the 2026-11-19 docs-only link fixes, and the 2026-11-23 fixes rejecting unresolved columns in MDL-only scopes during offline SQL planning and preserving model-qualified column identity across relationship projections, and the 2026-11-25 fixes keeping toNullable off LAG and LEAD values ClickHouse cannot make nullable (#2871) and splitting rule front-matter in the context loader on every line boundary the CLI does (#2872), with a core test for nested relationship chains in column identity (#2881) and dependency bumps clearing the open Dependabot alerts for soupsieve, setuptools, and hono (#2882), all unreleased above wren-v0.18.0), with wren-v0.18.0 published 2026-11-10 and PyPI (wrenai) tracking 0.18.0 (re-checked 2026-11-25), following wren-v0.17.1 on 2026-10-30.
 Release 0.18.0 serves a project-bound agent and governed MCP through a shared context layer (the follow-up commit addressing the deferred review findings landed the same week), alongside fixes that keep result columns sharing a name in JSON output, preserve physical-column renames across Ossie export/import, respect CTE visibility when expanding semantic models, and scope flag grouping to its select.
 Release 0.17.0 shipped the Apache Ossie work recorded here on 10-24 (the `wren context import` and `export` ossie commands joining dbt and OpenMetadata, plus importing a Wren project from an OpenMetadata catalog) alongside ClickHouse dialect-translation fixes, JSON output that keeps dates and integers intact, an MCP SDK major-version pin, and wren-core-py 0.8.2 (2026-10-23) with the DISTINCT ON column fix in the bindings, with the wren-v0.17.1 patch (2026-10-30) carrying the DuckDB 2.0 `to_arrow_table` compatibility fix between it and 0.18.0.
 The docs page claims SOC 2 Type II certification and now quotes 17.8k GitHub stars against the live count; its old 17-plus data-source figure is gone (the README stays at 22-plus), closing the discrepancy flagged on 2026-10-11.
@@ -94,6 +94,7 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 - 2026-11-21 - Full rotation re-verification: every cited URL re-fetched and intact (the repository and README still at 22-plus data sources, the releases feed still topped by wren-v0.18.0, pull request #2821, PyPI at 0.18.0, the pricing page with Essential $179, Enterprise $559, and Enterprise Plus quoted by sales, the docs portal quoting 17.8k stars and SOC 2 Type II, the billing docs with the card-required trial and the 20-credit add-on, and the HN search with the largest thread at 6 points); recorded main's 2026-11-19 commits (the core docs index rebuild and the stale wren-README link fixes) as docs-only and non-material per the standing ruling, with the repository's 2026-11-20 pushed date read as off-main activity; volatile numbers refreshed (2,119 forks, 247 open issues); no release since wren-v0.18.0.
 - 2026-11-24 - Recorded main's unreleased 2026-11-23 batch (the engine rejecting unresolved unqualified columns in MDL-only scopes during offline SQL planning, #2851, and model-qualified column identity preserved across relationship projections, #2863, with the SDK docs for per-project .env resolution, #2865); PyPI re-checked unchanged at 0.18.0; forks and open issues refreshed (2,124 and 248); no release since wren-v0.18.0.
 - 2026-11-24 - Recorded the cloud plans' free trial lengthening from 7 to 14 days (still card-required, on both the pricing page and the billing docs) with plan prices and credits unchanged, appended the Price history row, and corrected the Strengths claim that the cloud entry tier is genuinely free, stale since the 2026-11-15 removal of the free tier.
+- 2026-11-25 - Recorded main's unreleased 2026-11-25 round (the engine keeping toNullable off LAG and LEAD values ClickHouse cannot make nullable, #2871; the context loader splitting rule front-matter on every line boundary the CLI does, #2872; a core test covering nested relationship chains for column identity, #2881; dependency bumps clearing the open Dependabot alerts for soupsieve, setuptools, and hono, #2882); PyPI re-checked unchanged at 0.18.0; forks and open issues refreshed (2,128 and 241); no release since wren-v0.18.0.
 
 ## See also
 
@@ -106,13 +107,13 @@ Not for code tasks, and not for anyone who needs independently verified SQL accu
 ## References
 
 - https://github.com/Canner/WrenAI - repository: README, architecture, open-core split, license badge
-- https://api.github.com/repos/Canner/WrenAI - forks, open issues, creation and push dates as of 2026-11-24 (stars kept at the 2026-10-18 baseline)
+- https://api.github.com/repos/Canner/WrenAI - forks, open issues, creation and push dates as of 2026-11-25 (stars kept at the 2026-10-18 baseline)
 - https://api.github.com/repos/Canner/WrenAI/releases - wren-v0.18.0 published 2026-11-10 (the served project-bound agent and governed MCP context layer) after wren-v0.17.1 on 2026-10-30, plus the component release train (re-fetched 2026-11-24, no release since)
 - https://api.github.com/repos/Canner/WrenAI/pulls/2821 - the Ossie import/export merge: Apache Ossie joining dbt and OpenMetadata under one `wren context import` command (fetched 2026-10-24; re-fetched intact 2026-11-15)
 - https://www.getwren.ai/pricing - the credit tiers, quotas, and Enterprise feature gates (re-fetched 2026-11-24: Essential $179, Enterprise $559, Enterprise Plus quoted by sales, the free tier still gone, MCP server in Essential, card-required 14-day trial)
 - https://docs.getwren.ai/cp/guide/account/billing - the billing docs confirming the card-required 14-day trial (7-day through the 2026-11-21 check), the 20 free monthly credits as a paid-plan perk expiring each month, and the unlimited users-and-projects line (fetched 2026-11-24)
 - https://docs.getwren.ai/ - the docs portal: editions, SOC 2 claim, and the 15k-plus star line (re-fetched 2026-11-15)
-- https://pypi.org/pypi/wrenai/json - CLI and SDK version 0.18.0 (re-fetched 2026-11-24)
+- https://pypi.org/pypi/wrenai/json - CLI and SDK version 0.18.0 (re-fetched 2026-11-25)
 - https://api.github.com/repos/Canner/WrenAI/pulls/2851 - the 2026-11-23 fix rejecting unresolved columns in MDL-only scopes during offline SQL planning, unreleased (fetched 2026-11-24)
 - https://api.github.com/repos/Canner/WrenAI/pulls/2863 - the 2026-11-23 fix preserving model-qualified column identity across relationship projections, unreleased (fetched 2026-11-24)
 - https://raw.githubusercontent.com/Canner/WrenAI/main/README.md - the full README: mechanism, comparison table, Git Sync, open-core terms

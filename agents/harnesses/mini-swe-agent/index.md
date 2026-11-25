@@ -1,9 +1,9 @@
 ---
 title: Mini-SWE-agent
 created: 2026-10-10
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, research, swe-bench, minimalism]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, cli, coding-agent, research, swe-bench, minimalism, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers and researchers who want the smallest harness that still solves repository issues, and anyone choosing a baseline agent for evaluation work.
@@ -23,7 +23,7 @@ This is version 2, a rewrite documented in a migration guide from the v1 that fi
 
 Active and heavily used, mostly out of sight: 8,907 stars, its default branch last committed 2026-09-03 while the repository-level pushed date moves on side branches, on a repository created 2025-06-28 (GitHub API, as of 2026-11-16), with v2.4.6 (2026-07-23) still the latest release (verified 2026-11-16).
 PyPI counted 14,060,333 downloads in the last month as of 2026-11-22, which is batch-evaluation traffic, not desktop installs.
-The parent `SWE-agent` repository (20,663 stars, last release v1.1.0 in May 2025, default branch last committed 2026-07-16, its own pushed date likewise riding side branches) carries a README notice saying most development effort has moved to mini-swe-agent and recommending it going forward, so the lineage has formally superseded its ancestor even though the maintenance-only label understates how quiet the default branch has gone since July.
+The parent `SWE-agent` repository (20,663 stars as of 2026-10-28, last release v1.1.0 in May 2025, default branch last committed 2026-07-16, its own pushed date likewise riding side branches) carries a README notice saying most development effort has moved to mini-swe-agent and recommending it going forward, so the lineage has formally superseded its ancestor even though the maintenance-only label understates how quiet the default branch has gone since July.
 The project's news page also claims mini-swe-agent now powers Ramp's SWE-bench harness, which would make it the named harness behind a third-party company's benchmark offering, and that it beats Claude Code and Codex on DeepSWE per Datacurve's evaluation blog.
 
 <picture>
@@ -72,6 +72,7 @@ Not for daily driving, and not for anyone who needs subagents, MCP, or editor in
 - 2026-11-11 - Rotation re-verification, re-fetching every cited reference (all live): the default branch confirmed quiet since 2026-09-03 with the repository-level push (2026-11-09) riding side branches per the pushed-date ruling, v2.4.6 still the newest release, and the monthly PyPI figure re-read at the same 11,605,679.
 - 2026-11-16 - Rotation re-verification, re-fetching every cited reference (all live): v2.4.6 still the newest release with the default branch quiet since 2026-09-03, the monthly PyPI figure refreshed to 14,259,768 (from 11,605,679), the parent supersession notice and the 190-line v2 core re-confirmed, and the news page's DeepSWE claim added beside the Ramp one.
 - 2026-11-22 - Rotation re-verification, re-fetching every cited reference (all live): v2.4.6 still the newest release with the default branch quiet since 2026-09-03 (the repository-level push riding side branches per the pushed-date ruling), the monthly PyPI figure refreshed to 14,060,333 (from 14,259,768), the 190-line v2 core, the parent supersession notice, the over-74-percent and Ramp claims, and the 7-point Show HN re-confirmed.
+- 2026-11-25 - Dated the parent's star figure in Status (20,663 stars as of 2026-10-28, matching the References line); the figure is unchanged.
 
 ## See also
 

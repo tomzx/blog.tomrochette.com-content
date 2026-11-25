@@ -1,7 +1,7 @@
 ---
 title: Entroly
 created: 2026-10-12
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, context-engines, compression, receipts, open-source]
 readability: 3
@@ -25,7 +25,7 @@ Two offline commands are the trust surface: `entroly verify-claims` runs twelve 
 
 ## Status
 
-Young, active, and barely discovered: 476 stars as of 2026-10-18, 75 forks, created 2026-03-07, pushed 2026-11-23 on main, PyPI and npm both at 1.0.91 across 108 releases (registries re-checked 2026-11-24, GitHub figures as of 2026-11-24).
+Young, active, and barely discovered: 476 stars as of 2026-10-18, 75 forks, created 2026-03-07, pushed 2026-11-25 on main, PyPI and npm both at 1.0.91 across 108 releases (registries re-checked 2026-11-25, GitHub figures as of 2026-11-25).
 October 2026 development around the 1.0.87 release added a session journal of what a session did, returned on resume, source-bound cross-agent review in the work CLI, opt-in paired Decisions choice trials, and a rustls advisory fix.
 Release 1.0.88 (2026-11-01) shipped the PAC-KV cache-aligned compression (provider page-grid quantization, an economic break-even gate, paged Merkle trees, attention-aware tail compression), the receipt-backed graph memory with hybrid retrieval that main had carried unreleased, and frontier codecs, alongside 62 customer-visible dogfood fixes, an activation report naming a degraded hook's cause, and the scaffold of an opt-in action gate.
 Releases 1.0.89 and 1.0.90 (both 2026-11-14) shipped the previously unreleased 2026-11-07, 11-09, and 11-13 batches (held-out cascade-policy risk tests, STAVE and EICV calibration fixes, Claude Code host fixes, clean-room onboarding fixes, nested rename evidence, signed export-proof and verify-proof bundles, opt-in proxy header forwarding, and the pricing-catalog hardening) plus new work in the same window: the proxy keeps file reads intact and selects once per question with a usage-ledger over-claim fix, the dollars view leads with conservative net saving and prices OpenAI and Gemini, and a dogfood research round added native source retention, a 25-turn proxy replay, and usage-ledger hardening.
@@ -33,6 +33,7 @@ Main's unreleased work since the release is the 2026-11-14 batch: an agent pilot
 Release 1.0.91 (2026-11-21) shipped the recorded unreleased batches (the 2026-11-14 agent-pilot dogfood work, the 2026-11-15 to 11-16 Work Graph and calibration batch, and the 2026-11-17 to 11-18 governance and fix round) plus new release-window work: context now binds to its corpus and the audit record seals (#608), trial run reports state what the runs support with exact small-sample statistics (#605), and Homebrew and Scoop synced to the verified 1.0.91 artifacts (#611).
 Main's unreleased work above 1.0.91 is the 2026-11-21 to 11-22 round: dedup measurement probes with regression coverage, real-commit benchmark controls with paired reporting (#610), reviewed static model prices in the cache cost estimates (#615), and the dedup threshold widened to 5, measured against templated text (#619), plus dependency bumps.
 The 2026-11-22 to 11-23 round follows: simhash made operator-visible, since `limit < 42` and `limit > 42` had produced the same 64-bit fingerprint and the dedup index merged them at every threshold (#620); hard drops limited to conclusive duplicates with consolidation honoring protection (#621); superseded fragments marked instead of deleted, so a wrong grouping no longer destroys one permanently (#622); mechanism comments restated in the project's own terms and paper references then restored where they let a maintainer verify a claim (#623, #624); and an IOS diversity-mechanism fix whose admission gate ships disabled after its redundancy-reduction claim was withdrawn (#625), with PyPI and npm unchanged at 1.0.91.
+The 2026-11-25 follow-up bounds and continues benchmark runs on the repository's actual history (#627), still with PyPI and npm unchanged at 1.0.91.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=juyterman1000/entroly&type=date&theme=dark&legend=top-left" />
@@ -40,7 +41,7 @@ The 2026-11-22 to 11-23 round follows: simhash made operator-visible, since `lim
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=juyterman1000/entroly&type=date&legend=top-left" />
 </picture>
 
-Adoption is near zero for now: about 1,344 PyPI downloads in the trailing month (PyPIstats, re-fetched 2026-11-24, was 1,455) and 1,215 npm downloads summed for 2026-10-25 to 2026-11-24 (two zero days in the window), and a Hacker News search returns no story about the product (re-checked 2026-11-24, every top hit unrelated entropy content).
+Adoption is near zero for now: about 1,366 PyPI downloads in the trailing month (PyPIstats, re-fetched 2026-11-25, was 1,455 through 2026-11-01) and 1,220 npm downloads summed for 2026-10-26 to 2026-11-25 (two zero days in the window), and a Hacker News search returns no story about the product (re-checked 2026-11-24, every top hit unrelated entropy content).
 Its one external listing is the [Awesome-Context-Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) survey's Context Optimization Engines section, the same list that surfaced LLMLingua here.
 The missing community footprint is itself the finding to weigh: at this size the project is one person's bet with no independent signal in either direction.
 
@@ -90,6 +91,7 @@ My disagreeable claim: this category's arms race measures the wrong thing, and a
 - 2026-11-19 - Recorded main's unreleased 2026-11-17 to 11-18 batch (governance accounting for strict permission decisions, Windows handoff paths, large-input recovery, shell cleanup); PyPI and npm re-checked unchanged at 1.0.90, push date refreshed.
 - 2026-11-22 - Recorded release 1.0.91 (2026-11-21, PyPI and npm synchronized across 108 releases) shipping the recorded unreleased batches (the 2026-11-14 agent-pilot dogfood work, the 2026-11-15 to 11-16 Work Graph and calibration batch, and the 2026-11-17 to 11-18 governance and fix round) plus the corpus binding and audit-record sealing and the small-sample trial-statistics reporting, and main's unreleased 2026-11-21 to 11-22 round (dedup measurement probes, real-commit benchmark controls with paired reporting, reviewed static model prices in cache cost estimates, the dedup threshold widened to 5 against templated text); push date refreshed.
 - 2026-11-24 - Recorded main's unreleased 2026-11-22 to 11-23 round above 1.0.91 (operator-blind simhash fingerprints fixed so less-than and greater-than conditions stop merging in the dedup index, #620; hard drops limited to conclusive duplicates with consolidation honoring protection, #621; superseded fragments marked instead of deleted, #622; mechanism comments restated in the project's own terms and paper references then restored where they let a maintainer verify a claim, #623 and #624; an IOS diversity-mechanism fix shipping its gate disabled after the headline claim was withdrawn, #625); PyPI and npm re-checked unchanged at 1.0.91; push date and forks refreshed (2026-11-23 and 75); refreshed the adoption figures (1,344 PyPI downloads in the trailing month, 1,215 npm downloads summed 2026-10-25 to 2026-11-24), with the HN footprint re-checked and still empty.
+- 2026-11-25 - Recorded main's 2026-11-25 follow-up bounding and continuing benchmark runs on the repository's actual history (#627), with PyPI and npm re-checked unchanged at 1.0.91; push date and the adoption figures refreshed (2026-11-25, 1,220 npm downloads summed 2026-10-26 to 2026-11-25, and 1,366 PyPI downloads in the trailing month).
 
 ## See also
 
@@ -100,13 +102,13 @@ My disagreeable claim: this category's arms race measures the wrong thing, and a
 
 ## References
 
-- https://api.github.com/repos/juyterman1000/entroly - stars, forks, created and pushed dates, Apache-2.0 license, and topics as of 2026-11-24
+- https://api.github.com/repos/juyterman1000/entroly - stars, forks, created and pushed dates, Apache-2.0 license, and topics as of 2026-11-25
 - https://raw.githubusercontent.com/juyterman1000/entroly/main/README.md - mechanism, install surfaces, receipt and recovery model, the README benchmark table with the disclosed SQuAD regression, and the activation-status honesty notes (re-fetched 200, 2026-11-01)
 - https://raw.githubusercontent.com/juyterman1000/entroly/main/docs/BENCHMARKS.md - full benchmark protocols, sample sizes, the 24/24 versus 18/24 model-recovery holdout, and the WITNESS hallucination-detection numbers (re-fetched 200, 2026-11-01)
-- https://pypi.org/pypi/entroly/json - version 1.0.91 across 108 releases (re-fetched 2026-11-24)
-- https://registry.npmjs.org/entroly - the npm distribution at 1.0.91 (re-fetched 2026-11-24)
-- https://api.npmjs.org/downloads/range/2026-10-25:2026-11-24/entroly - 1,215 downloads summed for 2026-10-25 to 2026-11-24, two zero days in the window (fetched 2026-11-24)
-- https://pypistats.org/api/packages/entroly/recent - 1,344 downloads in the trailing month as of 2026-11-24 (1,455 through 2026-11-01)
+- https://pypi.org/pypi/entroly/json - version 1.0.91 across 108 releases (re-fetched 2026-11-25)
+- https://registry.npmjs.org/entroly - the npm distribution at 1.0.91 (re-fetched 2026-11-25)
+- https://api.npmjs.org/downloads/range/2026-10-26:2026-11-25/entroly - 1,220 downloads summed for 2026-10-26 to 2026-11-25, two zero days in the window (fetched 2026-11-25)
+- https://pypistats.org/api/packages/entroly/recent - 1,366 downloads in the trailing month as of 2026-11-25 (1,455 through 2026-11-01; the endpoint answered 429 once that day and the figure came from the retry)
 - https://hn.algolia.com/api/v1/search?query=entroly&hitsPerPage=5 - the footprint check: no story about the product, all top hits unrelated (re-fetched 2026-11-24)
 - https://marketplace.visualstudio.com/items?itemName=entroly.entroly-vscode - the VS Code extension surface (re-fetched 200, 2026-11-01)
 - https://github.com/Meirtz/Awesome-Context-Engineering - the entrant source: Entroly listed under Context Optimization Engines (repository and README fetched via the GitHub API, 2026-10-12; source re-scanned 2026-11-14, no commits on main since 2026-05-28 per the commits feed, so the scan carried over)

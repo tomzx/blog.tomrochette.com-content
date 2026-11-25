@@ -1,7 +1,7 @@
 ---
 title: Omnigent
 created: 2026-10-06
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, harnesses, meta-harness, orchestration, policies, sandboxing]
 readability: 3
@@ -33,7 +33,7 @@ Apache-2.0, Python 3.12+, installed via installer, uv, pip, or Homebrew; built b
 </picture>
 
 The HN footprint is thin: the top thread (the Databricks announcement, June 2026) reached 15 points with 4 comments, and resubmits stayed at 1 to 6 points.
-The 1,856 open issues against 10.7k stars read as heavy use plus heavy traffic, under an alpha badge the README still wears.
+The 1,856 open issues against 10.7k stars, both as of 2026-10-12, read as heavy use plus heavy traffic, under an alpha badge the README still wears.
 
 ## Strengths
 
@@ -76,6 +76,7 @@ Not for developers happy inside one harness, and not for Windows-first setups th
 - 2026-11-13 - Recorded the v0.22.0 release (published November 13): automations triggering from Schedule, Jira, Slack, GitHub, Linear, or PagerDuty, chosen in the New automation form and startable from any session; refreshed the push date to 2026-11-13.
 - 2026-11-19 - Recorded the v0.23.0 release (published November 19): automations with per-run MCP service picking, read-only sharing, a cheaper trigger model, and 16,000-character instructions, session grids and workspace search on by default, /rewind in Claude SDK and Code native chats, stacked-PR review, with native-harness agents moved onto their harness's own shell and file tools as the breaking change; refreshed the push date and the PyPI reference.
 - 2026-11-24 - Rotation re-verification, re-fetching every cited reference (all live): v0.23.0 (published November 19) remains the latest release on GitHub and PyPI; refreshed the push date to 2026-11-24.
+- 2026-11-25 - Dated the star and open-issue figures in Status (both as of 2026-10-12, the run that recorded them); the figures are unchanged.
 
 ## See also
 

@@ -1,9 +1,9 @@
 ---
 title: LLMLingua
 created: 2026-10-10
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, context-engines, compression, prompt-compression, research]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, context-engines, compression, prompt-compression, research]
 readability: 3
 audience_notes: >
   Engineers weighing prompt compression against retrieval and packing for long
@@ -24,7 +24,7 @@ MIT-licensed, built by the Microsoft Research group behind the papers (Huiqiang 
 
 ## Status
 
-Research-mature and in maintenance: 6,746 stars as of 2026-10-13 and 456 forks and 124 open issues as of 2026-11-21, created 2023-07-07, pushed 2026-11-06 (a GitHub Actions supply-chain pin, the first main commit since 2026-09-10; the repository-level pushed date later moved to 2026-11-09 on a push of the same state), as of 2026-11-21 (GitHub API).
+Research-mature and in maintenance: 6,746 stars as of 2026-10-13 and 458 forks and 124 open issues as of 2026-11-25, created 2023-07-07, main newest-committed 2026-11-24 (the `context_budget` parsing change below, the first code change since October 2025 after a run of GitHub Actions supply-chain pins), as of 2026-11-25 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/LLMLingua&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Research-mature and in maintenance: 6,746 stars as of 2026-10-13 and 456 forks a
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=microsoft/LLMLingua&type=date&legend=top-left" />
 </picture>
 
-The PyPI package has been frozen at 0.2.2 since 2024-04-09 (14 releases total), and the GitHub release train stopped at the same version, while main keeps receiving pushes that never reach pip users (the newest, 2026-11-06, is a GitHub Actions supply-chain pin).
+The PyPI package has been frozen at 0.2.2 since 2024-04-09 (14 releases total), and the GitHub release train stopped at the same version, while main keeps receiving pushes that never reach pip users (the newest, 2026-11-24, parses `context_budget` explicitly with input validation through a dedicated `apply_context_budget()` helper in `compress_prompt()`, pull request #265, the first code change since October 2025).
 The team's news feed has moved to KV-cache infrastructure (SCBench, RetrievalAttention, MInference), the layer underneath a prompt compressor once token pruning is done.
 The launch HN thread (December 2023) drew 149 points and 47 comments, a discussion footprint most of this category's young tools would envy.
 
@@ -76,6 +76,7 @@ My disagreeable claim: the newer compression products in this category are selli
 - 2026-11-11 - Recorded main's 2026-11-06 push (GitHub Actions pinned to full-length commit SHAs, the first main commit since 2026-09-10) and refreshed the activity counts (451 forks, 124 open issues); the package remains frozen at 0.2.2.
 - 2026-11-16 - Full rotation re-verification: every cited URL re-fetched and intact (repository API, README with the method family and CLA unchanged, PyPI, all four arXiv pages, the launch thread at 149 points, and the Microsoft Research project page); the package remains frozen at 0.2.2 (14 releases, uploaded 2024-04-09), the default branch's newest commit remains the 2026-11-06 actions pin with the 2026-11-09 pushed movement read as a later push of the same state, and the ECIR 2026 evaluation stands unchanged; forks refreshed (454).
 - 2026-11-21 - Full rotation re-verification: every cited URL re-fetched and intact (repository API, README with the method family unchanged, PyPI, all four arXiv pages, the launch thread at 149 points, and the Microsoft Research project page); the package remains frozen at 0.2.2 (14 releases, uploaded 2024-04-09), the default branch's newest commit remains the 2026-11-06 actions pin with pushed 2026-11-09 unchanged, and the ECIR 2026 evaluation stands unchanged; forks refreshed (456).
+- 2026-11-25 - Recorded main's 2026-11-24 commit (pull request #265: `context_budget` parsed explicitly with input validation through `apply_context_budget()`, the first code change since October 2025 after the supply-chain pins); the package remains frozen at 0.2.2 (14 releases); forks refreshed (458).
 
 ## See also
 
@@ -87,6 +88,7 @@ My disagreeable claim: the newer compression products in this category are selli
 ## References
 
 - https://api.github.com/repos/microsoft/LLMLingua - repository stats, MIT license, and activity as of 2026-10-10
+- https://api.github.com/repos/microsoft/LLMLingua/pulls/265 - the context_budget parsing change with input validation, merged 2026-11-24 (fetched 2026-11-25)
 - https://raw.githubusercontent.com/microsoft/LLMLingua/main/README.md - the method family, quick-start surfaces, framework integrations, and the KV-cache news line
 - https://pypi.org/pypi/llmlingua/json - the package, frozen at 0.2.2 since 2024-04-09, 14 releases
 - https://arxiv.org/abs/2310.05736 - the LLMLingua paper (EMNLP 2023): coarse-to-fine compression, up to 20x with little loss

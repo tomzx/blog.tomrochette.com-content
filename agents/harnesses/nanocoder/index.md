@@ -47,7 +47,7 @@ The Hacker News footprint is near zero: a 1-point Show HN in August 2025 and a 1
 ## Cautions
 
 - **The repo ships no LICENSE file, and GitHub detects no license, while the npm metadata declares MIT**, so pin your expectations from the package metadata and ask before embedding.
-- Adoption is thin against its surface: 2.5k stars and 7.5k monthly npm downloads means the 30-provider roster and skills system rest on a small user base and its own documentation.
+- Adoption is thin against its surface: 2.5k stars as of 2026-10-09 and 7.5k monthly npm downloads as of 2026-11-06 means the 30-provider roster and skills system rest on a small user base and its own documentation.
 - No independent evaluation exists; its claims are its docs, and the near-zero discussion footprint means no critical source has stress-tested it yet.
 - The collective depends on volunteer and sponsor capacity (one named sponsor), and its adjacent alpha projects (Roster, Sentinel) share the same maintainers.
 
@@ -79,6 +79,7 @@ My disagreeable claim: governance is currently Nanocoder's only hard moat, and a
 - 2026-11-20 - Rotation re-verification, re-fetching every cited reference (all live; the loose HN query's other hits are the distinct Nanocode and Nanocodex projects, so the near-zero-footprint claim stands): refreshed the push date to 2026-11-20 and the trailing-month npm figure to 11,661 (window October 21 to November 20), with v1.32.0 still the newest release.
 - 2026-11-22 - Refreshed the push date to 2026-11-22, with v1.32.0 still the newest release.
 - 2026-11-25 - Recorded the default branch's unreleased work since v1.32.0 through November 24: named configuration profiles, per-turn context carried in the user message instead of the system prompt, first-class GMI Cloud, PopNow, Runcrate, and CloudGPU provider templates, million-token context limit suffixes, inline `@path` imports from AGENTS.md, an Ink 8 and React 19.3 TUI with kitty keyboard negotiation for Shift+Enter, a session-start git snapshot in the system prompt, and schema-validated output for `nanocoder run`, with v1.32.0 still the newest release; refreshed the push date to 2026-11-24 and repaired the missing 2026-11-22 push-date bullet the day log records, against the default branch's commit history.
+- 2026-11-25 - Dated the adoption figures in Cautions (2.5k stars as of 2026-10-09 and 7.5k monthly npm downloads as of 2026-11-06, the runs that recorded them); the figures are unchanged.
 
 ## See also
 

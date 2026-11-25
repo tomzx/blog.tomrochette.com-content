@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -39,7 +39,7 @@ v0.90.1 shipped October 5, auto-retrying OpenAI-compatible providers that answer
 v0.91.0 shipped October 6, adding a Google login flow with per-service consent and a built-in calendar tool (view, create, update, delete events), guided Google OAuth app setup that imports existing gcloud credentials, Alt+Up/Down cycling of the speed tier among Standard, Fast, and Ultrafast, a `/desktop` command that opens the current session in Jcode Desktop, MCP tool results and mcp_search output fitted to token budgets, and a batch of coordinator and swarm fixes, and v0.92.0 followed on October 7, adding opt-in codemode (an embedded QuickJS sandbox that composes tool calls), browser-bridge auto-update, Gmail Cc and Bcc support, math-aware copy in the TUI, a promoted background-task widget, and per-provider default models that track each provider's newest flagship.
 v0.93.0 shipped October 9, 2026, the instant-startup release: new sessions paint their first frame in about 20 milliseconds instead of about 135, resuming large sessions is about three times quicker, a new post_tool_feedback hook feeds a script's output back to the model after each tool call, and builds now cover FreeBSD.
 It is Y Combinator-backed (S26), and the author reports 11,977 contributions in the last year ([about page](https://jcode.sh/about)).
-The independent footprint is thin so far: two Hacker News threads at 3 and 5 points with zero comments (April 30 and August 10, 2026) and one favorable third-party comparison; 20,391 stars against that little discussion is unusual and worth watching.
+The independent footprint is thin so far: two Hacker News threads at 3 and 5 points with zero comments (April 30 and August 10, 2026) and one favorable third-party comparison; 20,391 stars as of 2026-10-12 against that little discussion is unusual and worth watching.
 
 ## Strengths
 
@@ -122,6 +122,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 - 2026-11-24 - Recorded the pricing page's credit and build changes: every token plan's inference credit doubled from 2x to 4x its price, justrust builds cut from 2,500 to 1,000 per $10 of plan, and the paid extra-build price cut from $0.10 to $0.01 under a separate default-$0 limit; updated the Pricing section and appended the matching Price history row.
 - 2026-11-24 - Recorded the v1.1.1 and v1.1.2 releases (both published November 23, with no v1.1.0 on the feed): Linux releases published through hosted justrust instead of GitHub Actions, starter providers at the top of `/login` with one-step browser login on `/subscribe` and `/cloud`, and streaming and finalizing activity labels in the live status line; pushes refreshed to 2026-11-24, against the GitHub releases API.
 - 2026-11-24 - Corrected the See also count of harnesses compared in the matrix from fourteen to forty-four.
+- 2026-11-25 - Dated the star figure in Status (20,391 stars as of 2026-10-12, the run that recorded it); the figure is unchanged.
 
 ## See also
 
