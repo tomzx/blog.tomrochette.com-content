@@ -1,9 +1,9 @@
 ---
 title: bb
 created: 2026-10-11
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, surfaces, ai-editors, open-source]
 readability: 3
 audience_notes: >
   Engineers who want an IDE that treats its own features as agent work, and who already run provider CLIs with their own subscriptions.
@@ -79,6 +79,7 @@ Not for Windows or Linux daily drivers, and not for anyone who needs independent
 - 2026-11-17 - Rotation re-verification, all cited URLs re-fetched live: the repository (pushed 2026-11-17, MIT, not archived), the README (same self-building pitch, telemetry section unchanged), the product site, and the changelog (still ending at the 0.49.0 reliability release, no 0.49.1 stable after it) stand, desktop-v0.49.0 confirmed as the latest stable through the releases API, the plugin directory stands unchanged with the recorded facts intact, and the HN search re-run returns the same lone unrelated Agentastic.dev hit; prices unchanged.
 - 2026-11-19 - Volatile re-verification on the pushed and released signals, recorded desktop-v0.50.1 (November 18) as the new latest stable with the changelog's 0.50.0 notes entry (automatic updates once idle, end-of-turn message delivery, restart-surviving turns, server-stall removals, lighter timeline updates, and the OpenCode 2 permission and Cursor session-scoped-approval security fixes); the zero-coverage HN search re-run returns the same lone unrelated Agentastic.dev hit.
 - 2026-11-22 - Volatile re-verification on the pushed signal, release train unchanged at desktop-v0.50.1 with feature work landing November 21 to 22 on the default branch (agent-writable folders decided per session with each thread granted only its own storage, an Android text-selection fix in the timeline, and split-pane keyboard-focus handling).
+- 2026-11-25 - Volatile re-verification on the pushed signal, release train unchanged at desktop-v0.50.1 with feature work landing November 24 to 25 on the default branch (@-mention search across every folder the agent can use, a handoff continuation placed next to its source, the Changes panel grouped by repository with Git repositories found inside a thread's folders, and GitHub pull request branch lookups).
 
 ## See also
 
@@ -90,7 +91,7 @@ Not for Windows or Linux daily drivers, and not for anyone who needs independent
 ## References
 
 - https://github.com/get-bb/bb - repository, README (threads, self-customization, provider CLI drivers, plugin-first features, bb spawn, and the opt-out telemetry disclosure), MIT license, 4,326 stars and 628 forks as of 2026-10-16, re-fetched 2026-11-07 (same pitch, telemetry section unchanged)
-- https://api.github.com/repos/get-bb/bb - creation date 2026-02-24, language TypeScript, push date 2026-11-07, stars and forks as of 2026-10-16; re-fetched 2026-11-19 (pushed 2026-11-19, not archived)
+- https://api.github.com/repos/get-bb/bb - creation date 2026-02-24, language TypeScript, push date 2026-11-07, stars and forks as of 2026-10-16; re-fetched 2026-11-19 (pushed 2026-11-19, not archived), and 2026-11-25 (pushed 2026-11-25, MIT, not archived)
 - https://getbb.app - the product site: the self-building pitch, the plugin list (GitHub integration, agent memory, scheduled jobs, remote access), the four surfaces, platform support, the comparison links, and the 0.47.0 changelog headline (customizable navigation, new and improved ACP support, diff review)
 - https://getbb.app/changelog - the product changelog: the 0.49.0 reliability release notes (stuck turns, retry dedupe, automation survival, the database scan removal, faster page loads, rolling up 0.48.1), the 0.45.0-to-0.49.0 mobile evidence (iOS app in the update path, Android app alpha), and the written notes behind 0.46.0, 0.47.0, and 0.48.0, fetched 2026-11-07, re-fetched 2026-11-19 with the 0.50.0 entry (November 18, "Automatic updates, steadier turns, and a faster app") grounding the desktop-v0.50.1 notes
 - https://github.com/get-bb/bb/releases - desktop-v0.50.1 (2026-11-18, its GitHub body title-only) as the latest stable, after desktop-v0.49.0 (2026-11-06, no written notes on GitHub) and desktop-v0.48.1 (2026-10-30) and desktop-v0.48.0 (2026-10-28), desktop-v0.47.1 (2026-10-24) and v0.47.0 (October 23), v0.46.1 (October 15), v0.46.0 (October 9), and v0.45.0 (October 2), with the nightly tag rolling, re-fetched 2026-11-19

@@ -1,9 +1,9 @@
 ---
 title: Whiteboard
 created: 2026-10-04
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surface, review, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, surface, review, open-source]
 readability: 3
 audience_notes: >
   Engineers whose agents ship work faster than they can review it and who want
@@ -25,7 +25,7 @@ v0.5.1 (November 1) turns the canvas outward again: a share link now opens a boa
 
 ## Status
 
-New with traction: the Show HN launch on 2026-09-24 drew 424 points, and the repository, created 2026-08-18, was pushed 2026-11-19, with v0.5.2 (November 9, experimental animation tours where frames carrying code expand into a walkthrough with the panel and frames moving together, animations painting in as they stream, a new clip block holding one continuous timeline with markers, and scene cards taking forms, outlines, and colors so a database reads differently from a service, plus the stuck-toast and update-badge fix) the latest desktop-app release above v0.5.1 (November 1, browser share links and experimental agent-drawn animations), above the monorepo's release train under the diffr tag family (diffr/0.1.22, October 26, diffr deferring slow plugins and an open Diff updating in place when its comparison changes; diffr/0.1.23, October 30, picking the model and effort a new whiteboard is drawn with and giving pinned checkouts time on large repositories).
+New with traction: the Show HN launch on 2026-09-24 drew 424 points, and the repository, created 2026-08-18, was pushed 2026-11-22, with v0.5.2 (November 9, experimental animation tours where frames carrying code expand into a walkthrough with the panel and frames moving together, animations painting in as they stream, a new clip block holding one continuous timeline with markers, and scene cards taking forms, outlines, and colors so a database reads differently from a service, plus the stuck-toast and update-badge fix) the latest desktop-app release above v0.5.1 (November 1, browser share links and experimental agent-drawn animations), above the monorepo's release train under the diffr tag family (diffr/0.1.22, October 26, diffr deferring slow plugins and an open Diff updating in place when its comparison changes; diffr/0.1.23, October 30, picking the model and effort a new whiteboard is drawn with and giving pinned checkouts time on large repositories; diffr/0.1.24, November 22, read-only hosts adding selection actions, marks, and margin notes to the document).
 The team is four (Sid, Alex, Ketan, and Milan), YC W26-backed, and built the app for themselves first.
 Distribution is free and open source in beta, local-first with the v0.3.0 SSH remote hosts extending review to your own machines; the product site now advertises a hosted Whiteboard as coming soon, though no plans or prices exist yet, so there is no revenue model today.
 The category question is unresolved even in its own launch thread, where commenters reached for orchestrator, control plane, and agent multiplexer before the authors placed it as deliberately not opinionated about where your agent runs.
@@ -89,6 +89,7 @@ Not for teams that need a supported, priced, categorized tool, and not for anyon
 - 2026-11-16 - Volatile re-verification on the pushed signal: no release after v0.5.2 (the diffr tag family unchanged), the repository stands pushed 2026-11-16, and the open-work queue reads twelve issues and twenty-nine pull requests.
 - 2026-11-19 - Volatile re-verification on the pushed signal: no release after v0.5.2 (the diffr tag family unchanged), the repository stands pushed 2026-11-19, and the open-work queue reads thirteen issues and thirty-two pull requests.
 - 2026-11-22 - Volatile re-verification on the pushed signal: no desktop release after v0.5.2, the diffr tag family released 0.1.24 (November 22), the repository stands pushed 2026-11-22, and the open-work queue reads eleven issues and twenty-nine pull requests; the repository description's new "open-source canvas for thoughtful software design" tagline keeps the README's humans-and-agents pitch as the lead, so no repositioning is recorded.
+- 2026-11-25 - Rotation re-verification with every cited URL re-fetched live, and repaired the Status release chain, which still closed the diffr tag family at diffr/0.1.23 (October 30) after the November 22 pass logged diffr/0.1.24 in Changes without adding it to the chain: the chain now carries diffr/0.1.24 (November 22, read-only hosts adding selection actions, marks, and margin notes to the document); no desktop release after v0.5.2.
 
 ## See also
 
@@ -102,7 +103,7 @@ Not for teams that need a supported, priced, categorized tool, and not for anyon
 - https://github.com/devdotfast/whiteboard - repository, MIT license, 3,217 stars, 158 forks, pushed through the v0.3.0 to v0.3.2 train of 2026-10-16 (stars and forks as of 2026-10-16, repository re-fetched 2026-10-22)
 - https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.4.0 - the October 23 release: plan-mode whiteboards with nested review boards, human board editing, themes, the TypeScript 7 language server, and the experimental-sharing move, fetched 2026-10-25
 - https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.5.2 - the November 9 release notes: animation tours with the panel and frames moving together, streaming paint-in, the clip block with markers, scene-card forms and colors, and the stuck-toast and update-badge fix, fetched 2026-11-13
-- https://github.com/devdotfast/whiteboard/releases - the release list showing the desktop train at v0.5.2 (November 9) above v0.5.1 (November 1) and the diffr tag family (diffr/0.1.21 October 23, diffr/0.1.22 October 26, diffr/0.1.23 October 30, the model-and-effort pick and the pinned-checkout patience), re-fetched 2026-11-13, re-fetched again 2026-11-19 (v0.5.2 still the latest desktop release)
+- https://github.com/devdotfast/whiteboard/releases - the release list showing the desktop train at v0.5.2 (November 9) above v0.5.1 (November 1) and the diffr tag family (diffr/0.1.21 October 23, diffr/0.1.22 October 26, diffr/0.1.23 October 30, the model-and-effort pick and the pinned-checkout patience), re-fetched 2026-11-13, re-fetched again 2026-11-19 (v0.5.2 still the latest desktop release); re-fetched 2026-11-25 (diffr/0.1.24 of November 22 still the newest diffr tag, v0.5.2 still the newest desktop release)
 - https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.5.1 - the November 1 release notes: browser share links with sign-in-required snapshot uploads, faster sharing, and the sandboxed agent-drawn animations with theme matching and code links, fetched 2026-11-03
 - https://dev.fast/docs/privacy - the privacy docs grounding the share caution: what a share upload carries (document text, trace conversations, source lines, GitHub login, clone URL), the revoke path, the opt-out telemetry contract, and the consent-gated hosted trace store, fetched 2026-11-03
 - https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.3.4 - the October 20 release: the survey no longer re-prompting every launch and two Windows fixes, one contributed, fetched 2026-10-22
@@ -114,3 +115,4 @@ Not for teams that need a supported, priced, categorized tool, and not for anyon
 - https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.3.0 - the October 16 "big one": experimental SSH remote hosts, the host-installed and self-updating Whiteboard server, remote Ask Agent, LSP, and source windows, and the CodeOSS trust model, fetched 2026-10-17
 - https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.3.1 - open-in-editor handoffs and the telemetry addition for the 0.3.0 features, fetched 2026-10-17
 - https://api.github.com/repos/devdotfast/whiteboard/releases/tags/v0.3.2 - the Windows-only auto-update fix (stop the MCP server before a Windows update), fetched 2026-10-17
+- https://api.github.com/repos/devdotfast/whiteboard/releases/tags/diffr%2F0.1.24 - the November 22 diffr release notes: read-only hosts adding selection actions, marks, and margin notes to the document, and the telemetry key shipped in Windows releases, fetched 2026-11-25

@@ -1,9 +1,9 @@
 ---
 title: Cate
 created: 2026-10-08
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, surfaces, ai-editors, open-source, canvas]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, surfaces, ai-editors, open-source, canvas]
 readability: 3
 audience_notes: >
   Engineers running several agent CLIs in parallel who want one spatial surface to supervise them.
@@ -27,7 +27,7 @@ It is built by the 0-AI-UG organization, with the v1.0 launch shared on Hacker N
 
 **Active and young: a six-month-old project with a steady release train.**
 The repository was created 2026-03-29, and v1.0 landed May 25, 2026 behind a 65-point Show HN thread (66 comments), preceded by a smaller spatial-workspace thread in May.
-The v2 line carries it now: stable v2.1.1 (2026-11-20, workspace-stability fixes for Git exit races and client disconnects, canvas pan and zoom remembered per workspace on the client device, and related-panel agent context shared automatically) above stable v2.1.0 (2026-11-20, the beta train graduating to the stable channel: shared workspace runtimes that keep terminals, agents, and files available across app restarts, encrypted device pairing over the local network or Cate Connect, remote machines on SSH hosts and WSL with runtime installation handled by Cate, an iPhone companion that follows agent chats and runs terminals, editors, browsers, and reviews on paired workspaces, terminal-based agents starting supported CLIs including Pi, and browser automation without taking focus), after the beta train's v2.1.0-beta.15 (November 13, canvas panning that keeps the wallpaper and grid cached with reduced macOS display-scheduling waits after idle, and the changes overlay shown only on agent execution panels) and beta.14 (November 12, native agent conversation tracking in shared workspace runtimes and the runtime support for Cate Mobile 0.1.2), with the default branch's latest commit at 2026-11-21 (browser login and signup credential handling, panel-specific tab listing, terminal theme matching).
+The v2 line carries it now: stable v2.1.2 (2026-11-22, Agent Review grouping edits by terminal and file with large diffs loaded in pages, browser panels deferring their first load until shown, `cate browser tab list` scoped to a browser panel with `--panel` accepted on three more commands, and Electron 45.4.1) above stable v2.1.1 (2026-11-20, workspace-stability fixes for Git exit races and client disconnects, canvas pan and zoom remembered per workspace on the client device, and related-panel agent context shared automatically) above stable v2.1.0 (2026-11-20, the beta train graduating to the stable channel: shared workspace runtimes that keep terminals, agents, and files available across app restarts, encrypted device pairing over the local network or Cate Connect, remote machines on SSH hosts and WSL with runtime installation handled by Cate, an iPhone companion that follows agent chats and runs terminals, editors, browsers, and reviews on paired workspaces, terminal-based agents starting supported CLIs including Pi, and browser automation without taking focus), after the beta train's v2.1.0-beta.15 (November 13, canvas panning that keeps the wallpaper and grid cached with reduced macOS display-scheduling waits after idle, and the changes overlay shown only on agent execution panels) and beta.14 (November 12, native agent conversation tracking in shared workspace runtimes and the runtime support for Cate Mobile 0.1.2), with the default branch's latest commit at 2026-11-23, a revert of a menus, navigation, and styling redesign that had merged on 2026-11-22.
 About 2.2k stars (2,187) and 141 forks as of 2026-10-16.
 Installs go through prebuilt DMG, NSIS, AppImage, DEB, and tar archives plus a Homebrew cask, and the README tells daily users not to build from source.
 
@@ -77,6 +77,7 @@ Not for keyboard-first minimalists, and not for anyone whose window manager alre
 - 2026-11-16 - Volatile re-verification on the pushed signal, recorded the beta train reaching v2.1.0-beta.15 (November 13, cached wallpaper and grid while panning with reduced macOS display-scheduling waits after idle, and the changes overlay restricted to agent execution panels); stable still v2.0.5.
 - 2026-11-19 - Volatile re-verification on the pushed signal, release train unchanged (stable v2.0.5, beta train still at v2.1.0-beta.15 of November 13); pushed_at reads 2026-11-18 on side branches with the default branch's latest commit at 2026-11-15.
 - 2026-11-22 - Volatile re-verification on the released signal, recorded the beta train graduating to stable: v2.1.0 (November 20, shared workspace runtimes surviving restarts, encrypted device pairing over the local network or Cate Connect, SSH and WSL remote machines, an iPhone companion for chats, terminals, editors, browsers, and reviews on paired workspaces, terminal-based agents including Pi, and focus-free browser automation) and v2.1.1 (November 20, workspace-stability and canvas pan/zoom persistence fixes with related-panel agent context sharing) as the new latest stable releases, the first stable mobile surface; the default branch's latest commit sits at 2026-11-21.
+- 2026-11-25 - Volatile re-verification on the pushed signal, recorded stable v2.1.2 (November 22, Agent Review grouping edits by terminal and file with large diffs loaded in pages, browser panels deferring their first load until shown, a browser-panel scope for `cate browser tab list` and `--panel` on three more CLI commands, and Electron 45.4.1) as the new latest release, published after the previous pass fetched; the default branch merged a menus, navigation, and styling redesign on November 22 and reverted it on November 23, so the shipped 2.1.2 stands as described.
 
 ## See also
 
@@ -96,3 +97,4 @@ Not for keyboard-first minimalists, and not for anyone whose window manager alre
 - https://news.ycombinator.com/item?id=48265470 - the 65-point v1.0 Show HN thread (66 comments): the window-manager, cognitive-overload, Electron, and Haystack-editor critiques
 - https://hn.algolia.com/api/v1/items/48265470 - the thread text and comment tree, fetched via the Algolia items API
 - https://github.com/ai-for-developers/awesome-ai-coding-tools - the awesome list that surfaced the candidate
+- https://api.github.com/repos/0-AI-UG/cate/releases/tags/v2.1.2 - the November 22 patch notes: the Agent Review speed-ups, deferred browser panel loads, the browser-panel scope for `cate browser tab list` with `--panel` on three more commands, and Electron 45.4.1, fetched 2026-11-25
