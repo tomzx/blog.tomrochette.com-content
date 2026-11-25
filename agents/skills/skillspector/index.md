@@ -83,6 +83,7 @@ Not for runtime policy enforcement (that is the harness or a control plane), for
 - 2026-11-19 - Volatile refresh: main pushed to 2026-11-19 with the parser-boundary batch (command boundaries and printf braces, reconstructed Python operands requiring viable options, runtime command bindings, PRs #1151 through #1154) and open issues moved up to 163; v2.13.6 still the newest release.
 - 2026-11-22 - Volatile refresh: main's 11-19 batch grew past the recorded parser-boundary PRs with a second same-day batch (supply-chain scanning of tool-specific pyproject.toml dependency tables for Poetry, PDM, Hatch, and uv, tool-poisoning findings tagged ATLAS AML.T0110, sanitized input acquisition-origin retention, AST source-line indexing at Python line breaks only, and locked pyasn1, cryptography, and pyjwt dependency-security bumps), the pushed date's 11-20 move landing on side-branch activity, and open issues moved down to 156; v2.13.6 still the newest release.
 - 2026-11-24 - Added the SkillEvaluator See also link (NVIDIA's output-quality evaluator for skills, admitted to evaluation-review), the quality-side question beside this scanner's security verdict; and the release train moved to v2.13.7 (published 2026-11-24: recursive root scope exclusions reported, RP3 findings at the manifest version field, a completeness-aware scanner install gate, PyPI trusted publishing), past the recorded v2.13.6.
+
 ## See also
 
 - [SkillMD](../skillmd/index.md) - the verification-first registry, the at-scale version of the per-scan verdict SkillSpector computes

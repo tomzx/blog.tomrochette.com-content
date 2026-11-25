@@ -25,7 +25,7 @@ Feeding agents the right slices of large corpora: chunking libraries, parsing pi
 - [RAGFlow](ragflow/index.md) - InfiniFlow's Apache-2.0 RAG engine (DeepDoc parsing, template chunking, citations, agentic retrieval), 92.1k stars, self-hosted or clouded, with a disruptive 1.0 Go rewrite.
 - [Semantic code search](semantic-code-search/index.md) - retrieval by meaning over embedded chunks, shipped as a workspace index.
 - [Tree-sitter chunking](tree-sitter-chunking/index.md) - cutting files along syntax boundaries instead of fixed line counts.
-- [Unstructured](unstructured/index.md) - the Apache-2.0 parsing incumbent Docling displaced, now funneling to a hosted Transform MCP server and quote-priced Pipelines.
+- [Unstructured](unstructured/index.md) - the Apache-2.0 parsing incumbent Docling displaced, its vendor funneling to a hosted Transform API with published per-page prices and custom-priced business plans.
 
 Its members are compared on shared rows in the [Retrieval Feature Matrix](retrieval-feature-matrix/index.md).
 

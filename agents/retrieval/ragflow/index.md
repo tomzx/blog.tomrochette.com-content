@@ -1,9 +1,9 @@
 ---
 title: RAGFlow
 created: 2026-10-06
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, document-parsing, agents]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, document-parsing, agents, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers choosing a RAG engine or a knowledge base their agents can query with citations.
@@ -23,7 +23,7 @@ Made by InfiniFlow, with v1.0.0-rc1 (2026-09-29) rewriting the service layer in 
 
 ## Status
 
-Very active and very large: 92,158 stars and 10,979 forks as of 2026-10-13, pushed 2026-11-22 with 1,314 open issues (GitHub API, as of 2026-11-22), with 4.1M Docker pulls (ragflow-stats badge, re-verified 2026-11-22).
+Very active and very large: 92,158 stars and 10,979 forks as of 2026-10-13, pushed 2026-11-25 with the default branch's latest commit a CLI error-message fix and 1,311 open issues (GitHub API, as of 2026-11-25), with 4.1M Docker pulls (ragflow-stats badge, re-verified 2026-11-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=infiniflow/ragflow&type=date&theme=dark&legend=top-left" />
@@ -52,7 +52,7 @@ The discussion footprint is front-loaded: a 230-point launch thread in April 202
 ## Pricing
 
 Self-hosted is free under Apache-2.0.
-Cloud, as of 2026-10-16 (re-verified unchanged from 2026-10-13): Free at $0 a month (5 apps, 1 member, 0.1 GB storage, 500 credits/month, no API key), Starter at $29 a month (shown struck through from $59; 50 apps, 5 members, 5 GB, 5,000 credits, API key), Pro at $129 a month (struck through from $259; unlimited apps, 20 members, 50 GB, 20,000 credits), Enterprise custom with BYOC, on-premises, and custom SLA.
+Cloud, as of 2026-10-16 (re-verified unchanged 2026-11-25): Free at $0 a month (5 apps, 1 member, 0.1 GB storage, 500 credits/month, no API key), Starter at $29 a month (shown struck through from $59; 50 apps, 5 members, 5 GB, 5,000 credits, API key), Pro at $129 a month (struck through from $259; unlimited apps, 20 members, 50 GB, 20,000 credits), Enterprise custom with BYOC, on-premises, and custom SLA.
 
 ## Price history
 
@@ -104,11 +104,11 @@ My disagreeable claim: what RAGFlow actually sells is trust, and the star count 
 
 ## References
 
-- https://api.github.com/repos/infiniflow/ragflow - 92,158 stars and 10,979 forks (as of 2026-10-13), Apache-2.0, Go, created 2023-12-12, pushed 2026-11-22, 1,314 open issues, description repositioned to "an agent-native database" (GitHub API, as of 2026-11-22)
+- https://api.github.com/repos/infiniflow/ragflow - 92,158 stars and 10,979 forks (as of 2026-10-13), Apache-2.0, Go, created 2023-12-12, pushed 2026-11-25, 1,311 open issues, description repositioned to "an agent-native database" (GitHub API, as of 2026-11-25)
 - https://raw.githubusercontent.com/infiniflow/ragflow/main/README.md - DeepDoc, template-based chunking, knowledge compilation, agentic retrieval modes, Go-native architecture, deployment requirements (re-verified unchanged 2026-11-17)
 - https://raw.githubusercontent.com/infiniflow/ragflow/main/docs/release_notes.md - the v1.0.0-rc1 Go rewrite, NATS and Kvrocks migration, irreversible v0.27.2 upgrade, known issues (re-verified unchanged 2026-11-17)
 - https://api.github.com/repos/infiniflow/ragflow/releases/latest - v1.0.0 published 2026-11-06, the general-availability cut of the Go rewrite (fetched 2026-11-07, still latest on re-fetches 2026-11-12 and 2026-11-17; rc3 of 2026-10-30 was the third and final release candidate, bringing the evidence-sufficiency decision model, the Categorize component, the Agentic chat mode from rc2, and rc1 data compatibility)
-- https://ragflow.io/ - the pricing section: Free $0, Starter $29 (from $59), Pro $129 (from $259), Enterprise custom (re-verified unchanged 2026-11-17; the tiers read from the page's embedded price fields)
+- https://ragflow.io/ - the pricing section: Free $0, Starter $29 (from $59), Pro $129 (from $259), Enterprise custom (re-verified unchanged 2026-11-25; the tiers read from the page's embedded price fields)
 - https://ragflow.io/docs/ - official docs root, HTTP 200 on 2026-10-16 (server-rendered; the /docs/dev/ path meta-refreshes here)
 - https://zeropath.com/blog/ragflow-rce-unpatched-vulnerability - the April 2026 post-auth RCE disclosure (GHSA-vw46-rrp3-c99v, Shodan-exposed instances), the critical source (re-verified live and unchanged 2026-10-16)
 - https://api.github.com/advisories/GHSA-vw46-rrp3-c99v - 404 on 2026-10-06, 2026-10-16, 2026-10-22, and again 2026-11-17: the advisory was never published to GitHub's global database

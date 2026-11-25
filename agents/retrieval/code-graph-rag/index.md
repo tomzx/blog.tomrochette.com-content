@@ -1,9 +1,9 @@
 ---
 title: Code-Graph-RAG
 created: 2026-10-07
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, knowledge-graph, rag]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, knowledge-graph, rag, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers wiring codebase retrieval into an agent loop who want structural, graph-backed
@@ -27,7 +27,7 @@ Made by an independent developer, with an enterprise support and services badge 
 ## Status
 
 **Actively shipping and early: 5.2k stars in sixteen months with almost no independent discussion.**
-5,252 stars and 702 forks as of 2026-10-14, pushed 2026-11-22 with the default branch's latest commit a reexport-caller-check PR merge (dated 2026-11-22), with 306 open issues (GitHub API, as of 2026-11-22).
+5,252 stars and 702 forks as of 2026-10-14, pushed 2026-11-25 with the default branch's latest commit the tree-sitter 0.27 build PR merge (#3729, dated 2026-11-25) and the main branch's version bump train at 0.7.115, with 307 open issues (GitHub API, as of 2026-11-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=vitali87/code-graph-rag&type=date&theme=dark&legend=top-left" />
@@ -102,7 +102,7 @@ My disagreeable claim: this is the version of code retrieval the embeddings era 
 
 ## References
 
-- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars (as of 2026-10-14), 702 forks, MIT, created 2025-06-16, pushed 2026-11-22, 306 open issues (GitHub API, as of 2026-11-22)
+- https://api.github.com/repos/vitali87/code-graph-rag - 5,252 stars (as of 2026-10-14), 702 forks, MIT, created 2025-06-16, pushed 2026-11-25, 307 open issues (GitHub API, as of 2026-11-25)
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/README.md - the two-component architecture, compiler frontends, runtime tracing, language support, the embedded SQLite default with Memgraph and Neo4j opt-in, the release-cadence table, and the enterprise services section (re-fetched 2026-11-15)
 - https://raw.githubusercontent.com/vitali87/code-graph-rag/main/NEWS.md - the feature-news ledger behind the active-maintenance claim; the four grown entries rendered into the 0.6.62 publish together with five new headlines (CommonJS renamed-property import resolution, class-field-type-retaining incremental syncs, receiver-scoped Python property reads, rejected cross-language internal import targets, and constructor attribute-field initializer handling), re-fetched 2026-11-16; the entries grown past the 0.7.1 headlines rendered into the 0.7.79 publish together with the refined-code-analysis and surface-definition headlines, re-fetched 2026-11-22
 - https://pypi.org/pypi/code-graph-rag/json - version 0.7.79 (2026-11-21), 43 releases (fetched 2026-11-22, latest; the 0.7 line opened 2026-11-17 at 0.7.1 with no 0.7.0 published, the 0.6 line ended at 0.6.62 (2026-11-15) with no 0.7.0 published, and the 0.5 line never published past 0.5.0 of 2026-11-03)

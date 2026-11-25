@@ -1,9 +1,9 @@
 ---
 title: open-codebase-index
 created: 2026-10-05
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, rag, embeddings, mcp]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, code-retrieval, rag, embeddings, mcp, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers who want agent-grade semantic code search they host themselves, wired into an existing harness through MCP or a plugin.
@@ -16,15 +16,15 @@ open-codebase-index is an MIT-licensed local semantic code index (TypeScript plu
 
 ## What it is
 
-Install is `npm install open-codebase-index` (or `-g` for the `ocbi` CLI), then a plugin entry for OpenCode or an MCP registration for Codex, Claude Code, Jcode, Cursor, Windsurf, and other clients; a Pi extension and a bundled `codebase-search` skill cover Pi and omp.
+Install is `npm install open-codebase-index` (or `-g` for the `ocbi` CLI), then an OpenCode plugin entry, a Codex or Claude Code marketplace plugin, or an MCP registration for Jcode, Cursor, Windsurf, and other clients; a Pi extension and a bundled `codebase-search` skill cover Pi and omp.
 The pipeline is git-aware file discovery, tree-sitter parsing and chunking (TypeScript, Python, Rust, Go, Java, C#, Ruby, and more, with text fallback), embedding generation with content-hash reuse (Ollama, OpenAI, Google, or any OpenAI-compatible endpoint), and a SQLite plus usearch plus BM25 store.
-The tool surface is 16 portable tools (`codebase_context`, `codebase_search`, `implementation_lookup`, `call_graph`, `call_graph_path`, `pr_impact`, and neighbors) plus 3 knowledge-base tools, hosted at 19 or 20 tools depending on the client, with 5 MCP prompts.
+The tool surface is 20 portable tools (`codebase_context`, `codebase_search`, `implementation_lookup`, `call_graph`, `call_graph_path`, `pr_impact`, `architecture_context`, `code_communities`, four `repository_history_*` tools, and neighbors) plus 3 knowledge-base tools, so 23 tools on MCP clients, Pi, and omp and 24 on the OpenCode plugin (one OpenCode-native tool more), with 5 MCP prompts on MCP clients (docs re-read 2026-11-25).
 The docs carry a host-surface matrix spelling out which client gets which tools, the kind of integration documentation most tools in this slot never write.
 
 ## Status
 
 **Active and shipping constantly, with almost no community footprint.**
-221 stars and 38 forks as of 2026-10-13, pushed 2026-11-22 with the default branch's latest commit the watcher startup catch-up and config classification PR #503 (dated 2026-11-22) (GitHub API, as of 2026-11-22).
+221 stars and 38 forks as of 2026-10-13, pushed 2026-11-24 with the default branch's latest commit the six-dependency bump PR #509 (dated 2026-11-24) (GitHub API, as of 2026-11-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ The docs carry a host-surface matrix spelling out which client gets which tools,
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Helweg/open-codebase-index&type=date&legend=top-left" />
 </picture>
 
-npm shows 41 versions since 2026-07-30, latest 0.40.1 published 2026-11-19 (the release train resuming past 0.39.0 of 2026-11-16 via 0.40.0), and 5,489 downloads in the trailing month to 2026-11-22 (the fetch day still in progress and counted at zero, with no zero days among the completed days, so the level reads approximate), roughly flat against the 5,536 reading to 2026-11-21 (two zero days), the 5,474 reading to 2026-11-18 (three zero days), the 5,160 reading to 2026-11-17, the 5,055 reading to 2026-11-13, the 4,736 reading to 2026-11-12 that backfilled to 4,972 two days later per npm's upward-backfill behavior, and prior readings of 5,118 to 2026-11-07, 5,480 to 2026-11-02, 5,569 to 2026-10-30, 5,365 to 2026-10-27, 5,662 to 2026-10-22, 6,785 to 2026-10-18, and 7,613 to 2026-10-12, so the trend stays roughly flat in this note's tracking, roughly 2,000 installs a month below its October peak.
+npm shows 41 versions since 2026-07-30, latest 0.40.1 published 2026-11-19 (the release train resuming past 0.39.0 of 2026-11-16 via 0.40.0), and 5,413 downloads in the trailing month to 2026-11-24 (the final day still reading zero at fetch time, so the level reads approximate), roughly flat against the 5,489 reading to 2026-11-22 (its fetch day in progress and counted at zero, no zero days among the completed days), the 5,536 reading to 2026-11-21 (two zero days), the 5,474 reading to 2026-11-18 (three zero days), the 5,160 reading to 2026-11-17, the 5,055 reading to 2026-11-13, the 4,736 reading to 2026-11-12 that backfilled to 4,972 two days later per npm's upward-backfill behavior, and prior readings of 5,118 to 2026-11-07, 5,480 to 2026-11-02, 5,569 to 2026-10-30, 5,365 to 2026-10-27, 5,662 to 2026-10-22, 6,785 to 2026-10-18, and 7,613 to 2026-10-12, so the trend stays roughly flat in this note's tracking, roughly 2,000 installs a month below its October peak.
 A search for its name on Hacker News returned zero hits as of 2026-10-11, so like graft and Knowhere in this section, adoption is quiet and distribution runs from README to install, not from launches.
 
 ## Strengths
@@ -45,7 +45,7 @@ A search for its name on Hacker News returned zero hits as of 2026-10-11, so lik
 ## Cautions
 
 - **Zero independent discussion (no HN thread, no third-party benchmark found as of 2026-10-05) means the only quality evidence is the repo's own `benchmarks/` directory.**
-- Releases landing inside single days (0.36.x, 0.37.x, now 0.38.x) are churn, and the package has already renamed once (`opencode-codebase-index` remains a supported alias), splitting the install base its download counts measure.
+- Releases landing inside single days (0.36.x, 0.37.x, 0.38.x) are churn, and the package has already renamed once (`opencode-codebase-index` remains a supported alias), splitting the install base its download counts measure.
 - The embedding choice is yours and it matters: local Ollama means GPU or patient CPU time, cloud providers mean your code leaves the machine, which undercuts the local-index pitch.
 - The workspace note's thesis cuts here too: an always-current grep loop needs no index at all, so the tool has to earn its keep on concept queries and graph questions specifically.
 
@@ -89,6 +89,7 @@ My disagreeable claim: a five-thousand-installs-a-month npm package with zero di
 - 2026-11-19 - Recorded the npm train moving on to 0.40.0 and 0.40.1 (0.40.1 published 2026-11-19, 41 versions total), refreshed the repository activity (pushed 2026-11-19 with the default branch's latest commit the 0.40.1 release chore), and re-read the trailing-month installs at 5,474 to 2026-11-18 (three zero days), roughly flat against the prior readings; corrected the peak-gap figure from about 1,000 to roughly 2,000 installs a month below the 7,613 October peak, where the flat-band wording had drifted stale.
 - 2026-11-21 - Refreshed the repository activity (pushed 2026-11-20 with the default branch's latest commit the startup and incremental-refresh performance PR #500) and re-read the trailing-month installs at 5,536 to 2026-11-21 (two zero days), roughly flat against the prior readings; npm 0.40.1 remains latest across 41 versions.
 - 2026-11-22 - Refreshed the repository activity (pushed 2026-11-22 with the default branch's latest commit the watcher startup catch-up and config classification PR #503) and re-read the trailing-month installs at 5,489 to 2026-11-22 (the in-progress fetch day counted at zero, no zero days among the completed days), roughly flat against the 5,536 reading to 2026-11-21; npm 0.40.1 remains latest across 41 versions.
+- 2026-11-25 - Rotation re-verification re-fetched every cited URL live (the repository API, README, tools doc, npm registry, download range, and the zero-hit Algolia query) and recorded the tool surface growing from 16 to 20 portable tools, so 23 tools on MCP clients, Pi, and omp and 24 on the OpenCode plugin, with `architecture_context`, `code_communities`, and the four `repository_history_*` tools added to the What-it-is list the Cautions churn line's stale now-0.38.x wording dropped, and the install line aligned to the README's Codex and Claude Code marketplace plugins; refreshed the repository activity (pushed 2026-11-24 with the default branch's latest commit the six-dependency bump PR #509, 3 open issues) and re-read the trailing-month installs at 5,413 to 2026-11-24 (the final day still reading zero at fetch time), roughly flat; npm 0.40.1 remains latest across 41 versions.
 
 ## See also
 
@@ -99,9 +100,9 @@ My disagreeable claim: a five-thousand-installs-a-month npm package with zero di
 
 ## References
 
-- https://github.com/Helweg/open-codebase-index - repository: 221 stars (as of 2026-10-13), 38 forks, MIT, created 2026-01-13, pushed 2026-11-22 with the default branch's latest commit dated 2026-11-22 (GitHub API, as of 2026-11-22)
-- https://raw.githubusercontent.com/Helweg/open-codebase-index/main/README.md - hosts, highlights, pipeline, embedding providers, legacy package aliases (fetched 2026-10-05, re-verified unchanged 2026-10-11)
-- https://raw.githubusercontent.com/Helweg/open-codebase-index/main/docs/tools.md - the host surface matrix: 16 portable tools, 3 knowledge-base tools, 5 MCP prompts (fetched 2026-10-05)
-- https://registry.npmjs.org/open-codebase-index - latest 0.40.1 published 2026-11-19, 41 versions since 2026-07-30 (fetched 2026-11-22, still latest; 0.40.0 preceded it in the same window and 0.39.0 was published 2026-11-16)
-- https://api.npmjs.org/downloads/range/2026-10-23:2026-11-22/open-codebase-index - 5,489 downloads across the window, the fetch day (2026-11-22) still in progress and counted at zero, so the completed-day total carries the reading (fetched 2026-11-22; the prior 5,536 reading covered 2026-10-22:2026-11-21 with two zero days, and npm's point endpoints can serve stale windows, so figures come from explicit range calls; the 4,736-to-11-12 range reading backfilled to 4,972 on 2026-11-14)
-- https://hn.algolia.com/api/v1/search?query=%22open-codebase-index%22&tags=story - the zero-hit footprint scan (fetched 2026-10-05, re-verified zero hits 2026-10-11)
+- https://github.com/Helweg/open-codebase-index - repository: 221 stars (as of 2026-10-13), 38 forks, MIT, created 2026-01-13, pushed 2026-11-24 with the default branch's latest commit dated 2026-11-24 (GitHub API, as of 2026-11-25)
+- https://raw.githubusercontent.com/Helweg/open-codebase-index/main/README.md - hosts, highlights, pipeline, embedding providers, legacy package aliases (re-fetched 2026-11-25)
+- https://raw.githubusercontent.com/Helweg/open-codebase-index/main/docs/tools.md - the host surface matrix: 20 portable tools, 3 knowledge-base tools, 5 MCP prompts, 24 tools on the OpenCode plugin (re-fetched 2026-11-25)
+- https://registry.npmjs.org/open-codebase-index - latest 0.40.1 published 2026-11-19, 41 versions since 2026-07-30 (re-fetched 2026-11-25, still latest; 0.40.0 was published 2026-11-17 and 0.39.0 on 2026-11-16)
+- https://api.npmjs.org/downloads/range/2026-10-25:2026-11-24/open-codebase-index - 5,413 downloads across the window, the final day (2026-11-24) still reading zero at fetch time, so the completed-day total carries the reading (fetched 2026-11-25; the prior 5,489 reading covered 2026-10-23:2026-11-22 with its fetch day in progress and counted at zero, and npm's point endpoints can serve stale windows, so figures come from explicit range calls; the 4,736-to-11-12 range reading backfilled to 4,972 on 2026-11-14)
+- https://hn.algolia.com/api/v1/search?query=%22open-codebase-index%22&tags=story - the zero-hit footprint scan (re-verified zero hits 2026-11-25)

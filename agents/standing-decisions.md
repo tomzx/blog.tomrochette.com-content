@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [agents]
 readability: 0
@@ -12,6 +12,11 @@ The log under `agents/logs/` stays the audit trail; this digest never contradict
 Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (date = last confirmation).
 
 ## Scope rulings
+- 2026-11-25 | retrieval | a rotation re-fetch reads the README's structure, not only the status of each cited URL, because a rewritten README can drop every phrase a note's description borrows while the claims it still supports stay true | the pageindex README's November rewrite removed the PageIndex Flash and File System names and moved the local usage guide into the README, and the unstructured README dropped its Transform and Pipelines headline for one note pointing at the Transform v2 API
+- 2026-11-25 | retrieval | a note recording that no public prices exist gets the vendor's pricing page fetched on rotation, because a sign-in-only or quote-only reading can age into published prices with no release or push announcing it | unstructured.io/pricing now lists Personal, Team ($0.01 a page), and Business plans with per-page rates, where the note had recorded sign-in-only and quote-only pricing since 2026-10-06
+- 2026-11-25 | retrieval | a pushed-only refresh reads the default branch's latest commit date beside the repository-level pushed_at and records the gap when the default branch is months quiet | chonkie's default branch's latest commit dates from 2026-08-26 while side-branch pushes keep moving pushed_at (2026-11-19, 2026-11-24), extending the 2026-11-01 side-branch ruling
+- 2026-11-25 | retrieval | npm's trailing-month range can read its most recent completed UTC day at zero when fetched in the first hours of the next day, so the reading carries an explicit final-day-at-zero note | the open-codebase-index 5,413-to-2026-11-24 reading fetched about 05:08 UTC on 2026-11-25, extending the 2026-11-22 in-progress-day line
+- 2026-11-25 | cross-category | pypistats.org can answer 429 RATE LIMIT EXCEEDED to one request and answer a retry a minute later, so a 429 is waited out and retried before a figure is left on its prior dated reading | the chonkie trailing-month figure read 1,363,019 on the retry
 - 2026-11-25 | skills | a registry hero that keeps growing under the unbounded safety-reviewed label moves the headline index figure with its as-of date while the reviewed count stays retired | the skillmd 2026-11-25 rotation (1,335,850 on 2026-11-19 to 1,671,628 on 2026-11-25, the largest six-day jump on record), extending the 2026-11-19 counts-as-claims line
 - 2026-11-25 | cross-category | a reviewer tool reading SKILL.md as a code guideline is ecosystem evidence for the format note, not an entrant | CodeRabbit's changelog entry of 2026-11-19 (Agent Skills as review guidelines, a repository-root agent skills folder SKILL.md applied to the whole repository), recorded in the agent-skills-open-standard note
 - 2026-11-25 | skills | a skill text exported into a vendor pack and served through the MCP Skills extension with a vendor connector is a pack change that earns a Changes bullet even when the catalog count holds | the agent-native `/an` live-view workflow exported by BuilderIO/skills #129 from BuilderIO/agent-native #9805

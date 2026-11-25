@@ -1,9 +1,9 @@
 ---
 title: PageIndex
 created: 2026-10-07
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, document-parsing]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, retrieval, rag, document-parsing, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers retrieving from long professional documents who wonder whether the vector-store
@@ -18,15 +18,17 @@ PageIndex is Vectify AI's MIT-licensed Python engine that replaces the vector in
 ## What it is
 
 A `pip install pageindex` SDK with two modes.
-Local mode (added August 2026) builds the tree on your machine with your own LLM key, using PageIndex Flash, the fast tree-index generator that is now the default for text-based PDFs, and retrieval runs agentically through the tree with full conversation context and page-level citations.
-Cloud mode moves parsing, OCR, image understanding, tree construction, and storage to the vendor, upgrades citations to block level, and exposes an MCP server plus an API, with PageIndex File System extending tree indexing across whole corpora.
+Local mode (added August 2026) builds the tree on your machine with your own LLM key, needs no server, no vector database, and no PageIndex API key, and uses the Flash engine, the fast tree-index generator that is the local default (`mode="standard"` keeps the classic LLM pipeline); it works with text-based PDFs, and retrieval runs agentically through the tree with full conversation context and page-level citations.
+Cloud mode moves parsing, OCR, image understanding, tree construction, and storage to the vendor, upgrades citations to block level, and exposes an MCP server plus an API, with folders extending tree indexing across whole corpora.
+Since 0.7.5 the local and cloud clients are one surface (`PageIndexLocalClient` matches the cloud client call for call), and the README's November 2026 launches add PageIndex Agent, a vectorless, OCR-free, multimodal mode with line-level citations, and the Page Extract API.
 The maker pitches it at financial reports, legal documents, filings, and technical manuals.
 
 ## Status
 
 **Actively developed and heavily starred for a two-year-old research bet.**
-39,111 stars and 3,408 forks as of 2026-10-13, pushed 2026-11-19, 175 open issues (GitHub API, as of 2026-11-19).
-PyPI shows the `pageindex` SDK at 0.7.4 released 2026-11-19 across 63 releases, following 0.7.3 and 0.7.2 (both 2026-11-19), 0.7.1 (2026-11-17), and 0.7.0 (2026-11-15), so the SDK train tracks the repository closely.
+39,111 stars and 3,408 forks as of 2026-10-13, pushed 2026-11-24, 174 open issues (GitHub API, as of 2026-11-25).
+PyPI shows the `pageindex` SDK at 0.7.5 released 2026-11-24 across 64 releases, following 0.7.4, 0.7.3, and 0.7.2 (all 2026-11-19), 0.7.1 (2026-11-17), and 0.7.0 (2026-11-15), so the SDK train tracks the repository closely.
+The 0.7.5 release notes, titled Lower Cost, Higher Accuracy than Vector RAG, make the Flash engine with on-by-default tree optimization the local default, fold agent integration in-process (`client.agent_tools()` plus OpenAI, Anthropic, and Claude MCP bundles), and state a Python 3.10 floor.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=VectifyAI/PageIndex&type=date&theme=dark&legend=top-left" />
@@ -47,14 +49,20 @@ The vendor's headline benchmark claims 98.7 percent on FinanceBench against roug
 
 - **Retrieval quality rides on a paid LLM call per query: the vendor's own cost curves show per-model accuracy ladders, so a cheaper model is a worse retriever, not just a slower one.**
 - The benchmark evidence is vendor-run; the open runner helps, but a 4-star benchmark repo means nobody independent has published numbers.
-- The cloud surface (MCP server, folders, metadata, OCR) is login-gated with no public prices, so the managed path is a sales conversation.
+- The cloud surface (MCP server, folders, metadata, OCR) is login-gated with no public tier prices, so the managed path is a sales conversation.
 - Long documents only: for short pages or small corpora the tree build costs more than it saves.
 
 ## Pricing
 
 Local mode is free and MIT-licensed, running on your own LLM keys; the maker estimates about $0.001 per page to build a tree index locally.
-PageIndex Cloud requires an API key from a login-walled developer portal, and no tier prices are publicly fetchable (as of 2026-10-07); VPC and on-premises deployments are quoted by contact.
-No public prices belong in this note, so no price history table applies.
+PageIndex Cloud requires an API key from a login-walled developer portal, and no tier prices are published there (re-verified 2026-11-25); VPC and on-premises deployments are quoted by contact.
+The release notes state one cloud unit price: a Page Extract file upload is priced at $0.10 per 1,000 pages, and since 0.7.3 a job that fails or is cancelled costs nothing.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-11-25 | Cloud Page Extract | Baseline: Page Extract upload priced at $0.10 per 1,000 pages (stated in the 0.7.2 release notes of 2026-11-19; since 0.7.3 a failed or cancelled job costs nothing); cloud tiers carry no public prices (as of 2026-11-25). | [releases/latest](https://api.github.com/repos/VectifyAI/PageIndex/releases/latest) |
 
 ## Compared to
 
@@ -89,6 +97,7 @@ My disagreeable claim: PageIndex is less a retrieval system than a claim that re
 - 2026-11-17 - Recorded the SDK train moving to 0.7.0 (2026-11-15, 59 releases total) and refreshed the repository activity (pushed 2026-11-17, 175 open issues).
 - 2026-11-19 - Recorded the SDK train moving to 0.7.1 (2026-11-17), 0.7.2, and 0.7.3 (both 2026-11-19, 62 releases total) and refreshed the repository activity (pushed 2026-11-19, 175 open issues).
 - 2026-11-21 - Recorded the SDK train moving to 0.7.4 (2026-11-19, 63 releases total, published after the prior run's morning 0.7.3 fetch, the intraday-lag pattern again); the repository activity is unchanged (pushed 2026-11-19, 175 open issues).
+- 2026-11-25 - Rotation re-verification re-fetched every cited URL live (the repository API, README, docs root, Mafin2.5 post, benchmark repository, Algolia query, and the developer portal's login wall all up) and recorded the SDK train moving to 0.7.5 (2026-11-24, 64 releases; the Flash engine with tree optimization is the local default, agent integration runs in-process, and the Python floor is 3.10); corrected the What-it-is description against a README rewritten in November (the Flash engine replaces the PageIndex Flash wording, folders replace the File System, local mode needs no API key, and the README leads with the PageIndex Agent and Page Extract launches); recorded the one published cloud unit price (a Page Extract upload at $0.10 per 1,000 pages) and added the Price history table; refreshed the repository activity (pushed 2026-11-24, 174 open issues).
 
 ## See also
 
@@ -99,11 +108,12 @@ My disagreeable claim: PageIndex is less a retrieval system than a claim that re
 
 ## References
 
-- https://api.github.com/repos/VectifyAI/PageIndex - 39,111 stars (as of 2026-10-13), 3,408 forks, MIT, created 2025-04-01, pushed 2026-11-19, 175 open issues (GitHub API, as of 2026-11-19)
-- https://pypi.org/pypi/pageindex/json - the SDK at version 0.7.4 (2026-11-19), 63 releases, following 0.7.3 and 0.7.2 (both 2026-11-19), 0.7.1 (2026-11-17), and 0.7.0 (2026-11-15) (fetched 2026-11-21)
-- https://raw.githubusercontent.com/VectifyAI/PageIndex/main/README.md - the tree-index method, local and cloud modes, Flash indexing, benchmark tables and cost curves (re-verified unchanged 2026-10-11)
-- https://docs.pageindex.ai/ - developer docs: SDK client, documents, agent integrations, MCP tools
-- https://vectify.ai/blog/Mafin2.5 - the vendor's FinanceBench claim (98.7 percent, February 2025 blog)
+- https://api.github.com/repos/VectifyAI/PageIndex - 39,111 stars (as of 2026-10-13), 3,408 forks, MIT, created 2025-04-01, pushed 2026-11-24, 174 open issues (GitHub API, as of 2026-11-25)
+- https://pypi.org/pypi/pageindex/json - the SDK at version 0.7.5 (2026-11-24), 64 releases, following 0.7.4, 0.7.3, and 0.7.2 (all 2026-11-19), 0.7.1 (2026-11-17), and 0.7.0 (2026-11-15) (fetched 2026-11-25)
+- https://api.github.com/repos/VectifyAI/PageIndex/releases/latest - v0.7.5 published 2026-11-24 and its release notes (fetched 2026-11-25)
+- https://raw.githubusercontent.com/VectifyAI/PageIndex/main/README.md - the tree-index method, local and cloud modes, the self-contained local usage guide added in November, the PageIndex Agent and Page Extract launches, benchmark tables and cost curves (re-fetched 2026-11-25; the about $0.001 per page, 98.7 percent FinanceBench, and 2.1x and 16.6x native-input claims hold)
+- https://docs.pageindex.ai/ - developer docs: a document-harness introduction, the Python or JavaScript SDK and the PageIndex MCP server, the file system with folders, and migration from the old SDKs (re-fetched 2026-11-25)
+- https://vectify.ai/blog/Mafin2.5 - the vendor's FinanceBench claim (98.7 percent, February 2025 blog; re-fetched 2026-11-25)
 - https://api.github.com/repos/VectifyAI/PageIndex-OSS-Benchmark - the open benchmark runner, 4 stars, pushed 2026-08-17 (GitHub API, as of 2026-10-07)
-- https://hn.algolia.com/api/v1/search?query=PageIndex%20Vectorless%20RAG&tags=story - the footprint scan: the 192-point Show HN (2025-08-27) and follow-ups
-- https://developer.pageindex.ai/ - the cloud developer portal, serving a login wall (fetched 2026-10-07)
+- https://hn.algolia.com/api/v1/search?query=PageIndex%20Vectorless%20RAG&tags=story - the footprint scan: the 192-point Show HN with 128 comments (2025-08-27) and follow-ups (re-fetched 2026-11-25)
+- https://developer.pageindex.ai/ - the cloud developer portal, serving a login wall (re-verified 2026-11-25)
