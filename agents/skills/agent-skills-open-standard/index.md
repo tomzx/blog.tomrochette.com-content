@@ -1,9 +1,9 @@
 ---
 title: Agent Skills open standard
 created: 2026-08-24
-updated: 2026-11-19
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, agent-extensions, open-standards, llm=glm-5.3-flash]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, skills, agent-extensions, open-standards, llm=glm-5.3-flash, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers writing SKILL.md packages meant to run in more than one agent harness.
@@ -25,6 +25,7 @@ Discovery is by directory convention: each harness scans its own skills paths (`
 
 **Active, and effectively the winner.**
 The agentskills.io client showcase lists Claude and Claude Code, ChatGPT and Codex, Gemini CLI, Cursor, GitHub Copilot and VS Code, OpenCode, Amp, Goose, Junie, Roo, Kiro, Trae, and dozens more (the roster's markdown render went client-side by 2026-11-19; the names remain in the page's HTML).
+The format has also reached the review layer: CodeRabbit's changelog (November 19, 2026, fetched 2026-11-25) says a SKILL.md in an agent's skills folder at the repository root, such as `.claude/skills/code-review/SKILL.md`, is read automatically as a code guideline that applies to the whole repository, so a SKILL.md written for a coding agent now steers a third-party reviewer's comments too.
 Vercel's skills CLI installs into 79 agents as of 2026-11-19 (re-counted from the agent table, which moved from the README to docs/agents.md; still 66 rows naming 79 individual `--agent` targets, and the README headline still agrees at four named agents plus "75 more").
 Mintlify now auto-generates a skill at `.well-known/skills/default/skill.md` for every docs site it hosts and deprecated its January 2026 install.md convention in favor of skills.
 
@@ -70,6 +71,7 @@ My disagreeable claim: SKILL.md is quietly becoming the interface between softwa
 - 2026-11-07 - Rotation re-verification: every cited URL re-fetched live and all claims held a fourth time (the spec's six fields with the name rules and the 500-line recommendation unchanged, the client showcase roster live, the Codex 2%-of-context cap with the skills.max_context_tokens override documented, Gemini's consent gate and .agents/skills alias with the Antigravity-transition banner still up, OpenCode's permission model and @skill-id loads with the unified docs page now carrying the v2 catalog surface, Mintlify's .well-known convention and install.md deprecation, Cursor's beyond-spec fields and /migrate-to-skills in 2.4, the Vercel CLI README still naming four agents plus 75 more, and Anthropic's untrusted-skill guidance); no claims moved.
 - 2026-11-13 - Rotation re-verification: every cited URL re-fetched live and all claims held a fifth time (the spec's six fields with the name rules and the 500-line recommendation unchanged, the client showcase roster live, the Codex 2%-of-context cap with the skills.max_context_tokens override documented, Gemini's consent gate and .agents/skills alias with the Antigravity-transition banner still up, OpenCode's permission model, v2 catalog surface, and @skill-id loads, Mintlify's .well-known convention and install.md deprecation, Cursor's beyond-spec fields and /migrate-to-skills in 2.4, the Vercel CLI README still naming four agents plus 75 more with the agent table's individual flags re-counted at 79, and Anthropic's untrusted-skill guidance); no claims moved.
 - 2026-11-19 - Rotation re-verification: every cited URL re-fetched live and all claims held a sixth time (the spec's six fields with the name rules, the compatibility 500-character limit, and the 500-line recommendation unchanged, the client showcase roster live in the page's HTML with its markdown render now client-side shuffled, the Codex 2%-of-context cap with the skills.max_context_tokens override documented, Gemini's consent gate and .agents/skills alias with the Antigravity-transition banner still up, OpenCode's v2 catalog surface with all frontmatter optional at runtime, Mintlify's .well-known convention and install.md deprecation, Cursor's beyond-spec fields and /migrate-to-skills in 2.4, the Vercel CLI's agent table now at docs/agents.md still carrying 66 rows naming 79 targets with the README headline at four named plus 75 more, and Anthropic's untrusted-skill guidance, which moved from the /engineering/ to the /research/ path and serves 200 on the redirect); no claims moved.
+- 2026-11-25 - Recorded the format reaching the review layer: CodeRabbit's changelog entry of 2026-11-19 reads a SKILL.md in an agent's skills folder at the repository root as a code guideline for its reviews, so a skill written for a coding agent also steers a third-party reviewer's comments.
 
 ## See also
 
@@ -87,6 +89,7 @@ My disagreeable claim: SKILL.md is quietly becoming the interface between softwa
 - https://geminicli.com/docs/cli/skills/ - consent-gated activation and discovery tiers (re-fetched 2026-11-07 and 2026-11-13; re-fetched 2026-11-19, the Antigravity-transition banner still up, unchanged)
 - https://opencode.ai/docs/skills/ - Claude-compatible and .agents paths, permission patterns, catalogs (re-fetched 2026-11-13; re-fetched 2026-11-19, the unified page still documenting the v2 catalog surface, `opencode/autoinvoke` and `disable-model-invocation`, and `@skill-id` loads, with all frontmatter optional at runtime)
 - https://www.mintlify.com/blog/skill-md - third-party adoption, .well-known convention, install.md deprecation (re-fetched 2026-11-13; re-fetched 2026-11-19, unchanged)
+- https://www.coderabbit.ai/changelog - CodeRabbit's changelog: the Agent Skills as review guidelines entry (November 19, 2026), a SKILL.md in an agent's skills folder at the repository root read automatically as a code guideline applying to the whole repository (fetched 2026-11-25)
 - https://github.com/vercel-labs/skills - cross-harness compatibility matrix and the 79-agent README count (re-fetched 2026-11-13; re-fetched 2026-11-19, the agent table now living at docs/agents.md with 66 rows naming 79 targets and the README headline at four named plus 75 more)
 - https://cursor.com/docs/context/skills - Cursor's native Agent Skills docs: directories, beyond-spec frontmatter, invocation, migration skill (fetched 2026-10-06, re-verified live 2026-10-24, re-fetched 2026-11-07, 2026-11-13, and 2026-11-19, unchanged)
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - the untrusted-skill security risk behind the caution above (re-fetched 2026-11-13; re-fetched 2026-11-19, now serving 200 on a redirect to anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills, the post's new home)
