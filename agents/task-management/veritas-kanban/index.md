@@ -1,9 +1,9 @@
 ---
 title: Veritas Kanban
 created: 2026-10-11
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, governance, local-first, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, task-management, kanban, governance, local-first, open-source]
 readability: 3
 audience_notes: >
   Developers who want a board they own locally with an agent layer they switch on in measured steps,
@@ -24,7 +24,7 @@ Around the board: subtasks, bidirectional depends_on and blocks dependencies wit
 ## Status
 
 **Active, six versions deep in one year, single-maintainer.**
-840 stars as of 2026-10-14 (GitHub API), 99 forks, and 9 open issues and pull requests with main quiet since the v6.3.0 release day while the 2026-11-02, 2026-11-09, and 2026-11-16 pushes landed off main, as of 2026-11-21, created 2026-01-26.
+840 stars as of 2026-10-14 (GitHub API), 99 forks, and 9 open issues and pull requests with main quiet since the v6.3.0 release day while the 2026-11-02, 2026-11-09, 2026-11-16, and 2026-11-23 pushes landed off main, as of 2026-11-25, created 2026-01-26.
 The main branch went quiet after the v6.2.1 release commit while side branches carried the work (2026-10-21), then resumed landing on 2026-10-23 with fixes for MCP tools using non-canonical task priorities, unparseable GitHub config JSON output, unbounded API body consumption, and desktop shutdown escalation.
 The newest tagged release is v6.3.0 (2026-10-25), which added optional ChatGPT identity sign-in (a verified OpenAI identity linked to an existing user over a PKCE flow) and an opt-in OrcaRouter profile for Codex CLI, and completed the repository audit backlog; the dependency model landed in v3.3.0, team rosters in v5.2, and the run-scoped tool control plane in v6, all inside the project's first year.
 A Hacker News search returns no story about it (2026-10-11), so adoption evidence is the repository curve plus the docs' own governance records.
@@ -78,6 +78,7 @@ My disagreeable claim: the run-scoped tool catalog belongs at the MCP layer, not
 - 2026-11-12 - Refreshed counts (9 open issues and pull requests) with the default branch checked directly: main's latest commit is still the v6.3.0 merge of 2026-10-25, so the 2026-11-02 and 2026-11-09 pushes both landed off main.
 - 2026-11-15 - Rotation re-verification with every cited URL re-fetched live (repository page, README current at 6.3.0, FEATURES.md, SETUP-PATHS.md, releases, HN search still at zero story hits): nothing material changed, with v6.3.0 still the newest tag, main's latest commit still the v6.3.0 merge of 2026-10-25 with the 2026-11-09 push off main, and counts unchanged (101 forks, 9 open issues and pull requests).
 - 2026-11-21 - Refreshed counts (99 forks) with the default branch checked directly: main's latest commit is still the v6.3.0 merge of 2026-10-25, so the 2026-11-02, 2026-11-09, and 2026-11-16 pushes all landed off main; v6.3.0 still the newest release.
+- 2026-11-25 - Refreshed counts (99 forks) with the default branch checked directly: main's latest commit is still the v6.3.0 merge of 2026-10-25, so the 2026-11-23 push landed off main; v6.3.0 still the newest release.
 
 ## See also
 

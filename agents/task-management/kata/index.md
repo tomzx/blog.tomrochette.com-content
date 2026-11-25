@@ -1,9 +1,9 @@
 ---
 title: Kata
 created: 2026-10-11
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, issue-tracking, local-first, cli, mcp, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, task-management, issue-tracking, local-first, cli, mcp, open-source]
 readability: 3
 audience_notes: >
   Engineers whose coding agents need a shared work ledger that answers in milliseconds and never touches the repository.
@@ -26,7 +26,7 @@ Kenn Software LLC maintains it under MIT, with documentation at katatracker.com.
 ## Status
 
 Active and on a steady release cadence.
-As of 2026-11-22: 464 stars (as of 2026-10-14), 56 forks, 135 open issues and pull requests, created 2026-04-30, pushed 2026-11-22, latest release v0.23.0 on 2026-11-09, with backward compatibility promised since v0.14.0 (v0.19.0's command rename is the declared exception).
+As of 2026-11-25: 464 stars (as of 2026-10-14), 57 forks, 111 open issues and pull requests, created 2026-04-30, pushed 2026-11-25, latest release v0.23.0 on 2026-11-09, with backward compatibility promised since v0.14.0 (v0.19.0's command rename is the declared exception).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenn-io/kata&type=date&theme=dark&legend=top-left" />
@@ -89,6 +89,7 @@ My disagreeable claim: a tracker 250 milliseconds away is a different species fr
 - 2026-11-15 - Refreshed counts (54 forks, 126 open issues and pull requests, pushed 2026-11-15); v0.23.0 still the newest release.
 - 2026-11-21 - Refreshed counts (56 forks, 120 open issues and pull requests, pushed 2026-11-21); v0.23.0 still the newest release, with main carrying unreleased work since (one-command batch issue moves, an auto mode for close transcripts, per-project embedding scoping, and federation sync and PostgreSQL lock fixes).
 - 2026-11-22 - Refreshed counts (135 open issues and pull requests, pushed 2026-11-22); v0.23.0 still the newest release.
+- 2026-11-25 - Recorded main's unreleased work since 2026-11-22 (settings tabs gathering credentials and team access, task graphs easier to navigate, an issue's pull request linked from its page, labels added and removed in one request, needs-review cleared on close, the parent named once its last open child closes, and PostgreSQL BIGINT cast guards) and refreshed counts (57 forks, 111 open issues and pull requests, pushed 2026-11-25); v0.23.0 still the newest release.
 
 ## See also
 

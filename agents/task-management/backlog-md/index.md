@@ -1,9 +1,9 @@
 ---
 title: Backlog.md
 created: 2026-08-27
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, task-management, kanban, markdown, open-source, byok]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, task-management, kanban, markdown, open-source, byok]
 readability: 3
 audience_notes: >
   Engineers who want agent work structured as reviewable markdown before it becomes code, without a database or a vendor.
@@ -24,7 +24,7 @@ It is maintained under the MrLesk identity, with conference talks ([Devoxx Belgi
 ## Status
 
 Active and healthy at mid-scale.
-As of 2026-11-22: 7,024 stars (as of 2026-10-14), 107 open issues and pull requests, pushed 2026-11-21, MIT-licensed, latest release v1.57.2 on 2026-11-21, 160,990 npm downloads over the trailing month to 2026-11-22.
+As of 2026-11-25: 7,024 stars (as of 2026-10-14), 104 open issues and pull requests, pushed 2026-11-24, MIT-licensed, latest release v1.57.4 on 2026-11-22, 157,147 npm downloads over the trailing month to 2026-11-25.
 v1.54.0 is a breaking release: `backlog task complete` and its MCP `task_complete` tool are removed in favor of marking work Done and archiving it, and archive now preserves the task's ID, record, dependencies, and references, with restore and delete alongside; it also changed the default task ordering and made previously accepted malformed edits fail.
 v1.55.0 (2026-10-20) followed as a repair release: versioned JSON output for draft lists, signal forwarding so stopping the npm and Bun launcher stops its native process, unknown YAML frontmatter preserved when unrelated fields are edited, explicit UTC timestamps, and duplicate task IDs repaired through `backlog doctor --fix`.
 v1.55.1 (2026-10-21) and v1.55.2 (2026-10-22) are security hardening releases patching dependencies and native certificate handling; v1.55.2's caveat was that native Git HTTPS proxies were temporarily unsupported while direct HTTPS and HTTP CONNECT proxies kept working.
@@ -87,6 +87,7 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 - 2026-11-15 - Rotation re-verification with every cited URL re-fetched live (repository, API, README, the v1.54.0 through v1.55.3 release tags, groma.md still resolving to its repository, the companion repo, the 254-point launch thread, npm, the talks page) and refreshed counts (102 open issues and pull requests, 143,042 npm downloads over the trailing month to 2026-11-15); v1.55.3 still the newest release.
 - 2026-11-21 - Refreshed counts (109 open issues and pull requests, pushed 2026-11-21, 161,829 npm downloads over the trailing month to 2026-11-21); v1.55.3 still the newest release, with main carrying unreleased work since (task-file renames when a title changes, custom workflow statuses in milestones and board views, and a memory bound for the terminal board).
 - 2026-11-22 - Recorded the four releases of 2026-11-21 (v1.56.0: task filenames follow title edits, decisions as first-class CLI records, YAML-only metadata with second-precision UTC times, final-column consistency for custom workflows; v1.57.0: the read-only static browser export; v1.57.1: the folder-separator ID guard, standalone bunfig and .env loading skipped, a security policy; v1.57.2: the rename race closed with ID locking and record-busy retries across edits, archive, restore, delete, and MCP document updates) and refreshed counts (107 open issues and pull requests, 160,990 npm downloads over the trailing month to 2026-11-22); v1.57.2 now the newest release.
+- 2026-11-25 - Recorded v1.57.3 and v1.57.4 (both 2026-11-22: the phone-friendlier Backlog browser with swipe navigation across the Kanban board and a navigation drawer for documents and decisions, then the fix for 403 responses when the browser opens on a custom hostname) and main's unreleased work since (the BACK-828 web redesign page shell with shared colors and type, BACK-829's one-page Tasks view with List and Board layouts, BACK-836's restored mouse-wheel scrolling in the terminal board, and BACK-838's live updates surviving a reconnect), and refreshed counts (104 open issues and pull requests, pushed 2026-11-24, 157,147 npm downloads over the trailing month to 2026-11-25); v1.57.4 now the newest release.
 
 ## See also
 
@@ -104,9 +105,9 @@ My disagreeable claim: its three checkpoints are what spec-driven development ac
 - https://api.github.com/repos/MrLesk/Backlog.md/releases/tags/v1.55.0 - the v1.55.0 notes: JSON draft lists, launcher signal forwarding, frontmatter preservation, doctor repair
 - https://api.github.com/repos/MrLesk/Backlog.md/releases/tags/v1.55.2 - the v1.55.2 notes: certificate-authority hardening and the native Git HTTPS proxy caveat
 - https://api.github.com/repos/MrLesk/Backlog.md/releases/tags/v1.55.3 - the v1.55.3 notes: native Git certificate and private HTTPS proxy support restored, Nix fixes, the Bun 1.4.4 rebuild
-- https://api.github.com/repos/MrLesk/Backlog.md/releases - the four 2026-11-21 releases v1.56.0 through v1.57.2: filenames following renames, decision records, the static export, the ID guards, and the rename-race locking
+- https://api.github.com/repos/MrLesk/Backlog.md/releases - the 2026-11-21 and 2026-11-22 releases v1.56.0 through v1.57.4: filenames following renames, decision records, the static export, the ID guards, the rename-race locking, the phone-friendly browser, and the custom-hostname fix
 - https://groma.md - the companion product the integration names (resolves to its GitHub repository)
 - https://api.github.com/repos/MrLesk/groma.md - the companion repo: 188 stars, MIT, as of 2026-10-10
 - https://news.ycombinator.com/item?id=44483530 - the 254-point launch thread
-- https://api.npmjs.org/downloads/point/2026-10-16:2026-11-15/backlog.md - 143,042 downloads over the trailing month to 2026-11-15
+- https://api.npmjs.org/downloads/point/2026-10-26:2026-11-25/backlog.md - 157,147 downloads over the trailing month to 2026-11-25
 - https://mrlesk.com/talks - conference talks demonstrating the method

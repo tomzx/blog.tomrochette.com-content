@@ -1,9 +1,9 @@
 ---
 title: kanban-md
 created: 2026-10-11
-updated: 2026-11-14
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, task-management, kanban, markdown, multi-agent, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, task-management, kanban, markdown, multi-agent, open-source]
 readability: 3
 audience_notes: >
   Engineers running several coding agents over one repository who want the board to stay plain markdown files without losing coordination between agents.
@@ -25,7 +25,7 @@ The antopolskiy identity maintains it under MIT, and two installable skills ship
 ## Status
 
 Active and young.
-As of 2026-11-14: 224 stars (as of 2026-10-11), 35 forks, created 2026-02-07, pushed 2026-10-05, latest release v0.39.0 on 2026-10-05.
+As of 2026-11-25: 224 stars (as of 2026-10-11), 35 forks, created 2026-02-07, pushed 2026-11-22, latest release v0.39.0 on 2026-10-05.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=antopolskiy/kanban-md&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ My disagreeable claim: markdown files plus expiring leases cover the small-team 
 - 2026-10-31 - Rotation re-verification with every cited URL re-fetched live (repository page, the bundled development-loop skill, API, releases, HN search): nothing changed, with v0.39.0 still the newest tag and the last push still 2026-10-05.
 - 2026-11-08 - Rotation re-verification with every cited URL re-fetched live (repository README with the config schema still at version 12, the bundled development-loop skill, API, releases, HN search): nothing changed, with v0.39.0 still the newest tag, the last push still 2026-10-05, and the fork count corrected to 35.
 - 2026-11-14 - Rotation re-verification with every cited URL re-fetched live (repository README with the config schema still at version 12, the bundled development-loop skill, API, releases, HN search with the launch thread still at 19 points): nothing changed, with v0.39.0 still the newest tag and the last push still 2026-10-05.
+- 2026-11-25 - Recorded main's first push since October (2026-11-22: inline image references in the TUI, validated image attachments stored with the board, image links preserved at failure boundaries, and cmux clipboard images imported into the active board, all unreleased) and refreshed counts (35 forks, 10 open issues, pushed 2026-11-22); v0.39.0 still the newest release.
 
 ## See also
 
