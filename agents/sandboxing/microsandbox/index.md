@@ -1,13 +1,13 @@
 ---
 title: Microsandbox
 created: 2026-10-07
-updated: 2026-11-22
+updated: 2026-11-25
 readability: 3
 audience_notes: >
   Engineers who want hardware-isolated sandboxes with container-style ergonomics on their own machines, including letting agents spawn VMs themselves.
   Assumes you know what a microVM, an OCI image, and libkrun are.
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, sandboxing, microvm, isolation, open-source]
 ---
 
 Microsandbox is a local-first, Apache-2.0 microVM runtime and library, built on libkrun, that runs untrusted workloads in fast virtual machines with Docker-like workflows, OCI images, fork and snapshot semantics, and support for Linux, macOS, and Windows hosts.
@@ -25,7 +25,7 @@ The project carries a Y Combinator badge and has moved organizations more than o
 
 ## Status
 
-Large by this category's standards and still shipping weekly: 8,704 stars as of 2026-10-23, 191 open issues and PRs as of 2026-11-21, pushed 2026-11-22, created 2024-10-03.
+Large by this category's standards and still shipping weekly: 8,704 stars as of 2026-10-23, 205 open issues and PRs as of 2026-11-25, pushed 2026-11-24, created 2024-10-03.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=superradcompany/microsandbox&type=date&theme=dark&legend=top-left" />
@@ -36,7 +36,8 @@ Large by this category's standards and still shipping weekly: 8,704 stars as of 
 v0.7.5, v0.7.6, and v0.7.7 shipped within a week ending 2026-10-05, a fast pre-1.0 minor-version cadence, v0.7.8 followed on 2026-10-09 (secret substitution scoped to specific header fields, runtime-owned detached jobs, port ranges in published ports, snapshot filesystem-state limits, and a fix that refuses disk restores which would silently drop host mounts), v0.7.9 on 2026-10-22 (adding and removing published ports on running sandboxes, SDK-visible sandbox exit outcomes, JSON network-policy denial output by default, optional exec output backpressure, live label modifications on running sandboxes, restricted-backend configuration, and HTTP CONNECT proxy basic authentication), and v0.7.10 and v0.7.11 inside the same week after it: v0.7.10 on 2026-10-23 (anonymous registry auth in the Go SDK, the project's published smoltcp fork adopted for networking, custom filesystem backends honored, and secret policy writable from the Node and Go SDKs), v0.7.11 on 2026-10-24 (SDK-exposed HTTP CONNECT proxy authentication, a fix for terminal sessions hanging after output, caller config overrides preserved across rebuilds, and recovery of the cleanup left by an interrupted sandbox creation), v0.7.12 closing the week on 2026-10-31 (nested virtualization support, secret modification on cloud sandboxes, and the Windows bind-mount rename and macOS sparse-seek translation fixes), and v0.7.13 following on 2026-11-01 as a Homebrew-repair release for the v0.7.12 install breakage.
 That week's post-release train shipped as v0.7.14 on 2026-11-08 (inbound TCP queuing with admission metrics, the stdin, logs, init, image, and port CLI failure repairs, Windows reparse points skipped in directory listings, legacy sandbox storage recovery, ssh failed-command outcomes preserved, cloud SDK cleanup and CLI onboarding repairs, and the libkrunfw 0.1.45 dependency update), and v0.7.15 shipped on 2026-11-12 as the stable cut of the train that followed it (opt-in candidate installs and publishing, and per-file host operations cut on passthrough mounts).
 v0.7.16 shipped on 2026-11-18 (Services objects joining the SDKs and CLI, SNI DNS bindings revalidated on reconnect, the libkrun and multigrain firmware updated, every cloud sandbox status decoded by the SDK, and bulk cleanup bursts kept from stopping the guest).
-The next line is cut on main but unreleased: the 0.8 bump commits (to 0.8.1 on 2026-11-20) carry a breaking change enforcing snapshot import limits through load options, multi-tenant DNS resolver isolation, cloud HTTP-failure and long-log-follow fixes, the SDK switching to the cloud restart route, and v0.8 upgrade guidance in the docs, with v0.7.16 still the newest published release.
+v0.8.1 shipped on 2026-11-23 as the stable cut of the 0.8 line (the v0.8.0 tag carries no published release): the breaking change enforcing snapshot import limits through load options, operator resolvers for multi-tenant DNS, the cloud SDK fixes (a rejected workdir reported as a typed error, a cloud sandbox's own workdir, shell, and command used, env secret references resolved on cloud create, long cloud log follows and downloads preserved), and the v0.8 upgrade guide in the docs.
+v0.8.2 followed on 2026-11-24, the newest published release as of 2026-11-25: the SDK switching to the cloud restart route, SDK runtime isolation options, opt-in strict host file opens and bounded patch source staging, opt-in independent file materialization for snapshots, explicit in-band relay connections for the agent surface, a strict hostname policy on UDP egress, isolated authenticated OCI caches with enforced cache-auth provenance, private storage on shared NTFS drives on Windows, a cargo-deny audit beside the locked dependency update, and `--exclude-from` on `msb image prune`; the same day's README update announces microsandbox cloud.
 **Its Show HN of 2025-05-30 drew 402 points, the largest community thread of any member of this category, while a June 2026 resubmission drew 3 points, so the launch was a 2025 event and the current proof of life is the release train, not public debate.**
 
 ## Strengths
@@ -49,7 +50,7 @@ The next line is cut on main but unreleased: the 0.8 bump commits (to 0.8.1 on 2
 ## Cautions
 
 - Every performance and security claim is self-reported: the sub-100ms boot figure, the unexploitable-secrets claim, none independently audited or benchmarked.
-- The hosted backend is private beta with unpublished pricing, so the cost story beyond self-hosting is not yet judgeable.
+- The hosted backend is metered usage with a credit model (Builder $20 a month including $20 of usage, Teams $200 including $200, as of 2026-11-25), so the cost story beyond self-hosting scales with agent appetite.
 - Pre-1.0 with rapid minor-version churn and three organization homes since 2024 (the launch linked microsandbox/microsandbox, later zerocore-ai, now superradcompany), a provenance trail adopters should watch.
 - The 402-point launch is a 2025 memory; the 2026 resubmission's 3 points mean the project must be judged on its repo, not its HN history.
 - libkrun shares the virtualization story with its upstream: capable, but the isolation claims ride on a dependency this project does not control.
@@ -57,7 +58,13 @@ The next line is cut on main but unreleased: the 0.8 bump commits (to 0.8.1 on 2
 ## Pricing
 
 Free and open source under Apache-2.0, self-hosted; the costs are the local or fleet hardware you run it on.
-The docs also advertise microsandbox cloud, a hosted backend running the same sandboxes, in private beta with API-key billing where plans, usage, and invoices live in a dashboard; no prices are published as of 2026-10-17.
+microsandbox cloud, the hosted backend running the same sandboxes through the same SDK and CLI with API-key billing, published prices as of 2026-11-25: Standard compute at $0.048 per vCPU-hour and $0.003 per GiB-hour, Shared-capacity compute at $0.007 and $0.000375, root disk at $0.0000625 per GiB-hour on both, persistent volumes at $0.15 per GiB-month and snapshots at $0.08 per GiB-month, on two plans, Builder at $20 per month including $20 of usage credit and Teams at $200 per month including $200 of usage credit.
+
+## Price history
+
+| Date | Plan | Change | Source |
+| ---- | ---- | ------ | ------ |
+| 2026-11-25 | microsandbox cloud (Builder / Teams) | Cloud prices first published: Builder $20 per month including $20 of usage credit; Teams $200 per month including $200 of usage credit; Standard compute $0.048 per vCPU-hour and $0.003 per GiB-hour; Shared-capacity compute $0.007 and $0.000375; root disk $0.0000625 per GiB-hour; volumes $0.15 and snapshots $0.08 per GiB-month (no prices published as of 2026-10-17). | [microsandbox cloud pricing](https://docs.microsandbox.dev/cloud/pricing) |
 
 ## Compared to
 
@@ -68,7 +75,7 @@ The docs also advertise microsandbox cloud, a hosted backend running the same sa
 ## Bottom line
 
 **Recommended for engineers who want VM isolation with container workflows on their own hardware, and for agent-framework authors who want the agent itself to spawn isolated environments.**
-Not for anyone needing audited claims or a stable 1.0 API, and not for teams that want a generally available hosted tier today (the cloud is private beta).
+Not for anyone needing audited claims or a stable 1.0 API, and not for teams that need a written availability commitment from the hosted tier before adopting it.
 
 ## Changes
 
@@ -87,6 +94,7 @@ Not for anyone needing audited claims or a stable 1.0 API, and not for teams tha
 - 2026-11-18 - Recorded v0.7.16 (2026-11-18, Services objects joining the SDKs and CLI, SNI DNS bindings revalidated on reconnect, the libkrun and multigrain firmware update, full cloud-status decoding in the SDK, and bulk cleanup bursts kept from stopping the guest), with open issues and PRs moving from 189 to 191 and the repository pushed 2026-11-18.
 - 2026-11-21 - Volatile refresh: the 0.8 line is cut on main unreleased (the bump commits reaching 0.8.1 on 2026-11-20, with breaking snapshot import limits enforced through load options, multi-tenant DNS resolver isolation, and v0.8 upgrade guidance in the docs), v0.7.16 still the newest published release, open issues and PRs holding at 191, with the repository pushed 2026-11-21.
 - 2026-11-22 - Volatile refresh: the 0.8 train advanced on main (the SDK switching to the cloud restart route on 2026-11-21), v0.7.16 still the newest published release, with the repository pushed 2026-11-22.
+- 2026-11-25 - Recorded v0.8.1 (2026-11-23, the stable cut of the 0.8 line: breaking snapshot import limits through load options, operator resolvers for multi-tenant DNS, the cloud SDK workdir and secret-reference fixes, the v0.8 upgrade guide) and v0.8.2 (2026-11-24, the newest published release: the cloud restart route in the SDK, SDK runtime isolation options, strict host file opens, a strict hostname policy on UDP egress, isolated authenticated OCI caches, the cargo-deny audit), and the first published microsandbox cloud prices (Builder and Teams plans with Standard and Shared-capacity rates, as of 2026-11-25) with the Price history table seeded; open issues and PRs moving from 191 to 205, with the repository pushed 2026-11-24; rotation re-verification with every cited URL re-fetched.
 
 ## See also
 
@@ -99,7 +107,8 @@ Not for anyone needing audited claims or a stable 1.0 API, and not for teams tha
 
 - https://github.com/superradcompany/microsandbox - repository, feature list, libkrun acknowledgement, YC badge, organization moves
 - https://api.github.com/repos/superradcompany/microsandbox - stars, open issues, creation and push dates as of 2026-10-07
-- https://api.github.com/repos/superradcompany/microsandbox/releases - the v0.7.5 through v0.7.11 release record
+- https://api.github.com/repos/superradcompany/microsandbox/releases - the v0.7.5 through v0.8.2 release record
 - https://docs.microsandbox.dev/ - the documentation site
-- https://docs.microsandbox.dev/cloud/overview - the cloud overview: private beta, same SDK and CLI surface, billing in the dashboard
+- https://docs.microsandbox.dev/cloud/overview - the cloud overview: same SDK and CLI surface, billing in the dashboard, links to the pricing and limitations pages
+- https://docs.microsandbox.dev/cloud/pricing - the cloud plans and resource rates as of 2026-11-25
 - https://hn.algolia.com/api/v1/items/44135977 - the 402-point Show HN of 2025-05-30, including the isolation-tradeoff questions in the thread

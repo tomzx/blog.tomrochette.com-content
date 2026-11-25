@@ -1,13 +1,13 @@
 ---
 title: NemoClaw
 created: 2026-10-07
-updated: 2026-11-22
+updated: 2026-11-25
 readability: 3
 audience_notes: >
   Engineers who want to run an always-on assistant (OpenClaw, Hermes, or LangChain Deep Agents) inside an OpenShell sandbox without assembling the integration themselves.
   Assumes you know what an inference proxy and a sandbox policy blueprint are.
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, nvidia, openclaw, hermes, deep-agents, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, sandboxing, nvidia, openclaw, hermes, deep-agents, open-source]
 ---
 
 NemoClaw is NVIDIA's Apache-2.0 reference stack that installs, hardens, and operates supported AI assistants (OpenClaw by default, plus Hermes and LangChain Deep Agents Code) inside OpenShell sandboxes, adding guided onboarding, managed inference, network policy, and lifecycle operations on top of the isolation boundary OpenShell enforces.
@@ -24,7 +24,7 @@ Apache-2.0, from NVIDIA, which describes the project as alpha with best-effort m
 
 ## Status
 
-Large and fast for an alpha: 22,754 stars, 3,142 forks as of 2026-10-16, 318 open issues and PRs as of 2026-11-21, created 2026-03-15, pushed 2026-11-22.
+Large and fast for an alpha: 22,754 stars, 3,142 forks as of 2026-10-16, 318 open issues and PRs as of 2026-11-21 and 299 as of 2026-11-25, created 2026-03-15, pushed 2026-11-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/NemoClaw&type=date&theme=dark&legend=top-left" />
@@ -82,6 +82,7 @@ Not for production-critical assistants while the project declares alpha, or for 
 - 2026-11-15 - Volatile refresh: the exactly-one-prerelease release story re-confirmed, main quiet since the 2026-11-13 train while the repository-level push moved to 2026-11-15 on branch activity, and open issues and PRs moved from 869 to 876.
 - 2026-11-21 - Volatile refresh: the fix train advanced through 2026-11-21 (v0.0.145 documentation prep, OpenShell 0.1.9 native-runtime recognition in e2e and MCP provenance, the v1-format config export, gateway survival through tunnel stops, TUI pairing-grant qualification, and MCP state recovery from stopped Docker sandboxes), the exactly-one-prerelease release story re-confirmed, and the open count moved from 876 to 318 behind a bulk closure wave of 781 issues and PRs closed between 2026-11-15 and 2026-11-21, most without a completion reason, with the repository pushed 2026-11-21.
 - 2026-11-22 - Volatile refresh: the fix train advanced through 2026-11-21 evening (the inference proxy reporting Ollama unhealthy when Ollama is down), the exactly-one-prerelease release story re-confirmed, with the repository pushed 2026-11-22.
+- 2026-11-25 - Volatile refresh: the fix and documentation train advanced through 2026-11-24 (e2e checks of the OpenShell 0.1.10 upgrade inputs, the Trixie security package pins refreshed, the Hermes export evidence and protoc setup repaired, and the v0 guide moved under its own product URL), the exactly-one-prerelease release story re-confirmed, open issues and PRs moving from 318 to 299, with the repository pushed 2026-11-25.
 
 ## See also
 

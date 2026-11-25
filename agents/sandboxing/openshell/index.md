@@ -1,9 +1,9 @@
 ---
 title: OpenShell
 created: 2026-08-30
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, nvidia, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, sandboxing, isolation, security, nvidia, open-source]
 readability: 3
 audience_notes: >
   Engineers running autonomous coding agents who need kernel-enforced isolation and egress policy rather than trust.
@@ -38,7 +38,8 @@ v0.1.7 (2026-11-03) is a breaking telemetry cut: the gateway now emits native OC
 v0.1.8 (2026-11-10) is another breaking-leaning cut: static provider credentials without placement metadata now resolve only in the `Authorization` header unless an explicit `auth_style` declares body, query, or WebSocket slots, REST endpoints return 403 for HTTP upgrade requests while WebSocket traffic needs explicit endpoint rules, OCSF sandbox attribution moved to fields SIEM parsers must remap, filesystem policy paths running through a writable-workspace symlink fail launch, the Python SDK moved to a dedicated ai-openshell/sdk-python publishing home and the old Go SDK module is deprecated in favor of ai-openshell/sdk-go, and the bug batch fixed a gateway memory leak on repeated create-delete cycles, an AWS SigV4 temporary token leaking into supervisor TRACE logs, and Postgres-outage crash-looping.
 On 2026-11-10 at KubeCon North America, NVIDIA contributed OpenShell to the CNCF as a Sandbox project: governance moves to the foundation under vendor-neutral commitments with a public RFC process, the repositories migrate from NVIDIA's GitHub to the neutral ai-openshell organization, and the project adopts Cedar, the CNCF policy-language project, as its policy language, with NVIDIA's engineering continuing and a stated near-term goal of CNCF Incubation.
 v0.1.9 (2026-11-17) carried that train plus its own breaking-leaning set: wildcard network-policy endpoints no longer match private IP literals without an exact endpoint or an `allowed_ips` grant, the Go SDK completed its move to ai-openshell/sdk-go with the old NVIDIA module frozen at v0.1.8, every user and operator change now records an OCSF API Activity event with write-denials reporting Create, Update, or Delete, the russh, hickory-proto, and rustix security advisories were patched, middleware selectors and Helm listener settings that never matched or misrendered now fail validation at start, and the new ServiceDiscovery v1 service lets proxies watch workspace service routes.
-Main's post-v0.1.9 work through 2026-11-21 runs policy-file linting offline, refreshes expired policy DNS mappings on connect, scopes the SSH identity lock per sandbox, authenticates Postgres with Azure workload identity, adds a refresh strategy for GitHub App installations and subtree-path credential templates, sizes cluster sandbox capacity from Helm values, and lets the supervisor identify the process behind each network event, with the repository pushed 2026-11-21.
+v0.1.10 (2026-11-24) lands the repository move in the artifacts: images publish to quay.io/ai-openshell and the gateway's default supervisor and sandbox images follow, the Helm chart is renamed to openshell and publishes to Quay while releases installed from the old NVIDIA path upgrade in place, Kubernetes Helm deployments stop serving gateway-mediated sandbox service URLs and HTTP or WebSocket forwarding by default, application URLs come from the supervisor application origin, the TypeScript SDK moves to ai-openshell/sdk-typescript and publishes as @ai-openshell/sdk with the old NVIDIA package re-exporting it at its last release, Kubernetes 1.33 becomes the minimum tested version, install.sh resolves releases from the new home, and sandboxed workloads can set their own CPU affinity, nice value, and resource limits.
+Main's post-v0.1.10 work through 2026-11-24 adds HTTP/2 on sandbox application routes and retries sandbox creates on mutation-lock timeouts, with the repository pushed 2026-11-25.
 **Late September 2026 NVIDIA folded OpenShell into a branded Open Agent Safety Platform reference design alongside NVIDIA Sentry and BlueField-4 in-silicon enforcement on a dedicated product page, and stars jumped roughly 4,300 in the following three days, a vendor push rather than a Hacker News wave, whose debut threads drew only 2 or 3 points.**
 NVIDIA's own blog still calls it an early preview, and a stable line three point releases deep plus experimental Kubernetes and GPU features say production use is an early bet.
 The CNCF contribution changes what the bet rides on: the vendor-departure risk that made it a bet on NVIDIA specifically now sits on community governance instead.
@@ -54,10 +55,10 @@ In September 2026 the team also published a formal-methods discussion of encodin
 ## Cautions
 
 - Freshly stable (v0.1.0 on 2026-09-25), with breaking changes the base rate for a runtime this young and the Kubernetes path explicitly experimental.
-- The repository migration from NVIDIA's GitHub to the ai-openshell organization is in progress, so clones, pins, and issue links may need to move with it.
+- The repository migration from NVIDIA's GitHub to the ai-openshell organization reached the main repository by v0.1.10 (the old NVIDIA/OpenShell URL redirects to ai-openshell/openshell as of 2026-11-25), so clones, pins, image references, and the Helm chart name need a look when upgrading.
 - Telemetry is on by default in a tool whose pitch is privacy; anonymous, but verify it against your threat model.
 - Effective security equals the YAML policies you write and maintain, which is real ongoing work.
-- 741 open issues and PRs as of 2026-11-18 (781 as of 2026-11-21), well above the 536 platform-launch peak as the v0.1.5 through v0.1.9 releases draw new reports faster than the stale-issue closer shuts them, on a nine-month-old codebase.
+- 741 open issues and PRs as of 2026-11-18 (801 as of 2026-11-25), well above the 536 platform-launch peak as the v0.1.5 through v0.1.9 releases draw new reports faster than the stale-issue closer shuts them, on a nine-month-old codebase.
 
 ## Pricing
 
@@ -97,6 +98,7 @@ Not for production-critical paths this quarter, or shops that cannot run Docker 
 - 2026-11-15 - Volatile refresh: v0.1.8 still the newest release, main holding at the 2026-11-13 fix train while the repository-level push moved to 2026-11-15 on branch activity, and open issues and PRs moving from 674 to 696.
 - 2026-11-18 - Recorded v0.1.9 (2026-11-17, wildcard network-policy endpoints refusing bare private IP literals without an exact endpoint or an allowed_ips grant, the Go SDK completing its ai-openshell/sdk-go move with the old NVIDIA module frozen at v0.1.8, OCSF API Activity events for every user and operator change with write-denials classified Create, Update, or Delete, the russh, hickory-proto, and rustix advisory patches, fail-fast validation for never-matching middleware selectors and Helm listener settings, and the ServiceDiscovery v1 service), open issues and PRs moving from 696 to 741, with the repository pushed 2026-11-18.
 - 2026-11-21 - Volatile refresh: the post-v0.1.9 train advanced through 2026-11-21 (GitHub App installation refresh strategy, subtree-path credential templates, Helm-sized cluster sandbox capacity, and supervisor attribution of the process behind each network event), v0.1.9 still the newest release, open issues and PRs moving from 741 to 781, with the repository pushed 2026-11-21.
+- 2026-11-25 - Recorded v0.1.10 (2026-11-24, the release that lands the repository move in the artifacts: images and the renamed openshell Helm chart publishing to Quay, gateway-mediated service routing off by default on Kubernetes Helm deployments, the TypeScript SDK moving to @ai-openshell/sdk with the old package re-exporting it, Kubernetes 1.33 as the minimum tested version, install.sh resolving releases from the new home, and sandboxed workloads setting their own CPU affinity and resource limits), open issues and PRs moving from 781 to 801, with the repository pushed 2026-11-25, and the migration caution updated for the main repository now resolving to ai-openshell/openshell.
 
 ## See also
 

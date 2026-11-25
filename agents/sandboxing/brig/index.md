@@ -1,13 +1,13 @@
 ---
 title: Brig
 created: 2026-10-06
-updated: 2026-11-21
+updated: 2026-11-25
 readability: 3
 audience_notes: >
   Engineers who want a maintained microVM around coding agents on their own Apple Silicon or Linux workstation.
   Assumes you know what a microVM, Hypervisor.framework, and cosign image verification are.
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, isolation, macos, linux, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, sandboxing, microvm, isolation, macos, linux, open-source]
 ---
 
 Brig is NOFire AI's Apache-2.0 Go tooling that runs coding agents such as Claude Code, Codex, Gemini CLI, OpenCode, or Grok inside a per-agent microVM on your own machine, with the project directory mounted read-write, no host credential reach, and cosign-verified guest images.
@@ -23,7 +23,7 @@ Built by NOFire AI, the team behind urunc, a CNCF Sandbox project; images, boot 
 
 ## Status
 
-Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 2026-08-12, pushed 2026-11-20, Apache-2.0.
+Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 2026-08-12, pushed 2026-11-24, Apache-2.0.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=brig-sh/brig&type=date&theme=dark&legend=top-left" />
@@ -34,6 +34,7 @@ Young but professionally built: 231 stars, 21 forks as of 2026-10-16, created 20
 v0.2.0 shipped 2026-09-15, v0.3.0 on 2026-09-26, v0.4.0 on 2026-10-06, and v0.4.1 on 2026-10-16, which pins the Linux runtime bundle at rc17 and reopens the remote-and-Kubernetes non-goals in the docs (issues #482 through #485), with the channel-main prerelease train cutting two more builds on 2026-10-16, a channel-experimental 0.4.2 line opening after it (builds on 2026-10-23 and 2026-10-24), and the main channel itself moving onto 0.4.2 builds on 2026-10-25, until v0.5.0 became the newest tagged release on 2026-10-31: a breaking cut that retires the old command spellings and profile keys (a profile still carrying one refuses to parse), introduces the v1alpha1 policy envelope with brokered routes and presets, adds the secret broker and renewer seams, and refreshes the Claude OAuth pair, with channel-main already building 0.5.1 prereleases the same day.
 v0.5.1 shipped 2026-11-03 (an aws route preset, AWS credentials fetched through the host's aws CLI, and a warning when the project's .git changes) and v0.5.2 followed on 2026-11-06 with a gcp route preset that mints and caches Google tokens per sandbox and route from a host gcloud pointer, plus another breaking rename, the herd profile becoming herdr.
 The main channel's 0.5.3 prerelease builds followed on 2026-11-10 and continued through 2026-11-12 (three builds), sharing one credential CLI runner across the aws and gcp routes, dropping the secret-import hint when no Linux keyring exists, and refusing impersonated Google tokens that tokeninfo cannot name, until v0.6.0 became the newest tagged release on 2026-11-20: a breaking cut whose policy change makes a preset's git rewrites follow that preset's upstream (a route moving `github-token` to another upstream no longer rewrites github.com, with a migration path documented), credential redaction that masks secrets by their pattern and points at strings that still look random after masking, exec output bounding and VM inspection in the runtime, the first Brigfile layer (a repository's Brigfile resolves named targets whose sessions are planned with `brig plan --target`, digested against what they boot, and refused to boot without an approval), host-route mode (named endpoint routes answered at the `brig.internal` address), AWS role sessions narrowed with `--policy-arns`, and the Linux hull runtime progressing (command-line building, network inspection, and runtime-bundle record checks) with explicit refusals of what Linux hull cannot run yet.
+The channel-main train opened the 0.6.1 line the same day (two prerelease builds on 2026-11-20 after the v0.6.0 publication, a third on 2026-11-22), and main's newest commit on 2026-11-22 defaults the runtime to hvi on macOS, with v0.6.0 still the newest tagged release as of 2026-11-25.
 The Show HN launch on 2026-09-22 drew 9 points, and the maintainer's introduction is most of the thread's substance, so the community footprint is thin and the documentation is where the evidence lives.
 **A nine-point launch against 228 stars in nine weeks reads as quiet, deliberate adoption rather than a wave, and no independent audit or benchmark exists yet, while v0.4.0's breaking changes show the security defaults are still moving: new sandboxes now get isolated networks by default on hvi and Linux, and the runtime refuses shims that share the host kernel.**
 
@@ -82,6 +83,7 @@ Not for Intel Macs, for vz or qemu users who need enforced egress policy, or for
 - 2026-11-12 - Volatile refresh for the post-v0.5.2 train: the main channel's 0.5.3 prerelease builds (2026-11-10 and 2026-11-11) share one credential CLI runner across the aws and gcp routes and fix keyring and token-refusal edges, with v0.5.2 still the newest tagged release and the repository pushed 2026-11-12.
 - 2026-11-14 - Volatile refresh for the post-v0.5.2 train: the main channel's 0.5.3 prerelease builds continued through 2026-11-12, with v0.5.2 still the newest tagged release and the repository pushed 2026-11-13.
 - 2026-11-21 - Recorded v0.6.0 (2026-11-20, the newest tagged release: the breaking policy change making a preset's git rewrites follow its upstream, credential redaction that masks secrets by their pattern, bounded exec output and VM inspection, the Brigfile target layer with approval-gated boots and session digests, host-route mode at brig.internal, --policy-arns role-session narrowing, and the Linux hull runtime's build, inspect, and record work with explicit capability refusals), with the repository pushed 2026-11-20.
+- 2026-11-25 - Recorded the channel-main 0.6.1 prerelease line opening (builds on 2026-11-20 and 2026-11-22, v0.6.0 still the newest tagged release) and main's 2026-11-22 change defaulting the runtime to hvi on macOS, with the repository pushed 2026-11-24; rotation re-verification with every cited URL re-fetched.
 
 ## See also
 

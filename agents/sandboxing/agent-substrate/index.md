@@ -1,13 +1,13 @@
 ---
 title: Agent Substrate
 created: 2026-11-14
-updated: 2026-11-21
+updated: 2026-11-25
 readability: 3
 audience_notes: >
   Platform engineers deciding how to run many concurrent, mostly idle agent sessions on Kubernetes with strong isolation.
   Assumes you know what a Kubernetes Pod, a sandbox, and a microVM are.
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, kubernetes, agent-execution, zero-trust, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, sandboxing, kubernetes, agent-execution, zero-trust, open-source]
 ---
 
 Agent Substrate is a Google-founded, Apache-2.0 agent execution runtime under the agent-substrate GitHub organization, accepted into the CNCF Sandbox in October 2026, that maps stateful agent sessions (Actors) onto a warm pool of sandboxed Kubernetes Workers and suspends idle sessions to full-state snapshots that resume in under 500 milliseconds.
@@ -25,9 +25,10 @@ Google created it and remains its steward; Solo.io co-maintains it and ships its
 ## Status
 
 **Active and heavily backed, with the strongest institutional adoption story in the category and almost no independent community discussion.**
-6,610 stars and 746 forks as of 2026-11-14, repository created 2026-05-13, pushed 2026-11-21, with roughly 129 contributors listed by the GitHub API as of 2026-11-14 (Google and Solo.io both say more than 100 contributors from 40-plus organizations).
+6,610 stars and 746 forks as of 2026-11-14, repository created 2026-05-13, pushed 2026-11-25, with roughly 129 contributors listed by the GitHub API as of 2026-11-14 (Google and Solo.io both say more than 100 contributors from 40-plus organizations).
 The v1.0.0 release ("Fully armed and operational") was published 2026-11-05, the day the donation was announced.
 v1.0.1 followed on 2026-11-20 with an egress-gateway hardening fix: atenet-egress no longer connects to loopback, link-local, unspecified, or cloud-metadata addresses after it resolves a name, closing the path where an actor holding a `*` http or https rule could reach the metadata server or Envoy's admin port through the gateway using a hostname, Host header, or SNI that resolved to one of those addresses (denied requests now get a 403 whose body says why, and TLS passthrough closes the connection), plus the Go 1.27.4 bump.
+Main's post-v1.0.1 work through 2026-11-25 validates Actor and Worker mark-for-deletion in the API server, attaches underlying causes to the remaining API errors, matches the actor UID when kubectl-ate filters logs, documents an egress policy cache side effect with a warning against reusing actor names, adds troubleshoot and actor-lifecycle-triage skills, and moves API validation onto the new declarative-validation capabilities with the alpha and beta tag prefixes dropped, unreleased.
 The CNCF Sandbox application (cncf/sandbox#523) was created 2026-09-08 and closed as accepted 2026-10-20; Google announced the donation of Agent Substrate, gVisor, and OpenRL on 2026-11-05 ahead of KubeCon North America in Salt Lake City, and the CNCF counted Agent Substrate among its new Sandbox projects in the 2026-11-10 milestone announcement (portfolio at 231 projects).
 The managed surface followed the open-source project: Agent Substrate on GKE was announced 2026-09-15 for non-production use with production support via allowlist, then declared generally available on 2026-11-05 alongside the 1.0 release.
 Adoption is vendor and partner grade: kagent 1.0 rebuilt its entire runtime on Agent Substrate and went GA 2026-11-10 with OutSystems and Swissquote in production, Nous Research is building Hermes Enterprise on it, NVIDIA documents Dynamo and KAI Scheduler integrations, and VMware demonstrated a vSphere Kubernetes Service add-on (explicitly unsupported demo artifacts) the same week.
@@ -76,6 +77,7 @@ Not for workstation or single-agent use (Microsandbox's slot), not for teams who
 
 - 2026-11-14 - Created.
 - 2026-11-21 - Rotation re-verification: every cited URL re-fetched and alive (repository data, releases, and the CNCF application through the GitHub API, ate.dev, the Google Open Source donation post, the Google Cloud donation and GKE announcements, the GKE concepts page, the CNCF milestone announcement, the NVIDIA technical blog, the Solo.io kagent GA post, the VMware VCF post, and both HN Algolia threads), and recorded v1.0.1 (2026-11-20, the egress-gateway hardening: atenet-egress refuses resolved loopback, link-local, unspecified, and cloud-metadata destinations for actors whose rules would allow them, with 403s carrying the reason and TLS passthrough closing the connection, plus the Go 1.27.4 bump), with the repository pushed 2026-11-21.
+- 2026-11-25 - Volatile refresh: main's post-v1.0.1 work through 2026-11-25 (API validation of Actor and Worker mark-for-deletion, underlying causes attached to the remaining API errors, actor UID matching in kubectl-ate log filtering, the egress policy cache side effect documented, troubleshoot and actor-lifecycle-triage skills, validation moved onto the new declarative-validation capabilities with alpha and beta tag prefixes dropped, and the Kubernetes libraries at v0.38.0-beta.0), unreleased, with v1.0.1 still the newest release and the repository pushed 2026-11-25.
 
 ## See also
 

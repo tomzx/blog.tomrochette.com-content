@@ -1,13 +1,13 @@
 ---
 title: E2B
 created: 2026-10-06
-updated: 2026-11-21
+updated: 2026-11-25
 readability: 3
 audience_notes: >
   Engineers choosing where agent code execution runs, comparing the hosted sandbox API against the self-hosted platforms.
   Assumes you know what Firecracker, per-second billing, and a base-URL-compatible SDK are.
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, microvm, firecracker, hosted-api, isolation, security]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, sandboxing, microvm, firecracker, hosted-api, isolation, security]
 ---
 
 E2B is the hosted sandbox API that gives each agent session an isolated Firecracker microVM with its own kernel, created through Python or JavaScript SDK calls and billed per second, and it is the interface the self-hosted members of this category advertise compatibility with.
@@ -23,13 +23,14 @@ The cloud is SOC 2 Type II compliant with US, EU, and APAC regions; enterprise t
 
 ## Status
 
-Active and well funded: the SDK repo stands at 14,378 stars and the runtime repo at 1,725 stars as of 2026-10-16, the SDK repo created 2023-03-04 and pushed 2026-11-21 (the runtime repo pushed 2026-10-24), with the e2b package on PyPI at 2.64.0 (as of 2026-11-21, matching the npm latest tag) after the 2.56.0 release of 2026-10-13 opened the next train.
+Active and well funded: the SDK repo stands at 14,378 stars and the runtime repo at 1,725 stars as of 2026-10-16, the SDK repo created 2023-03-04 and pushed 2026-11-23 (the runtime repo pushed 2026-11-24), with the e2b package on PyPI at 2.64.0 (as of 2026-11-25, matching the npm latest tag) after the 2.56.0 release of 2026-10-13 opened the next train.
 The 2.56.0 cut is a breaking one for JavaScript users: Node.js 22 is now the minimum, the SDK depends on undici 8 only, and the SDK-level in-flight request caps and their environment variables are removed in favor of undici's connection pools.
 2.57.0 and 2.58.0 followed on 2026-10-20 (a tls option for the egress proxy connection, and streaming stdin and PTY input handles), and 2.59.0 on 2026-10-22 added per-sandbox DNS server allowlists inside the egress firewall while deprecating the apiUrl and sandboxUrl connection options and their environment variables ahead of removal in the next major.
 2.60.0 and 2.61.0 both shipped on 2026-10-26: 2.60.0 reworked retry handling around the server's `Should-Retry` header (dropping the method and replayable-operation allowlists and no longer retrying post-send network errors) and bumped undici to 8.12.2 to fix CVE-2026-109869 (high, a denial of service via unhandled error on excessive content-encodings), while 2.61.0 added an `idempotencyKey` option to `Sandbox.create` so a retried creation request cannot mint duplicate sandboxes.
 2.62.0 followed on 2026-10-28 across the JS and Python SDKs, the code-interpreter package, and the CLI: a `retainOutput` option on command runs (default true) that skips in-memory stdout and stderr buffering when set false while callbacks still fire, and streaming, unbuffered `files.write` over async byte iterables.
 Patch cuts on 2026-11-03 moved envd file uploads and downloads to HTTP/1.1 after undici's HTTP/2 dispatchers started failing with `too_many_data_frames`, and 2.63.0 (2026-11-04) added a `strict` pause option that refuses with a service-busy error while the guest agent is unresponsive (the sandbox keeps running, the state is surfaced as `envdUnresponsiveAtPause`, and resuming such a sandbox without a reboot option now throws a typed guest-unresponsive error); PyPI is at 2.63.0 as of 2026-11-12, and the pricing page re-checked unchanged at the baseline rates as of 2026-11-07.
 The post-2.63.0 train through 2026-11-12 was CLI tooling only (zod input validation, a generated CLI reference, commander v15 with typed commands, and the CLI's workspace and template commands reworked onto the SDK), and it shipped as 2.64.0 on 2026-11-13 across the JS and Python SDKs, the CLI, the code-interpreter package, and dockerfile-utils: template management moved onto the SDK (`Template.list()` paging and `Template.delete()`, with the CLI's template commands rewritten over them and its JSON output switched to the SDK's `TemplateInfo` shape), resizable templates (a `maxCpuCount` ceiling at build time with each sandbox picking its `cpuCount` on create), an `Authorization` header carrying an OAuth access token in place of an API key through `apiHeaders` plus the `X-Team-ID` selector, a `shell` option on `commands.run`, and a ConnectRPC bump to ^2.3.0, with PyPI at 2.64.0 as of 2026-11-14.
+The post-2.64.0 train through 2026-11-25 holds one unreleased SDK addition, `Template.getInfo` and `Template.listBuilds` merged on 2026-11-18, and the pricing page re-read on 2026-11-25 shows the concurrency tiers repriced (see Price history).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=e2b-dev/E2B&type=date&theme=dark&legend=top-left" />
@@ -49,23 +50,24 @@ A $21M Series A led by Insight Partners was announced 2025-07-28, $32M total, wi
 
 ## Cautions
 
-- Per-second usage billing scales with agent appetite, the default sandbox is 2 vCPU and 4 GiB, and concurrency caps arrive fast: Hobby 20, Pro 100 before the $650 and $1,150 add-on tiers.
+- Per-second usage billing scales with agent appetite, the default sandbox is 2 vCPU and 4 GiB, and concurrency caps arrive fast: Hobby 10, Pro 100 before the $500 and $1,000 add-on tiers (as of 2026-11-25).
 - CPU-only, no GPU sandboxes, so RL and eval workloads needing GPUs go elsewhere.
 - The hosted tier is a dependency on one vendor's uptime and regions, and Enterprise starts at a $3,000 monthly minimum.
 - No independent audit of the boundary itself exists; SOC 2 covers process, and the runtime's operational record outside E2B's own fleet is short.
 
 ## Pricing
 
-Hobby: free, one-time $100 usage credits, 20 concurrent sandboxes, 1-hour sessions, 10 GiB storage included.
-Pro: $150 per month plus usage, 100 concurrent, 24-hour sessions, 20 GiB storage; Pro+ and Pro++ add-ons at $650 and $1,150 per month raise concurrency to 600 and 1,100.
+Hobby: free, one-time $100 usage credits, 10 concurrent sandboxes (as of 2026-11-25), 1-hour sessions, 10 GiB storage included.
+Pro: $150 per month plus usage, 100 concurrent, 24-hour sessions, 20 GiB storage; Pro+ and Pro++ add-ons at $500 and $1,000 per month (as of 2026-11-25) raise concurrency to 600 and 1,100.
 Enterprise: custom, with a $3,000 monthly minimum and BYOC.
-Published usage rates as of 2026-10-11: $0.000014 per vCPU-second and $0.0000045 per GiB-second, storage included free; sandboxes configure 1 to 8 vCPU and 1 to 8 GiB, CPU-only.
+Published usage rates as of 2026-11-25, unchanged since the 2026-10-11 reading: $0.000014 per vCPU-second and $0.0000045 per GiB-second, storage included free; sandboxes configure 1 to 8 vCPU and 1 to 8 GiB, CPU-only.
 
 ## Price history
 
 | Date | Plan | Change | Source |
 | ---- | ---- | ------ | ------ |
 | 2026-10-06 | Hobby / Pro / Pro+ / Pro++ / Enterprise | Baseline: Hobby free with $100 one-time credits; Pro $150 per month plus usage at $0.000014 per vCPU-second and $0.0000045 per GiB-second; Pro+ $650 and Pro++ $1,150 concurrency add-ons; Enterprise $3,000 monthly minimum. | [E2B pricing](https://e2b.dev/pricing) |
+| 2026-11-25 | Hobby / Pro+ / Pro++ | Hobby concurrency 20 -> 10; Pro+ add-on $650 -> $500 per month (600 concurrent); Pro++ add-on $1,150 -> $1,000 per month (1,100 concurrent); Pro $150, the usage rates, and the Enterprise $3,000 monthly minimum unchanged. First read on 2026-11-25, after the unchanged 2026-11-07 check. | [E2B pricing](https://e2b.dev/pricing) |
 
 ## Compared to
 
@@ -90,6 +92,7 @@ Not for GPU workloads, for $0-marginal-cost fleet scale, or for anyone unwilling
 - 2026-11-07 - Recorded 2.63.0 (2026-11-04, the strict pause option that refuses while the guest agent is unresponsive, marks envdUnresponsiveAtPause, and makes non-reboot resume throw a typed guest-unresponsive error) and the 2026-11-03 HTTP/1.1 file-transfer patches (uploads and downloads moved off undici's HTTP/2 dispatchers after too_many_data_frames failures), PyPI at 2.63.0, the pricing page re-checked unchanged as of 2026-11-07, and the repository pushed 2026-11-06.
 - 2026-11-12 - Volatile refresh: PyPI and the release record hold at 2.63.0 while the post-release train through 2026-11-11 is CLI tooling (zod input validation, a generated CLI reference, commander v15 with typed commands), unreleased, with the repository pushed 2026-11-12.
 - 2026-11-14 - Recorded 2.64.0 (2026-11-13, the stable cut of the CLI-tooling train plus template management on the SDK with `Template.list()` and `Template.delete()`, resizable `maxCpuCount` templates, OAuth access-token authentication through an `Authorization` header with the `X-Team-ID` selector, the `commands.run` shell option, and the ConnectRPC ^2.3.0 bump, cut across the JS and Python SDKs, the CLI, the code-interpreter package, and dockerfile-utils), PyPI at 2.64.0, and the repository pushed 2026-11-14.
+- 2026-11-25 - Recorded the pricing page's repricing (Hobby concurrency 20 to 10, the Pro+ add-on $650 to $500, the Pro++ add-on $1,150 to $1,000, with Pro, the usage rates, and the Enterprise minimum unchanged) with a Price history row, the unreleased `Template.getInfo` and `Template.listBuilds` SDK addition merged 2026-11-18, PyPI and npm holding at 2.64.0 as of 2026-11-25, and the runtime repository pushed 2026-11-24; rotation re-verification with every cited URL re-fetched.
 
 ## See also
 
@@ -102,10 +105,10 @@ Not for GPU workloads, for $0-marginal-cost fleet scale, or for anyone unwilling
 
 - https://e2b.dev - product model, deployment options, SOC 2, regions, Embed
 - https://docs.e2b.dev/ - SDK surface, sandbox lifecycle, persistence semantics
-- https://e2b.dev/pricing - plans, concurrency tiers, published usage rates as of 2026-10-06
+- https://e2b.dev/pricing - plans, concurrency tiers, published usage rates as of 2026-11-25
 - https://github.com/e2b-dev/E2B - SDK repository, growth, license
 - https://github.com/e2b-dev/runtime - the open-source runtime and the Embed single-node package
-- https://pypi.org/pypi/e2b/json - the e2b package's current version, 2.64.0 as of 2026-11-14
+- https://pypi.org/pypi/e2b/json - the e2b package's current version, 2.64.0 as of 2026-11-25
 - https://e2b.dev/blog/series-a - the $21M Series A and the enterprise traction claims
 - https://hn.algolia.com/api/v1/items/41860413 - the 2-point 2024 launch thread
 - https://hn.algolia.com/api/v1/items/47863430 - CubeSandbox's open-source-alternative launch, the competitive counterpoint

@@ -1,13 +1,13 @@
 ---
 title: nono
 created: 2026-10-07
-updated: 2026-11-21
+updated: 2026-11-25
 readability: 3
 audience_notes: >
   Engineers who want an agent fenced at the kernel level and care most about what happens when the agent calls git, gh, curl, or kubectl.
   Assumes you know what Landlock, seccomp, and an L7 proxy are.
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, sandboxing, isolation, security, kernel, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, sandboxing, isolation, security, kernel, open-source]
 ---
 
 nono is a capability-based sandbox CLI and SDK family from nolabs-ai, the team behind Sigstore, that sandboxes an AI agent session at the kernel level and, distinctively, launches each delegated tool the agent calls under its own command sandbox with separate filesystem, network, and credential policy.
@@ -24,7 +24,7 @@ Apache-2.0, built by the Sigstore team, with an OpenSSF Best Practices badge and
 
 ## Status
 
-Fast-growing with no Hacker News help: 4,519 stars, 302 open issues and PRs, pushed 2026-11-20, created 2026-01-31; open issues and PRs at 308 as of 2026-11-21.
+Fast-growing with no Hacker News help: 4,519 stars, 302 open issues and PRs, pushed 2026-11-25, created 2026-01-31; open issues and PRs at 317 as of 2026-11-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=nolabs-ai/nono&type=date&theme=dark&legend=top-left" />
@@ -35,6 +35,7 @@ Fast-growing with no Hacker News help: 4,519 stars, 302 open issues and PRs, pus
 The release train is active and pre-1.0: v0.77.0 on 2026-09-11, v0.78.0 on 2026-09-16, v0.79.0 on 2026-09-30, v0.80.0 on 2026-10-13 (SHA-256 executable pinning in command policies, per-command aws_auth, command-level macOS keychain grants, and NEPs for a Windows enforcement backend and for invocation-scoped commands), and v0.81.0 on 2026-10-29, published with three new advisories (apply_seccomp() not working, an io_uring bypass of the af_unix pathname remediation, and a TLS-proxy crash that silently dropped the audit trail), with the README carrying an APIs-are-stabilizing note ahead of a 1.0. v0.82.0, the stable cut of the post-v0.81.0 train, followed on 2026-11-14: proxy audit events recorded live to the audit log, NEP-0010 session terminal recording shipped as a feature (approval elevation for AF_UNIX pathname sockets, unix-socket webhook transport and network approvals in `nono proxy`, approvals for allow_domain endpoints), the plain-HTTP forward path reaching parity with CONNECT (endpoint-rule enforcement and network approval), `nono login` and `nono logout`, a breaking CLI unification behind automatic enrollment, aws_auth route matching of AWS operations in endpoint_policy plus signing-profile selection by placeholder access key ID and request-host region derivation for wildcard upstreams, phantom_format for custom credentials, macOS process-exec scoped to the read set, and fixes for exact-file directory bypasses and the nono user's home directory in Docker.
 The project's coordinated-disclosure record is now its own evidence base: fifteen advisories published between 2026-05-17 and 2026-10-29, re-checked at fifteen with nothing new as of 2026-11-21, including CVE-2026-47128 (a Linux sandbox escape through the user systemd D-Bus socket via `systemd-run --user`, disclosed in May), four high-severity bypasses (seccomp BPF filters missing legacy x86_64 syscall ABIs, io_uring bypassing the af_unix remediation, endpoint-policy enforcement wrongly authorizing paths, and the tool-sandbox shim falling through to nono's own CLI), and hostname-normalization bypasses of host deny lists.
 The post-v0.82.0 train continued on main through 2026-11-20, unreleased: platform-enforced signed policy at session startup and verification of self-contained signed file bundles (11-18 and 11-19), http-streamable MCP forwarding through the proxy, pending non-interactive approval queries announced by the CLI, musl ioctl support, .jsonc profile siblings resolved, agent TUIs preserved during remote approvals, and read-path fixes for mise state and Debian version files.
+The train continued through 2026-11-23, still unreleased: a TypeSafe API endpoint for network policy, proxied commands run in the session network namespace, a breaking proxy refactor storing endpoint rule paths normalized through EndpointPath, and platform enrollment and audit delivery fixes.
 **Hacker News never embraced it: four submissions between 2026-02-01 and 2026-02-04 drew 4, 1, and 2 points, an August resubmission drew 3, and the stars grew without a front-page thread, so the evidence base is the repo, the docs, the advisory record, and named enterprise testimonials rather than public debate.**
 
 ## Strengths
@@ -78,6 +79,7 @@ Not for anyone who needs VM-grade boundaries today or an externally audited 1.0.
 - 2026-11-14 - Volatile refresh: the v0.82.0 tag cut on main on 2026-11-13 with no published GitHub release object as of 2026-11-14, so v0.81.0 remains the newest published release, and open issues and PRs at 302.
 - 2026-11-15 - Recorded v0.82.0 (published 2026-11-14, the stable cut of the post-v0.81.0 train: live proxy audit events, NEP-0010 session terminal recording shipped, approval elevation for AF_UNIX sockets, unix-socket webhook approvals in `nono proxy`, allow_domain approvals, plain-HTTP forward parity, login and logout, the breaking CLI unification, aws_auth endpoint_policy matching with signing-profile and region derivation, phantom_format custom credentials, macOS process-exec scoping, and the bypass fixes), with the advisory record re-checked at fifteen and open issues and PRs at 304.
 - 2026-11-21 - Volatile refresh: the post-release train advanced through 2026-11-20 (signed policy enforced at session startup, self-contained signed file bundles verified, http-streamable MCP forwarding, pending non-interactive approval queries announced, musl ioctl and .jsonc-profile fixes, TUI preservation during remote approvals), v0.82.0 still the newest release, the advisory record re-checked at fifteen with nothing new, open issues and PRs moving from 304 to 308, with the repository pushed 2026-11-20.
+- 2026-11-25 - Volatile refresh: the post-release train advanced through 2026-11-23 (a TypeSafe API endpoint for network policy, proxied commands run in the session network namespace, the breaking proxy refactor normalizing endpoint rule paths through EndpointPath, and platform enrollment and audit delivery fixes), v0.82.0 still the newest release, open issues and PRs moving from 308 to 317, with the repository pushed 2026-11-25.
 
 ## See also
 
