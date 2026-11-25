@@ -1,7 +1,7 @@
 ---
 title: n8n
 created: 2026-08-24
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, llm=glm-5.4, executions, webhooks, workflow-automation]
 readability: 3
@@ -23,7 +23,7 @@ Deployment is self-hosted (free Community Edition) or n8n Cloud; the Webhook nod
 ## Status
 
 **Very active and heavily funded.**
-About 207.3k stars as of 2026-10-13 and 61,637 forks as of 2026-11-24 on GitHub, with 27,000+ commits.
+About 207.3k stars as of 2026-10-13 and 61,653 forks as of 2026-11-25 on GitHub, with 28,000+ commits.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=n8n-io/n8n&type=date&theme=dark&legend=top-left" />
@@ -100,11 +100,11 @@ My disagreeable claim: for scheduled and webhook-triggered coding-adjacent work,
 
 ## References
 
-- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-10-13 (counters re-verified 2026-11-24)
-- https://docs.n8n.io/build/build-and-manage-agents.md - agents feature: channels, schedules, sub-agents, preview limits, per-tool approval (re-fetched 2026-11-11; all claims unchanged)
-- https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ - webhook trigger semantics, auth, fail-open conditional (re-fetched 2026-11-11; n8n User Auth (OAuth2) now documented beside basic, header, and JWT)
-- https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-11-11 (tiers re-verified unchanged 2026-11-24)
-- https://docs.n8n.io/n8n-community-license/community-license.md - license terms and the not-open-source statement (re-fetched 2026-11-11)
-- https://blog.n8n.io/series-c/ - $180M Series C, $2.5B valuation, October 2025 (re-fetched 2026-11-11)
-- https://news.ycombinator.com/item?id=21191676 - the 2019 launch thread (728 points, re-fetched 2026-11-11)
-- https://news.ycombinator.com/item?id=45525336 - the Series C announcement thread (235 points, re-fetched 2026-11-11)
+- https://github.com/n8n-io/n8n - repository scale and fair-code licensing, as of 2026-10-13 (counters re-verified 2026-11-25)
+- https://docs.n8n.io/build/build-and-manage-agents.md - agents feature: channels, schedules, sub-agents, preview limits, per-tool approval (re-fetched 2026-11-25; all claims unchanged)
+- https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/ - webhook trigger semantics, auth, fail-open conditional (re-fetched 2026-11-11; n8n User Auth (OAuth2) now documented beside basic, header, and JWT; re-fetched 2026-11-25)
+- https://n8n.io/pricing/ - plan tiers and execution-based billing, as of 2026-11-11 (tiers re-verified unchanged 2026-11-25)
+- https://docs.n8n.io/n8n-community-license/community-license.md - license terms and the not-open-source statement (re-fetched 2026-11-25)
+- https://blog.n8n.io/series-c/ - $180M Series C, $2.5B valuation, October 2025 (re-fetched 2026-11-25)
+- https://news.ycombinator.com/item?id=21191676 - the 2019 launch thread (728 points, re-fetched 2026-11-25)
+- https://news.ycombinator.com/item?id=45525336 - the Series C announcement thread (235 points, re-fetched 2026-11-25)

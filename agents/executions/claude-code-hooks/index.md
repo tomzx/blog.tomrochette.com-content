@@ -1,7 +1,7 @@
 ---
 title: Claude Code hooks
 created: 2026-08-24
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, executions, claude-code, hooks]
 readability: 3
@@ -17,14 +17,14 @@ Claude Code hooks are user-defined shell commands, HTTP endpoints, or LLM prompt
 ## What it is
 
 Hooks live in JSON settings files at four scopes (user, project, local, and organization-managed policy) plus plugin manifests, skill frontmatter, and subagent frontmatter, and plugins can also register hooks as JavaScript functions in their own process (the docs' mods surface).
-**The event surface has grown to 33 lifecycle points**: session start and end, prompt submit, before and after every tool call, permission requests, compaction, subagent start and stop, file changes on disk, and config changes.
+**The event surface has grown to 34 lifecycle points**: session start and end, prompt submit, before and after every tool call, permission requests, compaction, subagent start and stop, file changes on disk, config changes, and, since v2.1.332 (2026-11-25), `PreSkillShellCommand`, which can refuse a skill or command's inline shell commands as it loads.
 Handlers come in five types: shell commands, HTTP POSTs, MCP tool calls, single-turn prompt evaluations, and experimental multi-turn agent hooks.
 The same hook events fire in the terminal, IDE extensions, the desktop app, and Claude Code on the web, and they also fire inside subagents.
 
 ## Status
 
 **Active and heavily invested in.**
-The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 150.7k stars as of 2026-10-13, roughly 16.1k open issues as of 2026-11-24).
+The feature ships in the proprietary CLI tracked by the `anthropics/claude-code` repository (about 150.7k stars as of 2026-10-13, roughly 16.2k open issues as of 2026-11-25).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=anthropics/claude-code&type=date&theme=dark&legend=top-left" />
@@ -84,6 +84,7 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 - 2026-11-14 - Re-verified out of rotation after the v2.1.325 release (2026-11-13): the 33-event table, the five handler types, the fail-open `if` filter, the FileChanged/StopFailure pipe-only matcher rule, and the v2.1.267 and v2.1.295 gates all still present on the live docs, and the open-issue counter refreshed to roughly 17.2k.
 - 2026-11-20 - Re-verified out of rotation after the v2.1.329 release (2026-11-19): the 33-event table, the five handler types, the fail-open `if` filter, the FileChanged/StopFailure pipe-only matcher rule, and the v2.1.267 and v2.1.295 gates all still present on the live docs, and the open-issue counter refreshed to roughly 17.1k.
 - 2026-11-22 - Re-verified out of rotation after the v2.1.330 release (2026-11-20): the 33-event table, the five handler types, the fail-open `if` filter, the FileChanged/StopFailure pipe-only matcher rule, and the v2.1.267 and v2.1.295 gates all still present on the live docs, and the open-issue counter refreshed to roughly 16.0k.
+- 2026-11-25 - Fully re-verified in rotation after the v2.1.332 release (2026-11-25): the event count moved from 33 to 34 with the new `PreSkillShellCommand` event, which can refuse a skill or command's inline shell commands as it loads (on 2.1.331 and older a settings file naming it opens a dialog at start); the five handler types, the fail-open `if` filter, the FileChanged and StopFailure pipe-only matcher rule, the v2.1.267 and v2.1.295 gates, the plugin mods function-hook surface, and the security-guidance hook map all re-confirmed against the live docs, the Graft thread (44 comments) and the HN footprint (452 stories, several hundred) re-confirmed, and the open-issue counter refreshed to roughly 16.2k.
 
 ## See also
 
@@ -94,8 +95,9 @@ I would go further: a team that relies on prompt instructions instead of PreTool
 
 ## References
 
-- https://code.claude.com/docs/en/hooks - event reference, handler types, matcher semantics, fail-open caution (re-fetched 2026-11-24; the 33-event table, the five handler types, and the v2.1.267 and v2.1.295 matcher and `onFailure` gates all still present)
-- https://code.claude.com/docs/en/hooks-guide - quickstart, deterministic-control framing, usage costs of model-backed hooks (re-fetched 2026-11-01)
-- https://code.claude.com/docs/en/security-guidance - the official plugin built entirely on hooks (re-fetched 2026-11-01)
-- https://github.com/anthropics/claude-code - repository scale, as of 2026-11-24
-- https://news.ycombinator.com/item?id=49299985 - third-party hooks tooling (Graft) and community scrutiny of its benchmark claims (re-fetched 2026-11-01, 44 comments)
+- https://code.claude.com/docs/en/hooks - event reference, handler types, matcher semantics, fail-open caution (re-fetched 2026-11-25; the event table now 34 with `PreSkillShellCommand`, the five handler types, and the v2.1.267 and v2.1.295 matcher and `onFailure` gates all still present)
+- https://code.claude.com/docs/en/hooks-guide - quickstart, deterministic-control framing, usage costs of model-backed hooks (re-fetched 2026-11-25)
+- https://code.claude.com/docs/en/security-guidance - the official plugin built entirely on hooks (re-fetched 2026-11-25)
+- https://github.com/anthropics/claude-code - repository scale, as of 2026-11-25
+- https://news.ycombinator.com/item?id=49299985 - third-party hooks tooling (Graft) and community scrutiny of its benchmark claims (re-fetched 2026-11-25, 44 comments)
+- https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md - the v2.1.332 entry (2026-11-25) adding the `PreSkillShellCommand` hook event and its 2.1.331-and-older dialog note (fetched 2026-11-25)

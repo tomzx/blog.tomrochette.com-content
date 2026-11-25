@@ -1,9 +1,9 @@
 ---
 title: Codex Action
 created: 2026-10-11
-updated: 2026-11-20
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, executions, github-actions, codex, security]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, executions, github-actions, codex, security]
 readability: 3
 audience_notes: >
   Engineers wiring OpenAI's Codex into GitHub Actions workflows who care about what the agent can reach.
@@ -25,7 +25,7 @@ It is Apache-2.0, built by OpenAI, and tag-versioned (v1.14 the newest) rather t
 ## Status
 
 **Active and current, with a small footprint.**
-1,266 stars as of 2026-10-13, 189 forks and 81 open issues and pull requests as of 2026-11-20 (GitHub API), created 2025-10-01 and pushed 2026-11-18, with the default branch's latest commit the 2026-11-16 changelog entry documenting v1.14, which fixes the drop-sudo socket-ACL verification on Ubuntu 26.04.
+1,266 stars as of 2026-10-13, 188 forks and 81 open issues and pull requests as of 2026-11-25 (GitHub API), created 2025-10-01 and pushed 2026-11-18, with the default branch's latest commit still the 2026-11-16 changelog entry documenting v1.14, which fixes the drop-sudo socket-ACL verification on Ubuntu 26.04.
 The tag train moved to v1.14 (from v1.13, current as of 2026-11-14) with changelog commits through 2026-11-16, so maintenance is steady, but the distribution choice (tags, no GitHub releases) keeps the version history low-visibility.
 Hacker News has no dedicated thread as of 2026-10-30 searches; the README, the security guide, and the Codex permissions docs are the whole record.
 
@@ -87,9 +87,9 @@ My disagreeable claim: OpenAI shipped the security model the other vendors shoul
 ## References
 
 - https://github.com/openai/codex-action - repository, 1,266 stars, Apache-2.0 license, as of 2026-10-13
-- https://api.github.com/repos/openai/codex-action - exact counters (1,266 stars as of 2026-10-13, 189 forks, 81 open issues and pull requests, pushed 2026-11-18, created 2025-10-01; re-verified 2026-11-20)
-- https://raw.githubusercontent.com/openai/codex-action/main/README.md - the proxy architecture, safety strategies, permission profiles, trigger allowlists, and Azure setup (re-fetched 2026-11-20; profiles still beta at CLI 0.138.0 and later)
-- https://api.github.com/repos/openai/codex-action/commits?per_page=3 - the changelog commits (the 2026-11-16 drop-sudo socket-ACL fix for Ubuntu 26.04 and the v1.14 changelog entry above the 2026-10-30 UTF-8 fix, re-fetched 2026-11-20)
-- https://api.github.com/repos/openai/codex-action/tags?per_page=5 - the tag-versioning scheme, v1.14 newest above v1.13 (re-fetched 2026-11-20)
-- https://learn.chatgpt.com/docs/permissions - the permission-profile schema and enforcement this action configures (the former developers.openai.com/codex/permissions path now redirects here; re-fetched 2026-11-14)
-- https://hn.algolia.com/api/v1/search?query=codex-action - the coverage scan finding no dedicated thread (re-checked 2026-11-14: 158 unfiltered hits, none about this action), the missing-footprint record
+- https://api.github.com/repos/openai/codex-action - exact counters (1,266 stars as of 2026-10-13, 188 forks, 81 open issues and pull requests, pushed 2026-11-18, created 2025-10-01; re-verified 2026-11-25)
+- https://raw.githubusercontent.com/openai/codex-action/main/README.md - the proxy architecture, safety strategies, permission profiles, trigger allowlists, and Azure setup (re-fetched 2026-11-25; profiles still beta at CLI 0.138.0 and later)
+- https://api.github.com/repos/openai/codex-action/commits?per_page=3 - the changelog commits (the 2026-11-16 drop-sudo socket-ACL fix for Ubuntu 26.04 and the v1.14 changelog entry above the 2026-10-30 UTF-8 fix, re-fetched 2026-11-25)
+- https://api.github.com/repos/openai/codex-action/tags?per_page=5 - the tag-versioning scheme, v1.14 newest above v1.13 (re-fetched 2026-11-25)
+- https://learn.chatgpt.com/docs/permissions - the permission-profile schema and enforcement this action configures (the former developers.openai.com/codex/permissions path now redirects here; re-fetched 2026-11-25)
+- https://hn.algolia.com/api/v1/search?query=codex-action - the coverage scan finding no dedicated thread (re-checked 2026-11-25: 18 story hits, none about this action), the missing-footprint record
