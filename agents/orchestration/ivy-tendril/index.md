@@ -1,9 +1,9 @@
 ---
 title: Ivy Tendril
 created: 2026-10-24
-updated: 2026-11-16
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agentic-development-environment, multi-agent, worktrees, source-available]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, agentic-development-environment, multi-agent, worktrees, source-available]
 readability: 3
 audience_notes: >
   Engineers choosing a plan-to-pull-request cockpit over the coding-agent CLIs
@@ -28,6 +28,7 @@ A headless mode (`tendril --web`) runs the same engine as a local web server wit
 ## Status
 
 Mid-rewrite and cooling: the C# main repository was created 2026-04-15, held 203 stars, 9 forks, and 173 open issues as of 2026-10-24, and has not been pushed since 2026-09-15, with the release train stopping at v1.2.4 on 2026-09-14 (GitHub API, as of 2026-10-24).
+The C# repository took its first push since then on 2026-11-23, a single Dependabot configuration commit with no code change, and its release train still stops at v1.2.4 (GitHub API, as of 2026-11-25).
 Development moved to Ivy-Tendril-V2, a TypeScript-and-Rust monorepo (Tauri desktop shell, React frontend, Axum server daemon, SQLite worktree engine, pnpm and Cargo workspaces) created 2026-09-14 and pushed 2026-09-23.
 The V2 README says it is "a WIP upgrade of Tendril" and that the repo "will be deleted once we are done", and neither repository shows a push in the month to 2026-10-24, so the rewrite itself is quiet too.
 
@@ -84,6 +85,7 @@ Not for anyone needing an OSI open-source license, working documentation links, 
 - 2026-10-31 - Re-verified in rotation: every cited URL re-fetched live; both repositories still quiet on their September push dates, the pricing page still lists Free $0, Pro $59, and Enterprise, and tendril.ivy.app and docs.ivy.app still fail DNS, so the rewrite-and-cooling status stands.
 - 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live (both repositories and READMEs, licenses, the v1.2.4 release line, ivy.app, pricing, llms.txt); no factual drift, both repositories still quiet on their September pushes, tendril.ivy.app and docs.ivy.app still fail DNS, and the HN search still returns nothing.
 - 2026-11-16 - Re-verified in rotation: every cited URL re-fetched live (both repositories and READMEs, licenses, the v1.2.4 release line, ivy.app, pricing, llms.txt, the HN search); no factual drift, the C# line still stopped at 2026-09-15 and the V2 monorepo at 2026-09-23.
+- 2026-11-25 - Corrected the Status push fact: the C# repository's default branch took one Dependabot configuration commit on 2026-11-23, its first push since 2026-09-15, with no code change and the release line still stopped at v1.2.4.
 
 ## See also
 

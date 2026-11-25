@@ -1,9 +1,9 @@
 ---
 title: AutoGPT
 created: 2026-09-27
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-platform, workflows, source-available]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, agent-platform, workflows, source-available]
 readability: 3
 audience_notes: >
   Engineers evaluating hosted or self-hosted platforms for running long-running AI agent workflows on schedules and triggers.
@@ -24,7 +24,7 @@ It positions itself as "AI agents that finish the work", with file-aware agents,
 
 ## Status
 
-Active and shipping: the repo shows 187,580 stars, was pushed 2026-11-14, and carries the platform beta at v0.12.0 (2026-11-19, a breaking change dropping the frontend's `TRUST_X_FORWARDED_FOR` read in favor of the `TRUSTED_PROXIES` list for sign-in IP logging, IP blocks, and per-visitor store search) after v0.11.3 (2026-11-15, several privately reported security fixes, advisories to follow once the fixes reach production), v0.11.2 (2026-11-11), v0.11.1 (2026-11-06), v0.11.0 (2026-11-04), v0.9.0 (2026-10-23), and v0.8.4 (2026-10-14) (GitHub API, releases, as of 2026-11-21).
+Active and shipping: the repo shows 187,580 stars, was pushed 2026-11-20 (default branch, GitHub API, as of 2026-11-25), and carries the platform beta at v0.12.0 (2026-11-19, a breaking change dropping the frontend's `TRUST_X_FORWARDED_FOR` read in favor of the `TRUSTED_PROXIES` list for sign-in IP logging, IP blocks, and per-visitor store search) after v0.11.3 (2026-11-15, several privately reported security fixes, advisories to follow once the fixes reach production), v0.11.2 (2026-11-11), v0.11.1 (2026-11-06), v0.11.0 (2026-11-04), v0.9.0 (2026-10-23), and v0.8.4 (2026-10-14) (GitHub API, releases, as of 2026-11-21).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&theme=dark&legend=top-left" />

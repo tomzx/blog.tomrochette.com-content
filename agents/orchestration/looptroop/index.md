@@ -1,9 +1,9 @@
 ---
 title: LoopTroop
 created: 2026-09-27
-updated: 2026-11-16
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, planning, worktrees, opencode]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, llm=glm-5.4, orchestration, planning, worktrees, opencode]
 readability: 3
 audience_notes: >
   Engineers tackling large, multi-file coding tickets who want planning and recovery structure rather than a chat loop.
@@ -23,7 +23,7 @@ A human approval gate sits before any code is committed, and the README and docs
 
 ## Status
 
-Active and early: about 162 stars and 14 forks as of 2026-10-15, created 2026-03-03, with commits through 2026-11-12 and a latest release of v0.6.4 (2026-11-06), after v0.6.3 (2026-11-02), a point release after v0.6.2 (2026-10-30), itself after v0.6.1 (2026-10-13), itself after v0.6.0 (2026-10-01), the major update (80 commits since v0.5.9) that added OpenCode v2 support, traceable skip reasons and decision history, and more than doubled the passing test count to 8,099.
+Active and early: about 162 stars and 14 forks as of 2026-10-15, created 2026-03-03, with commits through 2026-11-24 and a latest release of v0.6.5 (2026-11-24, AI tasks recovering unfinished background commands and pending permissions after crashes, restarts, or lost OpenCode connections, and background commands from previous AI tasks stopped before new work begins), after v0.6.4 (2026-11-06), v0.6.3 (2026-11-02), a point release after v0.6.2 (2026-10-30), itself after v0.6.1 (2026-10-13), itself after v0.6.0 (2026-10-01), the major update (80 commits since v0.5.9) that added OpenCode v2 support, traceable skip reasons and decision history, and more than doubled the passing test count to 8,099.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=looptroop-ai/LoopTroop&type=date&theme=dark&legend=top-left" />
@@ -75,6 +75,7 @@ Not for anyone who needs multi-harness support, parallel tickets, or a mature to
 - 2026-11-01 - Recorded v0.6.2 (2026-10-30) as the latest release and pushes through 2026-11-01.
 - 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (repo API, site, docs, openorchestrators.org, the Show HN thread at 2 points); claims hold, v0.6.4 (2026-11-06) still the latest release with commits through 2026-11-07 and a push on 2026-11-08.
 - 2026-11-16 - Re-verified in rotation: all cited sources re-fetched and live (repo API, site, docs, openorchestrators.org, the Show HN thread at 2 points); claims hold, v0.6.4 (2026-11-06) still the latest release with the week's pushes deps-only.
+- 2026-11-25 - Recorded v0.6.5 (published 2026-11-24): AI tasks recover unfinished background commands and pending permissions after crashes, restarts, or lost OpenCode connections, and background commands from previous AI tasks are stopped before new work begins; refreshed the push date to 2026-11-24.
 
 ## See also
 

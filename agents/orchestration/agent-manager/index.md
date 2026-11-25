@@ -1,9 +1,9 @@
 ---
 title: Agent Manager
 created: 2026-10-06
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, tmux, tui, multi-cli, worktrees]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, tmux, tui, multi-cli, worktrees]
 readability: 3
 audience_notes: >
   Terminal-first engineers choosing between the many tmux TUIs for coding agents, who want to know whether one more is worth installing.
@@ -23,7 +23,7 @@ It is distributed as brew, an install script, an AUR package, mise, go install, 
 
 ## Status
 
-Active and young: 595 stars and 60 forks as of 2026-10-15, created 2026-07-15, pushed 2026-11-14, with 29 contributors and v0.49.0 (2026-11-14) the latest release, after v0.48.1 (2026-11-07), v0.47.1 (2026-11-02), v0.47.0 (2026-11-01), v0.46.0 (2026-10-31), v0.45.0 (2026-10-30), and v0.44.0 (2026-10-25) (GitHub API, as of 2026-11-15).
+Active and young: 595 stars and 60 forks as of 2026-10-15, created 2026-07-15, pushed 2026-11-24 (GitHub API, as of 2026-11-25), with 29 contributors and v0.50.0 (2026-11-24) the latest release, after v0.49.0 (2026-11-14), v0.48.1 (2026-11-07), v0.47.1 (2026-11-02), v0.47.0 (2026-11-01), v0.46.0 (2026-10-31), v0.45.0 (2026-10-30), and v0.44.0 (2026-10-25) (GitHub API, as of 2026-11-15).
 
 **The repository moved from YoanWai's account to the wainmann account by 2026-11-07, the old path a 301 redirect, the same identity churn this section records wherever it appears.**
 
@@ -77,6 +77,7 @@ Not for teams that need cost tracking, per-task worktree defaults, or a GUI.
 - 2026-11-07 - Re-verified in rotation: every cited URL re-fetched live; recorded the repository's transfer from YoanWai to the wainmann account (old path a 301) and moved the star-history chart and repository references to the canonical wainmann/agent-manager paths.
 - 2026-11-15 - Re-verified in rotation: every cited URL re-fetched live (site, repository API, releases, README, the Show HN thread); recorded v0.49.0 (2026-11-14) as the new latest release.
 - 2026-11-22 - Re-verified in rotation: every cited URL re-fetched live (site, repository API, releases, README, the Show HN thread); claims hold, v0.49.0 still the latest release, with SSH session and group management landing unreleased on the default branch since the 2026-11-15 verification.
+- 2026-11-25 - Recorded v0.50.0 (published 2026-11-24) as the latest release; refreshed the push date to 2026-11-24.
 
 ## See also
 
