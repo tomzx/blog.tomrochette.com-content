@@ -1,9 +1,9 @@
 ---
 title: AGENTS.md
 created: 2026-08-24
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, protocols, conventions, context-files]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, llm=glm-5.4, protocols, conventions, context-files]
 readability: 3
 audience_notes: >
   Engineers who maintain repositories that coding agents work in and are deciding how to instruct those agents.
@@ -26,7 +26,7 @@ The reference repository (MIT, about 24.9k stars as of 2026-10-13) mostly holds 
 
 **Active and effectively the standard.**
 The official site counts more than 60,000 open-source projects carrying an AGENTS.md as of 2026-10-25.
-Adopters include Codex, Gemini CLI, Cursor, GitHub Copilot's coding agent, Amp, Jules, Factory, goose, opencode, Zed, Warp, VS Code, Devin, Junie, Windsurf, and Aider.
+Adopters include Codex, Gemini CLI, Cursor, GitHub Copilot's coding agent, Amp, Jules (still on the official roster as of 2026-11-25, though Google's October 29, 2026 notice says Jules "will wind down on December 31, 2026", read-only "until the end of the year" since November 11, 2026), Factory, goose, opencode, Zed, Warp, VS Code, Devin, Junie, Windsurf, and Aider.
 In this index, [Codex](../../harnesses/codex/index.md) treats it as first-class, [OpenCode](../../harnesses/opencode/index.md) reads it alongside CLAUDE.md, and [Crush](../../harnesses/crush/index.md) initializes projects with one.
 The last big holdout fell on 2026-09-18: Claude Code 2.1.277 added native AGENTS.md support, reading the file in any project without a CLAUDE.md, implemented as a built-in "mod".
 The first cut was limited to first-party sessions, a gap the community hit within a week, and 2.1.281 (2026-09-23) closed it: support now also works on Amazon Bedrock, Google Vertex AI, Microsoft Foundry, LLM gateways, and sessions with telemetry disabled.
@@ -83,6 +83,7 @@ The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the 
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the official site still counts over 60,000 carrying projects and still lists OpenAI's repository at 88 nested files, the reference repository stays pushed 2026-09-10, the support request stays closed, the built-in agents-md mod directory is unchanged (README, hooks, tests), the changelog still records the 2.1.277 and 2.1.281 entries with its newest release now 2.1.325 (2026-11-13), and the ETH Zurich study (still at v3) and the Vercel evals re-confirmed unchanged.
 - 2026-11-17 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the official site reads over 60k carrying projects and still lists OpenAI's repository at 88 nested files, the reference repository stays pushed 2026-09-10, the support request stays closed, the built-in agents-md mod directory carries its README, hooks, and tests plus a new plugin-manifest entry, the changelog still records the 2.1.277 and 2.1.281 entries with its newest release now 2.1.326, and the ETH Zurich study (still at v3) and the Vercel evals re-confirmed unchanged.
 - 2026-11-21 - Rotation re-verification: every cited URL re-fetched live with no dead sources; the official site still counts over 60k carrying projects with the adopter roster and the 88 nested OpenAI files unchanged, the reference repository stays pushed 2026-09-10, the support request stays closed as completed (409 comments), the built-in agents-md mod directory is unchanged (`.claude-plugin`, README, hooks, tests), the changelog still records the 2.1.277 and 2.1.281 entries with its newest release now 2.1.330 (2026-11-20), and the AAIF donation page, the ETH Zurich study (still at v3), the Vercel evals, and the announcement quote re-confirmed unchanged.
+- 2026-11-25 - Out-of-rotation re-verification on the Jules turndown: every cited URL re-fetched live with no dead sources; Jules stays on the official adopter roster (re-fetched 2026-11-25) but is now dated in the Status adopter sentence, since Google's October 29, 2026 notice says Jules "will wind down on December 31, 2026", read-only "until the end of the year" after the November 11, 2026 cutoff for sessions, and the notice was added to References.
 
 ## See also
 
@@ -102,3 +103,4 @@ The disagreeable part: I suspect most AGENTS.md prose is wasted tokens, and the 
 - https://code.claude.com/docs/en/changelog - Claude Code changelog: 2.1.277 (2026-09-18) "Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead" and 2.1.281 (2026-09-23) "Changed AGENTS.md support to also work on Amazon Bedrock, Google Vertex AI, Microsoft Foundry, LLM gateways, and sessions with telemetry disabled"
 - https://simonwillison.net/2026/Sep/18/thariq-shihipar/ - the announcement quote: support built on Claude Code mods
 - https://github.com/anthropics/claude-code/tree/main/mods/agents-md - the built-in agents-md mod in the Claude Code repository
+- https://jules.google/docs/changelog/2026-10-29 - Jules Turndown, Google's October 29, 2026 notice: sessions until November 11, 2026, read-only until the end of the year, and Jules "will wind down on December 31, 2026" (fetched 2026-11-25)

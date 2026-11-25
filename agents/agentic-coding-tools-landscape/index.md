@@ -1,7 +1,7 @@
 ---
 title: "Agentic Coding Tools Landscape"
 created: 2026-08-22
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [ai, llm, coding-agents, developer-tools, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, llm=glm-5.4]
 readability: 3
@@ -87,10 +87,12 @@ Once your editor hosts your harness, choosing between them stops being a marriag
 Every major harness now has a cloud form, and the differences live in the seams.
 Claude Code on the web shares context with the CLI, and `claude --teleport` pulls a web session back into your terminal.
 The Copilot cloud agent is GitHub-native and capped at 59 minutes per session, a number that should anchor how much work you delegate to the agent.
-[Jules](https://jules.google/) clones your repository to a cloud VM, plans, shows a diff, and opens a PR, with a free tier of 15 tasks a day that now runs on Gemini 2.5 Pro while Gemini 3 Pro moved up to the paid tiers.
+[Jules](https://jules.google/) cloned your repository to a cloud VM, planned, showed a diff, and opened a PR, with a free tier of 15 tasks a day that ran on Gemini 2.5 Pro while Gemini 3 Pro had moved up to the paid tiers.
+Google announced its turndown on October 29, 2026: sessions could run "until November 11, 2026", Jules then turned "read-only until the end of the year", and it "will wind down on December 31, 2026" ([Jules Turndown](https://jules.google/docs/changelog/2026-10-29)).
+Its lessons as an asynchronous coding agent now inform products across Google, "including our agent-first platform, Google Antigravity", and an export through the Jules Tools CLI covers "everything Jules knows about your work".
 Cursor runs cloud agents as fleets; Amp's orbs are the same idea pointed at your own remote machines.
 
-**Cloud and local are one product with two entry points now, so a tool that offers only one of them is incomplete, and the quotas (59-minute sessions, 15 tasks a day) are the real spec sheet.**
+**Cloud and local are one product with two entry points now, so a tool that offers only one of them is incomplete, and the quotas (59-minute sessions, Jules's 15 tasks a day before its turndown) are the real spec sheet.**
 Read the caps before you promise anyone a timeline.
 
 ## Orchestration: watching the agents is the job
@@ -173,6 +175,7 @@ The skill layer is starting to get the same treatment as code: [SkillEvaluator](
 - 2026-11-19 - Link re-verification with one moved fact and five repoints: the DeepSeek Harness line's newest prerelease moved to dsh-v0.2.2-rc.5 (published November 18) through the release API, rc.4 (November 17) above rc.3, and rc.5's note matching DeepSeek's 2026-11-18 unbilling of server-side search for DeepSeek models; the Cursor models docs re-check re-dated with the GPT-5.6 trio still listed at rate-card rows and no removal notice, the Cursor pricing page re-read with the X-bundle plans and the sold-only-through-X-Subscription-Corp line unchanged, and the Gemini CLI enterprise banner re-verified unchanged on docs.cloud.google.com; the Agent Client Protocol, GitHub Copilot docs, OpenCode ACP, MCP docs, and AINews citations repointed after their old URLs began redirecting; every other cited external link re-fetched (Bloomberg again 403 to the scripted fetch) and both GitHub topic pages 429 to the scripted fetch on repeated attempts; the intro's verification date re-dated to this run's fetch.
 - 2026-11-21 - Link re-verification with no fact moves: every cited external link re-fetched (eighteen of nineteen fetched 200, Bloomberg again 403 to the scripted fetch, both GitHub topic pages included this run), the DeepSeek Harness release API re-read with the newest prerelease still dsh-v0.2.2-rc.5 (published November 18), the Cursor models docs re-read with the GPT-5.6 trio still listed at rate-card rows and no removal notice, the Cursor pricing page re-read with the X-bundle plans and the sold-only-through-X-Subscription-Corp line unchanged, and the Gemini CLI enterprise banner re-verified unchanged on docs.cloud.google.com (its last-updated stamp still 2026-11-10); the intro's verification date holds at 2026-11-19.
 - 2026-11-24 - Cross-links with no other fact moves: the orchestration section gained Cloudroom (one cloud sandbox per thread on existing subscriptions), with Agent Zero and Kortix as coding-adjacent general-purpose platforms, and the conventions section gained SkillEvaluator (NVIDIA's CI-gated skill evaluation tiers), all four notes admitted to the section today; every internal link target confirmed on disk and every cited external link status-checked (eighteen of nineteen fetched 200, Bloomberg again 403 to the scripted fetch); the DeepSeek Harness, Cursor, and Gemini CLI facts were not re-read this run, so the intro's verification date holds at 2026-11-19.
+- 2026-11-25 - Corrected the Jules line for the turndown Google announced on October 29, 2026: sessions ran "until November 11, 2026", Jules is "read-only until the end of the year", and it "will wind down on December 31, 2026", with an export through the Jules Tools CLI and its lessons informing "our agent-first platform, Google Antigravity", so the free-tier quota (15 tasks a day) reads as past in the line and in the section's quota sentence; the jules.google landing page fetched today still advertises those plans with no turndown notice in its HTML, and the changelog post was added to References; every other cited external link status-checked (eighteen of nineteen fetched 200, Bloomberg again 403 to the scripted fetch), with the DeepSeek Harness, Cursor, and Gemini CLI facts not re-read, so the intro's verification date holds at 2026-11-19.
 
 ## See also
 
@@ -188,5 +191,6 @@ The skill layer is starting to get the same treatment as code: [SkillEvaluator](
 - [Codex documentation](https://learn.chatgpt.com/docs) - surfaces, AGENTS.md configuration, and the open-harness positioning (the developers.openai.com URL began redirecting to learn.chatgpt.com by the 2026-11-17 fetch and the reference was repointed)
 - [OpenCode documentation](https://opencode.ai/docs/) - the provider-agnostic open-source harness, with [ACP support](https://opencode.ai/docs/cli/acp/) documented separately
 - [Agent Client Protocol](https://agentclientprotocol.com/get-started/introduction) - the editor-agent interop standard from JetBrains and Zed
+- [Jules Turndown](https://jules.google/docs/changelog/2026-10-29) - Google's October 29, 2026 changelog post: sessions until November 11, 2026, read-only until the end of the year, wind-down on December 31, 2026, the Jules Tools export, and the learnings the post names as informing Google Antigravity
 - [awesome-agent-orchestrators](https://github.com/andyrewlee/awesome-agent-orchestrators) - the maintained map of the orchestration long tail
 - [Claude Code v2.1.277 release notes](https://github.com/anthropics/claude-code/releases/tag/v2.1.277) - the AGENTS.md support announcement the conventions section records

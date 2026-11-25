@@ -1,9 +1,9 @@
 ---
 title: Google Antigravity
 created: 2026-08-24
-updated: 2026-11-19
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, surfaces, ai-editors, google]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, surfaces, ai-editors, google]
 readability: 3
 audience_notes: >
   Engineers evaluating Google's agent platform now that it replaced Gemini CLI for individuals.
@@ -18,6 +18,7 @@ Google Antigravity is Google's agentic development platform: the Antigravity 2.0
 
 Four surfaces share one platform: **Antigravity 2.0, a command center for multiple local agents in parallel with Projects and scheduled messages; the Antigravity IDE; the Antigravity CLI; and an SDK for prototyping custom agents in Python.**
 Since June 18, 2026 it is also the only Google terminal agent for individuals, having absorbed Gemini CLI's former audience.
+Google's October 29, 2026 Jules turndown notice ties the same consolidation to Antigravity: Jules "will wind down on December 31, 2026" "as part of our work to unify our agentic coding efforts", and what Jules taught Google about asynchronous coding agents now informs products across Google, "including our agent-first platform, Google Antigravity" ([Jules Turndown](https://jules.google/docs/changelog/2026-10-29)).
 IDE extensions, custom agents, and remote control shipped in the August 2026 releases, on a cadence of roughly weekly blog-documented changes.
 
 ## Status
@@ -82,6 +83,7 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 - 2026-11-13 - Rotation re-verification, all cited URLs re-fetched live: the models table stands with the November 18, 2026 removal dates five days out, Argon still on the paid tiers, 3.1 Pro and the 3.6 to 3.7 Flash pair still Enterprise-only, and the pricing page, plans page (no BYOK), SDK local-models page, Argon post, Gemini CLI transition post, and all four threads (1088, 768, 771, and 338 points) unchanged; prices unchanged.
 - 2026-11-17 - Rotation re-verification, all cited URLs re-fetched live: recorded Gemini 4 Hydrogen and the Orchestrator pairs joining the paid tiers per the November 10 Carbon-and-/swarm post and the November 12 Hydrogen-and-Orchestrator post (Hydrogen on Pro and Ultra with the xhigh tier, Orchestrator (Carbon) Ultra-only, Orchestrator (Argon) Ultra and paid Pro), and the models table now carrying all three Gemini 4 entries; the November 18, 2026 removal date on the free Claude Sonnet 4.6, Opus 4.6, and GPT-OSS-120b rows stands one day out, 3.1 Pro and the 3.6 to 3.7 Flash pair stay Enterprise-only, the no-BYOK plans statement and the SDK local-models page stand, and all four threads (1088, 768, 771, 338 points) are unchanged; prices unchanged.
 - 2026-11-19 - Out-of-rotation re-verification on the passed removal date: the models docs re-fetched 2026-11-19 still list the free Claude Sonnet 4.6, Opus 4.6 (thinking), and GPT-OSS 120B rows with the unchanged November 18, 2026 removal footnote one day past the date, and recorded Gemini 4 Neon joining the paid tiers (announced November 18, default reasoning model with a 512K window and the Extra thinking level, beside Orchestrator (Neon) pairing Neon planning with Hydrogen execution).
+- 2026-11-25 - Out-of-rotation addition, all cited URLs re-fetched live: recorded the Jules succession fact in What it is, Google's October 29, 2026 notice that Jules "will wind down on December 31, 2026" "as part of our work to unify our agentic coding efforts" and that what Jules taught about asynchronous coding agents informs products across Google, "including our agent-first platform, Google Antigravity", with the notice added to References.
 
 ## See also
 
@@ -105,3 +107,4 @@ Not for proprietary-code environments that cannot absorb prompt-injection class 
 - https://news.ycombinator.com/item?id=46048996 - the exfiltration-via-prompt-injection finding
 - https://news.ycombinator.com/item?id=48222529 - the May 2026 bait-and-switch thread
 - https://news.ycombinator.com/item?id=49548452 - the September 2026 terms-of-service thread, 338 points
+- https://jules.google/docs/changelog/2026-10-29 - Jules Turndown, Google's October 29, 2026 notice: Jules winds down on December 31, 2026 "as part of our work to unify our agentic coding efforts", read-only until the end of the year after November 11, 2026, its learnings informing products across Google including Google Antigravity, and the export prompt run from a CLI coding agent such as Antigravity CLI (fetched 2026-11-25)
