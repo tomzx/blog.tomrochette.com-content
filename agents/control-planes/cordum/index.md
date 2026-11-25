@@ -1,9 +1,9 @@
 ---
 title: Cordum
 created: 2026-10-07
-updated: 2026-11-20
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, safety-kernel, approvals, claude-code]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, safety-kernel, approvals, claude-code, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers who want a job-dispatch control plane that holds risky agent actions before workers run, and teams deciding whether a source-available license is acceptable.
@@ -24,7 +24,7 @@ Enterprise features (SSO, SCIM, advanced RBAC, SIEM export, legal hold) ship in 
 
 ## Status
 
-Active and young: 509 stars and 34 forks as of 2026-10-10, with 15 open issues and the latest default-branch push on 2026-11-17 as of 2026-11-20 (dependency bumps, safety-evidence docs, and integration-batch staging since v1.3.1), created 2026-01-11, latest tagged release v1.3.1 (2026-11-11), with the CAP SDKs versioned separately at 2.17.0 (2026-07-22).
+Active and young: 509 stars and 34 forks as of 2026-10-10, with 18 open issues and the latest default-branch push on 2026-11-17 as of 2026-11-25 (dependency bumps, safety-evidence docs, and integration-batch staging since v1.3.1), created 2026-01-11, latest tagged release v1.3.1 (2026-11-11), with the CAP SDKs versioned separately at 2.17.0 (2026-07-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cordum-io/cordum&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for OSI-only shops, and not for anyone who needs an adopted project with ind
 - 2026-11-07 - Full rotation re-verification: every cited URL re-fetched and live, including the three cordum.io pages that refused fetchers last run, with pricing, tier caps, and the CordClaw page unchanged (connected-mode still in progress, result gating still roadmap); no release since v1.2.0 with the CAP SDKs holding at 2.17.0 on both registries, the Show HN thread still 1 point with zero comments, and the push date corrected to the default branch's 2026-10-28 under the side-branch ruling.
 - 2026-11-13 - Release train moved to v1.3.1 (2026-11-11, published in full after v1.3.0's publish run stopped at the demo-quickstart-worker vulnerability scan, so 1.3.1 is the first complete 1.3 artifact set): the MCP approval store's outage errors now return -32096 with a fixed `approval store unavailable` reason instead of the raw Redis error with internal host and port; the counters refreshed (28 open issues, default-branch push 2026-11-12).
 - 2026-11-20 - Counters refreshed (15 open issues, the 2026-11-19 repository push landing on side branches with the default branch's latest commit still 2026-11-17); no release past v1.3.1 with the CAP SDKs holding at 2.17.0.
+- 2026-11-25 - Counters refreshed (18 open issues, the 2026-11-24 repository push landing on side branches with the default branch's latest commit still 2026-11-17); no release past v1.3.1.
 
 ## See also
 

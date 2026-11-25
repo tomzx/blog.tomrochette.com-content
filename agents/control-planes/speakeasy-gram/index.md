@@ -1,9 +1,9 @@
 ---
 title: Speakeasy Gram
 created: 2026-11-05
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, policy-enforcement, audit, enterprise]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, policy-enforcement, audit, enterprise, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Platform engineers who want one governed door for the MCP traffic their company's agents generate, and who can accept an AGPL self-hosted stack or a usage-priced hosted plane.
@@ -25,7 +25,7 @@ The vendor holds SOC 2 Type II and ISO 27001 certifications and publishes GDPR, 
 
 ## Status
 
-Active and vendor-backed: 277 stars and 36 forks as of 2026-11-05 with 287 open issues as of 2026-11-22, created 2025-08-06, pushed 2026-11-22, with the release train moving on 2026-11-21 to 11-22 (server@2.39.0 on 2026-11-21, and server@2.40.0 with dashboard@0.154.0 and the first tunnel@0.3.0 on 2026-11-22) after server@2.36.0 on 2026-11-18.
+Active and vendor-backed: 277 stars and 36 forks as of 2026-11-05 with 272 open issues as of 2026-11-25, created 2025-08-06, pushed 2026-11-25, with the release train moving on 2026-11-23 to 11-24 (server@2.41.0 with dashboard@0.154.1 and 0.154.2 on 2026-11-23, and server@2.42.0 with dashboard@0.155.0 on 2026-11-24) after server@2.40.0 on 2026-11-22.
 Three governance-material changes landed in the 2.35 to 2.36 train and the 2.39 one: hosted MCP servers are now reached only through their endpoints, with legacy toolset-alias addresses turned off and access tokens scoped to the server they were issued for (server@2.35.0); the processes that handle OAuth credentials refuse to start without organization encryption enabled outside local and test environments (server@2.35.0); and access requests are now stored and decided, so a requester's pending request lands as a record an organization administrator approves as a temporary grant or denies, with the outcome delivered through Slack DM cards and the requester notified by DM (server@2.39.0, beside paginated and searchable `keys.list`).
 **The gateway shipped as a pivot: Hacker News saw Gram launch on 2025-09-09 as an open-source platform to create, curate, and host MCP servers (20 points, 2 comments), and a third-party governance wiki places the gateway's general availability in March 2026 with the control-plane framing, after Speakeasy concluded building servers was not the hardest problem.**
 MoonPay is the named production customer, with the vendor claiming 60,000 agent sessions governed per week, though the same third-party profile cautions that homepage logos may date from the SDK-generation business rather than the control plane.
@@ -84,6 +84,7 @@ Not for teams that need an OSI-approved license, a lightweight local gate on one
 - 2026-11-18 - The release train moved through hooks@0.3.53 to 0.3.55 (2026-11-16 to 11-18), admin@0.13.1, and server@2.35.0 (2026-11-17) to server@2.36.0 with dashboard@0.150.0 (2026-11-18); server@2.35.0 turns off legacy toolset-alias addresses so hosted MCP servers serve only through their endpoints with tokens scoped per server, refuses to start OAuth-credential-handling processes without organization encryption outside local and test environments, and makes blocking a principal's view of an MCP server also remove its manage access, while server@2.36.0 starts new organizations with upstream auth enforcement on by default; the counters refreshed (259 open issues, pushed 2026-11-18).
 - 2026-11-20 - The release train moved through server@2.37.0 (2026-11-19) to server@2.38.0 with dashboard@0.152.0 (2026-11-20): hooks rollout pins platform-wide with per-organization overrides, operator-registered MCP clients against session issuers with hashed secrets and audit records, credential-level restrictions on roles and agents, and sign-in revocation stopping tokens within seconds; the counters refreshed (282 open issues, pushed 2026-11-20).
 - 2026-11-22 - The release train moved through server@2.39.0 (2026-11-21) to server@2.40.0 with dashboard@0.154.0 and the first tunnel@0.3.0 (2026-11-22): access requests are now stored and decided, with a pending request an organization administrator approves as a temporary grant or denies through Slack DM cards that update with the outcome and notify the requester, alongside paginated and searchable `keys.list` (2.39.0), and a required GRAM_PARTITION setting that makes every server process refuse to start unnamed (2.40.0); the counters refreshed (287 open issues, pushed 2026-11-22).
+- 2026-11-25 - Rotation re-verification: every cited URL re-fetched and live (the README, the repo and releases APIs, the pricing page with its rates unchanged, the llms-full product pages, the HN launch thread, and the skeptical governance wiki entry); the release train moved through server@2.41.0 (2026-11-23: refusals under upstream auth enforcement are listed on the agent's or person's Permissions tab and readable through the Platform MCP list_agent_authorization_checks tool, and a personal connection its owner attached to an agent serves that agent whoever issued its API key while all three live policies must still allow it) to server@2.42.0 (2026-11-24: the mcpConnectionHealth API behind a flag, with connection logs, sign-in and renewal summaries, and refused-at-sign-in apps); the counters refreshed (272 open issues, pushed 2026-11-25).
 
 ## See also
 

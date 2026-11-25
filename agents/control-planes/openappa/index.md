@@ -1,9 +1,9 @@
 ---
 title: OpenAPPA
 created: 2026-10-07
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, information-flow-control, policy-enforcement, prompt-injection, rust]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, information-flow-control, policy-enforcement, prompt-injection, rust, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers who need sensitive data to stay inside an authorized audience even when the agent is prompt-injected, and who can accept a preview-stage engine.
@@ -24,7 +24,7 @@ Recorders shipped in v0.39.0 (2026-11-08, PR 790): a file-tracker keeps a label 
 
 ## Status
 
-Active and fast-growing for its age: 1,561 stars and 66 forks as of 2026-10-14 since creation on 2026-08-18, pushed 2026-11-21 with 38 open issues and pull requests as of 2026-11-22, the release train moving through v0.45.0 and v0.46.0 (both 2026-11-20) to v0.46.1 (2026-11-21) after v0.44.0 (2026-11-18), with the v0.47.0 tag landed and its release page pending at re-check, positioned as a preview and an RFC where config and wire surfaces may break without shims.
+Active and fast-growing for its age: 1,561 stars and 66 forks as of 2026-10-14 since creation on 2026-08-18, pushed 2026-11-24 with 34 open issues and pull requests as of 2026-11-25, the release train moving through v0.45.0 and v0.46.0 (both 2026-11-20) and v0.46.1 (2026-11-21) to v0.47.0 (2026-11-22) after v0.44.0 (2026-11-18), positioned as a preview and an RFC where config and wire surfaces may break without shims.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=archestra-ai/OpenAPPA&type=date&theme=dark&legend=top-left" />
@@ -81,6 +81,7 @@ Not for teams that need budgets, org models, or fleet approvals, because OpenAPP
 - 2026-11-18 - The v0.43.0 release page published and v0.43.1 (2026-11-16) landed as a dependency-only patch (a CI action bump) with no engine changes; the counters refreshed (43 open issues and pull requests, pushed 2026-11-18).
 - 2026-11-20 - Release train moved to v0.44.0 (published 2026-11-18): the sponsor proxy's tuner tools are ruled by policy, the runtime holds a stop while a call the gate did not answer is still running, annotators evaluate complete shell commands, and SQLite log snapshots are reused for faster cold starts; the counters refreshed (39 open issues and pull requests, pushed 2026-11-20 with unreleased MCP-server-rules work).
 - 2026-11-22 - Release train moved through v0.45.0 (2026-11-20: an Amp orb's shell, files, and egress confined through APPA, the appa-guide newcomer setup flow, the sponsor proxy's MCP server rules tools ruled by policy, a subagent's return deferred to the parent's decision at its stop, and the OpenCode plugin with a sandboxed appa_safebash), v0.46.0 (2026-11-20, breaking: a RemedyRefusal ApprovalPending variant, and a block's offers pinned as data in the offer-line contract), and v0.46.1 (2026-11-21: a non-root demo-tools image and the release publisher's fixed malware scan), with the v0.47.0 tag landed and its release page pending at re-check; the counters refreshed (38 open issues and pull requests, pushed 2026-11-21).
+- 2026-11-25 - The v0.47.0 release page published (2026-11-22): hardened base images for the published runtimes and the kagent Go runtime, plus a Rig core and agent upgrade to 0.46, with no engine change recorded; the counters refreshed (34 open issues and pull requests, pushed 2026-11-24).
 
 ## See also
 

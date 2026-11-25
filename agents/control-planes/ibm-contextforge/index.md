@@ -1,9 +1,9 @@
 ---
 title: IBM ContextForge
 created: 2026-10-11
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, governance, open-source, ibm]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, governance, open-source, ibm, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Platform engineers who want one governed, authenticated door in front of the MCP servers, A2A agents, and REST APIs their agents call, and who can run the supporting infrastructure themselves.
@@ -24,7 +24,7 @@ IBM announced it as the ContextForge MCP Gateway 1.0.0 Beta on December 15, 2025
 
 ## Status
 
-Active and heavily adopted: 4,623 stars and 924 forks as of 2026-10-18, with 988 open issues and pull requests as of 2026-11-22 and unreleased default-branch work on a security-hardening commit (2026-11-20) with the 2026-11-21 repo-level push beside it, created 2025-05-08, with v1.1.1 published 2026-11-10 on GitHub and PyPI in step, following v1.1.0 (2026-10-20).
+Active and heavily adopted: 4,623 stars and 924 forks as of 2026-10-18, with 992 open issues and pull requests as of 2026-11-25 and unreleased default-branch work through a Release/1.1.2 merge (2026-11-24) after a security-hardening commit (2026-11-20), CEL evaluation of tool response filters, hardened outbound MCP connections in the LLM Chat client, and URL user-info redaction (2026-11-23), created 2025-05-08, with v1.1.1 published 2026-11-10 on GitHub and PyPI in step, following v1.1.0 (2026-10-20).
 v1.1.0 moves MCP protocol negotiation to the modern protocol by default, ships a redesigned web UI, federated completions, catalog pagination, and MCP Origin/Host transport security enforcement, consolidating 69 pull requests; v1.1.1 adds token exchange delegation with Admin UI support, CEL tool validation policies, A2A /v1 task and agent card routes, and upstream progress plus security hardening.
 
 <picture>
@@ -78,6 +78,7 @@ Not for model-cost governance, not for built-in policy verdicts without plugin w
 - 2026-11-18 - Full rotation re-verification: every cited URL re-fetched and live (the README, the docs site, the launch post, and the TrueFoundry comparison), no release since v1.1.1 with PyPI in step at 1.1.1, unreleased default-branch work on OAuth token and audience validation for A2A agents (2026-11-17), and the counters refreshed (994 open issues and pull requests, default-branch push 2026-11-17).
 - 2026-11-20 - Unreleased default-branch work on fetching and storing the A2A authenticated extended Agent Card and on trusting forwarded headers only from configured proxies; the counters refreshed (996 open issues and pull requests, pushed 2026-11-19).
 - 2026-11-22 - Unreleased default-branch work moved to a security-hardening commit (2026-11-20, #7633) with the 2026-11-21 repo-level push beside it; the counters refreshed (988 open issues and pull requests).
+- 2026-11-25 - Unreleased default-branch work moved through CEL evaluation of tool response filters, hardened outbound MCP connections in the LLM Chat client, URL user-info redaction, and a Release/1.1.2 merge (2026-11-24) with no v1.1.2 release published yet; the counters refreshed (992 open issues and pull requests).
 
 ## See also
 

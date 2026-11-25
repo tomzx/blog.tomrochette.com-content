@@ -1,9 +1,9 @@
 ---
 title: Tracekit
 created: 2026-10-21
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, audit, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, audit, open-source, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers whose agents act on systems that matter and who need a record of what the agent did that survives the agent editing its own logs, with a gate that stops the worst calls before they run.
@@ -25,7 +25,7 @@ The project is five weeks old (repository created 2026-09-26) from Cygnux Labs, 
 
 ## Status
 
-Active and very young: 138 stars and 9 forks as of 2026-10-28, with 107 open issues and pull requests and the latest push on 2026-11-22 as of 2026-11-22, created 2026-09-26, with the PyPI package tracekit-ai at 1.7.2 (2026-11-18) and unreleased default-branch work on a reviewer fix that persists answered approval ids so a restart does not re-suggest.
+Active and very young: 138 stars and 9 forks as of 2026-10-28, with 84 open issues and pull requests and the latest push on 2026-11-25 as of 2026-11-25, created 2026-09-26, with the PyPI package tracekit-ai at 1.7.3 (2026-11-24, its release page carrying no notes) and unreleased default-branch work on the signer signing a subagent's calls with its own agent_id, Strands Agents 1.66 marked tested, and Browser Use 1.x call reads.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Cygnux-Labs/Tracekit&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ Not for anyone who needs an independently reviewed gate today, and not for debug
 - 2026-11-18 - Full rotation re-verification: every cited URL re-fetched and live (the README, the repository and releases APIs, PyPI, the arXiv paper, the witnesses wiki, the awesome-ai-governance source, and the HN search still returning only the unrelated 2011 JavaScript library and a same-named 2026 tool), the release train moved to v1.7.2 (2026-11-18, PyPI in step the same day) with the intermediate v1.7.x tags shipping without release notes, and the counters refreshed (66 open issues and pull requests, pushed 2026-11-18).
 - 2026-11-20 - No release past v1.7.2; the default branch pushed 2026-11-20 with unreleased TypeScript executor helpers for the Claude Agent SDK and a LangGraph gate warning when the signer lacks call state or claim; the counters refreshed (121 open issues and pull requests).
 - 2026-11-22 - No release past v1.7.2 with PyPI holding; the default branch pushed 2026-11-22 with unreleased reviewer work persisting answered approval ids so a restart does not re-suggest; the counters refreshed (107 open issues and pull requests).
+- 2026-11-25 - Release train moved to v1.7.3 (2026-11-24, PyPI in step the same day, no release notes); the default branch pushed 2026-11-25 with unreleased signer work signing a subagent's calls with its agent_id on both hooks, Strands Agents 1.66 marked tested, and Browser Use 1.x reading the calls a cell or delivery names; the counters refreshed (84 open issues and pull requests).
 
 ## See also
 

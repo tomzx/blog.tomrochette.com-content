@@ -1,9 +1,9 @@
 ---
 title: Vestige
 created: 2026-10-17
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, memory, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, memory, open-source, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Developers who run Claude Code or OpenClaw on their own machine and want a fail-closed gate that stops destructive commands and records what it decided, and who are weighing the freemium guards.
@@ -26,7 +26,7 @@ The single-maintainer paid tier, Vestige Operator, is a closed archive sold once
 
 ## Status
 
-Active and fast-moving: 651 stars and 72 forks as of 2026-10-18, with 0 open issues and pull requests as of 2026-11-22 after the maintainer mass-closed its own wave-tracking issues on 2026-11-18 and cleaned up further (235 as of 2026-11-15), created 2026-01-25, with v6.2.3 (2026-11-20) the latest tagged release and the default branch's latest commit on 2026-11-20 (a README restructure).
+Active and fast-moving: 651 stars and 72 forks as of 2026-10-18, with 3 open issues and pull requests as of 2026-11-25 after the maintainer mass-closed its own wave-tracking issues on 2026-11-18 and cleaned up further (235 as of 2026-11-15), created 2026-01-25, with v6.2.3 (2026-11-20) the latest tagged release and the default branch's latest commit on 2026-11-24 (retrieval work: a LoCoMo waterfall and benchmark refits).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=samvallad33/vestige&type=date&theme=dark&legend=top-left" />
@@ -88,6 +88,7 @@ Not for org-scale governance (that is a control plane, not a workstation gate), 
 - 2026-11-18 - The open-issue and pull-request count collapsed from 235 to 9 because the maintainer closed its own wave-tracking issues in bulk (2026-11-18, issues numbered in the 600s and 700s), a housekeeping move recorded so the swing is not read as community activity; no new release past v6.2.2 (2026-11-12) with the default branch pushed 2026-11-18.
 - 2026-11-20 - No release past v6.2.2; the default branch pushed 2026-11-19 on strata-import wave labeling only; the counters holding (9 open issues and pull requests).
 - 2026-11-22 - Release train moved to v6.2.3 (published 2026-11-20, "SOTA zero-vector causal memory and safety kernel", published without release notes); the default branch's latest commit moved to 2026-11-20 on a README restructure, and the counters fell to 0 open issues and pull requests with the maintainer's README cleanup.
+- 2026-11-25 - Rotation re-verification: every cited URL re-fetched and live (the repo, releases, and release-tag pages, the changelog with an Unreleased section on MCP wire compatibility, the Operator Lite README, and the HN search and Show HN thread); no release past v6.2.3 with the default branch pushed 2026-11-24 on retrieval work; the counters refreshed (3 open issues and pull requests).
 
 ## See also
 

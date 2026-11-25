@@ -1,9 +1,9 @@
 ---
 title: CC Safety Net
 created: 2026-10-07
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, guardrails, security, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, guardrails, security, open-source, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers who run AI coding agents on their own machine and want destructive commands and secret reads blocked before they execute.
@@ -24,7 +24,7 @@ MIT, single-repo open source, with full documentation at ccsafetynet.com.
 
 ## Status
 
-Actively maintained with no Hacker News help: 1,615 stars and 84 forks, with 5 open issues and pull requests as of 2026-11-22, created 2025-12-25, pushed 2026-11-22 with the default branch on 2026-11-20 (the v2.8.1 release commit).
+Actively maintained with no Hacker News help: 1,615 stars and 84 forks, with 3 open issues and pull requests as of 2026-11-25, created 2025-12-25, pushed 2026-11-24 with the default branch on 2026-11-23.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&theme=dark&legend=top-left" />
@@ -32,7 +32,7 @@ Actively maintained with no Hacker News help: 1,615 stars and 84 forks, with 5 o
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kenryu42/cc-safety-net&type=date&legend=top-left" />
 </picture>
 
-The npm package (`cc-safety-net`) is at 2.8.1 as of 2026-11-20, first published 2026-01-03 and last published 2026-11-20, so the release cadence is measured in days.
+The npm package (`cc-safety-net`) is at 2.8.3 as of 2026-11-25, first published 2026-01-03 and last published 2026-11-23, so the release cadence is measured in days.
 **A Hacker News search returns zero threads as of 2026-10-07, so ten months of growth came through npm and GitHub alone, and the missing community footprint means the security claims have no public adversarial review I could find.**
 
 ## Strengths
@@ -89,6 +89,7 @@ Not for org-scale governance, audited enforcement, or anything where a silently 
 - 2026-11-18 - npm train moved to 2.7.14 (published 2026-11-16) and 2.7.15 (published 2026-11-17): 2.7.14 closes a Paranoid-level gap where a recursive `rm` piped through `xargs` (`find . -name node_modules | xargs rm -r`) was allowed, now blocked as `xargs.rm-recursive-force-dynamic` with Standard and Strict unchanged, and 2.7.15 adds a container carve-out under which `docker`, `podman`, and `nerdctl` runs whose every mount is read-only and that carry no privileged, PID, user-namespace, device, socket, or capability flags count as isolated for local-file deletion rules, so `docker run --rm -w /tmp/app alpine sh -c 'rm -rf .git'` now runs while `git.push-*`, network, and interpreter rules still block inside the payload; the counters refreshed (3 open issues and pull requests, pushed 2026-11-18 with the default branch's latest commit security-policy docs).
 - 2026-11-20 - npm train moved through 2.8.0 (published 2026-11-19, release v2.8.0: user policy can replace what the agent is told when a built-in rule blocks, a required `reason` plus an optional closing `intent` per rule id at user scope only, with an inline block-message editor and live preview in the policy GUI) to 2.8.1 (published 2026-11-20, release v2.8.1: version 2 rulebooks can declare `options_with_values` so a value-taking option before the subcommand still matches, and rulebook fixtures verify through the same analyzer the hook runs); the counters refreshed (3 open issues and pull requests, pushed 2026-11-20).
 - 2026-11-22 - Counters refreshed (5 open issues and pull requests); no npm release past 2.8.1 with the default branch on 2026-11-20 and the 2026-11-22 repository push a side branch.
+- 2026-11-25 - Rotation re-verification: every cited URL re-fetched and live (the README, the repo and releases APIs, the docs site, the npm registry, and the zero-thread HN check); the npm train moved to 2.8.2 (2026-11-22, source installs no longer abort without lefthook or outside a Git work tree) and 2.8.3 (2026-11-23, Linux path resolution stops at the kernel's 40-symlink limit so a self-referential symlink no longer hangs the guard); the counters refreshed (3 open issues and pull requests, default branch 2026-11-23).
 
 ## See also
 

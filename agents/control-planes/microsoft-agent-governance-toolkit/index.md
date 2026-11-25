@@ -1,9 +1,9 @@
 ---
 title: Microsoft Agent Governance Toolkit
 created: 2026-09-27
-updated: 2026-11-22
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-governance, policy-enforcement, zero-trust, compliance, microsoft]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, agent-governance, policy-enforcement, zero-trust, compliance, microsoft, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers deciding how to put deterministic guardrails around autonomous agents, and who need to separate what this toolkit actually enforces from what its README lists.
@@ -23,7 +23,7 @@ It is published under the Microsoft organization, but the team states an intent 
 
 ## Status
 
-Active, wide, and fast-moving: 6,425 stars and 1,133 forks as of 2026-10-18, with 175 open issues as of 2026-11-22 and the default branch's latest commit on 2026-11-18 (a rustls dependency bump), the 2026-11-20 and 2026-11-21 repo-level pushes side branches, created 2026-03-02, latest release v4.1.0 on 2026-06-09.
+Active, wide, and fast-moving: 6,425 stars and 1,133 forks as of 2026-10-18, with 187 open issues as of 2026-11-25 and the default branch's latest commit on 2026-11-24 (dependency bumps), created 2026-03-02, latest release v4.1.0 on 2026-06-09.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-governance-toolkit&type=date&theme=dark&legend=top-left" />
@@ -76,6 +76,7 @@ Deployment guides cover Azure, AWS, GCP, and Docker Compose.
 - 2026-11-14 - Full rotation re-verification: every cited URL re-fetched and live (the README, the launch post, and the April 2026 critique unchanged), no release since v4.1.0 with PyPI at 4.1.0, and the counters refreshed (151 open issues, default-branch push 2026-11-14).
 - 2026-11-20 - No release past v4.1.0 with PyPI at 4.1.0; the counters refreshed (171 open issues, pushed 2026-11-20 on dependency bumps).
 - 2026-11-22 - Push-fact correction under the side-branch ruling: the default branch's latest commit is 2026-11-18 (a rustls dependency bump) with the 2026-11-20 and 2026-11-21 repo-level pushes side branches, so the 11-20 default-branch reading above was a repo-level push; the counters refreshed (175 open issues) with no release past v4.1.0.
+- 2026-11-25 - No release past v4.1.0; the default branch pushed 2026-11-24 on dependency bumps; the counters refreshed (187 open issues).
 
 ## See also
 
