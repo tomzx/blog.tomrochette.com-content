@@ -10,6 +10,14 @@ governing_questions:
   - id: q19
     summary: add a security-evaluation family or hold the output-judging scope
 digest_lines:
+  - "- 2026-11-25 | cross-category | pypistats.org can answer 429 RATE LIMIT EXCEEDED to one request and answer a retry a minute later, so a 429 is waited out and retried before a figure is left on its prior dated reading | the chonkie trailing-month figure read 1,363,019 on the retry"
+  - "- 2026-11-25 | cross-category | a reviewer tool reading SKILL.md as a code guideline is ecosystem evidence for the format note, not an entrant | CodeRabbit's changelog entry of 2026-11-19 (Agent Skills as review guidelines, a repository-root agent skills folder SKILL.md applied to the whole repository), recorded in the agent-skills-open-standard note"
+  - "- 2026-11-25 | evaluation-review | awslabs/uaef (UAEF) rejects on the second-eval-framework family and its pre-release record | 199 stars and 36 forks as of 2026-11-25, Apache-2.0, created 2026-09-15, pushed 2026-11-21, no tag, GitHub release, or PyPI project (install is a git clone or a wheel committed to the repository), the Bedrock judge and DynamoDB/S3 persistence need AWS credentials, zero HN stories on the term or the expanded name, one merged outside pull request and one open outside bug report, coverage launch-week and vendor-derived (AWS ML blog 2026-11-11, TechTimes and explainx writeups the same week); a 36-metric LLM-judge framework with adapters, deepeval's kind and the class q6 holds for Inspect; reopen on the q6 ruling, a tagged release with independent discussion, or traction"
+  - "- 2026-11-25 | cross-category | a zero-HN-coverage handoff is not a zero-coverage record, so one web search on the expanded product name precedes any coverage-based rejection | awslabs/uaef arrived as zero relevant HN coverage, which held, while a web search surfaced a TechTimes article and an explainx writeup from launch week, so the rejection rests on the q6 class and the release record"
+  - "- 2026-11-25 | cross-category | Jules is in turndown (Google's 2026-10-29 changelog post: sessions until 2026-11-11, read-only until it winds down 2026-12-31); every Jules statement carries that dating and cites the post | the jules.google landing page still advertises the plans with no turndown notice in its HTML, so a 200 on jules.google is no evidence the product is live"
+  - "- 2026-11-25 | cross-category | the six broad sources carry over with no listed candidate | andyrewlee (head 96ed788cf7, 2026-11-23, the resolved #407 to #411 batch), ai-for-developers (pushed 2026-09-18), e2b-dev (2026-08-21), and slavakurilyak (2026-10-04) show zero commits since the 2026-11-24 scans; AMO is star-count ticker only (two commits to src/data/github-stars.json) with its README, its openorchestrators.org data (src/data/orchestrators.ts, last content commit 2026-11-13), and its news content (src/content/news, last 2026-11-17) unchanged; hesreallyhim is ticker-only (ten commits, the repo-ticker SVG and CSV files only)"
+  - "- 2026-11-25 | cross-category | an entry waiting in a source's open pull requests is not yet surfaced by that source: commit-history carry-over owes it nothing, and the scanner pre-resolves it so the merge needs no new derivation | RocketRide (rocketride-org/rocketride-server, andyrewlee PR #412 open since 2026-11-24, 19,989 stars as of 2026-11-25, MIT, active on the develop branch, thin independent coverage: one 5-point HN story and one hands-on third-party write-up) pre-resolves as an admission candidate for orchestration on the Dify, CrewAI, and LangGraph precedent, with Omnigent as the Compared to neighbor, at the scale of the 2026-11-24 Agent Zero admission; Locust (6 stars) and Entity (0 stars) take the thin-record tail on merge"
+  - "- 2026-11-25 | cross-category | a vendor-hosted candidate's status page is fetched before its kind is argued | Jules reached two workers on 2026-11-25 as a live note candidate while its changelog had carried a turndown notice since 2026-10-29; one status fetch (changelog, releases, shutdown notice) before routing would have resolved it"
   - "- 2026-11-24 | session-analytics | ratel (ratel-ai/ratel, 566 stars and 34 forks as of 2026-11-24, MIT platform plus an Apache-2.0 engine with a private Cloud-edition `ee/` split, v0.3.1 on 2026-11-23) is evaluation-review kind, not session-analytics: it ingests OTLP traces and SDK events from agents you build or run into a self-hosted console that evaluates them, the Langfuse and Phoenix kind, and reads no coding-agent session files (its docs list Claude Code, Codex, and OpenCode connection as coming soon) | the coordinator-routed open candidate resolved as a routing refusal; its footprint is one self-submitted 23-point Show HN (2026-07-16, the earlier tool-search positioning) with zero independent coverage, below the 751 zero-coverage band; reopen on independent coverage, a shipped coding-agent session reader, or the owner's kind ruling"
   - "- 2026-11-24 | cross-category | the second 2026-11-24 stars scan resolves one out-of-scope rejection | adnanh/webhook (12,235 stars, starred 2026-11-24T03:09:05Z) is an incoming-webhook server that runs shell commands, with no agent surface, the no-agent-story line; checkpoint advanced to 2026-11-24T03:09:05Z"
   - "- 2026-11-24 | cross-category | the unauthenticated GitHub API limit is shared by every parallel worker on one IP and can be exhausted at run start, so GitHub facts ground through authenticated `gh api` in the same run | the retrieval run's first batch returned rate-limit errors on every api.github.com call while `gh api` answered each one"
@@ -157,10 +165,10 @@ notes:
   - slug: agent-qa
     title: agent-qa
     subject_repo: vostride/agent-qa
-    last_verified: 2026-11-24
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v0.3.12
-    signals: [released]
+    signals: []
   - slug: better-harness
     title: Better Harness
     subject_repo: QoderAI/better-harness
@@ -186,9 +194,9 @@ notes:
     title: deepeval
     subject_repo: confident-ai/deepeval
     last_verified: 2026-11-24
-    last_pushed: 2026-11-24
+    last_pushed: 2026-11-25
     last_release: python-v4.2.4
-    signals: []
+    signals: [pushed]
   - slug: frontierharness-eval
     title: FrontierHarness Eval
     subject_repo: frontier-harness-eval/eval
@@ -199,10 +207,10 @@ notes:
   - slug: harbor
     title: Harbor
     subject_repo: harbor-framework/harbor
-    last_verified: 2026-11-24
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v0.27.0
-    signals: [pushed]
+    signals: []
   - slug: harnesstax
     title: HarnessTax
     subject_repo: HarnessTax/HarnessTax.github.io
@@ -227,31 +235,31 @@ notes:
   - slug: jevals
     title: Jevals
     subject_repo: openlayer-ai/jevals
-    last_verified: 2026-11-14
+    last_verified: 2026-11-25
     last_pushed: 2026-11-23
     last_release: null
-    signals: [pushed]
+    signals: []
   - slug: kiln
     title: Kiln
     subject_repo: Kiln-AI/Kiln
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v1.2.1
-    signals: [pushed]
+    signals: []
   - slug: kitaru
     title: Kitaru
     subject_repo: zenml-io/kitaru
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: python/kitaru/v0.27.7
-    signals: [pushed]
+    signals: []
   - slug: langfuse
     title: Langfuse
     subject_repo: langfuse/langfuse
-    last_verified: 2026-11-24
-    last_pushed: 2026-11-24
+    last_verified: 2026-11-25
+    last_pushed: 2026-11-25
     last_release: v4.86.0
-    signals: [released]
+    signals: []
   - slug: mlr-bench
     title: MLR-Bench
     subject_repo: chchenhui/mlrbench
@@ -271,19 +279,19 @@ notes:
     subject_repo: backnotprop/plannotator
     last_verified: 2026-11-24
     last_pushed: 2026-11-25
-    last_release: v0.29.3
-    signals: [pushed]
+    last_release: v0.29.4
+    signals: [pushed, released]
   - slug: pr-lens
     title: PR Lens
     subject_repo: coldteadotai/pr-lens
-    last_verified: 2026-11-18
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v0.15.0
-    signals: [pushed]
+    signals: []
   - slug: researchclawbench
     title: ResearchClawBench
     subject_repo: InternScience/ResearchClawBench
-    last_verified: 2026-11-14
+    last_verified: 2026-11-25
     last_pushed: 2026-10-28
     last_release: null
     signals: []
@@ -297,10 +305,10 @@ notes:
   - slug: skillevaluator
     title: SkillEvaluator
     subject_repo: NVIDIA/SkillEvaluator
-    last_verified: 2026-11-24
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v1.2.0
-    signals: [pushed]
+    signals: []
   - slug: slop-grader
     title: slop-grader
     subject_repo: lukstei/slop-grader

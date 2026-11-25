@@ -10,6 +10,18 @@ governing_questions:
   - id: q12
     summary: should openai/symphony be profiled despite the mission-control tail rejection
 digest_lines:
+  - "- 2026-11-25 | cross-category | pypistats.org can answer 429 RATE LIMIT EXCEEDED to one request and answer a retry a minute later, so a 429 is waited out and retried before a figure is left on its prior dated reading | the chonkie trailing-month figure read 1,363,019 on the retry"
+  - "- 2026-11-25 | cross-category | a reviewer tool reading SKILL.md as a code guideline is ecosystem evidence for the format note, not an entrant | CodeRabbit's changelog entry of 2026-11-19 (Agent Skills as review guidelines, a repository-root agent skills folder SKILL.md applied to the whole repository), recorded in the agent-skills-open-standard note"
+  - "- 2026-11-25 | cross-category | a zero-HN-coverage handoff is not a zero-coverage record, so one web search on the expanded product name precedes any coverage-based rejection | awslabs/uaef arrived as zero relevant HN coverage, which held, while a web search surfaced a TechTimes article and an explainx writeup from launch week, so the rejection rests on the q6 class and the release record"
+  - "- 2026-11-25 | orchestration | RocketRide (rocketride-org/rocketride-server) admitted as the pipeline-runtime entry beside the Omnigent meta-harness | 19,989 stars as of 2026-11-25, MIT, created 2026-02-11, server-v3.6.0 (2026-11-04) with server-v3.6.0-prerelease on 2026-11-24, a C++ engine that builds and runs agent and data pipelines from an IDE canvas, SDKs, or a 33-tool MCP server; no critical coverage and a self-submitted listing; its release line follows the server train, not releases/latest"
+  - "- 2026-11-25 | orchestration | 5dive (5dive-ai/5dive) rejects for orchestration below the zero-coverage band with a maker-only footprint | 127 stars as of 2026-11-25, MIT, created 2026-05-15, v0.142.2 on 2026-11-24, an always-on phone-first lead/worker runtime over Claude Code and Codex whose two 3-point Show HN threads are self-submitted, the seat Omnara, Happier, and Agent Swarm hold; reopen on traction or independent coverage"
+  - "- 2026-11-25 | orchestration | codeden (leonvanzyl/codeden) rejects on the thin-record tail as orchestration kind, not surfaces | 122 stars as of 2026-11-25, MIT, created 2026-11-07, v0.7.9 on 2026-11-23, a browser-first local workspace over installed coding agents with a per-agent copy of the code and a factory mode among several, no HN story; reopen on traction or independent coverage"
+  - "- 2026-11-25 | cross-category | Jules is in turndown (Google's 2026-10-29 changelog post: sessions until 2026-11-11, read-only until it winds down 2026-12-31); every Jules statement carries that dating and cites the post | the jules.google landing page still advertises the plans with no turndown notice in its HTML, so a 200 on jules.google is no evidence the product is live"
+  - "- 2026-11-25 | cross-category | the six broad sources carry over with no listed candidate | andyrewlee (head 96ed788cf7, 2026-11-23, the resolved #407 to #411 batch), ai-for-developers (pushed 2026-09-18), e2b-dev (2026-08-21), and slavakurilyak (2026-10-04) show zero commits since the 2026-11-24 scans; AMO is star-count ticker only (two commits to src/data/github-stars.json) with its README, its openorchestrators.org data (src/data/orchestrators.ts, last content commit 2026-11-13), and its news content (src/content/news, last 2026-11-17) unchanged; hesreallyhim is ticker-only (ten commits, the repo-ticker SVG and CSV files only)"
+  - "- 2026-11-25 | cross-category | an entry waiting in a source's open pull requests is not yet surfaced by that source: commit-history carry-over owes it nothing, and the scanner pre-resolves it so the merge needs no new derivation | RocketRide (rocketride-org/rocketride-server, andyrewlee PR #412 open since 2026-11-24, 19,989 stars as of 2026-11-25, MIT, active on the develop branch, thin independent coverage: one 5-point HN story and one hands-on third-party write-up) pre-resolves as an admission candidate for orchestration on the Dify, CrewAI, and LangGraph precedent, with Omnigent as the Compared to neighbor, at the scale of the 2026-11-24 Agent Zero admission; Locust (6 stars) and Entity (0 stars) take the thin-record tail on merge"
+  - "- 2026-11-25 | cross-category | a vendor-hosted candidate's status page is fetched before its kind is argued | Jules reached two workers on 2026-11-25 as a live note candidate while its changelog had carried a turndown notice since 2026-10-29; one status fetch (changelog, releases, shutdown notice) before routing would have resolved it"
+  - "- 2026-11-25 | software-factory | patched-codes/patchwork rejects on the CodeMachine dormancy precedent | 1,582 stars as of 2026-11-24, AGPL-3.0; ResolveIssue is software-factory-kind (an issue to a pull request through steps and prompt templates) but main is quiet since 2025-04-18 and releases end at v0.0.124 (2025-04-16); reopen on a resumed release train or a routing call; closes the 2026-11-24 orchestration line's flag"
+  - "- 2026-11-25 | software-factory | the varun1505 2026-11-19 and 2026-11-23 additions resolve with no admissions | Andon (mitaku/andon, 215 stars as of 2026-11-25, Apache-2.0, twenty days old, pre-0.1, zero independent coverage) below the bar on the Orbi coverage precedent, reopen on independent coverage or a stable release; 5dive (127 stars, MIT) and codeden (122 stars, MIT, eighteen days old) out of kind with orchestration and surfaces flags; the rest carry their 2026-11-21 resolutions"
   - "- 2026-11-24 | cross-category | the second 2026-11-24 stars scan resolves one out-of-scope rejection | adnanh/webhook (12,235 stars, starred 2026-11-24T03:09:05Z) is an incoming-webhook server that runs shell commands, with no agent surface, the no-agent-story line; checkpoint advanced to 2026-11-24T03:09:05Z"
   - "- 2026-11-24 | cross-category | the unauthenticated GitHub API limit is shared by every parallel worker on one IP and can be exhausted at run start, so GitHub facts ground through authenticated `gh api` in the same run | the retrieval run's first batch returned rate-limit errors on every api.github.com call while `gh api` answered each one"
   - "- 2026-11-24 | orchestration | agent0ai/agent-zero admitted as the framework tier's run-time delegation entry on the AutoGPT autonomous-agent precedent, above the 2026-10-28 below-tier line | 19,966 stars as of 2026-11-24, v2.16 (2026-11-17), MIT text under NOASSERTION, five HN stories at 1 to 3 points, the independent record critical (ten NVD CVE records since April 2025, a D-graded third-party review)"
@@ -190,24 +202,24 @@ notes:
   - slug: agent-manager
     title: Agent Manager
     subject_repo: wainmann/agent-manager
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v0.50.0
-    signals: [pushed, released]
+    signals: []
   - slug: agent-orchestrator
     title: Agent Orchestrator
     subject_repo: OrchestratorInc/agent-orchestrator
     last_verified: 2026-11-24
     last_pushed: 2026-11-25
     last_release: v0.15.6
-    signals: [pushed, released]
+    signals: [pushed]
   - slug: agent-swarm
     title: Agent Swarm
     subject_repo: desplega-ai/agent-swarm
     last_verified: 2026-11-24
     last_pushed: 2026-11-25
-    last_release: v2.14.5
-    signals: [pushed]
+    last_release: v2.15.0
+    signals: [pushed, released]
   - slug: agent-teams
     title: Agent Teams
     subject_repo: 777genius/agent-teams-ai
@@ -226,7 +238,7 @@ notes:
     title: AgentBox
     subject_repo: madarco/agentbox
     last_verified: 2026-11-22
-    last_pushed: 2026-11-24
+    last_pushed: 2026-11-25
     last_release: tray-latest
     signals: [pushed]
   - slug: agentgrid
@@ -279,9 +291,9 @@ notes:
     title: Atlas
     subject_repo: tryatlas/atlas
     last_verified: 2026-11-24
-    last_pushed: 2026-11-24
+    last_pushed: 2026-11-25
     last_release: alpha-0.5.3
-    signals: []
+    signals: [pushed]
   - slug: autogen
     title: AutoGen
     subject_repo: microsoft/autogen
@@ -307,7 +319,7 @@ notes:
     title: Bernstein
     subject_repo: sipyourdrink-ltd/bernstein
     last_verified: 2026-11-21
-    last_pushed: 2026-11-24
+    last_pushed: 2026-11-25
     last_release: v4.0.0
     signals: [pushed]
   - slug: buzz
@@ -328,7 +340,7 @@ notes:
     title: Cezar
     subject_repo: open-mercato/cezar
     last_verified: 2026-11-21
-    last_pushed: 2026-11-24
+    last_pushed: 2026-11-25
     last_release: v0.20.0
     signals: [pushed]
   - slug: chatdev
@@ -372,7 +384,7 @@ notes:
     last_verified: 2026-11-24
     last_pushed: 2026-11-25
     last_release: gui-v167
-    signals: [pushed, released]
+    signals: [pushed]
   - slug: cmux
     title: cmux
     subject_repo: manaflow-ai/cmux
@@ -402,9 +414,9 @@ notes:
     title: CrewAI
     subject_repo: crewAIInc/crewAI
     last_verified: 2026-11-24
-    last_pushed: 2026-11-24
+    last_pushed: 2026-11-25
     last_release: 1.15.45
-    signals: []
+    signals: [pushed]
   - slug: crewplane
     title: Crewplane
     subject_repo: crewplaneai/crewplane
@@ -541,10 +553,10 @@ notes:
   - slug: ivy-tendril
     title: Ivy Tendril
     subject_repo: Ivy-Interactive/Ivy-Tendril
-    last_verified: 2026-11-16
+    last_verified: 2026-11-25
     last_pushed: 2026-11-23
     last_release: v1.2.4
-    signals: [pushed]
+    signals: []
   - slug: jean
     title: Jean
     subject_repo: coollabsio/jean
@@ -561,8 +573,8 @@ notes:
     subject_repo: kortix-ai/CompanyOS
     last_verified: 2026-11-24
     last_pushed: 2026-11-25
-    last_release: v0.16.4
-    signals: [pushed]
+    last_release: v0.16.5
+    signals: [pushed, released]
   - slug: lanes
     title: Lanes
     subject_repo: lanes-sh/app
@@ -583,14 +595,14 @@ notes:
     last_verified: 2026-11-24
     last_pushed: 2026-11-25
     last_release: v2.3.6
-    signals: [pushed, released]
+    signals: [pushed]
   - slug: looptroop
     title: LoopTroop
     subject_repo: looptroop-ai/LoopTroop
-    last_verified: 2026-11-16
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v0.6.5
-    signals: [pushed, released]
+    signals: []
   - slug: mastra
     title: Mastra
     subject_repo: mastra-ai/mastra
@@ -625,7 +637,7 @@ notes:
     last_verified: 2026-11-24
     last_pushed: 2026-11-25
     last_release: v0.22.25
-    signals: [pushed, released]
+    signals: [pushed]
   - slug: omnara
     title: Omnara
     subject_repo: omnara-ai/omnara
@@ -645,27 +657,27 @@ notes:
     subject_repo: autonomous-ai/openharness
     last_verified: 2026-11-24
     last_pushed: 2026-11-25
-    last_release: v0.6.86_cli
+    last_release: v0.6.87_cli
     signals: [pushed, released]
   - slug: openrig
     title: OpenRig
     subject_repo: mvschwarz/openrig
     last_verified: 2026-11-24
-    last_pushed: 2026-11-24
+    last_pushed: 2026-11-25
     last_release: v0.7.22
-    signals: []
+    signals: [pushed]
   - slug: orca
     title: Orca
     subject_repo: stablyai/orca
     last_verified: 2026-11-24
     last_pushed: 2026-11-25
     last_release: v1.4.274
-    signals: [pushed, released]
+    signals: [pushed]
   - slug: orkas
     title: Orkas
     subject_repo: Orkas-AI/Orkas
     last_verified: 2026-11-17
-    last_pushed: 2026-11-24
+    last_pushed: 2026-11-25
     last_release: v2026.11.16
     signals: [pushed]
   - slug: pandacode
@@ -673,7 +685,7 @@ notes:
     subject_repo: aicodeking/pandacode
     last_verified: 2026-11-24
     last_pushed: 2026-11-25
-    last_release: v0.3.145
+    last_release: v0.3.146
     signals: [pushed, released]
   - slug: parallel-code
     title: Parallel Code
@@ -692,10 +704,10 @@ notes:
   - slug: praisonai
     title: PraisonAI
     subject_repo: MervinPraison/PraisonAI
-    last_verified: 2026-11-21
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v4.8.1
-    signals: [pushed, released]
+    signals: []
   - slug: raven
     title: Raven
     subject_repo: EverMind-AI/Raven
@@ -703,13 +715,20 @@ notes:
     last_pushed: 2026-11-25
     last_release: v0.2.8
     signals: [pushed]
+  - slug: rocketride
+    title: RocketRide
+    subject_repo: rocketride-org/rocketride-server
+    last_verified: 2026-11-25
+    last_pushed: 2026-11-25
+    last_release: client-typescript-v1.6.0
+    signals: []
   - slug: ruflo
     title: Ruflo
     subject_repo: ruvnet/ruflo
     last_verified: 2026-11-24
     last_pushed: 2026-11-25
     last_release: v3.80.7
-    signals: [pushed, released]
+    signals: [pushed]
   - slug: sandcastle
     title: Sandcastle
     subject_repo: mattpocock/sandcastle
@@ -764,8 +783,8 @@ notes:
     subject_repo: pingdotgg/t3code
     last_verified: 2026-11-21
     last_pushed: 2026-11-25
-    last_release: v0.1.11
-    signals: [pushed]
+    last_release: v0.1.12
+    signals: [pushed, released]
   - slug: termio
     title: termio
     subject_repo: termio-sh/termio
@@ -798,7 +817,7 @@ notes:
     title: Worktrunk
     subject_repo: max-sixty/worktrunk
     last_verified: 2026-11-22
-    last_pushed: 2026-11-24
+    last_pushed: 2026-11-25
     last_release: v0.83.0
     signals: [pushed]
   - slug: yao
@@ -814,4 +833,4 @@ notes:
     last_verified: 2026-11-19
     last_pushed: 2026-11-24
     last_release: v0.2.16
-    signals: [pushed, released]
+    signals: [pushed]

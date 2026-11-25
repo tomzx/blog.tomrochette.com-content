@@ -16,6 +16,15 @@ governing_questions:
   - id: q20
     summary: do the grown pack-scale records change the pack policy
 digest_lines:
+  - "- 2026-11-25 | cross-category | pypistats.org can answer 429 RATE LIMIT EXCEEDED to one request and answer a retry a minute later, so a 429 is waited out and retried before a figure is left on its prior dated reading | the chonkie trailing-month figure read 1,363,019 on the retry"
+  - "- 2026-11-25 | skills | a registry hero that keeps growing under the unbounded safety-reviewed label moves the headline index figure with its as-of date while the reviewed count stays retired | the skillmd 2026-11-25 rotation (1,335,850 on 2026-11-19 to 1,671,628 on 2026-11-25, the largest six-day jump on record), extending the 2026-11-19 counts-as-claims line"
+  - "- 2026-11-25 | cross-category | a reviewer tool reading SKILL.md as a code guideline is ecosystem evidence for the format note, not an entrant | CodeRabbit's changelog entry of 2026-11-19 (Agent Skills as review guidelines, a repository-root agent skills folder SKILL.md applied to the whole repository), recorded in the agent-skills-open-standard note"
+  - "- 2026-11-25 | skills | a skill text exported into a vendor pack and served through the MCP Skills extension with a vendor connector is a pack change that earns a Changes bullet even when the catalog count holds | the agent-native `/an` live-view workflow exported by BuilderIO/skills #129 from BuilderIO/agent-native #9805"
+  - "- 2026-11-25 | cross-category | a zero-HN-coverage handoff is not a zero-coverage record, so one web search on the expanded product name precedes any coverage-based rejection | awslabs/uaef arrived as zero relevant HN coverage, which held, while a web search surfaced a TechTimes article and an explainx writeup from launch week, so the rejection rests on the q6 class and the release record"
+  - "- 2026-11-25 | cross-category | Jules is in turndown (Google's 2026-10-29 changelog post: sessions until 2026-11-11, read-only until it winds down 2026-12-31); every Jules statement carries that dating and cites the post | the jules.google landing page still advertises the plans with no turndown notice in its HTML, so a 200 on jules.google is no evidence the product is live"
+  - "- 2026-11-25 | cross-category | the six broad sources carry over with no listed candidate | andyrewlee (head 96ed788cf7, 2026-11-23, the resolved #407 to #411 batch), ai-for-developers (pushed 2026-09-18), e2b-dev (2026-08-21), and slavakurilyak (2026-10-04) show zero commits since the 2026-11-24 scans; AMO is star-count ticker only (two commits to src/data/github-stars.json) with its README, its openorchestrators.org data (src/data/orchestrators.ts, last content commit 2026-11-13), and its news content (src/content/news, last 2026-11-17) unchanged; hesreallyhim is ticker-only (ten commits, the repo-ticker SVG and CSV files only)"
+  - "- 2026-11-25 | cross-category | an entry waiting in a source's open pull requests is not yet surfaced by that source: commit-history carry-over owes it nothing, and the scanner pre-resolves it so the merge needs no new derivation | RocketRide (rocketride-org/rocketride-server, andyrewlee PR #412 open since 2026-11-24, 19,989 stars as of 2026-11-25, MIT, active on the develop branch, thin independent coverage: one 5-point HN story and one hands-on third-party write-up) pre-resolves as an admission candidate for orchestration on the Dify, CrewAI, and LangGraph precedent, with Omnigent as the Compared to neighbor, at the scale of the 2026-11-24 Agent Zero admission; Locust (6 stars) and Entity (0 stars) take the thin-record tail on merge"
+  - "- 2026-11-25 | cross-category | a vendor-hosted candidate's status page is fetched before its kind is argued | Jules reached two workers on 2026-11-25 as a live note candidate while its changelog had carried a turndown notice since 2026-10-29; one status fetch (changelog, releases, shutdown notice) before routing would have resolved it"
   - "- 2026-11-24 | cross-category | the second 2026-11-24 stars scan resolves one out-of-scope rejection | adnanh/webhook (12,235 stars, starred 2026-11-24T03:09:05Z) is an incoming-webhook server that runs shell commands, with no agent surface, the no-agent-story line; checkpoint advanced to 2026-11-24T03:09:05Z"
   - "- 2026-11-24 | cross-category | the unauthenticated GitHub API limit is shared by every parallel worker on one IP and can be exhausted at run start, so GitHub facts ground through authenticated `gh api` in the same run | the retrieval run's first batch returned rate-limit errors on every api.github.com call while `gh api` answered each one"
   - "- 2026-11-24 | skills | a releases/latest signal keyed to a sibling package on a multi-package monorepo (@agent-native/core@0.232.0 on BuilderIO/agent-native) resolves against the train the note follows by reading the registry (@agent-native/skills 0.4.11, same 2026-11-23 publish) | the q137 pattern applied to agent-native; the note tracks the skills package and the core version is recorded as a registry reading only"
@@ -155,10 +164,10 @@ notes:
   - slug: agent-native
     title: Agent-Native
     subject_repo: BuilderIO/agent-native
-    last_verified: 2026-11-24
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: "@agent-native/skills@0.4.12"
-    signals: [pushed, released]
+    signals: []
   - slug: agent-plugins
     title: Agent Plugins
     subject_repo: agentplugins/agent-plugins-spec
@@ -169,7 +178,7 @@ notes:
   - slug: agent-skills-open-standard
     title: Agent Skills open standard
     subject_repo: null
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
   - slug: anthropic-agent-skills
     title: Anthropic Agent Skills
     subject_repo: anthropics/skills
@@ -212,14 +221,14 @@ notes:
   - slug: skillmd
     title: SkillMD
     subject_repo: skillmds/skillmd
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
     last_pushed: 2026-11-23
     last_release: v1.5.0
-    signals: [pushed]
+    signals: []
   - slug: skillopt
     title: SkillOpt
     subject_repo: microsoft/SkillOpt
-    last_verified: 2026-11-24
+    last_verified: 2026-11-25
     last_pushed: 2026-11-23
     last_release: v0.2.0
     signals: []
@@ -244,7 +253,7 @@ notes:
   - slug: snyk-agent-scan
     title: Snyk Agent Scan
     subject_repo: snyk/agent-scan
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v0.7.1
-    signals: [pushed, released]
+    signals: []

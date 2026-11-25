@@ -9,6 +9,17 @@ mapped_sources:
   - repo: insodimension/awesome-agent-protocols
     last_checked: 2026-11-25
 digest_lines:
+  - "- 2026-11-25 | cross-category | pypistats.org can answer 429 RATE LIMIT EXCEEDED to one request and answer a retry a minute later, so a 429 is waited out and retried before a figure is left on its prior dated reading | the chonkie trailing-month figure read 1,363,019 on the retry"
+  - "- 2026-11-25 | cross-category | a reviewer tool reading SKILL.md as a code guideline is ecosystem evidence for the format note, not an entrant | CodeRabbit's changelog entry of 2026-11-19 (Agent Skills as review guidelines, a repository-root agent skills folder SKILL.md applied to the whole repository), recorded in the agent-skills-open-standard note"
+  - "- 2026-11-25 | protocols | a roster count carried through a site restructure is re-read against the page's source file at the restructure commit, because the fold can drop a name while the note's count carries over | the personal-agent-protocol rotation found 102 listed partners as of 2026-11-25 (Instinct absent from the introduction file since the 2026-11-16 fold, the 2026-11-13 Path to 1.0 source at 103), correcting the 2026-11-17 same-roster claim in the note, the matrix prose, and the category one-liner"
+  - "- 2026-11-25 | protocols | a release tagged the afternoon of a pass's fetch sits outside that pass's recorded train end, so the next pass on the member reads the release list before repeating the end | a2a-cli v0.5.0 (published 2026-11-19T15:36Z, contact book and discovery hooks, OAuth sign-in and a2a auth, AI Catalog discovery) against the v0.4.0 end the last two passes recorded, extending the 2026-11-15 same-day-release line"
+  - "- 2026-11-25 | protocols | a curl 429 on one cited page while an alternate fetch client reads it in full is client-side rate limiting, not a wall, so the citation stands with no wall recorded | blog.fka.dev on the a2a liveness sweep (three curl 429s, full text through webfetch), beside the 2026-11-15 tool-specific-blocking line"
+  - "- 2026-11-25 | protocols | the awesome-mcp-servers 2026-11-24 addition resolves with one rejection on the servers-and-utility-layers ruling | pecopeko/mcp-public-intel (0 stars, MIT, created 2026-11-19, a zero-API-key MCP server over SEC EDGAR, job boards, Shopify, Substack, and podcast data); reopen on traction or independent coverage"
+  - "- 2026-11-25 | cross-category | a zero-HN-coverage handoff is not a zero-coverage record, so one web search on the expanded product name precedes any coverage-based rejection | awslabs/uaef arrived as zero relevant HN coverage, which held, while a web search surfaced a TechTimes article and an explainx writeup from launch week, so the rejection rests on the q6 class and the release record"
+  - "- 2026-11-25 | cross-category | Jules is in turndown (Google's 2026-10-29 changelog post: sessions until 2026-11-11, read-only until it winds down 2026-12-31); every Jules statement carries that dating and cites the post | the jules.google landing page still advertises the plans with no turndown notice in its HTML, so a 200 on jules.google is no evidence the product is live"
+  - "- 2026-11-25 | cross-category | the six broad sources carry over with no listed candidate | andyrewlee (head 96ed788cf7, 2026-11-23, the resolved #407 to #411 batch), ai-for-developers (pushed 2026-09-18), e2b-dev (2026-08-21), and slavakurilyak (2026-10-04) show zero commits since the 2026-11-24 scans; AMO is star-count ticker only (two commits to src/data/github-stars.json) with its README, its openorchestrators.org data (src/data/orchestrators.ts, last content commit 2026-11-13), and its news content (src/content/news, last 2026-11-17) unchanged; hesreallyhim is ticker-only (ten commits, the repo-ticker SVG and CSV files only)"
+  - "- 2026-11-25 | cross-category | an entry waiting in a source's open pull requests is not yet surfaced by that source: commit-history carry-over owes it nothing, and the scanner pre-resolves it so the merge needs no new derivation | RocketRide (rocketride-org/rocketride-server, andyrewlee PR #412 open since 2026-11-24, 19,989 stars as of 2026-11-25, MIT, active on the develop branch, thin independent coverage: one 5-point HN story and one hands-on third-party write-up) pre-resolves as an admission candidate for orchestration on the Dify, CrewAI, and LangGraph precedent, with Omnigent as the Compared to neighbor, at the scale of the 2026-11-24 Agent Zero admission; Locust (6 stars) and Entity (0 stars) take the thin-record tail on merge"
+  - "- 2026-11-25 | cross-category | a vendor-hosted candidate's status page is fetched before its kind is argued | Jules reached two workers on 2026-11-25 as a live note candidate while its changelog had carried a turndown notice since 2026-10-29; one status fetch (changelog, releases, shutdown notice) before routing would have resolved it"
   - "- 2026-11-24 | cross-category | the second 2026-11-24 stars scan resolves one out-of-scope rejection | adnanh/webhook (12,235 stars, starred 2026-11-24T03:09:05Z) is an incoming-webhook server that runs shell commands, with no agent surface, the no-agent-story line; checkpoint advanced to 2026-11-24T03:09:05Z"
   - "- 2026-11-24 | cross-category | the unauthenticated GitHub API limit is shared by every parallel worker on one IP and can be exhausted at run start, so GitHub facts ground through authenticated `gh api` in the same run | the retrieval run's first batch returned rate-limit errors on every api.github.com call while `gh api` answered each one"
   - "- 2026-11-24 | protocols | the awesome-mcp-servers 2026-11-22 to 11-24 additions resolve with four rejections on the servers-and-utility-layers ruling and the thin-record tail | taddeimania/lathe (6 stars, AGPL-3.0, a C++ and JUCE digital audio workstation that ships its own MCP server, also the no-agent-story line), neoma-pcam/pcam-live (1 star, MIT, a hosted Apify actor MCP endpoint to a hardware enclave), luca-network/spr (0 stars, Apache-2.0, an MCP server writing sealed agent-payment records, open-format framing with one same-company implementation and zero HN coverage), scrapecrate/mcp-server (0 stars, MIT, a vendor API wrapper exposing ScrapeCrate endpoints as MCP tools); all reopen on traction or independent coverage, spr also on a second implementation"
@@ -142,10 +153,10 @@ notes:
   - slug: a2a
     title: Agent2Agent Protocol (A2A)
     subject_repo: a2aproject/A2A
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v1.0.1
-    signals: [pushed]
+    signals: []
   - slug: a2ui
     title: A2UI
     subject_repo: a2ui-project/a2ui
@@ -170,14 +181,14 @@ notes:
   - slug: agent-host-protocol
     title: Agent Host Protocol
     subject_repo: microsoft/agent-host-protocol
-    last_verified: 2026-11-21
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v1.1.0
-    signals: [pushed]
+    signals: []
   - slug: agents-md
     title: AGENTS.md
     subject_repo: agentsmd/agents.md
-    last_verified: 2026-11-21
+    last_verified: 2026-11-25
     last_pushed: 2026-09-10
     last_release: null
     signals: []
@@ -202,17 +213,17 @@ notes:
   - slug: mcp
     title: Model Context Protocol (MCP)
     subject_repo: modelcontextprotocol/modelcontextprotocol
-    last_verified: 2026-11-21
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: 2026-07-28
-    signals: [pushed]
+    signals: []
   - slug: personal-agent-protocol
     title: Personal Agent Protocol (Poppy)
     subject_repo: personal-agent-protocol/personal-agent-protocol
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
     last_pushed: 2026-11-20
     last_release: null
-    signals: [pushed]
+    signals: []
   - slug: pic-standard
     title: PIC Standard
     subject_repo: pic-standard/pic-standard
@@ -223,14 +234,14 @@ notes:
   - slug: uhp
     title: Unified Harness Protocol (UHP)
     subject_repo: HarnessRouter/harnessrouter
-    last_verified: 2026-11-21
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v0.41.27
-    signals: [pushed, released]
+    signals: []
   - slug: webmcp
     title: WebMCP
     subject_repo: webmachinelearning/webmcp
-    last_verified: 2026-11-21
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: null
-    signals: [pushed]
+    signals: []

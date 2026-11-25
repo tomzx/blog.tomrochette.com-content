@@ -5,6 +5,21 @@ governing_questions:
   - id: q14
     summary: which shelf (or rejection) holds for OpenBitFun
 digest_lines:
+  - "- 2026-11-25 | cross-category | pypistats.org can answer 429 RATE LIMIT EXCEEDED to one request and answer a retry a minute later, so a 429 is waited out and retried before a figure is left on its prior dated reading | the chonkie trailing-month figure read 1,363,019 on the retry"
+  - "- 2026-11-25 | cross-category | a reviewer tool reading SKILL.md as a code guideline is ecosystem evidence for the format note, not an entrant | CodeRabbit's changelog entry of 2026-11-19 (Agent Skills as review guidelines, a repository-root agent skills folder SKILL.md applied to the whole repository), recorded in the agent-skills-open-standard note"
+  - "- 2026-11-25 | cross-category | a zero-HN-coverage handoff is not a zero-coverage record, so one web search on the expanded product name precedes any coverage-based rejection | awslabs/uaef arrived as zero relevant HN coverage, which held, while a web search surfaced a TechTimes article and an explainx writeup from launch week, so the rejection rests on the q6 class and the release record"
+  - "- 2026-11-25 | orchestration | codeden (leonvanzyl/codeden) rejects on the thin-record tail as orchestration kind, not surfaces | 122 stars as of 2026-11-25, MIT, created 2026-11-07, v0.7.9 on 2026-11-23, a browser-first local workspace over installed coding agents with a per-agent copy of the code and a factory mode among several, no HN story; reopen on traction or independent coverage"
+  - "- 2026-11-25 | cross-category | Jules is in turndown (Google's 2026-10-29 changelog post: sessions until 2026-11-11, read-only until it winds down 2026-12-31); every Jules statement carries that dating and cites the post | the jules.google landing page still advertises the plans with no turndown notice in its HTML, so a 200 on jules.google is no evidence the product is live"
+  - "- 2026-11-25 | cross-category | the six broad sources carry over with no listed candidate | andyrewlee (head 96ed788cf7, 2026-11-23, the resolved #407 to #411 batch), ai-for-developers (pushed 2026-09-18), e2b-dev (2026-08-21), and slavakurilyak (2026-10-04) show zero commits since the 2026-11-24 scans; AMO is star-count ticker only (two commits to src/data/github-stars.json) with its README, its openorchestrators.org data (src/data/orchestrators.ts, last content commit 2026-11-13), and its news content (src/content/news, last 2026-11-17) unchanged; hesreallyhim is ticker-only (ten commits, the repo-ticker SVG and CSV files only)"
+  - "- 2026-11-25 | cross-category | an entry waiting in a source's open pull requests is not yet surfaced by that source: commit-history carry-over owes it nothing, and the scanner pre-resolves it so the merge needs no new derivation | RocketRide (rocketride-org/rocketride-server, andyrewlee PR #412 open since 2026-11-24, 19,989 stars as of 2026-11-25, MIT, active on the develop branch, thin independent coverage: one 5-point HN story and one hands-on third-party write-up) pre-resolves as an admission candidate for orchestration on the Dify, CrewAI, and LangGraph precedent, with Omnigent as the Compared to neighbor, at the scale of the 2026-11-24 Agent Zero admission; Locust (6 stars) and Entity (0 stars) take the thin-record tail on merge"
+  - "- 2026-11-25 | executions | Jules rejects for a new note on the turndown line | the 2026-10-29 \"Jules Turndown\" changelog post makes it read-only since 2026-11-11 and ends it on 2026-12-31 with the learnings folded into Antigravity, so its scheduled-task, issue-trigger, and API surfaces retire with it; live it was executions kind on the routines line, not a gemini-cli sibling fold; reopen only on an owner ruling asking for a dead-tool note"
+  - "- 2026-11-25 | cross-category | a vendor-hosted candidate's status page is fetched before its kind is argued | Jules reached two workers on 2026-11-25 as a live note candidate while its changelog had carried a turndown notice since 2026-10-29; one status fetch (changelog, releases, shutdown notice) before routing would have resolved it"
+  - "- 2026-11-25 | software-factory | the varun1505 2026-11-19 and 2026-11-23 additions resolve with no admissions | Andon (mitaku/andon, 215 stars as of 2026-11-25, Apache-2.0, twenty days old, pre-0.1, zero independent coverage) below the bar on the Orbi coverage precedent, reopen on independent coverage or a stable release; 5dive (127 stars, MIT) and codeden (122 stars, MIT, eighteen days old) out of kind with orchestration and surfaces flags; the rest carry their 2026-11-21 resolutions"
+  - "- 2026-11-25 | surfaces | OpenBitFun's Cowork-style general-workspace rejection holds on the fifteenth q#14 re-read (the openBitFun/OpenBitFun README re-fetched 2026-11-25 still pitches a general-purpose agent workspace with four Agent Harness modes, cross-device remote control, and a Mini App marketplace, 4,116 stars, pushed 2026-11-25), the question again reads safe to close | surfaces re-check on the governing question"
+  - "- 2026-11-25 | surfaces | no credible surfaces-dedicated source has appeared; the GitHub search re-run returned the known low-star IDE and client lists (pinion05/awesome-agent-ide 4, rsonnet/awesome-agentic-ides 5, 1shiharat/awesome-agent-clients 19 pushed 11-25) and three below-bar client-list sightings (arach/awesome-agent-clients 3, AgentListIO/awesome-agent-clients 1, Taskmaster2024/awesome-agent-clients 0), none a category list | the refresh's no-dedicated-source check"
+  - "- 2026-11-25 | surfaces | a release published after the pass's fetch on the last-verified day carries no released signal and surfaces only by re-reading the releases list on the pushed signal, and a release a pass logs in Changes without joining the Status chain is a dropped chain record | cate v2.1.2 (published 2026-11-22T20:57Z, after the 11-22 pass) caught by the releases re-read, and whiteboard's diffr/0.1.24, logged 2026-11-22 but absent from the chain until the 2026-11-25 rotation, extending the 2026-11-15 same-day-release and 2026-11-21 chain-drift lines"
+  - "- 2026-11-25 | surfaces | a member's built-in agent count is a volatile fact re-read at each rotation, not a creation-time figure | the codeg rotation re-fetch read twenty built-in agents where the note's definition, What it is, Strengths, and ACP See also line read nineteen (checked 2026-10-18) or fifteen (creation)"
+  - "- 2026-11-25 | surfaces | a harness made the default for new sessions is not retired, and a release headline naming a retirement has to be read against the release body before the note says retired | the vscode-copilot rotation re-fetch of the 1.143 and 1.146 notes (Copilot harness default since 1.143, Local harness deprecated in 1.146 with removal in February 2027) against a Status sentence and a Strengths bullet that read retired in 1.143"
   - "- 2026-11-24 | cross-category | the second 2026-11-24 stars scan resolves one out-of-scope rejection | adnanh/webhook (12,235 stars, starred 2026-11-24T03:09:05Z) is an incoming-webhook server that runs shell commands, with no agent surface, the no-agent-story line; checkpoint advanced to 2026-11-24T03:09:05Z"
   - "- 2026-11-24 | cross-category | the unauthenticated GitHub API limit is shared by every parallel worker on one IP and can be exhausted at run start, so GitHub facts ground through authenticated `gh api` in the same run | the retrieval run's first batch returned rate-limit errors on every api.github.com call while `gh api` answered each one"
   - "- 2026-11-24 | cross-category | crates.io's API returns a non-JSON body to a request with no User-Agent header while the same URL answers a UA-bearing request with valid JSON, so registry re-reads carry a UA before a failed read is treated as a wall | the acp rotation re-read of the agent-client-protocol crate (5.5.1, published 2026-11-21), extending the 2026-11-07 npm registry line"
@@ -162,35 +177,35 @@ notes:
   - slug: antigravity
     title: Google Antigravity
     subject_repo: null
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
   - slug: bb
     title: bb
     subject_repo: get-bb/bb
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: desktop-v0.50.1
-    signals: [pushed]
+    signals: []
   - slug: cate
     title: Cate
     subject_repo: 0-AI-UG/cate
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v2.1.2
-    signals: [pushed]
+    signals: []
   - slug: cc-haha
     title: cc-haha
     subject_repo: NanmiCoder/cc-haha
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v0.8.0
-    signals: [pushed, released]
+    signals: []
   - slug: codeg
     title: Codeg
     subject_repo: spacering-net/codeg
-    last_verified: 2026-11-21
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v0.48.1
-    signals: [pushed, released]
+    signals: []
   - slug: codenomad
     title: CodeNomad
     subject_repo: NeuralNomadsAI/CodeNomad
@@ -227,10 +242,10 @@ notes:
   - slug: nimbalyst
     title: Nimbalyst
     subject_repo: nimbalyst/nimbalyst
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-23
     last_release: v0.83.0
-    signals: [pushed]
+    signals: []
   - slug: openchamber
     title: OpenChamber
     subject_repo: openchamber/openchamber
@@ -287,10 +302,10 @@ notes:
   - slug: vscode-copilot
     title: "VS Code + Copilot"
     subject_repo: microsoft/vscode
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: 1.147.0
-    signals: [pushed]
+    signals: []
   - slug: waku
     title: Waku
     subject_repo: egoist/waku
@@ -301,7 +316,7 @@ notes:
   - slug: whiteboard
     title: Whiteboard
     subject_repo: devdotfast/whiteboard
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-22
     last_release: v0.5.2
     signals: []

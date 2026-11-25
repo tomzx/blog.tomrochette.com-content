@@ -5,6 +5,16 @@ mapped_sources:
   - repo: TeleAI-UAGI/Awesome-Agent-Memory
     last_checked: 2026-11-25
 digest_lines:
+  - "- 2026-11-25 | cross-category | pypistats.org can answer 429 RATE LIMIT EXCEEDED to one request and answer a retry a minute later, so a 429 is waited out and retried before a figure is left on its prior dated reading | the chonkie trailing-month figure read 1,363,019 on the retry"
+  - "- 2026-11-25 | cross-category | a reviewer tool reading SKILL.md as a code guideline is ecosystem evidence for the format note, not an entrant | CodeRabbit's changelog entry of 2026-11-19 (Agent Skills as review guidelines, a repository-root agent skills folder SKILL.md applied to the whole repository), recorded in the agent-skills-open-standard note"
+  - "- 2026-11-25 | cross-category | a zero-HN-coverage handoff is not a zero-coverage record, so one web search on the expanded product name precedes any coverage-based rejection | awslabs/uaef arrived as zero relevant HN coverage, which held, while a web search surfaced a TechTimes article and an explainx writeup from launch week, so the rejection rests on the q6 class and the release record"
+  - "- 2026-11-25 | cross-category | Jules is in turndown (Google's 2026-10-29 changelog post: sessions until 2026-11-11, read-only until it winds down 2026-12-31); every Jules statement carries that dating and cites the post | the jules.google landing page still advertises the plans with no turndown notice in its HTML, so a 200 on jules.google is no evidence the product is live"
+  - "- 2026-11-25 | cross-category | the six broad sources carry over with no listed candidate | andyrewlee (head 96ed788cf7, 2026-11-23, the resolved #407 to #411 batch), ai-for-developers (pushed 2026-09-18), e2b-dev (2026-08-21), and slavakurilyak (2026-10-04) show zero commits since the 2026-11-24 scans; AMO is star-count ticker only (two commits to src/data/github-stars.json) with its README, its openorchestrators.org data (src/data/orchestrators.ts, last content commit 2026-11-13), and its news content (src/content/news, last 2026-11-17) unchanged; hesreallyhim is ticker-only (ten commits, the repo-ticker SVG and CSV files only)"
+  - "- 2026-11-25 | cross-category | an entry waiting in a source's open pull requests is not yet surfaced by that source: commit-history carry-over owes it nothing, and the scanner pre-resolves it so the merge needs no new derivation | RocketRide (rocketride-org/rocketride-server, andyrewlee PR #412 open since 2026-11-24, 19,989 stars as of 2026-11-25, MIT, active on the develop branch, thin independent coverage: one 5-point HN story and one hands-on third-party write-up) pre-resolves as an admission candidate for orchestration on the Dify, CrewAI, and LangGraph precedent, with Omnigent as the Compared to neighbor, at the scale of the 2026-11-24 Agent Zero admission; Locust (6 stars) and Entity (0 stars) take the thin-record tail on merge"
+  - "- 2026-11-25 | cross-category | a vendor-hosted candidate's status page is fetched before its kind is argued | Jules reached two workers on 2026-11-25 as a live note candidate while its changelog had carried a turndown notice since 2026-10-29; one status fetch (changelog, releases, shutdown notice) before routing would have resolved it"
+  - "- 2026-11-25 | memory | the TeleAI source's 2026-11-22-to-11-25 additions resolve with one admission and three rejections | Hippo Memory (kitfunso/hippo-memory, 793 stars as of 2026-11-25, MIT, v3.16.0 on 2026-11-24, a 128-point self-posted Show HN) clears the bar as the no-model rule-and-lesson store; Synap Core (20 stars, the open server beside a hosted cloud), Anamnema (1 star), and Essence (1 star) reject below the 294-star floor on the thin-record tail, and MORSE, VisMem, and the Neural Subspaces paper take the standing paper-entry family"
+  - "- 2026-11-25 | memory | claude-mem's cloud arm sells Cloud Sync as a standalone plan from v16.1.0 | $12/mo after a card-required 30-day trial or $99/yr upfront, beside the bundled CMEM Pro $30/mo; the note's Price history carries the row"
+  - "- 2026-11-25 | memory | a note's Status chain can drop a release record its Changes bullet already logs, and its \"Latest release\" lead can lag a later record | claude-mem's Status lacked the v16.0.2 and v16.0.3 paragraph its 2026-11-22 bullet recorded, and hindsight and OpenViking still led with v1.2.1 and v0.5.5 after later releases; all three repaired 2026-11-25"
   - "- 2026-11-24 | cross-category | the second 2026-11-24 stars scan resolves one out-of-scope rejection | adnanh/webhook (12,235 stars, starred 2026-11-24T03:09:05Z) is an incoming-webhook server that runs shell commands, with no agent surface, the no-agent-story line; checkpoint advanced to 2026-11-24T03:09:05Z"
   - "- 2026-11-24 | cross-category | the unauthenticated GitHub API limit is shared by every parallel worker on one IP and can be exhausted at run start, so GitHub facts ground through authenticated `gh api` in the same run | the retrieval run's first batch returned rate-limit errors on every api.github.com call while `gh api` answered each one"
   - "- 2026-11-24 | cross-category | crates.io's API returns a non-JSON body to a request with no User-Agent header while the same URL answers a UA-bearing request with valid JSON, so registry re-reads carry a UA before a failed read is treated as a wall | the acp rotation re-read of the agent-client-protocol crate (5.5.1, published 2026-11-21), extending the 2026-11-07 npm registry line"
@@ -156,10 +166,10 @@ notes:
   - slug: basic-memory
     title: Basic Memory
     subject_repo: basicmachines-co/basic-memory
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v1.0.0
-    signals: [pushed]
+    signals: []
   - slug: belief-context-graph
     title: Belief Context Graph
     subject_repo: bigai-nlco/belief-context-graph
@@ -177,10 +187,10 @@ notes:
   - slug: claude-mem
     title: claude-mem
     subject_repo: thedotmack/claude-mem
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
-    last_release: v16.1.3
-    signals: [pushed, released]
+    last_release: v16.1.4
+    signals: [released]
   - slug: claude-obsidian
     title: claude-obsidian
     subject_repo: AgriciDaniel/claude-obsidian
@@ -191,17 +201,17 @@ notes:
   - slug: cognee
     title: Cognee
     subject_repo: topoteretes/cognee
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v1.6.10
-    signals: [pushed]
+    signals: []
   - slug: deja
     title: deja
     subject_repo: vshulcz/deja-vu
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v0.25.1
-    signals: [pushed, released]
+    signals: []
   - slug: emulo
     title: Emulo
     subject_repo: ohad6k/emulo
@@ -219,35 +229,42 @@ notes:
   - slug: everos
     title: EverOS
     subject_repo: EverMind-AI/EverOS
-    last_verified: 2026-11-20
-    last_pushed: 2026-11-24
+    last_verified: 2026-11-25
+    last_pushed: 2026-11-25
     last_release: v1.7.1
-    signals: [pushed]
+    signals: []
   - slug: file-based-agent-memory
     title: File-based agent memory
     subject_repo: null
-    last_verified: 2026-11-20
+    last_verified: 2026-11-25
   - slug: funes
     title: Funes
     subject_repo: huggingface/funes
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v1.12.0
-    signals: [pushed]
+    signals: []
   - slug: gbrain
     title: GBrain
     subject_repo: garrytan/gbrain
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v0.60.768.0
-    signals: [pushed, released]
+    signals: []
   - slug: hindsight
     title: Hindsight
     subject_repo: vectorize-io/hindsight
-    last_verified: 2026-11-20
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v1.3.0
-    signals: [pushed, released]
+    signals: []
+  - slug: hippo-memory
+    title: Hippo Memory
+    subject_repo: kitfunso/hippo-memory
+    last_verified: 2026-11-25
+    last_pushed: 2026-11-24
+    last_release: v3.16.0
+    signals: []
   - slug: letta
     title: Letta
     subject_repo: letta-ai/letta
@@ -272,17 +289,17 @@ notes:
   - slug: memanto
     title: Memanto
     subject_repo: moorcheh-ai/memanto
-    last_verified: 2026-11-20
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v0.3.1
-    signals: [pushed, released]
+    signals: []
   - slug: memmachine
     title: MemMachine
     subject_repo: MemMachine/MemMachine
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
     last_pushed: 2026-11-23
     last_release: v0.4.0
-    signals: [pushed]
+    signals: []
   - slug: memoryfields
     title: Memoryfields
     subject_repo: calpaterson/memoryfield-spec
@@ -293,17 +310,17 @@ notes:
   - slug: memos
     title: MemOS
     subject_repo: MemTensor/MemOS
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v2.0.36
-    signals: [pushed]
+    signals: []
   - slug: memu
     title: memU
     subject_repo: NevaMind-AI/memU
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v1.5.1
-    signals: [pushed]
+    signals: []
   - slug: memvid
     title: Memvid
     subject_repo: memvid/memvid
@@ -328,52 +345,52 @@ notes:
   - slug: openviking
     title: OpenViking
     subject_repo: volcengine/OpenViking
-    last_verified: 2026-11-20
-    last_pushed: 2026-11-24
+    last_verified: 2026-11-25
+    last_pushed: 2026-11-25
     last_release: v0.5.6
-    signals: [pushed]
+    signals: []
   - slug: operator-memory
     title: Operator Memory
     subject_repo: aerovato/operator-memory
-    last_verified: 2026-11-22
-    last_pushed: 2026-11-24
-    last_release: "claude-code@v0.3.1"
-    signals: [pushed]
+    last_verified: 2026-11-25
+    last_pushed: 2026-11-25
+    last_release: "deepseek@v0.5.0"
+    signals: [released]
   - slug: plur
     title: PLUR
     subject_repo: plur-ai/plur
-    last_verified: 2026-11-20
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v0.23.1
-    signals: [pushed]
+    signals: []
   - slug: screenpipe
     title: Screenpipe
     subject_repo: screenpipe/screenpipe
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: app-v2.7.153
-    signals: [pushed]
+    signals: []
   - slug: sno-station
     title: Sno Station
     subject_repo: sno-ai/sno-station
-    last_verified: 2026-11-22
-    last_pushed: 2026-11-24
+    last_verified: 2026-11-25
+    last_pushed: 2026-11-25
     last_release: v2.3.1
-    signals: [pushed]
+    signals: []
   - slug: supermemory
     title: Supermemory
     subject_repo: supermemoryai/supermemory
-    last_verified: 2026-11-19
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: server-v0.0.9
-    signals: [pushed]
+    signals: []
   - slug: tencentdb-agent-memory
     title: TencentDB Agent Memory
     subject_repo: TencentCloud/TencentDB-Agent-Memory
-    last_verified: 2026-11-20
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v2.0.4
-    signals: [pushed]
+    signals: []
   - slug: zep
     title: Zep
     subject_repo: getzep/zep

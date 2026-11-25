@@ -5,6 +5,18 @@ governing_questions:
   - id: q24
     summary: owner-tools exception for TomzxCode/agentic or the rejection stands
 digest_lines:
+  - "- 2026-11-25 | cross-category | pypistats.org can answer 429 RATE LIMIT EXCEEDED to one request and answer a retry a minute later, so a 429 is waited out and retried before a figure is left on its prior dated reading | the chonkie trailing-month figure read 1,363,019 on the retry"
+  - "- 2026-11-25 | cross-category | a reviewer tool reading SKILL.md as a code guideline is ecosystem evidence for the format note, not an entrant | CodeRabbit's changelog entry of 2026-11-19 (Agent Skills as review guidelines, a repository-root agent skills folder SKILL.md applied to the whole repository), recorded in the agent-skills-open-standard note"
+  - "- 2026-11-25 | cross-category | a zero-HN-coverage handoff is not a zero-coverage record, so one web search on the expanded product name precedes any coverage-based rejection | awslabs/uaef arrived as zero relevant HN coverage, which held, while a web search surfaced a TechTimes article and an explainx writeup from launch week, so the rejection rests on the q6 class and the release record"
+  - "- 2026-11-25 | cross-category | Jules is in turndown (Google's 2026-10-29 changelog post: sessions until 2026-11-11, read-only until it winds down 2026-12-31); every Jules statement carries that dating and cites the post | the jules.google landing page still advertises the plans with no turndown notice in its HTML, so a 200 on jules.google is no evidence the product is live"
+  - "- 2026-11-25 | cross-category | the six broad sources carry over with no listed candidate | andyrewlee (head 96ed788cf7, 2026-11-23, the resolved #407 to #411 batch), ai-for-developers (pushed 2026-09-18), e2b-dev (2026-08-21), and slavakurilyak (2026-10-04) show zero commits since the 2026-11-24 scans; AMO is star-count ticker only (two commits to src/data/github-stars.json) with its README, its openorchestrators.org data (src/data/orchestrators.ts, last content commit 2026-11-13), and its news content (src/content/news, last 2026-11-17) unchanged; hesreallyhim is ticker-only (ten commits, the repo-ticker SVG and CSV files only)"
+  - "- 2026-11-25 | cross-category | an entry waiting in a source's open pull requests is not yet surfaced by that source: commit-history carry-over owes it nothing, and the scanner pre-resolves it so the merge needs no new derivation | RocketRide (rocketride-org/rocketride-server, andyrewlee PR #412 open since 2026-11-24, 19,989 stars as of 2026-11-25, MIT, active on the develop branch, thin independent coverage: one 5-point HN story and one hands-on third-party write-up) pre-resolves as an admission candidate for orchestration on the Dify, CrewAI, and LangGraph precedent, with Omnigent as the Compared to neighbor, at the scale of the 2026-11-24 Agent Zero admission; Locust (6 stars) and Entity (0 stars) take the thin-record tail on merge"
+  - "- 2026-11-25 | cross-category | a vendor-hosted candidate's status page is fetched before its kind is argued | Jules reached two workers on 2026-11-25 as a live note candidate while its changelog had carried a turndown notice since 2026-10-29; one status fetch (changelog, releases, shutdown notice) before routing would have resolved it"
+  - "- 2026-11-25 | task-management | Taskhold rejects on the thin-record tail | taskhold.com (gettaskhold/taskhold-plugin, 0 stars, 0 forks, 0 releases, 34 commits, created 2026-10-08, pushed 2026-11-16) publishes only the agent skill and MCP config while the hosted service stays closed, charges $12 a month or $120 a year after a card-up-front 7-day trial with no free plan and no self-hosting, and its footprint is directories, a Devpost hackathon page, and zero HN stories; task-management kind, reopen on traction or independent coverage"
+  - "- 2026-11-25 | task-management | q24 evidence refreshed: no independent adoption or third-party coverage surfaced for TomzxCode/agentic (1 star, 0 forks, 0 open issues, pushed 2026-11-24, the coverage search returning only the owner's own sites and this section's digest pages) | the rejection stands, the owner-tools exception question stays open"
+  - "- 2026-11-25 | task-management | the dedicated-list check found no credible task-management-specific list for the ninth consecutive run | dedicated-list websearch sweep; the TensorBlock awesome-mcp-servers task-management page is a section of a general MCP list"
+  - "- 2026-11-25 | task-management | an api.star-history.com chart URL answering 403 once inside a scripted burst while the same URL returns 200 on retry and without a User-Agent is a transient block, not a dead chart source | the agentrq rotation re-fetch of 32 cited URLs"
+  - "- 2026-11-25 | spec-driven-development | the Engineering4AI 2026-11-24 addition resolves with no admissions: Taskhold rejects as task-management kind on the primary-artifact rule | taskhold.com is a hosted-only paid task board ($12 a month or $120 a year, 7-day trial, no self-hosting) that coding agents report into over MCP, its public code a 0-star MIT plugin repository (gettaskhold/taskhold-plugin, created 2026-10-08); the artifact is the task list, not a spec contract; routed to task-management, reopen here only on a shipped spec artifact"
   - "- 2026-11-24 | cross-category | the second 2026-11-24 stars scan resolves one out-of-scope rejection | adnanh/webhook (12,235 stars, starred 2026-11-24T03:09:05Z) is an incoming-webhook server that runs shell commands, with no agent surface, the no-agent-story line; checkpoint advanced to 2026-11-24T03:09:05Z"
   - "- 2026-11-24 | cross-category | the unauthenticated GitHub API limit is shared by every parallel worker on one IP and can be exhausted at run start, so GitHub facts ground through authenticated `gh api` in the same run | the retrieval run's first batch returned rate-limit errors on every api.github.com call while `gh api` answered each one"
   - "- 2026-11-24 | cross-category | crates.io's API returns a non-JSON body to a request with no User-Agent header while the same URL answers a UA-bearing request with valid JSON, so registry re-reads carry a UA before a failed read is treated as a wall | the acp rotation re-read of the agent-client-protocol crate (5.5.1, published 2026-11-21), extending the 2026-11-07 npm registry line"
@@ -145,10 +157,10 @@ notes:
   - slug: agentrq
     title: AgentRQ
     subject_repo: agentrq/agentrq
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
-    last_release: v0.18.7
-    signals: [pushed, released]
+    last_release: v0.19.1
+    signals: [released]
   - slug: ai-dev-tasks
     title: AI Dev Tasks
     subject_repo: snarktank/ai-dev-tasks
@@ -166,17 +178,17 @@ notes:
   - slug: backlog-md
     title: Backlog.md
     subject_repo: MrLesk/Backlog.md
-    last_verified: 2026-11-22
-    last_pushed: 2026-11-24
+    last_verified: 2026-11-25
+    last_pushed: 2026-11-25
     last_release: v1.57.4
-    signals: [pushed]
+    signals: []
   - slug: beads
     title: beads
     subject_repo: gastownhall/beads
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v1.3.4
-    signals: [pushed]
+    signals: []
   - slug: ccpm
     title: CCPM
     subject_repo: automazeio/ccpm
@@ -187,38 +199,38 @@ notes:
   - slug: epiq
     title: Epiq
     subject_repo: ljtn/epiq
-    last_verified: 2026-11-21
+    last_verified: 2026-11-25
     last_pushed: 2026-11-23
     last_release: v1.19.0
-    signals: [pushed]
+    signals: []
   - slug: its-a-plan
     title: It's a Plan
     subject_repo: croffasia/itsaplan
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v1.13.0
-    signals: [pushed, released]
+    signals: []
   - slug: kanban-md
     title: kanban-md
     subject_repo: antopolskiy/kanban-md
-    last_verified: 2026-11-14
+    last_verified: 2026-11-25
     last_pushed: 2026-11-22
     last_release: v0.39.0
-    signals: [pushed]
+    signals: []
   - slug: kanzo
     title: Kanzo
     subject_repo: emanuele-em/kanzo
-    last_verified: 2026-11-21
+    last_verified: 2026-11-25
     last_pushed: 2026-11-24
     last_release: v0.4.2
-    signals: [pushed]
+    signals: []
   - slug: kata
     title: Kata
     subject_repo: kenn-io/kata
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v0.23.0
-    signals: [pushed]
+    signals: []
   - slug: operon
     title: Operon
     subject_repo: hasanyilmaz/operon
@@ -229,17 +241,17 @@ notes:
   - slug: ordewell
     title: Ordewell
     subject_repo: ordewell/ordewell
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v0.14.12
-    signals: [pushed, released]
+    signals: []
   - slug: pad
     title: Pad
     subject_repo: PerpetualSoftware/pad
-    last_verified: 2026-11-22
+    last_verified: 2026-11-25
     last_pushed: 2026-11-25
     last_release: v0.21.1
-    signals: [pushed]
+    signals: []
   - slug: plandb
     title: PlanDB
     subject_repo: Agent-Field/plandb
@@ -257,7 +269,7 @@ notes:
   - slug: veritas-kanban
     title: Veritas Kanban
     subject_repo: BradGroux/veritas-kanban
-    last_verified: 2026-11-21
+    last_verified: 2026-11-25
     last_pushed: 2026-11-23
     last_release: v6.3.0
-    signals: [pushed]
+    signals: []
