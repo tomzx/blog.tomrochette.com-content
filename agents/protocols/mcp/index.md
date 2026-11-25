@@ -1,9 +1,9 @@
 ---
 title: Model Context Protocol (MCP)
 created: 2026-08-24
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, agent-tools]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, protocols, interoperability, agent-tools]
 readability: 3
 audience_notes: >
   Engineers who already use a coding agent or AI assistant and want to understand the protocol their tool integrations speak.
@@ -85,6 +85,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 - 2026-11-17 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and blog work since the last pass (deprecated features no longer presented as current on the spec overview pages, an accuracy pass over the 2026-07-28 and draft content, blog quote blocks for named people, per-post share cards, and a header search dialog).
 - 2026-11-19 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and dependency work since the last pass (MCP Inspector load-testing and Active Sessions docs #3503, an extensions-overview alignment with SEP-3392 #3565, an accuracy pass fixing links and typos across the 2026-07-28 and draft docs #3556, and blog quote blocks #3563); the aaif.io press reference moved to the news address the old press URL now redirects to.
 - 2026-11-21 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch merged the Events extension, SEP-3415 (spec proposal 2026-11-19, docs registration 2026-11-20, a tasks-and-events working-group page following on 2026-11-21): clients subscribe to upstream events by name with arguments and resume from opaque cursors, delivered by poll, long-lived push, or signed webhook, with the full specification in the separate modelcontextprotocol/ext-events repository and the extension in beta; the What-it-is extension list moved with the registration.
+- 2026-11-25 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and community work since the last pass, with no specification text changed: the extension client matrix gained Archestra.AI in the Skills column and an mcp-use row covering Apps and Skills (#3574, 2026-11-22), VS Code GitHub Copilot in the Skills extension column (#3510, 2026-11-23, support shipped in VS Code 1.147), and Skills support for Claude and Claude Code (2026-11-24); the Core Primitives Working Group gained a charter page (#3545, 2026-11-23), the FSIG charter was aligned with working-group-led governance (#3572) and interest-group charters with the SEP sponsorship guidelines (#3531); a blog post marked two years of MCP (#3584).
 
 ## See also
 

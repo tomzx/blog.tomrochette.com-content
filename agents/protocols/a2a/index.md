@@ -1,9 +1,9 @@
 ---
 title: Agent2Agent Protocol (A2A)
 created: 2026-08-24
-updated: 2026-11-19
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, protocols, interoperability, multi-agent]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, protocols, interoperability, multi-agent]
 readability: 3
 audience_notes: >
   Engineers and architects evaluating how agents built on different frameworks should discover and delegate work to each other.
@@ -84,6 +84,7 @@ The disagreeable part: I expect A2A to stay an enterprise convention, and if aut
 - 2026-11-14 - Re-verification: the repository pushed 2026-11-13 on docs-only partner-list additions (Raven and A2A Market), the spec stays at v1.0.1 (v1.0.1 still the newest release tag), and the official CLI's release train still ends at v0.4.0 (2026-11-04) with the default branch carrying 2026-11-12 to 11-13 work beyond the recorded Homebrew chore (SSE keep-alives resetting the --stream inactivity timeout, query strings dropped from agent-URL error messages, and --agent-card resolution from AI Catalogs).
 - 2026-11-17 - Re-verification: the repository pushed 2026-11-16 on one docs-only commit (the a2a-cli blog post pointed at the new documentation site, #2466), the spec stays at v1.0.1 (v1.0.1 still the newest release tag), and the official CLI's release train still ends at v0.4.0 (2026-11-04).
 - 2026-11-19 - Re-verification: the repository pushed 2026-11-18 on one more docs-only commit (a dead partner link fixed, #2478), the spec stays at v1.0.1, and the official CLI's release train still ends at v0.4.0 (2026-11-04).
+- 2026-11-25 - Re-verification: the official CLI's release train moved to v0.5.0 (2026-11-19, published the afternoon after the last pass's fetch: a contact book and agent discovery hooks, OAuth sign-in and `a2a auth` commands, and discovery of AI Catalog agents alongside agent cards), which the 2026-11-19 pass still recorded at v0.4.0; the repository pushed 2026-11-24 on one docs-only commit (a Rust SDK page added to the documentation, #2442), and the spec stays at v1.0.1 (still the newest release tag).
 
 ## See also
 

@@ -1,9 +1,9 @@
 ---
 title: Unified Harness Protocol (UHP)
 created: 2026-10-08
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, protocols, interoperability, agent-serving, harnesses]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, protocols, interoperability, agent-serving, harnesses]
 readability: 3
 audience_notes: >
   Engineers embedding coding-agent harnesses (Codex, Claude Code, Gemini CLI, Hermes) behind their own
@@ -24,7 +24,7 @@ Apache-2.0, maintained in the HarnessRouter repository under a maintainer-led, p
 
 ## Status
 
-**Active and shipping fast: 2,994 stars (2026-10-13), 486 forks, created 2026-08-09, pushed 2026-11-19, as of 2026-11-19 (GitHub API).**
+**Active and shipping fast: 2,994 stars (2026-10-13), 486 forks, created 2026-08-09, pushed 2026-11-25, as of 2026-11-25 (GitHub API).**
 
 The spec is at version 2026-10-19, its fifth version in roughly ten weeks (2026-08-11, 2026-09-12, 2026-09-28, 2026-10-04, 2026-10-19), and the conformance suite moved to 2026.10.19.post11 (2026-11-17, the T-15 resume checks), now the newest entry on both the protocol changelog page and the implementing product's release notes (re-fetched 2026-11-19).
 The fifth version's changelog has kept growing within the same version without a bump, seven capabilities so far: its newest addition lets an interrupted turn be resumed (capability `resume`, #673), where an interrupted response reports what the cut left (`error.detail.workspace` kept, checkpoint, or lost, plus `effects_may_repeat`) and a single-use `resume` item chained on that response continues the session, refused 409 `resume_not_pending` once consumed; before it, conditional updates let a harness read carry an `ETag` and its update an `If-Match`, so a stale client write is refused 412 precondition_failed (fetched 2026-11-19).
@@ -94,6 +94,7 @@ My disagreeable claim: the Responses API already owns this lane by gravity, so t
 - 2026-11-17 - Re-verification: the release train moved to v0.41.17 and v0.41.18 (both 2026-11-16: memories owned by the API keys that minted them #700, Gemini thinking tokens billed as output #691, harness-model menus naming a key the harness can use #697, harness exports leaving out the instance's self-served tools #702, and the Graphiti revise-or-forget deletion found by the suite's ME-05 and ME-06 with `hr_`-prefixed schema names reserved #701, plus a release-gate fix #705), the conformance suite moved to 2026.10.19.post9 per the v0.41.17 notes (the EN-07 environment-read checks riding along) while the protocol changelog page's newest suite entry stays post6, the spec changelog's newest addition stays the ETag/If-Match one, and the spec remains at its 2026-10-19 fifth version; the repository pushed 2026-11-16.
 - 2026-11-19 - The release train moved through v0.41.19 to v0.41.23 (2026-11-17 to 11-19): v0.41.19 shipped the spec's newest within-version addition, an interrupted turn that can be resumed (capability `resume`, #673, with the workspace kept, checkpoint, or lost and `effects_may_repeat`, and a single-use `resume` item refused 409 `resume_not_pending` once consumed), with the conformance suite moving to 2026.10.19.post11 (T-15 resume checks); v0.41.20 kept a first turn cut by a restart its workspace, v0.41.21 added the GPT-6.2 Astra and Sol models and fixed OpenHands follow-ups reaching their MCP servers, and v0.41.22 and v0.41.23 fixed the Graphiti ME-12 conformance failure plus a username trim; the spec remains at its 2026-10-19 fifth version; the Status section moved with the addition, the suite, and the train.
 - 2026-11-21 - Re-verification: the release train moved to v0.41.24 (2026-11-20, a console fix keeping an organization switch made while a session refresh is in flight #724, and the OpenRouter gateway dropping the retired grok-build-0.1 model #729) with the spec unchanged at its 2026-10-19 fifth version and the conformance suite at 2026.10.19.post11; the repository pushed 2026-11-20.
+- 2026-11-25 - Re-verification on the release signal: the release train moved through v0.41.25 (2026-11-22, Qwen4-Max offered from OpenRouter, Vercel AI Gateway, and LLMTR on the bases that offer Qwen3.8-Max plus fast-agent, measured 25 of 25 scenarios on both Vercel and OpenRouter, #735), v0.41.26 (2026-11-24, an image sent as `input_image` now reaches the agent's working directory and an input that cannot reach the agent is a `400 invalid_input` instead of a silent 200 #733, a provider's rate limit, empty account, or refused model no longer reported as a refused key with `error.detail` gaining `reason`, `retryable`, and `retry_after_seconds` #734, and a bad connection-string port a 400 rather than a 500 #736), and v0.41.27 (2026-11-24, a skill's `description` read as YAML by every reader, so `description: #1 tool` reads as no description #738, and table names holding a quote quoted in database kit sampling #740); the spec stays at its 2026-10-19 fifth version with the conformance suite at 2026.10.19.post11; the repository pushed 2026-11-25.
 
 ## See also
 
@@ -111,7 +112,7 @@ My disagreeable claim: the Responses API already owns this lane by gravity, so t
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/versions/2026-10-04/architecture.md - the Client/Server/Harness roles, the three conformance classes, and the configured-harness object model
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/GOVERNANCE.md - the UEP proposal-first process and the three-artifact rule
 - https://raw.githubusercontent.com/HarnessRouter/harnessrouter/main/protocol/CHANGELOG.md - the spec-churn record: the 2026-10-04 same-day patch, the conformance-suite additions through 2026.10.19.post11, the 2026-10-19 fifth version's deprecation, input_requests, ETag/If-Match, and resume (capability `resume`) entries, and the session_branching capability addition (#477)
-- https://github.com/HarnessRouter/harnessrouter/releases - the implementing product's release train: v0.39.0 (session branching, Roder), the v0.40.x memories wave, and v0.41.x through v0.41.23 (fetched 2026-11-19)
+- https://github.com/HarnessRouter/harnessrouter/releases - the implementing product's release train: v0.39.0 (session branching, Roder), the v0.40.x memories wave, and v0.41.x through v0.41.27 (re-fetched 2026-11-25)
 - https://github.com/SuperagenticAI/superqode - the second implementation, 62 stars, Apache-2.0 (GitHub API, as of 2026-10-11)
 - https://harnessrouter.ai - the hosted service: sixteen harness bases behind the UHP contract, commercial with a free tier
 - https://hn.algolia.com/api/v1/search?query=%22Unified%20Harness%20Protocol%22&tags=story - the footprint scan: zero stories naming the protocol, found 2026-10-08
