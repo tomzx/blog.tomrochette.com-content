@@ -12,7 +12,7 @@ Sites that watch the AI field itself and publish a continuously refreshed number
 The category's dividing line is what the number measures, since each member answers a different question about the same field.
 
 - [AI Release Tracker](ai-release-tracker/index.md) - a free, single-operator timeline of frontier releases since ChatGPT, with launch-day scores and flat-file exports for agents.
-- [Artificial Analysis](artificial-analysis/index.md) - independent quality, price, and speed measurement across 763 models, 100+ providers, and the chips underneath.
+- [Artificial Analysis](artificial-analysis/index.md) - independent quality, price, and speed measurement across 765 models, 100+ providers, and the chips underneath.
 - [BenchLM](benchlm/index.md) - a solo-built composite re-ranking 1,034 tracked models into one evidence-labeled score via a single IRT fit, with per-rank evidence labels and confidence levels.
 - [Benchmark Radar](benchmark-radar/index.md) - an open benchmark catalog and search engine crawling 41 sources daily, with every record's evidence linked, the category's only member whose subject is the benchmarks themselves.
 - [bestvaluemodel](bestvaluemodel/index.md) - a solo-built, six-hourly refreshed frontier view plotting Artificial Analysis's Intelligence Index against API price, with a budget lookup table and a per-run diff feed.
