@@ -1,9 +1,9 @@
 ---
 title: Steve Yegge
 created: 2026-08-29
-updated: 2026-11-18
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, agent-pragmatist]
+tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, developer, agent-pragmatist, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers who want a provocative, opinionated, and hands-on voice on agent-based development, from someone building agent systems in public.
@@ -23,11 +23,12 @@ His best-known build is the [Gas Town](../../orchestration/gastown/index.md) wor
 ## Status
 
 Active, with his writing centralized on his own site, a material reversal on his flagship build, and a publishing restart after the shutdown lull.
-As of 2026-11-18 the yegge.ai atlas still reads 170 essays at roughly 725,000 words (about 4,300 per essay, unchanged from 2026-10-31), and the site feed lists no essay newer than [The Counting House](https://yegge.ai/essays/the-counting-house/) (2026-10-27), which returns to agentic architecture: it argues for stateless model pools with no credentials and no memory as the guardrail pattern for high-volume AI workloads, against his software-factory model of long-lived agent seats.
+As of 2026-11-25 the yegge.ai atlas still reads 170 essays at roughly 725,000 words (about 4,300 per essay, unchanged from 2026-10-31), and the site feed lists no essay newer than [The Counting House](https://yegge.ai/essays/the-counting-house/) (2026-10-27), which returns to agentic architecture: it argues for stateless model pools with no credentials and no memory as the guardrail pattern for high-volume AI workloads, against his software-factory model of long-lived agent seats.
 The site has now caught up with the shutdown: the Gas Town page is retitled around "What it was" and describes the project as retired, "a proof it could be done", the homepage card reads "The first software factory - a proof it could be done", and the site still pitches his AI-native-transformation advisory work.
-It includes the "Future of Coding Agents" series, and he appears on The Pragmatic Engineer and other podcasts.
+The Gas Town page now names that project's successor: [Gas City](../../orchestration/gascity/index.md), which splits Gas Town into component parts reusable as an SDK for building orchestrators and is run by a company he advises, and the homepage names Beads and Gas City as his current work in multi-agent orchestration.
+It includes the "Future of Coding Agents" series, his recent list carries a 2026-11-03 AI Native DevCon New York talk on scaling AI-native development past the individual engineer, and he appears on The Pragmatic Engineer and other podcasts.
 Per Latent Space's AINews roundup (2026-09-17), citing Dan Luu's 2026-09-15 post on X, Yegge shut Gas Town down and admitted he never successfully built anything with it, despite spending many thousands a month on coding agent subscriptions.
-The gastownhall/gastown repository remains public (18.1k stars as of 2026-09-18, the star baseline this section never refreshes) and still shows commit activity, most recently a push on 2026-11-14, so the code survives and the repo still moves even though its author disowned the project in September.
+The gastownhall/gastown repository remains public (18.1k stars as of 2026-09-18, the star baseline this section never refreshes) and still shows commit activity, most recently a push on 2026-11-14 whose latest default-branch commits (2026-11-12) are security fixes, so the code survives and the repo still moves even though its author disowned the project in September.
 His Substack still exists and its about page reports hundreds of subscribers, but its sitemap listed no published posts as of 2026-09-13, so the essays live on yegge.ai rather than the newsletter.
 He also released the book Vibe Coding with Gene Kim (IT Revolution, 2025), a Gold Medal winner at the 2026 Axiom Book Awards.
 
@@ -80,10 +81,12 @@ Not for readers who prefer neutral synthesis or who object to the chaotic, credi
 - 2026-10-22 - Reverted an out-of-policy star-figure refresh (the 2026-10-12 18.3k reading carried no Changes bullet and broke the stars-never-refreshed rule); the prose figure is restored to the 18.1k as of 2026-09-18 baseline that the References line already carried.
 - 2026-10-31 - Rotation re-verification moved the writing record: the atlas now reads 170 essays at roughly 725,000 words (from 165 and about 699,000 on 2026-09-22) and the newest essay, "The Counting House" (2026-10-27), is a return to agentic architecture after the shutdown lull; the Gas Town repo shows commit activity through 2026-10-28 while the homepage still presents it as current work.
 - 2026-11-18 - Rotation re-verification, every cited URL re-fetched and live: the site has caught up with the shutdown, the Gas Town page now framed as retired ("What it was", "a proof it could be done"), the atlas unchanged at 170 essays and roughly 725,000 words with the feed still ending at "The Counting House" (2026-10-27), and the Gas Town repo still moving (latest push 2026-11-14, per the GitHub API).
+- 2026-11-25 - Rotation re-verification, every cited URL re-fetched and live: the Gas Town page now names Gas City as the retired project's successor (component parts reusable as an SDK, run by a company he advises) and the homepage pairs Beads with Gas City as his current work; the site's recent list adds a 2026-11-03 AI Native DevCon New York talk; the atlas is unchanged at 170 essays and roughly 725,000 words with the feed still ending at "The Counting House" (2026-10-27), and the Gas Town repo's latest push is still 2026-11-14.
 
 ## See also
 
 - [Gas Town](../../orchestration/gastown/index.md) - the workspace manager that implements his supervision thesis
+- [Gas City](../../orchestration/gascity/index.md) - the successor his Gas Town page now names, run by a company he advises
 - [beads](../../task-management/beads/index.md) - the ledger his agent town runs on
 - [Agentic Coding Tools Landscape](../../agentic-coding-tools-landscape/index.md) - where his orchestration bet sits in the map
 - [Managing Many Concurrent LLM Agent Sessions](../../../managing-many-llm-agent-sessions/index.md) - the supervision bottleneck his hierarchy exists to solve
@@ -91,11 +94,11 @@ Not for readers who prefer neutral synthesis or who object to the chaotic, credi
 ## References
 
 - https://steveyegge.substack.com/ - his Substack, hundreds of subscribers per its about page, but no published posts in its sitemap as of 2026-09-13
-- https://yegge.ai/ - his essay catalog, including "The Future of Coding Agents"
+- https://yegge.ai/ - his essay catalog, including "The Future of Coding Agents" and the recent list holding the 2026-11-03 AI Native DevCon New York talk
 - https://yegge.ai/atlas.html - the catalog numbers (170 essays, about 725,000 words as of 2026-10-31) and the Vibe Coding book award
 - https://yegge.ai/essays/the-counting-house/ - the newest essay (2026-10-27), the stateless-clerk-pool architecture argument grounding the publishing-restart claim
 - https://yegge.ai/feed.xml - the site feed, which still lists "The Counting House" as the newest essay as of 2026-11-18
-- https://yegge.ai/gastown.html - the Gas Town page's retired framing ("What it was", "Now retired: a proof it could be done"), grounding the site-caught-up claim
+- https://yegge.ai/gastown.html - the Gas Town page's retired framing ("What it was", "Now retired: a proof it could be done"), grounding the site-caught-up claim and the naming of Gas City as the successor
 - https://steve-yegge.blogspot.com/ - the long-running blog with the canonical essays
 - https://github.com/gastownhall/gastown - the Gas Town workspace manager he builds (the repo moved to the gastownhall org; the old steveyegge URL redirects), still public with 18.1k stars as of 2026-09-18 after the shutdown
 - https://www.latent.space/p/ainews-reality-checks-on-ai-news - the AINews issue (2026-09-17) reporting the Gas Town shutdown and the Dan Luu exchange

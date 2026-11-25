@@ -1,9 +1,9 @@
 ---
 title: Ray Amjad
 created: 2026-09-24
-updated: 2026-11-21
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, claude-code, agentic-coding, verification]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, claude-code, agentic-coding, verification, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers who follow Claude Code releases closely and want each new feature explained and pressure-tested within days.
@@ -23,10 +23,10 @@ The funnel is agenticcoding.school: a two-week cohort (the cohort page now sells
 
 ## Status
 
-Active and growing as of 2026-11-21.
-The channel was created 2019-08-09 and shows 50K subscribers (the page rendered no count to either fetch mode on 2026-11-21, so the figure keeps its 2026-10-04 as-of); the RSS feed (refetched 2026-11-21) shows 21 uploads between 2026-04-09 and 2026-11-16, still two to three per month with bursts around Anthropic releases.
-The newest upload is "Code Mode Makes Claude Code Smarter & Cheaper" (2026-11-16), after "OpenAI and Anthropic Agree on What Comes After Loops" (2026-11-04) and "Anthropic's New Subagent Rules Will Change How You Build" (2026-10-26, on Anthropic's guidance for when to fold subagents back into the main loop).
-Reach is concentrated and rising: the newest "Code Mode Makes Claude Code Smarter & Cheaper" counted 221,495 views by 2026-11-21, his biggest video inside a week of upload, taking the record from the Jev video ("How to Use Jev + Claude Code", 2026-09-18, retitled from "Jev + Claude Code = The Cheapest Agentic Coding Loop Yet", 172,522 as of 2026-10-29), and the four newest uploads count 30,975 to 221,495 views per the feed's counters.
+Active and growing as of 2026-11-25.
+The channel was created 2019-08-09 and shows 50K subscribers (the page rendered no count to either fetch mode on 2026-11-21, so the figure keeps its 2026-10-04 as-of); the RSS feed (refetched 2026-11-25) shows 22 uploads between 2026-04-09 and 2026-11-23, still two to three per month with bursts around Anthropic releases.
+The newest upload is "Anthropic Says Your Agents Need a Verification Layer" (2026-11-23, 20,552 views within two days), after "Code Mode Makes Claude Code Smarter & Cheaper" (2026-11-16) and "OpenAI and Anthropic Agree on What Comes After Loops" (2026-11-04) and "Anthropic's New Subagent Rules Will Change How You Build" (2026-10-26, on Anthropic's guidance for when to fold subagents back into the main loop).
+Reach is concentrated and rising: "Code Mode Makes Claude Code Smarter & Cheaper" counted 225,811 views by 2026-11-25, his biggest video, taking the record from the Jev video ("How to Use Jev + Claude Code", 2026-09-18, retitled from "Jev + Claude Code = The Cheapest Agentic Coding Loop Yet", 172,522 as of 2026-10-29), and the four newest uploads count 20,552 to 225,811 views per the feed's counters.
 His cohort page claims 5,000+ engineers taught (up from 4,000+ earlier in the fall), self-reported figures I found nowhere else.
 
 ## Strengths
@@ -74,6 +74,7 @@ Not for someone who wants vendor-agnostic coverage, or who minds that the demos 
 - 2026-10-29 - A fourth upload since the rotation: "Anthropic's New Subagent Rules Will Change How You Build" (2026-10-26) is now newest, making 19 uploads between April 9 and October 26; the Jev video passed 172,522 views and the newest video descriptions are back to the "My Agent-Era Engineer Cohort" title; RSS feed fetched this run; added the Pricing section the note format mandates.
 - 2026-11-01 - Moved the Pricing section to its mandated position between Cautions and Compared to; no content change.
 - 2026-11-21 - Rotation re-verification, every cited URL re-fetched and live: two new uploads ("OpenAI and Anthropic Agree on What Comes After Loops" 2026-11-04 and "Code Mode Makes Claude Code Smarter & Cheaper" 2026-11-16, now 21 uploads between April 9 and November 16), the Code Mode video at 221,495 views became his biggest, the cohort page moved to the December run (185 lessons, 2026-12-07 to 12-18, price rises after 12-04) and now claims 5,000+ engineers taught, and the channel page rendered no subscriber count to either fetch mode so the 50K figure keeps its 2026-10-04 as-of; Status, What-it-is, Top 5, and References updated.
+- 2026-11-25 - Cadence check (feed refetched): new upload "Anthropic Says Your Agents Need a Verification Layer" (2026-11-23, 20,552 views within two days), making 22 uploads between April 9 and November 23, 2026; "Code Mode Makes Claude Code Smarter & Cheaper" reached 225,811 views.
 
 ## See also
 
@@ -84,6 +85,7 @@ Not for someone who wants vendor-agnostic coverage, or who minds that the demos 
 
 ## References
 
+- https://www.youtube.com/watch?v=DNwMbJf5SAI - "Anthropic Says Your Agents Need a Verification Layer" (2026-11-23), the newest upload
 - https://www.youtube.com/@RAmjad - the channel: identity and 50K subscribers as of 2026-10-04
 - https://www.youtube.com/feeds/videos.xml?channel_id=UCLA7cJBnqr0nLF2bQBD9uUg - the RSS feed that grounds cadence, titles, dates, view counts, the no-sponsor statement, and the 2019-08-09 channel creation (it 404ed on 2026-10-04 and serves again since 2026-10-05; refetched 2026-11-21 showing 21 uploads through 2026-11-16)
 - https://www.rayamjad.com/ - the personal site: 21 Dreams studio, consulting, and company registration

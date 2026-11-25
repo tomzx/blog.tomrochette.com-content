@@ -1,9 +1,9 @@
 ---
 title: Mario Zechner
 created: 2026-09-24
-updated: 2026-11-08
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents, open-source]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents, open-source, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers building or choosing a coding agent who want the strongest minimalist argument against feature sprawl.
@@ -25,7 +25,7 @@ Since April 2026 pi is owned by Earendil with him at the helm, planned as three 
 ## Status
 
 Active, well-resourced, and newly commercial as of 2026-10-26.
-The pi repository shows about 114.7k stars and 14.6k forks as of 2026-10-13, and the release cadence tightened from roughly weekly to nearly daily through the 1.0 sprint: v0.99.0 and v0.99.1 on 2026-09-29 (codemode plus MCP landed in v0.99.0), v0.99.2 on 2026-09-30, v1.0.0 on 2026-10-01 (per the repo's releases; our [Harnesses note](../../harnesses/pi/index.md) tracks the detail), v1.0.1 on 2026-10-03, v1.0.2 on 2026-10-04, v1.0.3 plus v1.0.4 on 2026-10-05, v1.1.0 on 2026-10-07, then v1.2.0 on 2026-10-12 (per-key OpenRouter model lists and published configuration schemas), v1.3.0 on 2026-10-15 (choosing where /share uploads go, gist or radius), v1.4.0 on 2026-10-21 (image input for codemode classifiers), and v1.5.0 on 2026-11-02 (extension update changelogs plus faster incremental streaming rendering, per the repo's releases fetched this run).
+The pi repository shows about 114.7k stars and 14.6k forks as of 2026-10-13, and the release cadence tightened from roughly weekly to nearly daily through the 1.0 sprint: v0.99.0 and v0.99.1 on 2026-09-29 (codemode plus MCP landed in v0.99.0), v0.99.2 on 2026-09-30, v1.0.0 on 2026-10-01 (per the repo's releases; our [Harnesses note](../../harnesses/pi/index.md) tracks the detail), v1.0.1 on 2026-10-03, v1.0.2 on 2026-10-04, v1.0.3 plus v1.0.4 on 2026-10-05, v1.1.0 on 2026-10-07, then v1.2.0 on 2026-10-12 (per-key OpenRouter model lists and published configuration schemas), v1.3.0 on 2026-10-15 (choosing where /share uploads go, gist or radius), v1.4.0 on 2026-10-21 (image input for codemode classifiers), v1.5.0 on 2026-11-02 (extension update changelogs plus faster incremental streaming rendering), v1.5.1 on 2026-11-09, v1.5.2 on 2026-11-10, and v1.6.0 on 2026-11-20 (GPT-6.2 Astra and Sol added to the OpenAI providers with Sol the new default, a breaking change to extension component render output, and find-tool path patterns made relative like grep's glob, per the repo's releases fetched this run).
 OpenClaw, the breakout assistant runtime, is built on it, which is exactly the attention he says drove acquisition offers and 3-5 calls a day before he sold to Earendil.
 His blog slowed after the 2025 agent-post burst (eight agent-era posts between June and November 2025, then three in 2026 through the May 30 robot post), so the repository and release notes now carry more signal than the blog.
 The Earendil arrangement is the open question: the MIT core is pledged as non-negotiable, but tiers two and three existed only as promises when he wrote about them in April 2026.
@@ -80,6 +80,7 @@ Not for teams that want turnkey guardrails, MCP-centric stacks, or a maintainer 
 - 2026-10-26 - Added v1.3.0 (released 2026-10-15) and v1.4.0 (released 2026-10-21) to the release record (per the repo's releases page and the GitHub releases API, both fetched this run), keeping the post-1.0 cadence current; the 2026-10-13 star and fork figures keep their as-of date.
 - 2026-10-29 - The releases page still ends at v1.4.0 (2026-10-21), fetched this run; added the Pricing section the note format mandates.
 - 2026-11-08 - Rotation re-verification, every cited URL re-fetched live: added v1.5.0 (released 2026-11-02, extension update changelogs and faster streaming rendering, per the repo's releases fetched this run) to the release record; the blog still ends at the 2026-05-30 robot post (homepage fetched this run).
+- 2026-11-25 - Release check (repo releases refetched): added v1.5.1 (2026-11-09), v1.5.2 (2026-11-10), and v1.6.0 (2026-11-20, GPT-6.2 Astra and Sol on the OpenAI providers with Sol the default, an extension render-output breaking change, and find-tool path patterns relative like grep).
 
 ## See also
 

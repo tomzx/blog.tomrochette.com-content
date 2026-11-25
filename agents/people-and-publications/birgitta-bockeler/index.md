@@ -1,9 +1,9 @@
 ---
 title: Birgitta Böckeler
 created: 2026-10-04
-updated: 2026-11-15
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, consulting, agentic-engineering, tdd, harness-engineering, spec-driven-development]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, consulting, agentic-engineering, tdd, harness-engineering, spec-driven-development, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers and leads inside established, non-AI-company organizations who want evidence-grade answers about which craft practices still matter when agents write most of the code.
@@ -25,9 +25,9 @@ Her own site, birgitta.info, indexes all of it by topic.
 
 ## Status
 
-Active and current as of 2026-11-15.
+Active and current as of 2026-11-25.
 Her newest piece is her own: "Onboarding to Unblocked, with Unblocked" (2026-10-20, on her new employer's blog), the first-person record of her first coding task after joining Unblocked, which she credits with letting her contribute almost autonomously from day one, with stated caveats about noise and misread context.
-On martinfowler.com, her newest solo piece is still the TDD evaluation (2026-08-10), and the series continued with colleagues' memos after it, the latest being "Are Harnesses Worth the Cost?" (Naresh Jain, 2026-10-13), the count holding at 33 memos as of this run.
+On martinfowler.com, her newest solo piece is still the TDD evaluation (2026-08-10), and the series continued with colleagues' memos after it, the latest being "Are Harnesses Worth the Cost?" (Naresh Jain, 2026-10-13), the count holding at 33 memos as of 2026-11-25.
 The TDD evaluation is her most consequential claim: across five batches of paired TDD and non-TDD runs judged blind by Opus 4.8, TDD showed no discernible quality benefit and cost roughly 3 to 8.5 times the tokens, and she states she has stopped telling her coding agents to write tests first.
 Community reception is uneven: her spec-driven-development comparison drew a 128-point Hacker News thread with 32 comments (October 2025), while the TDD evaluation drew a 4-point thread (August 2026), and her conference talks, not her links, carry most of her reach.
 
@@ -75,6 +75,7 @@ Not for release tracking, model news, or anyone who needs large-sample benchmark
 - 2026-10-22 - Full re-verification, rotation: all cited URLs refetched and live; the series count moved to 33 with the colleague memo "Are Harnesses Worth the Cost?" (Naresh Jain, 2026-10-13), and the sensors article's date corrected from 2026-05-07 to 2026-05-27 per the article's own revision log.
 - 2026-10-31 - Rotation re-verification, every cited URL re-fetched and live: the series index still holds 33 memos with "Are Harnesses Worth the Cost?" (2026-10-13) the newest and the TDD evaluation still her newest solo piece; fixed the References line that still carried the sensors article's pre-correction date (2026-05-07 to 2026-05-27).
 - 2026-11-15 - Rotation re-verification, every cited URL re-fetched and live: recorded her October 2026 move from Thoughtworks to the context-engineering startup Unblocked (per her own 2026-10-20 onboarding post on the Unblocked blog, fetched this run), rewrote the opening, thesis, strengths, and cautions to match, and confirmed the series still holds 33 memos with the 2026-10-13 colleague memo newest and the TDD evaluation still her newest solo martinfowler.com piece.
+- 2026-11-25 - Rotation re-verification, every cited URL re-fetched and live, no claim moved: the series still holds 33 memos with the 2026-10-13 colleague memo newest, the TDD evaluation (2026-08-10) is still her newest solo martinfowler.com piece, and the Unblocked onboarding post is still the newest entry on birgitta.info.
 
 ## See also
 

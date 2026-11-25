@@ -1,9 +1,9 @@
 ---
 title: Navan Chauhan
 created: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, software-factory, dark-factory, agentic-loops]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, software-factory, dark-factory, agentic-loops, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers building factory-style agent loops who want the validation and no-op details from someone inside a working no-human-review team.
@@ -16,7 +16,7 @@ Navan Chauhan is a founding member of StrongDM's three-person AI team and a blog
 
 ## What it is
 
-A personal blog (web.navan.dev, twelve posts in 2026, six of them agent-era, newest "Be More Ambitious" 2026-11-03), a GitHub fleet of 73 public repos, and a founding seat on StrongDM's AI team.
+A personal blog (web.navan.dev, fourteen posts in 2026, seven of them agent-era, newest "Just lob it up to LeBron" 2026-11-23, a non-agent piece, after the computer-use experiment "Making Claude Play with my CoC" 2026-11-14), a GitHub fleet of 73 public repos, and a founding seat on StrongDM's AI team.
 The team (Justin McCarthy, Jay Taylor, and Chauhan, formed July 2025) published "Software Factories and the Agentic Moment" on 2026-02-06, the essay that anchors the field's dark-factory vocabulary: specs and scenarios drive agents, code is neither written nor reviewed by humans, and satisfaction is measured probabilistically against a Digital Twin Universe of behavioral clones of Okta, Jira, Slack, and Google's docs suite.
 His own factory essay, "How to Build Your Own Software Factory" (2026-05-06), is the practical companion: define what you manufacture, build the seed, make the no-op case mandatory, validate outside the agent's claims, and treat failure as data for the pipeline.
 Around that core he writes agentic-loop economics ("The Unreasonable Effectiveness of Agentic Loops", 2026-03-17), reverse-engineers harness internals ("Peeking Into Claude Code", 2026-02-24, the Bun binary, prompt assembly, and tool schemas), and maps the next interface ("On Computer Use", 2026-08-19, a chief-of-staff agent driving cloud boxes instead of a coding-agent UI).
@@ -27,7 +27,7 @@ Active, with the breakout inside the section's coverage window.
 The team's essay hit Hacker News on 2026-02-07 at 304 points with about 450 comments as of 2026-11-14, and Simon Willison's same-day writeup called the demoed system "a glimpse of one potential future of software development".
 The blog cadence is a few posts a month, mixed between agent topics and personal projects (Siri shortcuts, self-hosting, Gopher clients), so the factory thread advances in bursts rather than weekly.
 He stays in the public argument: an Algolia comment search shows him answering factory threads through 2026-10-16, including the critical "Why Software Factories Fail (or: harness engineering is not enough)" discussion in July 2026.
-His GitHub (142 followers as of 2026-11-14) holds the tooling around the writing (Leash, a Cedar-policy sandbox; iGopherBrowser) rather than the factory itself, which stayed proprietary.
+His GitHub (143 followers as of 2026-11-25) holds the tooling around the writing (Leash, a Cedar-policy sandbox; iGopherBrowser) rather than the factory itself, which stayed proprietary.
 
 ## Strengths
 
@@ -70,6 +70,7 @@ Not for readers who want daily output, a cloneable reference implementation, or 
 ## Changes
 
 - 2026-11-14 - Created.
+- 2026-11-25 - Rotation re-verification, every cited URL re-fetched and live: two new posts since creation, the computer-use experiment "Making Claude Play with my CoC" (2026-11-14) and the non-agent "Just lob it up to LeBron" (2026-11-23), moving the count to fourteen 2026 posts with seven agent-era; the breakout thread (304 points) and his newest thread answer (2026-10-16) are unchanged, and GitHub reads 143 followers.
 
 ## See also
 
@@ -82,11 +83,12 @@ Not for readers who want daily output, a cloneable reference implementation, or 
 ## References
 
 - https://web.navan.dev/posts/ - the blog index: the 2026 post list, cadence, and topic mix
+- https://web.navan.dev/posts/2026-11-14-letting-claude-play-with-my-coc.html - his 2026-11-14 computer-use experiment (a model too slow to drive Clash of Clans directly, so he built a game harness around OCR, template matching, and ADB), the newest agent-era post
 - https://web.navan.dev/posts/2026-05-06-how-to-build-your-own-software-factory.html - his factory essay: build order, task packets, no-op case, failure modes
 - https://factory.strongdm.ai/ - the team manifesto (2026-02-06): the Digital Twin Universe, scenarios and satisfaction, the no-human-review rules, and the three-person team roster
 - https://simonwillison.net/2026/Feb/7/software-factory/ - the independent coverage naming him and the team, "a glimpse of one potential future"
 - https://hn.algolia.com/api/v1/items/46924426 - the 304-point "Software factories and the agentic moment" Hacker News thread (about 450 comments as of 2026-11-14), the in-window breakout
 - https://hn.algolia.com/api/v1/search?tags=comment,author_navanchauhan - his public thread participation through 2026-10-16, including the critical "Why Software Factories Fail" discussion
-- https://github.com/navanchauhan - GitHub profile: 142 followers and 73 public repos as of 2026-11-14
+- https://github.com/navanchauhan - GitHub profile: 143 followers and 73 public repos as of 2026-11-25
 - https://web.navan.dev/posts/2026-08-19-on-computer-use.html - the computer-use essay grounding the chief-of-staff pattern
 - https://web.navan.dev/posts/2026-02-24-peeking-into-claude-code.html - the Claude Code reverse-engineering walkthrough

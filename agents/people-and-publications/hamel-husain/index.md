@@ -1,9 +1,9 @@
 ---
 title: Hamel Husain
 created: 2026-08-29
-updated: 2026-11-07
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, evals, applied-ai, llm-practitioner]
+tags: [research-note, agent-curated, fully-ai-generated, llm=big-pickle, llm=glm-5.3-flash, people, publications, evals, applied-ai, llm-practitioner, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers shipping AI products who want a grounded, data-first method for deciding whether their agent actually works and for improving it.
@@ -22,10 +22,10 @@ The [A Field Guide to Rapidly Improving AI Products](https://hamel.dev/blog/post
 
 ## Status
 
-Active and influential as of 2026-10-29.
+Active and influential as of 2026-11-25, though the blog has run five weeks without a new post.
 The blog posts through late October, most recently "How To Use Decision Models for Evals" (2026-10-20), ahead of "Claude's new auto eval tool" (2026-09-30), his review of Anthropic's first-party eval plugin for Claude Code (the claude-api plugin's build_eval and hill-climb commands), where he names what the tool gets wrong, starting an eval before looking at data and asking you to validate judgments without enough context, and ahead of "AI Evals: Everything You Need to Know" (2026-09-18), "AI Product Engineering Notes" (2026-08-12), and "Do Automated Evals Work?" (2026-07-11).
-He co-teaches the [AI Evals for Engineers and PMs](https://maven.com/parlance-labs/evals) course with Shreya Shankar, reporting over 5,000 engineers and PMs from teams like OpenAI, Google, Meta, Amazon, and Microsoft as of 2026-10-29.
-The course page now lists $4,500 (raised from $4,200), with the Oct 10 to Nov 21 cohort showing four days left to enroll and the next cohort advertised for January 30 to March 27, 2027, as of 2026-11-07.
+He co-teaches the [AI Evals for Engineers and PMs](https://maven.com/parlance-labs/evals) course with Shreya Shankar, reporting over 5,000 engineers and PMs from teams like OpenAI, Google, Meta, Amazon, and Microsoft as of 2026-11-25.
+The course page lists $4,500 (raised from $4,200) with a single open cohort, Cohort 8 from January 30 to March 27, 2027, after the October 10 cohort ended on 2026-11-21, as of 2026-11-25.
 He is co-author of the forthcoming O'Reilly book [Evals for AI Engineers](https://www.oreilly.com/library/view/evals-for-ai/9798341660717/).
 
 ## Strengths
@@ -37,7 +37,7 @@ He is co-author of the forthcoming O'Reilly book [Evals for AI Engineers](https:
 
 ## Cautions
 
-- The core value sits increasingly behind a $4,200 course and consulting work, so the free blog is the teaser, not the full method.
+- The core value sits increasingly behind a $4,500 course and consulting work, so the free blog is the teaser, not the full method.
 - "Evals" is a crowded, hype-prone corner: the recommendation to invest heavily in evaluation can read as self-serving from someone who sells evals services.
 - His binary pass/fail and critique-shadowing method is opinionated and does not suit every product, even though he argues it well.
 - Automated evals have known failure modes: a judge that rubber-stamps PASS can score ~90% agreement while catching nothing, so the discipline is exactly what makes them trustworthy.
@@ -45,7 +45,7 @@ He is co-author of the forthcoming O'Reilly book [Evals for AI Engineers](https:
 ## Pricing
 
 Free to read on the blog and substack.
-The course is paid ($4,500 on Maven as of 2026-11-07, up from $4,200 as of 2026-09-13), and Parlance Labs sells consulting and the O'Reilly book is forthcoming.
+The course is paid ($4,500 on Maven as of 2026-11-25, up from $4,200 as of 2026-09-13), and Parlance Labs sells consulting and the O'Reilly book is forthcoming.
 
 ## Price history
 
@@ -84,6 +84,7 @@ Not for someone looking for survey-level breadth or for a tool recommendation; i
 - 2026-10-18 - Rotation re-verification: the course enrollment deadline moved from Oct 17 to Oct 24 (per his site banner and the Maven page fetched this run); price unchanged at $4,200 and the Oct 10 cohort remains the last of 2026.
 - 2026-10-29 - Newest post moved to "How To Use Decision Models for Evals" (2026-10-20) and the course banner now advertises the next cohort for January 30 (his site fetched this run); price unchanged at $4,200.
 - 2026-11-07 - Rotation re-verification: the Maven course repriced from $4,200 to $4,500 (page fetched this run), price history row appended; "How To Use Decision Models for Evals" (2026-10-20) remains the newest post per the RSS feed and every other cited URL is live (the O'Reilly page serves a 403 bot wall to non-browser agents).
+- 2026-11-25 - Rotation re-verification, every cited URL re-fetched and live (the O'Reilly page keeps its 403 bot wall): the newest post is still "How To Use Decision Models for Evals" (2026-10-20), the Maven page now lists one open cohort (Cohort 8, January 30 to March 27, 2027) after the October 10 cohort ended 2026-11-21 at an unchanged $4,500, and the Cautions line still carrying the pre-reprice $4,200 is corrected to $4,500.
 
 ## See also
 

@@ -1,9 +1,9 @@
 ---
 title: Thorsten Ball
 created: 2026-09-24
-updated: 2026-11-15
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, developer, coding-agents, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers deciding how seriously to take agentic development who want a working practitioner's written record of it.
@@ -24,7 +24,7 @@ On the Amp side he publishes docs, news posts, and a 26-minute working-day scree
 ## Status
 
 Active on both fronts as of 2026-11-15.
-Register Spill is near-weekly: his index page lists issues 91 through 100 between July 11 and September 20, 2026, the centenary issue being "Joy & Curiosity #100" on September 20, and the Substack archive shows #101 on September 26, #102 on October 4, #103 on October 25, #104 on November 1, #105 on November 8, and #106 on November 15, the newest as of this run.
+Register Spill is near-weekly: his index page lists issues 91 through 100 between July 11 and September 20, 2026, the centenary issue being "Joy & Curiosity #100" on September 20, and the Substack archive shows #101 on September 26, #102 on October 4, #103 on October 25, #104 on November 1, #105 on November 8, #106 on November 15, and #107 on November 21, the newest as of 2026-11-25.
 Amp ships visibly: news items through November 12, 2026 ("Bye Bye, Dial", the November 12 removal of the Dial model selector, after the featured "Boxes" on November 10, always-on computers for the things you build with Amp, "Portals on Your Runner" on November 9, "Close the Loop" and "Spaces" on November 6, a higher-level way to work with many agents and teammates, "GitLab Integration" on November 5, "Service Accounts" on November 3, and "Artifacts" on November 2, documents that belong to a thread and that you, your teammates, and the agent edit together, following the late-October run of "macOS Satellites" and "Visualize This" on October 29, "Your Own Self-Hosted Orbs" on October 28, and "Amp on Android" on October 27, the mobile client for threads, orbs, and Puck, which followed "Self-Hosted Orbs" on October 22, running orbs on your own infrastructure, "Assign It To Amp" on October 19, Linear issues worked by Amp in a thread, "See Your Runner's Desktop" on October 16, "Take Puck with You" on October 13, using Puck in other agents via MCP, "First Things First, Faster" on October 12, Jev-powered file ordering, and "You've Got Comments" on October 12, Amp following up on GitHub pull requests), following the October 10 "Use Your Claude Plan in Amp" move, the October 6 "Many, Many Pucks", the September 29 "Plaid Speed" 6x GPT-6 Astra inference, and the September 24 "Shared Runners" and "The Mac App Is Your Runner" pair, with a Free Agent tier (September 13) making Amp free when you bring your own compute and model subscriptions, and his own screencast embedded front and center on the product homepage.
 The Raising an Agent podcast reached season 2 episode 7 on October 30, and the newest time capsule, "How Thorsten Ball Uses Amp", landed October 13.
 The spinout announcement he co-signed describes Amp as profitable; the Hacker News thread on it drew 90 points and the pricing pushback noted below.
@@ -83,6 +83,7 @@ Not for readers who want vendor-neutral tool comparisons, budget harness options
 - 2026-10-28 - Rotation re-verification: Register Spill moved to #103 (2026-10-25, per the Substack feed fetched this run), the Amp news window extended through October 27 (Amp on Android, Assign It To Amp, Self-Hosted Orbs, and four more), the Raising an Agent pointer moved to season 2 episode 6 (October 20), and the new "How Thorsten Ball Uses Amp" time capsule (October 13) recorded; every cited URL re-fetched live, the books and prices unchanged, and the GitHub follower count held at 3.3k.
 - 2026-10-29 - Added the Pricing and Price history sections the note format mandates (the books' $29/$50 prices are unchanged, per the book sites fetched in the 2026-10-28 rotation).
 - 2026-11-15 - Rotation re-verification, every cited URL re-fetched and live: Register Spill moved to #106 (2026-11-15, per the Substack archive fetched this run, with #104 on November 1 and #105 on November 8), the Amp news window extended through November 12 (Bye Bye, Dial ending the Dial, plus Boxes, Spaces, Artifacts, and five more), the Raising an Agent pointer moved to season 2 episode 7 (October 30), and the GitHub follower count held at 3.3k.
+- 2026-11-25 - Cadence check (feed refetched): Register Spill moved to #107 (2026-11-21, per the Substack feed fetched this run).
 
 ## See also
 
@@ -93,9 +94,10 @@ Not for readers who want vendor-neutral tool comparisons, budget harness options
 
 ## References
 
+- https://registerspill.thorstenball.com/feed - the Substack feed: issue numbers and dates through "Joy & Curiosity #107" (2026-11-21)
 - https://thorstenball.com - his bio: Amp co-founder, Zed and Sourcegraph history, books, and newsletter
 - https://thorstenball.com/register-spill - the newsletter's own index page: weekly since April 2023, issues 91 through 100 between July 11 and September 20, 2026
-- https://registerspill.thorstenball.com - the canonical Substack home, over 9,000 subscribers as of 2026-09-24 (held on 2026-11-15), with "Joy & Curiosity #106" (2026-11-15) latest per its archive
+- https://registerspill.thorstenball.com - the canonical Substack home, over 9,000 subscribers as of 2026-09-24 (held on 2026-11-15), with "Joy & Curiosity #107" (2026-11-21) latest per its feed (fetched 2026-11-25)
 - https://ampcode.com/news - the Amp news index: news items with dates through 2026-11-12 (Bye Bye, Dial, Boxes, Spaces, Artifacts), the time capsules, and the Raising an Agent season 2 pointer
 - https://ampcode.com/news/amp-inc - the spinout announcement with the co-founder list including him, and the profitability claim
 - https://interpreterbook.com - Writing An Interpreter In Go: pricing, current version 1.7 (May 2020), and testimonials

@@ -1,9 +1,9 @@
 ---
 title: Owain Lewis
 created: 2026-09-24
-updated: 2026-11-14
+updated: 2026-11-25
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, agentic-coding, software-factory, claude-code]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, people, publications, youtube, agentic-coding, software-factory, claude-code, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers who want working agent infrastructure they can clone rather than just watch, built by a practicing engineering director.
@@ -23,8 +23,8 @@ Uploads run about weekly, and descriptions read like engineering writeups that s
 
 ## Status
 
-Active and steady at modest scale as of 2026-11-14.
-The channel was created 2014-07-20 and shows 19K subscribers; the latest upload is "Google's NEW Approach to Spec-Driven Development with Claude Code" (2026-11-11, 30,461 views within three days, his strongest launch since the July factory video), a walkthrough of Google's EGM spec-driven-development plugin for Claude Code and Codex, the 21st upload between 2026-05-15 and 2026-11-11, roughly one per week, reconfirmed against the RSS feed, after "Claude Code + Linear = An ENTIRE AI Team" (2026-11-02, 10,789 views) and "How Anthropic Reviews 30,000 Claude Code Changes a Day" (2026-10-26, 18,016 views as of 2026-11-14).
+Active and steady at modest scale as of 2026-11-25.
+The channel was created 2014-07-20 and shows 19K subscribers; the latest upload is "Gemini 4 Neon Is INCREDIBLE. Should You Switch?" (2026-11-24, 8,093 views as of 2026-11-25), after "AI Automation With Claude Code Full Course 2027" (2026-11-17, 9,777 views as of 2026-11-25) and "Google's NEW Approach to Spec-Driven Development with Claude Code" (2026-11-11, 62,980 views as of 2026-11-25, his strongest launch since the July factory video), a walkthrough of Google's EGM spec-driven-development plugin for Claude Code and Codex, the 21st of 23 uploads between 2026-05-15 and 2026-11-24, roughly one per week, reconfirmed against the RSS feed, after "Claude Code + Linear = An ENTIRE AI Team" (2026-11-02, 10,789 views) and "How Anthropic Reviews 30,000 Claude Code Changes a Day" (2026-10-26, 18,016 views as of 2026-11-14).
 The 2026-10-05 DevOps-agent upload reached 12,947 views and the 2026-09-28 "JEV Explained" sat at 10,555, while the 2026-09-21 "Inside OpenAI's Agentic Software Factory" climbed to 24,153 (all as of 2026-10-24).
 Reach concentrates in the factory videos: "I Built an Agentic Software Factory" (2026-07-25) is his biggest recent at 82,379 views, while most uploads land between 3,000 and 30,000.
 Trajectory is upward without a breakout, and his roughly 1.2K combined GitHub stars across the pinned repos carry more durable weight than the sub count suggests.
@@ -82,6 +82,7 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 - 2026-10-24 - New upload "My COMPLETE Workflow for Building Production AI Agents" (2026-10-12) became the latest, making 18 uploads between May 15 and October 12, 2026; the funnel shift to the $67/month Skool community and the first Google Cloud sponsorship recorded in Cautions, and the Pricing and Price history sections added (Skool page, feeds, and searches fetched this run).
 - 2026-10-29 - New upload "How Anthropic Reviews 30,000 Claude Code Changes a Day" (2026-10-26) became the latest, making 19 uploads between May 15 and October 26, 2026; RSS feed fetched this run.
 - 2026-11-14 - Rotation re-verification, every cited URL re-fetched and live: two new uploads ("Claude Code + Linear = An ENTIRE AI Team", 2026-11-02, and "Google's NEW Approach to Spec-Driven Development with Claude Code", 2026-11-11) make 21 uploads between May 15 and November 11, 2026, and the newest descriptions lead with a free "AI developer" Skool community alongside the paid one; Cautions and Pricing updated, the free community added to References (feed, Skool pages, and video URLs fetched this run).
+- 2026-11-25 - Cadence check (feed refetched): two new uploads, "AI Automation With Claude Code Full Course 2027" (2026-11-17) and "Gemini 4 Neon Is INCREDIBLE. Should You Switch?" (2026-11-24), making 23 uploads between May 15 and November 24, 2026; "Google's NEW Approach to Spec-Driven Development with Claude Code" reached 62,980 views.
 
 ## See also
 
@@ -92,6 +93,8 @@ Not for someone who wants model-release news, enterprise-scale case studies, or 
 
 ## References
 
+- https://www.youtube.com/watch?v=NYP9aSuQ9sI - "Gemini 4 Neon Is INCREDIBLE. Should You Switch?" (2026-11-24), the newest upload
+- https://www.youtube.com/watch?v=QTgEHpk5rik - "AI Automation With Claude Code Full Course 2027" (2026-11-17)
 - https://www.youtube.com/@owainlewis - the channel: identity and 19K subscribers as of 2026-10-04
 - https://www.youtube.com/feeds/videos.xml?channel_id=UC08YjBHjjPFu8T1KbHGomnQ - the RSS feed that grounds cadence, titles, dates, view counts, and the 2014-07-20 channel creation through the 2026-10-12 upload (uploads-tab fetches still render as JavaScript shells)
 - https://www.skool.com/aiengineer/about - the $67/month Skool community the newest descriptions funnel to: pricing, member count, and what the membership includes
