@@ -1,7 +1,7 @@
 ---
 title: Harbor
 created: 2026-11-18
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, benchmark, evaluation, harness]
 readability: 3
@@ -23,7 +23,7 @@ Two members of this category now ride on it: SlopCodeBench publishes its 36 prob
 
 ## Status
 
-Young and fast: 7,186 stars, Apache-2.0, created 2025-08-04, pushed 2026-11-21 (the default branch moving with the release), on a quickening release train: v0.25.0 (2026-10-25), v0.26.0 (2026-11-13), and v0.27.0 (2026-11-21, eight days later, exposing max-output-token and context-window controls for custom Pi endpoints, recording interrupted trials as cancelled, fixing the Antigravity SDK runner invocation, and announcing Harbor Server on the docs news page), as of 2026-11-21.
+Young and fast: 7,186 stars, Apache-2.0, created 2025-08-04, pushed 2026-11-25 (the default branch's latest commit; 2026-11-24 and 11-25 merged kiro into the installed agents list, retained E2B sandboxes with streamed transfers and mounted volumes, a shared refused-region fix in the boxd backend, automatic concurrency for hosted multi-agent jobs, Modal Sandbox Sidecar support, and a LangSmith nested-agent tracing fix, after the 2026-11-23 NeMo Fabric 0.7 support), on a quickening release train: v0.25.0 (2026-10-25), v0.26.0 (2026-11-13), and v0.27.0 (2026-11-21, eight days later, exposing max-output-token and context-window controls for custom Pi endpoints, recording interrupted trials as cancelled, fixing the Antigravity SDK runner invocation, and announcing Harbor Server on the docs news page), as of 2026-11-25.
 The default branch moved again on 2026-11-23, two days after the release (NeMo Fabric 0.7 support in the native agent, copilot-cli added as a simulated-user target, and viewer-tab documentation), as of 2026-11-24; v0.27.0 remains the newest release.
 
 <picture>
@@ -71,6 +71,7 @@ Not for judging your own application's outputs (that is deepeval or agent-qa ter
 - 2026-11-22 - Corrected the star-history chart markup: the light source and the img fallback carried the dark-theme parameter again; both now point at the default chart, per the coordinator's re-flag.
 - 2026-11-24 - Recorded the default branch's 2026-11-23 move (NeMo Fabric 0.7 support in the native agent and copilot-cli as a simulated-user target); v0.27.0 still the newest release.
 - 2026-11-24 - Recorded two downstream uses per the coordinator's handoff: SlopCodeBench's problems published as the Harbor dataset gabeorlanski/slopcodebench (version 4.0.0, 36 multi-step tasks, one step per checkpoint) and SkillEvaluator's live tier running its sandboxed agent trials through Harbor.
+- 2026-11-25 - Refreshed the activity line: the default branch moved 2026-11-24 and 11-25 (kiro added to the installed agents list, E2B sandboxes retained with streamed transfers and mounted volumes, a shared refused-region fix in the boxd backend, automatic concurrency for hosted multi-agent jobs, Modal Sandbox Sidecar support, and a LangSmith nested-agent tracing fix), v0.27.0 still the newest release.
 
 ## See also
 

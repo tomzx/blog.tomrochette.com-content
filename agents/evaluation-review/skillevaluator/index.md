@@ -1,7 +1,7 @@
 ---
 title: SkillEvaluator
 created: 2026-11-24
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, evaluation, agent-skills, ci, quality-gate, live-evaluation]
 readability: 3
@@ -27,9 +27,9 @@ It is part of NVIDIA's Verified Skills pipeline and the NVIDIA/skills catalog, a
 
 ## Status
 
-Active, young, and heavily starred: 4,453 stars and 565 forks as of 2026-11-24, 38 open issues and pull requests, Apache-2.0, repository created 2026-06-24 and pushed 2026-11-23.
-The published train is v1.0.1 (2026-11-18, its first 1.0-series release, carrying Harness Check, a NeMo Gym backend, and improved agent-assisted evaluation and repository CI), a day after v1.0.0 (2026-11-17, marked superseded) and five days after v0.9.0 (2026-11-13), after v0.8.0 (2026-11-06) and v0.7.0 through v0.7.2 (2026-11-02 to 2026-11-04), with PyPI tracking 1.0.1.
-Main already runs ahead of that train: release-preparation commits for v1.1.0, v1.1.1, and v1.2.0 landed on 2026-11-23 (a GitHub Actions annotations report format, operator host and hook URL allowlists), a v1.1.0 tag exists, no matching GitHub release or PyPI publish existed as of 2026-11-24, and the README on main already points at the 1.2.0 CI bundle.
+Active, young, and heavily starred: 4,453 stars and 565 forks as of 2026-11-24, 38 open issues and pull requests, Apache-2.0, repository created 2026-06-24 and pushed 2026-11-25 (the default branch's latest commit).
+The published train is v1.2.0 (2026-11-24, reviewed hook approvals, a GitHub Actions annotations report format, and more reliable agent evaluation) after v1.0.1 (2026-11-18, its first 1.0-series release, carrying Harness Check, a NeMo Gym backend, and improved agent-assisted evaluation and repository CI), a day after v1.0.0 (2026-11-17, marked superseded) and five days after v0.9.0 (2026-11-13), after v0.8.0 (2026-11-06) and v0.7.0 through v0.7.2 (2026-11-02 to 2026-11-04), with PyPI tracking 1.2.0.
+The 1.1-series tags stayed unreleased: release-preparation commits for v1.1.0, v1.1.1, and v1.2.0 landed on 2026-11-23 (a GitHub Actions annotations report format, operator host and hook URL allowlists), and v1.2.0 then published to GitHub Releases and PyPI on 2026-11-24, after the note's same-day read, with the v1.1.0 and v1.1.1 tags carrying no GitHub release or PyPI publish as of 2026-11-25.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=NVIDIA/SkillEvaluator&type=date&theme=dark&legend=top-left" />
@@ -78,6 +78,7 @@ My disagreeable claim: Harness Check will matter to more teams than Skill Lift, 
 ## Changes
 
 - 2026-11-24 - Created from the coordinator's automated-research handoff, admitted as the category's skill-and-plugin evaluation gate beside the app-level acceptance harness.
+- 2026-11-25 - Recorded the v1.2.0 release (published to GitHub Releases and PyPI 2026-11-24, after the note's same-day read: reviewed hook approvals, GitHub Actions annotations, and more reliable agent evaluation; the v1.1.0 and v1.1.1 tags stay unreleased) and refreshed the activity line (the default branch's latest commit 2026-11-25).
 
 ## See also
 
@@ -91,7 +92,7 @@ My disagreeable claim: Harness Check will matter to more teams than Skill Lift, 
 
 - https://github.com/NVIDIA/SkillEvaluator - repository: README, the three-tier pipeline, the gate rules, CI templates, the Experimental support level, and NVIDIA Verified Skills membership (fetched 2026-11-24)
 - https://api.github.com/repos/NVIDIA/SkillEvaluator - 4,453 stars and 565 forks as of 2026-11-24, 38 open issues and pull requests, Apache-2.0, created 2026-06-24, pushed 2026-11-23
-- https://api.github.com/repos/NVIDIA/SkillEvaluator/releases - the release train: v1.0.1 (2026-11-18), v1.0.0 (2026-11-17, superseded), v0.9.0 (2026-11-13), back to v0.1.0 (2026-08-05), and main's 2026-11-23 release-preparation commits for v1.1.0, v1.1.1, and v1.2.0
+- https://api.github.com/repos/NVIDIA/SkillEvaluator/releases - the release train: v1.2.0 (2026-11-24), v1.0.1 (2026-11-18), v1.0.0 (2026-11-17, superseded), v0.9.0 (2026-11-13), back to v0.1.0 (2026-08-05), and main's 2026-11-23 release-preparation commits for v1.1.0, v1.1.1, and v1.2.0
 - https://pypi.org/pypi/skillevaluator/json - 1.0.1 published 2026-11-18, Python 3.12 to 3.14
 - https://docs.nvidia.com/skills/skillevaluator/ - the documentation hub: the tiers, Apache-2.0, the Experimental support statement, and NVIDIA Verified Skills
 - https://docs.nvidia.com/skills/skillevaluator/tier1-reference - the Tier 1 checks, the 70 passing threshold, the gate rules (Tier 1 always gates, Tier 3 advisory by default), and the INCOMPLETE rule for missing or crashed scanners

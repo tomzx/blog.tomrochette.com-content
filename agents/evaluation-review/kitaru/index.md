@@ -1,7 +1,7 @@
 ---
 title: Kitaru
 created: 2026-10-14
-updated: 2026-11-24
+updated: 2026-11-25
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, evaluation-review, replay-evals, regression-testing]
 readability: 3
@@ -23,7 +23,7 @@ Evaluations start from you: an investigation has your coding assistant interview
 
 ## Status
 
-Active and vendor-backed: 308 stars, 26 forks as of 2026-10-14, last push 2026-11-23 (actionable client-side error messages in the PydanticAI and LangGraph adapters merged on the develop default branch), after the 2026-11-19 kitaru feedback command, suggested when the CLI hits a likely bug, after the 2026-11-12 session analyze command and stale-docs fixes on the default branch and the repository-level 2026-11-17 side-branch push, after the 2026-11-10 push that prepared the 0.27.7 release and the installer Python-selection fixes, with the repository created 2026-03-05.
+Active and vendor-backed: 308 stars, 26 forks as of 2026-10-14, last push 2026-11-24 (custom trace viewers added to the MCP server, the develop default branch's latest commit, among dependency-group bumps), after the 2026-11-23 actionable client-side error messages in the PydanticAI and LangGraph adapters on the develop default branch, after the 2026-11-19 kitaru feedback command, suggested when the CLI hits a likely bug, after the 2026-11-12 session analyze command and stale-docs fixes on the default branch and the repository-level 2026-11-17 side-branch push, after the 2026-11-10 push that prepared the 0.27.7 release and the installer Python-selection fixes, with the repository created 2026-03-05.
 The release train is fast and coordinated: PyPI 0.27.7 (2026-11-10) is the newest, following the four-day wave of TypeScript SDK 0.8.0 (2026-11-02), 0.27.4 and 0.27.5 plus adapter-package releases, and 0.27.6 (2026-11-04), with the adapter packages versioned in step, and roughly 21,000 PyPI downloads in the last month (pypistats, as of 2026-11-22, up from the roughly 9,900 read on 2026-10-31), the one adoption receipt here that is not self-reported.
 It has already pivoted once: launched March 2026 as open-source infrastructure for async agents, carried a durable-runtime framing through July, and relaunched on 2026-08-18 around replay-based evals with Workers replacing the old Stacks concept, and parts of the docs still describe the older flows-and-checkpoints framing.
 The standalone kitaru.ai site folded into zenml.io in October 2026: the pricing page is now a Kitaru workspace tab on zenml.io/pricing, the relaunch post moved to the ZenML blog, and the pricing FAQ says one subscription covers both products on one bill.
@@ -86,6 +86,7 @@ Not for prototypes (its own docs say it will feel like more machinery than you n
 - 2026-11-11 - Recorded PyPI 0.27.7 (2026-11-10, prepared by PR 1504 alongside installer Python-selection fixes merged on the develop branch) and refreshed the activity line.
 - 2026-11-13 - Refreshed the activity line: the default branch moved 2026-11-12 with the kitaru session analyze command (PR 1407) and stale-docs fixes (PR 1511); PyPI 0.27.7 still the newest.
 - 2026-11-22 - Rotation re-verification: every cited URL re-fetched and live (the repository, the docs hub, the relaunch post, the zenml.io pricing tab, the PyPI record still at 0.27.7, the HN thread still at 2 points with zero comments, and the companion skills repository), the default branch re-confirmed at its 2026-11-19 feedback-command merge with the repository-level 2026-11-20 push side-branch, the trailing-month PyPI download figure refreshed to roughly 21,000 as of 2026-11-22, and the skills repository's push date moved to 2026-11-19 in the references.
+- 2026-11-25 - Refreshed the activity line: the develop default branch moved 2026-11-23 and 11-24 (custom trace viewers added to the MCP server among dependency-group bumps), PyPI 0.27.7 still the newest.
 
 ## See also
 
