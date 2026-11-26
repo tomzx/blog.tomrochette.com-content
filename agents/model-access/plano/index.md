@@ -1,9 +1,9 @@
 ---
 title: Plano
 created: 2026-10-07
-updated: 2026-11-12
+updated: 2026-11-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, llm=glm-5.3-flash, model-access, llm-gateway, self-hosted]
 readability: 3
 audience_notes: >
   Engineers choosing self-hosted gateway software to sit in front of their model providers.
@@ -75,6 +75,7 @@ My disagreeable claim: as a model-access product Plano is a side quest inside an
 - 2026-10-26 - Corrected the star-history chart's light-scheme source (it carried the dark-theme parameter; only the dark source may).
 - 2026-11-03 - Rotation re-verification: every cited URL re-fetched live (repository API, README, the product site, the DigitalOcean announcement, both Hacker News URLs, and the releases feed) with every claim held, 0.4.39 still the latest release and the repo pushed 2026-10-24 unchanged; the DigitalOcean post rendered navigation-only in this fetch, so the acquisition claim stands on the product site's own acquisition banner and footer from the same run.
 - 2026-11-12 - Rotation re-verification: every cited URL re-fetched live (repository API, README, the product site, the DigitalOcean announcement, both Hacker News queries, and the releases feed) with every claim held, 0.4.39 still the latest release and the repo pushed 2026-10-24 unchanged; the DigitalOcean post again rendered navigation-only, so the acquisition claim again stands on the product site's own banner and footer; nothing moved.
+- 2026-11-26 - Rotation re-verification: every cited URL re-fetched live (the repository API, the README, the product site, the DigitalOcean announcement, both Hacker News URLs, and the releases feed) with every claim held, 0.4.39 still the latest release and the repo pushed 2026-10-24 unchanged; the DigitalOcean post rendered its body text this time (Vinay Kumar, updated April 2, 2026), so the acquisition claim now stands on that page as well as the product site's own banner; nothing moved.
 
 ## See also
 
