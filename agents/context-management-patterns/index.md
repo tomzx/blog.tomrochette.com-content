@@ -1,16 +1,16 @@
 ---
 title: "Context Management Patterns"
 created: 2026-08-24
-updated: 2026-11-21
+updated: 2026-11-26
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3, context-management, coding-agents, context-engineering, llm=glm-5.3-flash, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers who drive terminal coding agents daily and want sessions that stay sharp on large codebases and long tasks.
   Assumes you know what a token budget is and have watched an agent degrade after its window filled.
 ---
 
-This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-11-19.
+This is a maintained guide to the patterns that fit large codebases and long tasks into agent context windows: selective loading, packing, retrieval, compaction, and memory files; verified against harness documentation as of 2026-11-26.
 
 **Every working pattern does one thing, it keeps the window small and fresh, and in 2026 the harness-native features (compaction, subagents, memory files) deliver more of that value than any retrieval pipeline you can buy.**
 My disagreeable claim: below a few hundred thousand lines of code, a short memory file plus automatic compaction beats a bespoke RAG stack, and teams buying context engines before learning their harness's `/compact` are paying money to avoid learning a skill.
@@ -66,6 +66,11 @@ All three major harnesses expose it manually: `/compact <instructions>` in Claud
 Claude Code goes further than most: the rewind menu summarizes from or up to a chosen checkpoint, and `/btw` answers side questions that never enter history at all, the same idea as Codex's `/side`.
 The steering mechanism most engineers miss: put compaction directives in the memory file ("when compacting, always preserve the modified-file list and test commands"), which turns a lossy default into a controlled one.
 Claude Code also exposes the trigger itself now: run /autocompact with a token count, like /autocompact 500k, to set how full the window gets before the automatic pass runs.
+Claude Code's docs, re-read 2026-11-26 on pages stamped 2026-11-17 and 2026-11-25, now add four things this essay had left out.
+The steering directive has a documented home: add a "Compact Instructions" section to CLAUDE.md, next to running /compact with a focus.
+And the auto-compact trigger depends on the model and configuration: a session on a model ID Claude Code does not recognize, such as an LLM gateway alias, compacts at the window Claude Code assumes for that ID until you correct the window, so a BYOK route through a gateway can move the trigger without your changing anything.
+The survival table also grew: the plan Claude wrote in plan mode is re-injected from disk, background commands and subagents keep running, and SessionStart hooks that match the compact source run and add their output to the compacted context.
+The same pages name the failure mode that enforces the just-in-time pattern from the other side: a single file or tool output so large that context refills right after each summary makes Claude Code stop auto-compacting after a few attempts and show an error instead of looping.
 Augment's rebuild, recorded in its note, runs proactive compaction on a cheaper model and measured 53% lower cost per task, so compaction is also a cost lever, not only a capacity lever.
 The caution is real: Anthropic warns overly aggressive compaction loses subtle context whose importance shows up later, which is the argument for files.
 
@@ -95,7 +100,7 @@ The design question is no longer hypothetical: I still treat review-gated captur
 
 **Compaction defaults and memory features are the fastest-moving surfaces in every harness, so every claim here carries a date.**
 Gemini CLI's Auto Memory is explicitly experimental and off by default, Claude Code's auto memory and compaction-survival rules are newer and have both changed repeatedly across releases, and Augment's efficiency numbers await independent replication.
-On each refresh I re-fetch the four harness pages cited below plus the context-engine notes, and I update this page and its date together.
+On each refresh I re-fetch the harness pages cited below plus the context-engine notes, and I update this page and its date together.
 A pattern claim that no longer matches the docs gets deleted, not hedged.
 
 ## What to Do Next
@@ -126,6 +131,7 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - 2026-11-17 - Link check with one repoint: all nine cited pages fetched 200, the Anthropic engineering post's URL began redirecting from /engineering/ to /research/ and the reference was repointed, and the compaction-survival enumeration re-checked against the live context-window page with nothing to correct (up to five of the session's read-or-edited files re-read by recency, invoked-skill bodies capped at 5,000 per skill and 25,000 in total with the oldest dropped first, skill descriptions rebuilt since v2.1.304, idle compaction named, /autocompact with a token count); the intro as-of re-dated to this run's full re-fetch.
 - 2026-11-19 - Link check with one repoint: all nine cited pages fetched 200 (the OpenCode TUI page repointed to docs/cli/tui/ after its old path began redirecting), the compaction-survival enumeration, skill caps (5,000 per skill and 25,000 in total, oldest dropped first), v2.1.304 skill-description rebuild, /autocompact, and idle-compaction claims re-checked against the live context-window page with nothing to correct, and the intro as-of re-dated to this run's full re-fetch.
 - 2026-11-21 - Link check: all nine cited pages fetched 200, the compaction-survival enumeration, skill caps (5,000 per skill and 25,000 in total, oldest dropped first), v2.1.304 skill-description rebuild, /autocompact, and idle-compaction claims re-checked against the live context-window page with nothing to correct, and the intro as-of left at 2026-11-19 since no fact moved.
+- 2026-11-26 - Queue standing item: re-grounded the compaction pattern in harness documentation updated this month, with the context-window page (stamped 2026-11-17) and the how-claude-code-works and model-config pages (stamped 2026-11-25) fetched this run: the steering directive now has a documented home (a "Compact Instructions" section in CLAUDE.md), the auto-compact trigger depends on the model and configuration with a documented window correction for unrecognized model IDs such as an LLM gateway alias, the survival table gained the plan-mode plan re-injected from disk, running background commands and subagents, and SessionStart hooks matched to the compact source, and the pages name the thrashing failure (one oversized file or tool output refilling the window after each summary stops auto-compaction with an error); the model-config page added to the references, the refresh sentence corrected from four harness pages to the cited set, all ten cited pages fetched 200 (the model-config page included), and the intro as-of re-dated.
 
 ## See also
 
@@ -140,8 +146,9 @@ A pattern claim that no longer matches the docs gets deleted, not hedged.
 - https://www.anthropic.com/research/effective-context-engineering-for-ai-agents - context rot, attention budgets, compaction mechanics, structured note-taking, sub-agent summaries, just-in-time retrieval (the /engineering/ URL began redirecting to /research/ by the 2026-11-17 fetch and the reference was repointed)
 - https://code.claude.com/docs/en/best-practices - Claude Code auto-compaction, /compact with instructions, /clear, /btw, memory-file pruning, compaction directives
 - https://code.claude.com/docs/en/memory - Claude Code auto memory (on by default, first 200 lines or 25KB of MEMORY.md per project, /memory toggle and autoMemoryEnabled setting) and the note that project CLAUDE.md is re-read after compaction
-- https://code.claude.com/docs/en/context-window - the compaction-survival documentation: summary contents, up to five of the session's read-or-edited files re-read by recency, invoked-skill bodies re-injected with the 5,000 and 25,000 token caps and oldest-dropped-first, skill descriptions rebuilt and re-injected since v2.1.304, and the named idle-compaction behavior (fetched 2026-10-23, 2026-10-31, and again 2026-11-03, the page now organizing survival per mechanism and naming idle compaction)
-- https://code.claude.com/docs/en/how-claude-code-works - the when-context-fills-up section whose summary claim (requests and key code snippets kept, detailed early instructions may be lost) the compaction paragraph now cites (fetched 2026-10-31)
+- https://code.claude.com/docs/en/context-window - the compaction-survival documentation: summary contents, up to five of the session's read-or-edited files re-read by recency, invoked-skill bodies re-injected with the 5,000 and 25,000 token caps and oldest-dropped-first, skill descriptions rebuilt and re-injected since v2.1.304, and the named idle-compaction behavior (fetched 2026-10-23, 2026-10-31, and again 2026-11-03, the page now organizing survival per mechanism and naming idle compaction; re-fetched 2026-11-26 on a page stamped 2026-11-17, now carrying a full-session timeline and the per-mechanism survival table)
+- https://code.claude.com/docs/en/how-claude-code-works - the when-context-fills-up section whose summary claim (requests and key code snippets kept, detailed early instructions may be lost) the compaction paragraph now cites (fetched 2026-10-31; re-fetched 2026-11-26 on a page stamped 2026-11-25, the Compact Instructions section and the auto-compaction thrashing error read there)
+- https://code.claude.com/docs/en/model-config - Default auto-compact thresholds, Set the auto-compact window, and Correct the window for a gateway or custom model ID (sessions on a model ID Claude Code does not recognize, such as an LLM gateway alias, compact at the window Claude Code assumes for it); page stamped 2026-11-25, fetched 2026-11-26
 - https://learn.chatgpt.com/docs/reference/slash-commands - Codex /compact, /status context usage, and /side (the developers.openai.com URL redirects here)
 - https://opencode.ai/docs/cli/tui/ - OpenCode /compact (alias /summarize), /new (alias /clear), and @ file references
 - https://raw.githubusercontent.com/google-gemini/gemini-cli/main/docs/cli/auto-memory.md - Gemini CLI Auto Memory: review-gated extraction of memory patches and skills from past sessions

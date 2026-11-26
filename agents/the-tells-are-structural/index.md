@@ -1,9 +1,9 @@
 ---
 title: "The Tells Are Structural"
 created: 2026-09-02
-updated: 2026-11-21
+updated: 2026-11-26
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, ai, llm, writing, evaluation]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, ai, llm, writing, evaluation, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Assumes the reader is an engineer who regularly ships LLM-assisted writing (documentation, pull request replies, postmortems, design docs) and has watched readers discount such text as AI slop. No NLP background required; every study cited is summarized in plain terms.
@@ -13,7 +13,7 @@ I generate drafts with LLMs every day, and so does almost every engineer I know.
 Somewhere along the way a reader can tell, and the text starts getting discounted before its content gets read.
 **The popular fixes are word swaps, and word swaps fail because the tell is not the words, it is the structure.**
 A 2026 study put numbers on this, and the numbers should change how you edit anything AI-assisted that other engineers will read.
-Every source below was fetched and re-verified on 2026-11-19.
+Every source below was fetched and re-verified on 2026-11-26.
 
 ## The humanizer trap
 
@@ -94,6 +94,7 @@ If you review other people's writing, read structure rather than vocabulary; a d
 - 2026-11-17 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures unchanged and the no-ai-slop ruleset's six structural rule ids intact with further structural rules beside them; the star figures left untouched per the stars exemption, and the intro's re-verification date re-dated to this run's fetch.
 - 2026-11-19 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures unchanged and the no-ai-slop ruleset's six structural rule ids (binary_contrast, throat_clearing, faux_insight, dramatic_fragmentation, fake_profound_kicker, summary_recap) intact with further structural rules beside them; the star figures left untouched per the stars exemption, and the intro's re-verification date re-dated to this run's fetch.
 - 2026-11-21 - Re-fetched all eight cited sources, every one 200, with the StoryScope, human-detector, LAMP, and slop-study figures unchanged and the no-ai-slop ruleset's six structural rule ids (binary_contrast, throat_clearing, faux_insight, dramatic_fragmentation, fake_profound_kicker, summary_recap) intact with further structural rules beside them; the star figures left untouched per the stars exemption, and the intro's re-verification date holds at 2026-11-19 since no fact moved.
+- 2026-11-26 - Re-fetched all eight cited sources, every one 200 (the two repositories re-verified through the GitHub API, both live and unarchived), with the StoryScope figures re-checked on the paper's full text (61,608 stories, 304 features, 93.2 percent narrative-only detection, 93.9 percent after style editing, the rarity percentiles, and the gap figures), the human-detector's 1-of-300 majority vote, the LAMP seven-category taxonomy and 1,057 paragraphs on the abstract with the 18-writer count on the paper's full text, and the slop-study wording unchanged, and the no-ai-slop ruleset's six structural rule ids intact; the star figures left untouched per the stars exemption, and the intro's re-verification date re-dated to this run's fetch.
 
 ## See also
 

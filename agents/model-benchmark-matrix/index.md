@@ -1,7 +1,7 @@
 ---
 title: "Model Benchmark Matrix"
 created: 2026-09-24
-updated: 2026-11-24
+updated: 2026-11-26
 status: finished
 tags: [agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=deepseek-v4.1-flash, llm=glm-5.4, comparison, benchmarks, evaluation, model-selection]
 readability: 3
@@ -128,6 +128,7 @@ When two boards rank the same models differently, the gap tells you where the mo
 - 2026-11-21 - Link re-verification with the PaperBench page readable again: every cited URL re-fetched and all 35 fetched 200, the OpenAI PaperBench page returning 200 for the first time since 2026-10-11 with its claims (20 ICML 2024 papers, 8,316 rubric tasks, the 21.0 percent best agent, the human baseline) re-read on the page itself instead of the arXiv proxy, and Terminal-Bench still at 4.1 on its homepage; the intro as-of re-dated to this run's full re-fetch.
 - 2026-11-24 - Added Terminal-Bench-Science to the agentic software engineering group after its official site and repository README were fetched (96 expert-curated tasks across five scientific domains, run through Harbor, hosted by Stanford, Harbor, and the Laude Institute), with a reading note that maker-reported launch numbers reach aggregator pages before the official board and that the openresearch.sh Evals page's 70-task count lagged the README, moving the count to thirty-four and the intro as-of to today; every cited URL status-checked (all 35 fetched 200), the other rows' content and Terminal-Bench's homepage version not re-read, and openresearch.sh's Rankings and Evals pages kept out as ecosystem evidence (a usage telemetry ranking and an aggregator mixing maker-reported scores).
 - 2026-11-24 - Added PostTrainBench to the agentic software engineering group on its own sources (the official leaderboard at v1.2, the arXiv paper, and the repository README fetched 2026-11-24), resolving the candidate openresearch.sh's Evals page surfaced, with a reading note on the model-and-scaffold reading, the v1.1 integrity judges after Epoch AI's independent review, and the page's stale seven-benchmark footnote; count to thirty-five.
+- 2026-11-26 - Link re-verification: every cited URL re-fetched, all fetched 200 this run (the OpenAI PaperBench page included), Terminal-Bench still at 4.1 on its homepage, and the other rows' content not re-read; no fact moved, so the intro as-of stays at 2026-11-24.
 
 ## See also
 

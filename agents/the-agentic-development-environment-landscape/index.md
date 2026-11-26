@@ -1,9 +1,9 @@
 ---
 title: "The Agentic Development Environment Landscape"
 created: 2026-07-04
-updated: 2026-11-21
+updated: 2026-11-26
 status: finished
-tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains]
+tags: [agent-curated, fully-ai-generated, llm=glm-5.2, llm=glm-5.3-flash, ade, landscape, orchestration, opencode, claude-code, jetbrains, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Assumes the reader has run at least one terminal coding agent (Claude Code, Codex, OpenCode) and understands why steering several at once is hard.
@@ -13,7 +13,7 @@ agent_sessions:
 
 The terminal coding agent answered the question of whether an AI can edit a real repository.
 The next problem is harder: how do you run several of them, watch what they are doing, and keep them from colliding on the same files.
-In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-11-19.
+In the space of roughly a year, **a new product category has condensed around exactly that problem**, picked up a name (the Agentic Development Environment, or ADE), earned its own [GitHub topic](https://github.com/topics/ade), and produced a leaderboard anyone evaluating tools should know about; live product claims below were re-verified on 2026-11-26.
 
 ## What an ADE is, and what it is not
 
@@ -69,6 +69,7 @@ For a buyer whose first question is "what is this sending home," Paseo is the an
 
 [Emdash](https://github.com/generalaction/emdash) is the open-source ADE with the clearest enterprise intent.
 It is a YC W26 company, runs multiple agents in parallel with any provider, and leans into integrations that solo-hacker tools tend to skip: Jira, Linear, and containerization as first-class concerns.
+As of 2026-11-26 the repository calls itself Emdash Classic, and its page says the open-source desktop app stays available and keeps getting fixes while new development has moved to Emdash 2.0, a cloud product for whole teams in early access, so the open-source half of this line is a maintenance bet now.
 It rounds out a top five that now spans open source (Orca, Paseo, Emdash, and Paradev, which relicensed from Elastic License 2.0 to MIT in November) and commercial (Air), which is a healthier mix for such a young category than the snapshot recorded.
 
 ## The mid-tier and the long tail
@@ -159,6 +160,7 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - 2026-11-17 - Rotation re-verification with one repository transfer: every one of the 17 cited URLs fetched 200 this run, and genie's repository moved from the automagik-dev org to automagik-si (the body link and the reference repointed to the new home); Air's supported-agent, surface, gateway, Junie, and some-customers cloud-run claims re-verified unchanged against its live page, Paradev's MIT license, Orca's MIT, Paseo's NOASSERTION Apache-2.0 wrapper, and Emdash's Apache-2.0 re-confirmed through the repository API, Agent Orchestrator's description still reading 35-plus supported agents (now with desktop and iPhone-and-Android app lines beside it), the eleven referenced repositories live and unarchived, and Orca's dated star count left untouched per the stars exemption; the intro's re-verification date re-dated to this run's fetch.
 - 2026-11-19 - Rotation re-verification: fifteen of the 17 cited URLs fetched 200 this run, with both GitHub topic pages 429 to the scripted fetch on repeated attempts (recorded for the next pass) and the OpenCode ACP citation repointed to docs/cli/acp/ after its old path began redirecting; Air's page re-fetched 200 with its supported-agent, surface, gateway, and cloud-run claims as written, the eleven referenced repositories re-confirmed live and unarchived through the repository API with Paradev's MIT, Orca's MIT, Paseo's NOASSERTION Apache-2.0 wrapper, and Emdash's Apache-2.0 standing, Agent Orchestrator's description still reading 35-plus supported agents beside the desktop and mobile app lines, and Orca's dated star count left untouched per the stars exemption; the intro's re-verification date re-dated to this run's fetch.
 - 2026-11-21 - Rotation re-verification with no fact moves: every one of the 17 cited URLs fetched 200 this run (both GitHub topic pages included, the 11-19 429s cleared), Air's supported-agent, surface, gateway, and cloud-run claims re-verified unchanged against its live page (Claude Agent, Codex, Junie, Copilot, and OpenCode named beside the ACP phrase; JetBrains IDEs, Web, CLI, and Mobile; Air Gateway; the some-customers cloud-run rollout), the eleven referenced repositories re-confirmed live and unarchived through the repository API with Paradev's MIT, Orca's MIT, Paseo's NOASSERTION Apache-2.0 wrapper, and Emdash's Apache-2.0 standing, Agent Orchestrator's description still reading 35-plus supported agents, and Orca's dated star count left untouched per the stars exemption; the intro's verification date holds at 2026-11-19.
+- 2026-11-26 - Full re-verification with one status move: every one of the 17 cited URLs fetched 200 this run (both GitHub topic pages included), and Emdash now labels its open-source desktop app Emdash Classic (the repository's title and description, and its page at emdash.com/classic, fetched 200) while new development has moved to Emdash 2.0, a cloud product for whole teams in early access, so the Emdash paragraph and its references now say the open-source line is a maintenance bet; Air's supported-agent, surface, gateway, and cloud-run claims re-verified unchanged against its live page (Claude Agent, Codex, Junie, Copilot, and OpenCode named beside the ACP phrase; JetBrains IDEs, Web, CLI, and Mobile; Air Gateway; the some-customers cloud-run rollout), the eleven referenced repositories re-confirmed live and unarchived through the repository API with Paradev's MIT, Orca's MIT, Paseo's NOASSERTION Apache-2.0 wrapper, and Emdash's Apache-2.0 standing, Agent Orchestrator's description still reading 35+ coding agents beside the desktop and mobile app lines, and Orca's dated star count left untouched per the stars exemption; the intro's re-verification date re-dated to this run's fetch.
 
 ## See also
 
@@ -177,7 +179,8 @@ The ADE is not a passing fashion; it is the productized answer to a real bottlen
 - [JetBrains Air](https://www.jetbrains.com/air/) - the incumbent's commercial ADE
 - [JetBrains, "Air Launches as Public Preview"](https://blog.jetbrains.com/air/2026/03/air-launches-as-public-preview-a-new-wave-of-dev-tooling-built-on-26-years-of-experience/) - Air's positioning, supported agents, and roadmap
 - [JetBrains + Zed, Agent Client Protocol](https://blog.jetbrains.com/ai/2025/10/jetbrains-zed-open-interoperability-for-ai-coding-agents-in-your-ide/) - the interop standard that makes vendor-neutral ADEs credible
-- [generalaction/emdash](https://github.com/generalaction/emdash) - open-source ADE, YC W26, enterprise-integration focus
+- [generalaction/emdash](https://github.com/generalaction/emdash) - open-source ADE, YC W26, enterprise-integration focus; now titled Emdash Classic, with new development moved to Emdash 2.0 (repository read 2026-11-26)
+- [Emdash Classic](https://emdash.com/classic) - the open-source desktop app's page: it stays available and keeps getting fixes while new development has moved to Emdash 2.0, coding agents for a whole team in the cloud, in early access (fetched 200, 2026-11-26)
 - [OrchestratorInc/agent-orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) - desktop kanban orchestrator supervising 26-plus CLIs, now profiled in the section (four org moves: ComposioHQ, AgentWrapper, Untrivial-ai, OrchestratorInc)
 - [kdlbs/kandev](https://github.com/kdlbs/kandev) - AI Kanban plus development environment, self-hostable, no telemetry
 - [greenfield-inc/Pane](https://github.com/greenfield-inc/Pane) - terminal-first agent manager with remote phone access (moved from the dcouple org)
