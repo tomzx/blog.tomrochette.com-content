@@ -1,9 +1,9 @@
 ---
 title: OpenWorker
 created: 2026-10-02
-updated: 2026-11-21
+updated: 2026-11-26
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, assistant-runtimes, desktop, security, sandboxing]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, assistant-runtimes, desktop, security, sandboxing]
 readability: 3
 audience_notes: >
   Engineers who want a governed desktop AI coworker that finishes whole tasks and are watching the assistant-runtime space.
@@ -23,7 +23,7 @@ Every action an agent takes is governed and logged, approvals are configurable, 
 
 ## Status
 
-Early and moving fast: about 18,500 stars in its first thirteen weeks as of 2026-10-17 (created 2026-07-20), with v0.3.1 released 2026-10-05, the last push on 2026-11-20 as of 2026-11-21, and a public beta disclaimer on the README.
+Early and moving fast: about 18,500 stars in its first thirteen weeks as of 2026-10-17 (created 2026-07-20), with v0.3.1 released 2026-10-05, the last push on 2026-11-25 as of 2026-11-26, and a public beta disclaimer on the README.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=andrewyng/openworker&type=date&theme=dark&legend=top-left" />

@@ -1,7 +1,7 @@
 ---
 title: QwenPaw
 created: 2026-08-30
-updated: 2026-11-24
+updated: 2026-11-26
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, assistant-runtimes, python, self-hosted, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Apache-2.0, by the AgentScope team; Alibaba involvement is visible in the deploy
 
 ## Status
 
-Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02-24, 1,173 open issues and PRs with the last push on 2026-11-23 as of 2026-11-24.
+Rapid and churny: 35,651 stars and 3,181 forks as of 2026-10-14, created 2026-02-24, 1,177 open issues and PRs with the last push on 2026-11-26 as of 2026-11-26.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=agentscope-ai/QwenPaw&type=date&theme=dark&legend=top-left" />
@@ -47,7 +47,7 @@ v2.1.0 shipped 2026-08-13, v2.2.0 went stable on PyPI on 2026-09-03, and v2.2.1 
 - `qwenpaw init --defaults` auto-accepts the telemetry prompt, which privacy-conscious users must opt out of explicitly.
 - Young and heavily rewritten, with much of the roadmap (voice, computer use, multi-workspace) still in progress.
 - The macOS desktop app is beta and unnotarized, requiring a Gatekeeper bypass.
-- 1,173 open issues and PRs as of 2026-11-24, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
+- 1,177 open issues and PRs as of 2026-11-26, and the Alibaba-ecosystem gravity (ECS, DashScope, DingTalk) may bias defaults despite provider neutrality.
 
 ## Pricing
 
@@ -80,6 +80,7 @@ Not for stability-first adopters mid-rewrite, or users who will not read the tel
 - 2026-11-13 - Recorded v2.3.0 going stable (2026-11-11, GitHub and PyPI the same day: Piccolo local decision models, Advisor Mode, experimental Python Code Mode, image memory with decision-model compaction in ReMe, an OpenViking memory plugin, and ChatGPT-subscription sign-in), with the PyPI registry re-checked (2.3.0 the newest stable and upload) and refreshed adoption numbers.
 - 2026-11-20 - Recorded v2.3.0.post1 (2026-11-18, GitHub and PyPI the same day: a third-party agent extracted into a plugin, cron run tracking, and console fixes on a no-single-headline patch train), with the PyPI registry re-checked (2.3.0.post1 the newest stable and upload) and refreshed adoption numbers.
 - 2026-11-24 - Recorded the v2.3.1 line opening as a beta (v2.3.1-beta.1, 2026-11-23, on GitHub and PyPI the same day: approval required for shell-based email sends, HTTP writes, and uploads, MCP and local model management extracted into plugins, QQ group messages with mention-only filtering, console reconnects to externally started chat runs, and console and channel fixes, no single headline), with the PyPI registry re-checked (2.3.0.post1 still the newest stable) and refreshed adoption numbers.
+- 2026-11-26 - Rotation re-verification: every cited URL re-fetched live (repo and README, the docs site, the platform, the PyPI registry, the AgentScope parent repo), v2.3.0.post1 (2026-11-18) confirmed still the newest stable with v2.3.1-beta.1 (2026-11-23) still the newest release on GitHub and the newest upload on PyPI while main carries an unpublished 2.3.1b2 version bump, and the seven-channel matrix, the five security layers, and the five QwenPaw-Flash sizes intact in the README, with refreshed adoption numbers.
 
 ## See also
 
@@ -92,7 +93,7 @@ Not for stability-first adopters mid-rewrite, or users who will not read the tel
 
 - https://raw.githubusercontent.com/agentscope-ai/QwenPaw/HEAD/README.md - channels, security layers, install, roadmap
 - https://github.com/agentscope-ai/QwenPaw - stars, forks, dates, language
-- https://pypi.org/project/qwenpaw/ - package versions and cadence (re-checked 2026-11-24 via the registry API, 2.3.0.post1 the newest stable and 2.3.1b1 the newest upload)
+- https://pypi.org/project/qwenpaw/ - package versions and cadence (re-checked 2026-11-26 via the registry API, 2.3.0.post1 the newest stable and 2.3.1b1 the newest upload)
 - https://qwenpaw.agentscope.io/ - the docs site
 - https://github.com/agentscope-ai/agentscope - the parent framework behind the v2.0 rewrite
 - https://platform.agentscope.io/ - the free cloud deployment option
