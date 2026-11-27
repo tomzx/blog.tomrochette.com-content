@@ -1,7 +1,7 @@
 ---
 title: SkillEvaluator
 created: 2026-11-24
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, evaluation, agent-skills, ci, quality-gate, live-evaluation]
 readability: 3
@@ -27,8 +27,8 @@ It is part of NVIDIA's Verified Skills pipeline and the NVIDIA/skills catalog, a
 
 ## Status
 
-Active, young, and heavily starred: 4,453 stars and 565 forks as of 2026-11-24, 38 open issues and pull requests, Apache-2.0, repository created 2026-06-24 and pushed 2026-11-25 (the default branch's latest commit).
-The published train is v1.2.0 (2026-11-24, reviewed hook approvals, a GitHub Actions annotations report format, and more reliable agent evaluation) after v1.0.1 (2026-11-18, its first 1.0-series release, carrying Harness Check, a NeMo Gym backend, and improved agent-assisted evaluation and repository CI), a day after v1.0.0 (2026-11-17, marked superseded) and five days after v0.9.0 (2026-11-13), after v0.8.0 (2026-11-06) and v0.7.0 through v0.7.2 (2026-11-02 to 2026-11-04), with PyPI tracking 1.2.0.
+Active, young, and heavily starred: 4,453 stars and 565 forks as of 2026-11-24, 38 open issues and pull requests, Apache-2.0, repository created 2026-06-24 and pushed 2026-11-26 (repository-level; the default branch's latest commit is 2026-11-25, requiring SkillSpector 2.13.7 or newer, PR 901, adding PR comments on the stable channel, PR 899, and Tier 1 and Tier 2 artifact scanning and reporting, PR 897).
+The published train is v1.2.1 (2026-11-25, the verified 1.2.1 CI bundle with matching scanner, workflow, and CLI pins, a locked Tier 2 CI container with credential-free build verification, and Tier 3 paired-case lift estimates with a 95% bootstrap interval and pass^k beside pass@k on multi-attempt runs) after v1.2.0 (2026-11-24, reviewed hook approvals, a GitHub Actions annotations report format, and more reliable agent evaluation) after v1.0.1 (2026-11-18, its first 1.0-series release, carrying Harness Check, a NeMo Gym backend, and improved agent-assisted evaluation and repository CI), a day after v1.0.0 (2026-11-17, marked superseded) and five days after v0.9.0 (2026-11-13), after v0.8.0 (2026-11-06) and v0.7.0 through v0.7.2 (2026-11-02 to 2026-11-04), with PyPI tracking 1.2.1.
 The 1.1-series tags stayed unreleased: release-preparation commits for v1.1.0, v1.1.1, and v1.2.0 landed on 2026-11-23 (a GitHub Actions annotations report format, operator host and hook URL allowlists), and v1.2.0 then published to GitHub Releases and PyPI on 2026-11-24, after the note's same-day read, with the v1.1.0 and v1.1.1 tags carrying no GitHub release or PyPI publish as of 2026-11-25.
 
 <picture>
@@ -79,6 +79,7 @@ My disagreeable claim: Harness Check will matter to more teams than Skill Lift, 
 
 - 2026-11-24 - Created from the coordinator's automated-research handoff, admitted as the category's skill-and-plugin evaluation gate beside the app-level acceptance harness.
 - 2026-11-25 - Recorded the v1.2.0 release (published to GitHub Releases and PyPI 2026-11-24, after the note's same-day read: reviewed hook approvals, GitHub Actions annotations, and more reliable agent evaluation; the v1.1.0 and v1.1.1 tags stay unreleased) and refreshed the activity line (the default branch's latest commit 2026-11-25).
+- 2026-11-27 - Recorded the v1.2.1 release (2026-11-25: the verified CI bundle with matching pins, a locked Tier 2 CI container, and Tier 3 paired-case lift estimates with a 95% bootstrap interval) and refreshed the activity line (the default branch's latest commit 2026-11-25).
 
 ## See also
 

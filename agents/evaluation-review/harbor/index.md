@@ -1,7 +1,7 @@
 ---
 title: Harbor
 created: 2026-11-18
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, benchmark, evaluation, harness]
 readability: 3
@@ -72,6 +72,7 @@ Not for judging your own application's outputs (that is deepeval or agent-qa ter
 - 2026-11-24 - Recorded the default branch's 2026-11-23 move (NeMo Fabric 0.7 support in the native agent and copilot-cli as a simulated-user target); v0.27.0 still the newest release.
 - 2026-11-24 - Recorded two downstream uses per the coordinator's handoff: SlopCodeBench's problems published as the Harbor dataset gabeorlanski/slopcodebench (version 4.0.0, 36 multi-step tasks, one step per checkpoint) and SkillEvaluator's live tier running its sandboxed agent trials through Harbor.
 - 2026-11-25 - Refreshed the activity line: the default branch moved 2026-11-24 and 11-25 (kiro added to the installed agents list, E2B sandboxes retained with streamed transfers and mounted volumes, a shared refused-region fix in the boxd backend, automatic concurrency for hosted multi-agent jobs, Modal Sandbox Sidecar support, and a LangSmith nested-agent tracing fix), v0.27.0 still the newest release.
+- 2026-11-27 - Rotation re-verification: every cited URL re-fetched and live, the release heads unchanged (harbor at v0.27.0); the GitHub releases API URL answers the shared unauthenticated limit with 403 and was read through the authenticated API instead.
 
 ## See also
 

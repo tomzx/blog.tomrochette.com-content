@@ -1,9 +1,9 @@
 ---
 title: HermesGate
 created: 2026-10-16
-updated: 2026-11-20
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, ci, quality-gate, deterministic]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, evaluation-review, ci, quality-gate, deterministic]
 readability: 3
 audience_notes: >
   Engineers who gate coding-agent output in CI and want a repeatable pass or fail that names exactly which bytes and tool versions were checked.
@@ -24,7 +24,7 @@ Distribution is PyPI, a pinned GitHub Action (`hermes-labs-ai/hermes-gate@v0.1.7
 
 ## Status
 
-Early and near-invisible: 3 stars, 1 fork, and 89 commits as of 2026-10-16, created 2026-08-10, pushed 2026-11-19 (repository-level), PyPI 0.1.7 matching the v0.1.7 action.
+Early and near-invisible: 3 stars, 1 fork, and 89 commits as of 2026-10-16, created 2026-08-10, pushed 2026-11-26 (repository-level; the default branch's latest commit is still the 2026-11-13 dependabot bump), PyPI 0.1.7 matching the v0.1.7 action.
 The repository-level pushes (2026-10-29, 2026-11-05, 2026-11-12, and 2026-11-19) are dependabot bumps and side-branch activity (the default branch's 2026-11-12 and 2026-11-13 commits are dependabot pip bumps too); the default branch's last non-dependabot commit remains 2026-09-29, where a release/v0.1.8 branch and its changelog block have sat prepared without a release.
 
 <picture>
@@ -75,6 +75,7 @@ Not as a trusted dependency today: with three stars and no independent validatio
 - 2026-11-11 - Rotation re-verification: every cited URL re-fetched and live, and everything re-confirmed unchanged (the org path still redirecting to roli-lpci/hermes-gate, PyPI still 0.1.7, the changelog's Unreleased block still holding the prepared v0.1.8 material, the vendor catalog still omitting HermesGate).
 - 2026-11-13 - Refreshed the activity line: the 2026-11-12 push is another dependabot bump (PR 60, pip development dependencies), the default branch's last non-dependabot commit still 2026-09-29 and v0.1.8 still unreleased.
 - 2026-11-18 - Rotation re-verification: every cited URL re-fetched and live (the repository, the redirecting org path, the PyPI package still at 0.1.7, the changelog, the self-description, and the vendor catalog, which still omits HermesGate), and the 2026-11-13 push identified as another dependabot bump (PR 61, ruff), the default branch's last non-dependabot commit still 2026-09-29 and v0.1.8 still unreleased.
+- 2026-11-27 - Refreshed the activity line: the repository-level push date moved to 2026-11-26 with the default branch's latest commit still the 2026-11-13 dependabot bump; v0.1.7 still the newest release.
 
 ## See also
 

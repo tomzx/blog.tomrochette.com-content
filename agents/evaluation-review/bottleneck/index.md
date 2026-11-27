@@ -1,9 +1,9 @@
 ---
 title: Bottleneck
 created: 2026-10-31
-updated: 2026-11-15
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, evaluation-review, code-review, desktop-app, pull-requests]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, evaluation-review, code-review, desktop-app, pull-requests]
 readability: 3
 audience_notes: >
   Engineers whose review queue fills with pull requests opened by several background coding agents at once and who want a faster surface than github.com to triage them.
@@ -65,6 +65,7 @@ Not for Linux users, not for anyone who needs support or fixes, and never as the
 - 2026-10-31 - Created from the code-review handoff resolved on the judges-nothing family, profiling the dormant desktop PR client for parallel-agent review queues.
 - 2026-11-11 - Rotation re-verification: every cited URL re-fetched and live, and everything re-confirmed unchanged (still pushed 2025-12-04 with v0.1.19 newest, the Show HN thread still 2 points with zero comments, the maker's site live through a www redirect).
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched and live, and everything re-confirmed unchanged (still pushed 2025-12-04 with 157 stars, 22 forks, and 56 open issues, v0.1.19 still the newest of twelve releases, the Show HN thread still 2 points with zero comments, the maker's site live through a www redirect).
+- 2026-11-27 - Rotation re-verification: every cited URL re-fetched and live, the release heads unchanged (bottleneck at v0.1.19, dormant); the GitHub releases API URL answers the shared unauthenticated limit with 403 and was read through the authenticated API instead.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Hunk
 created: 2026-10-06
-updated: 2026-11-24
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, evaluation, code-review, terminal, diff, human-in-the-loop]
 readability: 3
@@ -24,7 +24,7 @@ The maker is Modem (modem.dev), the company credited in hunk.dev's footer.
 
 ## Status
 
-Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026-03-17, pushed 2026-11-22 (the default branch moving 11-16 and 11-17 through an unreleased web review-UI feature stream: a review bar with progress and key hints, a changeset summary above the stream, review state in the files sidebar, file headers with state chips, note threads drawn as one card each, a quieter minimap, and a one-row toolbar, then 11-21 adding a copy-selected-hunk command, unchanged-lines row rendering, a pager fix for short plain text, and four extension-directory listings, before 11-22 landed the web review UI's navigation-key, first-note, sidebar-and-theme mirroring, load-order, and oversized-review fixes, plus headless reviews matching the terminal's shutdown signals and working-tree symlinks read as link text), with v0.25.0 released 2026-11-11 ending the 0.24 line (741 merged pull requests by the v0.23.0 it succeeds, 2026-09-30), its headliners the removal of the deprecated `--fast` flag and the publication of the generated 0.25 release pages alongside the 0.24.1 changelog and a hunk-workspace extension-directory listing.
+Fast-growing and young: 9,598 stars and 315 forks as of 2026-10-13, created 2026-03-17, pushed 2026-11-25 (the default branch moving 11-24 and 11-25 with GitHub reviews served in the browser through `--web`, a fix showing bidi and invisible characters instead of letting them spoof the page, a filter-matches-nothing message in place of an empty review, and header-like hunk lines kept in plain unified file chunks, after moving 11-16 and 11-17 through an unreleased web review-UI feature stream: a review bar with progress and key hints, a changeset summary above the stream, review state in the files sidebar, file headers with state chips, note threads drawn as one card each, a quieter minimap, and a one-row toolbar, then 11-21 adding a copy-selected-hunk command, unchanged-lines row rendering, a pager fix for short plain text, and four extension-directory listings, before 11-22 landed the web review UI's navigation-key, first-note, sidebar-and-theme mirroring, load-order, and oversized-review fixes, plus headless reviews matching the terminal's shutdown signals and working-tree symlinks read as link text), with v0.25.0 released 2026-11-11 ending the 0.24 line (741 merged pull requests by the v0.23.0 it succeeds, 2026-09-30), its headliners the removal of the deprecated `--fast` flag and the publication of the generated 0.25 release pages alongside the 0.24.1 changelog and a hunk-workspace extension-directory listing.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=modem-dev/hunk&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ Not for CI gating and not for anyone expecting a machine verdict; Hunk deliberat
 - 2026-11-14 - Recorded the v0.25.0 stable release (2026-11-11), which ends the 0.24 line and removes the deprecated `--fast` flag while publishing the generated 0.25 release pages and listing hunk-workspace in the extension directory, and refreshed the activity line (the default branch moved 2026-11-13 with the hunk-goodies extension-directory listing, PR 1273).
 - 2026-11-22 - Refreshed the activity line: pushed date moved to 2026-11-21 with the hunk.review.copySelectedHunk copy command, unchanged-lines row rendering in the web diff, a pager fix letting short plain text exit the fallback less pager, and four extension-directory listings (hunk-review-comments-extension, hunk-review-sidebar, hunk-stage, hunk-markdown-preview); v0.25.0 still the newest release.
 - 2026-11-24 - Rotation re-verification: every cited URL re-fetched and live, the activity line refreshed to the 2026-11-22 push (the web review UI's navigation-key, first-note, mirroring, load-order, and oversized-review fixes, headless-review shutdown signals, and symlink reading), v0.25.0 still the newest release, the npm week added (4,367 installs, 2026-11-16 to 2026-11-22), and the skill sentence sharpened to the pointer-skill mechanism (`hunk skill show`, with `hunk skill path` as the fallback); the Plannotator comparison's harness count corrected to ten.
+- 2026-11-27 - Refreshed the activity line: the default branch moved 2026-11-24 and 11-25 (GitHub reviews served in the browser through `--web`, a bidi and invisible character spoofing fix, a filter-matches-nothing message, and a unified-diff chunk fix); v0.25.0 still the newest release.
 
 ## See also
 

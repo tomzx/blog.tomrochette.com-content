@@ -1,9 +1,9 @@
 ---
 title: "τ²-bench"
 created: 2026-11-18
-updated: 2026-11-22
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, tool-agents, voice]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, benchmark, evaluation, tool-agents, voice]
 readability: 3
 audience_notes: >
   Engineers building customer-facing tool-using agents who want a comparable benchmark for the whole conversation loop, including the voice case.
@@ -67,6 +67,7 @@ Not for coding-agent evaluation, and never without the simulator and prompt-vari
 - 2026-11-18 - Created from the awesome-agent-observability 2026-11-15 evals-expansion scan, admitted as the category's dual-control service-agent benchmark.
 - 2026-11-21 - Refreshed the activity line: pushed date moved to 2026-11-21 with community leaderboard submission merges landing on the default branch (a voice-config resubmission and a pipeline fix); v2.0.0 still the newest release.
 - 2026-11-22 - Corrected the star-history chart markup: the light source and the img fallback carried the dark-theme parameter again; both now point at the default chart, per the coordinator's re-flag.
+- 2026-11-27 - Rotation re-verification: every cited URL re-fetched and live, the release heads unchanged (tau2-bench at v2.0.0); the GitHub releases API URL answers the shared unauthenticated limit with 403 and was read through the authenticated API instead.
 
 ## See also
 

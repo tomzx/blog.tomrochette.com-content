@@ -1,7 +1,7 @@
 ---
 title: Kiln
 created: 2026-10-10
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, evaluation-review, evals, fine-tuning, desktop-app]
 readability: 3
@@ -23,7 +23,7 @@ The maker is Chesterfield Laboratories Inc, and the desktop app is source-availa
 
 ## Status
 
-Active and mature for this category: 5,191 stars, 394 forks, and 56 open issues as of 2026-10-13, created 2024-07-23, pushed 2026-11-24 (the default branch's latest moves: the 11-24 model-list additions for Gemini 4 Neon on OpenRouter, Gemini API, and Vertex and the GPT-6.2 Astra, Astra Pro, Sol, and Sol Pro lines, four OpenRouter entries and Kimi K2 Thinking on Featherless marked deprecated, and dependabot merges, after the 11-23 model-catalog sweep marking eleven entries their providers no longer serve deprecated and requiring a note on every new model, after the 11-18 OpenAI reasoning summaries review-fix merge and the 11-17 model-catalog additions, Gemini API and Vertex providers for Gemini 4 Hydrogen, Together AI for Glimpse, and Hunyuan Hy4 Flash and Inkling 2 Small to the model list), with the v1.2.1 release published 2026-11-11 (on both GitHub and PyPI the same day) ending the v1.2.0 line's two-month hold as newest.
+Active and mature for this category: 5,191 stars, 394 forks, and 56 open issues as of 2026-10-13, created 2024-07-23, pushed 2026-11-27 (repository-level; the default branch's latest moves: the 11-26 removal of the `requests` dependency for async httpx, PR 2088, cached installed Ollama tags making model-id lookups synchronous again with Ollama redirect and empty-timeout fixes, and benchmark-target and deep-JSON test fixes, after the 11-24 model-list additions for Gemini 4 Neon on OpenRouter, Gemini API, and Vertex and the GPT-6.2 Astra, Astra Pro, Sol, and Sol Pro lines, four OpenRouter entries and Kimi K2 Thinking on Featherless marked deprecated, and dependabot merges, after the 11-23 model-catalog sweep marking eleven entries their providers no longer serve deprecated and requiring a note on every new model, after the 11-18 OpenAI reasoning summaries review-fix merge and the 11-17 model-catalog additions, Gemini API and Vertex providers for Gemini 4 Hydrogen, Together AI for Glimpse, and Hunyuan Hy4 Flash and Inkling 2 Small to the model list), with the v1.2.1 release published 2026-11-11 (on both GitHub and PyPI the same day) ending the v1.2.0 line's two-month hold as newest.
 The release train is steady (v1.2.0 on 2026-09-29, v1.1.3 on 2026-09-16, v1.1.1 on 2026-08-20), and PyPI tracks the same 1.2.1 version.
 The community footprint is thin for the star count: a Hacker News search returns four hits about Kiln, all small (10, 6, 3, and 2 points, the newest from 2025-08-06), so adoption evidence rests on the stars and the installer base rather than independent technical discussion.
 
@@ -81,6 +81,7 @@ Not for CI gating (deepeval's job), production observability (Langfuse's and Pho
 - 2026-11-13 - Refreshed the activity line: the default branch moved 2026-11-12 and 11-13 (a model-deprecation sweep and release-check tooling merges), v1.2.1 still the newest release on both GitHub and PyPI.
 - 2026-11-22 - Rotation re-verification: every cited URL re-fetched and live (the repository and its API, the release line, the evaluations docs, the pricing page with the tiers and the free Individual tier unchanged, PyPI still 1.2.1, faircode.io, and the four-thread HN search), the default branch quiet since 2026-11-18 with the repository-level 2026-11-22 push side-branch activity, and v1.2.1 re-confirmed as the newest release on both GitHub and PyPI.
 - 2026-11-25 - Refreshed the activity line: the default branch moved 2026-11-23 and 11-24 (model-list additions for Gemini 4 Neon and the GPT-6.2 Astra and Sol lines, four OpenRouter entries and Kimi K2 Thinking on Featherless marked deprecated, and dependabot merges), v1.2.1 still the newest GitHub release.
+- 2026-11-27 - Refreshed the activity line: the default branch moved 2026-11-26 (`requests` replaced by async httpx, PR 2088, cached Ollama tags with redirect and empty-timeout fixes, and test fixes), the repository-level push date moved to 2026-11-27; v1.2.1 still the newest release.
 
 ## See also
 

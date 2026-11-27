@@ -1,9 +1,9 @@
 ---
 title: SWE-bench
 created: 2026-11-18
-updated: 2026-11-18
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, benchmark, evaluation, coding-agents]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, benchmark, evaluation, coding-agents]
 readability: 3
 audience_notes: >
   Engineers choosing a coding-agent harness or model who need to know what the industry's default resolved-issue yardstick measures, and where it misleads.
@@ -64,6 +64,7 @@ Not as a frontier-capability separator (Verified has stopped separating them), a
 ## Changes
 
 - 2026-11-18 - Created from the awesome-agent-observability 2026-11-15 evals-expansion scan, admitted as the ground benchmark beside the harness-variance studies this category already holds.
+- 2026-11-27 - Rotation re-verification: every cited URL re-fetched and live, the release heads unchanged (no GitHub releases); the GitHub releases API URL answers the shared unauthenticated limit with 403 and was read through the authenticated API instead.
 
 ## See also
 

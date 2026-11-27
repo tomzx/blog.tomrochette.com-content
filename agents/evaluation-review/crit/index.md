@@ -1,7 +1,7 @@
 ---
 title: Crit
 created: 2026-10-12
-updated: 2026-11-24
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, evaluation-review, code-review, human-in-the-loop, open-source]
 readability: 3
@@ -24,7 +24,7 @@ Beyond the local loop it syncs both ways with GitHub PRs and GitLab MRs (pull re
 
 ## Status
 
-Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-11-21 (a dev-dependency bump, eslint, PR 1216, after the release), with v0.24.0 released 2026-11-20 (the Excalidraw renderer with canvas preview and shareable canvas, an outside contribution from ashi-2107, plus release-audit fixes, language hints carried into shares, and prompt-validation fixes) after v0.23.3 (2026-11-13) and v0.23.2 (2026-10-31), and the author claiming a weekly release cadence.
+Active and steadily growing: 1,209 stars, 97 forks, and 15 open issues as of 2026-10-13, created 2026-02-16, pushed 2026-11-25 (the default branch moving 11-24 and 11-25: a security fix sandboxing preview content so it cannot act as the daemon origin, PR 1235, quotes and comments linked both ways in code and story view with `#<comment-id>` URLs, `crit push --commit` pinning the reviewed commit, XDG base directories for config and state, the prompt no longer copied to the clipboard on Finish Review by default, and CLI comments shown on GitLab MR reviews, after the 2026-11-21 dev-dependency bump, eslint, PR 1216, after the release), with v0.24.0 released 2026-11-20 (the Excalidraw renderer with canvas preview and shareable canvas, an outside contribution from ashi-2107, plus release-audit fixes, language hints carried into shares, and prompt-validation fixes) after v0.23.3 (2026-11-13) and v0.23.2 (2026-10-31), and the author claiming a weekly release cadence.
 v0.23.3 syncs viewed files with GitHub PRs in both directions (`crit push --viewed` ticks on GitHub what you marked viewed locally, `crit pull --viewed` brings GitHub's ticks back), with viewed marks saved in the review file so they survive restarts (PR 1150).
 
 <picture>
@@ -81,6 +81,7 @@ Not for terminal-only workflows (Hunk), not for CI gating (nothing here exits no
 - 2026-11-21 - Rotation re-verification: every cited URL re-fetched and live (repository, README, API state, release line, product site, and the zero-thread HN search), recorded the v0.24.0 release (2026-11-20): the Excalidraw renderer with comment-pinned canvas preview and shareable canvas (an outside contribution), added the Arch AUR package to the distribution list and the sixth rendering surface to What it is.
 - 2026-11-22 - Refreshed the activity line: pushed date moved to 2026-11-21 with a dev-dependency bump (eslint, PR 1216), v0.24.0 still the newest release.
 - 2026-11-24 - Corrected the Plannotator harness count in the Compared to and See also lines from nine to ten, matching Plannotator's README table after DeepSeek Harness joined through a plugin (merged 2026-10-28).
+- 2026-11-27 - Refreshed the activity line: the default branch moved 2026-11-24 and 11-25 (a security fix sandboxing preview content so it cannot act as the daemon origin, two-way quote-and-comment links with `#<comment-id>` URLs, `crit push --commit` pinning the reviewed commit, XDG base directories, and CLI comments on GitLab MR reviews); v0.24.0 still the newest release.
 
 ## See also
 
