@@ -1,9 +1,9 @@
 ---
 title: Anthropic Agent Skills
 created: 2026-08-24
-updated: 2026-11-17
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, skills, anthropic, agent-extensions]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, skills, anthropic, agent-extensions]
 readability: 3
 audience_notes: >
   Engineers who already drive Claude Code or the Claude API and are deciding whether to package team knowledge as skills.
@@ -33,7 +33,7 @@ The example repository shows 180.9k stars and 21.4k forks as of 2026-10-16 but o
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=anthropics/skills&type=date&legend=top-left" />
 </picture>
 
-Claude Code iterates fast on top: custom commands were merged into skills, and skill behavior changed across v2.1.196 through v2.1.218 (subagent execution, bundled-skill overrides, frontmatter parsing).
+Claude Code iterates fast on top: custom commands were merged into skills, and skill behavior changed across v2.1.196 through v2.1.218 (subagent execution, bundled-skill overrides, frontmatter parsing), and the changelog's 2.1.332 entry adds the `PreSkillShellCommand` hook event, which fires as a skill or command loads and can refuse its inline shell commands, plus skills from MCP servers in beta, listed as `server:skill` in the `/` menu.
 
 ## Strengths
 
@@ -78,6 +78,8 @@ The claim I will defend: for most teams skills matter more than plugins or MCP s
 - 2026-11-07 - The license split resolved: commit 62 (2026-11-06, PR #2146) moved the document skills (docx, pdf, pptx, xlsx) to Apache-2.0 LICENSE.txt files and the README now calls them open source, so the source-available caution was replaced with the missing-root-license-file observation and the What-it-is and Pricing lines updated.
 - 2026-11-12 - Rotation re-verification: every cited URL re-fetched live and all claims held (the launch blog with its 2025-12-18 open-standard update, the engineering post's untrusted-skill guidance, the Claude Code skills docs with the same extension frontmatter surface, the Skills API guide's container and code-execution framing, and agentskills.io), and the repo state re-verified unchanged (still 62 commits, pushed 2026-11-06); no figures moved.
 - 2026-11-15 - Volatile refresh on the repo's first push since 2026-11-06: commit 63 (2026-11-14, PR #2217) updated the four document skills' scripts and validators in one 3,900-line pass (pptx chart and slide helpers, docx redlining and document validators, soffice and validate changes, pdf form and reference edits), the fourth content commit after the 10-09 claude-api, 10-28 mcp-builder, and 11-06 license commits.
+- 2026-11-27 - Rotation re-verification: every cited URL re-fetched live and all claims held (the blog post, the engineering post, the Claude Code and API docs, and agentskills.io all live; the GitHub HTML page served 504 to this environment while the API verified the repository, main's newest commit still PR #2221 of 2026-11-16); no claims moved.
+- 2026-11-27 - Recorded Claude Code 2.1.332 adding the `PreSkillShellCommand` hook event, which fires as a skill or command loads and can refuse its inline shell commands, and skills from MCP servers in beta.
 - 2026-11-17 - Volatile refresh on the repo's next push: commit 64 (2026-11-16, PR #2221) updated the docx, pptx, and xlsx skills again (zipfile unpack, zip -y, and validate.py and soffice.py fixes), the fifth content commit in the recorded lineage.
 
 ## See also
@@ -91,6 +93,7 @@ The claim I will defend: for most teams skills matter more than plugins or MCP s
 - https://claude.com/blog/skills - launch announcement (2025-10-16) and the 2025-12-18 open-standard update
 - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills - progressive disclosure architecture, code execution, security guidance
 - https://code.claude.com/docs/en/skills - Claude Code surfaces: locations, bundled skills, spec versus extension frontmatter
+- https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md - Claude Code's changelog (fetched 2026-11-27): the 2.1.332 entry adds the `PreSkillShellCommand` hook event, which can refuse a skill or command's inline shell commands as it loads, and skills from MCP servers in beta
 - https://github.com/anthropics/skills - example repo scale and license split, 180,927 stars as of 2026-10-13 (re-fetched 2026-11-12; re-fetched 2026-11-15, then 63 commits with last push 2026-11-14, PR #2217 updating the four document skills; re-fetched 2026-11-17, now 64 commits with last push 2026-11-16, PR #2221 updating the docx, pptx, and xlsx skills again)
 - https://docs.claude.com/en/api/skills-guide - Skills API: container parameter, 20 skills per request, code execution requirement
 - https://agentskills.io/ - the extracted open standard and its client showcase

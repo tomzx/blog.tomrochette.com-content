@@ -1,7 +1,7 @@
 ---
 title: skills.md
 created: 2026-10-06
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, skills, registries, marketplaces, hosted-execution]
 readability: 3
@@ -26,6 +26,7 @@ Authors publish with `skills push`, where every push is a version, and the site 
 The npm package has shipped 222 versions in roughly nine months (latest 0.10.105, published 2026-11-23 after 0.10.101 through 0.10.104 landed on 2026-11-22 and 11-23, on top of a fast train of execution fixes: Claude discovery and Codex v8 admissions, an ACL errno fix, the optional `@hasna/secrets` split so anonymous installs work, Codex MCP reconcile, a cached-profile lock snapshot, a Claude root-alias acceptance fix, the reviewed Cua driver native skill admitted at 0.10.96, Claude 2.1.317-319 user-scope writer measurement, then the 11-18 batch filing native drift once to its owner with bounded drift reports at 0.10.99 and admitting exact Codex 0.170.0 at 0.10.100), but the GitHub repository showed 0 stars and 0 forks as of 2026-10-13, seventeen days after it went public, and the pushes continued through my last reading from the repository itself (2026-11-18).
 **On 2026-11-25 the hasna/skills repository is gone from public view.**
 The GitHub API, the authenticated GitHub API, and the github.com page all answer 404, while the `hasna` organization endpoint answers with its three other public repositories and sibling API calls answered in the same window, so this reads as a deletion or a visibility change rather than an outage (renames redirect).
+On 2026-11-27 the repository still answered 404 on the authenticated API, while `@hasna/skills` on npm held at 0.10.105 (published 2026-11-23) and the pricing page still read Pro at $12 per month with 1,500 credits, so nothing in the project's own pages has moved.
 The refresh's batched GitHub pass earlier that day had still read a 2026-11-23 push, so the change landed between that pass and my fetch.
 The npm metadata still points at the address (`git+https://github.com/hasna/skills.git`) and the package keeps publishing, the hosted service and its pricing stand, and the site still links self-hosting docs.
 The public marketplace page keeps signing-out visits away from the catalog: on 2026-10-09 it redirected them to the sign-in-gated /dashboard/skills page, on 2026-10-11 it returned an HTTP 200 interstitial ("This page has moved") pointing at the same sign-in-gated dashboard, and on 2026-10-16 the page states outright that the public marketplace has closed, with the catalog reachable only in the dashboard.

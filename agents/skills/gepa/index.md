@@ -1,9 +1,9 @@
 ---
 title: GEPA
 created: 2026-10-13
-updated: 2026-11-22
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, skills, prompt-optimization, meta-learning]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, skills, prompt-optimization, meta-learning]
 readability: 3
 audience_notes: >
   Engineers who maintain prompt-driven agents and want the prompts improved mechanically against a metric instead of by hand.
@@ -23,7 +23,7 @@ Distribution is PyPI (`pip install gepa`, v0.1.4, release-tagged July 2026) with
 
 ## Status
 
-Active with an established research record: 6,973 stars and 576 forks as of 2026-10-13, 177 open issues as of 2026-11-22, created 2025-08-05, main unchanged since 2026-11-09 (after the 11-07 batch came a fix storing reflection proposals as plain strings and a Python 3.15 packaging batch: the core package now allows 3.15, the lockfile aligned without dependency upgrades, docs and CI updated to match), the repo's 2026-11-21 pushed_at a side-branch push with the default branch's newest commit still the 11-09 batch (verified through the commits API), PyPI at 0.1.4 re-verified 2026-11-22.
+Active with an established research record: 6,973 stars and 576 forks as of 2026-10-13, 177 open issues as of 2026-11-22 and 182 as of 2026-11-27, created 2025-08-05, main unchanged since 2026-11-09 (after the 11-07 batch came a fix storing reflection proposals as plain strings and a Python 3.15 packaging batch: the core package now allows 3.15, the lockfile aligned without dependency upgrades, docs and CI updated to match), the repo's pushed_at still 2026-11-21 a side-branch push with the default branch's newest commit still the 11-09 batch (verified through the commits API 2026-11-27, open pull requests #589 through #593 updated through 2026-11-26 and none merged onto main), PyPI at 0.1.4 re-verified 2026-11-27.
 The launch reached a 92-point Hacker News thread in July 2025, the paper was accepted to ICLR 2026 as an oral (v2 revised 2026-02-14), and the adoption trail is documented beyond Databricks' own engineering blog: the docs site's roster names Shopify, Google, Microsoft, OpenAI, Dropbox, Pydantic, and Comet ML, and GEPA ships built into DSPy.
 **The contested part is the evidence: a "Contra DSPy and GEPA" thread and the DSPy community's methodological argument over GEPA's comparison baselines are the standing critical sources, so the headline claims deserve a re-run on your own metric before adoption.**
 
@@ -76,6 +76,7 @@ Not for anyone without an evaluator (GEPA amplifies whatever the metric measures
 - 2026-11-07 - Volatile refresh: main pushed 2026-11-07 with a further batch (a v0.1.4 positional-order compatibility fix, a DSPy ReAct reflection-trace collapse, merge fixes for negative-reward ancestors and result snapshots, checkpoint-schema rejection, a monotonic-clock timeout fix), open issues moved to 154, and PyPI re-verified at 0.1.4.
 - 2026-11-12 - Volatile refresh: main pushed 2026-11-09 with a fix storing reflection proposals as plain strings and a Python 3.15 packaging batch (the core package allows 3.15, lockfile aligned without dependency upgrades, docs and CI updated), open issues moved to 164, and PyPI re-verified at 0.1.4.
 - 2026-11-16 - Rotation re-verification: every cited URL re-fetched live and all claims held (the arXiv abstract, the docs site, PyPI still at 0.1.4, the 92-point launch thread, and the Contra thread at its recorded reading), the default branch unchanged since 2026-11-09, open issues moved to 166; no claims moved.
+- 2026-11-27 - Rotation re-verification: every cited URL re-fetched live and all claims held (the paper still v2, the docs site live, the 92-point and 5-point Hacker News threads live, PyPI still at 0.1.4 through its JSON API after the project page served a JavaScript challenge, the GitHub HTML page serving 504 while the API verified the repository), main unchanged since 2026-11-09 with the 11-21 pushed date still a side-branch push; no claims moved.
 - 2026-11-22 - Volatile refresh: main unchanged since 2026-11-09 with the repo's 2026-11-21 pushed_at moving on side-branch activity (verified through the commits API), open issues moved up to 177, and PyPI re-verified at 0.1.4.
 
 ## See also
