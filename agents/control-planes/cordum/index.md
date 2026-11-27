@@ -1,7 +1,7 @@
 ---
 title: Cordum
 created: 2026-10-07
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, governance, safety-kernel, approvals, claude-code, llm=glm-5.4]
 readability: 3
@@ -24,7 +24,7 @@ Enterprise features (SSO, SCIM, advanced RBAC, SIEM export, legal hold) ship in 
 
 ## Status
 
-Active and young: 509 stars and 34 forks as of 2026-10-10, with 18 open issues and the latest default-branch push on 2026-11-17 as of 2026-11-25 (dependency bumps, safety-evidence docs, and integration-batch staging since v1.3.1), created 2026-01-11, latest tagged release v1.3.1 (2026-11-11), with the CAP SDKs versioned separately at 2.17.0 (2026-07-22).
+Active and young: 509 stars and 34 forks as of 2026-10-10, with 15 open issues and the latest default-branch push on 2026-11-26 as of 2026-11-27 (a dashboard dependency-bump batch since v1.3.2), created 2026-01-11, latest tagged release v1.3.2 (2026-11-26, a security patch cut from the release/1.3 branch), with the CAP SDKs versioned separately at 2.17.0 (2026-07-22).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=cordum-io/cordum&type=date&theme=dark&legend=top-left" />
@@ -82,6 +82,7 @@ Not for OSI-only shops, and not for anyone who needs an adopted project with ind
 - 2026-11-13 - Release train moved to v1.3.1 (2026-11-11, published in full after v1.3.0's publish run stopped at the demo-quickstart-worker vulnerability scan, so 1.3.1 is the first complete 1.3 artifact set): the MCP approval store's outage errors now return -32096 with a fixed `approval store unavailable` reason instead of the raw Redis error with internal host and port; the counters refreshed (28 open issues, default-branch push 2026-11-12).
 - 2026-11-20 - Counters refreshed (15 open issues, the 2026-11-19 repository push landing on side branches with the default branch's latest commit still 2026-11-17); no release past v1.3.1 with the CAP SDKs holding at 2.17.0.
 - 2026-11-25 - Counters refreshed (18 open issues, the 2026-11-24 repository push landing on side branches with the default branch's latest commit still 2026-11-17); no release past v1.3.1.
+- 2026-11-27 - Rotation re-verified, every cited URL re-fetched: the GitHub, PyPI, npm, dev.to, and HN URLs live, while the three cordum.io pages refused fetchers again (403 to plain and browser user agents), so the vendor-site, pricing, and CordClaw state stands as last read 2026-11-07; the release train moved to v1.3.2 (2026-11-26), a security patch for GHSA-j33m-mr27-pmw3: Edge evaluate passed client-supplied underscore-prefixed labels to the Safety Kernel, so a caller with jobs:write could forge delegation metadata when CORDUM_DELEGATION_POLICY_ENABLED is on (off by default, affecting 1.0.0 through 1.3.1), and the Edge policy mapper now drops every untrusted underscore-prefixed label as the gateway already does on job submit; the stale releases reference corrected; the counters refreshed (15 open issues, default-branch push 2026-11-26).
 
 ## See also
 
@@ -99,7 +100,7 @@ Not for OSI-only shops, and not for anyone who needs an adopted project with ind
 - https://cordum.io/pricing - Community, Team, and Enterprise tiers with capacity caps
 - https://cordum.io/cordclaw - the CordClaw OpenClaw adapter: hook points, five decision types, threat model, connected-mode status
 - https://github.com/cordum-io/cap - the CAP protocol repository (Apache-2.0)
-- https://api.github.com/repos/cordum-io/cordum/releases - v1.2.0, 2026-10-17, the latest tagged release
+- https://api.github.com/repos/cordum-io/cordum/releases - v1.3.2, 2026-11-26, the latest tagged release
 - https://pypi.org/pypi/cap-sdk-python/json - cap-sdk-python 2.17.0, uploaded 2026-07-22
 - https://registry.npmjs.org/cap-sdk-node - cap-sdk-node 2.17.0, published 2026-07-22
 - https://news.ycombinator.com/item?id=49880505 - the 1-point, zero-comment Show HN, the thin-footprint signal

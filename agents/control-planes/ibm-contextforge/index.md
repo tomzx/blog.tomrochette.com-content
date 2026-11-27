@@ -1,7 +1,7 @@
 ---
 title: IBM ContextForge
 created: 2026-10-11
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, gateway, mcp, governance, open-source, ibm, llm=glm-5.4]
 readability: 3
@@ -24,8 +24,8 @@ IBM announced it as the ContextForge MCP Gateway 1.0.0 Beta on December 15, 2025
 
 ## Status
 
-Active and heavily adopted: 4,623 stars and 924 forks as of 2026-10-18, with 992 open issues and pull requests as of 2026-11-25 and unreleased default-branch work through a Release/1.1.2 merge (2026-11-24) after a security-hardening commit (2026-11-20), CEL evaluation of tool response filters, hardened outbound MCP connections in the LLM Chat client, and URL user-info redaction (2026-11-23), created 2025-05-08, with v1.1.1 published 2026-11-10 on GitHub and PyPI in step, following v1.1.0 (2026-10-20).
-v1.1.0 moves MCP protocol negotiation to the modern protocol by default, ships a redesigned web UI, federated completions, catalog pagination, and MCP Origin/Host transport security enforcement, consolidating 69 pull requests; v1.1.1 adds token exchange delegation with Admin UI support, CEL tool validation policies, A2A /v1 task and agent card routes, and upstream progress plus security hardening.
+Active and heavily adopted: 4,623 stars and 924 forks as of 2026-10-18, with 1,009 open issues and pull requests as of 2026-11-27 and the default branch pushed 2026-11-26, created 2025-05-08, with v1.1.2 published 2026-11-25 on GitHub and PyPI in step, following v1.1.1 (2026-11-10) and v1.1.0 (2026-10-20).
+v1.1.0 moves MCP protocol negotiation to the modern protocol by default, ships a redesigned web UI, federated completions, catalog pagination, and MCP Origin/Host transport security enforcement, consolidating 69 pull requests; v1.1.1 adds token exchange delegation with Admin UI support, CEL tool validation policies, A2A /v1 task and agent card routes, and upstream progress plus security hardening; v1.1.2 covers 78 pull requests: MCP `subscriptions/listen` streams for catalog and resource changes, A2A Agent Card fetch and storage with task follow-ups and an agent test endpoint, AWS Signature V4 signing for gateway and REST tool requests, Redis Cluster support, tool response filters moved to CEL, administrator approval for virtual-server OAuth, and the Rust MCP and A2A runtime sidecars removed in a deprecation.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ibm/mcp-context-forge&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ Not for model-cost governance, not for built-in policy verdicts without plugin w
 - 2026-11-20 - Unreleased default-branch work on fetching and storing the A2A authenticated extended Agent Card and on trusting forwarded headers only from configured proxies; the counters refreshed (996 open issues and pull requests, pushed 2026-11-19).
 - 2026-11-22 - Unreleased default-branch work moved to a security-hardening commit (2026-11-20, #7633) with the 2026-11-21 repo-level push beside it; the counters refreshed (988 open issues and pull requests).
 - 2026-11-25 - Unreleased default-branch work moved through CEL evaluation of tool response filters, hardened outbound MCP connections in the LLM Chat client, URL user-info redaction, and a Release/1.1.2 merge (2026-11-24) with no v1.1.2 release published yet; the counters refreshed (992 open issues and pull requests).
+- 2026-11-27 - Release train moved to v1.1.2 (2026-11-25, PyPI in step): MCP subscriptions/listen streams, A2A Agent Card fetch and storage with task follow-ups and an agent test endpoint, AWS Signature V4 signing, Redis Cluster support, tool response filters on CEL, administrator approval for virtual-server OAuth, and the Rust MCP and A2A runtime sidecars removed in a deprecation; the release references moved from v1.1.0 and 1.1.1 to v1.1.2; the counters refreshed (1,009 open issues and pull requests, pushed 2026-11-26).
 
 ## See also
 
@@ -94,6 +95,6 @@ Not for model-cost governance, not for built-in policy verdicts without plugin w
 - https://ibm.github.io/mcp-context-forge/latest/ - official documentation: RBAC, teams, SSO providers, OAuth, audit trails, plugins, multitenancy
 - https://developer.ibm.com/blogs/context-forge-mcp-gateway-now-available/ - the December 15, 2025 launch post: 1.0.0 beta, 35-plus guardrail plugins, multi-tenant workspaces, IBM Elite Support with a 2-hour SLA
 - https://api.github.com/repos/IBM/mcp-context-forge - stars, forks, issues, creation and push dates as of 2026-10-17
-- https://api.github.com/repos/IBM/mcp-context-forge/releases - v1.1.0, published 2026-10-20
-- https://pypi.org/pypi/mcp-contextforge-gateway/json - mcp-contextforge-gateway 1.1.1, uploaded 2026-11-10
+- https://api.github.com/repos/IBM/mcp-context-forge/releases - v1.1.2, published 2026-11-25
+- https://pypi.org/pypi/mcp-contextforge-gateway/json - mcp-contextforge-gateway 1.1.2, uploaded 2026-11-25
 - https://www.truefoundry.com/blog/ibm-contextforge-vs-truefoundry - the critical third-party comparison: guardrails not built in, no LLM routing, operational weight (a competitor's framing, read as positioning)

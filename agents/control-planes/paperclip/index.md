@@ -1,7 +1,7 @@
 ---
 title: Paperclip
 created: 2026-08-27
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, control-planes, agent-operations, multi-agent, open-source, governance, llm=glm-5.4]
 readability: 3
@@ -25,7 +25,7 @@ Any agent that can receive a heartbeat is hirable, OpenClaw, Claude Code, Codex,
 ## Status
 
 Active at extreme velocity.
-101,570 stars and 17,038 forks as of 2026-10-18 since creation on 2026-03-02, with 6,796 open issues and the latest push on 2026-11-25 as of 2026-11-25, latest release v2026.1117.0 (published 2026-11-18, 1,586 commits promoted from the beta soak), date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
+101,570 stars and 17,038 forks as of 2026-10-18 since creation on 2026-03-02, with 6,808 open issues and the latest push on 2026-11-27 as of 2026-11-27, latest release v2026.1117.0 (published 2026-11-18, 1,586 commits promoted from the beta soak), date-versioned, cloud deployments in waitlist with multi-tenant isolation already shipped per the roadmap.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=paperclipai/paperclip&type=date&theme=dark&legend=top-left" />
@@ -97,6 +97,7 @@ The disagreeable claim I will defend: "manage business goals, not pull requests"
 - 2026-11-20 - Release line moved to v2026.1117.0 (dated 2026-11-17, published 2026-11-18, 1,586 commits promoted from the beta soak), ending the pause at day twelve: the Coordinator workspace and Agent Chat are standard with a plan you can approve in task chat, agents can set up connections within delegated authority, and breaking changes turn the Google Workspace connector off by default and give every subtask its own execution workspace; the backlog regrew again to 6,963 with the push date at 2026-11-20.
 - 2026-11-22 - The backlog regrew again to 6,996 with the push date at 2026-11-22 and the release pause stretching to day five of v2026.1117.0; the release line holding.
 - 2026-11-25 - The backlog fell to 6,796 with the push date at 2026-11-25 and the release pause stretching to day eight of v2026.1117.0 (test setup, an inbox fix for repeated provider failures, and a CLI agent clear-error command on the default branch); the release line holding.
+- 2026-11-27 - Rotation re-verified, every cited URL re-fetched and live (the GitHub pages read through `gh api` after the unauthenticated API answered 403); the backlog moved to 6,808 with the push date at 2026-11-27 and the release pause at day ten of v2026.1117.0 (recovery fixes continuing chat tasks blocked by a setup failure before provider work and skill package transfer deadlines starting after the I/O queue admits them, on the default branch); the release line holding.
 
 ## See also
 

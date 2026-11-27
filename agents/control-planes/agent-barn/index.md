@@ -1,7 +1,7 @@
 ---
 title: Agent Barn
 created: 2026-11-05
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, agent-operations, multi-tenant, kubernetes, self-hosted, open-source, llm=glm-5.4]
 readability: 3
@@ -27,7 +27,7 @@ Built by AAI Labs, a company in Vilnius, Lithuania.
 
 ## Status
 
-Active and young: 111 stars and 7 forks, with 21 open issues and pull requests as of 2026-11-25, created 2026-05-05, with the default branch's latest commit on 2026-11-24 and a steady release train (v0.22.0 on 2026-11-11, v0.23.0 on 2026-11-19, v0.24.0 and v0.25.0 on 2026-11-23, v0.26.0 on 2026-11-24).
+Active and young: 111 stars and 7 forks, with 18 open issues and pull requests as of 2026-11-27, created 2026-05-05, with the default branch's latest commit on 2026-11-26 and the release train holding at v0.26.0 (2026-11-24) after v0.24.0 and v0.25.0 (2026-11-23), v0.23.0 (2026-11-19), and v0.22.0 (2026-11-11).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aai-labs/agent-barn&type=date&theme=dark&legend=top-left" />
@@ -76,6 +76,7 @@ Not for teams that need per-command approval on the default runtime today, a sta
 - 2026-11-20 - Release train moved to v0.23.0 (2026-11-19): several Hermes or OpenClaw agents can run as bots inside one Parent Agent's pod, organizations own workflows with command approval available live or after a session pauses, agents report their own Tasks, and plans gain tiers with entitlements and holds; the counters refreshed (23 open issues and pull requests, default-branch push 2026-11-19).
 - 2026-11-22 - Counters refreshed (21 open issues and pull requests); no release past v0.23.0 with the default branch on 2026-11-19 and the 2026-11-21 repository push a side branch.
 - 2026-11-25 - Release train moved through v0.24.0 and v0.25.0 (both 2026-11-23, staging merges) to v0.26.0 (2026-11-24: Hermes agents can chat on a client's self-hosted Slack workspace through a Custom Slack integration); the counters holding (21 open issues and pull requests) with the default branch on 2026-11-24.
+- 2026-11-27 - Rotation re-verified, every cited URL re-fetched and live (the site and its Kubernetes guide, the OECD.AI catalogue entry, and the HN search); the default branch moved to 2026-11-26 with unreleased Hermes agents answering on WhatsApp through a phone linked by QR code (#416) and no release past v0.26.0; the counters refreshed (18 open issues and pull requests).
 
 ## See also
 

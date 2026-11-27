@@ -3,7 +3,7 @@ category: control-planes
 generated: 2026-11-27
 mapped_sources:
   - repo: agentrust-io/awesome-ai-governance
-    last_checked: 2026-11-25
+    last_checked: 2026-11-27
 digest_lines:
   - "- 2026-11-26 | cross-category | the andyrewlee 2026-11-26 batch resolves with one admission candidate and five rejections, and two member sightings | OpenComputer (diggerhq/opencomputer) routes to orchestration; Open Managed Agents, Goodboy, Persistent Agent, AppuBot, and DCC-MCP Core reject as recorded below; RocketRide and Omnara are members"
   - "- 2026-11-26 | cross-category | a listing's open-source and license claim is checked against the linked repository before any reading uses it | AppuBot's listing says open source (Apache-2.0) while its README says the source is not public and GitHub's Apache-2.0 comes from a license file beside download assets"

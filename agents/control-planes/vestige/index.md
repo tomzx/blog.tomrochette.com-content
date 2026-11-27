@@ -1,7 +1,7 @@
 ---
 title: Vestige
 created: 2026-10-17
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, memory, open-source, llm=glm-5.4]
 readability: 3
@@ -22,11 +22,12 @@ The parser canonicalizes commands before risk tagging, so quote reassembly, `$IF
 Ports beyond Claude Code cover OpenClaw (a ClawHub plugin), Cursor, OpenCode, Gemini CLI, Windsurf, and Cline, on macOS, Linux, and newer Windows.
 Behind the gate sits the memory server: four local binaries serving an MCP endpoint where every write is gated and returns a receipt against the Strata signed append-only log, with `causal_walk` and `vestige prove` tracing a failure backward over recorded edges to a commit and testing the lead against your own test suite.
 Since v6.0.0 a `reflex` tool, called by the agent's own hooks rather than listed in the tool schema, carries every hook firing to that server: each gate receipt is verified against the digest chain and saved as a stop memory tied to its rule and told to the stopped agent once, every firing lands in a hash-chained Hook Ledger, failed calls are paired with the fix that later succeeded, and a context manifest folds memories the agent already holds out of later results.
+v7.0.0 (2026-11-25) widens the enforcement side: fail-closed mid-session execution leases on the PreToolUse and PostToolBatch hooks, five zero-cloud GitHub PR bots (a causal gate, a Unicode and secret shield, an ablator, a bisector, and a hygiene bot) with native SARIF 2.1.0 output, and the `vestige card`, `vestige shield`, and `vestige pr-audit` commands, while most of the release is the zero-vector causal retrieval engine behind the gate, with self-measured benchmark tables.
 The single-maintainer paid tier, Vestige Operator, is a closed archive sold once for $149 with a 30-day refund and every later version included, adding owner-written laws, a Board view of stops, the weekly Letter, onboarding, and one record of stops across every session, host, and agent CLI on the machine; the free gate's second-spelling rule keeps its memory per session, and the upgrade command verifies the archive's SHA-256 before unpacking it.
 
 ## Status
 
-Active and fast-moving: 651 stars and 72 forks as of 2026-10-18, with 3 open issues and pull requests as of 2026-11-25 after the maintainer mass-closed its own wave-tracking issues on 2026-11-18 and cleaned up further (235 as of 2026-11-15), created 2026-01-25, with v6.2.3 (2026-11-20) the latest tagged release and the default branch's latest commit on 2026-11-24 (retrieval work: a LoCoMo waterfall and benchmark refits).
+Active and fast-moving: 651 stars and 72 forks as of 2026-10-18, with 0 open issues and pull requests as of 2026-11-27 after the maintainer mass-closed its own wave-tracking issues on 2026-11-18 and cleaned up further (235 as of 2026-11-15), created 2026-01-25, with v7.0.0 (2026-11-25) the latest tagged release and the default branch's latest commit on 2026-11-26 (a v7.1 merge).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=samvallad33/vestige&type=date&theme=dark&legend=top-left" />
@@ -89,6 +90,7 @@ Not for org-scale governance (that is a control plane, not a workstation gate), 
 - 2026-11-20 - No release past v6.2.2; the default branch pushed 2026-11-19 on strata-import wave labeling only; the counters holding (9 open issues and pull requests).
 - 2026-11-22 - Release train moved to v6.2.3 (published 2026-11-20, "SOTA zero-vector causal memory and safety kernel", published without release notes); the default branch's latest commit moved to 2026-11-20 on a README restructure, and the counters fell to 0 open issues and pull requests with the maintainer's README cleanup.
 - 2026-11-25 - Rotation re-verification: every cited URL re-fetched and live (the repo, releases, and release-tag pages, the changelog with an Unreleased section on MCP wire compatibility, the Operator Lite README, and the HN search and Show HN thread); no release past v6.2.3 with the default branch pushed 2026-11-24 on retrieval work; the counters refreshed (3 open issues and pull requests).
+- 2026-11-27 - Release train moved to v7.0.0 (2026-11-25), a major: fail-closed mid-session execution leases on the PreToolUse and PostToolBatch hooks, five zero-cloud GitHub PR bots (causal gate, Unicode and secret shield, ablator, bisector, hygiene) with native SARIF 2.1.0 output, the vestige card, shield, and pr-audit commands, the MCP inputSchema compatibility fix that drops root-level oneOf, anyOf, and allOf (the changelog's Unreleased item last run), and recall moved to exact-token BM25 with embeddings gone; the bulk of the release is the zero-vector causal retrieval engine with self-measured benchmark tables, so the category-fit watch stays open as the gate gains surface while the retrieval work grows; the What it is section gains the v7.0.0 enforcement line and the stale releases reference is corrected from v6.0.0; the counters refreshed (0 open issues and pull requests, default branch 2026-11-26).
 
 ## See also
 
@@ -103,7 +105,7 @@ Not for org-scale governance (that is a control plane, not a workstation gate), 
 
 - https://github.com/samvallad33/vestige - README: the firewall framing, Operator Lite install and rules, Operator tier, memory server, integrations, license
 - https://api.github.com/repos/samvallad33/vestige - stars, forks, issues, creation and push dates as of 2026-10-17
-- https://api.github.com/repos/samvallad33/vestige/releases - release metadata, v6.0.0 (2026-10-28) the latest tagged release
+- https://api.github.com/repos/samvallad33/vestige/releases - release metadata, v7.0.0 (2026-11-25) the latest tagged release
 - https://github.com/samvallad33/vestige/releases/tag/v6.0.0 - the Reflex release notes: the Hook Ledger, stop memories, the context manifest, and the per-call rules moving into the free gate
 - https://github.com/samvallad33/vestige/releases/tag/v5.0.0 - the PRECEDENT release notes: precedent tool, gather, dashboard rebuild, hook security fixes
 - https://raw.githubusercontent.com/samvallad33/vestige/main/CHANGELOG.md - the pivot timeline (memory to Strata to Operator Lite), the $149 Operator pricing change, and the project's own fixed-vulnerability history

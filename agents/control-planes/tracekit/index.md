@@ -1,7 +1,7 @@
 ---
 title: Tracekit
 created: 2026-10-21
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, control-planes, policy-enforcement, receipts, audit, open-source, llm=glm-5.4]
 readability: 3
@@ -25,7 +25,7 @@ The project is five weeks old (repository created 2026-09-26) from Cygnux Labs, 
 
 ## Status
 
-Active and very young: 138 stars and 9 forks as of 2026-10-28, with 84 open issues and pull requests and the latest push on 2026-11-25 as of 2026-11-25, created 2026-09-26, with the PyPI package tracekit-ai at 1.7.3 (2026-11-24, its release page carrying no notes) and unreleased default-branch work on the signer signing a subagent's calls with its own agent_id, Strands Agents 1.66 marked tested, and Browser Use 1.x call reads.
+Active and very young: 138 stars and 9 forks as of 2026-10-28, with 60 open issues and pull requests and the latest push on 2026-11-27 as of 2026-11-27, created 2026-09-26, with v1.8.0 tagged on the default branch (2026-11-27, its release page pending and PyPI holding at 1.7.3 from 2026-11-24) and eval corpus cases for the approval-answering deny (TK-D012) landing after it.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Cygnux-Labs/Tracekit&type=date&theme=dark&legend=top-left" />
@@ -79,6 +79,7 @@ Not for anyone who needs an independently reviewed gate today, and not for debug
 - 2026-11-20 - No release past v1.7.2; the default branch pushed 2026-11-20 with unreleased TypeScript executor helpers for the Claude Agent SDK and a LangGraph gate warning when the signer lacks call state or claim; the counters refreshed (121 open issues and pull requests).
 - 2026-11-22 - No release past v1.7.2 with PyPI holding; the default branch pushed 2026-11-22 with unreleased reviewer work persisting answered approval ids so a restart does not re-suggest; the counters refreshed (107 open issues and pull requests).
 - 2026-11-25 - Release train moved to v1.7.3 (2026-11-24, PyPI in step the same day, no release notes); the default branch pushed 2026-11-25 with unreleased signer work signing a subagent's calls with its agent_id on both hooks, Strands Agents 1.66 marked tested, and Browser Use 1.x reading the calls a cell or delivery names; the counters refreshed (84 open issues and pull requests).
+- 2026-11-27 - v1.8.0 tagged on the default branch (2026-11-27) with its release page pending and PyPI holding at 1.7.3, carrying CI-runner and Python 3.9 test fixes for 1.8's new tests and eval re-records over the release, with eval corpus cases for the approval-answering deny (TK-D012, #1170) landing after it; the counters refreshed (60 open issues and pull requests, pushed 2026-11-27).
 
 ## See also
 
