@@ -1,7 +1,7 @@
 ---
 title: Agent Host Protocol
 created: 2026-08-30
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.3, llm=glm-5.4, protocols, agent-sessions, state-synchronization, microsoft, open-source]
 readability: 3
@@ -24,7 +24,7 @@ MIT licensed, TypeScript, under the `microsoft` GitHub org, created 2026-03-12.
 
 ## Status
 
-**Active and shipping: 400 stars as of 2026-10-13 and 86 open issues and pull requests as of 2026-11-17, with the release train's first post-1.0 stop still its newest release: v1.1.0 (dated 2026-11-12, tagged 2026-11-13) shipped the spec plus the Go, Swift, TypeScript, and Rust packages at 1.1.0, carrying the host-path semantics (#476), the account-selection hint (#583), MCP-served skills (SEP-2640), and experimental subscription-negotiated flow control, while the default branch develops 1.2.0 with a one-time scheduled-chat automations addition merged 2026-11-13 (#603) and an automations chat-run target merged 2026-11-16 (#604, a `{ kind: 'chat', session, chat }` target with a presence capability and explicit previous-session semantics), an optional `isSymlink` flag on DirectoryEntry merged 2026-11-24 (#628), and the docs switcher now listing 1.2.0 draft, 1.1.0, and 1.0.0.**
+**Active and shipping: 400 stars as of 2026-10-13 and 86 open issues and pull requests as of 2026-11-17, with the release train's first post-1.0 stop still its newest release: v1.1.0 (dated 2026-11-12, tagged 2026-11-13) shipped the spec plus the Go, Swift, TypeScript, and Rust packages at 1.1.0, carrying the host-path semantics (#476), the account-selection hint (#583), MCP-served skills (SEP-2640), and experimental subscription-negotiated flow control, while the default branch develops 1.2.0 with a one-time scheduled-chat automations addition merged 2026-11-13 (#603) and an automations chat-run target merged 2026-11-16 (#604, a `{ kind: 'chat', session, chat }` target with a presence capability and explicit previous-session semantics), the model-provider-selection branch merged 2026-11-24 (#543 with #622, model-provider customizations, model IDs kept stable across catalog updates, and the model source registry proposal), an optional `isSymlink` flag on DirectoryEntry merged 2026-11-24 (#628), three further additions merged 2026-11-25 (a model source registry, `RootState.modelSources` listing every model source including an agent's built-ins with registration through a request and a host-only Set and retention kept on the registration request, #627; an optional OIDC `idToken` on authenticate, forwarded unchanged, #631; and an experimental `ahp-search` channel running one streaming query over file names, file text, session titles, and chat messages, #629), and the docs switcher now listing 1.2.0 draft, 1.1.0, and 1.0.0.**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=microsoft/agent-host-protocol&type=date&theme=dark&legend=top-left" />
@@ -94,6 +94,7 @@ The disagreeable part: I think AHP will matter more to daily coding work than A2
 - 2026-11-19 - Re-verification: the default branch carries one unreleased TypeScript-hygiene commit since the last pass (2026-11-18, an unused import removed and unused-locals checking aligned with VS Code, #611); the release train stays at v1.1.0 and nothing else moved.
 - 2026-11-21 - Re-verification: the default branch merged a dependency-security wave on 2026-11-19 (a CVE-2026-43798 fix in the Swift client's swift-nio-ssh dependency #616, a rustls-webpki update on the Rust side #617, and CI toolchain-reference replacements #618, all unreleased past v1.1.0); the release train stays at v1.1.0.
 - 2026-11-25 - Re-verification: the default branch merged an unreleased 1.2.0-draft addition on 2026-11-24 (an optional `isSymlink` flag on DirectoryEntry so a resource list can mark a symbolic link without changing the type union, with schemas and all six client bindings regenerated, #628) and the same day merged the model-provider-selection branch (#543 with #622, model-provider customizations, model IDs kept stable across catalog updates, and a model source registry proposal written up in the docs); the release train stays at v1.1.0.
+- 2026-11-27 - Re-verification: the default branch merged three more unreleased 1.2.0-draft additions on 2026-11-25, after the last pass's fetch (a model source registry with `RootState.modelSources`, request and host-only-Set registration, and retention kept on the registration request, #627; an optional OIDC `idToken` on authenticate, #631; and an experimental `ahp-search` channel for one streaming query over file names, file text, session titles, and chat messages, #629, with a fuzzy hint on SearchQuery); the Status section moved with them and its chain repaired for the 2026-11-24 model-provider-selection merge (#543 with #622), which the 2026-11-25 bullet logged but the chain had dropped; the release train stays at v1.1.0.
 
 ## See also
 

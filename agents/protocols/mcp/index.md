@@ -1,7 +1,7 @@
 ---
 title: Model Context Protocol (MCP)
 created: 2026-08-24
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, protocols, interoperability, agent-tools]
 readability: 3
@@ -21,6 +21,7 @@ The protocol defines JSON-RPC messages between hosts (LLM applications), clients
 It openly borrows its playbook from the Language Server Protocol, which solved the same N-times-M integration problem for editors and languages.
 Anthropic created it (David Soria Parra and Justin Spahr-Summers), open-sourced it on 2024-11-25, and donated it to the Linux Foundation's Agentic AI Foundation (AAIF) on 2025-12-09.
 **The spec and schema are MIT-licensed, and the current specification revision is 2026-07-28, grown through opt-in extensions (Tasks, Skills over MCP, MCP Apps, and Events, the SEP-3415 subscription-and-delivery extension registered in the docs on 2026-11-20 with its spec final and the extension in beta).**
+Pinning now has a schedule to plan against: the docs gained a release-cycle page on 2026-11-26 (#3550) stating that specification releases publish every six months, generally on the last Tuesday of March and September, on an eight-month cycle with dated milestones (soft freeze 2.5 months out, hard freeze 1 month out), and the maintainers file names the 2027-03-30 release with appointed release managers.
 
 ## Status
 
@@ -88,6 +89,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 - 2026-11-21 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch merged the Events extension, SEP-3415 (spec proposal 2026-11-19, docs registration 2026-11-20, a tasks-and-events working-group page following on 2026-11-21): clients subscribe to upstream events by name with arguments and resume from opaque cursors, delivered by poll, long-lived push, or signed webhook, with the full specification in the separate modelcontextprotocol/ext-events repository and the extension in beta; the What-it-is extension list moved with the registration.
 - 2026-11-25 - Re-verification: the specification revision re-confirmed at 2026-07-28 (the schema directory's newest dated folder unchanged, the next revision still in draft); the default branch carries docs and community work since the last pass, with no specification text changed: the extension client matrix gained Archestra.AI in the Skills column and an mcp-use row covering Apps and Skills (#3574, 2026-11-22), VS Code GitHub Copilot in the Skills extension column (#3510, 2026-11-23, support shipped in VS Code 1.147), and Skills support for Claude and Claude Code (2026-11-24); the Core Primitives Working Group gained a charter page (#3545, 2026-11-23), the FSIG charter was aligned with working-group-led governance (#3572) and interest-group charters with the SEP sponsorship guidelines (#3531); a blog post marked two years of MCP (#3584).
 - 2026-11-25 - Added the Backpack for Laravel maintainer's field report as a Cautions item: the package's documentation MCP server barely helped because agents seldom decide to call it, and context-injected, version-matched guidelines outperformed it.
+- 2026-11-27 - Re-verification: the specification revision re-confirmed at 2026-07-28 with the default branch's newest commit a docs change (2026-11-26) and no release; recorded the release-cycle page added to the docs on 2026-11-26 (#3550: specification releases every six months, generally the last Tuesday of March and September, on an eight-month cycle with dated milestones) and the maintainers file's named 2027-03-30 release with appointed release managers.
 
 ## See also
 
@@ -99,6 +101,7 @@ The disagreeable part: MCP's security story lags its adoption story, and teams a
 
 ## References
 
+- https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/docs/community/release-cycle.mdx - the release-cycle page added 2026-11-26 (#3550): the six-month release cadence on the last Tuesday of March and September, the eight-month cycle and its milestones (fetched 2026-11-27)
 - https://modelcontextprotocol.io - official site: what MCP is, client ecosystem
 - https://modelcontextprotocol.io/specification/latest - current spec revision 2026-07-28, JSON-RPC core, extensions
 - https://github.com/modelcontextprotocol/modelcontextprotocol - spec repository, MIT license, stars and commits as of 2026-10-10
