@@ -1,7 +1,7 @@
 ---
 title: Basic Memory
 created: 2026-10-06
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, mcp, knowledge-base, markdown]
 readability: 3
@@ -45,6 +45,8 @@ The November 12-to-13 train (still pending) keeps the fix cadence: cloud discove
 The November 14-to-15 pending train is API-side: each project's change journal is exposed at /v2/projects/{id}/changes, the directory tree carries file checksums, and scoped search's post-search reads run on one session with Server-Timing headers.
 The pending train extended (November 15 to 16): folder deletes now journal every note they remove, note changes arriving through the storage layer are journaled too, the MCP tool stack stays out of the SessionStart brief, one-word Postgres text searches run through the indexed operand path, and each step of an accepted note write is timed in its own span; PyPI stays at 1.0.0.
 The pending train continued (November 19 to 24, still unreleased on PyPI at 1.0.0): the Memory Master note is never overwritten by a skill, workspace-qualified projects route to their cloud workspace, ingestion-run notes take their source file's name, cached resolve answers from the earlier resolver are no longer served, queued note-file deletes are skipped when a note lives at the path again, hosts keep build_context inside the seed project, frontmatter is built from a mapping, and fastmcp moved to 4.2.0.
+
+The train extended on November 26 (still unreleased, PyPI at 1.0.0): trusted notes can be served as MCP skills, and FastMCP moved to 4.2.6.
 
 ## Strengths
 
@@ -107,6 +109,7 @@ Not for products embedding a memory engine (AGPL); teams get live shared workspa
 - 2026-11-16 - Recorded the pending train's extension (November 15-16): folder deletes journal every removed note, storage-arriving note changes are journaled, the SessionStart brief drops the MCP tool stack, one-word Postgres searches use the indexed operand path, and note-write steps get per-step timing spans; PyPI still at 1.0.0, and the push date refreshed to 2026-11-16.
 - 2026-11-19 - Volatile re-verification: the pending train's November 17-to-18 commits recorded (a stored file can replace a projector note that never reached storage, X.ai.md resolves by its path instead of its sibling X.md, and the storage-rename journal test is content-neutral on Windows); PyPI re-verified at 1.0.0, and the push date refreshed to 2026-11-18.
 - 2026-11-25 - Rotation re-verification: every cited URL re-fetched live with no dead source, and the pending November 19-to-24 fix train recorded (the Memory Master note never overwritten by a skill, workspace-qualified project routing, stale resolve answers retired, queued deletes skipped for living notes, fastmcp 4.2.0); PyPI re-verified at 1.0.0 with no release after v1.0.0, and the push date refreshed to 2026-11-24.
+- 2026-11-27 - Rotation re-verified, every cited URL re-fetched and live, and the pricing page re-read with no price change; recorded the pending November 26 addition (trusted notes served as MCP skills); PyPI re-verified at 1.0.0.
 
 ## See also
 

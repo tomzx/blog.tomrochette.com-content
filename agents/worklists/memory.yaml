@@ -3,7 +3,7 @@ category: memory
 generated: 2026-11-27
 mapped_sources:
   - repo: TeleAI-UAGI/Awesome-Agent-Memory
-    last_checked: 2026-11-25
+    last_checked: 2026-11-27
 digest_lines:
   - "- 2026-11-26 | assistant-runtimes | no credible assistant-runtimes-dedicated source has appeared; the GitHub search re-run sighted LHL3341/awesome-claws (99 stars, pushed 2026-10-16, an OpenClaw products, skills, and communities list), sameeerkashyap/awesome-claw (66 stars), buainoai/awesome-clawdbot-skills (47 stars), upgundecha/awesome-personal-agents (2 stars), ishandutta2007/Awesome-Claw (29 stars), qhkm/awesome-claw (28 stars), and brighterr/awesome-personal-agent-memory (0 stars), none wired, none scanned | machinae/awesome-claws unchanged since 2026-03-17 and elyase and ahmadyan unchanged; extends the 2026-11-24 line"
   - "- 2026-11-26 | cross-category | the andyrewlee 2026-11-26 batch resolves with one admission candidate and five rejections, and two member sightings | OpenComputer (diggerhq/opencomputer) routes to orchestration; Open Managed Agents, Goodboy, Persistent Agent, AppuBot, and DCC-MCP Core reject as recorded below; RocketRide and Omnara are members"

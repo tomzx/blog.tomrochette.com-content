@@ -1,7 +1,7 @@
 ---
 title: Operator Memory
 created: 2026-10-17
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, agent-memory, documentation, markdown, context-engineering]
 readability: 3
@@ -17,7 +17,7 @@ Operator Memory is a BSD-3-Clause, harness-agnostic documentation brain for codi
 
 ## What it is
 
-A TypeScript system installed through the @aerovato/operator-helper npm package (24 releases from 1.0.0 on 2026-08-16 to 1.13.0 on 2026-11-21, shipped through a coordinated batch publisher alongside its adapter plugins, the Codex adapter at 0.5.0), with adapter plugins for Claude Code, Codex, OpenCode (V2 the default install since 2026-10-20, V1 kept as legacy), Pi, DeepSeek Harness, and Kiro.
+A TypeScript system installed through the @aerovato/operator-helper npm package (26 releases from 1.0.0 on 2026-08-16 to 1.14.1 on 2026-11-26, shipped through a coordinated batch publisher alongside its adapter plugins, the Codex adapter at 0.5.0), with adapter plugins for Claude Code, Codex, OpenCode (V2 the default install since 2026-10-20, V1 kept as legacy), Pi, DeepSeek Harness, and Kiro.
 Knowledge lives in three markdown partitions: ~/.operator/user/ for personal rules across projects, .operator/ for private project knowledge, and .operator-shared/ for knowledge published with the repository, with conflicts resolving private over user over shared.
 Every session starts from a deterministic preamble: fixed framework rules, each partition's operator.md, a catalog mapping each Brain document, and a project index whose entries carry read_if conditions, so the agent deliberately opens deeper material instead of receiving similarity-ranked injections.
 There is no vector database, no embedding model, no background maintenance agent, and no retrieval step; the author's comparison doc argues every capture-replay memory plugin shares one broken architecture.
@@ -26,7 +26,7 @@ It came out of the author's August 2025 internal/ folder convention and ships wi
 ## Status
 
 **Young, single-author, and carried by one viral essay.**
-461 stars as of 2026-11-04 (GitHub API), with the repository pushed 2026-11-24, created 2026-08-16, BSD-3-Clause, re-checked 2026-11-25.
+461 stars as of 2026-11-04 (GitHub API), with the repository pushed 2026-11-26, created 2026-08-16, BSD-3-Clause, re-checked 2026-11-27.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=aerovato/operator-memory&type=date&theme=dark&legend=top-left" />
@@ -35,8 +35,10 @@ It came out of the author's August 2025 internal/ folder convention and ships wi
 </picture>
 claude-code@v0.3.1 (November 22) reuses the preamble in full-history forks; since then the default branch retired preamble v1.1 so v2.0 is the only preamble and consolidated the source checkouts and Copilot guides in the references docs (November 22 to 24, unreleased).
 
+The batch shipped: codex@v0.6.0 (November 25) carries the preamble v1.1 retirement and the v2.1 rollout, codex@v0.6.1 (November 25) restores the preamble after first-turn edits and reorganizes the brain docs, and helper@v1.14.1 (November 26) recovers conflicting Codex marketplace installs.
+
 The liao.gg essay (2026-10-03, updated 2026-10-05) reached 392 points and 312 comments on Hacker News, and the repository is the essay's grounded implementation, so the adoption and the argument share one author.
-Development is active: the helper passed 24 npm releases in three months (now at 1.13.0, with the core's machine-stable versioned preamble rollout landed), and the roadmap names an observation engine, reliable brain updates, and cache-aware preamble rendering as unfinished work.
+Development is active: the helper passed 26 npm releases in three months (now at 1.14.1, with the core's machine-stable versioned preamble rollout landed), and the roadmap names an observation engine, reliable brain updates, and cache-aware preamble rendering as unfinished work.
 
 ## Strengths
 
@@ -79,6 +81,8 @@ Not for teams needing measured retrieval quality (none exists here), enterprise 
 - 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (the repository API, README, architecture and comparison docs, LICENSE, the npm registry, the essay thread, the benchmark-exchange comment), no facts changed (the repository still pushed 2026-11-05, BSD-3-Clause, the helper still at 1.12.0 with twenty-three npm releases, the thread steady at 392 points, the benchmark-exchange comment intact); the liao.gg essay still serves its site-wide 403 bot wall to non-browser fetches, citation kept per the bot-wall ruling.
 - 2026-11-22 - Recorded the coordinated package batch (November 21): pi@v1.3.0 (Project Init streamlined and the standalone index command retired), opencode-v2@v2.4.0, and helper@v1.13.0, with the npm parenthetical moved to 24 releases through 1.13.0 and the Codex adapter at 0.5.0; the push date refreshed to 2026-11-21.
 - 2026-11-25 - Recorded claude-code@v0.3.1 (November 22, the preamble reused in full-history forks) and the unreleased November 22-to-24 batch (preamble v1.1 retired with v2.0 the only preamble, Copilot guides in the references docs); the status push date refreshed to 2026-11-24.
+- 2026-11-27 - Recorded the batch's release (codex@v0.6.0 and codex@v0.6.1 on November 25, helper@v1.14.1 on November 26): the preamble restored after first-turn Codex edits, the brain docs reorganization, and conflicting Codex marketplace installs recovered; the helper count moved to 26 releases through 1.14.1 and the push date to 2026-11-26.
+
 ## See also
 
 - [File-based agent memory](../file-based-agent-memory/index.md) - the convention this productizes, and the thesis's cheapest form

@@ -1,7 +1,7 @@
 ---
 title: memU
 created: 2026-10-06
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, agent-memory, file-based, skills]
 readability: 3
@@ -48,6 +48,8 @@ The pending work extended (November 14): local memory commits made atomic under 
 The pending work extended (November 16): Codex retrievals write one JSON trace per retrieval, host retrieval artifacts are cleaned using installation ownership, and the Cola and generic host adapters were removed from the README's matrix.
 The license file moved from LICENSE to LICENSE.txt, which the GitHub detector stopped recognizing (it now reads NOASSERTION) while the text stays the standard Apache-2.0 the README still declares.
 The pending work extended (November 20 to 24, unreleased; v1.5.1 from March stays the latest tag): empty memory mirrors removed, legacy Claude macOS schedules inspected and removed, clearing memory now requiring explicit acknowledgement, URL matching sped up for batch resource commits, empty SDK embedding requests skipped, and CI routed to environment runners with merge checks.
+
+The pending work extended (November 26 to 27, v1.5.1 still the latest tag): shared settings migrate to TOML, query extraction becomes opt-in across hosts, unhashable block types are ignored in pi, Cursor, and WorkBuddy, patched certifi, filelock, and virtualenv versions are pinned, and process trees left by query extraction are cleaned up.
 
 ## Strengths
 
@@ -106,6 +108,7 @@ Not for teams needing multi-user memory APIs, contractual hosting terms, or any 
 - 2026-11-16 - The host matrix shrank: the Cola adapter and the generic `memu-agent` JSONL-dialect detector were removed upstream (November 16 commits, pending release, with an upgrade path left in the README), so What it is now lists ChatGPT, Claude Code, Codex, Cursor, OpenClaw, Hermes, WorkBuddy, and pi; the pending Codex JSON retrieval trace and the installation-ownership artifact cleanup recorded, and the push date refreshed to 2026-11-16.
 - 2026-11-19 - Volatile re-verification: the pending November 18-to-19 fixes recorded (unhashable Claude block types ignored, Doubao multimodal embedding responses parsed, non-finite embeddings skipped in cosine search, and the retry spool bounded); the push date refreshed to 2026-11-19.
 - 2026-11-25 - Rotation re-verification: every cited URL re-fetched live with no dead source, and the pending November 20-to-24 fixes recorded (empty memory mirrors removed, legacy Claude macOS schedules inspected and removed, an explicit acknowledgement required to clear memory, empty SDK embedding requests skipped); no release after v1.5.1, and the push date refreshed to 2026-11-24.
+- 2026-11-27 - Rotation re-verified, every cited URL re-fetched and live; recorded the pending November 26-to-27 batch (shared settings migrated to TOML, query extraction opt-in, patched dependency versions, query-extraction process trees cleaned up); v1.5.1 stays the latest tag.
 
 ## See also
 

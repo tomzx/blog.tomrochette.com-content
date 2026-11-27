@@ -1,7 +1,7 @@
 ---
 title: Memanto
 created: 2026-10-11
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, memory-agent, typed-memory, mcp, open-source]
 readability: 3
@@ -10,7 +10,7 @@ audience_notes: >
   the engines that only store and serve. Assumes you know what vector search and MCP are.
 ---
 
-Memanto is an MIT-licensed memory agent from Moorcheh AI: a second agent that runs beside your fleet and manages its shared memory, deciding what to keep, what conflicts, what expires, and what each agent is briefed with before it acts.
+Memanto is an Apache-2.0-licensed memory agent from Moorcheh AI (MIT until v0.3.2 on 2026-11-26): a second agent that runs beside your fleet and manages its shared memory, deciding what to keep, what conflicts, what expires, and what each agent is briefed with before it acts.
 
 **Its bet is that storage is solved and management is not: consolidation, contradiction handling, and forgetting should run as an agent on a schedule, not as code you write against a memory API.**
 
@@ -26,7 +26,7 @@ Made by Moorcheh AI, with the April 2026 paper (arXiv 2604.22085) behind the ret
 ## Status
 
 **Active, young, and vendor-led.**
-2,326 stars and 741 forks, created 2026-03-23, pushed 2026-11-24, MIT, as of 2026-11-25 (GitHub API).
+2,326 stars and 741 forks as of 2026-11-25, created 2026-03-23, pushed 2026-11-27, Apache-2.0 since v0.3.2 (MIT before) (GitHub API, re-checked 2026-11-27).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=moorcheh-ai/memanto&type=date&theme=dark&legend=top-left" />
@@ -38,6 +38,8 @@ PyPI is at 0.2.32 with about 41 releases since spring, and npm is in sync at 0.2
 v0.2.32 (November 18) shipped the pending work as the release: Kimi Code became a supported coding agent across memanto connect, MCP setup, client attribution, and the Web UI (the README's connect table names fifteen coding CLIs, with the standalone kimicode wrapper riding beside it), Memanto custom tools shipped for Composio in the TypeScript SDK, memanto-mcp installs in Claude Desktop through an MCPB bundle, the eve integration was updated for eve 1.0, and OKF imports keep their original dates; it is a breaking release on recall defaults, without an explicit setting recall now returns up to 50 results (was 10) and drops matches scoring below 0.1 similarity (was unfiltered).
 v0.3.0 (November 20, PyPI and npm both in sync at 0.3.0) is the hosted turn: Memanto Cloud joins as a first-class backend with browser sign-in (`memanto login`, or an `mk_` key for CI), a one-command move of local memories up to the cloud (`memanto migrate to-cloud`, expired memories included on request), and `memanto use cloud | moorcheh | on-prem` replacing `memanto config backend`, with every tool following the selected backend through one shared client factory; the same release ships a desktop widget, an interactive `memanto connect`, per-project tags, per-tool writer attribution recorded by Cloud, and a catch-up at each new session, breaking session handling by replacing auto-renew and auto-recreate with one auto-activate switch that defaults off (with it off, sessions end at their six-hour expiry and long-running CrewAI and Pydantic AI apps need the switch on).
 v0.3.1 (November 24, PyPI in sync at 0.3.1 as of 2026-11-25) brings Memanto Cloud to `memanto serve`: the local REST server stores memories on a Memanto Cloud account with the local response formats, sessions stay local, there is no fallback to a Moorcheh key, a rejected key answers 502 so clients stop re-activating in a loop, and the CLI now defaults to `https://api.memanto.ai`; auto-activate no longer loses the active agent on installs upgraded from before v0.3.0.
+
+v0.3.2 (November 26) moves the LangGraph, Langfuse, and CrewAI integrations onto Memanto Cloud, with the Moorcheh local and on-prem keys kept as a fallback, and relicenses Memanto under Apache License 2.0.
 The Claude Code integration followed on 2026-10-27 (claudecode-memanto v0.1.2): it is MCP-first now, bundling memanto-mcp so the install registers the memanto MCP server in `.mcp.json` or `~/.claude.json` with the memory tools pre-approved, matching `memanto connect`'s `--project-dir` and `--agent-id` flags; the same days added an MCP Dockerfile and llms-install.md for registry listings and connect fixes verifying agent instruction and skill paths.
 The paper claims 89.8 percent on LongMemEval and 87.1 percent on LoCoMo through Moorcheh's Information Theoretic Search engine, with datasets and a harness published on Hugging Face.
 The Hacker News record is modest: a 14-point thread in June 2026 (11 comments) and a 3-point Mem0-migration story in September.
@@ -59,7 +61,7 @@ The Hacker News record is modest: a 14-point thread in June 2026 (11 comments) a
 
 ## Pricing
 
-Local mode is free under MIT (Docker plus Ollama, no account).
+Local mode is free under the Apache-2.0 license (Docker plus Ollama, no account).
 The Moorcheh Cloud backend has a free key tier with 100,000 operations per the docs.
 No paid tier is published in the fetched surfaces, as of 2026-10-11.
 
@@ -89,6 +91,7 @@ My disagreeable claim: the management layer, not the store, is where memory prod
 - 2026-11-19 - Recorded v0.2.32 (November 18, PyPI and npm both in sync): Kimi Code across connect, MCP setup, attribution, and the Web UI, Composio custom tools in the TypeScript SDK, the Claude Desktop MCPB bundle, the eve 1.0 update, OKF date preservation, and the breaking recall defaults (limit 50, similarity floor 0.1); the push date refreshed to 2026-11-18.
 - 2026-11-20 - Recorded v0.3.0 (November 20, PyPI and npm both in sync): Memanto Cloud as a first-class hosted backend with browser sign-in and one-command local-to-cloud moves, `memanto use` replacing `memanto config backend` (breaking), a desktop widget, interactive connect, per-project tags, per-tool writer attribution in Cloud, and the session catch-up, with session auto-renew and auto-recreate replaced by the off-by-default auto-activate switch (breaking); the push date refreshed to 2026-11-20.
 - 2026-11-25 - Recorded v0.3.1 (November 24, PyPI in sync at 0.3.1): `memanto serve` on Memanto Cloud (local response formats, local sessions, no Moorcheh fallback, 502 on a rejected key), the CLI defaulting to api.memanto.ai, and the auto-activate upgrade fix; the push date refreshed to 2026-11-24.
+- 2026-11-27 - Recorded v0.3.2 (November 26): the LangGraph, Langfuse, and CrewAI integrations on Memanto Cloud with the local fallback kept, and the relicensing from MIT to Apache-2.0 (definition, Status, and Pricing corrected); the push date refreshed to 2026-11-27.
 
 ## See also
 

@@ -1,9 +1,9 @@
 ---
 title: LongMemory
 created: 2026-10-08
-updated: 2026-11-20
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, temporal, sqlite, self-hosted, mcp]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, memory, temporal, sqlite, self-hosted, mcp, llm=glm-5.4]
 readability: 3
 audience_notes: >
   Engineers choosing a self-hostable memory engine who care about temporal truth and
@@ -26,7 +26,7 @@ Surfaces include the npm library, a CLI, an HTTP API on port 7331, an MCP server
 ## Status
 
 **Young but shipping, with a strong independent launch record for its size.**
-4,527 stars as of 2026-10-11 (GitHub API), with the repository pushed 2026-11-10, created 2025-10-19, as of 2026-11-11 (GitHub API).
+4,527 stars as of 2026-10-11 (GitHub API), with the repository pushed 2026-11-26, created 2025-10-19, as of 2026-11-27 (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=CaviraOSS/LongMemory&type=date&theme=dark&legend=top-left" />
@@ -37,6 +37,8 @@ Surfaces include the npm library, a CLI, an HTTP API on port 7331, an MCP server
 The Show HN thread (December 2025, as OpenMemory) drew 48 points and 16 comments, and the contributor count stands at 51 by GitHub API pagination as of 2026-10-29 (the README carries a contributors table again, 37 avatars).
 Its benchmark harness publishes manifests and fails closed on incomplete datasets or embedding fallback, covering LongMemEval, LoCoMo, and BEAM, though the published results are still the project's own runs.
 The README has grown well past the released npm train: it now documents multilingual recall (script detection, code switching, transliteration), an `answer_from_evidence` adapter making at most one model call over validated citations, governed assets (Chat Memory, Skills, LLM-Wiki, CodeGraph), a project-memory CLI with skill matching and asset loadouts, an Agent Plugins 1.0 bundle for OpenClaw, plugins and packs for Claude Code, Codex and ChatGPT desktop, Gemini CLI, Cline, Continue, LibreChat, Dify, and Flowise, and deployment targets for DigitalOcean, Vercel, and Windows, while npm stays frozen at 1.3.3 since August 31, so the newest surface ships docs-side, not release-side.
+
+The default branch moved on November 26, still ahead of any release: an Antigravity integration joined the integration set with a shared `_shared/longmemory` skill, team-memory and local-install docs were added, a plugin marketplace file landed, and the version was bumped to 2.1.0.
 Two verification gaps carried into this run: the PyPI distribution the README instructs you to install (`longmemory-sdk`) returned 404 again on 2026-11-11 (as on every check since 2026-10-08), and the push drought broke again on 2026-11-09 and 10 with a community claims fix (PR #222 keeps claims on every line of a note, not just the first) and the contributor README refresh, while the npm train stays frozen at 1.3.3 since August 31.
 
 ## Strengths
@@ -78,6 +80,7 @@ Not for anyone needing a hosted tier, a proven-at-scale engine, or a Python SDK 
 - 2026-11-11 - Rotation re-verification: every cited URL re-fetched live (repository API and page, README, license, npm, the PyPI simple index, the Show HN thread), one fact changed: the push drought broke again with the community claims fix merged 2026-11-09/10 (claims now kept on every line of a note) and the contributor README refresh, while npm stays frozen at 1.3.3 and the PyPI SDK 404 re-confirms on 2026-11-11.
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched live (repository API, README, license, npm, the PyPI simple index, the Show HN thread), no facts changed: npm stays frozen at 1.3.3 (modified 2026-08-31), the PyPI SDK 404 re-confirms on 2026-11-15, and the repository stays quiet with no push since 2026-11-10.
 - 2026-11-20 - Rotation re-verification: every cited URL re-fetched live (the Show HN thread on a second attempt), no facts changed: npm still frozen at 1.3.3, the PyPI SDK 404 re-confirms, and the repository stays quiet with no push since 2026-11-10.
+- 2026-11-27 - Recorded the pending November 26 batch (an Antigravity integration with a shared skill, team-memory and local-install docs, a plugin marketplace file, the version bumped to 2.1.0, all unreleased); the push date refreshed to 2026-11-26.
 
 ## See also
 

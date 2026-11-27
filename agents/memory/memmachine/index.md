@@ -1,7 +1,7 @@
 ---
 title: MemMachine
 created: 2026-10-11
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, agent-memory, knowledge-graphs, open-source]
 readability: 3
@@ -36,6 +36,8 @@ Both PyPI distributions moved to 0.4.0 on 2026-10-08.
 The Hacker News record is thin: a 4-point Show HN in November 2025 and a 2-point story the month before, so adoption rests on registry and framework channels rather than public debate.
 The site names Arista Networks, Hugging Face, and Duke University among trusted teams and publishes customer quotes, but no independent evaluation of the engine exists in either direction.
 The default branch moved again (November 19 to 23, no release after v0.4.0): store incarnations replaced by partition UUIDs from one registry per partition namespace, segment-store key-list lookups kept from scanning a whole tenant on PostgreSQL, PostgreSQL 18 in the server's test run, and the milvus extra installed in the Docker images.
+
+The default branch moved again (November 25 to 26, no release after v0.4.0): `memmachine-server prepare` creates every configured store's schema before servers start, embedders, rerankers, and language models are built without sending them a request, the contributing and maintainer guides are consolidated into CONTRIBUTING.md, and the SBOM is uploaded once.
 
 ## Strengths
 
@@ -81,6 +83,7 @@ My disagreeable claim: publishing zero numbers in a benchmark-obsessed category 
 - 2026-11-15 - Rotation re-verification: every cited URL re-fetched live (repository API and README, docs, site, PyPI, the Hacker News search, and the entrant source), no facts changed; both PyPI distributions still 0.4.0, the thin-discussion record unchanged, and the 2026-11-12 pushed_at movement resolved to side branches with the default branch quiet since 2026-11-02.
 - 2026-11-19 - Volatile re-verification: the default branch resumed with the horizontal-scaling branch merge (#1778) landing on 2026-11-18; no release after v0.4.0, both PyPI distributions still 0.4.0, and the push date refreshed to 2026-11-18.
 - 2026-11-25 - Volatile re-verification: the November 19-to-23 default-branch batch recorded (partition UUIDs from a partition registry, tenant-wide scans avoided in key-list lookups on PostgreSQL, PostgreSQL 18 tests, milvus in the Docker images); no release after v0.4.0 and the push date refreshed to 2026-11-23.
+- 2026-11-27 - Recorded the November 25-to-26 default-branch batch (`memmachine-server prepare` for store schemas, embedders and models built without a request, the consolidated contributor guide, the SBOM upload); no release after v0.4.0.
 
 ## See also
 

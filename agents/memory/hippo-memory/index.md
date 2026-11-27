@@ -1,7 +1,7 @@
 ---
 title: Hippo Memory
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, memory, agent-memory, coding-agents, mcp, local-first, open-source]
 readability: 3
@@ -33,7 +33,9 @@ It is made by kitfunso, a single author holding 1,271 commits against 124 by a C
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=kitfunso/hippo-memory&type=date&legend=top-left" />
 </picture>
 
-Latest release v3.16.0 (2026-11-24) with npm in sync at 3.16.0 as of 2026-11-25, and 12,086 npm downloads in the trailing month (2026-10-23 to 2026-11-22); the releases endpoint's newest hundred entries reach back only to v1.26.0, a train past a hundred releases.
+Latest release v3.19.0 (2026-11-26, recorded below); v3.16.0 (2026-11-24) had npm in sync at 3.16.0 as of 2026-11-25, and 12,086 npm downloads in the trailing month (2026-10-23 to 2026-11-22); the releases endpoint's newest hundred entries reach back only to v1.26.0, a train past a hundred releases.
+
+v3.17.0 (November 25) added four audit ops for SCIM group writes, v3.17.1 (November 25) kept the local key's flag on HTTP MCP writes so the operator's own writes reach the project write gate, v3.17.2 (November 25) closed a hole where promote on a shared store trusted the project in the request body (it now asks the project write gate with the row's stored origin project), v3.18.0 (November 26) added `serve({ sleep })` so a host store runs its own `POST /v1/sleep` (one at a time, 503 with Retry-After otherwise) and stopped the hippo.db consolidation child starting on a store without the `consolidation` group, and v3.19.0 (November 26) added `runConnectorCommand(ctx, argv)` on `hippo-memory/server`, which runs the `slack` and `github` CLI verbs on a caller's store with the CLI's own flags, help, and exit codes.
 The project's own eval, with the plan registered before the run, reports repeated mistakes per 100 chances across 29 repositories falling from 84 with no memory and 26 with Claude Code's built-in memory to 12 with built-in plus Hippo, at 1.006 times the cost.
 In the benchmark table its README assembles, Hippo's column leads on a few official setups (HaluMem at 70.23 medium and 65.99 long, PersonaMem v1 at 61.97, EverMemBench at 44.20) and trails named members on most OmniMemEval shared setups (LoCoMo 74.72 against MemOS 88.83, Cognee 83.48, and Hindsight 81.99; LongMemEval-S 83.84 against MemOS 89.20), and it scores 10 of 100 on MemFail's coexisting-facts test against Mem0's 35 of 100.
 The discussion footprint is one thread, the author's own 128-point Show HN (April 2026, 29 comments), where commenters question whether exponential decay catches a sharp migration and note the README never mentions the similarly named HippoRAG.
@@ -79,6 +81,7 @@ Not for anyone who needs retroactive memory of past sessions, per-project access
 ## Changes
 
 - 2026-11-25 - Created from the TeleAI source's 2026-11-23 additions, with the registered repeat-mistake eval set against the self-assembled benchmark table as the critical angle.
+- 2026-11-27 - Recorded v3.17.0 through v3.19.0 (November 25-26): the SCIM group audit ops, the local key's flag kept on HTTP MCP, promote asking the project write gate with the row's own project, the host-supplied `sleep` on `serve`, and `runConnectorCommand` for the Slack and GitHub connector verbs.
 
 ## See also
 

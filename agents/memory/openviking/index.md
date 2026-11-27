@@ -1,7 +1,7 @@
 ---
 title: OpenViking
 created: 2026-10-07
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, memory, context-database, file-based, open-source]
 readability: 3
@@ -40,6 +40,8 @@ The pending post-v0.5.5 train (November 14 to 16) is the react Console's line: @
 The pending train extended again (November 16 to 17): @openviking/react 0.1.13 shipped, the skills line gained ownership and change-history tracking, same-session memory URI conflicts reconcile with partial writes preserved, the compile path bounds rollback-lock retries and recovers stale target-tag leases, and the react editor shows read-only Wiki conflict metadata.
 The pending train extended again (November 20): memory stats paginate past the single-query cap, compile acknowledges replayed cancelled tasks instead of hanging them, the react Console renders task and grep results as lists with a compact command-help layout, retrieval contract-test coverage tightened, and a local add-resource call routes to the host upload flow.
 Latest release v0.5.6 (November 24) alongside python-sdk 0.1.21 and the CLI 0.5.4: PostgreSQL persistence now covers accounts, tasks, and watches so multi-node deployments share them without Redis, QueueFS keeps message order and recovery across retries and restarts, compile configuration, execution, and snapshots are split, `ov privacy run` executes external commands with privacy references resolved and sensitive values masked again in child output, MCP retrieval gains tag filters, skills gain owners and change history, and Antigravity and Qoder CLI adapters join; the pending train after it (November 23 to 24) moved OIDC verification to PyJWT, forwarded Feishu nested import options, and repaired incremental compile and empty-string ACL grants.
+
+The default branch moved on November 27 (unreleased): grep and glob search across several URIs, an optional filtered KNN for pgvector, the rate-limit backoff applied on 429 responses, Compile plans managed by compile name in the studio, and an automatic output-language narrowing that landed and was reverted the same day.
 v0.5.0 adds the OpenViking Gateway (beta): a standalone proxy process on port 1935 that any model client with a configurable base URL can point at, injecting profile, memory, and skill context without plugins or prompt changes, supporting the Anthropic Messages, OpenAI Chat Completions, and OpenAI Responses protocols, and replaying injected content byte-for-byte so provider prompt caches and thinking signatures stay valid; v0.5.1 can run that gateway inside the OpenViking server itself and adds field-level privacy references, expanded batch-write options, and multimodal retrieval.
 v0.5.2 turns working memory off by default (sessions still archive raw messages and extract long-term memory, but WM and checkpoint summaries now require an explicit `enable_working_memory=true`), moves the LangChain integration into a separate `langchain-openviking` package, adds session-privacy extraction with privacy-tree MCP tools, and renames the Pi extension's tools from `viking_*` to `openviking_*`.
 Development and writing are both active: the 108-page documentation site and the project blog are current (the latest post, a three-minute evaluation test, dates to 2026-10-03).
@@ -98,6 +100,7 @@ Not for proprietary SaaS embedding, and not for buyers who need published hosted
 - 2026-11-19 - Volatile re-verification: @openviking/react 0.1.14 (November 18, AgentConnect's isEnterprise language choice for installer onboarding) and 0.2.0 (November 19, FileBrowser hosts loading experience metrics and overriding dashboard sections) shipped, and the pending train extended (worker tool results preserved complete through compile, socks5 proxies in the ov HTTP client, empty-message tool failures kept in captured memory, and oversized image evidence normalized); no engine release after v0.5.5, and the push date refreshed to 2026-11-19.
 - 2026-11-20 - Volatile re-verification: the pending train extended again (November 20: memory stats paginating past the single-query cap, compile acknowledging replayed cancelled tasks, the react Console's list rendering and compact help layout, tightened retrieval contract tests, and local add-resource routed to the host upload flow); no engine release after v0.5.5, and the push date refreshed to 2026-11-20.
 - 2026-11-25 - Recorded v0.5.6 (November 24): PostgreSQL persistence over accounts, tasks, and watches, QueueFS ordering and recovery, the compile configuration, execution, and snapshot split, `ov privacy run`, MCP retrieval tag filters, skill ownership and change history, and the Antigravity and Qoder CLI adapters, plus the pending PyJWT and Feishu commits; the Status lead corrected from "Latest release v0.5.5", and the push date refreshed to 2026-11-24.
+- 2026-11-27 - Recorded the November 27 default-branch batch (grep and glob across several URIs, filtered KNN for pgvector, the 429 backoff, the output-language narrowing landed and reverted); no release after v0.5.6.
 
 ## See also
 
