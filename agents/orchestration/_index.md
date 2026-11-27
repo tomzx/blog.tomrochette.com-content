@@ -40,7 +40,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [CLI Agent Orchestrator](cli-agent-orchestrator/index.md) - AWS Labs' Apache-2.0 Python supervisor running twelve provider coding CLIs in isolated tmux sessions behind a local server, Web UI, and MCP surface.
 - [Cloudroom](cloudroom/index.md) - the Apache-2.0 desktop app and Rust core running coding-agent harnesses in one cloud sandbox per thread on the subscriptions you already pay for, moving a live session between laptop and cloud, 1,841 stars as of 2026-11-24.
 - [cmux](cmux/index.md) - Manaflow's libghostty macOS terminal for parallel agents, notification rings free, cloud execution paid (Pro $50, Max $200 monthly).
-- [Commonly](commonly/index.md) - Team-Commonly's Apache-2.0 team-pod workspace where each member's coding agents join one chat and one board as named members, v3.0.0, zero coverage so far.
+- [Commonly](commonly/index.md) - Team-Commonly's Apache-2.0 team-pod workspace where each member's coding agents join one chat and one board as named members, v3.1.0, zero coverage so far.
 - [Concord MCP](concord-mcp/index.md) - the MIT MCP server and CLI giving coding agents sharing one checkout a claim ledger, live messaging, handoffs, and review packets, with an early-access cloud tier at $15 per seat.
 - [Conductor](conductor/index.md) - the macOS app for parallel Claude Code, Codex, Cursor, and OpenCode sessions with diff review and PR flow, joining Meta since 2026-11-04, its original wind-down schedule dropped with development continuing and 0.98.0 shipping 2026-11-20.
 - [CrewAI](crewai/index.md) - the MIT Python role-and-crew framework, 59.7k stars, now funded by an $18M enterprise platform.
@@ -74,6 +74,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [Mastra](mastra/index.md) - the TypeScript agent framework from the Gatsby team, 12.1M npm downloads a month and $35M raised, scarred by a June 2026 npm supply-chain attack.
 - [MetaGPT](metagpt/index.md) - FoundationAgents' software-company-as-multi-agent framework, quiet since v0.8.2 with the energy moved to OpenManus.
 - [Multica](multica/index.md) - the source-available, self-hostable workspace that assigns issues to coding agents as teammates, 52.9k stars as of 2026-10-15.
+- [Munder Difflin](munder-difflin/index.md) - Chaitanya Giri's MIT Electron desktop app running the coding-agent CLIs you already subscribe to as a team under an orchestrator agent, mailboxes, and a shared memory, 10,011 stars as of 2026-11-27, with the vendor's installers split from the Classic source on accounts and required usage events.
 - [nodeterm](nodeterm/index.md) - the BUSL-1.1 Electron canvas turning terminals and agent sessions into draggable nodes, with a Trello-style board of live sessions and an iOS companion.
 - [oh-my-codex](oh-my-codex/index.md) - the MIT workflow layer for OpenAI Codex CLI adding skills, hooks, HUD, memory, and worktree team execution.
 - [Omnara](omnara/index.md) - the YC S25 Apache-2.0 Go control plane where agents are YAML and supervision happens from dashboard, phone, CLI, API, or Slack.
@@ -205,3 +206,4 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-11-24 - Added Kortix.
 - 2026-11-25 - Added RocketRide.
 - 2026-11-27 - Added OpenComputer.
+- 2026-11-27 - Added Munder Difflin.
