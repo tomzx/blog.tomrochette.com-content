@@ -3,7 +3,7 @@ category: model-access
 generated: 2026-11-27
 mapped_sources:
   - repo: rafska/awesome-local-llm
-    last_checked: 2026-11-26
+    last_checked: 2026-11-27
 digest_lines:
   - "- 2026-11-26 | model-access | a dead worker's uncommitted draft is re-dated to the day of the re-fetch, its unverifiable day-before readings come out, and a claim the fresh fetch no longer supports comes out whole | the google-ai-plans and kimi-code leftover drafts: the 2026-11-25 OpenRouter and plans-page readings were replaced by 2026-11-26 readings, and the Black Friday banner the draft read on the plans page, absent from the 2026-11-26 fetch of both plans pages, was dropped with its terms reference"
   - "- 2026-11-26 | model-access | an unflagged stable release on a new version line advances a member's latest-stable fact where the QA-build reading had held it, the prerelease alpha train being a train fact only | magnitude's CLI 0.3.0 went stable 2026-11-24 evening and patched daily to 0.3.5 by 2026-11-26"
