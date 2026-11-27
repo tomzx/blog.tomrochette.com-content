@@ -1,9 +1,9 @@
 ---
 title: Cline
 created: 2026-08-24
-updated: 2026-11-21
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, coding-agents, harnesses, open-source, byok]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, open-source, byok]
 readability: 3
 audience_notes: >
   Engineers who want one open agent across their editor, terminal, and CI.
@@ -40,6 +40,7 @@ The project started as the "Claude Dev" extension in late 2024 and has been rena
 v4.1.25 (October 16, 2026) began rolling out Cline Cloud sessions: a task runs in a hosted sandbox on a GitHub repo and branch you pick, shows up in Recent and History with its status, notifies you when it finishes, and keeps running after you close your editor ([release notes](https://github.com/cline/cline/releases), rolling out gradually).
 v4.1.26 (October 26, 2026) deepened the cloud side with a Local/Cloud model toggle for new cloud tasks (the hosted model saved separately from local ones) and a progress card for sandbox starts, and refreshed the provider catalog: ClinePass now defaults to Kimi K3.1 Pro, the free list swaps in Reflection Beam, Nemotron 3.5 Lightning, and Laguna S 2.1, and GPT-6 models get `max_completion_tokens` on OpenAI-compatible endpoints while Gemini free-tier keys stop failing on native Google Search; the component tags moved the same day (cli-v3.0.74, desktop-v0.0.49, and sdk v0.2.0).
 v4.1.27 (November 21, 2026) kept the polish train running: an LM Studio API-key field for servers that require authentication, read-only badges on MCP tools whose server declares them, a Privacy settings link into the web app's data-use preferences, the Cline provider starting on the first free model when no model is saved, a reasoning-effort dropdown that shows the effort a new task will actually use with a Default entry, provider model lists refreshing after a key or base URL save, and `read_files` results no longer cut to 8k characters on the way to the model, with the component tags moving the same day (cli-v3.0.75, desktop-v0.0.50, and sdk v0.2.1).
+v4.1.28 (November 26, 2026) refreshed the model catalog: the OpenAI provider stops listing ids the upstream catalog marks deprecated (among them `gpt-4o`, `gpt-4.1`, `gpt-5`, `gpt-5-mini`, `gpt-5.1`, `gpt-5.3-codex`, `o3`, and `o3-pro`), `gpt-5.3-codex-spark` leaves the ChatGPT-subscription list, and the Concentrate and Prima Labs providers join, with the component tags moving the same day (cli-v3.0.76, desktop-v0.0.51, and sdk v0.2.2).
 Beyond the open harness, the vendor now sells Cline Spec Driven, an enterprise agent platform built with LG CNS that runs a specialized-agent pipeline over a licensed, self-hostable deployment, listed on the product site as of 2026-10-06.
 
 ## Strengths
@@ -98,6 +99,7 @@ Not for teams that require every client binary open or a coding-agnostic automat
 - 2026-11-08 - Rotation re-verification, every cited reference live: v4.1.26 (October 26) remains the newest release, ClinePass re-verified at a flat $9.99/month with the same six open-weight labs, the 11M+ vendor install claim re-confirmed on the site, and the marketplace install count refreshed to 5,870,736.
 - 2026-11-16 - Rotation re-verification, every cited reference live: v4.1.26 (October 26) remains the newest release, ClinePass re-verified at $9.99/month with 2-5x standard-API usage on the docs' ClinePass page, the 11M+ vendor install claim re-confirmed on the site, and the marketplace install count refreshed to 5,948,389.
 - 2026-11-21 - Rotation re-verification, every cited reference live: recorded the v4.1.27 release (published November 21, the LM Studio API-key field, MCP read-only badges, the Privacy settings link, first-free-model defaulting, the reasoning-effort dropdown's actual-effort display, provider model-list refreshes, and the `read_files` 8k cut removed, with cli-v3.0.75, desktop-v0.0.50, and sdk v0.2.1 the same day), re-verified ClinePass at $9.99/month on both pricing pages, and refreshed the marketplace install count to 6,000,523, past six million.
+- 2026-11-27 - Recorded the v4.1.28 release (published November 26: the OpenAI provider drops deprecated upstream ids including `gpt-4o`, `gpt-5`, and `o3`, `gpt-5.3-codex-spark` leaves the ChatGPT-subscription list, and the Concentrate and Prima Labs providers join, with cli-v3.0.76, desktop-v0.0.51, and sdk v0.2.2 the same day), against the GitHub releases API.
 
 ## See also
 

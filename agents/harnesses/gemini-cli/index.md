@@ -1,7 +1,7 @@
 ---
 title: Gemini CLI
 created: 2026-08-22
-updated: 2026-11-24
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=x-preview-f-free, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, google, developer-tools]
 readability: 3
@@ -27,6 +27,7 @@ On May 19, 2026, Google announced it was unifying terminal agent work into Googl
 On June 18, 2026, Gemini CLI and the Gemini Code Assist IDE extensions stopped serving requests for Google AI Pro and Ultra subscribers and free individual users.
 Enterprise Code Assist Standard/Enterprise licenses and paid API keys keep working, and the repository is still active: about 107.4k stars as of 2026-10-20, about 6,631 commits as of 2026-11-19, nightly and preview release channels with v0.71.1 (November 24, 2026) the latest tagged release, a patch cherry-picking the a2a-server bearer-token authentication and request-input validation fix onto the release branch, after v0.71.0 (also November 24, 2026), a changelog-rollup cut whose one visible fix parses PowerShell commands asynchronously so the UI spinner stops freezing, after v0.70.0 (November 19, 2026), a changelog-rollup cut whose visible fixes preserve Unicode prompts and strip ANSI fragments in session previews, keep the selected worktree across authentication restarts, preserve interrupted placeholders after empty model responses to tool turns, apply `${VAR:-default}` defaults when the variable is set but empty, scale undici body timeouts when a request exceeds the 300-second default, report accurate output token limits in the models list, restore workspace directories only after resumeChat succeeds, skip system MCP servers with insecure command permissions, disclose canonical link paths with consent defaulting to no, detect a local git clone from the CLI path instead of the working directory, and keep ASK_USER for shell commands with unresolved expansions, after v0.69.0 (November 19, 2026), a changelog-rollup cut whose visible fixes stop silent multi-minute loading hangs on network failures, cap multi-hour quota retries with ACP clients notified, add a /stats heatmap subcommand for daily token usage, standalone theme.json custom themes, and an overridable API headers timeout (model.requestTimeoutMs), after v0.68.0 (November 10, 2026).
 Google's own enterprise documentation now opens with a banner saying Gemini CLI is not optimized for the latest Gemini models and pointing to Antigravity CLI, so even the enterprise path is being steered to the successor (docs updated October 16, 2026).
+Main after v0.71.1 carried no newer stable release as of 2026-11-27, and its November 25 fixes are security-minded: MCP OAuth enforcing origin consistency and showing the endpoint origin (#30454), shell wrapper variants inspected for command substitution and policy checks (#30451), and all extension content covered by install and update consent (#30441).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=google-gemini/gemini-cli&type=date&theme=dark&legend=top-left" />
@@ -80,6 +81,7 @@ Not for individuals, whatever the 2025 blog posts (several of which I believed a
 - 2026-11-19 - Recorded the v0.69.0 tagged release (published November 19, 2026), a changelog-rollup cut whose visible fixes prevent silent multi-minute loading hangs on network failures and multi-hour quota retries (ACP clients notified on retry), with the /stats heatmap subcommand, standalone theme.json custom themes, and the overridable API headers timeout added, and refreshed the commit count to about 6,631 as of 2026-11-19.
 - 2026-11-20 - Recorded the v0.70.0 tagged release (published November 19, 2026), a changelog-rollup cut whose visible fixes preserve Unicode prompts and the selected worktree across authentication restarts, keep interrupted placeholders after empty model responses, apply `${VAR:-default}` on empty-set variables, scale undici body timeouts past the 300-second default, report accurate output token limits, skip system MCP servers with insecure command permissions, default link-consent to no, and keep ASK_USER for unresolved shell expansions, against the GitHub releases API.
 - 2026-11-24 - Recorded the v0.71.0 and v0.71.1 tagged releases (both published November 24): v0.71.0, a changelog-rollup cut whose one visible fix parses PowerShell commands asynchronously to stop the UI spinner freezing, and v0.71.1, a patch cherry-picking the a2a-server bearer-token authentication and request-input validation fix onto the release branch, against the GitHub releases API and npm's dist-tags.
+- 2026-11-27 - Recorded main's unreleased security fixes after v0.71.1 (as of November 27: MCP OAuth origin consistency, shell wrapper inspection for command substitution, and extension content in install and update consent), per the default branch's merge titles.
 
 ## See also
 

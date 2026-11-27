@@ -1,9 +1,9 @@
 ---
 title: Zerostack
 created: 2026-08-30
-updated: 2026-11-19
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, rust, terminal]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, rust, terminal]
 readability: 3
 audience_notes: >
   Engineers hunting for a lightweight local coding agent who know what MCP, ACP,
@@ -25,8 +25,9 @@ An ARCHITECTURE.md file complements AGENTS.md with shared core knowledge for age
 
 ## Status
 
-Active: the repository was pushed 2026-11-18 (GitHub API, re-checked 2026-11-19), created May 12, 2026, with the latest release v1.8.6 (published November 11, 2026 on GitHub; crates.io still lists 1.8.5 as its max version as of 2026-11-19), which turned `deny_repeated_reads` off by default, fixed its logic along with the TUI's span normalization and ACP session loading, added Pijul commands, documented `$XDG_DATA_HOME` and an API Route custom-provider recipe, refreshed the model catalog from models.dev, and updated the Cargo dependencies, after v1.8.5 on October 10, 2026, which deprecated the Ralph Wiggum `/loop` (still available until the next major but dropped from the default compile-time features), switched the lite binary family to shipping default features, added permission-wait status signals over protocol v1.1, added opencode-zen and opencode-go provider recipes, and credited four first-time external contributors.
+Active: the repository was pushed 2026-11-25 (GitHub API, re-checked 2026-11-19), created May 12, 2026, with the latest release v1.8.6 (published November 11, 2026 on GitHub; crates.io still lists 1.8.5 as its max version as of 2026-11-19), which turned `deny_repeated_reads` off by default, fixed its logic along with the TUI's span normalization and ACP session loading, added Pijul commands, documented `$XDG_DATA_HOME` and an API Route custom-provider recipe, refreshed the model catalog from models.dev, and updated the Cargo dependencies, after v1.8.5 on October 10, 2026, which deprecated the Ralph Wiggum `/loop` (still available until the next major but dropped from the default compile-time features), switched the lite binary family to shipping default features, added permission-wait status signals over protocol v1.1, added opencode-zen and opencode-go provider recipes, and credited four first-time external contributors.
 1,708 stars and 140 forks as of 2026-10-15.
+Main after v1.8.6 carried no newer tagged release as of 2026-11-27, and its November 24 merges read: a TrustedRouter provider recipe (#354), session/new `mcpServers` wired into ACP sessions (#358), `mid_turn_compact_threshold` honored in `-p` mode (#360), and the model catalog refreshed from models.dev (#361).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gi-dellav/zerostack&type=date&theme=dark&legend=top-left" />
@@ -83,6 +84,7 @@ I think the Rust-rewrite wave confuses a small memory footprint with a good agen
 - 2026-11-07 - Rotation re-verification, re-fetching every cited reference (all live, crates.io via its API's required user agent): refreshed crates.io counters to 3,783 total (690 recent), v1.8.5 still the newest release, and re-checked the push date unchanged at 2026-11-04.
 - 2026-11-13 - Recorded the v1.8.6 release (published November 11 on GitHub, crates.io still listing 1.8.5): `deny_repeated_reads` off by default, TUI span-normalization and ACP session-loading fixes, Pijul commands, XDG_DATA_HOME and API Route recipe docs, and a models.dev catalog refresh; refreshed crates.io counters to 3,799 total (643 recent) and the push date to 2026-11-11.
 - 2026-11-19 - Rotation re-verification, re-fetching every cited reference (all live, crates.io via its API's required user agent): refreshed the push date to 2026-11-18 and crates.io counters to 3,858 total (652 recent), with v1.8.6 still the newest release (crates.io still at 1.8.5) and the default branch's unreleased work since (a models.dev catalog refresh, @.. and @~ file pickers, and a --no-system-prompt flag) noted as heading toward a future cut.
+- 2026-11-27 - Recorded main's unreleased batch after v1.8.6 (as of November 27: the TrustedRouter provider recipe, ACP session `mcpServers` wiring, `mid_turn_compact_threshold` honored in `-p` mode, and the model catalog refresh), per the default branch's merge titles; refreshed the push date to 2026-11-25.
 
 ## See also
 

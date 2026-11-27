@@ -1,7 +1,7 @@
 ---
 title: Nanocoder
 created: 2026-10-08
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, local-first, community-governance]
 readability: 3
@@ -36,6 +36,7 @@ The repository shows 2,519 stars and 361 forks, was created July 30, 2025, and w
 Releases run monthly on the v1.x line: v1.29.0 (July 26, 2026), v1.30.0 (August 26), v1.31.0 (September 26, which added Anthropic prompt caching, auto titles, retry caps, and `.nanocoderignore`), and v1.32.0 (November 4, which taught the ACP agent to honor the `mcpServers` an editor sends on session new, load, and resume with session-scoped stdio and HTTP servers that never touch your own MCP configuration, moved ACP extension requests onto the `_` prefix ACP reserves for custom methods, and reported `mcpCapabilities` from `initialize`).
 The npm package did 11,661 downloads in npm's trailing-month window (October 21 to November 20) as of 2026-11-20 (read through a dated-range query).
 The Hacker News footprint is near zero: a 1-point Show HN in August 2025 and a 1-point thread for the VS Code sidebar in July 2026, so its growth is word-of-mouth and search, not launch-thread gravity.
+Main after v1.32.0 carried no newer tagged release as of 2026-11-27, and its November 26 titles read: a grounded, verified `/review` with a deep tier and a headless CLI (#2417), and auto-compacted and malformed-retry model calls recorded in `/usage` and `/stats` (#2391).
 
 ## Strengths
 
@@ -80,6 +81,7 @@ My disagreeable claim: governance is currently Nanocoder's only hard moat, and a
 - 2026-11-22 - Refreshed the push date to 2026-11-22, with v1.32.0 still the newest release.
 - 2026-11-25 - Recorded the default branch's unreleased work since v1.32.0 through November 24: named configuration profiles, per-turn context carried in the user message instead of the system prompt, first-class GMI Cloud, PopNow, Runcrate, and CloudGPU provider templates, million-token context limit suffixes, inline `@path` imports from AGENTS.md, an Ink 8 and React 19.3 TUI with kitty keyboard negotiation for Shift+Enter, a session-start git snapshot in the system prompt, and schema-validated output for `nanocoder run`, with v1.32.0 still the newest release; refreshed the push date to 2026-11-24 and repaired the missing 2026-11-22 push-date bullet the day log records, against the default branch's commit history.
 - 2026-11-25 - Dated the adoption figures in Cautions (2.5k stars as of 2026-10-09 and 7.5k monthly npm downloads as of 2026-11-06, the runs that recorded them); the figures are unchanged.
+- 2026-11-27 - Recorded main's unreleased batch after v1.32.0 (as of November 27: a grounded, verified `/review` with a deep tier and headless CLI, and auto-compacted and malformed-retry model calls in `/usage` and `/stats`), per the default branch's merge titles; refreshed the push date to 2026-11-27.
 
 ## See also
 
@@ -90,7 +92,7 @@ My disagreeable claim: governance is currently Nanocoder's only hard moat, and a
 
 ## References
 
-- https://github.com/Nano-Collective/nanocoder - repository scale (2,508 stars, 355 forks), created 2025-07-30, pushed 2026-11-24, no LICENSE file detected (verified via the GitHub API; push date as of 2026-11-25)
+- https://github.com/Nano-Collective/nanocoder - repository scale (2,508 stars, 355 forks), created 2025-07-30, pushed 2026-11-27, no LICENSE file detected (verified via the GitHub API; push date as of 2026-11-25)
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/README.md - positioning, install paths, CLI flags, screen modes, and the review command
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/index.md - AGENTS.md via /init, the skills model, lifecycle hooks, and MCP servers
 - https://raw.githubusercontent.com/Nano-Collective/nanocoder/main/docs/features/skills.md - the skills bundle format carrying cron (`schedule.cron`) and `file.changed` event subscriptions through the per-project daemon (repointed 2026-11-14 from the removed docs/features/scheduler.md)

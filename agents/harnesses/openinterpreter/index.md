@@ -1,9 +1,9 @@
 ---
 title: Open Interpreter
 created: 2026-09-27
-updated: 2026-11-22
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harnesses, coding-agents, open-source, harness-emulation]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, harnesses, coding-agents, open-source, harness-emulation]
 readability: 3
 audience_notes: >
   Engineers choosing a terminal coding agent to drive open-weight or low-cost
@@ -25,7 +25,7 @@ The fork is documented rather than hidden: FORK_BRANDING.md defines the distribu
 
 ## Status
 
-Active and fast-moving again after roughly nineteen quiet months: 68,554 stars, 5,892 forks, and 14 open issues as of 2026-10-12, with pushes continuing through 2026-11-22 (GitHub API, as of 2026-11-22), which tells you issue intake is tightly curated.
+Active and fast-moving again after roughly nineteen quiet months: 68,554 stars, 5,892 forks, and 14 open issues as of 2026-10-12, with pushes continuing through 2026-11-27 (GitHub API, as of 2026-11-27), which tells you issue intake is tightly curated.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&theme=dark&legend=top-left" />
@@ -33,7 +33,7 @@ Active and fast-moving again after roughly nineteen quiet months: 68,554 stars, 
   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=openinterpreter/openinterpreter&type=date&legend=top-left" />
 </picture>
 
-The latest releases are rust-v0.0.61 (published 2026-11-11, attesting the Linux archives and their checksum manifest in the original tagged build and verifying build provenance before republishing existing artifacts, with no model-catalog changes), then rust-v0.0.60 (published 2026-11-09, adding one canonical file-backed managed-Goal creation contract for an explicit authenticated absent/noGoal state, with creation IDs durable across response loss and restarts), then rust-v0.0.59 (published 2026-11-04, adding an owner-bound read-only background-terminal status with bounded terminal metrics and fail-closed thread ownership on the app server, with no model-catalog changes), then rust-v0.0.58 (published 2026-11-01, re-validating the maintained Codex 0.159.0 compatibility profile for model discovery and request admission and preserving legacy feedback delivery alongside optional signed attachment uploads), then rust-v0.0.57 (published 2026-10-31, validating the maintained Codex 0.159.0 compatibility profile for Open Interpreter model discovery and request admission), then rust-v0.0.56 (published 2026-10-07, adding GPT-6.1 Sol metadata, the current claude-sonnet-5-5 Anthropic choice with existing catalog safeguards, and a fix that rebinds shell-environment values when resuming an eligible idle thread), then rust-v0.0.54 and rust-v0.0.55, both published 2026-09-30: 0.0.54 bundles the maintained Codex 0.156.1 client with GPT-6 Astra, Sol, and Luna metadata and refreshes the Kimi, Qwen, DeepSeek, and Anthropic model catalogs, and 0.0.55 fixes offline model listing for configured non-OpenAI providers, with the 0.0.43 notes still describing the "stable upstream Codex rust-v0.154.0 compatibility baseline" and presets for GLM, Gemini, Claude, and OpenAI IDs.
+The latest releases are rust-v0.0.64 (published 2026-11-26, adding a maximum yield time setting for code-mode cells and building the macOS release binaries on standard runners, with no model-catalog or request-admission changes), then rust-v0.0.61 (published 2026-11-11, attesting the Linux archives and their checksum manifest in the original tagged build and verifying build provenance before republishing existing artifacts, with no model-catalog changes), then rust-v0.0.60 (published 2026-11-09, adding one canonical file-backed managed-Goal creation contract for an explicit authenticated absent/noGoal state, with creation IDs durable across response loss and restarts), then rust-v0.0.59 (published 2026-11-04, adding an owner-bound read-only background-terminal status with bounded terminal metrics and fail-closed thread ownership on the app server, with no model-catalog changes), then rust-v0.0.58 (published 2026-11-01, re-validating the maintained Codex 0.159.0 compatibility profile for model discovery and request admission and preserving legacy feedback delivery alongside optional signed attachment uploads), then rust-v0.0.57 (published 2026-10-31, validating the maintained Codex 0.159.0 compatibility profile for Open Interpreter model discovery and request admission), then rust-v0.0.56 (published 2026-10-07, adding GPT-6.1 Sol metadata, the current claude-sonnet-5-5 Anthropic choice with existing catalog safeguards, and a fix that rebinds shell-environment values when resuming an eligible idle thread), then rust-v0.0.54 and rust-v0.0.55, both published 2026-09-30: 0.0.54 bundles the maintained Codex 0.156.1 client with GPT-6 Astra, Sol, and Luna metadata and refreshes the Kimi, Qwen, DeepSeek, and Anthropic model catalogs, and 0.0.55 fixes offline model listing for configured non-OpenAI providers, with the 0.0.43 notes still describing the "stable upstream Codex rust-v0.154.0 compatibility baseline" and presets for GLM, Gemini, Claude, and OpenAI IDs.
 The legacy Python line is stranded: PyPI shows open-interpreter 0.4.3, the last of 130 releases, uploaded 2024-10-26.
 The history matters: a Show HN on 2023-08-30 (82 points), a 117-point thread in November 2023, a 72-point "natural language interface for computers" thread in November 2024, then silence until the relaunch post of 2026-07-13.
 The README now opens by calling the project "a coding agent optimized for low-cost models", with the "Today: Kimi K3 is here" callout (the reimplementation of the provider-recommended Kimi Code harness in Rust) directly below it.
@@ -84,6 +84,7 @@ My disagreeable claim: harness emulation is a configuration layer rather than ne
 - 2026-11-11 - Recorded the rust-v0.0.61 (November 11, Linux archive attestation with checksum manifest and provenance verification, no catalog changes) and rust-v0.0.60 (November 9, the canonical file-backed managed-Goal creation contract with durable creation IDs) releases, refreshed push activity to 2026-11-11, and re-fetched every cited reference live in the rotation pass.
 - 2026-11-16 - Rotation re-verification, re-fetching every cited reference (all live): rust-v0.0.61 remains the newest release, the README's low-cost-models headline and Kimi K3 callout are unchanged, the legacy PyPI line still ends at 0.4.3 (2024-10-26), and pushes refreshed to 2026-11-15.
 - 2026-11-22 - Rotation re-verification, re-fetching every cited reference (all live): rust-v0.0.61 still the newest release, the README's ten-profile `/harness` list and Kimi K3 callout unchanged, the legacy PyPI line still ending at 0.4.3 (2024-10-26), the relaunch post, fork-branding and release-notes files, and the 82/117-point threads re-confirmed, and pushes refreshed to 2026-11-22.
+- 2026-11-27 - Recorded the rust-v0.0.64 release (published November 26: a maximum yield time setting for code-mode cells and macOS binaries built on standard runners, with no model-catalog changes; 0.0.62 and 0.0.63 are not on the releases feed); refreshed the push date to 2026-11-27, against the GitHub releases API.
 
 ## See also
 

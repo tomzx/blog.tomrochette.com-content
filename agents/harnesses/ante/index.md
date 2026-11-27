@@ -1,7 +1,7 @@
 ---
 title: Ante
 created: 2026-08-30
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, rust, single-binary, local-models]
 readability: 3
@@ -111,6 +111,7 @@ I expect the harness market to consolidate on footprint and cost per agent, and 
 - 2026-11-20 - Recorded the v0.3.7 release (published November 20): the `/rollover` session-continuation command with handoff files and `rolled_from` tracking, Gemini 4 Neon (1M context) across the Gemini API, Vertex AI, and OpenRouter, the OpenAI catalog moving to GPT-6.2 Sol and Antix to GPT-6.2 Astra and Sol, hour-long Bash waits with `status.json` job records, thinking-only replies no longer ending turns, and failed session starts leaving the current session intact, against the GitHub releases API.
 - 2026-11-22 - Recorded the v0.3.8 release (published November 22, notes dated November 21): untitled sessions naming themselves from the first prompt, OpenAI Responses system-prompt caching with reasoning handed back, Gemini on its own tool-call ids without sampling parameters, the removal of `top_p`, `top_k`, and `MODEL_TOP_P`, restore points surviving provider switches, refreshed offline models with Linux CUDA prebuilts dropping `sm_86`, and counted-and-priced OpenAI Responses cache-write tokens, against the GitHub releases API.
 - 2026-11-25 - Recorded the v0.3.9 release (published November 24, notes dated November 23): `compact_at` in the catalog setting where auto-compact starts for a model (Gemini 4 models at 500,000 tokens), Inkling 2 Mini in the offline catalog, an installer that shows the release version, platform, and archive size and takes `--dir PATH`, Homebrew installs updating through `brew upgrade`, a blocked or empty reply dropped and retried inside the three-in-a-row nudge limit, headless sending the prompt as typed with no working-directory tree appended, offline models taking their context, vision, tool support, and effort levels from the engine, and the public crates republished as 0.3.9, against the GitHub releases API.
+- 2026-11-27 - Rotation re-verification, re-fetching every cited reference (all live): v0.3.9 remains the newest release, with the default branch at 2026-11-27 on documentation commits only (a docs-site restructure for new users and a permissions page covering AskUser, MCP defaults, `/config yolo`, and include-tools).
 
 ## See also
 

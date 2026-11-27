@@ -1,9 +1,9 @@
 ---
 title: MiMo Code
 created: 2026-09-27
-updated: 2026-11-22
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, harnesses, coding-agents, open-source, xiaomi, long-horizon]
+tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, llm=glm-5.4, harnesses, coding-agents, open-source, xiaomi, long-horizon]
 readability: 3
 audience_notes: >
   Engineers evaluating a terminal coding agent that bets on long-horizon reliability and cheap access to a Chinese vendor's models.
@@ -34,6 +34,7 @@ The repository was created 2026-06-10 and lists about 13.7k stars and 1.4k forks
 
 The newest release is v0.1.17 (published 2026-11-13), which removes a batch of outdated model-specific policies: context and output limits and reasoning levels now come from models.dev and your config instead of model-name heuristics, temperature and top_p are no longer sent by default, `/variants` reasoning levels can be enabled by name in config with subagents inheriting the parent session's level, and GPT models no longer auto-switch to a Codex-style prompt and toolset (opt back in with `MIMOCODE_CODEX_MODE=true`), with built-in web search now opt-in via `MIMOCODE_ENABLE_EXA=1` (or a search MCP), simultaneous Xiaomi API key and Token Plan key sign-in, Chinese substring memory recall, and fixes for quota-exhausted retries and compaction-failure residue, after v0.1.16 (published 2026-10-26), which retires the legacy Compose stack (the `compose` agent, its built-in workflow, and the whole `compose:*` skill set) in favor of the `/compose-next` pipeline on the build agent, makes MCP tools lazy-load instead of dumping the catalog up front, turns the npm package into a thin launcher with the native installer as the recommended path, removes the experimental Orchestrator mode, and puts Claude session imports and the agent-CLI skills behind opt-in environment flags, keeping the project on its 0.1.x line.
 The launch drew a 557-point Hacker News thread with 315 comments on 2026-06-11, and the tracker carries roughly 800 open issues plus 284 open pull requests, many auto-filed and low-signal.
+Main after v0.1.17 carried no newer tagged release as of 2026-11-27, and its titles since November 21 read: an opt-in brief view in the global session list (#2859), standard form elicitation with call association and elicitation records in MCP (#2862), always-direct tools counted in MCP server status and reminders (#2863), compaction summaries requested directly in the reply (#2870), and Copilot-like and Gemini signatures replayed on OpenAI-compatible chat (#2873).
 
 ## Strengths
 
@@ -95,6 +96,7 @@ My disagreeable claim: the co-evolution story is mostly packaging, since the mat
 - 2026-11-11 - Rotation re-verification, re-fetching every cited reference (all live except thenewstack.io, which began serving a site-wide 403 bot wall covering its domain root even under a browser user agent, so the citation stands with the wall recorded per the 2026-11-08 ruling): refreshed the commit count to 1,472 and the push date to 2026-11-09, confirmed v0.1.16 the newest release, and re-verified the Token Plan tiers and pay-as-you-go prices unchanged.
 - 2026-11-14 - Recorded the v0.1.17 release (published November 13): context and output limits and reasoning levels now read from models.dev and config instead of model-name heuristics with no default temperature or top_p, `/variants` levels configurable by name with subagent inheritance, GPT models no longer auto-switching to a Codex-style prompt and toolset (`MIMOCODE_CODEX_MODE=true` opts in), web search opt-in via `MIMOCODE_ENABLE_EXA=1`, simultaneous Xiaomi API and Token Plan key sign-in, Chinese substring memory recall, and quota and compaction-failure fixes, and refreshed the push date to 2026-11-13.
 - 2026-11-20 - Rotation re-verification, re-fetching every cited reference (all live; the mimo.mi.com and mimo.xiaomi.com pages needed the alternate fetcher after plain fetches timed out, and thenewstack.io keeps its 403 under plain curl while the alternate fetcher reads the article in full, so the citation stands with the working path recorded per the 2026-11-15 ruling): refreshed the commit count to 1,495 and the push date to 2026-11-20, confirmed v0.1.17 the newest release, re-verified the Token Plan tiers and pay-as-you-go prices unchanged with the V2.5 retirement completed (IDs invalid), closed issue #1150 (OpenCode names in config docs) with #29 still open, and aligned the cache-multiplier caution to the published v2.6 consumption rows.
+- 2026-11-27 - Recorded main's unreleased batch after v0.1.17 (as of November 27: an opt-in brief session-list view, MCP standard form elicitation, always-direct tools in MCP status, direct compaction summaries, and Copilot-like and Gemini signature replay), per the default branch's merge titles; refreshed the push date to 2026-11-27.
 
 ## See also
 
@@ -108,7 +110,7 @@ My disagreeable claim: the co-evolution story is mostly packaging, since the mat
 
 - https://mimo.xiaomi.com/mimocode/start - official docs: surfaces, agents, skills, MCP, and the memory layer
 - https://github.com/XiaomiMiMo/MiMo-Code - repository, MIT license, OpenCode fork relationship, and feature README
-- https://api.github.com/repos/XiaomiMiMo/MiMo-Code - 13,629 stars, 1,428 forks, MIT, created 2026-06-10, pushed 2026-11-21, as of 2026-11-22
+- https://api.github.com/repos/XiaomiMiMo/MiMo-Code - 13,629 stars, 1,428 forks, MIT, created 2026-06-10, pushed 2026-11-27, as of 2026-11-22
 - https://api.github.com/repos/XiaomiMiMo/MiMo-Code/releases/latest - returns v0.1.14 (published 2026-09-23), published a day after v0.1.15 (2026-09-22), as of 2026-10-04; the same call returned v0.1.15 on re-check 2026-10-24, v0.1.16 (published 2026-10-26) on re-check 2026-11-11, v0.1.17 (published 2026-11-13) on re-check 2026-11-14, and v0.1.17 again on re-check 2026-11-20
 - https://mimo.xiaomi.com/blog/mimo-code-long-horizon - the design write-up: checkpoints, four-layer memory, `/goal`, Max Mode, and the vendor benchmarks
 - https://mimo.mi.com/docs/en-US/tokenplan/Token%20Plan/subscription - individual Token Plan tiers, Credits, discounts, and the V2.5 retirement (completed, IDs invalid), re-verified 2026-10-11 and 2026-11-20

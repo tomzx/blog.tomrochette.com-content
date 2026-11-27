@@ -1,9 +1,9 @@
 ---
 title: Autohand Code CLI
 created: 2026-10-27
-updated: 2026-11-20
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, coding-agents, harnesses, typescript, bun, byok, local-models]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, typescript, bun, byok, local-models]
 readability: 3
 audience_notes: >
   Engineers who want Claude Code's terminal-agent form factor as an open client they can run on
@@ -28,6 +28,7 @@ Auto mode works a task on its own branch in a separate worktree, commits checkpo
 
 **Active, prerelease, and almost without an independent footprint.**
 The repository was created December 12, 2025 and shows 211 stars and 37 forks as of 2026-10-27 (GitHub API), with 3,250 commits as of 2026-10-27 and a push on 2026-11-20 (GitHub API, as of 2026-11-20); GitHub releases reached v0.9.12 (published November 20, 2026), which settled the full-screen terminal (transcript rows holding their place mid-turn instead of jumping, drag-select with highlighted copy, click-to-expand tool results, chat history inset two columns from the window edge with the composer and status line staying full width, and resumes replaying each turn once instead of reprinting tool narration), renamed turn outcomes (an Esc-stopped turn reads interrupted rather than failed in the footer, tool rows, stop hooks via `HOOK_TURN_OUTCOME=interrupted`, and RPC and ACP as cancelled, and a delivered answer with an unresolved Moa checkpoint review reads needs review instead of failed), rebuilt `/agents` as a session command center grouping sessions by project with filter tabs and a details pane, added experimental background lanes (ask for a new lane, listed under the composer, behind `autohand experiments enable cli_lanes`), a `/memories` settings screen with a `agent.useMemories` switch over stored memories, mouse-selectable `/usage` charts naming the skills used, full-screen output for `/permissions`, `/memory`, and `/discovery`, closest-tool hints when a script calls a tool that does not exist, and a status line following `/model` changes, after v0.9.11 (published November 12, 2026), which made delegated agents' request limits configurable through `agent.subagentMaxIterations` (30 requests by default, an exhausted agent returning its partial findings with an explicit completion status), let ACP clients answer follow-up questions through form elicitation, kept per-agent model, reasoning, and research-only scope through Code Mode while forwarding image evidence to the model, continued a required completion review with disclosed session evidence when a large workspace diff exceeds its capture budget, and added Keenable as a `/search` provider, after v0.9.10 (published November 4, 2026), which paints the composer before background MCP connections and repository snapshots finish so startup reads instant, reconnects MCP servers in the background when a saved session resumes, adds Ctrl+S steering of queued input for terminals that cannot distinguish Ctrl+Enter, a browsable `/` slash-command menu, opt-in adaptive skills that load complete pinned instructions when a task needs them with visible loading receipts, translation of supported Claude Code permission rules on import with a dry-run preview, and unattended turns exiting with status 77 at the first missing tool approval, after the first stable v0.9.9 tag (published October 27, 2026, adding Ctrl+Enter steering of queued messages into the running conversation, identity-retaining streamed tool-call continuations, and replies that stay visible while reviews, todos, steering, and peer updates continue), and the npm package `autohand-cli` sits at latest 0.9.12 (published November 20, 2026).
+Since v0.9.12 the feed carries only v0.9.13-alpha prereleases (one on November 23 and two on November 26), whose notes and merge titles read: local peer messaging turned on by default, `/sessions` and `/session` output in full-screen mode, a paired phone shown under the header with `/devices` to view or unpair it, stateful workflows modeled as explicit state machines with guarded transitions, and the model taught to reach other sessions.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=autohandai/code-cli&type=date&theme=dark&legend=top-left" />
@@ -87,6 +88,7 @@ Not for organizations needing an unmodified Apache-2.0 story, and not for anyone
 - 2026-11-13 - Rotation re-verification, re-fetching every cited reference (all live): recorded the v0.9.11 release and npm 0.9.11 (both published November 12), refreshed the push date to 2026-11-12, and re-read the pricing ladder unchanged.
 - 2026-11-17 - Rotation re-verification, re-fetching every cited reference (all live): v0.9.11 still the newest release and npm latest with the push date unchanged (2026-11-12), and the pricing page re-fetched live.
 - 2026-11-20 - Recorded the v0.9.12 release (published November 20, npm latest the same day): the settled full-screen transcript with drag selection and click-to-expand results, interrupted and needs-review turn outcomes across footer, hooks, RPC, and ACP, the `/agents` session command center, experimental background lanes behind `cli_lanes`, `/memories` settings with a `useMemories` switch, and closest-tool hints for unknown tool calls, and refreshed the push date to 2026-11-20, against the GitHub releases API and npm registry.
+- 2026-11-27 - Rotation re-verification, re-fetching every cited reference (all live): recorded the v0.9.13-alpha prerelease train- 2026-11-27 - Recorded the v0.9.13-alpha prerelease train (published November 23 and 26) behind the unchanged v0.9.12 stable: peer messaging on by default, full-screen `/sessions` and `/session`, a paired phone under the header with `/devices`, stateful workflows as explicit state machines, and the model reaching other sessions, against the alpha notes and the default branch's merge titles; refreshed the push date to 2026-11-26.
 
 ## See also
 
@@ -98,7 +100,7 @@ Not for organizations needing an unmodified Apache-2.0 story, and not for anyone
 ## References
 
 - https://github.com/autohandai/code-cli - repository and README: feature surface, installer behaviors including the PATH `agent` takeover, provider table, skills and tools (fetched 2026-10-27)
-- https://api.github.com/repos/autohandai/code-cli - created 2025-12-12, 211 stars, 37 forks, Apache-2.0, pushed 2026-11-12 (GitHub API, as of 2026-11-13)
+- https://api.github.com/repos/autohandai/code-cli - created 2025-12-12, 211 stars, 37 forks, Apache-2.0, pushed 2026-11-26 (GitHub API, as of 2026-11-27)
 - https://api.github.com/repos/autohandai/code-cli/releases?per_page=3 - v0.9.12 published 2026-11-20 after v0.9.11 on 2026-11-12 and the first stable v0.9.9 on 2026-10-27 (GitHub API, as of 2026-11-20)
 - https://registry.npmjs.org/autohand-cli - npm distribution: latest 0.9.12, package created 2025-12-17 (registry API, as of 2026-11-20)
 - https://www.autohand.ai/code/ - product surface, hosted model roster, surfaces, testimonials, and the SOC 2 claim (fetched 2026-10-27)

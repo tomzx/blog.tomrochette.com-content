@@ -1,7 +1,7 @@
 ---
 title: Standing decisions digest
 created: 2026-10-14
-updated: 2026-11-26
+updated: 2026-11-27
 status: finished
 tags: [agents]
 readability: 0
@@ -12,6 +12,8 @@ The log under `agents/logs/` stays the audit trail; this digest never contradict
 Line format: `- YYYY-MM-DD | category | decision | one-line reason or trigger` (date = last confirmation).
 
 ## Scope rulings
+- 2026-11-27 | harnesses | q22 wiring evidence refreshed: walkinglabs/awesome-harness-engineering reads 4,809 stars, pushed 2026-11-09, against ai-boost/awesome-harness-engineering at 5,250 stars, pushed 2026-11-26, and bradAGI/awesome-cli-coding-agents at 1,501 stars, pushed 2026-11-23 | metadata-only refresh, no wiring or mapping resolved
+- 2026-11-27 | harnesses | the harness feature matrix carries no Current status row (13 feature rows from Company to IDE integration), so a release recording moves no matrix cell in this category | checked against the dispatch's generic status-cell instruction
 - 2026-11-26 | section-root | GLM-5.4 gets no lineup column until a price is published, standing reading re-confirmed | the pricing page and the model's documentation page carry no price, and models.dev lists it only under coding-plan and token-plan providers, not Z.ai's pay-as-you-go API
 - 2026-11-26 | section-root | a provider deprecation stated on the vendor's deprecations page is a lifecycle clock for the guide and a windows-cell fact for the matrix, recorded only after checking the vendor page | Claude Opus 4.5 (deprecated 2026-11-23, retirement 2027-01-22, replacement Opus 5.5) surfaced through LLM Gateway's default branch and matched Anthropic's page
 - 2026-11-26 | code-review | a reviewer's built-in scanner for agent-skill and MCP configuration files is ecosystem evidence inside the reviewer's note, not a code-review entrant | CodeRabbit's SkillSpector integration (changelog entry of 2026-06-11, on by default, opt-out reviews.tools.skillspector.enabled: false) recorded in the coderabbit note, the scanner staying profiled in agents/skills/skillspector; extends the 2026-11-25 SKILL.md-as-guideline line

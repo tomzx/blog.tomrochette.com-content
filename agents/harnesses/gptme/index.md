@@ -1,9 +1,9 @@
 ---
 title: gptme
 created: 2026-10-13
-updated: 2026-11-22
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, harness, cli, terminal, local-first, autonomous-agents]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, harness, cli, terminal, local-first, autonomous-agents]
 readability: 3
 audience_notes: >
   Engineers choosing a terminal coding agent who want open source, local-first operation, and an agent that persists between runs.
@@ -23,10 +23,11 @@ Providers are your choice: Anthropic, OpenAI, Google, Grok, DeepSeek, OpenRouter
 
 ## Status
 
-Active and steadily shipped: 4,448 stars as of 2026-10-13, 478 forks and 6 open issues, pushed 2026-11-22 (GitHub API, as of 2026-11-22), with weekly dev pre-releases and stable v0.37.0 (November 15, 2026), a 30-feature release that hardens the hooks seam (a pre-execution deny that can reject tool calls, enforced secret-path reads, and warnings before externally enforced session deadlines), adds local peer discovery that wakes conversations for peer messages, subagent work (cache-aware usage breakdowns, a retained-worktree GC path, a cross-restart writer lease, and a yield operation that checkpoints and ends an attempt as blocked_external), a TUI work-overview screen for child agents and monitors, and OSC 7501 lifecycle reporting, on top of stable v0.36.0 (November 2, 2026) adding an OpenCode Go DeepSeek provider, Windows Authenticode signing for the installer and sidecar, opt-in project verification discovery, a managed default move to claude-sonnet-5.5 over OpenRouter, and per-finding evidence fields with multi-pass consensus preservation on review findings, on top of stable v0.35.1 (October 15, 2026) on top of v0.35.0 the same day, a 61-feature release adding a memory guard that kills the agent's largest command when system memory runs low, queued prompts that steer the running turn, Ctrl+C tool stops in the TUI, and an IPython kernel-process split (v0.35.1); stable v0.34.0 (September 2026) added cross-harness memory and skills as slash commands.
+Active and steadily shipped: 4,448 stars as of 2026-10-13, 478 forks and 6 open issues, pushed 2026-11-27 (GitHub API, as of 2026-11-27), with weekly dev pre-releases and stable v0.37.0 (November 15, 2026), a 30-feature release that hardens the hooks seam (a pre-execution deny that can reject tool calls, enforced secret-path reads, and warnings before externally enforced session deadlines), adds local peer discovery that wakes conversations for peer messages, subagent work (cache-aware usage breakdowns, a retained-worktree GC path, a cross-restart writer lease, and a yield operation that checkpoints and ends an attempt as blocked_external), a TUI work-overview screen for child agents and monitors, and OSC 7501 lifecycle reporting, on top of stable v0.36.0 (November 2, 2026) adding an OpenCode Go DeepSeek provider, Windows Authenticode signing for the installer and sidecar, opt-in project verification discovery, a managed default move to claude-sonnet-5.5 over OpenRouter, and per-finding evidence fields with multi-pass consensus preservation on review findings, on top of stable v0.35.1 (October 15, 2026) on top of v0.35.0 the same day, a 61-feature release adding a memory guard that kills the agent's largest command when system memory runs low, queued prompts that steer the running turn, Ctrl+C tool stops in the TUI, and an IPython kernel-process split (v0.35.1); stable v0.34.0 (September 2026) added cross-harness memory and skills as slash commands.
 Bootstrap-funded by its author, with a managed cloud (gptme.ai, early access) that bills usage-based credits.
 PyPI downloads run about 21,000 per month as of 2026-11-22 (21,498 in the API's last-month window, down from the 32,174 read on 2026-10-13), modest next to this category's mass-market members.
 **The governance curiosity is the contributor table: the top contributor is TimeToBuildBob, the project's own autonomous agent, at 2,969 contributions against the author's 1,977 as of 2026-11-22.**
+The dev pre-release train reached v0.37.1.dev20261126 (published November 26, after dev20261123) behind v0.37.0, and its changelog and the default branch's late-November titles carry server hardening: raw workspace and conversation files served to the browser sandboxed (#5222), untyped and `+xml` preview responses sandboxed (#5134), and `slash export` made terminal-only (#5339).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=gptme/gptme&type=date&theme=dark&legend=top-left" />
@@ -76,6 +77,7 @@ Not for teams needing a large independent community, published hosted pricing, o
 - 2026-11-08 - Rotation re-verification, every cited reference live: v0.36.0 (November 2) still the newest stable with the dev pre-release train continuing, PyPI still at 32,174 downloads in the last month, and the contributor counts refreshed (TimeToBuildBob 2,795 against the author's 1,962, order unchanged).
 - 2026-11-16 - Rotation re-verification, re-fetching every cited reference (all live): recorded the stable v0.37.0 (November 15), a 30-feature release hardening the hooks deny seam, adding local peer discovery with conversation wake, subagent durability work, and OSC 7501 lifecycle reporting; refreshed the push date to 2026-11-16, the PyPI last-month figure to 23,018 (down from 32,174), and the contributor counts (TimeToBuildBob 2,887 against the author's 1,969, order unchanged).
 - 2026-11-22 - Rotation re-verification, re-fetching every cited reference (all live): v0.37.0 still the newest stable with the dev pre-release train continuing, the push date refreshed to 2026-11-22, the PyPI last-month figure to 21,498 (down from 23,018), the contributor counts to TimeToBuildBob 2,969 against the author's 1,977 (order unchanged), and the three docs pages and the 5/5/1-point Show HN record re-confirmed.
+- 2026-11-27 - Recorded the dev pre-release train reaching v0.37.1.dev20261126 (published November 26) with v0.37.0 still the newest stable, and main's server hardening (raw workspace and conversation files served to the browser sandboxed, `+xml` preview responses sandboxed, `slash export` terminal-only), against the GitHub releases feed and the default branch's merge titles; refreshed the push date to 2026-11-27.
 
 ## See also
 

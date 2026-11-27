@@ -1,7 +1,7 @@
 ---
 title: jcode
 created: 2026-08-30
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, coding-agents, harnesses, rust, yc, memory, multi-agent]
 readability: 3
@@ -123,6 +123,7 @@ Not for teams needing IDE integration, HTTP MCP, or independent benchmarking tod
 - 2026-11-24 - Recorded the v1.1.1 and v1.1.2 releases (both published November 23, with no v1.1.0 on the feed): Linux releases published through hosted justrust instead of GitHub Actions, starter providers at the top of `/login` with one-step browser login on `/subscribe` and `/cloud`, and streaming and finalizing activity labels in the live status line; pushes refreshed to 2026-11-24, against the GitHub releases API.
 - 2026-11-24 - Corrected the See also count of harnesses compared in the matrix from fourteen to forty-four.
 - 2026-11-25 - Dated the star figure in Status (20,391 stars as of 2026-10-12, the run that recorded it); the figure is unchanged.
+- 2026-11-27 - Rotation re-verification, re-fetching every cited reference (all live): v1.1.2 remains the newest release, with the default branch at 2026-11-27 carrying unreleased work (compaction keeping the actual token count on context-limit recovery, explicitly requested workspace scripts run directly in Jarvis, and the pinned todo card's intent and delivery-state rework).
 
 ## See also
 
