@@ -1,7 +1,7 @@
 ---
 title: Cezar
 created: 2026-11-01
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, worktree, vps, review-gate]
 readability: 3
@@ -25,7 +25,8 @@ By open-mercato, the OpenMercato ERP team, repository created 2026-05-19.
 
 ## Status
 
-Active: 904 stars, 169 forks, and 265 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-25, with 32 releases through v0.20.0 on 2026-11-15 plus a desktop track (desktop-v0.1.15 on 2026-11-23, after desktop-v0.1.14 and desktop-v0.1.13 the same day, desktop-v0.1.12 on 2026-11-20, and desktop-v0.1.11 on 2026-10-23; the shell installs and updates cezar itself from the cockpit).
+Active: 904 stars, 169 forks, and 265 open issues and pull requests as of 2026-11-01 (GitHub API), pushed 2026-11-27, with 32 releases through v0.20.0 on 2026-11-15 plus a desktop track (desktop-v0.1.15 on 2026-11-23, after desktop-v0.1.14 and desktop-v0.1.13 the same day, desktop-v0.1.12 on 2026-11-20, and desktop-v0.1.11 on 2026-10-23; the shell installs and updates cezar itself from the cockpit).
+As of 2026-11-27 the default branch's latest commit is 2026-11-27, no new release on the train the note follows, and main's unreleased batch reads: the account-resume hold released once a resumed run sees its window open, --effort mapped to the Antigravity model variant, secrets redacted in a persisted Continue instruction (GitHub API).
 The npm package shows 1,544 published versions since July 2026 (near-daily publishes) and 95,851 downloads in October 2026.
 
 <picture>
@@ -72,6 +73,7 @@ Not for GUI-desktop-first users, and not for teams needing a hosted control plan
 - 2026-11-15 - Volatile refresh: Recorded v0.20.0 (2026-11-15) as the latest release, the push date refreshed to 2026-11-15.
 - 2026-11-21 - Volatile refresh: Recorded desktop-v0.1.12 (2026-11-20) on the desktop track, v0.20.0 still the newest stable.
 - 2026-11-25 - Rotation re-verified, every cited URL re-fetched and live; recorded desktop-v0.1.13, desktop-v0.1.14, and desktop-v0.1.15 (all 2026-11-23) on the desktop track, v0.20.0 still the newest stable, the push date refreshed to 2026-11-25.
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-27, no new release on the train the note follows; main's unreleased batch recorded (the account-resume hold released once a resumed run sees its window open, --effort mapped to the Antigravity model variant, secrets redacted in a persisted Continue instruction).
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: CLI Agent Orchestrator
 created: 2026-10-28
-updated: 2026-11-24
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, aws, python, tmux]
 readability: 3
@@ -21,7 +21,8 @@ It needs Python 3.10+, tmux 3.3+, and at least one authenticated provider CLI, i
 
 ## Status
 
-Active and vendor-backed: 1,483 stars on a repository created 2025-07-29 under the awslabs org, pushed 2026-11-24, with GitHub releases v2.5.4 and v2.5.5 (both 2026-11-23; a blocking mypy ratchet, three dependency advisories cleared, self-contained agent help, and live worker status in session status) after v2.5.3 (2026-10-08), PyPI tracking at 2.5.5, uploaded 2026-11-24 after 2.5.4 (2026-10-20) (GitHub API, PyPI, as of 2026-11-24).
+Active and vendor-backed: 1,483 stars on a repository created 2025-07-29 under the awslabs org, pushed 2026-11-27, with GitHub releases v2.5.4 and v2.5.5 (both 2026-11-23; a blocking mypy ratchet, three dependency advisories cleared, self-contained agent help, and live worker status in session status) after v2.5.3 (2026-10-08), PyPI tracking at 2.5.5, uploaded 2026-11-24 after 2.5.4 (2026-10-20) (GitHub API, PyPI, as of 2026-11-24).
+As of 2026-11-27 the default branch's latest commit is 2026-11-27, v2.5.5 still the latest release, and main's unreleased batch reads: a push from a linked worktree no longer writing into the pushed repository, a PENDING inbox message claimed with a compare-and-set before sending (GitHub API).
 **No independent coverage exists: I found no HN thread, and the footprint is the vendor's own docs, course, and repository, the same launch-echo-only record that OpenHarness carried at admission.**
 
 <picture>
@@ -63,6 +64,7 @@ Not for anyone needing independent validation first, and not for local-first min
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: README, docs site, PyPI, repo API, HN); the push date refreshed to 2026-11-12, PyPI still 2.5.4 and v2.5.3 the newest GitHub release, the HN footprint still one story.
 - 2026-11-17 - Rotation re-verification (every cited URL re-fetched live: README, docs site, PyPI, repo API, HN); the push date refreshed to 2026-11-17, PyPI still 2.5.4 and v2.5.3 the newest GitHub release, the HN footprint still one story.
 - 2026-11-24 - Volatile refresh: recorded v2.5.4 and v2.5.5 (both 2026-11-23, a blocking mypy ratchet, dependency advisories cleared, self-contained agent help, live worker status) as the newest GitHub releases and PyPI at 2.5.5 (uploaded 2026-11-24) after 2.5.4 (2026-10-20), the push date refreshed to 2026-11-24.
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-27, v2.5.5 still the latest release; main's unreleased batch recorded (a push from a linked worktree no longer writing into the pushed repository, a PENDING inbox message claimed with a compare-and-set before sending).
 
 ## See also
 

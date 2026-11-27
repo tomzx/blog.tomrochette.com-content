@@ -1,7 +1,7 @@
 ---
 title: Buzz
 created: 2026-10-02
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, communication, nostr, self-hosted]
 readability: 3
@@ -23,7 +23,8 @@ Block positions it as infrastructure, the event store and delivery pipe, not the
 
 ## Status
 
-Active and heavily starred: about 35,981 stars since 2026-03-06 as of 2026-10-15, pushed 2026-11-25, with desktop releases at v0.5.30 (2026-11-14) ending a five-week desktop gap after v0.5.28 (2026-10-09), which had followed v0.5.27 (2026-10-06) three days apart (GitHub API, as of 2026-11-17). Main, pushed 2026-11-25, carries an unreleased batch through 2026-11-25: Android enrollment kept retryable across push replay races and restarts, a confirmed age restriction applied to Android push wakes, and nip-fi disconnects scoped to tokens issued through revoke_through (GitHub API, as of 2026-11-25).
+Active and heavily starred: about 35,981 stars since 2026-03-06 as of 2026-10-15, pushed 2026-11-26, with desktop releases at v0.5.30 (2026-11-14) ending a five-week desktop gap after v0.5.28 (2026-10-09), which had followed v0.5.27 (2026-10-06) three days apart (GitHub API, as of 2026-11-17). Main, pushed 2026-11-26, carries an unreleased batch through 2026-11-25: Android enrollment kept retryable across push replay races and restarts, a confirmed age restriction applied to Android push wakes, and nip-fi disconnects scoped to tokens issued through revoke_through (GitHub API, as of 2026-11-25).
+As of 2026-11-27 the default branch's latest commit is 2026-11-26, desktop v0.5.30 still the latest release, and main's unreleased batch reads: canvas set guarded with --expected, the iOS error for a channel that was not created, relay call-site stacks trimmed (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=block/buzz&type=date&theme=dark&legend=top-left" />
@@ -78,6 +79,7 @@ Not for anyone who needs Slack-world integrations, federated availability, or a 
 - 2026-11-17 - Appended the Changes bullet for desktop v0.5.30 (2026-11-14), which the Status prose had carried since 2026-11-14 without its bullet.
 - 2026-11-17 - Rotation re-verification (every cited URL re-fetched live: repository, ARCHITECTURE.md, VISION.md, releases, the Nostr reference); claims hold, desktop v0.5.30 (2026-11-14) still the latest release, the push date refreshed to 2026-11-17.
 - 2026-11-25 - Volatile refresh: the push date refreshed to 2026-11-25, desktop-v0.5.30 still the latest release; main's unreleased batch recorded (Android enrollment retryable across push replay races, an age restriction applied to Android push wakes, nip-fi disconnects scoped to tokens issued through revoke_through).
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-26, desktop v0.5.30 still the latest release; main's unreleased batch recorded (canvas set guarded with --expected, the iOS error for a channel that was not created, relay call-site stacks trimmed).
 
 ## See also
 

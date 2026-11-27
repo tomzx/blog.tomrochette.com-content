@@ -1,7 +1,7 @@
 ---
 title: Bernstein
 created: 2026-10-06
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, deterministic-scheduling, policy-as-code, worktrees, audit]
 readability: 3
@@ -23,6 +23,7 @@ It ships as a CLI, TUI, and web UI on PyPI (`bernstein`), drives 50-plus CLI age
 
 Active and fast-releasing: 1,249 stars as of 2026-10-15, 30 contributors, and a push on 2026-11-25, created 2026-03-22, with v4.0.0 published 2026-11-20 after v3.24.1 (2026-11-05) and v3.23.0 (2026-10-24) (GitHub API, PyPI, as of 2026-11-21).
 v4.0.0 is a governance-tightening major with a 3.24-to-4.0 migration guide: a failed workflow node now skips later layers including independent branches, a detached SSH task's nonzero remote exit fails the whole run, `bernstein govern audit --strict` gives CI distinct exit codes for failed checks versus unmeasurable prerequisites, run close seals the final delegation digest with the install audit key, and previously ignored `quality_gates` settings now apply.
+Two patches followed: v4.0.1 (2026-11-25, packaged `bernstein demo` execution from wheels, offline receipt verification hints, fractional-weight stalls in `FairScheduler`) and v4.0.2 (2026-11-26, server access gates, default loopback `Host` header checks, adapter and journal fixes, and conformance tests, with the loopback change flagged for review before upgrading), per the GitHub releases feed as of 2026-11-27.
 v3.22.0 fixed a recovery-watchdog loop in which a run stopped on purpose could be restarted by its own watchdog, re-queueing retries an earlier process had already made; a quiescent run now stays stopped, which matters for a tool whose pitch is auditable determinism.
 The star count fell from the 1,404 recorded on 2026-10-06 to about 1,200 by 2026-10-10, a roughly 200-star drop in four days that GitHub sometimes produces when it removes bot-starred accounts, and the note records it because a falling count on a governance tool is itself a signal.
 
@@ -75,6 +76,7 @@ Not for teams that want LLM-driven planning, a GUI-first experience, or a projec
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched live (PyPI at 3.24.1, the Show HN search returning the August thread); v3.24.1 stands as the latest release and the push date refreshed to 2026-11-14.
 - 2026-11-21 - Rotation re-verification (every cited URL re-fetched live: site, docs, repository, the Show HN search still returning the August thread, the AugmentCode listing) with v4.0.0 (2026-11-20, the governance-tightening major with a migration guide) recorded on GitHub and PyPI, the push date refreshed to 2026-11-20.
 - 2026-11-25 - Volatile refresh: the push date refreshed to 2026-11-25, v4.0.0 still the latest release, main's newest commits fixes only.
+- 2026-11-27 - Volatile refresh: recorded v4.0.1 (2026-11-25) and v4.0.2 (2026-11-26, server access gates and default loopback `Host` header checks) as patches on v4.0.0.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: Agent Manager
 created: 2026-10-06
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, tmux, tui, multi-cli, worktrees]
 readability: 3
@@ -23,7 +23,8 @@ It is distributed as brew, an install script, an AUR package, mise, go install, 
 
 ## Status
 
-Active and young: 595 stars and 60 forks as of 2026-10-15, created 2026-07-15, pushed 2026-11-24 (GitHub API, as of 2026-11-25), with 29 contributors and v0.50.0 (2026-11-24) the latest release, after v0.49.0 (2026-11-14), v0.48.1 (2026-11-07), v0.47.1 (2026-11-02), v0.47.0 (2026-11-01), v0.46.0 (2026-10-31), v0.45.0 (2026-10-30), and v0.44.0 (2026-10-25) (GitHub API, as of 2026-11-15).
+Active and young: 595 stars and 60 forks as of 2026-10-15, created 2026-07-15, pushed 2026-11-26 (GitHub API, as of 2026-11-25), with 29 contributors and v0.50.0 (2026-11-24) the latest release, after v0.49.0 (2026-11-14), v0.48.1 (2026-11-07), v0.47.1 (2026-11-02), v0.47.0 (2026-11-01), v0.46.0 (2026-10-31), v0.45.0 (2026-10-30), and v0.44.0 (2026-10-25) (GitHub API, as of 2026-11-15).
+As of 2026-11-27 the default branch's latest commit is 2026-11-26, v0.50.0 still the latest release, and main's unreleased batch reads: session actions shown on the row at once, alt+Enter sending and keeping the text in the quick view, cached palette colors resolved once (GitHub API).
 The README and the v0.50.0 release body list fourteen CLIs with status detection (Claude Code, OpenCode, Codex, Grok Build, Gemini CLI, Antigravity CLI, Pi, Command Code, Hermes Agent, Muse Code, Oh My Pi, Cursor CLI, Kiro CLI, and GitHub Copilot CLI), and the manager runs on macOS, Linux, Windows through psmux, and WSL2, with a Windows install script, a Scoop bucket, and prebuilt Windows binaries attached to the release (README and release body, as of 2026-11-25).
 
 **The repository moved from YoanWai's account to the wainmann account by 2026-11-07, the old path a 301 redirect, the same identity churn this section records wherever it appears.**
@@ -80,6 +81,7 @@ Not for teams that need cost tracking, per-task worktree defaults, or a GUI.
 - 2026-11-22 - Re-verified in rotation: every cited URL re-fetched live (site, repository API, releases, README, the Show HN thread); claims hold, v0.49.0 still the latest release, with SSH session and group management landing unreleased on the default branch since the 2026-11-15 verification.
 - 2026-11-25 - Recorded v0.50.0 (published 2026-11-24) as the latest release; refreshed the push date to 2026-11-24.
 - 2026-11-25 - Corrected the harness count from nine to fourteen CLIs (Oh My Pi, Cursor CLI, Kiro CLI, and GitHub Copilot CLI added, each with status detection) and recorded Windows support through psmux with an install script, a Scoop bucket, and prebuilt binaries, verified against the README and the v0.50.0 release body.
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-26, v0.50.0 still the latest release; main's unreleased batch recorded (session actions shown on the row at once, alt+Enter sending and keeping the text in the quick view, cached palette colors resolved once).
 
 ## See also
 

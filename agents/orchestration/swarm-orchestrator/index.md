@@ -1,9 +1,9 @@
 ---
 title: Swarm Orchestrator
 created: 2026-10-24
-updated: 2026-11-19
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, coding-agent, evidence, git-worktrees]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, llm=glm-5.3-flash, orchestration, coding-agent, evidence, git-worktrees]
 readability: 3
 audience_notes: >
   Engineers who want an autonomous coding agent whose success claims carry tamper-evident
@@ -26,7 +26,8 @@ The package name has carried four products: Copilot CLI session orchestration, t
 
 ## Status
 
-Active and fast-moving under one maintainer: the repository was created 2026-01-22, held 112 stars, 5 forks, and 5 open issues as of 2026-10-24, was pushed 2026-11-06 (GitHub API, as of 2026-11-07), and its 1,586 commits all belong to one contributor.
+Active and fast-moving under one maintainer: the repository was created 2026-01-22, held 112 stars, 5 forks, and 5 open issues as of 2026-10-24, was pushed 2026-11-26 (GitHub API, as of 2026-11-07), and its 1,586 commits all belong to one contributor.
+As of 2026-11-27 the default branch's latest commit is 2026-11-26, v15.0.0 still the latest published release, and main's unreleased batch reads: an overhaul branch and a release/17.0.0 branch merged into main with no published 17.0.0 release yet (GitHub API).
 The GitHub release line moved to v15.0.0 on 2026-10-30, the verifier-first rebuild (ADR 0014) that supersedes the unreleased 14.5.0 work and turns `swarm run` into a single-bash-tool loop through the chokepoint, with the standalone verifier rebuilt as swarm-verify 2.0.0 alongside it, while the npm train has moved past the release page to 16.0.4 (22 published versions, latest as of 2026-11-19) and the README still says 13.1.9; the package drew 1,204 downloads in the trailing month to 2026-11-17 (npm registry and downloads API, as of 2026-11-19, after 540 in the month ending 2026-10-29).
 
 <picture>
@@ -77,6 +78,7 @@ Not for teams wanting a GUI or supervision of Claude Code and friends, and not f
 - 2026-11-04 - Status refresh: the push date refreshed to 2026-11-04; v15.0.0 still the latest release.
 - 2026-11-13 - Rotation re-verification (every cited URL re-fetched live); no factual drift.
 - 2026-11-19 - Rotation re-verification (every cited URL re-fetched live: repo API, README, the claims doc, npm registry and downloads, releases, contributors, HN search); recorded the npm train moving past the release page to 16.0.4 with trailing-month downloads of 1,204 to 2026-11-17, the GitHub release line still topping at v15.0.0.
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-26, v15.0.0 still the latest published release; main's unreleased batch recorded (an overhaul branch and a release/17.0.0 branch merged into main with no published 17.0.0 release yet).
 
 ## See also
 

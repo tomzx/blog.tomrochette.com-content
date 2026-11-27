@@ -1,7 +1,7 @@
 ---
 title: Agent Orchestrator
 created: 2026-10-06
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, kanban, worktrees, multi-harness, desktop]
 readability: 3
@@ -23,7 +23,8 @@ The product is branded Orchestrator.inc, the name its docs site docs.orchestrato
 ## Status
 
 Active and shipping daily: 13,193 stars as of 2026-10-15 (1,788 forks, 821 open issues and pull requests, and 30 contributors as of 2026-10-11), created 2026-02-13 (GitHub API, as of 2026-10-15).
-Stable releases ride the nightly train, v0.15.6 (2026-11-24, remote-host artifacts listed and published from the desktop, review runs as an explicit state machine with a run supervisor, large attachments streamed to the daemon, and a Turkish locale) the latest stable after v0.15.5 (2026-11-23, a stable backport grouping desktop and mobile Sentry errors by code or normalized message) after v0.15.4 (2026-11-22, a stable hotfix preserving Sentry error messages and splitting issue groups) after v0.15.3 (2026-11-16, PR details, actions, comments, and activity in the session inspector, plus a title bar on every pane to drag and unsplit) after v0.15.2 (2026-11-15, a stable hotfix rotating the desktop and daemon DSNs) after v0.15.1 (2026-11-14) after v0.15.0 (2026-11-13) and v0.14.10 (2026-11-06), v0.14.9 (2026-11-04), v0.14.8 (2026-10-30), and v0.14.7 (2026-10-28), v0.14.6 (2026-10-24), v0.14.5 (2026-10-22), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-11-25 (GitHub API, as of 2026-11-25).
+Stable releases ride the nightly train, v0.15.6 (2026-11-24, remote-host artifacts listed and published from the desktop, review runs as an explicit state machine with a run supervisor, large attachments streamed to the daemon, and a Turkish locale) the latest stable after v0.15.5 (2026-11-23, a stable backport grouping desktop and mobile Sentry errors by code or normalized message) after v0.15.4 (2026-11-22, a stable hotfix preserving Sentry error messages and splitting issue groups) after v0.15.3 (2026-11-16, PR details, actions, comments, and activity in the session inspector, plus a title bar on every pane to drag and unsplit) after v0.15.2 (2026-11-15, a stable hotfix rotating the desktop and daemon DSNs) after v0.15.1 (2026-11-14) after v0.15.0 (2026-11-13) and v0.14.10 (2026-11-06), v0.14.9 (2026-11-04), v0.14.8 (2026-10-30), and v0.14.7 (2026-10-28), v0.14.6 (2026-10-24), v0.14.5 (2026-10-22), and v0.14.3 (2026-10-19, a full-screen editable artifact viewer and copyable workspace paths with open-in-terminal shortcuts), with a push on 2026-11-27 (GitHub API, as of 2026-11-25).
+As of 2026-11-27 the default branch's latest commit is 2026-11-27, v0.15.6 still the latest release, and main's unreleased batch reads: a session moved to AO Cloud and back, bypass-permissions kept for Cline in TUI mode with --auto-approve, mobile screen usage and launch timing reported (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=OrchestratorInc/agent-orchestrator&type=date&theme=dark&legend=top-left" />
@@ -82,6 +83,7 @@ Not for anyone who needs a stable identity to standardize on (four renames and c
 - 2026-11-17 - Recorded v0.15.3 (2026-11-16, session-inspector PR details and actions, pane title bars) as the latest stable, the push date refreshed to 2026-11-17.
 - 2026-11-24 - Re-verified in rotation: every cited URL re-fetched live (repository, docs index, the cloud guide, both third-party articles, the Show HN thread, the old ComposioHQ path still redirecting); recorded v0.15.4 (2026-11-22, the Sentry error-message hotfix) and v0.15.5 (2026-11-23, the Sentry error-grouping backport) as the latest stables, the cloud guide still showing no public price page, the push date refreshed to 2026-11-24.
 - 2026-11-25 - Volatile refresh: recorded v0.15.6 (2026-11-24, remote-host artifacts listed and published from the desktop, review runs as an explicit state machine with a run supervisor, large attachments streamed to the daemon) as the latest stable, the stable-line sentence corrected from v0.15.3 to v0.15.6, the push date refreshed to 2026-11-25.
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-27, v0.15.6 still the latest release; main's unreleased batch recorded (a session moved to AO Cloud and back, bypass-permissions kept for Cline in TUI mode with --auto-approve, mobile screen usage and launch timing reported).
 
 ## See also
 

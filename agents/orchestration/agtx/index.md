@@ -1,9 +1,9 @@
 ---
 title: agtx
 created: 2026-11-01
-updated: 2026-11-22
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal, worktree, blackboard]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, llm=glm-5.3-flash, orchestration, terminal, worktree, blackboard]
 readability: 3
 audience_notes: >
   Terminal-first engineers who want several coding CLIs working on one task list in parallel, each in its own worktree.
@@ -24,7 +24,8 @@ By Fynn Fluegge, repository created 2026-02-08, Apache-2.0 licensed.
 
 ## Status
 
-Active but slowing: 1,728 stars, 144 forks, and 28 open issues and pull requests as of 2026-11-01 (GitHub API), last push 2026-11-03 (no release since v1.0.6 on 2026-09-16).
+Active but slowing: 1,728 stars, 144 forks, and 28 open issues and pull requests as of 2026-11-01 (GitHub API), last push 2026-11-26 (no release since v1.0.6 on 2026-09-16).
+As of 2026-11-27 the default branch's latest commit is 2026-11-26, v1.0.6 still the latest release, and main's unreleased batch reads: the active task focused from the project sidebar, OpenCode's Working, Blocked, and Idle states reported through hooks (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=fynnfluegge/agtx&type=date&theme=dark&legend=top-left" />
@@ -69,6 +70,7 @@ Not for GUI-first users, and not for remote or VPS workflows, which it does not 
 - 2026-11-08 - Re-verified in rotation: all cited sources re-fetched and live (repo API, README, all 27 releases with v1.0.6 (2026-09-16) still the newest, the Trendshift listing, and the HN search still returning no agtx story); claims hold.
 - 2026-11-16 - Re-verified in rotation: all cited sources re-fetched (repo API, README, releases with v1.0.6 still the newest, the HN search still only fuzzy noise); the Trendshift page serves a 403 bot wall to both fetch clients while its domain root serves 200, the wall recorded on the reference.
 - 2026-11-22 - Re-verified in rotation: all cited sources re-fetched (repo API, README, releases with v1.0.6 still the newest, the HN search); the Trendshift 403 wall stands as recorded, no factual drift, the push still stopped at 2026-11-03.
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-26, v1.0.6 still the latest release; main's unreleased batch recorded (the active task focused from the project sidebar, OpenCode's Working, Blocked, and Idle states reported through hooks).
 
 ## See also
 

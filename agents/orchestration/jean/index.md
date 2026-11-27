@@ -1,7 +1,7 @@
 ---
 title: Jean
 created: 2026-10-12
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, worktrees, dev-environment, self-hosted]
 readability: 3
@@ -24,7 +24,8 @@ It comes from coolLabs Solutions Kft., the team behind the 62.9k-star self-hosti
 ## Status
 
 **Active and shipping weekly from an established self-hosting vendor.**
-1,328 stars, 162 forks, 130 open issues, created 2026-01-23, pushed 2026-11-24, latest release v1.0.16 on 2026-11-15 (auto-compact window options for the Claude, Codex, OpenCode, and PI backends, plus chat-scroll, PR-conflict-status, and Windows SSH-host-key fallback fixes) after v1.0.15 on 2026-11-12 after v1.0.14 (2026-11-06) and v1.0.13 (2026-10-28, mid-turn steering for running Claude turns through a detached host and automatic continuation after usage-limit resets), as of 2026-11-25 (GitHub API).
+1,328 stars, 162 forks, 130 open issues, created 2026-01-23, pushed 2026-11-27, latest release v1.0.16 on 2026-11-15 (auto-compact window options for the Claude, Codex, OpenCode, and PI backends, plus chat-scroll, PR-conflict-status, and Windows SSH-host-key fallback fixes) after v1.0.15 on 2026-11-12 after v1.0.14 (2026-11-06) and v1.0.13 (2026-10-28, mid-turn steering for running Claude turns through a detached host and automatic continuation after usage-limit resets), as of 2026-11-25 (GitHub API).
+As of 2026-11-27 the default branch's latest commit is 2026-11-27, v1.0.16 still the latest release, and main's unreleased batch reads: context size and session token totals in the Details menu, stuck self-update loading states cleared, false Cursor auth timeouts on Windows stopped (GitHub API).
 Main carries an unreleased coordinator batch through 2026-11-24: worktrees removed automatically after their pull request merges (#959), every delegated session update reported reliably (#964), the full sessions canvas back in Sessions mode (#960), and inline questions acceptable with only some answered (GitHub API, as of 2026-11-25).
 The release train runs roughly weekly through October (v1.0.6 on September 24, v1.0.7 on September 29, v1.0.9 on October 7, v1.0.10 on October 13, v1.0.11 on October 14, v1.0.12 on October 17, and v1.0.13 on October 28, with v1.0.14 following on November 6, v1.0.15 on November 12, and v1.0.16 on November 15).
 I found no Hacker News thread through 2026-10-12 searches, so its early traction rides the Coolify community (jean.build claims a 20,000-plus Discord) rather than independent coverage.
@@ -77,6 +78,7 @@ Not for Windows or Linux desktop users who need a proven build today, or for any
 - 2026-11-13 - Volatile refresh: Recorded v1.0.15 (2026-11-12) as the latest release, the push date refreshed to 2026-11-13.
 - 2026-11-16 - Recorded v1.0.16 (2026-11-15, auto-compact window options across backends) as the latest release, the push date refreshed to 2026-11-15.
 - 2026-11-25 - Rotation re-verified, every cited URL re-fetched and live; v1.0.16 still the latest release, the push date refreshed to 2026-11-24 with main's unreleased coordinator batch recorded (worktrees removed automatically after their pull request merges, delegated session updates reported reliably).
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-27, v1.0.16 still the latest release; main's unreleased batch recorded (context size and session token totals in the Details menu, stuck self-update loading states cleared, false Cursor auth timeouts on Windows stopped).
 
 ## See also
 

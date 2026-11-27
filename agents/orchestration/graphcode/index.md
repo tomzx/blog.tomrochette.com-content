@@ -1,9 +1,9 @@
 ---
 title: GraphCode
 created: 2026-09-27
-updated: 2026-11-19
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, macos, graph, loops]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, llm=deepseek-v4.1-flash, llm=glm-5.3-flash, orchestration, macos, graph, loops]
 readability: 3
 audience_notes: >
   macOS engineers who want unattended, connected, still-attachable agent loops rather than a one-shot dispatch.
@@ -24,7 +24,8 @@ It bundles no agents and drives five backends (Claude Code, GitHub Copilot CLI, 
 
 ## Status
 
-New and fast-moving: about 139 stars and 19 forks as of 2026-10-11, created 2026-07-26, pushed 2026-11-19 (GitHub API, as of 2026-11-19), with v0.1.85 (2026-11-19, fixing the high CPU and log flooding that followed opening a link whose handler writes to stderr) the latest stable release after v0.1.84 (2026-11-06) after v0.1.83 (2026-10-27, `--json` output for the projects and workspaces commands) and v0.1.82 (2026-10-27, a `graphcode workspaces` command listing every workspace on the Mac and marking the current one) and v0.1.81 (2026-10-19, images paste into remote and Codespace loops with Cmd-V/Ctrl-V) after v0.1.80 (2026-10-12, finished loops rename their Claude Code session), which followed v0.1.78 (2026-10-04, promoted from the October 3 beta line) and the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
+New and fast-moving: about 139 stars and 19 forks as of 2026-10-11, created 2026-07-26, pushed 2026-11-26 (GitHub API, as of 2026-11-19), with v0.1.85 (2026-11-19, fixing the high CPU and log flooding that followed opening a link whose handler writes to stderr) the latest stable release after v0.1.84 (2026-11-06) after v0.1.83 (2026-10-27, `--json` output for the projects and workspaces commands) and v0.1.82 (2026-10-27, a `graphcode workspaces` command listing every workspace on the Mac and marking the current one) and v0.1.81 (2026-10-19, images paste into remote and Codespace loops with Cmd-V/Ctrl-V) after v0.1.80 (2026-10-12, finished loops rename their Claude Code session), which followed v0.1.78 (2026-10-04, promoted from the October 3 beta line) and the first stable v0.1.76 of 2026-09-28, still a pre-1.0 line.
+As of 2026-11-27 the default branch's latest commit is 2026-11-26, v0.1.85 still the latest stable, and main's unreleased batch reads: a 0.1.86-beta1 prerelease cut on main (a direct send typed into any loop whose session is up) (GitHub API).
 A beta prerelease line runs beside the stable tags (`0.1.85-beta1` on 2026-11-18, and the Windows line through `0.1.84-windows.beta32` after `0.1.83-windows.beta30` opened it 2026-10-28, the first signal of a platform beyond the Mac), while the site still advertises macOS 15+ on Apple Silicon only.
 
 <picture>
@@ -82,6 +83,7 @@ Not for Intel Macs, Linux, or Windows, and not for anyone who requires an OSI op
 - 2026-11-04 - Re-verified in rotation: all cited sources re-fetched and live (repo, site, README, license, the directory entry); the push date refreshed to 2026-11-04, v0.1.83 still the latest stable release, and the first Windows beta prerelease tag (0.1.83-windows.beta30, 2026-10-28) recorded.
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repo, site, README, license, the directory entry); the push date refreshed to 2026-11-12, v0.1.84 (2026-11-06) still the latest stable release.
 - 2026-11-19 - Rotation re-verification (every cited URL re-fetched live: repo, site, README, license, the directory entry) plus the volatile pass: recorded v0.1.85 (2026-11-19, the stderr-handler CPU and log-flood fix) as the latest stable and the `0.1.85-beta1` prerelease (2026-11-18) on the beta line, the push date refreshed to 2026-11-19.
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-26, v0.1.85 still the latest stable; main's unreleased batch recorded (a 0.1.86-beta1 prerelease cut on main (a direct send typed into any loop whose session is up)).
 
 ## See also
 

@@ -1,9 +1,9 @@
 ---
 title: Mastra
 created: 2026-09-29
-updated: 2026-11-19
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, multi-agent, typescript]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, llm=glm-5.3-flash, orchestration, multi-agent, typescript]
 readability: 3
 audience_notes: >
   TypeScript engineers choosing an agent framework, and platform buyers who want to know what the June 2026 supply-chain attack means.
@@ -23,6 +23,7 @@ The repo sits at 28,829 stars with 2,984 forks, created 2024-08-06; the core is 
 ## Status
 
 Active and shipping fast: last push 2026-11-19, `@mastra/core` 1.84.0 published to npm 2026-11-18 (experimental storageVersion 2 for durable and evented agents, runs stored as a header plus per-step rows so long runs write only deltas, an example dropping from 98 MB to 11 MB published), after 1.83.0 on 2026-11-13 (resumable agent streams on every Agent: replay caching, cross-instance observe/abort, and reconnect without killing the run, plus a built-in MCP server at `/api/mcp`), after 1.82.0 on 2026-11-04 (experimental storage-backed MCP tasks in `@mastra/mcp`, where long-running tools return a task immediately and survive restarts), after 1.80.0 on 2026-10-28 (per-resource, user-scoped OAuth connections in `@mastra/connect`) and 1.79.0 on 2026-10-21 (GitHub API, npm, as of 2026-11-19), nine releases after 1.75.0 (2026-10-07).
+As of 2026-11-27 `@mastra/core` 1.86.0 is the newest release (2026-11-25, durable, crash-safe dataset experiments that run as durable evented workflows through `durable: true` on `startExperimentAsync()` and the server and client trigger APIs), per the GitHub releases feed.
 npm recorded 13,046,270 downloads of `@mastra/core` in the trailing month to 2026-11-19, the largest install base in this note set (npm API, as of 2026-11-19, after 12,149,358 for the month ending 2026-11-14 and 7,432,042 for the month ending 2026-10-27).
 Funding: $13M seed announced 2025-10-08 from 120+ investors including YC, Paul Graham, Gradient, and Guillermo Rauch, then a $22M Series A led by Spark Capital on 2026-04-09, totaling $35M (mastra.ai blog).
 On 2026-06-16 Mastra disclosed a supply-chain attack that compromised multiple npm packages, with an incident report and fixes.
@@ -82,6 +83,7 @@ Not for security-strict environments that cannot accept a recent npm supply-chai
 - 2026-11-06 - Volatile refresh: Recorded `@mastra/core` 1.82.0 (2026-11-04) as the new latest release.
 - 2026-11-15 - Re-verified in rotation: all cited sources re-fetched and live (repo, pricing canonicalized to mastra.ai, both funding posts, npm registry and downloads, license, HN threads); the npm month refreshed to 12,149,358 ending 2026-11-14 from 7,432,042 ending 2026-10-27.
 - 2026-11-19 - Volatile refresh: Recorded `@mastra/core` 1.84.0 (2026-11-18, experimental storageVersion 2 storing runs as a header plus per-step rows) on the npm train, trailing-month downloads at 13,046,270 to 2026-11-19, the push date refreshed to 2026-11-19.
+- 2026-11-27 - Volatile refresh: recorded `@mastra/core` 1.86.0 (2026-11-25, durable, crash-safe dataset experiments) as the newest release after 1.84.0.
 
 ## See also
 

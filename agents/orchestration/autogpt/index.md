@@ -1,7 +1,7 @@
 ---
 title: AutoGPT
 created: 2026-09-27
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, agent-platform, workflows, source-available]
 readability: 3
@@ -25,6 +25,7 @@ It positions itself as "AI agents that finish the work", with file-aware agents,
 ## Status
 
 Active and shipping: the repo shows 187,580 stars, was pushed 2026-11-20 (default branch, GitHub API, as of 2026-11-25), and carries the platform beta at v0.12.0 (2026-11-19, a breaking change dropping the frontend's `TRUST_X_FORWARDED_FOR` read in favor of the `TRUSTED_PROXIES` list for sign-in IP logging, IP blocks, and per-visitor store search) after v0.11.3 (2026-11-15, several privately reported security fixes, advisories to follow once the fixes reach production), v0.11.2 (2026-11-11), v0.11.1 (2026-11-06), v0.11.0 (2026-11-04), v0.9.0 (2026-10-23), and v0.8.4 (2026-10-14) (GitHub API, releases, as of 2026-11-21).
+The platform beta moved to v0.12.1 on 2026-11-26 (Continue with Google or Microsoft connects email, files, and calendar at sign-in so Otto can use them from the first session), per the GitHub releases feed as of 2026-11-27.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Significant-Gravitas/AutoGPT&type=date&theme=dark&legend=top-left" />
@@ -90,6 +91,7 @@ My disagreeable claim: the 187k stars are a liability now, because they attract 
 - 2026-11-14 - Re-verified in rotation: every cited URL re-fetched and live (repo API, README, license, releases, pricing, docs, blog post, both HN threads); v0.11.2 still the newest tag, the hosted pricing tiers re-fetched unchanged at $50 and $320 monthly, the push date refreshed to 2026-11-14.
 - 2026-11-16 - Recorded the platform beta advancing to v0.11.3 (2026-11-15, privately reported security fixes with advisories pending).
 - 2026-11-21 - Volatile refresh: Recorded the platform beta advancing to v0.12.0 (2026-11-19, breaking `TRUST_X_FORWARDED_FOR` removal in favor of `TRUSTED_PROXIES`).
+- 2026-11-27 - Rotation re-verified, every cited URL re-fetched and live (the api.github.com citations behind the shared unauthenticated limit and re-read through `gh api`); recorded the platform beta advancing to v0.12.1 (2026-11-26, sign-in connecting email, files, and calendar for Otto).
 
 ## See also
 

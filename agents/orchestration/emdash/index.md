@@ -1,9 +1,9 @@
 ---
 title: Emdash
 created: 2026-08-24
-updated: 2026-11-21
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, open-source, desktop-app]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, llm=glm-5.3, llm=glm-5.3-flash, orchestration, git-worktrees, open-source, desktop-app]
 readability: 3
 audience_notes: >
   Engineers who want an open, cross-platform alternative to closed worktree dashboards like Conductor.
@@ -34,6 +34,8 @@ As of 2026-10-15 the repo shows about 6.0k stars (5,988) and 631 forks; the site
 </picture>
 
 The v1.2.13 release shipped 2026-11-19 with an empty body, after v1.2.12 the same day (Emdash 2.0 waitlist signups routed through emdash.com with named failure reasons, and Emdash v0 imports made reliable in one transaction), after v1.2.11 (2026-11-06), after v1.2.10 (2026-10-30), v1.2.9 (2026-10-23), v1.2.8 (2026-10-10), and v1.2.7 (2026-09-27), six days after v1.2.6 (2026-09-21), which itself followed v1.2.5 (2026-09-18) by three days; v1.2.5 added multiple accounts per integration and custom agent executable selection.
+As of 2026-11-27 the repository titles itself Emdash Classic (README title and description, homepage emdash.com/classic), and that page says the open-source app stays available and keeps getting fixes while new development has moved to Emdash 2.0, a cloud product for whole teams in early access behind a waitlist.
+The open-source line's head is still v1.2.13, and main carries an unreleased IBM Bob provider merged 2026-11-23.
 Its February 2026 Show HN reached 206 points with 71 comments.
 Founders Arne and Raban described the business model as a possible bundled agent subscription plus enterprise, funded by YC W26; cloud workspaces and enterprise tiers are contact-sales today.
 
@@ -86,6 +88,7 @@ My disagreeable claim: Emdash's SSH support matters more than any feature matrix
 - 2026-11-15 - Re-verified in rotation: every cited URL re-fetched live (site, cloud page, repository, the Show HN thread, the Cloudflare post); v1.2.11 still the newest release, no factual drift.
 - 2026-11-19 - Volatile refresh: Recorded v1.2.12 (2026-11-19, the Emdash 2.0 waitlist routing and the v0-import reliability pass) as the newest release.
 - 2026-11-21 - Volatile refresh: Recorded v1.2.13 (2026-11-19, an empty release body) at the head of the train.
+- 2026-11-27 - Recorded the repository retitling itself Emdash Classic with new development moved to Emdash 2.0 (cloud, early access), and the unreleased IBM Bob provider on main (merged 2026-11-23).
 
 ## See also
 
@@ -102,3 +105,5 @@ My disagreeable claim: Emdash's SSH support matters more than any feature matrix
 - https://emdash.com/cloud - cloud workspaces positioning
 - https://news.ycombinator.com/item?id=47140322 - founders' launch thread: design, business model, skepticism
 - https://blog.cloudflare.com/emdash-wordpress/ - the unrelated Cloudflare EmDash name collision
+- https://emdash.com/classic - the Emdash Classic page: fixes continue, new development moved to Emdash 2.0 in early access, fetched 2026-11-27
+- https://github.com/generalaction/emdash - the README retitled Emdash Classic and the IBM Bob provider commit of 2026-11-23, fetched 2026-11-27

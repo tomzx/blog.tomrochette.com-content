@@ -1,9 +1,9 @@
 ---
 title: AX
 created: 2026-09-21
-updated: 2026-11-21
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, kubernetes, multi-agent, open-source, google]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, llm=glm-5.3-flash, orchestration, kubernetes, multi-agent, open-source, google]
 readability: 3
 audience_notes: >
   Engineers running agent fleets as infrastructure who want a declarative control plane instead of a desktop dashboard.
@@ -23,7 +23,8 @@ It runs on top of Agent Substrate (also Apache-2.0), a compute runtime built for
 ## Status
 
 Active and newly prominent: the repo was created 2026-03-30, but its public arrival was the launch HN thread, 666 points as of 2026-10-18 (664 on 2026-09-26, 662 on 2026-09-24, 657 on 2026-09-22, 414 on launch day 2026-09-20), and v0.3.0 shipped the same day.
-About 13.6k stars as of 2026-10-15 (13,647 per the GitHub API), up from 11,652 on 2026-09-26, about 8,000 on 2026-09-22, and 3,940 on 2026-09-21, with the README carrying an explicit warning that core concepts, protocols, and specifications will see major breaking changes before a stable release; a push on 2026-11-17 keeps the pre-stable churn live, and v0.4.0-rc.1 (2026-11-20, pinned to Agent Substrate v1.0.0) opened a release-candidate line toward a 0.4 stable (GitHub API, as of 2026-11-21).
+About 13.6k stars as of 2026-10-15 (13,647 per the GitHub API), up from 11,652 on 2026-09-26, about 8,000 on 2026-09-22, and 3,940 on 2026-09-21, with the README carrying an explicit warning that core concepts, protocols, and specifications will see major breaking changes before a stable release; a push on 2026-11-26 keeps the pre-stable churn live, and v0.4.0-rc.1 (2026-11-20, pinned to Agent Substrate v1.0.0) opened a release-candidate line toward a 0.4 stable (GitHub API, as of 2026-11-21).
+As of 2026-11-27 the default branch's latest commit is 2026-11-26, v0.3.1 still the latest release, and main's unreleased batch reads: AX_WORKSPACE set to the workspace path by the runner, the controller no longer reporting failures as Ready conditions (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=google/ax&type=date&theme=dark&legend=top-left" />
@@ -77,6 +78,7 @@ Not for developers who want a desktop app supervising a handful of sessions; pic
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repository, site, README, v0.3.1 release, Agent Substrate repo, launch thread steady at 666 points); the push date refreshed to 2026-11-12.
 - 2026-11-17 - Rotation re-verification (every cited URL re-fetched live: repository, site, README and its pre-stable warning, the v0.3.1 release, the Agent Substrate repo, the launch thread steady at 666 points); v0.3.1 still the latest release, the push date refreshed to 2026-11-17.
 - 2026-11-21 - Volatile refresh: Recorded v0.4.0-rc.1 (2026-11-20, the first release candidate toward a 0.4 stable, requiring Agent Substrate v1.0.0) on a new rc line.
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-26, v0.3.1 still the latest release; main's unreleased batch recorded (AX_WORKSPACE set to the workspace path by the runner, the controller no longer reporting failures as Ready conditions).
 
 ## See also
 

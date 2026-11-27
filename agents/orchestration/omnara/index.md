@@ -1,7 +1,7 @@
 ---
 title: Omnara
 created: 2026-08-30
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, agent-control-plane, mobile, self-hosted, yc]
 readability: 3
@@ -28,6 +28,7 @@ It sits in the orchestration layer of this section's taxonomy (control plane and
 **Active, well-capitalized by YC standards, and shipping daily.**
 2,917 stars and 237 forks as of 2026-10-15 on a repo created July 9, 2025, with pushes landing within a day of verification (GitHub API).
 The release train runs two product lines recorded 2026-11-25: `omnarad`, the daemon line, at v0.2.27 (2026-11-20, canonical binaries built from one commit; the v0.2.26 pair landed 2026-11-19, after v0.2.25 on 2026-11-18, v0.2.24 on 2026-11-17, after v0.2.23 on 2026-11-13, after v0.2.22 earlier the same day, v0.2.21 on 2026-11-12, v0.2.20 on 2026-11-10, v0.2.19 on 2026-11-09, v0.2.17 on 2026-11-04, v0.2.16 on 2026-11-03, v0.2.15 on 2026-10-30, v0.2.14 on October 29 with its canonical daemon binaries, v0.2.13 on October 28, and v0.2.12 on October 27), and `cluster`, a separate line at v0.2.27 on 2026-11-20 (canonical images from the same commit, after the v0.2.26 pair on 2026-11-19, v0.2.25 on 2026-11-18, v0.2.24 on 2026-11-17 and v0.2.23 on 2026-11-13, v0.2.22 earlier that day and v0.2.21 on 2026-11-12, v0.2.19 on 2026-11-09 and v0.2.18 on 2026-11-09), both lines having moved on from the v0.2.2 tags they shared on 2026-10-10 (GitHub releases, as of 2026-11-25), and all postdating the `cli` line's last tag (cli-v1.0.11, 2026-09-12).
+As of 2026-11-27 both lines have tagged twice since: the v0.2.28 pair (2026-11-25, the GitHub assign-pull-request tool) and the v0.2.29 pair (2026-11-26, reconcile-defaults output grouped), per the GitHub releases feed.
 Neither line has tagged since, while main, pushed 2026-11-25, carries an unreleased batch: organization and project budgets with estimated model costs (#809, 2026-11-24), a GitHub assign-pull-request tool (#864), and a 401 in place of a 503 when an injected machine token is missing (#866) (GitHub API, as of 2026-11-25).
 
 <picture>
@@ -72,6 +73,8 @@ You pay your own model costs when you bring your own keys.
 - [Conductor](../conductor/index.md): the Mac-native multi-session manager for local parallel work; Conductor is a desktop app around Claude Code/Codex sessions, Omnara is a server-grade control plane.
 - [Claude Code](../../harnesses/claude-code/index.md): Anthropic's own managed-agent offering is the closed counterpart Omnara positions against; pick Claude Managed Agents for turnkey, Omnara for openness and BYOK.
 
+- Open Managed Agents (openma-ai/open-managed-agents, rejected 2026-11-26): the description-level twin of this note's subject, a vendor-authored sibling with 375 stars as of 2026-11-26, two package trains (sdk, cli), and directory and competitor-roundup coverage only; it stays rejected below the zero-coverage band and reopens on traction or independent coverage.
+
 ## Bottom line
 
 **Recommended for teams running agents as products or internal services who want approvals, events, and mobile control behind one API on their own infrastructure; not for solo developers who just want to drive one CLI agent from their phone (Paseo or the harness's own remote features do that with less machinery).**
@@ -94,6 +97,8 @@ I believe every serious agent deployment eventually needs exactly what Omnara is
 - 2026-11-19 - Volatile refresh: recorded the v0.2.25 pair (omnarad binaries and cluster images, both 2026-11-18, built from one commit) at the head of the two release lines.
 - 2026-11-21 - Volatile refresh: recorded the v0.2.26 pair (2026-11-19) and the v0.2.27 pair (2026-11-20, binaries and images from one commit each) at the head of the two release lines.
 - 2026-11-25 - Rotation re-verified, every cited URL re-fetched and live; no new tag on either line, v0.2.27 the head of both since 2026-11-20, main's unreleased batch recorded (organization and project budgets with estimated model costs, a GitHub assign-pull-request tool), pushed 2026-11-25.
+- 2026-11-27 - Recorded Open Managed Agents (openma-ai/open-managed-agents, rejected 2026-11-26) in Compared to as the description-level twin, per the 2026-11-26 cross-category handoff.
+- 2026-11-27 - Volatile refresh: recorded the v0.2.28 pair (2026-11-25, the GitHub assign-pull-request tool leaving the unreleased batch) and the v0.2.29 pair (2026-11-26) on both lines.
 
 ## See also
 

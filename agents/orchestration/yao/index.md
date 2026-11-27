@@ -1,9 +1,9 @@
 ---
 title: Yao
 created: 2026-10-06
-updated: 2026-11-22
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, agent-workspaces, self-hosted]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, llm=glm-5.3-flash, orchestration, agent-workspaces, self-hosted]
 readability: 3
 audience_notes: >
   Engineers evaluating a self-hosted agent workspace that spans their own devices, who want the eight-thousand-star count put in context before shortlisting.
@@ -23,7 +23,8 @@ The license is a modified Apache-2.0 that GitHub reports as NOASSERTION.
 
 ## Status
 
-Active on the product side and old on the clock: the repository was created 2021-09-06 and shows 8,122 stars and 722 forks as of 2026-10-13, pushed 2026-11-14 (GitHub API, as of 2026-11-14).
+Active on the product side and old on the clock: the repository was created 2021-09-06 and shows 8,122 stars and 722 forks as of 2026-10-13, pushed 2026-11-26 (GitHub API, as of 2026-11-14).
+As of 2026-11-27 the default branch's latest commit is 2026-11-26, v1.0.0 still the latest release, and main's unreleased batch reads: cloud worker loop panics contained and the worker recovered when the app database closes (GitHub API).
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=YaoApp/yao&type=date&theme=dark&legend=top-left" />
@@ -72,6 +73,7 @@ Not for anyone reading the 8k stars as agent-era adoption, and not for pure open
 - 2026-11-06 - Re-verified in rotation: every cited URL re-fetched and live; stable line still v1.0.0 with a nightly tag beyond it and the 2026-10-19 push unchanged, no factual drift.
 - 2026-11-15 - Re-verified in rotation: every cited URL re-fetched and live (repo, license, README, releases, site, both integration posts, HN thread); pushed 2026-11-14, stable line still v1.0.0, no factual drift.
 - 2026-11-22 - Re-verified in rotation: every cited URL re-fetched and live (repo, license, README, releases, site, both integration posts, HN thread); claims hold, v1.0.0 still the newest stable tag, with Tao account-billing and invitation commits unreleased on the default branch since the 2026-11-15 verification.
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-26, v1.0.0 still the latest release; main's unreleased batch recorded (cloud worker loop panics contained and the worker recovered when the app database closes).
 
 ## See also
 

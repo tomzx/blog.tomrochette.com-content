@@ -1,9 +1,9 @@
 ---
 title: Frink
 created: 2026-10-21
-updated: 2026-11-21
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, workflows, desktop, triggers]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, llm=glm-5.3-flash, orchestration, workflows, desktop, triggers]
 readability: 3
 audience_notes: >
   Engineers who want coding-agent runs to start themselves from tickets, errors, or schedules,
@@ -27,6 +27,7 @@ It is local-first: chats, Flows, and tasks live in SQLite on your machine, no ac
 ## Status
 
 Active and very young: 58 stars and 5 forks as of 2026-10-21, repository created 2026-09-26, default-branch pushes through 2026-11-20 (a tab bar switching between Chats, Flows, and Queue, paused Flow runs an agent can continue or cancel, streamed-text smooth scrolling, and fixes stopping skill copies leaking into Cursor's folder), and a release train still at 0.4.0 (October 16) after 0.3.0 (October 8) and 0.2.0 (October 6) (GitHub API and releases, as of 2026-11-21).
+As of 2026-11-27 the default branch's latest commit is 2026-11-26, 0.4.0 still the latest release, and main's unreleased batch reads: Claude chats and terminal sessions messaging each other, hands-free voice conversations with any agent (GitHub API).
 **The product site went down: frink.dev and its pricing page serve Vercel's 402 "Payment required" with a DEPLOYMENT_DISABLED error as of 2026-11-21**, while the repository and its committed user docs stay live, so the desktop app's own page is dark while development continues on GitHub.
 
 <picture>
@@ -78,6 +79,7 @@ Not for headless or server-side automation, and not for anyone who needs a track
 - 2026-11-06 - Re-verified in rotation: every cited URL re-fetched live; no material change, pushes still stopping at 2026-10-26 and 0.4.0 still the latest release.
 - 2026-11-14 - Re-verified in rotation: every cited URL re-fetched live; 0.4.0 still the latest release, and the default branch resumed with 2026-11-09 commits (Fable 5.2 in the model picker, bundled Claude Code 2.1.321), recorded in Status.
 - 2026-11-21 - Rotation re-verification with a site finding: frink.dev and its pricing page serve a Vercel DEPLOYMENT_DISABLED 402 while the repository stays active (pushes through 2026-11-20, 0.4.0 still the latest release), recorded in Status, Cautions, and Pricing with the dead-site wall on the two frink.dev references.
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-26, 0.4.0 still the latest release; main's unreleased batch recorded (Claude chats and terminal sessions messaging each other, hands-free voice conversations with any agent).
 
 ## See also
 

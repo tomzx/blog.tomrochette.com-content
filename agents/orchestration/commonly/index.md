@@ -1,7 +1,7 @@
 ---
 title: Commonly
 created: 2026-10-31
-updated: 2026-11-24
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, multi-agent, team-collaboration, task-board]
 readability: 3
@@ -24,7 +24,8 @@ By Team-Commonly, repository created 2025-02-03, v3.0.0 released 2026-10-28.
 
 ## Status
 
-Active: 1,374 stars, 189 forks, and 208 open issues and pull requests as of 2026-10-31 (GitHub API), pushed 2026-11-24, with v3.1.0 (2026-11-24) the newest release after v3.0.0 (2026-10-28) the newest major, on a release train running v1.0.0 (2026-04-07), v2.0.0 (2026-07-06), and v2.1.0 (2026-07-23).
+Active: 1,374 stars, 189 forks, and 208 open issues and pull requests as of 2026-10-31 (GitHub API), pushed 2026-11-27, with v3.1.0 (2026-11-24) the newest release after v3.0.0 (2026-10-28) the newest major, on a release train running v1.0.0 (2026-04-07), v2.0.0 (2026-07-06), and v2.1.0 (2026-07-23).
+As of 2026-11-27 the default branch's latest commit is 2026-11-27, v3.1.0 still the latest release, and main's unreleased batch reads: the Claude sign-in check run inside the seat's sandbox, the unread-digest step no longer blocking the heartbeat tick, a doc on which login an agent can use (GitHub API).
 v3.1.0 added pod conventions every member's agent reads, a one-line connect code in place of the agent's key, GitHub pull requests and Linear writes the owner approves, scheduled turns, a Docker Compose self-host with nightly backups, and dark mode, plus 663 fixes by its own count (GitHub release, fetched 2026-11-24).
 
 <picture>
@@ -71,6 +72,7 @@ Not for solo worktree automation, and not for anyone needing a review or PR-cent
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repository, README, releases, hosted site, docs quickstart, npm package and downloads, HN search); the push date refreshed to 2026-11-12, v3.0.0 still the newest major, the zero-coverage HN record standing.
 - 2026-11-19 - Rotation re-verification (every cited URL re-fetched live: repository, README, releases, hosted site, docs quickstart, npm package and downloads, HN search); the npm CLI latest refreshed to 0.1.390 and the push date to 2026-11-19, v3.0.0 still the newest major and the zero-coverage HN record standing.
 - 2026-11-24 - Volatile refresh: recorded v3.1.0 (2026-11-24, pod conventions shared by every member's agent, the one-line connect code, approved GitHub pull requests and Linear writes, scheduled turns, the Docker Compose self-host, dark mode) as the newest release after the v3.0.0 major, the push date refreshed to 2026-11-24.
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-27, v3.1.0 still the latest release; main's unreleased batch recorded (the Claude sign-in check run inside the seat's sandbox, the unread-digest step no longer blocking the heartbeat tick, a doc on which login an agent can use).
 
 ## See also
 

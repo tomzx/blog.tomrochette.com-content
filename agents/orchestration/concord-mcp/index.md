@@ -1,7 +1,7 @@
 ---
 title: Concord MCP
 created: 2026-11-06
-updated: 2026-11-24
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, llm=glm-5.4, orchestration, coordination, mcp, messaging, multi-agent]
 readability: 3
@@ -30,6 +30,7 @@ The project states explicitly that it is not an orchestrator, code reviewer, hos
 The repository was created 2026-07-14 and surfaced on Show HN on 2026-08-27, where it stood at 9 points and 4 comments as of 2026-11-06.
 It reached 978 stars as of 2026-11-06.
 The latest release, v0.24.0, shipped 2026-11-23 (an MCP SDK bump to 1.32.2 with only the set resumption options passed, a retry on the relay monitor's workspace check, and overlap detection matching non-Latin module, domain, and risk-tag labels), after v0.23.0 (2026-11-17), v0.22.0 (2026-11-11), v0.21.1 (2026-11-11), and v0.21.0 (2026-11-09), and FollowAgents counted thirteen releases between its review snapshot of 2026-10-04 and its writing.
+As of 2026-11-27 the latest release is v0.25.0 (2026-11-25, the CLI loading only the invoked command so hooks stay off Ink and the MCP SDK, with dependency bumps), per the GitHub releases feed.
 The npm package (@concord-ai/concord-mcp, 37 published versions, latest 0.24.0) drew 3,985 downloads in the trailing month (2026-10-25 to 2026-11-24), against the 4,366 of the prior window, the 5,184 the 2026-11-06 verification recorded, the 4,131 before that, and the 3,618 before that.
 Independent coverage exists: Hlido's public-surface review scored it 70/100 on 2026-09-11 and FollowAgents' source review scored it 67/100 on 2026-10-04.
 The hosted cloud tier Hlido recorded as unshipped in September reached early access by 2026-11-06.
@@ -87,6 +88,7 @@ Not for single-agent workflows, for teams needing enforced isolation rather than
 - 2026-11-14 - Rotation re-verification: every cited URL re-fetched and live; v0.22.0 stands as the latest release, the npm trailing-month downloads refreshed to 4,131 (2026-10-14 to 2026-11-13).
 - 2026-11-19 - Volatile refresh: recorded v0.23.0 (2026-11-17) as the latest release, npm at 0.23.0 with 36 versions and trailing-month downloads of 4,366 (2026-10-20 to 2026-11-19).
 - 2026-11-24 - Volatile refresh: recorded v0.24.0 (2026-11-23, MCP SDK 1.32.2, the relay monitor retry, non-Latin overlap labels) as the latest release, npm at 0.24.0 with 37 versions and trailing-month downloads of 3,985 (2026-10-25 to 2026-11-24); the cloud and Team prices re-fetched unchanged.
+- 2026-11-27 - Rotation re-verified, every cited URL re-fetched and live (the api.github.com citations behind the shared unauthenticated limit and re-read through `gh api`); recorded v0.25.0 (2026-11-25, the load-only-the-invoked-command CLI change) as the latest release.
 
 ## See also
 

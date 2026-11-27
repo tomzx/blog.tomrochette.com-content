@@ -78,6 +78,7 @@ Running many coding agents at once: worktree managers, kanbans, terminal multipl
 - [oh-my-codex](oh-my-codex/index.md) - the MIT workflow layer for OpenAI Codex CLI adding skills, hooks, HUD, memory, and worktree team execution.
 - [Omnara](omnara/index.md) - the YC S25 Apache-2.0 Go control plane where agents are YAML and supervision happens from dashboard, phone, CLI, API, or Slack.
 - [Open Swarm](open-swarm/index.md) - the former AGPL-3.0 local mission-control canvas, pivoted in October 2026 to a proprietary Open Swarm Inc. consumer assistant with the repo left as a signed-builds shell, kept as the category's second pivot record.
+- [OpenComputer](opencomputer/index.md) - Digger's Apache-2.0 Slack-driven cloud coding agent that runs Claude Code, Codex, or OpenCode on one always-on VM per team in your cloud account or the vendor's, self-hosted on 2026-11-13 with a 131-point self-submitted Show HN and vendor-only benchmarks, 1,827 stars as of 2026-11-27.
 - [OpenHarness](openharness/index.md) - the free MIT native command center from hardware vendor Autonomous, running fourteen existing coding CLIs in tmux panes and worktrees across end-to-end-encrypted linked machines, with phone, web, and desk-device clients.
 - [OpenRig](openrig/index.md) - the Apache-2.0 local control plane turning Claude Code, Codex, and Pi sessions into a YAML-defined, snapshot-restorable team.
 - [Orca](orca/index.md) - the MIT agent development environment running 27+ coding agents in worktrees across desktop, mobile, and remote.
@@ -203,3 +204,4 @@ Its members are compared on shared rows in the [Orchestration Feature Matrix](or
 - 2026-11-24 - Added Cloudroom.
 - 2026-11-24 - Added Kortix.
 - 2026-11-25 - Added RocketRide.
+- 2026-11-27 - Added OpenComputer.

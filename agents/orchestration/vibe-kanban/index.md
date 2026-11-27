@@ -1,7 +1,7 @@
 ---
 title: Vibe Kanban
 created: 2026-08-24
-updated: 2026-11-25
+updated: 2026-11-27
 status: finished
 tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3, llm=glm-5.3-flash, llm=glm-5.4, orchestration, kanban, git-worktrees, open-source]
 readability: 3
@@ -25,6 +25,7 @@ Self-hosting via Docker was documented for teams.
 ## Status
 
 Company dead, project alive.
+As of 2026-11-27 the default branch's latest commit is 2026-11-27, v0.1.46 still the latest release, and main's unreleased batch reads: relay signatures required by default, a security fix for GHSA-rrhv-24wq-6q5j, Cargo.lock kept in the self-host Docker build (GitHub API).
 Bloop shut down on 2026-04-10, with CEO Louis Knight-Webb writing that "the vast majority are free users and we couldn't find a business model".
 Remote services (kanban issues, comments, projects, organisations) were removed 30 days after the announcement; refunds were issued and subscriptions terminated.
 **Local workspaces keep working, and the unpaid community has kept moving: as of 2026-11-12 the default branch shows twenty-one community commits since the shutdown, the first a 2026-09-15 Copilot version bump by a former Bloop maintainer, then nine more between 2026-09-16 and 2026-09-19 with substantive fixes (server startup routing, session-replay performance, swapped stream labels, an IME Enter fix, pnpm audit fixes, and a SECURITY.md), two on 2026-10-26 (a local CI script that runs GitHub workflow checks without Actions), one on 2026-10-28 after a thirty-seven-day silence, one on 2026-11-03 (a Cargo.lock version update for the relay-tunnel and remote crates, merged through PR #3490), and six more between 2026-11-09 and 2026-11-12, the project's first post-shutdown feature work rather than fixes: installing and running agents from the ACP registry, setting model, reasoning, mode, and permissions over ACP, a Copilot package pulled from the registry, and Copilot sign-in restored, most of it from a second active contributor.
@@ -87,6 +88,7 @@ My disagreeable claim: bloop's failure is evidence that this orchestration layer
 - 2026-11-12 - Recorded the community train accelerating: six commits between 2026-11-09 and 2026-11-12 carrying the orphaned project's first post-shutdown feature work (ACP-registry agent installs, model and permissions over ACP, Copilot sign-in), the count refreshed to twenty-one, npm still 0.1.44.
 - 2026-11-16 - Recorded v0.1.46 (2026-11-15) as the project's first post-shutdown stable release, published from the timestamped tag with the ACP feature work bundled and three first-time contributors, npm's latest moved to 0.1.46; the definition line, the nobody-is-paid caution, and the npm reference updated with it.
 - 2026-11-25 - Rotation re-verified, every cited URL re-fetched and live; no factual drift, v0.1.46 still the first and only post-shutdown stable release and the default branch quiet since 2026-11-15.
+- 2026-11-27 - Volatile refresh: the push date refreshed to 2026-11-27, v0.1.46 still the latest release; main's unreleased batch recorded (relay signatures required by default, a security fix for GHSA-rrhv-24wq-6q5j, Cargo.lock kept in the self-host Docker build).
 
 ## See also
 

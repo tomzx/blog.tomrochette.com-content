@@ -1,9 +1,9 @@
 ---
 title: herdr
 created: 2026-10-10
-updated: 2026-11-19
+updated: 2026-11-27
 status: finished
-tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.3-flash, orchestration, terminal-multiplexer, rust, agent-automation, session-persistence]
+tags: [research-note, agent-curated, fully-ai-generated, llm=glm-5.4, llm=glm-5.3-flash, orchestration, terminal-multiplexer, rust, agent-automation, session-persistence]
 readability: 3
 audience_notes: >
   Engineers deciding where coding agents physically run, who already live in tmux or a terminal and know the harness CLIs.
@@ -26,6 +26,8 @@ It is made by Can Celik, who built it solo, joined Y Combinator's F26 batch in A
 Active and heavily adopted: 44,094 stars and 3,485 forks as of 2026-10-15 on a repository created 2026-03-27 under the herdrdev org after public life as ogulcancelik/herdr, with the default branch's latest commit on 2026-10-29 (GitHub API, as of 2026-11-08; the repository-level pushes on 2026-11-03 and 2026-11-07 landed on side branches).
 Latest stable release v0.9.5 (2026-10-14) with a daily preview train.
 The ecosystem around it is small but real: the vendor's separate engine repository herdr-core ("terminals for coding agents", 193 stars as of 2026-10-31, Apache-2.0) carries the runtime beside the main repo, and herduck, a 10-star terminal app self-describing as derived from Herdr, appeared 2026-10-29 as the first third-party port attempt.
+The record above stops at the TUI repository, and the product has since become two: the Herdr TUI (this note's subject, its releases ending at v0.9.5 of 2026-10-14 with the default branch's latest commit on 2026-11-19) and the Herdr desktop app, a separate program built on the herdr-core runtime (`hc`) that shares no agents with the TUI (herdr.dev, fetched 2026-11-27).
+The app's changelog runs 0.1.12 (2026-11-02, agents on macOS running fully apart from the app), 0.1.16 (2026-11-14, a warning when a remote Linux machine would stop agents on disconnect, needing herdr-core 0.1.21), 0.1.17 (2026-11-22), and 0.1.18 (2026-11-24, closing a tab no longer ending agents started with `--outlive-parent`), with SSH machines, Tailscale included, joined through `hc machine add` and their agents kept running while the laptop sleeps; herdrdev/herdr-app shows 3,567 stars as of 2026-11-27 and herdr-core was pushed 2026-11-26 (GitHub API).
 The Hacker News footprint is the category's largest: a 404-point, 178-comment thread in July 2026, a 281-point YC announcement thread in August, and a 166-point launch thread in June.
 
 <picture>
@@ -61,6 +63,8 @@ No paid tier as of 2026-10-10; the company is seed-funded and hiring, with no pu
 - [hcom](../hcom/index.md): pure message fabric over the terminals you already run, herdr included; choose hcom to keep your multiplexer, herdr to replace it.
 - [Conductor](../conductor/index.md): the macOS session manager whose product is the diff review flow; choose Conductor for PR ergonomics, herdr when terminal-native scale and remote machines matter more.
 
+- Sheprd (sheprd-labs/sheprd, 2,385 stars and 219 forks as of 2026-11-27, Apache-2.0, created 2026-09-20): an unaffiliated native Rust and GPUI desktop client that runs Herdr 1, Herdr 2 (herdr-core), or tmux beneath workspaces, worktrees, review, and SSH and cloud machines on macOS, Linux, and Windows; choose it when you want herdr's daemon under a desktop app instead of a terminal client, with zero independent coverage recorded so far.
+
 ## Bottom line
 
 **Recommended for terminal-first engineers running many agents across local and SSH machines who want agents to automate each other rather than click through another dashboard.**
@@ -75,6 +79,7 @@ My disagreeable claim: **herdr is the first column in this category whose produc
 - 2026-11-04 - Status refresh: the default-branch record corrected (latest commit 2026-10-29, the 2026-11-03 repository push side-branch only) per the pushed-at divergence rule; v0.9.5 still the latest stable.
 - 2026-11-12 - Rotation re-verification (every cited URL re-fetched live: repo API, README, releases, both docs pages, both blog posts, HN search, herdr-core, herduck); no factual drift, the default branch's latest commit still 2026-10-29 with later repository pushes on side branches, v0.9.5 still the latest stable.
 - 2026-11-19 - Rotation re-verification: every cited URL re-fetched live (repo API, README, releases, both docs pages, both blog posts, the HN search and thread, herdr-core, herduck); no drift, v0.9.5 (2026-10-14) still the latest release and the default branch quiet since 2026-10-29.
+- 2026-11-27 - Recorded the two-product split the note was missing (the Herdr desktop app on herdr-core, its changelog at 0.1.18 of 2026-11-24 with agents outliving the app since 0.1.12 and remote machines through `hc machine add`; herdr-app at 3,567 stars as of 2026-11-27) beside the TUI's v0.9.5 release record, and folded Sheprd (sheprd-labs/sheprd, 2,385 stars as of 2026-11-27), the unaffiliated Rust and GPUI desktop client, into Compared to on the derivatives-and-clients ruling.
 
 ## See also
 
@@ -96,4 +101,10 @@ My disagreeable claim: **herdr is the first column in this category whose produc
 - https://hn.algolia.com/api/v1/search?query=herdr&tags=story&hitsPerPage=10 - the HN footprint, queried 2026-10-10
 - https://github.com/herdrdev/herdr-core - the vendor's engine repository beside the main repo
 - https://github.com/wenhanweime/herduck - the derived third-party terminal app
+- https://api.github.com/repos/herdrdev/herdr-app - the vendor's desktop app repository, description and push date, as of 2026-11-27
+- https://api.github.com/repos/herdrdev/herdr-core - the engine repository's push date, as of 2026-11-27
+- https://github.com/herdrdev/herdr-app/blob/master/CHANGELOG.md - the desktop app's changelog: 0.1.12 (2026-11-02) through 0.1.18 (2026-11-24), fetched 2026-11-27
+- https://herdr.dev/core/ - the herdr-core runtime page: terminals that outlive the window, agents starting agents, and every machine over SSH, fetched 2026-11-27
+- https://herdr.dev/ - the homepage naming the TUI and the desktop app as separate programs that share no agents, fetched 2026-11-27
+- https://github.com/sheprd-labs/sheprd - the unaffiliated desktop client: backends, platforms, and the unaffiliated notice, as of 2026-11-27
 - https://news.ycombinator.com/item?id=48756578 - the 404-point thread, the "exactly like tmux" critique, and the zmx counterpoint
